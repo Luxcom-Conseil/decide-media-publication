@@ -102,7 +102,8 @@ def main(argv: list[str] | None = None) -> int:
         os.environ.setdefault("DRIVE_FOLDER_ID", cfg["lots"]["dossier_drive"])
         traiter_lots(cfg, SourceDrive.depuis_env(), publieurs, JournalLots(), log, simulation=simulation)
         _resume_github(log)
-        return 0
+        # point de contrôle : un vrai échec rend le passage « rouge » sur GitHub, qui prévient alors par e-mail
+        return 1 if any("❌" in ligne for ligne in log.lignes) else 0
 
     source = SourceLocale(a.source_locale) if a.source_locale else SourceDrive.depuis_env()
     redacteur = None
