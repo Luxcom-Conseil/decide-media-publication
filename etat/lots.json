@@ -489,7 +489,7 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-18",
-      "maj": "2026-10-21T12:44:07+00:00",
+      "maj": "2026-10-21T16:10:01+00:00",
       "statut": "echec",
       "tentatives": 0,
       "titre": "Décryptage — PME : financer une filière, pas seulement une machine"
@@ -709,10 +709,14 @@
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-18",
-      "maj": "2026-10-21T12:58:00+00:00",
-      "statut": "echec",
+      "maj": "2026-10-21T16:11:34+00:00",
+      "piste": "principale",
+      "post_id": "6ad8e4360fd9d0bd395c7d40",
+      "programme_pour": "2026-10-22T10:15:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Comores : Innov’Lab distingué pour son engagement durable"
+      "titre": "Comores : Innov’Lab distingué pour son engagement durable",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-10-18",
