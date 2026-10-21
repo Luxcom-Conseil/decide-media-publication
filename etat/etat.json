@@ -1,0 +1,28 @@
+{
+  "test-facebook\\09 Guide lavage mains": {
+    "nom": "09 Guide lavage mains",
+    "reseaux": {
+      "facebook": {
+        "date": "2026-10-20T23:29:21+00:00",
+        "erreur": "",
+        "statut": "ok",
+        "tentatives": 1,
+        "url": "https://www.facebook.com/1407561435764031_122111904069499704"
+      }
+    },
+    "termine": true
+  },
+  "test-facebook\\Test 1": {
+    "nom": "Test 1",
+    "reseaux": {
+      "facebook": {
+        "date": "2026-10-20T23:23:35+00:00",
+        "erreur": "",
+        "statut": "ok",
+        "tentatives": 1,
+        "url": "https://www.facebook.com/1407561435764031_122111902917499704"
+      }
+    },
+    "termine": true
+  }
+}

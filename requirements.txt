@@ -1,0 +1,11 @@
+anthropic>=0.75
+google-api-python-client>=2.150
+google-auth>=2.35
+google-auth-oauthlib>=1.2
+requests>=2.32
+requests-oauthlib>=2.0
+PyYAML>=6.0
+Pillow>=11.0
+tzdata>=2024.1
+pytest>=8.0
+imageio-ffmpeg>=0.5

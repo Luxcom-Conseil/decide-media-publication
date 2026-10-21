@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+client_secret*.json
+service-account*.json
+cle-google.json
+decide-publication-*.json
+*.tmp
+.pytest_cache/
+exemple/**/_rapport.txt
+
+# essais locaux, jamais publiés
+test-facebook/
+*.log
+*.mp4
+
+# etat/ : seuls les journaux de publication vont dans le dépôt
+etat/*
+!etat/lots.json
+!etat/etat.json
+
+# modèle vidéo
+motion/node_modules/
+motion/public/_lots/
+motion/out/

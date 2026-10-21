@@ -1,0 +1,77 @@
+name: Publication DECIDE MEDIA
+
+on:
+  schedule:
+    # Toutes les 15 minutes (heure UTC ; l'agent gère les fuseaux). GitHub peut décaler de quelques minutes.
+    # Facebook et YouTube sont déposés dans leur planificateur ; LinkedIn est publié par l'agent à l'heure prévue.
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+    inputs:
+      commande:
+        description: "lots = passage normal ; verifier = tester les accès sans rien publier"
+        type: choice
+        options: [lots, verifier]
+        default: lots
+      simulation:
+        description: "Simulation (ne publie rien, affiche ce qui serait fait)"
+        type: boolean
+        default: false
+
+# Jamais deux passages en même temps (sinon risque de double publication)
+concurrency:
+  group: publication-reseaux
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # pour enregistrer etat/ (journal des publications) dans le dépôt
+
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180   # fabrication de 6 Shorts (~5 min chacun) comprise
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: motion/package-lock.json
+
+      - name: Polices des Shorts (émojis)
+        run: sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null
+
+      - run: pip install -r requirements.txt
+
+      - name: Lancer l'agent
+        env:
+          SIMULATION: ${{ inputs.simulation }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          LINKEDIN_ORG_ID: ${{ secrets.LINKEDIN_ORG_ID }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_REFRESH_TOKEN: ${{ secrets.LINKEDIN_REFRESH_TOKEN }}
+          LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+          LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: python -m agent ${{ inputs.commande || 'lots' }}
+
+      - name: Enregistrer la mémoire de l'agent
+        if: always()
+        run: |
+          git config user.name "agent-publication"
+          git config user.email "agent-publication@users.noreply.github.com"
+          git add etat/
+          if ! git diff --staged --quiet; then
+            git commit -m "etat: passage du $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase --autostash
+            git push
+          fi

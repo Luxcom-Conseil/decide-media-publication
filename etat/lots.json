@@ -1,0 +1,169 @@
+{
+  "decide-media-2026-10-15-01": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:16:49+00:00",
+      "post_id": "122111913345499704",
+      "programme_pour": "2026-10-21T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cameroun : une campagne contre la rougeole et la rubéole",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "youtube": {
+      "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\nzess\\\\AppData\\\\Local\\\\Temp\\\\tmp_ox_3pmb\\\\short.mp4'",
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T08:28:13+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Cameroun : une campagne contre la rougeole et la rubéole"
+    }
+  },
+  "decide-media-2026-10-15-02": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:16:59+00:00",
+      "post_id": "122111913447499704",
+      "programme_pour": "2026-10-21T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cameroun : le PADFA II cherche un consultant",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "youtube": {
+      "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\nzess\\\\AppData\\\\Local\\\\Temp\\\\tmpof3nutjc\\\\short.mp4'",
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T08:33:06+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Cameroun : le PADFA II cherche un consultant"
+    }
+  },
+  "decide-media-2026-10-15-03": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:17:09+00:00",
+      "post_id": "122111913609499704",
+      "programme_pour": "2026-10-21T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cameroun : les résultats définitifs de l’ENAM sont disponibles",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "youtube": {
+      "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\nzess\\\\AppData\\\\Local\\\\Temp\\\\tmpvilim58c\\\\short.mp4'",
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T08:37:32+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Cameroun : les résultats définitifs de l’ENAM sont disponibles"
+    }
+  },
+  "decide-media-2026-10-15-04": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:17:18+00:00",
+      "post_id": "122111913705499704",
+      "programme_pour": "2026-10-21T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Guide pratique — Yaoundé : préparer la Semaine des emplois verts",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "youtube": {
+      "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\nzess\\\\AppData\\\\Local\\\\Temp\\\\tmpk5p0yy9m\\\\short.mp4'",
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T08:41:27+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Guide pratique — Yaoundé : préparer la Semaine des emplois verts"
+    }
+  },
+  "decide-media-2026-10-15-05": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:17:32+00:00",
+      "post_id": "122111913927499704",
+      "programme_pour": "2026-10-21T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Guide pratique — Solar Connect Africa : préparer sa visite",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "youtube": {
+      "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\nzess\\\\AppData\\\\Local\\\\Temp\\\\tmpr54u39qg\\\\short.mp4'",
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T08:45:45+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Guide pratique — Solar Connect Africa : préparer sa visite"
+    }
+  },
+  "decide-media-2026-10-15-06": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:17:43+00:00",
+      "post_id": "122111914053499704",
+      "programme_pour": "2026-10-21T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "CEMAC : la BDEAC lève 222 millions de dollars",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "youtube": {
+      "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\nzess\\\\AppData\\\\Local\\\\Temp\\\\tmptdbh3iee\\\\short.mp4'",
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T08:50:03+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "CEMAC : la BDEAC lève 222 millions de dollars"
+    }
+  },
+  "decide-media-2026-10-15-07": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:17:53+00:00",
+      "post_id": "122111914275499704",
+      "programme_pour": "2026-10-21T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Football africain : la CAF relève ses subventions",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-15-08": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:18:04+00:00",
+      "post_id": "122111914563499704",
+      "programme_pour": "2026-10-21T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Sénégal : le plan cancer sera actualisé avant fin décembre",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-15-09": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:18:06+00:00",
+      "post_id": "1407561435764031_122111904069499704",
+      "programme_pour": "2026-10-20T23:29:16+0000",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Guide pratique — Mains propres : les gestes qui comptent"
+    }
+  },
+  "decide-media-2026-10-15-10": {
+    "facebook": {
+      "lot": "2026-10-15",
+      "maj": "2026-10-21T00:18:16+00:00",
+      "post_id": "122111914713499704",
+      "programme_pour": "2026-10-21T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Côte d’Ivoire : la célébration des femmes rurales à Bouna reportée",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  }
+}

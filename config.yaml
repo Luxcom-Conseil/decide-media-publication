@@ -1,0 +1,55 @@
+# Réglages de l'agent (rien de secret ici : les clés vont dans les « Secrets » GitHub).
+
+fuseau_horaire: Europe/Paris
+
+# Si l'agent n'a pas pu tourner (panne GitHub…), un post en retard de plus de N heures n'est PAS publié.
+retard_max_heures: 24
+
+# Nombre d'essais par réseau avant d'abandonner (un essai par passage, toutes les 2 heures).
+tentatives_max: 3
+
+# Noms acceptés pour le fichier qui décrit la publication (un Google Doc nommé « post » marche aussi).
+fichiers_post: [post.txt, post.md, post]
+
+ia:
+  active: true            # Claude adapte le texte commun à chaque réseau (sauf si une version [reseau] est écrite à la main)
+  modele: claude-opus-5-5
+  effort: medium          # low = plus rapide/moins cher, high = plus soigné
+  marque: "Luxcom Conseil"
+  ton: >-
+    Professionnel, chaleureux et concret. Expert en référencement local, proche des TPE/PME
+    d'Angoulême et de Charente. Pas de superlatifs creux.
+  consignes: ""           # ex. : "Toujours terminer par un appel à l'action vers le site."
+  hashtags_max:
+    facebook: 3
+    instagram: 8
+    linkedin: 4
+    x: 2
+
+meta:
+  version_api: v25.0      # version de l'API Graph Facebook/Instagram
+
+linkedin:
+  version_api: "202608"   # format AAAAMM ; LinkedIn garde chaque version environ 1 an
+
+youtube:
+  visibilite_defaut: public   # public | unlisted | private
+  categorie: "22"             # 22 = Personnes et blogs, 27 = Éducation, 28 = Science et technologie
+  categorie_lots: "25"        # Shorts DECIDE MEDIA : 25 = Actualités et politique
+  modele_valide: true         # modèle motion design validé par Stéphane le 21/10/2026 (sans voix, mélodie 10 %)
+
+# Lots quotidiens DECIDE MEDIA (commande : python -m agent lots)
+lots:
+  dossier_drive: 1T_1QBeDbS1GIgHY2UsZsNnN3wJu5Cmwa   # « Article DECIDE MEDIA - Quotidien »
+  reseaux: [facebook, linkedin, youtube]   # un réseau sans accès configuré est simplement ignoré
+  max_par_lot:
+    youtube: 6                 # quota YouTube : ~6 envois/jour (10 000 unités, 1 600 par vidéo)
+  # YouTube : un Short (visuel + voix off française) est fabriqué pour chaque article puis programmé
+  # dans le planificateur YouTube (publication automatique, PC éteint ou non).
+  # Facebook : dépôt dans son planificateur. LinkedIn (pas de planificateur dans l'API) : l'agent publie
+  # lui-même à l'heure prévue, à 15 min près ; le PC doit donc être allumé aux heures de publication.
+  jours_max: 0                 # 0 = seulement le lot du jour
+  fuseau_creneaux: Africa/Douala   # heures de publication pensées pour le lectorat camerounais
+  creneaux: ["07:00", "08:30", "10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00", "20:30"]
+  marge_minutes: 20
+  ecart_minimum_minutes: 45

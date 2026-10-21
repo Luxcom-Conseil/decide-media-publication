@@ -1,0 +1,19 @@
+{
+  "rubrique": "GUIDE PRATIQUE",
+  "pays": "SANTÉ PUBLIQUE",
+  "titre": ["Mains propres :", "les gestes", "qui comptent"],
+  "image": "lavage.png",
+  "accroche": "Des mains rincées vite ne sont pas forcément bien lavées.",
+  "etapes": [
+    { "titre": "Mouiller", "detail": "Eau froide ou chaude : les deux conviennent.", "icone": "💧" },
+    { "titre": "Savonner", "detail": "Le savon fait le vrai travail.", "icone": "🧼" },
+    { "titre": "Frotter partout", "detail": "Dos des mains, entre les doigts, sous les ongles.", "icone": "🖐️" },
+    { "titre": "Rincer & sécher", "detail": "Avec un linge propre ou une serviette jetable.", "icone": "🧻" }
+  ],
+  "chiffre": { "valeur": 20, "unite": "secondes", "legende": "de frottement, au minimum", "compte_a_rebours": true },
+  "liste": { "titre": "Les moments clés", "items": ["Avant les repas", "Après les toilettes", "Mains visiblement sales"] },
+  "conclusion": "Le savon et le bon geste comptent plus que la température.",
+  "source": "Source : UNICEF · Ne remplace pas un avis médical",
+  "musique": "fond-sonore.mp3",
+  "volume_musique": 0.18
+}
