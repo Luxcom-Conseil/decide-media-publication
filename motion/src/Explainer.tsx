@@ -13,13 +13,14 @@ const BLANC = "#FFFFFF";
 const ORANGE = "#F26A1B";
 const GRIS = "#A7A7B0";
 
-const D = { intro: 2.2, titre: 4.0, visuel: 5.5, contexte: 5.0, etape: 4.6, chiffre: 5.5, liste: 5.5, conclusion: 5.0, outro: 3.5 };
+const D = { couverture: 0.6, intro: 2.2, titre: 4.0, visuel: 5.5, contexte: 5.0, etape: 4.6, chiffre: 5.5, liste: 5.5, conclusion: 5.0, outro: 3.5 };
 const duree = (s: Script, k: keyof typeof D) => Math.round(((s.durees && s.durees[k]) ?? D[k]) * FPS);
 
 function plan(s: Script) {
   const scenes: { id: string; debut: number; longueur: number; i?: number }[] = [];
   let t = 0;
   const ajoute = (id: string, longueur: number, i?: number) => { scenes.push({ id, debut: t, longueur, i }); t += longueur; };
+  ajoute("couverture", duree(s, "couverture"));  // 1re image = aperçu sur X, LinkedIn, Facebook
   ajoute("intro", duree(s, "intro"));
   ajoute("titre", duree(s, "titre"));
   ajoute("visuel", duree(s, "visuel"));
@@ -132,6 +133,15 @@ const Souligne: React.FC<{ delai?: number; largeur?: number }> = ({ delai = 0, l
 };
 
 // ---------------------------------------------------------------- scènes
+
+// Couverture fixe, sans animation : c'est la première image de la vidéo, que les réseaux prennent comme aperçu.
+// Le visuel du producteur est déjà une affiche complète (logo, rubrique, titre) : on le montre tel quel, en grand.
+const Couverture: React.FC<{ s: Script }> = ({ s }) => (
+  <AbsoluteFill style={{ backgroundColor: NOIR, justifyContent: "center", alignItems: "center" }}>
+    <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 50%, ${ORANGE}2E 0%, transparent 60%)` }} />
+    <Img src={staticFile(s.image)} style={{ width: 1080, height: 1080, objectFit: "cover", boxShadow: "0 30px 80px rgba(0,0,0,0.6)" }} />
+  </AbsoluteFill>
+);
 
 const Intro: React.FC<{ s: Script }> = ({ s }) => {
   const f = useCurrentFrame();
@@ -327,6 +337,7 @@ export const Explainer: React.FC<Script> = (s) => {
       {scenes.map((sc, k) => (
         <Sequence key={k} from={sc.debut} durationInFrames={sc.longueur}>
           <Sortie longueur={sc.longueur}>
+            {sc.id === "couverture" && <Couverture s={s} />}
             {sc.id === "intro" && <Intro s={s} />}
             {sc.id === "titre" && <Titre s={s} />}
             {sc.id === "visuel" && <Visuel s={s} longueur={sc.longueur} />}
@@ -344,7 +355,7 @@ export const Explainer: React.FC<Script> = (s) => {
         <AbsoluteFill style={{ pointerEvents: "none" }}>
           <div style={{ position: "absolute", top: 0, left: 0, height: 12, width: `${(f / total) * 100}%`, background: ORANGE }} />
           <div style={{ position: "absolute", top: 70, right: 70, background: "rgba(0,0,0,0.55)", padding: "14px 24px", borderRadius: 10 }}><Logo /></div>
-          {f > duree(s, "intro") && <Bandeau s={s} />}
+          {f > duree(s, "couverture") + duree(s, "intro") && <Bandeau s={s} />}
           <div style={{ position: "absolute", bottom: 90, left: 80, fontFamily, fontWeight: 600, fontSize: 30, color: GRIS, letterSpacing: 2 }}>
             {s.audio ? "Illustrations générées · voix de synthèse" : "Illustrations générées"}
           </div>
