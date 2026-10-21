@@ -189,6 +189,16 @@
       "titre": "Analyse — L’argent promis ne bâtit pas les routes",
       "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
     },
+    "facebook_shorts": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T11:22:27+00:00",
+      "post_id": "1568713278620472",
+      "programme_pour": "2026-10-21T13:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — L’argent promis ne bâtit pas les routes",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
     "linkedin_buffer": {
       "lot": "2026-10-18",
       "maj": "2026-10-21T11:09:54+00:00",
@@ -226,6 +236,16 @@
       "maj": "2026-10-21T10:54:23+00:00",
       "post_id": "122112056385499704",
       "programme_pour": "2026-10-22T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Formés, d’accord. Et les clients ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T11:24:04+00:00",
+      "post_id": "2634169237005450",
+      "programme_pour": "2026-10-21T15:15:00+01:00",
       "statut": "programme",
       "tentatives": 0,
       "titre": "Analyse — Formés, d’accord. Et les clients ?",
@@ -273,6 +293,16 @@
       "titre": "Analyse — L’artisanat veut une voix qui compte",
       "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
     },
+    "facebook_shorts": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T11:25:43+00:00",
+      "post_id": "3016852625320335",
+      "programme_pour": "2026-10-22T07:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — L’artisanat veut une voix qui compte",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
     "linkedin_buffer": {
       "lot": "2026-10-18",
       "maj": "2026-10-21T11:09:56+00:00",
@@ -310,6 +340,16 @@
       "maj": "2026-10-21T10:54:34+00:00",
       "post_id": "122112056613499704",
       "programme_pour": "2026-10-22T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Entreprenant : un statut à comprendre, des modalités à vérifier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T11:27:33+00:00",
+      "post_id": "1092136406917158",
+      "programme_pour": "2026-10-22T09:15:00+01:00",
       "statut": "programme",
       "tentatives": 0,
       "titre": "Décryptage — Entreprenant : un statut à comprendre, des modalités à vérifier",
@@ -357,6 +397,16 @@
       "titre": "Décryptage — PME : financer une filière, pas seulement une machine",
       "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
     },
+    "facebook_shorts": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T11:27:39+00:00",
+      "post_id": "2001949573826618",
+      "programme_pour": "2026-10-22T10:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — PME : financer une filière, pas seulement une machine",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
     "linkedin_buffer": {
       "lot": "2026-10-18",
       "maj": "2026-10-21T11:09:58+00:00",
@@ -378,9 +428,9 @@
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
     },
     "youtube": {
-      "erreur": "youtube : HTTP 400 — The user has exceeded the number of videos they may upload.",
+      "erreur": "youtube : quota du jour épuisé (≈ 6 vidéos/jour) — réessai demain",
       "lot": "2026-10-18",
-      "maj": "2026-10-21T11:02:10+00:00",
+      "maj": "2026-10-21T11:20:48+00:00",
       "statut": "echec",
       "tentatives": 0,
       "titre": "Décryptage — PME : financer une filière, pas seulement une machine"
@@ -392,6 +442,16 @@
       "maj": "2026-10-21T10:54:44+00:00",
       "post_id": "122112056823499704",
       "programme_pour": "2026-10-22T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Parcs industriels : du plan aux ateliers",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T11:29:18+00:00",
+      "post_id": "2315485615905411",
+      "programme_pour": "2026-10-22T12:15:00+01:00",
       "statut": "programme",
       "tentatives": 0,
       "titre": "Décryptage — Parcs industriels : du plan aux ateliers",
