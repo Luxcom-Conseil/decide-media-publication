@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       commande:
-        description: "lots = passage normal ; verifier = tester les accès sans rien publier"
+        description: "lots = passage normal ; verifier = tester les accès ; essai-video = fabriquer un Short sans publier"
         type: choice
-        options: [lots, verifier]
+        options: [lots, verifier, essai-video]
         default: lots
       simulation:
         description: "Simulation (ne publie rien, affiche ce qui serait fait)"
@@ -63,6 +63,13 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: python -m agent ${{ inputs.commande || 'lots' }}
+
+      - name: Short d'essai à télécharger
+        if: inputs.commande == 'essai-video'
+        uses: actions/upload-artifact@v4
+        with:
+          name: short-essai
+          path: sortie/*.mp4
 
       - name: Enregistrer la mémoire de l'agent
         if: always()

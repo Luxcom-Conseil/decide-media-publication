@@ -49,8 +49,9 @@ def main(argv: list[str] | None = None) -> int:
     _charger_env()
 
     p = argparse.ArgumentParser(prog="agent", description="Publie sur les réseaux sociaux le contenu d'un dossier Drive.")
-    p.add_argument("commande", nargs="?", default="publier", choices=["publier", "verifier", "lots"],
-                   help="publier = dossiers « post » ; lots = lots quotidiens DECIDE MEDIA ; verifier = tester les accès")
+    p.add_argument("commande", nargs="?", default="publier", choices=["publier", "verifier", "lots", "essai-video"],
+                   help="publier = dossiers « post » ; lots = lots quotidiens DECIDE MEDIA ; verifier = tester les accès ; "
+                        "essai-video = fabriquer un Short d'essai dans sortie/, sans publier")
     p.add_argument("--simulation", action="store_true", help="montre ce qui serait publié, sans rien publier")
     p.add_argument("--source-locale", metavar="DOSSIER", help="lire un dossier local au lieu de Google Drive")
     p.add_argument("--sans-ia", action="store_true", help="ne pas appeler Claude (texte d'origine)")
@@ -83,6 +84,15 @@ def main(argv: list[str] | None = None) -> int:
                 ok = False
                 log(f"❌ Google Drive : {e}")
         log("✅ IA : clé Anthropic présente" if Redacteur.disponible(cfg) else "➖ IA : désactivée ou clé absente")
+        _resume_github(log)
+        return 0 if ok else 1
+
+    if a.commande == "essai-video":
+        from pathlib import Path
+
+        from .essai_video import essai_video
+
+        ok = essai_video(SourceDrive.depuis_env(), Path("sortie"), log)
         _resume_github(log)
         return 0 if ok else 1
 
