@@ -147,6 +147,9 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
         except (LotInvalide, json.JSONDecodeError, ValueError) as e:
             log(f"• {dossier.nom} : lot non publiable — {e}")
             continue
+        for rang, a in enumerate(articles, 1):  # Buffer : les premiers articles partent en Short
+            a.setdefault("_rang", rang)
+            a.setdefault("_lot", dossier.nom)
 
         for reseau in reseaux:
             pub = publieurs[reseau]

@@ -25,3 +25,5 @@ motion/node_modules/
 motion/public/_lots/
 motion/out/
 sortie/
+cache/
+.medias/

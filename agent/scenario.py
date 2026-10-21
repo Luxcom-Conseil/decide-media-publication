@@ -185,6 +185,18 @@ def construire_scenario(article: dict, image_publique: str, musique: str | None 
     return {k: (None if v in ("", []) else v) for k, v in scenario.items()}
 
 
+CACHE_SHORTS = Path(__file__).resolve().parent.parent / "cache" / "shorts"
+
+
+def short_en_cache(article: dict, image: Path) -> Path:
+    """Short de l'article, fabriqué une seule fois par passage : YouTube, X et LinkedIn partagent le même fichier."""
+    sortie = CACHE_SHORTS / f"{article.get('id', 'article')}.mp4"
+    if not sortie.exists():
+        CACHE_SHORTS.mkdir(parents=True, exist_ok=True)
+        rendre_video(article, image, sortie)
+    return sortie
+
+
 def rendre_video(article: dict, image: Path, sortie: Path, journal=print) -> Path:
     """Fabrique le MP4 avec Remotion. Le visuel est copié dans public/_lots/ le temps du rendu."""
     if not (MOTION / "node_modules").exists():  # premier rendu sur une machine neuve

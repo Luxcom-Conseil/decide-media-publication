@@ -38,12 +38,22 @@ youtube:
   categorie_lots: "25"        # Shorts DECIDE MEDIA : 25 = Actualités et politique
   modele_valide: true         # modèle motion design validé par Stéphane le 21/10/2026 (sans voix, mélodie 10 %)
 
+# X et LinkedIn passent par Buffer (plan gratuit, compte luxcom07@gmail.com). Identifiants des chaînes : adresse
+# publish.buffer.com/channels/<id>. Les médias sont mis en ligne sur GitHub Pages (branche « medias »).
+buffer:
+  canaux:
+    x_buffer: 6ad88f9c778b240e2f78d689          # X @Decide_Media
+    linkedin_buffer: 6ad88ffd778b240e2f78dad7   # Page LinkedIn DECIDE MEDIA
+  shorts_par_lot: 4            # les 4 premiers articles en Short, les 6 suivants en visuel
+
 # Lots quotidiens DECIDE MEDIA (commande : python -m agent lots)
 lots:
   dossier_drive: 1T_1QBeDbS1GIgHY2UsZsNnN3wJu5Cmwa   # « Article DECIDE MEDIA - Quotidien »
-  reseaux: [facebook, linkedin, youtube]   # un réseau sans accès configuré est simplement ignoré
+  reseaux: [facebook, youtube, x_buffer, linkedin_buffer]   # un réseau sans accès configuré est simplement ignoré
   max_par_lot:
     youtube: 6                 # quota YouTube : ~6 envois/jour (10 000 unités, 1 600 par vidéo)
+    x_buffer: 10               # Buffer gratuit : 10 posts en file d'attente par chaîne
+    linkedin_buffer: 10
   # YouTube : un Short (visuel + voix off française) est fabriqué pour chaque article puis programmé
   # dans le planificateur YouTube (publication automatique, PC éteint ou non).
   # Facebook : dépôt dans son planificateur. LinkedIn (pas de planificateur dans l'API) : l'agent publie

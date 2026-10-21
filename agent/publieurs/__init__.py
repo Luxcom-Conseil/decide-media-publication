@@ -1,4 +1,5 @@
 from .base import ErreurDefinitive, ErreurPublication, Publieur, Resultat
+from .buffer import BufferLinkedIn, BufferX
 from .linkedin import LinkedIn
 from .meta import Facebook, Instagram
 from .x import X
@@ -10,6 +11,8 @@ TOUS: dict[str, type[Publieur]] = {
     "linkedin": LinkedIn,
     "x": X,
     "youtube": YouTube,
+    "x_buffer": BufferX,
+    "linkedin_buffer": BufferLinkedIn,
 }
 
 __all__ = ["TOUS", "ErreurDefinitive", "ErreurPublication", "Publieur", "Resultat"]
