@@ -199,12 +199,12 @@ def rendre_video(article: dict, image: Path, sortie: Path, journal=print) -> Pat
         props = Path(d) / "props.json"
         props.write_text(json.dumps(scenario, ensure_ascii=False), encoding="utf-8")
         commande = ["npx.cmd" if shutil.which("npx.cmd") else "npx", "remotion", "render", "src/index.ts", "DecideShort",
-                    str(sortie), f"--props={props}", "--codec=h264", "--crf=20", "--log=error"]
+                    str(sortie.resolve()), f"--props={props}", "--codec=h264", "--crf=20", "--log=warn"]
         r = subprocess.run(commande, cwd=MOTION, capture_output=True, text=True, timeout=1800)
     try:
         (dossier / nom_image).unlink()
     except OSError:
         pass
     if r.returncode != 0 or not sortie.exists():
-        raise RuntimeError(f"rendu Remotion impossible : {(r.stderr or r.stdout)[-600:]}")
+        raise RuntimeError(f"rendu Remotion impossible (code {r.returncode}) : {(r.stderr + r.stdout)[-1500:]}")
     return sortie
