@@ -118,6 +118,64 @@ def test_lot_non_ready_ignore(tmp_path):
     assert not fb.programmes
 
 
+class DriveMultiLots:
+    """Lot du jour (optionnel) + lots de rattrapage marqués backfill."""
+
+    def __init__(self, jours, backfill):
+        self.lots = {}
+        for jour in jours:
+            m = manifeste(date=jour, backfill=jour in backfill)
+            for a in m["articles"]:
+                a["id"] = a["id"].replace("2026-10-21", jour)
+                a["platform_texts"]["facebook"] += f" [{jour}]"
+                a["post_text"] += f" [{jour}]"
+            self.lots[jour] = m
+
+    def lister_dossiers(self):
+        return [Dossier(j, j) for j in self.lots]
+
+    def lister_fichiers(self, d):
+        return [Fichier(d.id, "manifest.json", "")]
+
+    def lire_brut(self, f):
+        return json.dumps(self.lots[f.id]).encode()
+
+    def telecharger_id(self, fid, nom, dest: Path):
+        p = dest / nom
+        p.write_bytes(b"png")
+        return p
+
+
+def test_rattrapage_un_lot_par_jour(tmp_path):
+    from datetime import timedelta
+    cfg = {**CFG, "youtube": {**CFG["youtube"], "modele_valide": True},
+           "lots": {**CFG["lots"], "reseaux": ["facebook", "youtube"], "max_par_lot": {},
+                           "rattrapage": {"actif": True, "depuis": "2026-10-16", "reseaux_avec_lot_du_jour": ["facebook"]},
+                           "creneaux_par_reseau": {"facebook_rattrapage": ["07:20", "08:50", "10:20", "11:50", "13:20",
+                                                                           "14:50", "16:20", "17:50", "19:20", "20:50"]}}}
+    j = Journal(tmp_path / "l.json")
+    fb, yt = FauxFacebook(), FauxFacebook()
+    drive = DriveMultiLots(["2026-10-18", "2026-10-19", "2026-10-21"], backfill={"2026-10-18", "2026-10-19"})
+    traiter_lots(cfg, drive, {"facebook": fb, "youtube": yt}, j, print, maintenant=MATIN)
+    # lot du jour partout + rattrapage du 18 sur Facebook seulement, créneaux intercalés
+    assert len(yt.programmes) == 10 and all("[2026-10-21]" in t for t, _ in yt.programmes)
+    rattr = [q for t, q in fb.programmes if "[2026-10-18]" in t]
+    assert len(fb.programmes) == 20 and len(rattr) == 10
+    assert rattr[0].astimezone(__import__("zoneinfo").ZoneInfo("Africa/Douala")).strftime("%H:%M") == "07:20"
+    # passage de rattrapage le même jour : pas de second lot de rattrapage
+    traiter_lots(cfg, drive, {"facebook": fb, "youtube": yt}, j, print, maintenant=MATIN + timedelta(hours=4))
+    assert not any("[2026-10-19]" in t for t, _ in fb.programmes)
+    # lendemain sans lot du jour : le plus ancien inachevé (18, pas encore sur YouTube) passe sur tous les réseaux
+    del drive.lots["2026-10-21"]
+    traiter_lots(cfg, drive, {"facebook": fb, "youtube": yt}, j, print, maintenant=MATIN + timedelta(days=1))
+    assert sum("[2026-10-18]" in t for t, _ in yt.programmes) == 10
+    assert sum("[2026-10-18]" in t for t, _ in fb.programmes) == 10  # pas de doublon Facebook
+    # surlendemain : le 19, partout, aux créneaux normaux
+    traiter_lots(cfg, drive, {"facebook": fb, "youtube": yt}, j, print, maintenant=MATIN + timedelta(days=2))
+    assert sum("[2026-10-19]" in t for t, _ in fb.programmes) == 10
+    assert sum("[2026-10-19]" in t for t, _ in yt.programmes) == 10
+
+
 class FauxLinkedIn:
     """Pas de méthode programmer() : l'agent publie lui-même à l'heure."""
 

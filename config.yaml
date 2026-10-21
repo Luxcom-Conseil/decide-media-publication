@@ -61,10 +61,18 @@ lots:
   # Facebook : dépôt dans son planificateur. LinkedIn (pas de planificateur dans l'API) : l'agent publie
   # lui-même à l'heure prévue, à 15 min près ; le PC doit donc être allumé aux heures de publication.
   jours_max: 0                 # 0 = seulement le lot du jour
-  rattrapages: ["2026-10-18"]  # lots anciens à publier aussi (rattrapage demandé par Stéphane le 21/10)
+  # Rattrapage (règle validée par Stéphane le 21/10) : un lot « backfill » par jour, du plus ancien au plus récent.
+  # Avec un lot du jour : rattrapage sur Facebook seulement (10 visuels, créneaux intercalés).
+  # Sans lot du jour : le rattrapage passe sur tous les réseaux, aux créneaux normaux.
+  rattrapage:
+    actif: true
+    depuis: "2026-10-16"
+    reseaux_avec_lot_du_jour: [facebook]
   fuseau_creneaux: Africa/Douala   # heures de publication pensées pour le lectorat camerounais
   creneaux: ["07:00", "08:30", "10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00", "20:30"]
   creneaux_par_reseau:         # Shorts Facebook : 45 min après le visuel du même article
     facebook_shorts: ["07:45", "09:15", "10:45", "12:15", "13:45", "15:15"]
+    # visuels du lot de rattrapage : 20 min après chaque visuel du lot du jour
+    facebook_rattrapage: ["07:20", "08:50", "10:20", "11:50", "13:20", "14:50", "16:20", "17:50", "19:20", "20:50"]
   marge_minutes: 20
   ecart_minimum_minutes: 45

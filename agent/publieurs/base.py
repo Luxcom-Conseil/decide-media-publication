@@ -15,6 +15,10 @@ class ErreurPublication(Exception):
     """Échec ponctuel : l'agent réessaiera au prochain passage."""
 
 
+class ErreurLimite(ErreurPublication):
+    """Limite du réseau atteinte (ex. envois YouTube du jour) : on s'arrête là pour ce réseau, sans compter d'essai."""
+
+
 class ErreurDefinitive(ErreurPublication):
     """Échec qui ne se réglera pas tout seul (ex. Instagram sans visuel) : pas de nouvel essai."""
 

@@ -18,6 +18,8 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from .publieurs.base import ErreurLimite
+
 RE_LOT = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 DATE_CONTRAT_12 = date(2026, 10, 12)
 
@@ -104,11 +106,13 @@ class Journal:
         e.update(valeurs)
         e["maj"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
-    def horaires(self, reseau: str, jour: date, tz: str) -> list[datetime]:
+    def horaires(self, reseau: str, jour: date, tz: str, piste: str = "principale") -> list[datetime]:
+        """Horaires déjà pris sur ce réseau à partir de `jour`, pour une piste (principale ou rattrapage Facebook)."""
         out = []
         for art in self.d.values():
-            q = art.get(reseau, {}).get("programme_pour")
-            if q:
+            e = art.get(reseau, {})
+            q = e.get("programme_pour")
+            if q and e.get("piste", "principale") == piste:
                 dt = datetime.fromisoformat(q)
                 if dt.astimezone(ZoneInfo(tz)).date() >= jour:
                     out.append(dt)
@@ -135,36 +139,78 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
         log("Aucun réseau configuré pour les lots.")
         return
 
-    prevus: dict[str, list[datetime]] = {r: [] for r in reseaux}  # horaires attribués pendant ce passage
-    dossiers = [d for d in drive.lister_dossiers() if RE_LOT.match(d.nom)]
-    rattrapages = {str(x) for x in c.get("rattrapages") or []}  # lots anciens à publier quand même
-    a_voir = [d for d in dossiers if plus_ancien <= date.fromisoformat(d.nom) <= aujourdhui or d.nom in rattrapages]
-    log(f"{len(dossiers)} lot(s) dans le Drive ; examinés : {', '.join(d.nom for d in a_voir) or 'aucun'}"
-        + ("  [SIMULATION]" if simulation else ""))
+    prevus: dict[tuple, list[datetime]] = {}  # horaires attribués pendant ce passage, par (réseau, piste)
+    dossiers = sorted((d for d in drive.lister_dossiers() if RE_LOT.match(d.nom)), key=lambda d: d.nom)
+    log(f"{len(dossiers)} lot(s) dans le Drive" + ("  [SIMULATION]" if simulation else ""))
 
-    for dossier in a_voir:
+    def lire(dossier, bavard: bool = True):
         fichiers = {f.nom: f for f in drive.lister_fichiers(dossier)}
         if "manifest.json" not in fichiers:
-            log(f"• {dossier.nom} : manifest.json pas encore déposé — en attente")
-            continue
+            if bavard:
+                log(f"• {dossier.nom} : manifest.json pas encore déposé — en attente")
+            return None, None
         try:
             manifeste = json.loads(drive.lire_brut(fichiers["manifest.json"]).decode("utf-8-sig"))
             articles = controler_manifeste(manifeste, dossier.nom)
         except (LotInvalide, json.JSONDecodeError, ValueError) as e:
-            log(f"• {dossier.nom} : lot non publiable — {e}")
-            continue
+            if bavard:
+                log(f"• {dossier.nom} : lot non publiable — {e}")
+            return None, None
         for rang, a in enumerate(articles, 1):  # Buffer : les premiers articles partent en Short
             a.setdefault("_rang", rang)
             a.setdefault("_lot", dossier.nom)
+        return manifeste, articles
 
-        for reseau in reseaux:
+    # 1. le lot du jour, en priorité, sur tous les réseaux
+    travaux = []  # (dossier, articles, réseaux, piste)
+    du_jour = False
+    for d in dossiers:
+        if plus_ancien <= date.fromisoformat(d.nom) <= aujourdhui:
+            _, articles = lire(d)
+            if articles:
+                travaux.append((d, articles, reseaux, "principale"))
+                du_jour = du_jour or d.nom == aujourdhui.isoformat()
+
+    # 2. un lot de rattrapage par jour (lots marqués « backfill » par le producteur), du plus ancien au plus récent :
+    #    s'il y a un lot du jour, le rattrapage ne passe que sur Facebook (visuels, créneaux intercalés) ;
+    #    sinon il prend la place du lot du jour sur tous les réseaux.
+    r = c.get("rattrapage") or {}
+    if r.get("actif"):
+        piste = "rattrapage" if du_jour else "principale"
+        portee = [x for x in (r.get("reseaux_avec_lot_du_jour") or []) if x in reseaux] if du_jour else reseaux
+        memo = journal.d.setdefault("_rattrapage", {})
+        choisi = None
+        if memo.get("jour") == aujourdhui.isoformat():  # déjà choisi aujourd'hui : on le termine, on n'en prend pas d'autre
+            choisi = next((d for d in dossiers if d.nom == memo.get("lot")), None)
+            manif, articles = lire(choisi, bavard=False) if choisi else (None, None)
+        else:
+            for d in dossiers:
+                if date.fromisoformat(d.nom) >= plus_ancien or d.nom < str(r.get("depuis", "")):
+                    continue
+                manif, articles = lire(d, bavard=False)
+                if not articles or not manif.get("backfill"):
+                    continue
+                if _incomplet(cfg, journal, articles, portee):
+                    choisi = d
+                    break
+        if choisi and articles:
+            if not simulation:
+                memo.update(jour=aujourdhui.isoformat(), lot=choisi.nom)
+                journal.sauver()
+            log(f"• rattrapage du jour : lot {choisi.nom} → {', '.join(portee)}")
+            travaux.append((choisi, articles, portee, piste))
+        else:
+            log("• rattrapage : plus aucun lot en attente pour " + ", ".join(portee))
+
+    for dossier, articles, portee, piste in travaux:
+        for reseau in portee:
             pub = publieurs[reseau]
             if reseau == "youtube" and not cfg.get("youtube", {}).get("modele_valide"):
                 log(f"• {dossier.nom} → youtube : en attente de validation du modèle de Short (config.yaml)")
                 continue
             if not hasattr(pub, "programmer"):  # réseau sans planificateur accessible par l'API (LinkedIn…)
                 _differe(cfg, dossier.nom, articles, reseau, pub, drive, journal, log, simulation, maintenant,
-                         aujourdhui, prevus)
+                         aujourdhui, {reseau: prevus.setdefault((reseau, piste), [])})
                 continue
             restants = [a for a in articles if journal.get(a["id"], reseau).get("statut") != "programme"
                         and journal.get(a["id"], reseau).get("tentatives", 0) < int(cfg["tentatives_max"])]
@@ -178,9 +224,12 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
             if not restants:
                 continue
             jour_lot = date.fromisoformat(dossier.nom)
+            cle = (reseau, piste)
+            prevus.setdefault(cle, [])
             horaires = creneaux(cfg, max(jour_lot, aujourdhui), len(restants), maintenant,
-                               journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"]) + prevus[reseau], reseau)
-            prevus[reseau] += horaires
+                               journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"], piste) + prevus[cle],
+                               reseau if piste == "principale" else f"{reseau}_rattrapage")
+            prevus[cle] += horaires
             with tempfile.TemporaryDirectory() as tmp:
                 for article, quand in zip(restants, horaires):
                     texte = (article.get("platform_texts") or {}).get(reseau) or article["post_text"]
@@ -193,7 +242,7 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                         if existant:
                             journal.noter(article["id"], reseau, statut="programme", post_id=existant["id"],
                                           programme_pour=existant.get("quand") or quand.isoformat(),
-                                          titre=article["title"], lot=dossier.nom)
+                                          titre=article["title"], lot=dossier.nom, piste=piste)
                             log(f"    ↺ {article['title']} : déjà présent dans le planificateur")
                             journal.sauver()
                             continue
@@ -202,10 +251,10 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                         res = pub.programmer(texte, chemin, quand, article=article)
                         journal.noter(article["id"], reseau, statut="programme", post_id=res.id,
                                       programme_pour=quand.isoformat(), titre=article["title"], lot=dossier.nom,
-                                      url=res.url)
+                                      url=res.url, piste=piste)
                         log(f"    ✅ {heure} — {article['title']}")
                     except Exception as e:
-                        if "quota" in str(e).lower():  # YouTube : on réessaie au passage suivant, sans compter d'essai
+                        if isinstance(e, ErreurLimite):  # YouTube : on réessaie au passage suivant, sans compter d'essai
                             journal.noter(article["id"], reseau, statut="echec", erreur=str(e)[:500],
                                           titre=article["title"], lot=dossier.nom)
                             journal.sauver()
@@ -216,6 +265,18 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                                       titre=article["title"], lot=dossier.nom)
                         log(f"    ❌ {article['title']} (essai {n}) : {e}")
                     journal.sauver()
+
+
+def _incomplet(cfg: dict, journal: Journal, articles: list[dict], reseaux: list[str]) -> bool:
+    """Reste-t-il quelque chose à programmer sur ces réseaux (dans la limite du plafond et des essais) ?"""
+    for reseau in reseaux:
+        plafond = (cfg["lots"].get("max_par_lot") or {}).get(reseau)
+        attendus = articles[:int(plafond)] if plafond is not None else articles
+        for a in attendus:
+            e = journal.get(a["id"], reseau)
+            if e.get("statut") != "programme" and e.get("tentatives", 0) < int(cfg["tentatives_max"]):
+                return True
+    return False
 
 
 def _differe(cfg, nom_lot, articles, reseau, pub, drive, journal: Journal, log, simulation, maintenant,

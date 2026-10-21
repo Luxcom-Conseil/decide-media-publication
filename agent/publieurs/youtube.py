@@ -6,7 +6,7 @@ from datetime import timezone
 from pathlib import Path
 
 from ..models import Post
-from .base import ErreurDefinitive, ErreurPublication, Publieur, Resultat
+from .base import ErreurDefinitive, ErreurLimite, ErreurPublication, Publieur, Resultat
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube.readonly"]
 
@@ -109,7 +109,7 @@ class YouTube(Publieur):
                 _, reponse = req.next_chunk(num_retries=3)
         except HttpError as e:
             if "quota" in str(e).lower() or "uploadlimitexceeded" in str(e).lower() or "number of videos" in str(e):
-                raise ErreurPublication("youtube : quota du jour épuisé (≈ 6 vidéos/jour) — réessai demain") from None
+                raise ErreurLimite("youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage") from None
             raise ErreurPublication(f"youtube : HTTP {e.status_code} — {e.reason}") from None
         finally:
             fd = getattr(media, "_fd", None)  # sous Windows, le module d'envoi garde sinon le fichier ouvert
