@@ -51,10 +51,11 @@ buffer:
 lots:
   dossier_drive: 1T_1QBeDbS1GIgHY2UsZsNnN3wJu5Cmwa   # « Article DECIDE MEDIA - Quotidien »
   # facebook = 10 visuels ; facebook_shorts = les 6 premiers Shorts en vidéo sur la Page (16 posts/jour)
-  reseaux: [facebook, youtube, facebook_shorts, x_buffer, linkedin_buffer]   # sans accès configuré : ignoré
+  reseaux: [facebook, youtube, facebook_shorts, x_buffer, linkedin_buffer, tiktok_buffer]   # sans accès : ignoré
   max_par_lot:
     youtube: 10                # limite d'envoi constatée le 21/10 : 10 vidéos/jour ; au-delà, réessai le lendemain
     facebook_shorts: 6
+    tiktok_buffer: 4           # TikTok activé le 21/10 : 4 Shorts/jour pour commencer
     x_buffer: 10               # Buffer gratuit : 10 posts en file d'attente par chaîne
     linkedin_buffer: 10
   # YouTube : un Short (visuel + voix off française) est fabriqué pour chaque article puis programmé
@@ -73,6 +74,7 @@ lots:
   creneaux: ["07:00", "08:30", "10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00", "20:30"]
   creneaux_par_reseau:         # Shorts Facebook : 45 min après le visuel du même article
     facebook_shorts: ["07:45", "09:15", "10:45", "12:15", "13:45", "15:15"]
+    tiktok_buffer: ["12:00", "17:00", "19:00", "20:30"]   # TikTok : midi et soirée
     # visuels du lot de rattrapage : 20 min après chaque visuel du lot du jour
     facebook_rattrapage: ["07:20", "08:50", "10:20", "11:50", "13:20", "14:50", "16:20", "17:50", "19:20", "20:50"]
   marge_minutes: 20
