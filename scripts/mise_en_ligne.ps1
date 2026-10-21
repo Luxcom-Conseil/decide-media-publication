@@ -5,11 +5,23 @@ Set-Location (Split-Path $PSScriptRoot -Parent)
 $depot = "Luxcom-Conseil/decide-media-publication"
 
 Write-Host "`n1/4  Autorisation GitHub : une page s'ouvre, cliquez sur « Authorize »." -ForegroundColor Cyan
-gh auth refresh -h github.com -s workflow
-if ($LASTEXITCODE) { throw "Autorisation GitHub non accordée." }
+Write-Host "    Notez le code à 8 caractères affiché ci-dessous, appuyez sur Entrée, puis collez-le dans la page GitHub."
+gh auth status *> $null
+if ($LASTEXITCODE) {
+    gh auth login -h github.com -p https -s workflow -w
+    if ($LASTEXITCODE) { throw "Autorisation GitHub non accordée." }
+}
+gh auth setup-git
 
 Write-Host "`n2/4  Envoi des accès (Facebook, YouTube) dans le coffre du dépôt..." -ForegroundColor Cyan
-gh secret set -f .env -R $depot
+# une clé à la fois, valeur passée par l'entrée standard : rien n'apparaît à l'écran, même en cas d'erreur
+foreach ($ligne in Get-Content .env -Encoding UTF8) {
+    $ligne = $ligne.Trim([char]0xFEFF).Trim()
+    if (-not $ligne -or $ligne.StartsWith("#") -or -not $ligne.Contains("=")) { continue }
+    $nom, $valeur = $ligne.Split("=", 2)
+    $valeur.Trim().Trim('"').Trim("'") | gh secret set $nom.Trim() -R $depot *> $null
+    if ($LASTEXITCODE) { Write-Host "    ⚠ $($nom.Trim()) non enregistré" } else { Write-Host "    ✓ $($nom.Trim())" }
+}
 $cle = Get-ChildItem "$env:USERPROFILE\Downloads\decide-publication-*.json" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
 if (-not $cle) { throw "Clé Google Drive (decide-publication-….json) introuvable dans Téléchargements." }
 Get-Content $cle.FullName -Raw | gh secret set GOOGLE_SERVICE_ACCOUNT_JSON -R $depot
