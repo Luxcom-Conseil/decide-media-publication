@@ -44,6 +44,7 @@ buffer:
   canaux:
     x_buffer: 6ad88f9c778b240e2f78d689          # X @Decide_Media
     linkedin_buffer: 6ad88ffd778b240e2f78dad7   # Page LinkedIn DECIDE MEDIA
+    tiktok_buffer: 6ad8aefe778b240e2f7a1ffd     # TikTok @decide_media (Shorts seulement, mention IA)
   shorts_par_lot: 4            # les 4 premiers articles en Short, les 6 suivants en visuel
 
 # Lots quotidiens DECIDE MEDIA (commande : python -m agent lots)

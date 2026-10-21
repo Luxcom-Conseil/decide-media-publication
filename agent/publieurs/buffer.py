@@ -62,12 +62,18 @@ class _Buffer(Publieur):
     def texte(self, article: dict, texte: str) -> str:
         return texte
 
+    def en_video(self, article: dict) -> bool:
+        return article.get("_rang", 99) <= int(self.cfg["buffer"].get("shorts_par_lot", 0))
+
+    def metadonnees(self) -> dict | None:
+        return None
+
     def programmer(self, texte: str, image: Path, quand, article: dict | None = None) -> Resultat:
         from ..hebergement import mettre_en_ligne
         from ..scenario import short_en_cache
 
         article = article or {}
-        en_video = article.get("_rang", 99) <= int(self.cfg["buffer"].get("shorts_par_lot", 0))
+        en_video = self.en_video(article)
         media = short_en_cache(article, image) if en_video else image
         nom = f"{article.get('id', 'article')}{media.suffix.lower()}"
         if nom not in _HEBERGES:
@@ -77,17 +83,20 @@ class _Buffer(Publieur):
             jour = date.fromisoformat(article.get("_lot") or quand.date().isoformat())
             _HEBERGES[nom] = mettre_en_ligne([copie], jour)[nom]
         asset = {"video": {"url": _HEBERGES[nom]}} if en_video else {"image": {"url": _HEBERGES[nom]}}
+        entree = {
+            "channelId": self._canal(), "text": self.texte(article, texte), "schedulingType": "automatic",
+            "mode": "customScheduled", "assets": [asset],
+            "dueAt": quand.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
+        }
+        if self.metadonnees():
+            entree["metadata"] = self.metadonnees()
         d = requete("""
             mutation($input: CreatePostInput!) {
               createPost(input: $input) {
                 ... on PostActionSuccess { post { id } }
                 ... on MutationError { message }
               }
-            }""", {"input": {
-            "channelId": self._canal(), "text": self.texte(article, texte), "schedulingType": "automatic",
-            "mode": "customScheduled", "assets": [asset],
-            "dueAt": quand.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
-        }})["createPost"]
+            }""", {"input": entree})["createPost"]
         if not d.get("post"):
             raise ErreurPublication(f"buffer {self.canal} : {d.get('message', 'refus sans motif')}")
         return Resultat(f"https://publish.buffer.com/channels/{self._canal()}/schedule", d["post"]["id"])
@@ -101,6 +110,32 @@ class BufferX(_Buffer):
 
     def texte(self, article: dict, texte: str) -> str:
         return (article.get("platform_texts") or {}).get("x") or texte_x(article)
+
+
+def legende_courte(article: dict, limite: int = 300) -> str:
+    """Titre, phrases d'accroche (jusqu'à `limite` caractères) et hashtags : légende d'un Short."""
+    corps = re.sub(r"\s+", " ", article.get("body") or "").strip()
+    accroche = ""
+    for phrase in re.split(r"(?<=[.!?])\s", corps):
+        if len(f"{accroche} {phrase}") > limite:
+            break
+        accroche = f"{accroche} {phrase}".strip()
+    tags = " ".join(h if h.startswith("#") else f"#{h}" for h in article.get("hashtags") or [])
+    return "\n\n".join(x for x in (article.get("title", "").strip(), accroche, tags) if x)
+
+
+class BufferTikTok(_Buffer):
+    """TikTok : uniquement les Shorts, avec la mention « contenu généré par IA » exigée par TikTok."""
+    nom = canal = "tiktok_buffer"
+
+    def en_video(self, article: dict) -> bool:
+        return True
+
+    def metadonnees(self) -> dict:
+        return {"tiktok": {"isAiGenerated": True}}
+
+    def texte(self, article: dict, texte: str) -> str:
+        return legende_courte(article)
 
 
 class BufferLinkedIn(_Buffer):
