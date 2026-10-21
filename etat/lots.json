@@ -1,4 +1,8 @@
 {
+  "_rattrapage": {
+    "jour": "2026-10-21",
+    "lot": "2026-10-18"
+  },
   "decide-media-2026-10-15-01": {
     "facebook": {
       "lot": "2026-10-15",
@@ -209,6 +213,17 @@
       "titre": "Analyse — L’argent promis ne bâtit pas les routes",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
     },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:35:58+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b1aefe0d0b602288b8c8",
+      "programme_pour": "2026-10-21T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — L’argent promis ne bâtit pas les routes",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
     "x_buffer": {
       "lot": "2026-10-18",
       "maj": "2026-10-21T11:04:21+00:00",
@@ -260,6 +275,17 @@
       "tentatives": 0,
       "titre": "Analyse — Formés, d’accord. Et les clients ?",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:37:36+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b210dd065d6158971779",
+      "programme_pour": "2026-10-21T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Formés, d’accord. Et les clients ?",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-10-18",
@@ -313,6 +339,17 @@
       "titre": "Analyse — L’artisanat veut une voix qui compte",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
     },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:39:14+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b272dd065d6158973165",
+      "programme_pour": "2026-10-21T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — L’artisanat veut une voix qui compte",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
     "x_buffer": {
       "lot": "2026-10-18",
       "maj": "2026-10-21T11:05:41+00:00",
@@ -364,6 +401,17 @@
       "tentatives": 0,
       "titre": "Décryptage — Entreprenant : un statut à comprendre, des modalités à vérifier",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:41:05+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b2e088865f7e6d2ed2cc",
+      "programme_pour": "2026-10-22T12:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Entreprenant : un statut à comprendre, des modalités à vérifier",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-10-18",
@@ -428,9 +476,9 @@
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
     },
     "youtube": {
-      "erreur": "youtube : quota du jour épuisé (≈ 6 vidéos/jour) — réessai demain",
+      "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-18",
-      "maj": "2026-10-21T11:20:48+00:00",
+      "maj": "2026-10-21T12:34:17+00:00",
       "statut": "echec",
       "tentatives": 0,
       "titre": "Décryptage — PME : financer une filière, pas seulement une machine"
