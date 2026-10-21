@@ -59,6 +59,7 @@ lots:
   # Facebook : dépôt dans son planificateur. LinkedIn (pas de planificateur dans l'API) : l'agent publie
   # lui-même à l'heure prévue, à 15 min près ; le PC doit donc être allumé aux heures de publication.
   jours_max: 0                 # 0 = seulement le lot du jour
+  rattrapages: ["2026-10-18"]  # lots anciens à publier aussi (rattrapage demandé par Stéphane le 21/10)
   fuseau_creneaux: Africa/Douala   # heures de publication pensées pour le lectorat camerounais
   creneaux: ["07:00", "08:30", "10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00", "20:30"]
   marge_minutes: 20

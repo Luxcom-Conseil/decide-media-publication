@@ -164,7 +164,7 @@ def construire_scenario(article: dict, image_publique: str, musique: str | None 
         if nom and nom not in editeurs:
             editeurs.append(nom)
     scenario = {
-        "rubrique": RUBRIQUES.get(type_, "ACTUALITÉ"),
+        "rubrique": RUBRIQUES.get(article.get("editorial_type") or type_, "ACTUALITÉ"),  # protocole 1.3
         "pays": (article.get("country") or "").upper() or None,
         "date": _date_fr(article.get("event_date")),
         "titre": _lignes_titre(article.get("title", "")),

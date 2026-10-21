@@ -130,7 +130,9 @@ class YouTube(Publieur):
             return None
         for it in items.get("items", []):
             if it["snippet"].get("title", "").strip() == titre:
-                return {"id": it["snippet"]["resourceId"]["videoId"], "quand": it["snippet"].get("publishedAt", "")}
+                vid = it["snippet"]["resourceId"]["videoId"]
+                statut = svc.videos().list(part="status", id=vid).execute()["items"][0]["status"]
+                return {"id": vid, "quand": statut.get("publishAt", "").replace("Z", "+00:00")}  # heure de diffusion
         return None
 
 

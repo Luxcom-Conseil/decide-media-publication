@@ -36,8 +36,10 @@ def controler_manifeste(m: dict, nom_dossier: str) -> list[dict]:
         raise LotInvalide(f"date du manifeste ({m.get('date')}) ≠ nom du dossier ({nom_dossier})")
     articles = m.get("articles") or []
     if date.fromisoformat(nom_dossier) >= DATE_CONTRAT_12:
-        if m.get("protocol_version") != "1.2":
-            raise LotInvalide(f"protocol_version {m.get('protocol_version')} ≠ 1.2")
+        if m.get("protocol_version") not in ("1.2", "1.3"):  # 1.3 = 1.2 + champs de rattrapage
+            raise LotInvalide(f"protocol_version {m.get('protocol_version')} ≠ 1.2 ou 1.3")
+        if m.get("publish_allowed") is False:
+            raise LotInvalide("le producteur a marqué ce lot publish_allowed=false")
         if not (m.get("required_article_count") == m.get("article_count") == len(articles) == 10):
             raise LotInvalide(f"il faut exactement 10 articles (article_count={m.get('article_count')}, "
                               f"entrées={len(articles)})")
@@ -63,24 +65,26 @@ def controler_manifeste(m: dict, nom_dossier: str) -> list[dict]:
 # --------------------------------------------------------------------------- horaires
 
 def creneaux(cfg: dict, jour: date, nb: int, maintenant: datetime, deja: list[datetime]) -> list[datetime]:
-    """Horaires de programmation : créneaux du jour ; un créneau trop proche ou passé est décalé."""
+    """Horaires de programmation : les créneaux libres du jour, puis ceux des jours suivants.
+    Un créneau passé, ou trop proche d'un post déjà programmé, est sauté (jamais de publication en pleine nuit)."""
     c = cfg["lots"]
     tz = ZoneInfo(c["fuseau_creneaux"])
-    marge = timedelta(minutes=int(c["marge_minutes"]))
+    plancher = maintenant + timedelta(minutes=int(c["marge_minutes"]))
     ecart = timedelta(minutes=int(c["ecart_minimum_minutes"]))
-    heures = c["creneaux"]
+    pris = list(deja)
     out: list[datetime] = []
-    dernier = max(deja) if deja else None
-    for i in range(nb):
-        h, mn = map(int, heures[i % len(heures)].split(":"))
-        quand = datetime(jour.year, jour.month, jour.day, h, mn, tzinfo=tz) + timedelta(days=i // len(heures))
-        plancher = maintenant + marge
-        if dernier:
-            plancher = max(plancher, dernier + ecart)
-        if quand < plancher:
-            quand = plancher.replace(second=0, microsecond=0) + timedelta(minutes=1)
-        out.append(quand)
-        dernier = quand
+    j = jour
+    while len(out) < nb:
+        for hm in c["creneaux"]:
+            h, mn = map(int, hm.split(":"))
+            quand = datetime(j.year, j.month, j.day, h, mn, tzinfo=tz)
+            if quand < plancher or any(abs(quand - p) < ecart for p in pris):
+                continue
+            out.append(quand)
+            pris.append(quand)
+            if len(out) == nb:
+                break
+        j += timedelta(days=1)
     return out
 
 
@@ -132,7 +136,8 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
 
     prevus: dict[str, list[datetime]] = {r: [] for r in reseaux}  # horaires attribués pendant ce passage
     dossiers = [d for d in drive.lister_dossiers() if RE_LOT.match(d.nom)]
-    a_voir = [d for d in dossiers if plus_ancien <= date.fromisoformat(d.nom) <= aujourdhui]
+    rattrapages = {str(x) for x in c.get("rattrapages") or []}  # lots anciens à publier quand même
+    a_voir = [d for d in dossiers if plus_ancien <= date.fromisoformat(d.nom) <= aujourdhui or d.nom in rattrapages]
     log(f"{len(dossiers)} lot(s) dans le Drive ; examinés : {', '.join(d.nom for d in a_voir) or 'aucun'}"
         + ("  [SIMULATION]" if simulation else ""))
 
@@ -186,8 +191,10 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                         existant = pub.trouver_programme(texte)  # reprise après incident : pas de doublon
                         if existant:
                             journal.noter(article["id"], reseau, statut="programme", post_id=existant["id"],
-                                          programme_pour=existant["quand"], titre=article["title"], lot=dossier.nom)
+                                          programme_pour=existant.get("quand") or quand.isoformat(),
+                                          titre=article["title"], lot=dossier.nom)
                             log(f"    ↺ {article['title']} : déjà présent dans le planificateur")
+                            journal.sauver()
                             continue
                         img = (article.get("image_file") or {})
                         chemin = drive.telecharger_id(img["id"], img.get("name") or f"{article['id']}.png", Path(tmp))
@@ -197,6 +204,12 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                                       url=res.url)
                         log(f"    ✅ {heure} — {article['title']}")
                     except Exception as e:
+                        if "quota" in str(e).lower():  # YouTube : on réessaie au passage suivant, sans compter d'essai
+                            journal.noter(article["id"], reseau, statut="echec", erreur=str(e)[:500],
+                                          titre=article["title"], lot=dossier.nom)
+                            journal.sauver()
+                            log(f"    ⏸ {reseau} : {e}")
+                            break
                         n = journal.get(article["id"], reseau).get("tentatives", 0) + 1
                         journal.noter(article["id"], reseau, statut="echec", tentatives=n, erreur=str(e)[:500],
                                       titre=article["title"], lot=dossier.nom)

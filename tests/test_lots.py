@@ -48,6 +48,11 @@ def test_creneaux_du_jour_et_decalage():
     tard = datetime(2026, 10, 21, 12, 0, tzinfo=timezone.utc)  # 13:00 à Douala
     h = creneaux(CFG, tard.date(), 10, tard, [])
     assert h[0] > tard and all(b - a >= __import__("datetime").timedelta(minutes=45) for a, b in zip(h, h[1:]))
+    # créneaux du jour épuisés : la suite part le lendemain matin, jamais en pleine nuit
+    assert [x.strftime("%d %H:%M") for x in h[4:7]] == ["21 20:30", "22 07:00", "22 08:30"]
+    # créneaux déjà pris (lot précédent) : sautés
+    h2 = creneaux(CFG, datetime(2026, 10, 21).date(), 2, MATIN, h[:2])
+    assert not set(h2) & set(h[:2])
 
 
 class FauxDrive:
