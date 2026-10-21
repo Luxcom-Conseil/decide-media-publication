@@ -108,7 +108,7 @@ class YouTube(Publieur):
             while reponse is None:
                 _, reponse = req.next_chunk(num_retries=3)
         except HttpError as e:
-            if e.status_code == 403 and "quota" in str(e).lower():
+            if "quota" in str(e).lower() or "uploadlimitexceeded" in str(e).lower() or "number of videos" in str(e):
                 raise ErreurPublication("youtube : quota du jour épuisé (≈ 6 vidéos/jour) — réessai demain") from None
             raise ErreurPublication(f"youtube : HTTP {e.status_code} — {e.reason}") from None
         finally:
