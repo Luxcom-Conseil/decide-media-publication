@@ -55,7 +55,7 @@ lots:
   max_par_lot:
     youtube: 10                # limite d'envoi constatée le 21/10 : 10 vidéos/jour ; au-delà, réessai le lendemain
     facebook_shorts: 6
-    tiktok_buffer: 4           # TikTok activé le 21/10 : 4 Shorts/jour pour commencer
+    tiktok_buffer: 10          # TikTok : 10 Shorts/jour (demande de Stéphane le 21/10)
     x_buffer: 10               # Buffer gratuit : 10 posts en file d'attente par chaîne
     linkedin_buffer: 10
   # YouTube : un Short (visuel + voix off française) est fabriqué pour chaque article puis programmé
@@ -74,7 +74,7 @@ lots:
   creneaux: ["07:00", "08:30", "10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00", "20:30"]
   creneaux_par_reseau:         # Shorts Facebook : 45 min après le visuel du même article
     facebook_shorts: ["07:45", "09:15", "10:45", "12:15", "13:45", "15:15"]
-    tiktok_buffer: ["12:00", "17:00", "19:00", "20:30"]   # TikTok : midi et soirée
+    tiktok_buffer: ["07:15", "08:45", "10:15", "11:45", "13:15", "14:45", "16:15", "17:45", "19:15", "20:45"]
     # visuels du lot de rattrapage : 20 min après chaque visuel du lot du jour
     facebook_rattrapage: ["07:20", "08:50", "10:20", "11:50", "13:20", "14:50", "16:20", "17:50", "19:20", "20:50"]
   marge_minutes: 20

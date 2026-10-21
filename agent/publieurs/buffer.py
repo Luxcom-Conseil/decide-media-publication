@@ -14,7 +14,7 @@ from pathlib import Path
 import requests
 
 from ..models import Post
-from .base import TIMEOUT, ErreurDefinitive, ErreurPublication, Publieur, Resultat, controler
+from .base import TIMEOUT, ErreurDefinitive, ErreurLimite, ErreurPublication, Publieur, Resultat, controler
 from .x import couper_pour_x
 
 API = "https://api.buffer.com"
@@ -98,7 +98,10 @@ class _Buffer(Publieur):
               }
             }""", {"input": entree})["createPost"]
         if not d.get("post"):
-            raise ErreurPublication(f"buffer {self.canal} : {d.get('message', 'refus sans motif')}")
+            message = d.get("message", "refus sans motif")
+            if re.search(r"limit|queue|quota", message, re.I):  # file d'attente gratuite pleine (10 posts) : on attend
+                raise ErreurLimite(f"buffer {self.canal} : {message}")
+            raise ErreurPublication(f"buffer {self.canal} : {message}")
         return Resultat(f"https://publish.buffer.com/channels/{self._canal()}/schedule", d["post"]["id"])
 
     def trouver_programme(self, texte: str) -> dict | None:
