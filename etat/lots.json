@@ -465,6 +465,17 @@
       "titre": "Décryptage — PME : financer une filière, pas seulement une machine",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
     },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:45:34+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b3ee0e8e6c40c7ceab01",
+      "programme_pour": "2026-10-21T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — PME : financer une filière, pas seulement une machine",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
     "x_buffer": {
       "lot": "2026-10-18",
       "maj": "2026-10-21T11:06:52+00:00",
@@ -478,7 +489,7 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-18",
-      "maj": "2026-10-21T12:34:17+00:00",
+      "maj": "2026-10-21T12:44:07+00:00",
       "statut": "echec",
       "tentatives": 0,
       "titre": "Décryptage — PME : financer une filière, pas seulement une machine"
@@ -514,6 +525,17 @@
       "tentatives": 0,
       "titre": "Décryptage — Parcs industriels : du plan aux ateliers",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:47:56+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b47c0e8e6c40c7cec445",
+      "programme_pour": "2026-10-21T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Parcs industriels : du plan aux ateliers",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-10-18",
@@ -555,6 +577,17 @@
       "titre": "Côte d’Ivoire–Italie : CDP Business Matching lancé à Abidjan",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
     },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:50:17+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b5090e8e6c40c7cef5da",
+      "programme_pour": "2026-10-21T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Côte d’Ivoire–Italie : CDP Business Matching lancé à Abidjan",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
     "x_buffer": {
       "lot": "2026-10-18",
       "maj": "2026-10-21T11:08:11+00:00",
@@ -586,6 +619,17 @@
       "tentatives": 0,
       "titre": "Bénin : à Kandi, la place des enseignants au centre des échanges",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:52:40+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b59788865f7e6d2f8b25",
+      "programme_pour": "2026-10-22T07:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bénin : à Kandi, la place des enseignants au centre des échanges",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-10-18",
@@ -619,6 +663,17 @@
       "titre": "Dakar : une formation pour mieux piloter les petites entreprises",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
     },
+    "tiktok_buffer": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:55:10+00:00",
+      "piste": "principale",
+      "post_id": "6ad8b62e88865f7e6d2fb8e6",
+      "programme_pour": "2026-10-22T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : une formation pour mieux piloter les petites entreprises",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
     "x_buffer": {
       "lot": "2026-10-18",
       "maj": "2026-10-21T11:09:20+00:00",
@@ -650,6 +705,14 @@
       "tentatives": 0,
       "titre": "Comores : Innov’Lab distingué pour son engagement durable",
       "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-10-18",
+      "maj": "2026-10-21T12:58:00+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Comores : Innov’Lab distingué pour son engagement durable"
     },
     "x_buffer": {
       "lot": "2026-10-18",
