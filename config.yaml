@@ -49,9 +49,11 @@ buffer:
 # Lots quotidiens DECIDE MEDIA (commande : python -m agent lots)
 lots:
   dossier_drive: 1T_1QBeDbS1GIgHY2UsZsNnN3wJu5Cmwa   # « Article DECIDE MEDIA - Quotidien »
-  reseaux: [facebook, youtube, x_buffer, linkedin_buffer]   # un réseau sans accès configuré est simplement ignoré
+  # facebook = 10 visuels ; facebook_shorts = les 6 premiers Shorts en vidéo sur la Page (16 posts/jour)
+  reseaux: [facebook, youtube, facebook_shorts, x_buffer, linkedin_buffer]   # sans accès configuré : ignoré
   max_par_lot:
-    youtube: 6                 # quota YouTube : ~6 envois/jour (10 000 unités, 1 600 par vidéo)
+    youtube: 10                # limite d'envoi constatée le 21/10 : 10 vidéos/jour ; au-delà, réessai le lendemain
+    facebook_shorts: 6
     x_buffer: 10               # Buffer gratuit : 10 posts en file d'attente par chaîne
     linkedin_buffer: 10
   # YouTube : un Short (visuel + voix off française) est fabriqué pour chaque article puis programmé
@@ -62,5 +64,7 @@ lots:
   rattrapages: ["2026-10-18"]  # lots anciens à publier aussi (rattrapage demandé par Stéphane le 21/10)
   fuseau_creneaux: Africa/Douala   # heures de publication pensées pour le lectorat camerounais
   creneaux: ["07:00", "08:30", "10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00", "20:30"]
+  creneaux_par_reseau:         # Shorts Facebook : 45 min après le visuel du même article
+    facebook_shorts: ["07:45", "09:15", "10:45", "12:15", "13:45", "15:15"]
   marge_minutes: 20
   ecart_minimum_minutes: 45

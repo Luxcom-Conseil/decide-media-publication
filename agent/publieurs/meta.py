@@ -95,6 +95,33 @@ class Facebook(_Meta):
         return None
 
 
+class FacebookShorts(Facebook):
+    """Les Shorts du lot, en plus des visuels : vidéo programmée sur la Page, avec une légende courte
+    (le texte complet est déjà sur le post visuel du même article)."""
+    nom = "facebook_shorts"
+
+    def programmer(self, texte: str, image: Path, quand, article: dict | None = None) -> Resultat:
+        from ..scenario import _phrases, short_en_cache
+
+        article = article or {}
+        video = short_en_cache(article, image)
+        accroche = ""
+        for p in _phrases(article.get("body") or ""):
+            if len(f"{accroche} {p}") > 300:
+                break
+            accroche = f"{accroche} {p}".strip()
+        tags = " ".join(h if h.startswith("#") else f"#{h}" for h in article.get("hashtags") or [])
+        legende = "\n\n".join(x for x in (article.get("title", ""), accroche, tags) if x)
+        with video.open("rb") as f:
+            r = self._post(f"{self.page}/videos", "programmation vidéo", base=f"https://graph-video.facebook.com/{self.v}",
+                           files={"source": (video.name, f, "video/mp4")}, title=article.get("title", "")[:250],
+                           description=legende, published="false", scheduled_publish_time=str(int(quand.timestamp())))
+        return Resultat(f"https://business.facebook.com/latest/posts/scheduled_posts?asset_id={self.page}", r["id"])
+
+    def trouver_programme(self, texte: str) -> dict | None:
+        return None  # même texte que le post visuel : le journal (etat/lots.json) évite les doublons
+
+
 def preparer_image_instagram(src: Path, dossier: Path) -> Path:
     """Instagram n'accepte que du JPEG, avec un ratio entre 4:5 et 1.91:1 → on convertit et on ajoute des marges blanches."""
     im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")

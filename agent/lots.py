@@ -64,7 +64,8 @@ def controler_manifeste(m: dict, nom_dossier: str) -> list[dict]:
 
 # --------------------------------------------------------------------------- horaires
 
-def creneaux(cfg: dict, jour: date, nb: int, maintenant: datetime, deja: list[datetime]) -> list[datetime]:
+def creneaux(cfg: dict, jour: date, nb: int, maintenant: datetime, deja: list[datetime],
+             reseau: str | None = None) -> list[datetime]:
     """Horaires de programmation : les créneaux libres du jour, puis ceux des jours suivants.
     Un créneau passé, ou trop proche d'un post déjà programmé, est sauté (jamais de publication en pleine nuit)."""
     c = cfg["lots"]
@@ -75,7 +76,7 @@ def creneaux(cfg: dict, jour: date, nb: int, maintenant: datetime, deja: list[da
     out: list[datetime] = []
     j = jour
     while len(out) < nb:
-        for hm in c["creneaux"]:
+        for hm in (c.get("creneaux_par_reseau") or {}).get(reseau) or c["creneaux"]:
             h, mn = map(int, hm.split(":"))
             quand = datetime(j.year, j.month, j.day, h, mn, tzinfo=tz)
             if quand < plancher or any(abs(quand - p) < ecart for p in pris):
@@ -178,7 +179,7 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                 continue
             jour_lot = date.fromisoformat(dossier.nom)
             horaires = creneaux(cfg, max(jour_lot, aujourdhui), len(restants), maintenant,
-                               journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"]) + prevus[reseau])
+                               journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"]) + prevus[reseau], reseau)
             prevus[reseau] += horaires
             with tempfile.TemporaryDirectory() as tmp:
                 for article, quand in zip(restants, horaires):
