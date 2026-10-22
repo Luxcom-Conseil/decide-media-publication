@@ -1407,10 +1407,14 @@
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-22",
-      "maj": "2026-10-22T10:11:16+00:00",
-      "statut": "echec",
+      "maj": "2026-10-22T16:05:51+00:00",
+      "piste": "principale",
+      "post_id": "6ada345feb1348c17aca0eb0",
+      "programme_pour": "2026-10-23T10:15:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Dakar : des agents réquisitionnés pour maintenir les services"
+      "titre": "Dakar : des agents réquisitionnés pour maintenir les services",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-10-22",
@@ -1450,18 +1454,37 @@
     "linkedin_buffer": {
       "erreur": "buffer linkedin_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-22",
-      "maj": "2026-10-22T10:07:29+00:00",
-      "statut": "echec",
+      "maj": "2026-10-22T16:04:28+00:00",
+      "piste": "principale",
+      "post_id": "6ada340ce8cca8cdcc5de3fb",
+      "programme_pour": "2026-10-23T11:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Dakar : trois jours pour parler logement"
+      "titre": "Dakar : trois jours pour parler logement",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T16:07:40+00:00",
+      "piste": "principale",
+      "post_id": "6ada34cbeb1348c17aca2ae2",
+      "programme_pour": "2026-10-23T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : trois jours pour parler logement",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "erreur": "buffer x_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-22",
-      "maj": "2026-10-22T10:07:19+00:00",
-      "statut": "echec",
+      "maj": "2026-10-22T16:04:27+00:00",
+      "piste": "principale",
+      "post_id": "6ada340bf09f431dcae8abca",
+      "programme_pour": "2026-10-23T11:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Dakar : trois jours pour parler logement"
+      "titre": "Dakar : trois jours pour parler logement",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
     },
     "youtube": {
       "lot": "2026-10-22",
