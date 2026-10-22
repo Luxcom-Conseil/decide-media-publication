@@ -1,7 +1,7 @@
 {
   "_rattrapage": {
-    "jour": "2026-10-21",
-    "lot": "2026-10-18"
+    "jour": "2026-10-22",
+    "lot": "2026-10-19"
   },
   "decide-media-2026-10-15-01": {
     "facebook": {
@@ -727,6 +727,752 @@
       "tentatives": 0,
       "titre": "Comores : Innov’Lab distingué pour son engagement durable",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-19-01": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:11:22+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112437733499704",
+      "programme_pour": "2026-10-22T11:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Agriculture : former pour quel emploi ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-02": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:11:27+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112437799499704",
+      "programme_pour": "2026-10-22T13:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Fonio : une machine doit aussi tourner",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-03": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:11:33+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112438567499704",
+      "programme_pour": "2026-10-22T14:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Un forum, oui. Des contrats, surtout.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-04": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:11:40+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112438897499704",
+      "programme_pour": "2026-10-22T16:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Les prix baissent. Pour qui ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-05": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:11:45+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112439071499704",
+      "programme_pour": "2026-10-22T17:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Une marque se bâtit. Elle se protège aussi.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-06": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:11:51+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112439173499704",
+      "programme_pour": "2026-10-22T19:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Dakar–Praia : le commerce veut sa liaison",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-07": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:11:57+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112439317499704",
+      "programme_pour": "2026-10-22T20:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Black Travel Summit : le Bénin choisi pour l’édition 2027",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-08": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:12:03+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112439401499704",
+      "programme_pour": "2026-10-23T07:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Anjouan : 25 artisans retenus pour préparer l’apprentissage encadré",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-09": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:12:09+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112439473499704",
+      "programme_pour": "2026-10-23T08:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Guinée : lancement de la sixième édition du concours des jeunes entrepreneurs",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-19-10": {
+    "facebook": {
+      "lot": "2026-10-19",
+      "maj": "2026-10-22T10:12:14+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112439707499704",
+      "programme_pour": "2026-10-23T10:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Djibouti : le BTP se dote d’une fédération professionnelle",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-22-01": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:40:35+00:00",
+      "piste": "principale",
+      "post_id": "122112428325499704",
+      "programme_pour": "2026-10-22T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — AgriConnect : le test du panier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:59:06+00:00",
+      "piste": "principale",
+      "post_id": "1264595472519103",
+      "programme_pour": "2026-10-22T13:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — AgriConnect : le test du panier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:21+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e059d7259dd11b16c168",
+      "programme_pour": "2026-10-22T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — AgriConnect : le test du panier",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:30+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e0611ddfbd0b4bdbf433",
+      "programme_pour": "2026-10-22T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — AgriConnect : le test du panier",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:00:21+00:00",
+      "piste": "principale",
+      "post_id": "6ad9deb5194287d6a1f0e64c",
+      "programme_pour": "2026-10-22T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — AgriConnect : le test du panier",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:43:27+00:00",
+      "piste": "principale",
+      "post_id": "u13xUZVO7f8",
+      "programme_pour": "2026-10-22T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — AgriConnect : le test du panier",
+      "url": "https://youtu.be/u13xUZVO7f8"
+    }
+  },
+  "decide-media-2026-10-22-02": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:40:40+00:00",
+      "piste": "principale",
+      "post_id": "122112428403499704",
+      "programme_pour": "2026-10-23T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — La croissance ne remplit pas le panier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:59:13+00:00",
+      "piste": "principale",
+      "post_id": "1094078833392324",
+      "programme_pour": "2026-10-22T15:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — La croissance ne remplit pas le panier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:22+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e05a81158a0b17975cb0",
+      "programme_pour": "2026-10-22T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — La croissance ne remplit pas le panier",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:31+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e0624278e7eb700ed774",
+      "programme_pour": "2026-10-22T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — La croissance ne remplit pas le panier",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:01:06+00:00",
+      "piste": "principale",
+      "post_id": "6ad9dee24278e7eb700e3563",
+      "programme_pour": "2026-10-22T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — La croissance ne remplit pas le panier",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:45:16+00:00",
+      "piste": "principale",
+      "post_id": "3I-A2wbiQxc",
+      "programme_pour": "2026-10-22T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — La croissance ne remplit pas le panier",
+      "url": "https://youtu.be/3I-A2wbiQxc"
+    }
+  },
+  "decide-media-2026-10-22-03": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:40:46+00:00",
+      "piste": "principale",
+      "post_id": "122112428517499704",
+      "programme_pour": "2026-10-23T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Bagré : du riz, pas des miracles",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:59:18+00:00",
+      "piste": "principale",
+      "post_id": "2181315346113533",
+      "programme_pour": "2026-10-23T07:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Bagré : du riz, pas des miracles",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:23+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e05b4278e7eb700ed55f",
+      "programme_pour": "2026-10-22T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Bagré : du riz, pas des miracles",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:31+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e063194287d6a1f1c33b",
+      "programme_pour": "2026-10-22T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Bagré : du riz, pas des miracles",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:02:01+00:00",
+      "piste": "principale",
+      "post_id": "6ad9df194278e7eb700e47f3",
+      "programme_pour": "2026-10-22T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Bagré : du riz, pas des miracles",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:47:05+00:00",
+      "piste": "principale",
+      "post_id": "Xx3-4R-h5iQ",
+      "programme_pour": "2026-10-22T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Bagré : du riz, pas des miracles",
+      "url": "https://youtu.be/Xx3-4R-h5iQ"
+    }
+  },
+  "decide-media-2026-10-22-04": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:40:50+00:00",
+      "piste": "principale",
+      "post_id": "122112428757499704",
+      "programme_pour": "2026-10-23T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Alios : financer une machine, à quel prix ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:59:25+00:00",
+      "piste": "principale",
+      "post_id": "1860095964996028",
+      "programme_pour": "2026-10-23T09:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Alios : financer une machine, à quel prix ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:24+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e05c81158a0b17975d63",
+      "programme_pour": "2026-10-22T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Alios : financer une machine, à quel prix ?",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:32+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e06481158a0b17975fb5",
+      "programme_pour": "2026-10-22T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Alios : financer une machine, à quel prix ?",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:03:17+00:00",
+      "piste": "principale",
+      "post_id": "6ad9df654278e7eb700e71ad",
+      "programme_pour": "2026-10-22T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Alios : financer une machine, à quel prix ?",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:48:54+00:00",
+      "piste": "principale",
+      "post_id": "z6jioGyQFGY",
+      "programme_pour": "2026-10-22T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Alios : financer une machine, à quel prix ?",
+      "url": "https://youtu.be/z6jioGyQFGY"
+    }
+  },
+  "decide-media-2026-10-22-05": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:40:54+00:00",
+      "piste": "principale",
+      "post_id": "122112428913499704",
+      "programme_pour": "2026-10-23T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Payer en yuans : ce qui change vraiment",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:59:30+00:00",
+      "piste": "principale",
+      "post_id": "2325094198310360",
+      "programme_pour": "2026-10-23T10:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Payer en yuans : ce qui change vraiment",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:25+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e05d4278e7eb700ed607",
+      "programme_pour": "2026-10-22T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Payer en yuans : ce qui change vraiment",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:08:17+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e091194287d6a1f1cb1d",
+      "programme_pour": "2026-10-22T19:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Payer en yuans : ce qui change vraiment",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:04:11+00:00",
+      "piste": "principale",
+      "post_id": "6ad9df9a4278e7eb700e8260",
+      "programme_pour": "2026-10-22T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Payer en yuans : ce qui change vraiment",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:50:30+00:00",
+      "piste": "principale",
+      "post_id": "iIlSLmmt5PM",
+      "programme_pour": "2026-10-22T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Payer en yuans : ce qui change vraiment",
+      "url": "https://youtu.be/iIlSLmmt5PM"
+    }
+  },
+  "decide-media-2026-10-22-06": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:41:01+00:00",
+      "piste": "principale",
+      "post_id": "122112429129499704",
+      "programme_pour": "2026-10-23T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Engrais : un accord n’est pas une usine",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:59:37+00:00",
+      "piste": "principale",
+      "post_id": "1847822409739859",
+      "programme_pour": "2026-10-23T12:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Engrais : un accord n’est pas une usine",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:26+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e05e81158a0b17975dd0",
+      "programme_pour": "2026-10-22T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Engrais : un accord n’est pas une usine",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:09:02+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e0be81158a0b17977837",
+      "programme_pour": "2026-10-22T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Engrais : un accord n’est pas une usine",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:04:54+00:00",
+      "piste": "principale",
+      "post_id": "6ad9dfc6194287d6a1f17de1",
+      "programme_pour": "2026-10-22T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Engrais : un accord n’est pas une usine",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:52:08+00:00",
+      "piste": "principale",
+      "post_id": "wT5q_kBWeTA",
+      "programme_pour": "2026-10-22T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Engrais : un accord n’est pas une usine",
+      "url": "https://youtu.be/wT5q_kBWeTA"
+    }
+  },
+  "decide-media-2026-10-22-07": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:41:06+00:00",
+      "piste": "principale",
+      "post_id": "122112429207499704",
+      "programme_pour": "2026-10-23T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : à Malibé, le ciment commence par un chantier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:27+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e05e1ddfbd0b4bdbf389",
+      "programme_pour": "2026-10-23T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : à Malibé, le ciment commence par un chantier",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:09:47+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e0ead7259dd11b16e76f",
+      "programme_pour": "2026-10-23T07:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : à Malibé, le ciment commence par un chantier",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:05:28+00:00",
+      "piste": "principale",
+      "post_id": "6ad9dfe84278e7eb700e9e44",
+      "programme_pour": "2026-10-23T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : à Malibé, le ciment commence par un chantier",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:53:58+00:00",
+      "piste": "principale",
+      "post_id": "vbuUtxqcU1Q",
+      "programme_pour": "2026-10-22T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : à Malibé, le ciment commence par un chantier",
+      "url": "https://youtu.be/vbuUtxqcU1Q"
+    }
+  },
+  "decide-media-2026-10-22-08": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:41:11+00:00",
+      "piste": "principale",
+      "post_id": "122112429447499704",
+      "programme_pour": "2026-10-23T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cameroun : AFG Bank obtient un appui au commerce",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:27+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e05f81158a0b17975e71",
+      "programme_pour": "2026-10-23T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cameroun : AFG Bank obtient un appui au commerce",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:10:32+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e117d7259dd11b17024b",
+      "programme_pour": "2026-10-23T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cameroun : AFG Bank obtient un appui au commerce",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:06:12+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e0141ddfbd0b4bdbcde2",
+      "programme_pour": "2026-10-23T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cameroun : AFG Bank obtient un appui au commerce",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:55:46+00:00",
+      "piste": "principale",
+      "post_id": "LCejUn03Bwk",
+      "programme_pour": "2026-10-23T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cameroun : AFG Bank obtient un appui au commerce",
+      "url": "https://youtu.be/LCejUn03Bwk"
+    }
+  },
+  "decide-media-2026-10-22-09": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:41:15+00:00",
+      "piste": "principale",
+      "post_id": "122112429519499704",
+      "programme_pour": "2026-10-23T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : des agents réquisitionnés pour maintenir les services",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:28+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e0604278e7eb700ed6cf",
+      "programme_pour": "2026-10-23T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : des agents réquisitionnés pour maintenir les services",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:11:16+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Dakar : des agents réquisitionnés pour maintenir les services"
+    },
+    "x_buffer": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:06:45+00:00",
+      "piste": "principale",
+      "post_id": "6ad9e0354187d54841a38cf5",
+      "programme_pour": "2026-10-23T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : des agents réquisitionnés pour maintenir les services",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:57:23+00:00",
+      "piste": "principale",
+      "post_id": "BWXCeRGLUfU",
+      "programme_pour": "2026-10-23T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : des agents réquisitionnés pour maintenir les services",
+      "url": "https://youtu.be/BWXCeRGLUfU"
+    }
+  },
+  "decide-media-2026-10-22-10": {
+    "facebook": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:41:20+00:00",
+      "piste": "principale",
+      "post_id": "122112429603499704",
+      "programme_pour": "2026-10-23T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : trois jours pour parler logement",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "erreur": "buffer linkedin_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:29+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Dakar : trois jours pour parler logement"
+    },
+    "x_buffer": {
+      "erreur": "buffer x_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T10:07:19+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Dakar : trois jours pour parler logement"
+    },
+    "youtube": {
+      "lot": "2026-10-22",
+      "maj": "2026-10-22T09:59:01+00:00",
+      "piste": "principale",
+      "post_id": "GBjlsL9STk4",
+      "programme_pour": "2026-10-23T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : trois jours pour parler logement",
+      "url": "https://youtu.be/GBjlsL9STk4"
     }
   }
 }
