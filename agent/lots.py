@@ -106,13 +106,15 @@ class Journal:
         e.update(valeurs)
         e["maj"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
-    def horaires(self, reseau: str, jour: date, tz: str, piste: str = "principale") -> list[datetime]:
-        """Horaires déjà pris sur ce réseau à partir de `jour`, pour une piste (principale ou rattrapage Facebook)."""
+    def horaires(self, reseau: str, jour: date, tz: str, piste: str = "principale",
+                 lot: str | None = None) -> list[datetime]:
+        """Horaires déjà pris sur ce réseau à partir de `jour`, pour une piste (principale ou rattrapage Facebook) ;
+        avec `lot`, seulement ceux de ce lot."""
         out = []
         for art in self.d.values():
             e = art.get(reseau, {})
             q = e.get("programme_pour")
-            if q and e.get("piste", "principale") == piste:
+            if q and e.get("piste", "principale") == piste and (lot is None or e.get("lot") == lot):
                 dt = datetime.fromisoformat(q)
                 if dt.astimezone(ZoneInfo(tz)).date() >= jour:
                     out.append(dt)
@@ -227,7 +229,11 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
             cle = (reseau, piste)
             prevus.setdefault(cle, [])
             horaires = creneaux(cfg, max(jour_lot, aujourdhui), len(restants), maintenant,
-                               journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"], piste) + prevus[cle],
+                               # le lot du jour est prioritaire : il prend les créneaux du jour même si des posts
+                               # d'anciens lots y débordent encore (sinon chaque lot glisse au lendemain)
+                               journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"], piste,
+                                                lot=dossier.nom if dossier.nom == aujourdhui.isoformat() else None)
+                               + prevus[cle],
                                reseau if piste == "principale" else f"{reseau}_rattrapage")
             prevus[cle] += horaires
             with tempfile.TemporaryDirectory() as tmp:
