@@ -1,7 +1,7 @@
 {
   "_rattrapage": {
-    "jour": "2026-10-22",
-    "lot": "2026-10-19"
+    "jour": "2026-10-23",
+    "lot": "2026-10-20"
   },
   "decide-media-2026-10-15-01": {
     "facebook": {
@@ -859,6 +859,136 @@
       "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
     }
   },
+  "decide-media-2026-10-20-01": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:14:29+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839001499704",
+      "programme_pour": "2026-10-23T11:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — L’IA africaine attend ses preuves",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-02": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:14:36+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839073499704",
+      "programme_pour": "2026-10-23T13:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Risque africain : sortir des raccourcis",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-03": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:14:44+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839157499704",
+      "programme_pour": "2026-10-23T14:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Cuisson propre : le test est en cuisine",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-04": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:14:51+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839271499704",
+      "programme_pour": "2026-10-23T16:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Créer une entreprise ne dit pas tout",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-05": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:14:58+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839355499704",
+      "programme_pour": "2026-10-23T17:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Mieux cartographier pour mieux décider",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-06": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:15:07+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839427499704",
+      "programme_pour": "2026-10-23T19:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Exporter : le code qui change la lecture du dossier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-07": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:15:15+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839715499704",
+      "programme_pour": "2026-10-23T20:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bois camerounais : de nouvelles pistes de coopération avec le Royaume-Uni",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-08": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:15:23+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839823499704",
+      "programme_pour": "2026-10-24T07:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "MAGZI : le nouveau conseil d’administration installé à Yaoundé",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-09": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:15:30+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112839919499704",
+      "programme_pour": "2026-10-24T08:50:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Abidjan : une formation incendie pour 100 PME",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
+  "decide-media-2026-10-20-10": {
+    "facebook": {
+      "lot": "2026-10-20",
+      "maj": "2026-10-23T10:15:35+00:00",
+      "piste": "rattrapage",
+      "post_id": "122112840027499704",
+      "programme_pour": "2026-10-24T10:20:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Madagascar : TRISEG prépare les PME à l’exportation",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    }
+  },
   "decide-media-2026-10-22-01": {
     "facebook": {
       "lot": "2026-10-22",
@@ -1496,6 +1626,622 @@
       "tentatives": 0,
       "titre": "Dakar : trois jours pour parler logement",
       "url": "https://youtu.be/GBjlsL9STk4"
+    }
+  },
+  "decide-media-2026-10-23-01": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:37:47+00:00",
+      "piste": "principale",
+      "post_id": "122112827337499704",
+      "programme_pour": "2026-10-23T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — CBF : les réformes doivent sortir de la salle",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:55:48+00:00",
+      "piste": "principale",
+      "post_id": "1514604057383402",
+      "programme_pour": "2026-10-23T13:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — CBF : les réformes doivent sortir de la salle",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:39+00:00",
+      "piste": "principale",
+      "post_id": "6adb3227da167f50268901c0",
+      "programme_pour": "2026-10-23T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — CBF : les réformes doivent sortir de la salle",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:48+00:00",
+      "piste": "principale",
+      "post_id": "6adb3230fe8ae6dfd4536bc5",
+      "programme_pour": "2026-10-23T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — CBF : les réformes doivent sortir de la salle",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:57:21+00:00",
+      "piste": "principale",
+      "post_id": "6adb2f81efac72e60fc03c4d",
+      "programme_pour": "2026-10-23T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — CBF : les réformes doivent sortir de la salle",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:40:29+00:00",
+      "piste": "principale",
+      "post_id": "dFK9kiuBFSc",
+      "programme_pour": "2026-10-23T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — CBF : les réformes doivent sortir de la salle",
+      "url": "https://youtu.be/dFK9kiuBFSc"
+    }
+  },
+  "decide-media-2026-10-23-02": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:37:52+00:00",
+      "piste": "principale",
+      "post_id": "122112827439499704",
+      "programme_pour": "2026-10-24T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Électricité au Nord : des mégawatts aux heures de courant",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:55:54+00:00",
+      "piste": "principale",
+      "post_id": "1164183953130895",
+      "programme_pour": "2026-10-23T15:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Électricité au Nord : des mégawatts aux heures de courant",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:40+00:00",
+      "piste": "principale",
+      "post_id": "6adb3228da167f5026890207",
+      "programme_pour": "2026-10-23T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Électricité au Nord : des mégawatts aux heures de courant",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:49+00:00",
+      "piste": "principale",
+      "post_id": "6adb323150cce2289e0b9dce",
+      "programme_pour": "2026-10-23T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Électricité au Nord : des mégawatts aux heures de courant",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:58:07+00:00",
+      "piste": "principale",
+      "post_id": "6adb2faf40662d30d7b9eda8",
+      "programme_pour": "2026-10-23T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Électricité au Nord : des mégawatts aux heures de courant",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:42:19+00:00",
+      "piste": "principale",
+      "post_id": "EJ30_0rufR0",
+      "programme_pour": "2026-10-23T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Électricité au Nord : des mégawatts aux heures de courant",
+      "url": "https://youtu.be/EJ30_0rufR0"
+    }
+  },
+  "decide-media-2026-10-23-03": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:37:57+00:00",
+      "piste": "principale",
+      "post_id": "122112827511499704",
+      "programme_pour": "2026-10-24T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Logistique : l’attente finit sur la facture",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:56:01+00:00",
+      "piste": "principale",
+      "post_id": "1443415317985598",
+      "programme_pour": "2026-10-24T07:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Logistique : l’attente finit sur la facture",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:41+00:00",
+      "piste": "principale",
+      "post_id": "6adb3229da167f502689025c",
+      "programme_pour": "2026-10-23T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Logistique : l’attente finit sur la facture",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:50+00:00",
+      "piste": "principale",
+      "post_id": "6adb3231efac72e60fc1815d",
+      "programme_pour": "2026-10-23T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Logistique : l’attente finit sur la facture",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:59:03+00:00",
+      "piste": "principale",
+      "post_id": "6adb2fe7da167f502687efbd",
+      "programme_pour": "2026-10-23T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Logistique : l’attente finit sur la facture",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:43:56+00:00",
+      "piste": "principale",
+      "post_id": "6sntTsO2B5A",
+      "programme_pour": "2026-10-23T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Analyse — Logistique : l’attente finit sur la facture",
+      "url": "https://youtu.be/6sntTsO2B5A"
+    }
+  },
+  "decide-media-2026-10-23-04": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:38:02+00:00",
+      "piste": "principale",
+      "post_id": "122112827577499704",
+      "programme_pour": "2026-10-24T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Mobile money : à qui vont les intérêts ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:56:07+00:00",
+      "piste": "principale",
+      "post_id": "937606775874463",
+      "programme_pour": "2026-10-24T09:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Mobile money : à qui vont les intérêts ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:42+00:00",
+      "piste": "principale",
+      "post_id": "6adb322afe8ae6dfd4536b16",
+      "programme_pour": "2026-10-23T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Mobile money : à qui vont les intérêts ?",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:50+00:00",
+      "piste": "principale",
+      "post_id": "6adb3232da167f5026890775",
+      "programme_pour": "2026-10-23T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Mobile money : à qui vont les intérêts ?",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:00:49+00:00",
+      "piste": "principale",
+      "post_id": "6adb3051da167f5026883c6f",
+      "programme_pour": "2026-10-23T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Mobile money : à qui vont les intérêts ?",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:45:34+00:00",
+      "piste": "principale",
+      "post_id": "sAHjhZ_JSsA",
+      "programme_pour": "2026-10-23T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Mobile money : à qui vont les intérêts ?",
+      "url": "https://youtu.be/sAHjhZ_JSsA"
+    }
+  },
+  "decide-media-2026-10-23-05": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:38:06+00:00",
+      "piste": "principale",
+      "post_id": "122112827649499704",
+      "programme_pour": "2026-10-24T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Roaming : gratuit, vraiment ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:56:13+00:00",
+      "piste": "principale",
+      "post_id": "1622321952760556",
+      "programme_pour": "2026-10-24T10:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Roaming : gratuit, vraiment ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:43+00:00",
+      "piste": "principale",
+      "post_id": "6adb322b50cce2289e0b9d48",
+      "programme_pour": "2026-10-23T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Roaming : gratuit, vraiment ?",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:09:46+00:00",
+      "piste": "principale",
+      "post_id": "6adb326ae4169c55aabe5144",
+      "programme_pour": "2026-10-23T19:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Roaming : gratuit, vraiment ?",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:02:14+00:00",
+      "piste": "principale",
+      "post_id": "6adb30a640662d30d7ba770a",
+      "programme_pour": "2026-10-23T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Roaming : gratuit, vraiment ?",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:47:22+00:00",
+      "piste": "principale",
+      "post_id": "cBiibH5S_XQ",
+      "programme_pour": "2026-10-23T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Roaming : gratuit, vraiment ?",
+      "url": "https://youtu.be/cBiibH5S_XQ"
+    }
+  },
+  "decide-media-2026-10-23-06": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:38:11+00:00",
+      "piste": "principale",
+      "post_id": "122112827769499704",
+      "programme_pour": "2026-10-24T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Finance climatique : l’argent doit arriver au champ",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:56:18+00:00",
+      "piste": "principale",
+      "post_id": "29990517110536574",
+      "programme_pour": "2026-10-24T12:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Finance climatique : l’argent doit arriver au champ",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:44+00:00",
+      "piste": "principale",
+      "post_id": "6adb322cda167f502689029b",
+      "programme_pour": "2026-10-23T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Finance climatique : l’argent doit arriver au champ",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:10:53+00:00",
+      "piste": "principale",
+      "post_id": "6adb32adda167f50268926e2",
+      "programme_pour": "2026-10-23T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Finance climatique : l’argent doit arriver au champ",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:04:29+00:00",
+      "piste": "principale",
+      "post_id": "6adb312dfe8ae6dfd453105f",
+      "programme_pour": "2026-10-23T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Finance climatique : l’argent doit arriver au champ",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:49:11+00:00",
+      "piste": "principale",
+      "post_id": "IfHR9hPwHFA",
+      "programme_pour": "2026-10-23T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Décryptage — Finance climatique : l’argent doit arriver au champ",
+      "url": "https://youtu.be/IfHR9hPwHFA"
+    }
+  },
+  "decide-media-2026-10-23-07": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:38:16+00:00",
+      "piste": "principale",
+      "post_id": "122112827973499704",
+      "programme_pour": "2026-10-24T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala : le port ouvre la porte aux investisseurs américains",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:45+00:00",
+      "piste": "principale",
+      "post_id": "6adb322cda167f50268902f2",
+      "programme_pour": "2026-10-24T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala : le port ouvre la porte aux investisseurs américains",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:11:59+00:00",
+      "piste": "principale",
+      "post_id": "6adb32efefac72e60fc1b3bd",
+      "programme_pour": "2026-10-24T07:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala : le port ouvre la porte aux investisseurs américains",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:05:24+00:00",
+      "piste": "principale",
+      "post_id": "6adb316440662d30d7babc28",
+      "programme_pour": "2026-10-24T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala : le port ouvre la porte aux investisseurs américains",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:50:49+00:00",
+      "piste": "principale",
+      "post_id": "qX8LXm9QGiQ",
+      "programme_pour": "2026-10-23T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala : le port ouvre la porte aux investisseurs américains",
+      "url": "https://youtu.be/qX8LXm9QGiQ"
+    }
+  },
+  "decide-media-2026-10-23-08": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:38:21+00:00",
+      "piste": "principale",
+      "post_id": "122112828057499704",
+      "programme_pour": "2026-10-24T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Frontières : Abidjan demande de mieux servir les riverains",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:45+00:00",
+      "piste": "principale",
+      "post_id": "6adb322dfe8ae6dfd4536b66",
+      "programme_pour": "2026-10-24T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Frontières : Abidjan demande de mieux servir les riverains",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:13:05+00:00",
+      "piste": "principale",
+      "post_id": "6adb3331efac72e60fc1cb04",
+      "programme_pour": "2026-10-24T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Frontières : Abidjan demande de mieux servir les riverains",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:06:38+00:00",
+      "piste": "principale",
+      "post_id": "6adb31ae40662d30d7bad2f5",
+      "programme_pour": "2026-10-24T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Frontières : Abidjan demande de mieux servir les riverains",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:52:27+00:00",
+      "piste": "principale",
+      "post_id": "srAsX3eBAUA",
+      "programme_pour": "2026-10-24T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Frontières : Abidjan demande de mieux servir les riverains",
+      "url": "https://youtu.be/srAsX3eBAUA"
+    }
+  },
+  "decide-media-2026-10-23-09": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:38:26+00:00",
+      "piste": "principale",
+      "post_id": "122112828189499704",
+      "programme_pour": "2026-10-24T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : 16 000 titres fonciers finalisés, une remise lancée",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:46+00:00",
+      "piste": "principale",
+      "post_id": "6adb322e40662d30d7bafc35",
+      "programme_pour": "2026-10-24T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : 16 000 titres fonciers finalisés, une remise lancée",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:14:21+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Gabon : 16 000 titres fonciers finalisés, une remise lancée"
+    },
+    "x_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:07:34+00:00",
+      "piste": "principale",
+      "post_id": "6adb31e5e4169c55aabe2f16",
+      "programme_pour": "2026-10-24T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : 16 000 titres fonciers finalisés, une remise lancée",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:54:05+00:00",
+      "piste": "principale",
+      "post_id": "NwvidfKewAE",
+      "programme_pour": "2026-10-24T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gabon : 16 000 titres fonciers finalisés, une remise lancée",
+      "url": "https://youtu.be/NwvidfKewAE"
+    }
+  },
+  "decide-media-2026-10-23-10": {
+    "facebook": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:38:31+00:00",
+      "piste": "principale",
+      "post_id": "122112828279499704",
+      "programme_pour": "2026-10-24T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "erreur": "buffer linkedin_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:47+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid"
+    },
+    "x_buffer": {
+      "erreur": "buffer x_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T10:08:38+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid"
+    },
+    "youtube": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T09:55:42+00:00",
+      "piste": "principale",
+      "post_id": "7CnykdFc4zw",
+      "programme_pour": "2026-10-24T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid",
+      "url": "https://youtu.be/7CnykdFc4zw"
     }
   }
 }
