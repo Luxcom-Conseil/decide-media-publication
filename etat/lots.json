@@ -2176,10 +2176,14 @@
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-23",
-      "maj": "2026-10-23T10:14:21+00:00",
-      "statut": "echec",
+      "maj": "2026-10-23T15:58:50+00:00",
+      "piste": "principale",
+      "post_id": "6adb843a65d99fb9319bfa6a",
+      "programme_pour": "2026-10-24T10:15:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Gabon : 16 000 titres fonciers finalisés, une remise lancée"
+      "titre": "Gabon : 16 000 titres fonciers finalisés, une remise lancée",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-10-23",
@@ -2219,18 +2223,37 @@
     "linkedin_buffer": {
       "erreur": "buffer linkedin_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-23",
-      "maj": "2026-10-23T10:08:47+00:00",
-      "statut": "echec",
+      "maj": "2026-10-23T15:57:03+00:00",
+      "piste": "principale",
+      "post_id": "6adb83cfa3eb069e7be519b4",
+      "programme_pour": "2026-10-24T11:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid"
+      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-23",
+      "maj": "2026-10-23T16:02:37+00:00",
+      "piste": "principale",
+      "post_id": "6adb851c65d99fb9319c82ee",
+      "programme_pour": "2026-10-24T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "erreur": "buffer x_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-23",
-      "maj": "2026-10-23T10:08:38+00:00",
-      "statut": "echec",
+      "maj": "2026-10-23T15:57:02+00:00",
+      "piste": "principale",
+      "post_id": "6adb83ce121d12761a8e936d",
+      "programme_pour": "2026-10-24T11:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid"
+      "titre": "Pointe-Noire : Congo Terminal franchit une étape pour le froid",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
     },
     "youtube": {
       "lot": "2026-10-23",
