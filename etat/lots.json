@@ -2326,10 +2326,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-24",
-      "maj": "2026-10-24T04:49:48+00:00",
-      "statut": "echec",
+      "maj": "2026-10-24T08:47:46+00:00",
+      "piste": "principale",
+      "post_id": "2h9XNLGPhg4",
+      "programme_pour": "2026-10-24T11:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Le crédit baisse à 10,99 % dans la CEMAC. Au Cameroun, il coûte plus cher qu’un an auparavant."
+      "titre": "Le crédit baisse à 10,99 % dans la CEMAC. Au Cameroun, il coûte plus cher qu’un an auparavant.",
+      "url": "https://youtu.be/2h9XNLGPhg4"
     }
   },
   "decide-media-2026-10-24-02": {
@@ -2387,6 +2391,17 @@
       "tentatives": 0,
       "titre": "Le Cameroun descend à B−. Une note de moins, quelle facture pour le pays ?",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T08:49:27+00:00",
+      "piste": "principale",
+      "post_id": "R1zUCn_5tWA",
+      "programme_pour": "2026-10-24T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun descend à B−. Une note de moins, quelle facture pour le pays ?",
+      "url": "https://youtu.be/R1zUCn_5tWA"
     }
   },
   "decide-media-2026-10-24-03": {
@@ -2444,6 +2459,17 @@
       "tentatives": 0,
       "titre": "Le carton de poisson perd 2 500 FCFA en Côte d’Ivoire. Les clients verront-ils les 125 FCFA par kilo ?",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T08:51:19+00:00",
+      "piste": "principale",
+      "post_id": "KB_pcbEFuRI",
+      "programme_pour": "2026-10-24T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le carton de poisson perd 2 500 FCFA en Côte d’Ivoire. Les clients verront-ils les 125 FCFA par kilo ?",
+      "url": "https://youtu.be/KB_pcbEFuRI"
     }
   },
   "decide-media-2026-10-24-04": {
@@ -2501,6 +2527,17 @@
       "tentatives": 0,
       "titre": "Le Cameroun propose six blocs pétroliers. Les barils et les recettes restent à trouver.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T08:53:02+00:00",
+      "piste": "principale",
+      "post_id": "LYmO159OKcA",
+      "programme_pour": "2026-10-24T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun propose six blocs pétroliers. Les barils et les recettes restent à trouver.",
+      "url": "https://youtu.be/LYmO159OKcA"
     }
   },
   "decide-media-2026-10-24-05": {
@@ -2558,6 +2595,17 @@
       "tentatives": 0,
       "titre": "Les anciennes pièces ne paieront plus dès le 1er novembre. Leur échange restera possible pendant un an.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T08:54:47+00:00",
+      "piste": "principale",
+      "post_id": "bEdSDv-oQjE",
+      "programme_pour": "2026-10-24T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les anciennes pièces ne paieront plus dès le 1er novembre. Leur échange restera possible pendant un an.",
+      "url": "https://youtu.be/bEdSDv-oQjE"
     }
   },
   "decide-media-2026-10-24-06": {
@@ -2615,6 +2663,17 @@
       "tentatives": 0,
       "titre": "Les prix se calment en Guinée. Le panier reste pourtant 5,9 % plus cher qu’un an auparavant.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T08:56:26+00:00",
+      "piste": "principale",
+      "post_id": "q5u4iuOrqKc",
+      "programme_pour": "2026-10-24T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les prix se calment en Guinée. Le panier reste pourtant 5,9 % plus cher qu’un an auparavant.",
+      "url": "https://youtu.be/q5u4iuOrqKc"
     }
   },
   "decide-media-2026-10-24-07": {
@@ -2632,26 +2691,49 @@
     "linkedin_buffer": {
       "erreur": "buffer linkedin_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-24",
-      "maj": "2026-10-24T05:11:04+00:00",
-      "statut": "echec",
+      "maj": "2026-10-24T09:09:23+00:00",
+      "piste": "principale",
+      "post_id": "6adc75c36887a2efc1aa1b7f",
+      "programme_pour": "2026-10-24T16:00:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Katiola attend 50 MWc solaires. Le chantier annoncé doit durer quinze mois."
+      "titre": "Katiola attend 50 MWc solaires. Le chantier annoncé doit durer quinze mois.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
     },
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-24",
-      "maj": "2026-10-24T05:17:33+00:00",
-      "statut": "echec",
+      "maj": "2026-10-24T09:09:32+00:00",
+      "piste": "principale",
+      "post_id": "6adc75cb8b3d437ddcadb890",
+      "programme_pour": "2026-10-24T16:15:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Katiola attend 50 MWc solaires. Le chantier annoncé doit durer quinze mois."
+      "titre": "Katiola attend 50 MWc solaires. Le chantier annoncé doit durer quinze mois.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "erreur": "buffer x_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-10-24",
-      "maj": "2026-10-24T05:10:57+00:00",
-      "statut": "echec",
+      "maj": "2026-10-24T09:04:19+00:00",
+      "piste": "principale",
+      "post_id": "6adc74930b5343d07074454c",
+      "programme_pour": "2026-10-24T16:00:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Katiola attend 50 MWc solaires. Le chantier annoncé doit durer quinze mois."
+      "titre": "Katiola attend 50 MWc solaires. Le chantier annoncé doit durer quinze mois.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T08:58:09+00:00",
+      "piste": "principale",
+      "post_id": "ayfBfvSowRc",
+      "programme_pour": "2026-10-24T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Katiola attend 50 MWc solaires. Le chantier annoncé doit durer quinze mois.",
+      "url": "https://youtu.be/ayfBfvSowRc"
     }
   },
   "decide-media-2026-10-24-08": {
@@ -2665,6 +2747,50 @@
       "tentatives": 0,
       "titre": "À Yaoundé, 100 entrepreneures travaillent leurs projets. Le numérique doit aussi aider à vendre.",
       "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:09:24+00:00",
+      "piste": "principale",
+      "post_id": "6adc75c40b5343d07074a358",
+      "programme_pour": "2026-10-24T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Yaoundé, 100 entrepreneures travaillent leurs projets. Le numérique doit aussi aider à vendre.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:11:49+00:00",
+      "piste": "principale",
+      "post_id": "6adc76550b5343d07074c64e",
+      "programme_pour": "2026-10-24T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Yaoundé, 100 entrepreneures travaillent leurs projets. Le numérique doit aussi aider à vendre.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:06:34+00:00",
+      "piste": "principale",
+      "post_id": "6adc75190b5343d070747226",
+      "programme_pour": "2026-10-24T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Yaoundé, 100 entrepreneures travaillent leurs projets. Le numérique doit aussi aider à vendre.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T08:59:59+00:00",
+      "piste": "principale",
+      "post_id": "T9v-TF9NHi0",
+      "programme_pour": "2026-10-25T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Yaoundé, 100 entrepreneures travaillent leurs projets. Le numérique doit aussi aider à vendre.",
+      "url": "https://youtu.be/T9v-TF9NHi0"
     }
   },
   "decide-media-2026-10-24-09": {
@@ -2678,6 +2804,50 @@
       "tentatives": 0,
       "titre": "Le Japon accorde 300 millions de yens à la Guinée pour mieux surveiller la pêche.",
       "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:09:24+00:00",
+      "piste": "principale",
+      "post_id": "6adc75c46887a2efc1aa1bf8",
+      "programme_pour": "2026-10-24T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Japon accorde 300 millions de yens à la Guinée pour mieux surveiller la pêche.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:13:15+00:00",
+      "piste": "principale",
+      "post_id": "6adc76abe4be8a4d864d7567",
+      "programme_pour": "2026-10-24T19:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Japon accorde 300 millions de yens à la Guinée pour mieux surveiller la pêche.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:07:58+00:00",
+      "piste": "principale",
+      "post_id": "6adc756e6887a2efc1aa061a",
+      "programme_pour": "2026-10-24T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Japon accorde 300 millions de yens à la Guinée pour mieux surveiller la pêche.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:01:45+00:00",
+      "piste": "principale",
+      "post_id": "LBPTdlxPzWc",
+      "programme_pour": "2026-10-25T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Japon accorde 300 millions de yens à la Guinée pour mieux surveiller la pêche.",
+      "url": "https://youtu.be/LBPTdlxPzWc"
     }
   },
   "decide-media-2026-10-24-10": {
@@ -2691,6 +2861,50 @@
       "tentatives": 0,
       "titre": "EDC porte son capital à 25,289 milliards de FCFA. La hausse ne correspond pas à autant d’argent neuf.",
       "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:09:25+00:00",
+      "piste": "principale",
+      "post_id": "6adc75c56887a2efc1aa1c23",
+      "programme_pour": "2026-10-24T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "EDC porte son capital à 25,289 milliards de FCFA. La hausse ne correspond pas à autant d’argent neuf.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:14:42+00:00",
+      "piste": "principale",
+      "post_id": "6adc77020b5343d07074dd7d",
+      "programme_pour": "2026-10-24T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "EDC porte son capital à 25,289 milliards de FCFA. La hausse ne correspond pas à autant d’argent neuf.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:09:23+00:00",
+      "piste": "principale",
+      "post_id": "6adc75c3e4be8a4d864d401f",
+      "programme_pour": "2026-10-24T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "EDC porte son capital à 25,289 milliards de FCFA. La hausse ne correspond pas à autant d’argent neuf.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-24",
+      "maj": "2026-10-24T09:03:47+00:00",
+      "piste": "principale",
+      "post_id": "Y2-z7JltUng",
+      "programme_pour": "2026-10-25T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "EDC porte son capital à 25,289 milliards de FCFA. La hausse ne correspond pas à autant d’argent neuf.",
+      "url": "https://youtu.be/Y2-z7JltUng"
     }
   }
 }
