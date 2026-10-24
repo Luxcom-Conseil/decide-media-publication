@@ -368,9 +368,6 @@ export const Explainer: React.FC<Script> = (s) => {
           <div style={{ position: "absolute", top: 0, left: 0, height: 12, width: `${(f / total) * 100}%`, background: ORANGE }} />
           <div style={{ position: "absolute", top: 70, right: 70, background: "rgba(0,0,0,0.55)", padding: "14px 24px", borderRadius: 10 }}><Logo /></div>
           {f > duree(s, "couverture") + duree(s, "intro") && <Bandeau s={s} />}
-          <div style={{ position: "absolute", bottom: 90, left: 80, fontFamily, fontWeight: 600, fontSize: 30, color: GRIS, letterSpacing: 2 }}>
-            {s.audio || s.voix?.length ? "Illustrations générées · voix de synthèse" : "Illustrations générées"}
-          </div>
         </AbsoluteFill>
       )}
       {s.audio && <Audio src={staticFile(s.audio)} />}
