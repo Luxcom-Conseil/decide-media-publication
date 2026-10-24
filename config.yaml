@@ -42,7 +42,7 @@ youtube:
 # Chirp 3 HD : 1 million de caractères gratuits par mois. Au plafond, les Shorts sortent sans voix jusqu'au mois suivant.
 # Compteur : etat/voix.json. Prononciation des noms propres : lexique.csv (mot;prononciation).
 voix:
-  active: false               # true une fois le Short d'essai validé (le Short d'essai a toujours la voix)
+  active: true                # Short d'essai validé par Stéphane le 24/10/2026 (le Short d'essai a toujours la voix)
   nom: fr-FR-Chirp3-HD-Schedar
   vitesse: 1.0                # 0.25 à 2.0
   plafond_mensuel: 900000     # caractères, marge de 10 % sous la gratuité
