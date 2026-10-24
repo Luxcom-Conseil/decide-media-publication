@@ -15,6 +15,8 @@ import unicodedata
 from datetime import date
 from pathlib import Path
 
+import requests
+
 # modèle Remotion : dossier motion/ du dépôt (GitHub), sinon l'ancien emplacement sur le PC
 MOTION = Path(os.environ.get("DECIDE_MOTION_DIR") or Path(__file__).resolve().parent.parent / "motion")
 RUBRIQUES = {"news": "ACTUALITÉ", "explainer": "DÉCRYPTAGE", "practical_guide": "GUIDE PRATIQUE",
@@ -151,10 +153,10 @@ def construire_scenario(article: dict, image_publique: str, musique: str | None 
     accroche = _couper(phrases[0], 110) if phrases else ""
     milieu = phrases[1:-1] if len(phrases) > 2 else phrases[1:]
     milieu = milieu[:4]
+    if len(milieu) < 2:  # textes courts : on découpe davantage
+        milieu = phrases[:3]
     etapes = [{"titre": libelles[k % len(libelles)], "detail": _couper(p, 175), "icone": _icone(p, k)}
               for k, p in enumerate(milieu)]
-    if len(etapes) < 2:  # textes courts : on découpe davantage
-        etapes = [{"titre": libelles[k], "detail": _couper(p, 175), "icone": _icone(p, k)} for k, p in enumerate(phrases[:3])]
     fin = phrases[-1] if phrases else ""
     if len(phrases) > 2 and len(fin) < 70:  # une dernière phrase trop courte s'appuie sur la précédente
         fin = phrases[-2] + " " + fin
@@ -179,8 +181,17 @@ def construire_scenario(article: dict, image_publique: str, musique: str | None 
     }
     if musique:
         scenario.update({"musique": musique, "volume_musique": 0.10})
+    # Texte de la voix off, scène par scène : les phrases entières (l'écran, lui, affiche une version coupée).
+    dits = [{"cle": "titre", "texte": " ".join(scenario["titre"])},
+            {"cle": "visuel", "texte": phrases[0] if phrases else ""}]
+    if scenario["contexte"]:
+        dits.append({"cle": "contexte", "texte": "Pour vous : " + article.get("value_added", "")})
+    dits += [{"cle": f"etape{k}", "texte": p} for k, p in enumerate(milieu)]
+    dits += [{"cle": "conclusion", "texte": "À retenir : " + (fin if len(phrases) > 1 else accroche)},
+             {"cle": "outro", "texte": "Décide média. Comprendre pour décider. Abonnez-vous pour l'info utile."}]
+    scenario["_dits"] = dits
     # Les champs vides restent présents à null : sinon Remotion reprendrait ceux de l'exemple par défaut.
-    for cle in ("pays", "date", "contexte", "chiffre", "liste", "source", "audio", "musique", "durees"):
+    for cle in ("pays", "date", "contexte", "chiffre", "liste", "source", "audio", "voix", "musique", "durees"):
         scenario.setdefault(cle, None)
     return {k: (None if v in ("", []) else v) for k, v in scenario.items()}
 
@@ -197,26 +208,34 @@ def short_en_cache(article: dict, image: Path) -> Path:
     return sortie
 
 
-def rendre_video(article: dict, image: Path, sortie: Path, journal=print) -> Path:
-    """Fabrique le MP4 avec Remotion. Le visuel est copié dans public/_lots/ le temps du rendu."""
+def rendre_video(article: dict, image: Path, sortie: Path, journal=print, essai: bool = False) -> Path:
+    """Fabrique le MP4 avec Remotion. Le visuel et la voix off sont mis dans public/_lots/ le temps du rendu."""
     if not (MOTION / "node_modules").exists():  # premier rendu sur une machine neuve
         subprocess.run(["npm.cmd" if shutil.which("npm.cmd") else "npm", "ci", "--no-audit", "--no-fund"],
                        cwd=MOTION, check=True, capture_output=True, timeout=900)
     dossier = MOTION / "public" / "_lots"
     dossier.mkdir(parents=True, exist_ok=True)
-    nom_image = f"{article.get('id', 'article')}{image.suffix.lower()}"
+    ident = article.get("id", "article")
+    nom_image = f"{ident}{image.suffix.lower()}"
     shutil.copy(image, dossier / nom_image)
     scenario = construire_scenario(article, f"_lots/{nom_image}")
+    dits = scenario.pop("_dits")
+    from .voix import Voix, VoixIndisponible
+    try:
+        scenario["voix"] = Voix(journal).narration(dits, dossier, ident, forcer=essai)
+    except (VoixIndisponible, OSError, ValueError, requests.RequestException) as e:
+        journal(f"⚠️ Voix off indisponible, Short sans voix : {e}")
     with tempfile.TemporaryDirectory() as d:
         props = Path(d) / "props.json"
         props.write_text(json.dumps(scenario, ensure_ascii=False), encoding="utf-8")
         commande = ["npx.cmd" if shutil.which("npx.cmd") else "npx", "remotion", "render", "src/index.ts", "DecideShort",
                     str(sortie.resolve()), f"--props={props}", "--codec=h264", "--crf=20", "--log=warn"]
         r = subprocess.run(commande, cwd=MOTION, capture_output=True, text=True, timeout=1800)
-    try:
-        (dossier / nom_image).unlink()
-    except OSError:
-        pass
+    for f in [dossier / nom_image, *dossier.glob(f"{ident}-*.wav")]:
+        try:
+            f.unlink()
+        except OSError:
+            pass
     if r.returncode != 0 or not sortie.exists():
         raise RuntimeError(f"rendu Remotion impossible (code {r.returncode}) : {(r.stderr + r.stdout)[-1500:]}")
     return sortie

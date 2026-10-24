@@ -25,7 +25,7 @@ def essai_video(drive, sortie: Path, log, numero: int = 1) -> Path | None:
         with tempfile.TemporaryDirectory() as tmp:
             img = article["image_file"]
             image = drive.telecharger_id(img["id"], img.get("name") or f"{article['id']}.png", Path(tmp))
-            video = rendre_video(article, image, sortie / f"essai-{article.get('id', 'article')}.mp4")
+            video = rendre_video(article, image, sortie / f"essai-{article.get('id', 'article')}.mp4", log, essai=True)
         log(f"✅ Short fabriqué : {video.name} ({video.stat().st_size // 1024} Ko)")
         return video
     log("❌ Aucun lot prêt dans le Drive pour l'essai.")

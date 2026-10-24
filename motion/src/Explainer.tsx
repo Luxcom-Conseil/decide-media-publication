@@ -15,21 +15,29 @@ const GRIS = "#A7A7B0";
 
 const D = { couverture: 0.6, intro: 2.2, titre: 4.0, visuel: 5.5, contexte: 5.0, etape: 4.6, chiffre: 5.5, liste: 5.5, conclusion: 5.0, outro: 3.5 };
 const duree = (s: Script, k: keyof typeof D) => Math.round(((s.durees && s.durees[k]) ?? D[k]) * FPS);
+// la voix démarre après l'entrée des textes et laisse un temps de respiration avant la sortie de la scène
+const VOIX_DEBUT = 10, VOIX_FIN = 16;
 
 function plan(s: Script) {
-  const scenes: { id: string; debut: number; longueur: number; i?: number }[] = [];
+  const scenes: { id: string; debut: number; longueur: number; i?: number; voix?: { src: string; longueur: number } }[] = [];
   let t = 0;
-  const ajoute = (id: string, longueur: number, i?: number) => { scenes.push({ id, debut: t, longueur, i }); t += longueur; };
+  const ajoute = (id: string, longueur: number, cle?: string, i?: number) => {
+    const v = cle ? (s.voix || []).find((x) => x.cle === cle) : undefined;
+    const voix = v ? { src: v.src, longueur: Math.ceil(v.duree * FPS) } : undefined;
+    const l = voix ? Math.max(longueur, VOIX_DEBUT + voix.longueur + VOIX_FIN) : longueur;
+    scenes.push({ id, debut: t, longueur: l, i, voix });
+    t += l;
+  };
   ajoute("couverture", duree(s, "couverture"));  // 1re image = aperçu sur X, LinkedIn, Facebook
   ajoute("intro", duree(s, "intro"));
-  ajoute("titre", duree(s, "titre"));
-  ajoute("visuel", duree(s, "visuel"));
-  if (s.contexte) ajoute("contexte", duree(s, "contexte"));
-  s.etapes.forEach((_, i) => ajoute("etape", duree(s, "etape"), i));
+  ajoute("titre", duree(s, "titre"), "titre");
+  ajoute("visuel", duree(s, "visuel"), "visuel");
+  if (s.contexte) ajoute("contexte", duree(s, "contexte"), "contexte");
+  s.etapes.forEach((_, i) => ajoute("etape", duree(s, "etape"), `etape${i}`, i));
   if (s.chiffre) ajoute("chiffre", duree(s, "chiffre"));
   if (s.liste) ajoute("liste", duree(s, "liste"));
-  ajoute("conclusion", duree(s, "conclusion"));
-  ajoute("outro", duree(s, "outro"));
+  ajoute("conclusion", duree(s, "conclusion"), "conclusion");
+  ajoute("outro", duree(s, "outro"), "outro");
   return { scenes, total: t };
 }
 export const dureeTotale = (s: Script) => plan(s).total;
@@ -331,6 +339,10 @@ const Outro: React.FC<{ s: Script }> = ({ s }) => {
 export const Explainer: React.FC<Script> = (s) => {
   const { scenes, total } = plan(s);
   const f = useCurrentFrame();
+  // la mélodie descend à 35 % de son volume pendant que la voix parle
+  const parole = scenes.filter((sc) => sc.voix).map((sc) => [sc.debut + VOIX_DEBUT, sc.debut + VOIX_DEBUT + sc.voix!.longueur]);
+  const attenuation = (fr: number) => Math.min(1, ...parole.map(([a, b]) =>
+    interpolate(fr, [a - 8, a, b, b + 8], [1, 0.35, 0.35, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })));
   return (
     <AbsoluteFill style={{ fontFamily }}>
       <Fond />
@@ -357,14 +369,19 @@ export const Explainer: React.FC<Script> = (s) => {
           <div style={{ position: "absolute", top: 70, right: 70, background: "rgba(0,0,0,0.55)", padding: "14px 24px", borderRadius: 10 }}><Logo /></div>
           {f > duree(s, "couverture") + duree(s, "intro") && <Bandeau s={s} />}
           <div style={{ position: "absolute", bottom: 90, left: 80, fontFamily, fontWeight: 600, fontSize: 30, color: GRIS, letterSpacing: 2 }}>
-            {s.audio ? "Illustrations générées · voix de synthèse" : "Illustrations générées"}
+            {s.audio || s.voix?.length ? "Illustrations générées · voix de synthèse" : "Illustrations générées"}
           </div>
         </AbsoluteFill>
       )}
       {s.audio && <Audio src={staticFile(s.audio)} />}
+      {scenes.filter((sc) => sc.voix).map((sc, k) => (
+        <Sequence key={`voix${k}`} from={sc.debut + VOIX_DEBUT} durationInFrames={sc.voix!.longueur}>
+          <Audio src={staticFile(sc.voix!.src)} />
+        </Sequence>
+      ))}
       {s.musique && (
         <Audio src={staticFile(s.musique)} loop
-          volume={(fr) => (s.volume_musique ?? 0.10) * interpolate(fr, [0, 20, total - 45, total], [0, 1, 1, 0],
+          volume={(fr) => (s.volume_musique ?? 0.10) * attenuation(fr) * interpolate(fr, [0, 20, total - 45, total], [0, 1, 1, 0],
             { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
       )}
     </AbsoluteFill>
