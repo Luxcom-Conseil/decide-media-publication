@@ -19,6 +19,7 @@ test-facebook/
 etat/*
 !etat/lots.json
 !etat/etat.json
+!etat/voix.json
 
 # modèle vidéo
 motion/node_modules/
