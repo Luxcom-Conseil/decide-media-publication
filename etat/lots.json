@@ -489,10 +489,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-18",
-      "maj": "2026-10-25T05:48:32+00:00",
-      "statut": "echec",
+      "maj": "2026-10-25T09:28:39+00:00",
+      "piste": "principale",
+      "post_id": "y-S1ITXHm8k",
+      "programme_pour": "2026-10-25T11:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Décryptage — PME : financer une filière, pas seulement une machine"
+      "titre": "Décryptage — PME : financer une filière, pas seulement une machine",
+      "url": "https://youtu.be/y-S1ITXHm8k"
     }
   },
   "decide-media-2026-10-18-06": {
@@ -550,10 +554,14 @@
     "youtube": {
       "erreur": "youtube : HTTP 400 — The user has exceeded the number of videos they may upload.",
       "lot": "2026-10-18",
-      "maj": "2026-10-21T11:03:25+00:00",
-      "statut": "echec",
+      "maj": "2026-10-25T09:30:16+00:00",
+      "piste": "principale",
+      "post_id": "BY2MrEJ_GBc",
+      "programme_pour": "2026-10-25T13:00:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Décryptage — Parcs industriels : du plan aux ateliers"
+      "titre": "Décryptage — Parcs industriels : du plan aux ateliers",
+      "url": "https://youtu.be/BY2MrEJ_GBc"
     }
   },
   "decide-media-2026-10-18-07": {
@@ -597,6 +605,17 @@
       "tentatives": 0,
       "titre": "Côte d’Ivoire–Italie : CDP Business Matching lancé à Abidjan",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-25T09:31:42+00:00",
+      "piste": "principale",
+      "post_id": "4RERZcedRJs",
+      "programme_pour": "2026-10-25T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Côte d’Ivoire–Italie : CDP Business Matching lancé à Abidjan",
+      "url": "https://youtu.be/4RERZcedRJs"
     }
   },
   "decide-media-2026-10-18-08": {
@@ -640,6 +659,17 @@
       "tentatives": 0,
       "titre": "Bénin : à Kandi, la place des enseignants au centre des échanges",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-25T09:33:21+00:00",
+      "piste": "principale",
+      "post_id": "t3Zp4gRRrRs",
+      "programme_pour": "2026-10-25T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bénin : à Kandi, la place des enseignants au centre des échanges",
+      "url": "https://youtu.be/t3Zp4gRRrRs"
     }
   },
   "decide-media-2026-10-18-09": {
@@ -683,6 +713,17 @@
       "tentatives": 0,
       "titre": "Dakar : une formation pour mieux piloter les petites entreprises",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-25T09:35:03+00:00",
+      "piste": "principale",
+      "post_id": "H2JHD97072c",
+      "programme_pour": "2026-10-25T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Dakar : une formation pour mieux piloter les petites entreprises",
+      "url": "https://youtu.be/H2JHD97072c"
     }
   },
   "decide-media-2026-10-18-10": {
@@ -727,6 +768,17 @@
       "tentatives": 0,
       "titre": "Comores : Innov’Lab distingué pour son engagement durable",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-18",
+      "maj": "2026-10-25T09:36:33+00:00",
+      "piste": "principale",
+      "post_id": "LmWntlPiEDk",
+      "programme_pour": "2026-10-25T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Comores : Innov’Lab distingué pour son engagement durable",
+      "url": "https://youtu.be/LmWntlPiEDk"
     }
   },
   "decide-media-2026-10-19-01": {
