@@ -22,8 +22,11 @@ _HEBERGES: dict[Path, str] = {}  # même média pour X et LinkedIn : mis en lign
 
 
 def requete(query: str, variables: dict | None = None) -> dict:
-    r = controler(requests.post(API, json={"query": query, "variables": variables or {}}, timeout=TIMEOUT,
-                                headers={"Authorization": f"Bearer {os.environ['BUFFER_API_KEY']}"}), "buffer")
+    r = requests.post(API, json={"query": query, "variables": variables or {}}, timeout=TIMEOUT,
+                      headers={"Authorization": f"Bearer {os.environ['BUFFER_API_KEY']}"})
+    if r.status_code == 429:  # trop de requêtes sur 15 min (plan gratuit) : réessai au passage suivant, sans compter d'essai
+        raise ErreurLimite("buffer : trop de requêtes (HTTP 429), réessai au prochain passage")
+    controler(r, "buffer")
     corps = r.json()
     if corps.get("errors"):
         raise ErreurPublication("buffer : " + "; ".join(e.get("message", "?") for e in corps["errors"])[:500])
