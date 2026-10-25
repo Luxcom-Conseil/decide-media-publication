@@ -57,11 +57,51 @@ def _lexique() -> list[tuple[str, str]]:
     return sorted(paires, key=lambda p: -len(p[0]))  # les expressions longues d'abord
 
 
+def _en_lettres(nombre: str) -> str:
+    """« 12,75 » → « douze virgule soixante-quinze » ; « 3,05 » → « trois virgule zéro cinq »."""
+    from num2words import num2words
+    entier, _, decimales = nombre.replace(".", ",").partition(",")
+    mots = num2words(int(entier), lang="fr")
+    if decimales:
+        reste = decimales.lstrip("0")
+        mots += " virgule" + " zéro" * (len(decimales) - len(reste)) + (" " + num2words(int(reste), lang="fr") if reste else "")
+    return mots
+
+
+def _ordinal(m: re.Match) -> str:
+    from num2words import num2words
+    n, suffixe = int(m.group(1)), m.group(2).lower()
+    if n == 1:
+        return "première" if suffixe in ("re", "ère") else "premier"
+    return num2words(n, lang="fr", to="ordinal")
+
+
+def normaliser(t: str) -> str:
+    """Nombres et symboles écrits en toutes lettres : la voix lisait mal les décimales, les milliers espacés
+    et les unités (« 3,5 % », « 6 471 », « 50 000 FCFA », « 120 m² »)."""
+    esp = "[   ]"
+    t = re.sub(rf"\b\d{{1,3}}(?:(?:{esp}|\.)\d{{3}})+(?![\d,])", lambda m: re.sub(rf"{esp}|\.", "", m.group(0)), t)  # milliers
+    t = re.sub(r"\$\s?(\d+(?:[,.]\d+)?)(\s(?:millions?|milliards?))?",
+               lambda m: f"{m.group(1)}{m.group(2)} de dollars" if m.group(2) else f"{m.group(1)} dollars", t)
+    t = re.sub(rf"(\d){esp}?%", r"\1 pour cent", t)
+    t = re.sub(rf"(\d){esp}?€", r"\1 euros", t).replace("€", "euros")
+    t = re.sub(r"\bF\s?CFA\b", "francs CFA", t)
+    t = re.sub(rf"(\d){esp}?km²", r"\1 kilomètres carrés", t)
+    t = re.sub(rf"(\d){esp}?m²", r"\1 mètres carrés", t)
+    t = re.sub(rf"(\d){esp}?km\b", r"\1 kilomètres", t)
+    t = re.sub(r"\b(\d{1,2})\s?h\s?(\d{2})\b", r"\1 heures \2", t)
+    t = re.sub(r"\b(\d{1,2})\s?h\b", r"\1 heures", t)
+    t = re.sub(r"\b(\d+)(er|re|ère|e|è|ème|eme)\b", _ordinal, t)
+    return re.sub(r"\d+(?:[,.]\d+)?", lambda m: _en_lettres(m.group(0)), t)
+
+
 def preparer(texte: str, lexique: list[tuple[str, str]] | None = None) -> str:
-    """Texte prononcé : sans liens, hashtags, émojis ni points de suspension de coupe, lexique appliqué."""
+    """Texte prononcé : sans liens, hashtags, émojis ni points de suspension de coupe, nombres en lettres,
+    lexique appliqué."""
     t = re.sub(r"https?://\S+|#\w+", "", texte)
     t = re.sub(r"[\U0001F300-\U0001FAFF☀-➿]", "", t)
     t = t.replace("…", ".").replace("—", ",").replace("–", ",").replace("«", "").replace("»", "")
+    t = normaliser(t)
     for mot, prononciation in (lexique if lexique is not None else _lexique()):
         t = t.replace(mot, prononciation)
     return re.sub(r"\s+", " ", t).strip()
