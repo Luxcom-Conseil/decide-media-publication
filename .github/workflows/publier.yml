@@ -31,7 +31,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 180   # fabrication de 6 Shorts (~5 min chacun) comprise
     steps:
+      # Dernière version de main au démarrage, pas celle du déclenchement : un passage mis en file d'attente
+      # derrière un autre (cron GitHub en retard + cron-job.org) doit voir le journal que l'autre vient d'enregistrer,
+      # sinon il reprogramme des posts déjà programmés (doublons TikTok du 24/10/2026).
       - uses: actions/checkout@v5
+        with:
+          ref: main
 
       - uses: actions/setup-python@v6
         with:
