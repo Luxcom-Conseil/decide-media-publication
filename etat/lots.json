@@ -1,6 +1,6 @@
 {
   "_rattrapage": {
-    "jour": "2026-10-24",
+    "jour": "2026-10-25",
     "lot": "2026-10-18"
   },
   "decide-media-2026-10-15-01": {
@@ -489,7 +489,7 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-18",
-      "maj": "2026-10-23T23:40:08+00:00",
+      "maj": "2026-10-25T05:48:32+00:00",
       "statut": "echec",
       "tentatives": 0,
       "titre": "Décryptage — PME : financer une filière, pas seulement une machine"
