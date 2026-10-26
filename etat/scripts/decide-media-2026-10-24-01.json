@@ -1,0 +1,122 @@
+{
+  "titre": "Le coût du crédit dans la CEMAC",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Emprunter à la banque coûte-t-il vraiment moins cher aujourd'hui ?"
+    },
+    {
+      "type": "explication",
+      "dit": "Le coût d'un crédit, c'est l'argent en plus que tu rends à la banque en payant les intérêts et les frais.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "rembourser"
+      },
+      "ecran": "Le coût d'un crédit"
+    },
+    {
+      "type": "explication",
+      "dit": "Dans la CEMAC, la zone de six pays, le coût moyen du crédit baisse à 10,99 %, contre 11,53 % un an avant.",
+      "etiquette": "DANS LA CEMAC",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "11,53 %",
+        "apres": "10,99 %"
+      },
+      "ecran": "Crédit : 10,99 %"
+    },
+    {
+      "type": "explication",
+      "dit": "Mais au Cameroun, selon la BEAC, la banque centrale, ce taux augmente sur un an : de 7,77 % à 8,22 %.",
+      "etiquette": "AU CAMEROUN",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "7,77 %",
+        "apres": "8,22 %"
+      },
+      "ecran": "Hausse à 8,22 %"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple fictif. Une couturière emprunte 1 million de FCFA pour son atelier.",
+      "etiquette": "EXEMPLE FICTIF",
+      "illustration": {
+        "type": "couturiere"
+      },
+      "ecran": "Emprunt : 1 million"
+    },
+    {
+      "type": "explication",
+      "dit": "Avec le contrat A, elle verse 90 000 FCFA par mois pendant 12 mois. Frais inclus, cela fait 1 080 000 FCFA.",
+      "etiquette": "CONTRAT A",
+      "illustration": {
+        "type": "calendrier",
+        "montant": "90 000"
+      },
+      "ecran": "12 fois 90 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Le crédit lui coûte donc 80 000 FCFA en plus du million reçu.",
+      "etiquette": "COÛT A",
+      "illustration": {
+        "type": "pile",
+        "montant": "80 000 FCFA"
+      },
+      "ecran": "Coût réel : 80 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Le contrat B propose 12 versements plus bas de 88 000 FCFA, mais ajoute 40 000 FCFA de frais à part.",
+      "etiquette": "CONTRAT B",
+      "illustration": {
+        "type": "calendrier",
+        "montant": "88 000"
+      },
+      "ecran": "12 fois 88 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Au total, le contrat B revient à 1 096 000 FCFA. C'est 16 000 FCFA de plus que le contrat A.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "balance",
+        "a": "Contrat A",
+        "b": "Contrat B"
+      },
+      "ecran": "B : 16 000 FCFA de plus"
+    },
+    {
+      "type": "explication",
+      "dit": "Une petite mensualité peut cacher des frais supplémentaires : il faut regarder tout le contrat.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Regarder le total"
+    },
+    {
+      "type": "explication",
+      "dit": "Avant de signer, demande un tableau complet avec le montant reçu, toutes les échéances et les frais.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Crédit : Total reçu | Mensualités | Tous les frais"
+      },
+      "ecran": "Demander le tableau"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà comparé deux offres de crédit avant d'emprunter ?",
+      "dit": "As-tu déjà comparé deux offres de crédit avant d'emprunter ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-24-01",
+  "_modele": "gemini-3.8-flash"
+}
