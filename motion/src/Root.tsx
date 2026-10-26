@@ -3,16 +3,32 @@ import { Composition } from "remotion";
 import { Explainer, dureeTotale, FPS } from "./Explainer";
 import type { Script } from "./types";
 import exemple from "../public/exemple.json";
+import { GabaritV2, dureeTotaleV2, type ScriptV2 } from "./GabaritV2";
+
+const exempleV2: ScriptV2 = { rubrique: "ANALYSE", titre: "Titre d'exemple", image: "lavage.png", scenes: [{ type: "visuel", duree: 3 }] };
 
 export const Root: React.FC = () => (
-  <Composition
-    id="DecideShort"
-    component={Explainer}
-    width={1080}
-    height={1920}
-    fps={FPS}
-    durationInFrames={dureeTotale(exemple as Script)}
-    defaultProps={exemple as Script}
-    calculateMetadata={({ props }) => ({ durationInFrames: dureeTotale(props as Script) })}
-  />
+  <>
+    <Composition
+      id="DecideShort"
+      component={Explainer}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={dureeTotale(exemple as Script)}
+      defaultProps={exemple as Script}
+      calculateMetadata={({ props }) => ({ durationInFrames: dureeTotale(props as Script) })}
+    />
+    {/* prototype du nouveau gabarit : pas utilisé en production */}
+    <Composition
+      id="DecideShortV2"
+      component={GabaritV2}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={dureeTotaleV2(exempleV2)}
+      defaultProps={exempleV2}
+      calculateMetadata={({ props }) => ({ durationInFrames: dureeTotaleV2(props as ScriptV2) })}
+    />
+  </>
 );

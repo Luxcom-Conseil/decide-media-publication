@@ -20,6 +20,7 @@ etat/*
 !etat/lots.json
 !etat/etat.json
 !etat/voix.json
+!etat/scripts/
 
 # modèle vidéo
 motion/node_modules/

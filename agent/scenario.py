@@ -209,7 +209,12 @@ def short_en_cache(article: dict, image: Path) -> Path:
 
 
 def rendre_video(article: dict, image: Path, sortie: Path, journal=print, essai: bool = False) -> Path:
-    """Fabrique le MP4 avec Remotion. Le visuel et la voix off sont mis dans public/_lots/ le temps du rendu."""
+    """Fabrique le MP4 avec Remotion. Le visuel et la voix off sont mis dans public/_lots/ le temps du rendu.
+    config.yaml video.gabarit : v1 (modèle validé le 21/10) ou v2 (pédagogique, script écrit par Claude)."""
+    from .config import charger_config
+    if (charger_config(MOTION.parent / "config.yaml").get("video") or {}).get("gabarit") == "v2":
+        from .gabarit_v2 import rendre_v2
+        return rendre_v2(article, image, sortie, journal, essai=essai)
     if not (MOTION / "node_modules").exists():  # premier rendu sur une machine neuve
         subprocess.run(["npm.cmd" if shutil.which("npm.cmd") else "npm", "ci", "--no-audit", "--no-fund"],
                        cwd=MOTION, check=True, capture_output=True, timeout=900)
