@@ -4,8 +4,11 @@ import { Explainer, dureeTotale, FPS } from "./Explainer";
 import type { Script } from "./types";
 import exemple from "../public/exemple.json";
 import { GabaritV2, dureeTotaleV2, type ScriptV2 } from "./GabaritV2";
+import { PersoReel, dureeTotalePerso, type ScriptPerso } from "./PersoReel";
 
 const exempleV2: ScriptV2 = { rubrique: "ANALYSE", titre: "Titre d'exemple", image: "lavage.png", scenes: [{ type: "visuel", duree: 3 }] };
+const exemplePerso: ScriptPerso = { rubrique: "Carnet d'écrivain", titre: "Exemple", nom: "Stéphane Nzesseu", compte: "@stephane_nzesseu",
+  scenes: [{ type: "citation", ecran: "Écrire, c'est se souvenir à voix haute.", duree: 4 }, { type: "signature", duree: 3 }] };
 
 export const Root: React.FC = () => (
   <>
@@ -29,6 +32,17 @@ export const Root: React.FC = () => (
       durationInFrames={dureeTotaleV2(exempleV2)}
       defaultProps={exempleV2}
       calculateMetadata={({ props }) => ({ durationInFrames: dureeTotaleV2(props as ScriptV2) })}
+    />
+    {/* Reels du compte Instagram personnel (agent/perso.py) */}
+    <Composition
+      id="PersoReel"
+      component={PersoReel}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={dureeTotalePerso(exemplePerso)}
+      defaultProps={exemplePerso}
+      calculateMetadata={({ props }) => ({ durationInFrames: dureeTotalePerso(props as ScriptPerso) })}
     />
   </>
 );

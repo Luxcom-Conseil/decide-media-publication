@@ -21,10 +21,13 @@ etat/*
 !etat/etat.json
 !etat/voix.json
 !etat/scripts/
+!etat/perso.json
+!etat/instagram_perso.jeton
 
 # modèle vidéo
 motion/node_modules/
 motion/public/_lots/
+motion/public/_perso/
 motion/out/
 sortie/
 cache/

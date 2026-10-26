@@ -49,9 +49,11 @@ def main(argv: list[str] | None = None) -> int:
     _charger_env()
 
     p = argparse.ArgumentParser(prog="agent", description="Publie sur les réseaux sociaux le contenu d'un dossier Drive.")
-    p.add_argument("commande", nargs="?", default="publier", choices=["publier", "verifier", "lots", "essai-video"],
+    p.add_argument("commande", nargs="?", default="publier",
+                   choices=["publier", "verifier", "lots", "essai-video", "perso", "perso-essai"],
                    help="publier = dossiers « post » ; lots = lots quotidiens DECIDE MEDIA ; verifier = tester les accès ; "
-                        "essai-video = fabriquer un Short d'essai dans sortie/, sans publier")
+                        "essai-video = fabriquer un Short d'essai dans sortie/, sans publier ; perso = Reel du compte "
+                        "Instagram personnel ; perso-essai = fabriquer ce Reel dans sortie/, sans publier")
     p.add_argument("--simulation", action="store_true", help="montre ce qui serait publié, sans rien publier")
     p.add_argument("--source-locale", metavar="DOSSIER", help="lire un dossier local au lieu de Google Drive")
     p.add_argument("--sans-ia", action="store_true", help="ne pas appeler Claude (texte d'origine)")
@@ -84,6 +86,15 @@ def main(argv: list[str] | None = None) -> int:
                 ok = False
                 log(f"❌ Google Drive : {e}")
         log("✅ IA : clé Anthropic présente" if Redacteur.disponible(cfg) else "➖ IA : désactivée ou clé absente")
+        from .publieurs.instagram_perso import InstagramPerso
+        if InstagramPerso.est_configure():
+            try:
+                log(f"✅ instagram_perso : {InstagramPerso(cfg, log).verifier()}")
+            except Exception as e:
+                ok = False
+                log(f"❌ instagram_perso : {e}")
+        else:
+            log("➖ instagram_perso : jeton pas encore enregistré (INSTAGRAM_PERSO_TOKEN)")
         _resume_github(log)
         return 0 if ok else 1
 
@@ -93,6 +104,13 @@ def main(argv: list[str] | None = None) -> int:
         from .essai_video import essai_video
 
         ok = essai_video(SourceDrive.depuis_env(), Path("sortie"), log)
+        _resume_github(log)
+        return 0 if ok else 1
+
+    if a.commande in ("perso", "perso-essai"):
+        from .perso import traiter_perso
+
+        ok = traiter_perso(cfg, log, simulation=simulation, essai=a.commande == "perso-essai")
         _resume_github(log)
         return 0 if ok else 1
 

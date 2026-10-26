@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       commande:
-        description: "lots = passage normal ; verifier = tester les accès ; essai-video = fabriquer un Short sans publier"
+        description: "lots = passage normal ; verifier = tester les accès ; essai-video = fabriquer un Short sans publier ; perso-essai = fabriquer un Reel Instagram perso sans publier"
         type: choice
-        options: [lots, verifier, essai-video]
+        options: [lots, verifier, essai-video, perso-essai]
         default: lots
       simulation:
         description: "Simulation (ne publie rien, affiche ce qui serait fait)"
@@ -71,7 +71,21 @@ jobs:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          INSTAGRAM_PERSO_TOKEN: ${{ secrets.INSTAGRAM_PERSO_TOKEN }}
+          INSTAGRAM_PERSO_CLE: ${{ secrets.INSTAGRAM_PERSO_CLE }}
         run: python -m agent ${{ inputs.commande || 'lots' }}
+
+      # Compte Instagram personnel : passe même si les lots ont échoué (les deux sont indépendants).
+      # Ne fait rien hors des jours et heures de publication (config.yaml perso).
+      - name: Instagram perso
+        if: ${{ !cancelled() && (!inputs.commande || inputs.commande == 'lots') }}
+        env:
+          SIMULATION: ${{ inputs.simulation }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          INSTAGRAM_PERSO_TOKEN: ${{ secrets.INSTAGRAM_PERSO_TOKEN }}
+          INSTAGRAM_PERSO_CLE: ${{ secrets.INSTAGRAM_PERSO_CLE }}
+        run: python -m agent perso
 
       - name: Short d'essai à télécharger
         if: inputs.commande == 'essai-video'
@@ -79,6 +93,15 @@ jobs:
         with:
           name: short-essai
           path: sortie/*.mp4
+
+      - name: Reel Instagram perso d'essai à télécharger
+        if: inputs.commande == 'perso-essai'
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-perso-essai
+          path: |
+            sortie/*.mp4
+            sortie/legende.txt
 
       - name: Enregistrer la mémoire de l'agent
         if: always()
