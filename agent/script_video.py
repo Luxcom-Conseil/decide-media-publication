@@ -143,7 +143,7 @@ def controler(script: dict, article: dict) -> list[str]:
     source = " ".join(str(article.get(k) or "") for k in ("title", "body", "post_text", "value_added"))
     from num2words import num2words
     en_lettres = {str(n) for n in range(1, 101) if re.search(rf"\b{num2words(n, lang='fr')}\b", source, re.I)}  # « quinze mois »
-    permis = _nombres(source) | {str(n) for n in range(1, 13)} | en_lettres
+    permis = _nombres(source) | {str(n) for n in range(0, 13)} | en_lettres  # « 0 frais », « 12 mois »
     problemes = []
     if not 8 <= len(script.get("scenes") or []) <= 18:
         problemes.append(f"{len(script.get('scenes') or [])} scènes (8 à 18 attendues)")

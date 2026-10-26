@@ -15,7 +15,7 @@ import requests
 
 from ..models import Post
 from .base import TIMEOUT, ErreurDefinitive, ErreurLimite, ErreurPublication, Publieur, Resultat, controler
-from .x import couper_pour_x
+from .x import couper_pour_x, longueur_x
 
 API = "https://api.buffer.com"
 _HEBERGES: dict[Path, str] = {}  # même média pour X et LinkedIn : mis en ligne une seule fois par passage
@@ -115,7 +115,9 @@ class BufferX(_Buffer):
     nom = canal = "x_buffer"
 
     def texte(self, article: dict, texte: str) -> str:
-        return (article.get("platform_texts") or {}).get("x") or texte_x(article)
+        """Texte X du producteur s'il tient dans 280 caractères (il les dépassait parfois), sinon la version courte."""
+        propose = ((article.get("platform_texts") or {}).get("x") or "").strip()
+        return propose if propose and longueur_x(propose) <= 280 else texte_x(article)
 
 
 def legende_courte(article: dict, limite: int = 300) -> str:
