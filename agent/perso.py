@@ -1,63 +1,46 @@
-"""Compte Instagram personnel de Stéphane : de la matière qu'il dépose dans Drive au Reel publié.
+"""Compte Instagram de Stéphane : Reels « conseils et astuces psychologiques » de 60 secondes et plus, sans visage filmé.
 
-Dossier Drive « Instagram perso » (config perso.dossier_drive), partagé en Éditeur avec le compte de service :
-    📁 Instagram perso/
-        📁 Mon premier livre/        une idée = un sous-dossier : notes (Google Doc, .txt), photos (.jpg/.png),
-            notes.txt, photo.jpg      message vocal (.m4a, .mp3, .ogg, .wav). Le nom est libre.
-        souvenir.txt                  un fichier seul à la racine (note ou vocal) = une idée aussi
-        📁 _photos/                   portraits de Stéphane, utilisés quand une idée n'a pas de photo
+Chaque jour de publication (config perso.jours), au premier passage après perso.heure : le sujet suivant du catalogue
+(perso_sujets.py, adapté du skill marketing-psychology) devient un Reel. Gemini (gratuit) écrit le script et la légende à
+partir de la fiche du sujet seulement : aucune étude, aucun chercheur, aucun chiffre qui n'y figure pas (contrôlé).
+Voix Google (voix.py), rendu Remotion (composition PersoReel), mise en ligne GitHub Pages, publication par la connexion
+Instagram directe (publieurs/instagram_perso.py).
 
-Les jours de publication (config perso.jours), au premier passage après perso.heure : l'idée la plus ancienne non
-traitée devient un Reel. Gemini (gratuit) en tire le script : rubrique, scènes, légende. Il ne met en forme que ce que
-Stéphane a écrit ou dit : aucun fait inventé (contrôle des chiffres). Voix Google (voix.py), rendu Remotion
-(composition PersoReel), mise en ligne GitHub Pages, publication par la connexion Instagram directe.
-
-Le dossier traité est renommé « [PUBLIÉ] … » et sa description reçoit la légende et le lien. Rien de personnel n'est
-écrit dans le dépôt (public) : etat/perso.json ne garde que des identifiants, des rubriques, des dates et des liens.
+Facultatif : un dossier Drive (perso.dossier_drive) avec un sous-dossier « _photos » de portraits de Stéphane ; s'il
+existe, deux portraits illustrent chaque Reel. Sans lui, le Reel n'est fait que de texte animé.
 """
 from __future__ import annotations
 
 import base64
 import json
 import os
+import random
 import re
 import shutil
 import subprocess
 import tempfile
-from datetime import date, datetime, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+from .perso_sujets import CATEGORIES, PAR_ID, prochain
 
 RACINE = Path(__file__).resolve().parent.parent
 MOTION = RACINE / "motion"
 ETAT = RACINE / "etat" / "perso.json"
-
-RUBRIQUES = {
-    "carnet": ("Carnet d'écrivain", "une pensée, une phrase, un court extrait de ses textes"),
-    "histoires": ("Histoires vraies", "un récit de vie qu'il a recueilli ou vécu, comme un biographe le raconte"),
-    "coulisses": ("Coulisses de scène", "un souvenir d'événement qu'il a animé ou présenté"),
-    "parcours": ("Leçons de parcours", "ses valeurs, ce que la vie lui a appris, entre l'Afrique et l'Europe"),
-    "regard": ("Mon regard", "son avis sur un sujet d'actualité"),
-}
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
-TEXTES = {".txt", ".md"}
 IMAGES = {".jpg", ".jpeg", ".png", ".webp"}
-AUDIOS = {".m4a": "audio/mp4", ".mp3": "audio/mpeg", ".ogg": "audio/ogg", ".opus": "audio/ogg", ".wav": "audio/wav",
-          ".aac": "audio/aac"}
-GDOC = "application/vnd.google-apps.document"
 GFOLDER = "application/vnd.google-apps.folder"
-AUDIO_MAX = 15 * 1024 * 1024  # Gemini : 20 Mo par requête en tout
+PAROLE_MIN = 1050  # caractères dits ≈ 60 secondes de vidéo avec la voix Schedar (884 caractères = 53 s le 27/10)
 
 SCHEMA = {
     "type": "object",
     "properties": {
-        "rubrique": {"type": "string", "enum": list(RUBRIQUES)},
-        "transcription": {"type": "string"},
         "titre": {"type": "string"},
         "scenes": {"type": "array", "items": {
             "type": "object",
             "properties": {
-                "type": {"type": "string", "enum": ["photo", "citation", "texte"]},
+                "type": {"type": "string", "enum": ["texte", "citation", "liste", "photo"]},
                 "photo": {"anyOf": [{"type": "integer"}, {"type": "null"}]},
                 "ecran": {"type": "string"},
                 "dit": {"type": "string"},
@@ -69,66 +52,67 @@ SCHEMA = {
         "legende": {"type": "string"},
         "hashtags": {"type": "array", "items": {"type": "string"}},
     },
-    "required": ["rubrique", "transcription", "titre", "scenes", "question", "legende", "hashtags"],
+    "required": ["titre", "scenes", "question", "legende", "hashtags"],
     "additionalProperties": False,
 }
 
-SYSTEME = """Tu écris le script d'un Reel Instagram (vidéo verticale de 30 à 50 secondes) pour le compte personnel de \
-Stéphane Nzesseu : écrivain, biographe, présentateur d'événements, entre l'Afrique et l'Europe. Son Instagram est son \
-espace personnel : il y parle de tout ce qu'il est et fait, à la première personne.
+SYSTEME = """Tu écris le script d'un Reel Instagram de 60 à 90 secondes pour le compte de Stéphane Nzesseu, qui partage \
+des conseils et astuces de psychologie pour la vie de tous les jours et le travail. Son public : des francophones \
+d'Afrique et d'Europe, entrepreneurs, salariés, étudiants, curieux. Ils n'ont pas de formation en psychologie.
 
-Tu reçois sa matière brute : notes écrites, messages vocaux, photos. Ton travail est de la mettre en forme, pas d'en \
-ajouter.
+But : qu'en une minute, le spectateur comprenne un mécanisme de son propre esprit, se reconnaisse dans un exemple, et \
+reparte avec une astuce qu'il peut appliquer le jour même.
+
+Déroulé (une idée par scène), entre 12 et 16 scènes :
+1. Une accroche qui fait se reconnaître le spectateur (une situation vécue, une question qui pique).
+2. Le nom du mécanisme et ce qu'il est, en mots simples.
+3. Deux exemples concrets de la vie quotidienne ou du travail (marché, famille, bureau, téléphone, boutique…).
+4. Pourquoi le cerveau fait ça, en une phrase, sans jargon.
+5. L'astuce : comment s'en servir, en 2 ou 3 étapes concrètes.
+6. Comment s'en protéger quand les autres s'en servent (quand c'est pertinent).
+7. La phrase à retenir.
+Puis une question au spectateur (champ « question »).
 
 Exactitude (impératif) :
-- N'invente rien : aucun fait, lieu, date, chiffre, nom, anecdote ou émotion qui ne soit pas dans sa matière.
-- Chaque chiffre que tu écris doit figurer dans la matière (notes ou transcription), recopié à l'identique.
-- Ne nomme personne qui n'est pas nommé dans la matière. Pour un récit de vie recueilli, garde l'anonymat \
-(« une dame de 80 ans ») sauf si la note dit explicitement que la personne est d'accord pour être nommée.
-- Si la matière est trop mince pour un Reel, fais court (5 scènes) plutôt que d'inventer.
+- Ta seule source est la fiche du sujet. N'invente aucune étude, aucune expérience, aucun chercheur, aucun pourcentage, \
+aucune statistique. Les seuls chiffres permis sont ceux de la fiche, et les petits nombres d'un exemple (« 3 options »).
+- N'attribue l'idée à personne et ne dis pas « les études montrent », « les scientifiques ont prouvé ».
+- Les exemples sont des situations ordinaires et plausibles, sans nom de personne, de marque ou d'entreprise réelle.
+- Reste éthique : on explique pour aider, jamais pour manipuler.
 
-« transcription » : la transcription fidèle des messages vocaux, mot pour mot (vide s'il n'y en a pas).
+Ton : celui de Stéphane, posé, chaleureux, un peu malicieux. Il tutoie le spectateur. Français simple et correct, \
+phrases courtes. Pas de ton publicitaire, pas de formule toute faite (« dans un monde où »), pas de tiret long (—).
 
-« rubrique », la plus proche de la matière :
-""" + "\n".join(f"- {k} : {nom}, {desc}" for k, (nom, desc) in RUBRIQUES.items()) + """
-
-Ton : la voix de Stéphane, à la première personne (« je »), chaleureuse, posée, sincère. Français simple et correct, \
-phrases courtes. Tutoie le spectateur quand tu t'adresses à lui. Pas de ton publicitaire, pas de formule toute faite \
-(« dans un monde où », « plus que jamais »), pas de tiret long (—).
-
-Scènes, entre 5 et 10 (une idée par scène) :
-- La première scène accroche : une phrase concrète qui donne envie de rester.
-- « photo » : une de ses photos, par son numéro (0 = la première reçue) ; « ecran » = l'idée clé, 34 caractères au plus. \
-N'utilise que les numéros reçus, varie les photos, et mets photo à null pour les autres types.
-- « citation » : une phrase forte de sa matière, affichée en grand en italique ; « ecran » = la phrase, 110 caractères \
-au plus, et « dit » = la même phrase.
+Format de chaque scène :
+- « dit » : ce que dit la voix, entre 80 et 150 caractères (5 à 8 secondes). En tout, au moins 1 150 caractères dits.
 - « texte » : une idée clé en grand ; « ecran » = 40 caractères au plus.
-- « dit » : ce que dit la voix, 140 caractères au plus (environ 7 secondes).
-Avec des photos reçues, au moins la moitié des scènes sont des scènes « photo » (la première scène aussi). \
-Sans photo reçue, n'utilise que « citation » et « texte ».
+- « citation » : la phrase à retenir (une seule par Reel) ; « ecran » = la phrase, 110 caractères au plus, et « dit » = \
+la même phrase.
+- « liste » : 2 ou 3 étapes ; « ecran » = « Titre : étape 1 | étape 2 | étape 3 », 90 caractères au plus.
+- « photo » : un portrait de Stéphane en fond, par son numéro (0 = le premier reçu) ; « ecran » = 34 caractères au \
+plus. Seulement si des portraits sont fournis, et au plus 2 scènes. Mets photo à null pour les autres types.
 
-« question » : une question au spectateur, courte, qui invite à partager son expérience.
-« titre » : 45 caractères au plus (usage interne).
+« titre » : le nom du mécanisme, 45 caractères au plus (affiché en haut de la vidéo).
 « legende » : la légende Instagram. Première ligne : une accroche de 125 caractères au plus. Puis 2 à 4 courts \
-paragraphes séparés par une ligne vide, qui prolongent la vidéo sans la répéter. Termine par la question. Pas de lien, \
-pas de hashtag dans le texte, 1 ou 2 émojis au plus.
-« hashtags » : 3 à 5 hashtags précis, sans le #."""
+paragraphes séparés par une ligne vide, qui résument l'astuce sans recopier la vidéo. Termine par la question. Pas de \
+lien, pas de hashtag dans le texte, 1 ou 2 émojis au plus.
+« hashtags » : 3 à 5 hashtags précis en français, sans le #."""
 
 
-# --------------------------------------------------------------------------- état (aucune donnée personnelle)
+# --------------------------------------------------------------------------- état (public : aucune donnée personnelle)
 
 class EtatPerso:
     def __init__(self, chemin: Path = ETAT):
         self.chemin = chemin
         self.d = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else {}
-        self.d.setdefault("idees", {})
         self.d.setdefault("publications", [])
+        self.d.setdefault("echecs", {})
 
-    def idee(self, ident: str) -> dict:
-        return self.d["idees"].setdefault(ident, {"statut": "nouveau", "tentatives": 0})
-
-    def publie_le(self, jour: date) -> bool:
+    def publie_le(self, jour) -> bool:
         return any(p.get("jour") == jour.isoformat() for p in self.d["publications"])
+
+    def sujets_publies(self) -> list[str]:
+        return [p["sujet"] for p in self.d["publications"] if p.get("sujet")]
 
     def sauver(self) -> None:
         self.chemin.parent.mkdir(parents=True, exist_ok=True)
@@ -150,96 +134,40 @@ def est_le_moment(cfg: dict, maintenant: datetime, etat: EtatPerso) -> tuple[boo
     return True, ""
 
 
-# --------------------------------------------------------------------------- Drive
+# --------------------------------------------------------------------------- portraits (facultatif)
 
-class DrivePerso:
-    """Lecture du dossier « Instagram perso » avec le compte de service déjà utilisé pour les lots."""
-
-    def __init__(self, dossier_id: str):
-        from .sources import SourceDrive
-        os.environ["DRIVE_FOLDER_ID"] = dossier_id
-        self.src = SourceDrive.depuis_env()
-        self.svc = self.src.svc
-        self.racine = dossier_id
-
-    def _enfants(self, parent: str) -> list[dict]:
-        out, token = [], None
-        while True:
-            r = self.svc.files().list(q=f"'{parent}' in parents and trashed = false", pageSize=1000, pageToken=token,
-                                      fields="nextPageToken, files(id, name, mimeType, createdTime, size)",
-                                      supportsAllDrives=True, includeItemsFromAllDrives=True).execute()
-            out += r.get("files", [])
-            token = r.get("nextPageToken")
-            if not token:
-                return out
-
-    def idees(self) -> list[dict]:
-        """Idées dans l'ordre de dépôt : sous-dossiers et fichiers seuls (note ou vocal), hors « [ » et « _ »."""
-        out = []
-        for f in self._enfants(self.racine):
-            if f["name"].startswith(("[", "_", ".")):
-                continue
-            ext = Path(f["name"]).suffix.lower()
-            if f["mimeType"] == GFOLDER or f["mimeType"] == GDOC or ext in TEXTES or ext in AUDIOS:
-                out.append(f)
-        return sorted(out, key=lambda f: f["createdTime"])
-
-    def fichiers(self, idee: dict) -> list[dict]:
-        return self._enfants(idee["id"]) if idee["mimeType"] == GFOLDER else [idee]
-
-    def portraits(self) -> list[dict]:
-        dossier = next((f for f in self._enfants(self.racine) if f["mimeType"] == GFOLDER and f["name"].lower() == "_photos"), None)
-        return [f for f in self._enfants(dossier["id"]) if Path(f["name"]).suffix.lower() in IMAGES] if dossier else []
-
-    def lire_texte(self, f: dict) -> str:
-        from .sources import Fichier
-        return self.src.lire_texte(Fichier(f["id"], f["name"], f["mimeType"]))
-
-    def telecharger(self, f: dict, dossier: Path) -> Path:
-        from .sources import Fichier
-        return self.src.telecharger(Fichier(f["id"], _nom_sur(f["name"]), f["mimeType"]), dossier)
-
-    def marquer(self, idee: dict, prefixe: str, rapport: str) -> None:
-        from .sources import Dossier
-        self.src.marquer(Dossier(idee["id"], idee["name"]), prefixe, rapport)
+def portraits(cfg: dict, dossier: Path, graine: str, nb: int = 2, journal=print) -> list[Path]:
+    ident = (cfg.get("perso") or {}).get("dossier_drive")
+    if not ident:
+        return []
+    try:
+        from .sources import Fichier, SourceDrive
+        os.environ["DRIVE_FOLDER_ID"] = ident
+        src = SourceDrive.depuis_env()
+        sous = next((f for f in src._enfants(ident) if f["mimeType"] == GFOLDER and f["name"].lower() == "_photos"), None)
+        photos = [f for f in src._enfants(sous["id"]) if Path(f["name"]).suffix.lower() in IMAGES] if sous else []
+        choisies = random.Random(graine).sample(photos, min(nb, len(photos)))
+        return [_reduite(src.telecharger(Fichier(f["id"], f"portrait{k}{Path(f['name']).suffix.lower()}", ""), dossier))
+                for k, f in enumerate(choisies)]
+    except Exception as e:  # les portraits ne bloquent jamais le Reel
+        journal(f"⚠️ Portraits indisponibles, Reel en texte seul : {type(e).__name__} {str(e)[:150]}")
+        return []
 
 
-def _nom_sur(nom: str) -> str:
-    return re.sub(r"[^\w.\-]+", "_", nom)
-
-
-# --------------------------------------------------------------------------- matière → script
-
-def rassembler(drive: DrivePerso, idee: dict, dossier: Path, journal=print) -> dict:
-    """Notes (texte), photos (fichiers locaux) et vocaux (fichiers locaux) d'une idée."""
-    notes, photos, vocaux = [], [], []
-    for f in sorted(drive.fichiers(idee), key=lambda f: f["name"].lower()):
-        ext = Path(f["name"]).suffix.lower()
-        try:
-            if f["mimeType"] == GDOC or ext in TEXTES:
-                notes.append(drive.lire_texte(f).strip())
-            elif ext in IMAGES:
-                photos.append(drive.telecharger(f, dossier))
-            elif ext in AUDIOS:
-                if int(f.get("size") or 0) > AUDIO_MAX:
-                    journal(f"⚠️ vocal trop long ignoré ({int(f['size']) // 1_000_000} Mo, 15 Mo au plus) : {f['name']}")
-                    continue
-                vocaux.append(drive.telecharger(f, dossier))
-            elif ext in (".heic", ".heif"):
-                journal(f"⚠️ photo HEIC ignorée (iPhone : choisir « Le plus compatible » ou envoyer en JPEG) : {f['name']}")
-        except Exception as e:
-            journal(f"⚠️ fichier illisible ignoré ({type(e).__name__}) : {f['name']}")
-    return {"notes": [n for n in notes if n], "photos": photos, "vocaux": vocaux}
-
-
-def _image_reduite(chemin: Path, cote: int = 1280) -> tuple[bytes, Path]:
-    """JPEG d'au plus `cote` px : envoyé à Gemini et utilisé dans la vidéo (orientation EXIF appliquée)."""
+def _reduite(chemin: Path, cote: int = 1280) -> Path:
     from PIL import Image, ImageOps
     im = ImageOps.exif_transpose(Image.open(chemin)).convert("RGB")
     im.thumbnail((cote, cote))
     sortie = chemin.with_name(chemin.stem + "_r.jpg")
     im.save(sortie, "JPEG", quality=88)
-    return sortie.read_bytes(), sortie
+    return sortie
+
+
+# --------------------------------------------------------------------------- script
+
+def fiche(sujet: tuple) -> str:
+    ident, cat, nom, idee, astuce = sujet
+    return f"Catégorie : {CATEGORIES[cat]}\nMécanisme : {nom}\nL'idée : {idee}\nL'astuce : {astuce}"
 
 
 def _nombres(texte: str) -> set[str]:
@@ -247,28 +175,33 @@ def _nombres(texte: str) -> set[str]:
     return {n.replace(",", ".") for n in re.findall(r"\d+(?:,\d+)?", t)}
 
 
-def controler(script: dict, matiere_texte: str, nb_photos: int) -> list[str]:
+def controler(script: dict, source: str, nb_photos: int) -> list[str]:
     """Problèmes qui interdisent d'utiliser le script (vide = bon)."""
     problemes = []
     scenes = script.get("scenes") or []
-    if not 4 <= len(scenes) <= 12:
-        problemes.append(f"{len(scenes)} scènes (5 à 10 attendues)")
-    textes = [script.get("question", ""), script.get("legende", "")]
+    if not 11 <= len(scenes) <= 18:
+        problemes.append(f"{len(scenes)} scènes (12 à 16 attendues)")
+    parole = sum(len(sc.get("dit", "")) for sc in scenes) + len(script.get("question", ""))
+    if parole < PAROLE_MIN:
+        problemes.append(f"trop court : {parole} caractères dits, au moins 1 150 pour tenir 60 secondes")
+    textes = [script.get("titre", ""), script.get("question", ""), script.get("legende", "")]
     for k, sc in enumerate(scenes):
         textes += [sc.get("dit", ""), sc.get("ecran", "")]
         if len(sc.get("dit", "")) > 160:
             problemes.append(f"scène {k + 1} : voix trop longue ({len(sc['dit'])} caractères)")
-        limite = 120 if sc.get("type") == "citation" else 48
+        limite = {"citation": 120, "liste": 100}.get(sc.get("type"), 48)
         if len(sc.get("ecran", "")) > limite:
             problemes.append(f"scène {k + 1} : texte écran trop long ({len(sc['ecran'])} caractères)")
+        if sc.get("type") == "liste" and len([x for x in sc.get("ecran", "").split(":")[-1].split("|") if x.strip()]) < 2:
+            problemes.append(f"scène {k + 1} : liste sans ses étapes (« Titre : étape 1 | étape 2 »)")
         if sc.get("type") == "photo" and not (isinstance(sc.get("photo"), int) and 0 <= sc["photo"] < nb_photos):
-            problemes.append(f"scène {k + 1} : photo n°{sc.get('photo')} inexistante ({nb_photos} reçue(s))")
-    if nb_photos and sum(sc.get("type") == "photo" for sc in scenes) < min(2, len(scenes)):
-        problemes.append("photos reçues mais pas utilisées : au moins la moitié des scènes doivent être des scènes « photo »")
-    permis = _nombres(matiere_texte + " " + script.get("transcription", "")) | {str(n) for n in range(0, 11)}
-    inventes = sorted(_nombres(" ".join(textes)) - permis)
+            problemes.append(f"scène {k + 1} : portrait n°{sc.get('photo')} inexistant ({nb_photos} reçu(s))")
+    tout = " ".join(textes)
+    inventes = sorted(_nombres(tout) - _nombres(source) - {str(n) for n in range(0, 11)})
     if inventes:
-        problemes.append("chiffres absents de la matière : " + ", ".join(inventes))
+        problemes.append("chiffres absents de la fiche : " + ", ".join(inventes))
+    if re.search(r"\b(études?|étude|chercheurs?|scientifiques?|université|expérience menée|selon une)\b", tout, re.I):
+        problemes.append("référence à une étude ou à des chercheurs : interdit, la fiche est la seule source")
     if len(script.get("legende", "")) > 2000:
         problemes.append("légende trop longue")
     return problemes
@@ -281,7 +214,7 @@ def _demander(cfg: dict, parties: list[dict], remarques: list[str]) -> dict:
     import requests
 
     modeles = (cfg.get("video") or {}).get("modeles_gemini") or ["gemini-3.5-flash", "gemini-flash-latest"]
-    consigne = "Écris le script du Reel à partir de cette matière."
+    consigne = "Écris le script du Reel sur ce sujet."
     if remarques:
         consigne += "\n\nTa version précédente a été refusée pour ces raisons, corrige-les :\n- " + "\n- ".join(remarques)
     erreur = ""
@@ -309,29 +242,26 @@ def _demander(cfg: dict, parties: list[dict], remarques: list[str]) -> dict:
     raise RuntimeError(f"Gemini indisponible ({erreur})")
 
 
-def ecrire_script(cfg: dict, matiere: dict, journal=print) -> dict:
+def ecrire_script(cfg: dict, sujet: tuple, photos: list[Path], journal=print) -> dict:
     if not os.environ.get("GEMINI_API_KEY"):
         raise RuntimeError("clé GEMINI_API_KEY absente")
-    if not (matiere["notes"] or matiere["vocaux"]):
-        raise ValueError("ni note ni message vocal : il faut au moins quelques lignes ou un vocal pour faire un Reel")
-    parties: list[dict] = []
-    texte = "\n\n".join(matiere["notes"])
-    if texte:
-        parties.append({"text": f"<notes>\n{texte}\n</notes>"})
-    for k, chemin in enumerate(matiere["photos"]):
-        donnees, reduite = _image_reduite(chemin)
-        matiere["photos"][k] = reduite
-        parties += [{"text": f"Photo n°{k} :"}, {"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(donnees).decode()}}]
-    for chemin in matiere["vocaux"]:
-        parties += [{"text": "Message vocal de Stéphane :"},
-                    {"inlineData": {"mimeType": AUDIOS[chemin.suffix.lower()], "data": base64.b64encode(chemin.read_bytes()).decode()}}]
+    source = fiche(sujet)
+    parties: list[dict] = [{"text": f"<fiche>\n{source}\n</fiche>"}]
+    if photos:
+        parties.append({"text": f"{len(photos)} portrait(s) de Stéphane fourni(s), numéros 0 à {len(photos) - 1}."})
+        for k, ph in enumerate(photos):
+            parties += [{"text": f"Portrait n°{k} :"},
+                        {"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(ph.read_bytes()).decode()}}]
+    else:
+        parties.append({"text": "Aucun portrait fourni : pas de scène « photo »."})
     remarques: list[str] = []
-    for _ in range(2):
+    for essai in range(3):
         script = _demander(cfg, parties, remarques)
-        remarques = controler(script, texte, len(matiere["photos"]))
+        remarques = controler(script, source, len(photos))
         if not remarques:
             return script
-    raise ValueError("script refusé au contrôle : " + " ; ".join(remarques)[:400])
+        journal(f"    ↺ script refusé ({essai + 1}/3) : " + " ; ".join(remarques)[:300])
+    raise RuntimeError("script refusé au contrôle : " + " ; ".join(remarques)[:400])
 
 
 def legende_finale(script: dict) -> str:
@@ -342,7 +272,7 @@ def legende_finale(script: dict) -> str:
 
 # --------------------------------------------------------------------------- vidéo
 
-def rendre(cfg: dict, script: dict, photos: list[Path], sortie: Path, journal=print, essai: bool = False) -> Path:
+def rendre(cfg: dict, script: dict, sujet: tuple, photos: list[Path], sortie: Path, journal=print, essai: bool = False) -> Path:
     from .voix import Voix
 
     p = cfg.get("perso") or {}
@@ -351,18 +281,20 @@ def rendre(cfg: dict, script: dict, photos: list[Path], sortie: Path, journal=pr
     dossier.mkdir(parents=True)
     noms = []
     for k, ph in enumerate(photos):
-        nom = f"photo{k}.jpg"
-        shutil.copy(ph, dossier / nom)
-        noms.append(f"_perso/{nom}")
+        shutil.copy(ph, dossier / f"photo{k}.jpg")
+        noms.append(f"_perso/photo{k}.jpg")
     scenes, dits = [], []
     for sc in script["scenes"]:
         s = {"type": sc["type"], "ecran": sc.get("ecran") or None, "soustitre": sc["dit"]}
-        if sc["type"] == "photo" and isinstance(sc.get("photo"), int) and sc["photo"] < len(noms):
-            s["photo"] = noms[sc["photo"]]
+        if sc["type"] == "photo":
+            if isinstance(sc.get("photo"), int) and sc["photo"] < len(noms):
+                s["photo"] = noms[sc["photo"]]
+            else:
+                s["type"] = "texte"
         scenes.append(s)
         dits.append(sc["dit"])
     scenes.append({"type": "question", "ecran": script["question"], "soustitre": script["question"]})
-    dits.append(script["question"])
+    dits.append(script["question"] + " Dis-le moi en commentaire.")
     scenes.append({"type": "signature", "duree": 3.5})
     dits.append("")
     try:
@@ -376,7 +308,7 @@ def rendre(cfg: dict, script: dict, photos: list[Path], sortie: Path, journal=pr
             sc["voix"] = {"src": pistes[f"s{k}"]["src"], "duree": pistes[f"s{k}"]["duree"]}
         elif sc["type"] != "signature":
             sc["duree"] = max(3.0, len(sc.get("soustitre") or "") / 15)  # sans voix : le temps de lire
-    props = {"rubrique": RUBRIQUES[script["rubrique"]][0], "titre": script["titre"], "nom": p.get("nom", "Stéphane Nzesseu"),
+    props = {"rubrique": CATEGORIES[sujet[1]], "titre": script["titre"], "nom": p.get("nom", "Stéphane Nzesseu"),
              "compte": p.get("compte", "@stephane_nzesseu"), "scenes": scenes, "musique": "melodie.wav", "volume_musique": 0.10}
     with tempfile.TemporaryDirectory() as d:
         fichier = Path(d) / "props.json"
@@ -392,16 +324,14 @@ def rendre(cfg: dict, script: dict, photos: list[Path], sortie: Path, journal=pr
 
 # --------------------------------------------------------------------------- passage
 
-def traiter_perso(cfg: dict, log, *, simulation: bool = False, essai: bool = False,
+def traiter_perso(cfg: dict, log, *, simulation: bool = False, essai: bool = False, sujet_id: str | None = None,
                   maintenant: datetime | None = None, sortie_essai: Path = RACINE / "sortie") -> bool:
-    """Un passage. essai = fabrique le Reel de la prochaine idée dans sortie/, sans publier ni rien marquer."""
+    """Un passage. essai = fabrique le Reel du prochain sujet dans sortie/, sans publier ni rien enregistrer."""
     from .publieurs.instagram_perso import InstagramPerso
 
     p = cfg.get("perso") or {}
-    if not p.get("dossier_drive"):
-        log("Instagram perso : dossier Drive pas encore configuré (config.yaml perso.dossier_drive)")
-        return True
     maintenant = maintenant or datetime.now(timezone.utc)
+    jour = maintenant.astimezone(ZoneInfo(cfg["fuseau_horaire"])).date()
     etat = EtatPerso()
     if not essai:
         if not p.get("publication"):
@@ -415,67 +345,50 @@ def traiter_perso(cfg: dict, log, *, simulation: bool = False, essai: bool = Fal
             log("❌ Instagram perso : jeton absent (INSTAGRAM_PERSO_TOKEN)")
             return False
 
-    drive = DrivePerso(p["dossier_drive"])
-    idees = [i for i in drive.idees() if etat.idee(i["id"])["statut"] in ("nouveau", "echec")
-             and etat.idee(i["id"])["tentatives"] < int(cfg["tentatives_max"])]
-    log(f"Instagram perso : {len(idees)} idée(s) en attente dans le Drive" + ("  [SIMULATION]" if simulation else ""))
-    if not idees:
-        log("⚠️ Instagram perso : plus aucune idée à publier — déposer de la matière dans le dossier Drive")
-        return True
-    idee = idees[0]
+    sujet = PAR_ID[sujet_id] if sujet_id else prochain(etat.sujets_publies())
+    log(f"Instagram perso : sujet « {sujet[2]} » ({CATEGORIES[sujet[1]]})" + ("  [SIMULATION]" if simulation else ""))
     if simulation:
-        log("    [simulation] prochain Reel : l'idée la plus ancienne du dossier")
         return True
 
-    ok = True
     with tempfile.TemporaryDirectory() as d:
         dossier = Path(d)
-        e = etat.idee(idee["id"])
         try:
-            matiere = rassembler(drive, idee, dossier, log)
-            if not matiere["photos"]:  # pas de photo dans l'idée : deux portraits du dossier _photos
-                import random
-                portraits = drive.portraits()
-                for f in random.Random(idee["id"]).sample(portraits, min(2, len(portraits))):
-                    matiere["photos"].append(drive.telecharger(f, dossier))
-            script = ecrire_script(cfg, matiere, log)
-            log(f"    📝 rubrique « {RUBRIQUES[script['rubrique']][0]} », {len(script['scenes'])} scènes")
-            nom = f"reel-perso-{maintenant.astimezone(ZoneInfo(cfg['fuseau_horaire'])).date().isoformat()}.mp4"
+            photos = portraits(cfg, dossier, f"{sujet[0]}-{jour}", journal=log)
+            script = ecrire_script(cfg, sujet, photos, log)
+            log(f"    📝 {len(script['scenes'])} scènes, {sum(len(s['dit']) for s in script['scenes'])} caractères dits")
+            nom = f"reel-perso-{jour.isoformat()}.mp4"
             if essai:
                 sortie_essai.mkdir(parents=True, exist_ok=True)
-                video = rendre(cfg, script, matiere["photos"], sortie_essai / nom, log, essai=True)
+                video = rendre(cfg, script, sujet, photos, sortie_essai / nom, log, essai=True)
                 (sortie_essai / "legende.txt").write_text(legende_finale(script), encoding="utf-8")
                 log(f"✅ Reel d'essai fabriqué : {video.name} (+ legende.txt), rien n'est publié")
                 return True
-            video = rendre(cfg, script, matiere["photos"], dossier / nom, log)
+            video = rendre(cfg, script, sujet, photos, dossier / nom, log)
             from .hebergement import mettre_en_ligne
-            jour = maintenant.astimezone(ZoneInfo(cfg["fuseau_horaire"])).date()
             url = mettre_en_ligne([video], jour)[video.name]
             pub = InstagramPerso(cfg, log)
-            legende = legende_finale(script)
-            res = pub.publier_reel(url, legende)
-            e.update(statut="publie", rubrique=script["rubrique"], url=res.url, media_id=res.id,
-                     date=datetime.now(timezone.utc).isoformat(timespec="seconds"))
-            etat.d["publications"].append({"jour": jour.isoformat(), "idee": idee["id"], "url": res.url, "rubrique": script["rubrique"]})
-            drive.marquer(idee, "[PUBLIÉ]", f"Publié le {jour.strftime('%d/%m/%Y')} : {res.url}\n\n{legende}")
+            res = pub.publier_reel(url, legende_finale(script))
+            etat.d["publications"].append({"jour": jour.isoformat(), "sujet": sujet[0], "url": res.url, "media_id": res.id})
+            etat.d["echecs"].pop(sujet[0], None)
             log(f"✅ Instagram perso — Reel publié : {res.url}")
             try:
                 pub.renouveler()
             except Exception as ex:
                 log(f"⚠️ Renouvellement du jeton Instagram : {ex}")
-        except ValueError as ex:  # matière inutilisable : on le dit dans le Drive et on passe à l'idée suivante
-            e.update(statut="ecarte", erreur=str(ex)[:300])
-            if not essai:
-                drive.marquer(idee, "[À COMPLÉTER]", f"Pas de Reel tiré de cette idée : {ex}")
-            log(f"⚠️ Instagram perso — idée écartée : {ex}")
+            return True
         except Exception as ex:
-            ok = False
-            e["tentatives"] = e.get("tentatives", 0) + 1
-            e.update(statut="echec", erreur=str(ex)[:500])
-            log(f"❌ Instagram perso (essai {e['tentatives']}) : {ex}")
-        if not essai:
-            etat.sauver()
-    return ok
+            if essai:
+                log(f"❌ Reel d'essai impossible : {ex}")
+                return False
+            n = etat.d["echecs"].get(sujet[0], 0) + 1
+            etat.d["echecs"][sujet[0]] = n
+            if n >= int(cfg["tentatives_max"]):  # sujet qui échoue toujours : on le saute pour ne pas bloquer la suite
+                etat.d["publications"].append({"jour": None, "sujet": sujet[0], "saute": str(ex)[:200]})
+            log(f"❌ Instagram perso (essai {n}) : {ex}")
+            return False
+        finally:
+            if not essai:
+                etat.sauver()
 
 
-__all__ = ["traiter_perso", "est_le_moment", "controler", "EtatPerso", "RUBRIQUES"]
+__all__ = ["traiter_perso", "est_le_moment", "controler", "EtatPerso", "fiche"]

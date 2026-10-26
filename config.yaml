@@ -100,10 +100,10 @@ lots:
   marge_minutes: 20
   ecart_minimum_minutes: 45
 
-# Compte Instagram personnel de Stéphane (commande : python -m agent perso). Reels sans visage filmé, tirés de la matière
-# qu'il dépose dans le dossier Drive « Instagram perso » (notes, photos, vocaux) ; connexion Instagram directe.
+# Compte Instagram de Stéphane (commande : python -m agent perso) : Reels « conseils et astuces psychologiques » de
+# 60 s et plus, sans visage filmé, un sujet du catalogue agent/perso_sujets.py par Reel ; connexion Instagram directe.
 perso:
-  dossier_drive: ""            # identifiant du dossier « Instagram perso » (partagé en Éditeur avec le compte de service)
+  dossier_drive: ""            # facultatif : dossier Drive dont le sous-dossier « _photos » contient des portraits de Stéphane
   publication: false           # false = rien n'est publié tant que Stéphane n'a pas validé un Reel d'essai
   jours: [lundi, mardi, jeudi, vendredi, dimanche]   # 5 Reels par semaine
   heure: "12:00"               # heure de Paris : publié au premier passage qui suit (aujourd'hui celui de 13 h 45)

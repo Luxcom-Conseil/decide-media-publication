@@ -18,7 +18,7 @@ const GRIS = "#A7A9B4";
 const VOIX_DEBUT = 6, VOIX_FIN = 9, FONDU = 8; // images
 
 export type ScenePerso = {
-  type: "photo" | "citation" | "texte" | "question" | "signature";
+  type: "photo" | "citation" | "texte" | "liste" | "question" | "signature";
   photo?: string; // chemin relatif à public/
   ecran?: string; // phrase affichée en grand (photo, texte) ou citation
   soustitre?: string; // texte dit par la voix
@@ -106,6 +106,27 @@ const Texte: React.FC<{ sc: ScenePerso }> = ({ sc }) => (
   </AbsoluteFill>
 );
 
+// « Titre : étape 1 | étape 2 | étape 3 » : les étapes arrivent une à une, numérotées
+const Liste: React.FC<{ sc: ScenePerso; long: number }> = ({ sc, long }) => {
+  const [titre, reste] = (sc.ecran ?? "").includes(":") ? [(sc.ecran ?? "").split(":")[0], (sc.ecran ?? "").split(":").slice(1).join(":")] : ["", sc.ecran ?? ""];
+  const etapes = reste.split("|").map((x) => x.trim().replace(/^\d+\s*[.)-]\s*/, "")).filter(Boolean); // la pastille numérote déjà
+  const pas = Math.max(8, Math.floor((long - 20) / Math.max(1, etapes.length)));
+  return (
+    <div style={{ position: "absolute", top: 300, left: 80, right: 80 }}>
+      {titre && <Entree><div style={{ fontFamily, fontWeight: 900, fontSize: 64, color: OR, marginBottom: 50 }}>{fr(titre.trim())}</div></Entree>}
+      {etapes.map((e, k) => (
+        <Entree key={k} delai={6 + k * pas}>
+          <div style={{ display: "flex", alignItems: "center", gap: 30, marginBottom: 44 }}>
+            <div style={{ minWidth: 90, height: 90, borderRadius: 45, background: OR, color: NUIT, fontFamily, fontWeight: 900, fontSize: 52,
+              display: "flex", alignItems: "center", justifyContent: "center" }}>{k + 1}</div>
+            <div style={{ fontFamily, fontWeight: 800, fontSize: e.length > 28 ? 52 : 60, lineHeight: 1.12, color: CREME }}>{fr(e)}</div>
+          </div>
+        </Entree>
+      ))}
+    </div>
+  );
+};
+
 const Question: React.FC<{ sc: ScenePerso }> = ({ sc }) => (
   <div style={{ position: "absolute", top: 340, left: 80, right: 80 }}>
     <Entree><div style={{ fontFamily: serif, fontSize: 200, color: OR, lineHeight: 1 }}>?</div></Entree>
@@ -170,6 +191,7 @@ export const PersoReel: React.FC<ScriptPerso> = (s) => {
             {p.sc.type === "photo" && (p.sc.photo ? <Photo sc={p.sc} i={p.i} long={p.longueur} /> : <Texte sc={p.sc} />)}
             {p.sc.type === "citation" && <Citation sc={p.sc} />}
             {p.sc.type === "texte" && <Texte sc={p.sc} />}
+            {p.sc.type === "liste" && <Liste sc={p.sc} long={p.longueur} />}
             {p.sc.type === "question" && <Question sc={p.sc} />}
             {p.sc.type === "signature" && <Signature s={s} />}
           </AbsoluteFill>
