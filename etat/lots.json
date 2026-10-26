@@ -3007,9 +3007,9 @@
     "x_buffer": {
       "erreur": "buffer x_buffer : Invalid post: Twitter / X posts cannot exceed 280 characters.",
       "lot": "2026-10-26",
-      "maj": "2026-10-26T09:55:44+00:00",
+      "maj": "2026-10-26T10:35:39+00:00",
       "statut": "echec",
-      "tentatives": 2,
+      "tentatives": 3,
       "titre": "Les salaires reviennent sur la table dans l’industrie camerounaise. Les fiches de paie attendent encore un accord."
     },
     "youtube": {
