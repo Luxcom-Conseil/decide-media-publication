@@ -1,4 +1,5 @@
-"""Script pédagogique d'un Short (gabarit V2), écrit par Claude à partir de l'article du lot.
+"""Script pédagogique d'un Short (gabarit V2), écrit par une IA à partir de l'article du lot : Gemini (offre gratuite
+de Google, clé GEMINI_API_KEY) par défaut, ou Claude (clé ANTHROPIC_API_KEY) si config video.ia = claude.
 
 Le script est contrôlé avant usage : aucun chiffre absent de l'article, longueurs tenues, dessins connus.
 Il est conservé dans etat/scripts/<id>.json : même script pour tous les réseaux et tous les passages, et trace de
@@ -127,14 +128,38 @@ def controler(script: dict, article: dict) -> list[str]:
     return problemes
 
 
-def _demander(article: dict, cfg: dict, remarques: list[str]) -> dict:
-    import anthropic
-
+def _message(article: dict, remarques: list[str]) -> str:
     corps = article.get("body") or article.get("post_text", "")
     message = (f"<article>\nTitre : {article.get('title', '')}\nPays : {article.get('country') or ''}\n\n{corps}\n</article>\n\n"
                "Écris le script de la vidéo pour cet article.")
     if remarques:
         message += "\n\nTa version précédente a été refusée pour ces raisons, corrige-les :\n- " + "\n- ".join(remarques)
+    return message
+
+
+def _demander_gemini(article: dict, cfg: dict, remarques: list[str]) -> dict:
+    """Gemini (offre gratuite de Google AI Studio), clé GEMINI_API_KEY."""
+    import requests
+
+    modele = (cfg.get("video") or {}).get("modele_gemini", "gemini-3.8-flash")
+    r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modele}:generateContent", timeout=180,
+                      headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+                      json={"systemInstruction": {"parts": [{"text": SYSTEME}]},
+                            "contents": [{"role": "user", "parts": [{"text": _message(article, remarques)}]}],
+                            "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": SCHEMA}})
+    if r.status_code != 200:
+        raise RuntimeError(f"Gemini {r.status_code} : {r.text[:300]}")
+    candidat = (r.json().get("candidates") or [{}])[0]
+    if candidat.get("finishReason") not in (None, "STOP"):
+        raise RuntimeError(f"réponse Gemini inutilisable (finishReason={candidat.get('finishReason')})")
+    return json.loads("".join(p.get("text", "") for p in candidat["content"]["parts"]))
+
+
+def _demander(article: dict, cfg: dict, remarques: list[str]) -> dict:
+    if (cfg.get("video") or {}).get("ia", "gemini") == "gemini":
+        return _demander_gemini(article, cfg, remarques)
+    import anthropic
+
     reponse = anthropic.Anthropic().beta.messages.create(
         model=cfg["ia"]["modele"],
         max_tokens=16000,
@@ -142,7 +167,7 @@ def _demander(article: dict, cfg: dict, remarques: list[str]) -> dict:
         extra_body={"fallbacks": "default"},  # bascule automatique si le modèle décline la demande
         output_config={"effort": cfg["ia"].get("effort", "medium"), "format": {"type": "json_schema", "schema": SCHEMA}},
         system=SYSTEME,
-        messages=[{"role": "user", "content": message}],
+        messages=[{"role": "user", "content": _message(article, remarques)}],
     )
     if reponse.stop_reason in ("refusal", "max_tokens"):
         raise RuntimeError(f"réponse IA inutilisable (stop_reason={reponse.stop_reason})")
@@ -169,7 +194,8 @@ def script_pour(article: dict, cfg: dict, journal=print) -> dict | None:
     fichier = SCRIPTS / f"{article.get('id', 'article')}.json"
     if fichier.exists():
         return json.loads(fichier.read_text(encoding="utf-8"))
-    if not (cfg["ia"].get("active") and os.environ.get("ANTHROPIC_API_KEY")):
+    ia = (cfg.get("video") or {}).get("ia", "gemini")
+    if not os.environ.get("GEMINI_API_KEY" if ia == "gemini" else "ANTHROPIC_API_KEY"):
         return None
     remarques: list[str] = []
     for _ in range(2):  # une seconde chance, avec les remarques du contrôle
@@ -182,7 +208,8 @@ def script_pour(article: dict, cfg: dict, journal=print) -> dict | None:
         if not remarques:
             script = _en_scenes(ecrit)
             SCRIPTS.mkdir(parents=True, exist_ok=True)
-            fichier.write_text(json.dumps({**script, "_article": article.get("id"), "_modele": cfg["ia"]["modele"]},
+            modele = (cfg.get("video") or {}).get("modele_gemini", "gemini-3.8-flash") if ia == "gemini" else cfg["ia"]["modele"]
+            fichier.write_text(json.dumps({**script, "_article": article.get("id"), "_modele": modele},
                                           ensure_ascii=False, indent=2), encoding="utf-8")
             return script
     journal("⚠️ Script vidéo IA refusé au contrôle (" + " ; ".join(remarques)[:300] + ") : Short construit sans IA")

@@ -38,10 +38,13 @@ youtube:
   categorie_lots: "25"        # Shorts DECIDE MEDIA : 25 = Actualités et politique
   modele_valide: true         # modèle motion design validé par Stéphane le 21/10/2026 (sans voix, mélodie 10 %)
 
-# Gabarit des Shorts : v1 = modèle validé le 21/10 ; v2 = pédagogique (script simplifié écrit par Claude, dessins
-# animés, sous-titres), qui demande le secret ANTHROPIC_API_KEY (sans lui, v2 découpe l'article sans IA).
+# Gabarit des Shorts : v1 = modèle validé le 21/10 ; v2 = pédagogique (script simplifié écrit par une IA, dessins
+# animés, sous-titres). IA : gemini (gratuit, secret GEMINI_API_KEY) ou claude (payant, secret ANTHROPIC_API_KEY).
+# Sans clé, quota épuisé ou script refusé au contrôle, v2 découpe l'article sans IA : la publication continue.
 video:
   gabarit: v1
+  ia: gemini
+  modele_gemini: gemini-3.8-flash
 
 # Voix off des Shorts : Google Text-to-Speech (projet Google Cloud du compte de service Drive, API Text-to-Speech activée).
 # Chirp 3 HD : 1 million de caractères gratuits par mois. Au plafond, les Shorts sortent sans voix jusqu'au mois suivant.
