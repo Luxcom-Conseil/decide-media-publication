@@ -7,8 +7,8 @@ import { GabaritV2, dureeTotaleV2, type ScriptV2 } from "./GabaritV2";
 import { PersoReel, dureeTotalePerso, type ScriptPerso } from "./PersoReel";
 
 const exempleV2: ScriptV2 = { rubrique: "ANALYSE", titre: "Titre d'exemple", image: "lavage.png", scenes: [{ type: "visuel", duree: 3 }] };
-const exemplePerso: ScriptPerso = { rubrique: "Carnet d'écrivain", titre: "Exemple", nom: "Stéphane Nzesseu", compte: "@stephane_nzesseu",
-  scenes: [{ type: "citation", ecran: "Écrire, c'est se souvenir à voix haute.", duree: 4 }, { type: "signature", duree: 3 }] };
+const exemplePerso: ScriptPerso = { rubrique: "Les pièges du cerveau", titre: "Exemple", nom: "Stéphane Nzesseu", compte: "@stephane_nzesseu",
+  scenes: [{ type: "accroche", emoji: "😱", ecran: "Pourquoi tu *détestes* perdre ?", duree: 3 }, { type: "signature", duree: 3 }] };
 
 export const Root: React.FC = () => (
   <>

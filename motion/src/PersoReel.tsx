@@ -1,9 +1,10 @@
-// Reel du compte Instagram personnel de Stéphane (27/10/2026) : sans visage filmé, ses photos et ses mots.
-// Scènes : photo (diaporama lent sur une de ses photos), citation (phrase en italique), texte (idée clé),
-// question (fin, invite au commentaire), signature (nom + compte). Sous-titres calés sur la voix.
-// Zones (1080×1920) : en-tête 60–200, contenu 240–1180, sous-titres 1230–1450, bas libre (interface Instagram).
+// Reel « conseils et astuces psychologiques » du compte Instagram de Stéphane (v2, 27/10/2026).
+// Rythme : une scène courte par idée, entrée en « punch » (zoom + flash), émoji animé, texte cinétique mot à mot avec
+// mots clés en or, sous-titres karaoké, fond animé ou vidéo/photo réaliste (Pexels) assombrie.
+// Zones sûres Instagram (1080×1920) : rien d'important au-dessus de 230, en dessous de 1400, ni dans les 150 px de
+// droite (boutons). En-tête 250, émoji 360–560, texte 600–1080, sous-titres 1130–1330.
 import React from "react";
-import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { loadFont } from "@remotion/google-fonts/Montserrat";
 import { loadFont as loadLora } from "@remotion/google-fonts/Lora";
 
@@ -11,26 +12,30 @@ const { fontFamily } = loadFont("normal", { weights: ["600", "700", "800", "900"
 const { fontFamily: serif } = loadLora("italic", { weights: ["500", "700"], subsets: ["latin", "latin-ext"] });
 
 export const FPS = 30;
-const NUIT = "#10131C";
-const CREME = "#F6F1E7";
-const OR = "#E8B04B";
-const GRIS = "#A7A9B4";
-const VOIX_DEBUT = 6, VOIX_FIN = 9, FONDU = 8; // images
+const NUIT = "#0F1020";
+const VIOLET = "#2A1E4D";
+const CREME = "#FFF8EC";
+const OR = "#FFC23D";
+const CORAIL = "#FF6B5A";
+const VOIX_DEBUT = 3, VOIX_FIN = 5; // images : rythme serré
+const G = 70, D = 150; // marges gauche / droite (boutons Instagram à droite)
 
 export type ScenePerso = {
-  type: "photo" | "citation" | "texte" | "liste" | "question" | "signature";
-  photo?: string; // chemin relatif à public/
-  ecran?: string; // phrase affichée en grand (photo, texte) ou citation
-  soustitre?: string; // texte dit par la voix
+  type: "accroche" | "texte" | "liste" | "comparaison" | "citation" | "question" | "signature";
+  emoji?: string;
+  ecran?: string; // *mot clé* en or
+  a?: string; b?: string; valeur_a?: number; valeur_b?: number; // comparaison
+  media?: { src: string; video: boolean };
+  soustitre?: string;
   voix?: { src: string; duree: number };
-  duree?: number; // secondes, sans voix
+  duree?: number;
 };
 
 export type ScriptPerso = {
   rubrique: string;
   titre: string;
-  nom: string; // « Stéphane Nzesseu »
-  compte: string; // « @stephane_nzesseu »
+  nom: string;
+  compte: string;
   scenes: ScenePerso[];
   musique?: string;
   volume_musique?: number;
@@ -47,132 +52,221 @@ export const dureeTotalePerso = (s: ScriptPerso) => plan(s).total;
 
 const fr = (t: string) => t.replace(/ ([?!:;»])/g, " $1").replace(/« /g, "« ");
 
-const Entree: React.FC<{ delai?: number; children: React.ReactNode }> = ({ delai = 0, children }) => {
+// « Tu *détestes* perdre » → [["Tu", false], ["détestes", true], ["perdre", false]]
+function motsCles(t: string): [string, boolean][] {
+  const out: [string, boolean][] = [];
+  let cle = false;
+  for (const m of fr(t).split(" ").filter(Boolean)) {
+    const debut = m.startsWith("*"), fin = m.replace(/[.,!?:;»]+$/, "").endsWith("*");
+    out.push([m.replace(/\*/g, ""), cle || debut]);
+    if (debut && !fin) cle = true;
+    if (fin) cle = false;
+  }
+  return out;
+}
+
+// ---------------------------------------------------------------- fond
+const Fond: React.FC = () => {
   const f = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const p = spring({ frame: f - delai, fps, config: { damping: 20, stiffness: 120, mass: 0.8 } });
-  return <div style={{ transform: `translateY(${(1 - p) * 30}px)`, opacity: p }}>{children}</div>;
+  const bulle = (x: number, y: number, r: number, c: string, v: number) => (
+    <div style={{ position: "absolute", left: x + Math.sin(f / v) * 120, top: y + Math.cos(f / (v * 1.3)) * 140, width: r, height: r,
+      borderRadius: r, background: c, filter: "blur(120px)", opacity: 0.55 }} />
+  );
+  return (
+    <AbsoluteFill style={{ background: `linear-gradient(160deg, ${NUIT} 0%, ${VIOLET} 100%)`, overflow: "hidden" }}>
+      {bulle(-200, 200, 700, "#6C3BFF", 70)}
+      {bulle(600, 1100, 650, CORAIL, 90)}
+      {bulle(300, 600, 500, OR, 110)}
+    </AbsoluteFill>
+  );
 };
 
-const Entete: React.FC<{ s: ScriptPerso }> = ({ s }) => (
-  <div style={{ position: "absolute", top: 70, left: 60, right: 60, display: "flex", alignItems: "center", gap: 20 }}>
-    <div style={{ border: `3px solid ${OR}`, color: OR, fontFamily, fontWeight: 800, fontSize: 26, letterSpacing: 3, padding: "8px 18px", borderRadius: 40 }}>
-      {s.rubrique.toUpperCase()}
-    </div>
-    <div style={{ flex: 1 }} />
-    <div style={{ color: CREME, fontFamily, fontWeight: 700, fontSize: 28, letterSpacing: 4 }}>{s.nom.toUpperCase()}</div>
-  </div>
-);
-
-// photo de Stéphane : plein cadre dans la zone de contenu, zoom lent, dégradé en bas pour la phrase
-const Photo: React.FC<{ sc: ScenePerso; i: number; long: number }> = ({ sc, i, long }) => {
+const Media: React.FC<{ m: NonNullable<ScenePerso["media"]>; long: number }> = ({ m, long }) => {
   const f = useCurrentFrame();
-  const zoom = interpolate(f, [0, long], i % 2 ? [1.12, 1.02] : [1.02, 1.12]);
-  const glisse = interpolate(f, [0, long], i % 3 === 1 ? [-20, 20] : [20, -20]);
+  const zoom = interpolate(f, [0, long], [1.05, 1.18]);
+  const style: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", transform: `scale(${zoom})` };
   return (
-    <div style={{ position: "absolute", top: 230, left: 50, right: 50, height: 960, borderRadius: 28, overflow: "hidden" }}>
-      <Img src={staticFile(sc.photo!)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 30%",
-        transform: `scale(${zoom}) translateX(${glisse}px)` }} />
-      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(16,19,28,0) 45%, rgba(16,19,28,0.92) 100%)" }} />
-      {sc.ecran && <div style={{ position: "absolute", left: 50, right: 50, bottom: 50 }}>
-        <Entree delai={6}><div style={{ fontFamily, fontWeight: 900, fontSize: sc.ecran.length > 30 ? 60 : 72, lineHeight: 1.1, color: CREME }}>{fr(sc.ecran)}</div></Entree>
-        <Entree delai={10}><div style={{ height: 8, width: 160, background: OR, borderRadius: 4, marginTop: 24 }} /></Entree>
-      </div>}
+    <AbsoluteFill>
+      {m.video ? <OffthreadVideo src={staticFile(m.src)} muted style={style} /> : <Img src={staticFile(m.src)} style={style} />}
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(15,16,32,0.55) 0%, rgba(15,16,32,0.35) 35%, rgba(15,16,32,0.85) 75%)" }} />
+    </AbsoluteFill>
+  );
+};
+
+// ---------------------------------------------------------------- éléments
+const Pop: React.FC<{ delai?: number; children: React.ReactNode; style?: React.CSSProperties }> = ({ delai = 0, children, style }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const p = spring({ frame: f - delai, fps, config: { damping: 11, stiffness: 180, mass: 0.6 } });
+  return <div style={{ transform: `scale(${0.4 + 0.6 * p})`, opacity: Math.min(1, p * 1.5), ...style }}>{children}</div>;
+};
+
+const Emoji: React.FC<{ e?: string; taille?: number }> = ({ e, taille = 190 }) => {
+  const f = useCurrentFrame();
+  if (!e) return null;
+  return (
+    <div style={{ position: "absolute", top: 350, left: G, right: D, display: "flex", justifyContent: "center" }}>
+      <Pop><div style={{ fontSize: taille, lineHeight: 1, transform: `rotate(${Math.sin(f / 6) * 6}deg) translateY(${Math.sin(f / 9) * 10}px)`,
+        filter: "drop-shadow(0 12px 30px rgba(0,0,0,0.45))" }}>{e}</div></Pop>
     </div>
+  );
+};
+
+// texte cinétique : chaque mot arrive en ressort, les mots clés en or sur un surligneur
+const Cinetique: React.FC<{ texte: string; taille: number; top: number; pas?: number }> = ({ texte, taille, top, pas = 3 }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  return (
+    <div style={{ position: "absolute", top, left: G, right: D, textAlign: "center", fontFamily, fontWeight: 900, fontSize: taille,
+      lineHeight: 1.12, color: CREME, textShadow: "0 6px 24px rgba(0,0,0,0.5)" }}>
+      {motsCles(texte).map(([m, cle], k) => {
+        const p = spring({ frame: f - 2 - k * pas, fps, config: { damping: 12, stiffness: 200, mass: 0.5 } });
+        return (
+          <span key={k} style={{ display: "inline-block", marginRight: taille * 0.25, transform: `translateY(${(1 - p) * 40}px) scale(${0.7 + 0.3 * p})`,
+            opacity: p, color: cle ? NUIT : CREME, background: cle ? OR : "transparent", padding: cle ? "0 14px" : 0, borderRadius: 10 }}>{m}</span>
+        );
+      })}
+    </div>
+  );
+};
+
+const Accroche: React.FC<{ sc: ScenePerso }> = ({ sc }) => {
+  const f = useCurrentFrame();
+  const secousse = f < 12 ? Math.sin(f * 2.2) * (12 - f) : 0;
+  return (
+    <div style={{ transform: `translateX(${secousse}px)` }}>
+      <Emoji e={sc.emoji} taille={230} />
+      <Cinetique texte={sc.ecran ?? ""} taille={(sc.ecran ?? "").length > 40 ? 84 : 100} top={640} pas={4} />
+    </div>
+  );
+};
+
+const Liste: React.FC<{ sc: ScenePerso; long: number }> = ({ sc, long }) => {
+  const brut = sc.ecran ?? "";
+  const [titre, reste] = brut.includes(":") ? [brut.split(":")[0], brut.split(":").slice(1).join(":")] : ["", brut];
+  const etapes = reste.split("|").map((x) => x.trim().replace(/^\d+\s*[.)-]\s*/, "")).filter(Boolean);
+  const pas = Math.max(8, Math.floor((long - 15) / Math.max(1, etapes.length)));
+  return (
+    <>
+      {titre && <Cinetique texte={titre.trim()} taille={64} top={330} />}
+      <div style={{ position: "absolute", top: 520, left: G, right: D }}>
+        {etapes.map((e, k) => (
+          <Pop key={k} delai={6 + k * pas} style={{ transformOrigin: "left center" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 26, marginBottom: 36, background: "rgba(255,248,236,0.10)",
+              border: "2px solid rgba(255,248,236,0.18)", borderRadius: 24, padding: "22px 26px" }}>
+              <div style={{ minWidth: 84, height: 84, borderRadius: 42, background: OR, color: NUIT, fontFamily, fontWeight: 900, fontSize: 50,
+                display: "flex", alignItems: "center", justifyContent: "center" }}>{k + 1}</div>
+              <div style={{ fontFamily, fontWeight: 800, fontSize: e.length > 26 ? 46 : 54, lineHeight: 1.12, color: CREME }}>{fr(e)}</div>
+            </div>
+          </Pop>
+        ))}
+      </div>
+    </>
+  );
+};
+
+// deux barres qui montent : « Perdre 100 » vs « Gagner 100 », valeurs relatives
+const Comparaison: React.FC<{ sc: ScenePerso }> = ({ sc }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const va = Math.max(0.1, sc.valeur_a ?? 1), vb = Math.max(0.1, sc.valeur_b ?? 1), max = Math.max(va, vb);
+  const barre = (lib: string, v: number, c: string, k: number) => {
+    const p = spring({ frame: f - 6 - k * 6, fps, config: { damping: 14, stiffness: 90 } });
+    return (
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-end", width: 300, height: 560 }}>
+        <div style={{ fontFamily, fontWeight: 900, fontSize: 56, color: c, marginBottom: 14, opacity: p }}>{`×${Math.round(v * 10) / 10}`}</div>
+        <div style={{ width: 220, height: 420 * (v / max) * p, background: c, borderRadius: "22px 22px 6px 6px", boxShadow: `0 0 40px ${c}88` }} />
+        <div style={{ fontFamily, fontWeight: 800, fontSize: 42, color: CREME, marginTop: 20, textAlign: "center" }}>{lib}</div>
+      </div>
+    );
+  };
+  return (
+    <>
+      {sc.ecran && <Cinetique texte={sc.ecran} taille={60} top={300} />}
+      <div style={{ position: "absolute", top: 470, left: G, right: D, display: "flex", justifyContent: "space-around", alignItems: "flex-end" }}>
+        {barre(sc.a ?? "A", va, CORAIL, 0)}
+        {barre(sc.b ?? "B", vb, OR, 1)}
+      </div>
+    </>
   );
 };
 
 const Citation: React.FC<{ sc: ScenePerso }> = ({ sc }) => {
   const f = useCurrentFrame();
-  const mots = fr(sc.ecran ?? "").split(" ");
-  const taille = (sc.ecran ?? "").length > 90 ? 64 : (sc.ecran ?? "").length > 50 ? 76 : 92;
+  const mots = fr(sc.ecran ?? "").replace(/\*/g, "").split(" ");
+  const taille = (sc.ecran ?? "").length > 80 ? 66 : 80;
   return (
-    <div style={{ position: "absolute", top: 300, left: 90, right: 90 }}>
-      <Entree><div style={{ fontFamily: serif, fontSize: 260, color: OR, lineHeight: 0.8, height: 170 }}>“</div></Entree>
-      <div style={{ fontFamily: serif, fontStyle: "italic", fontWeight: 500, fontSize: taille, lineHeight: 1.22, color: CREME }}>
+    <div style={{ position: "absolute", top: 380, left: G + 20, right: D }}>
+      <Pop><div style={{ fontFamily: serif, fontSize: 240, color: OR, lineHeight: 0.8, height: 150 }}>“</div></Pop>
+      <div style={{ fontFamily: serif, fontStyle: "italic", fontWeight: 700, fontSize: taille, lineHeight: 1.2, color: CREME }}>
         {mots.map((m, k) => (
-          <span key={k} style={{ opacity: interpolate(f, [8 + k * 3, 14 + k * 3], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>{m} </span>
+          <span key={k} style={{ opacity: interpolate(f, [6 + k * 2, 11 + k * 2], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>{m} </span>
         ))}
       </div>
     </div>
   );
 };
 
-const Texte: React.FC<{ sc: ScenePerso }> = ({ sc }) => (
-  <AbsoluteFill style={{ top: 230, height: 960, justifyContent: "center", padding: "0 80px" }}>
-    <Entree><div style={{ height: 10, width: 120, background: OR, borderRadius: 5, marginBottom: 40 }} /></Entree>
-    <Entree delai={4}><div style={{ fontFamily, fontWeight: 900, fontSize: (sc.ecran ?? "").length > 34 ? 78 : 96, lineHeight: 1.08, color: CREME }}>
-      {fr(sc.ecran ?? "")}</div></Entree>
+const Question: React.FC<{ sc: ScenePerso }> = ({ sc }) => (
+  <>
+    <Emoji e={sc.emoji ?? "💬"} taille={200} />
+    <Cinetique texte={sc.ecran ?? ""} taille={(sc.ecran ?? "").length > 60 ? 64 : 76} top={620} />
+    <div style={{ position: "absolute", top: 1180, left: G, right: D, display: "flex", justifyContent: "center" }}>
+      <Pop delai={14}><div style={{ background: OR, color: NUIT, fontFamily, fontWeight: 900, fontSize: 44, padding: "18px 34px",
+        borderRadius: 50 }}>Réponds en commentaire 👇</div></Pop>
+    </div>
+  </>
+);
+
+const Signature: React.FC<{ s: ScriptPerso }> = ({ s }) => (
+  <AbsoluteFill style={{ top: 300, height: 900, alignItems: "center", justifyContent: "center", textAlign: "center", paddingRight: D - G }}>
+    <Pop><div style={{ fontSize: 150 }}>🧠</div></Pop>
+    <Pop delai={4}><div style={{ fontFamily: serif, fontStyle: "italic", fontWeight: 700, fontSize: 96, color: CREME, marginTop: 20 }}>{s.nom}</div></Pop>
+    <Pop delai={8}><div style={{ fontFamily, fontWeight: 800, fontSize: 46, color: OR, marginTop: 20 }}>Abonne-toi : {s.compte}</div></Pop>
   </AbsoluteFill>
 );
 
-// « Titre : étape 1 | étape 2 | étape 3 » : les étapes arrivent une à une, numérotées
-const Liste: React.FC<{ sc: ScenePerso; long: number }> = ({ sc, long }) => {
-  const [titre, reste] = (sc.ecran ?? "").includes(":") ? [(sc.ecran ?? "").split(":")[0], (sc.ecran ?? "").split(":").slice(1).join(":")] : ["", sc.ecran ?? ""];
-  const etapes = reste.split("|").map((x) => x.trim().replace(/^\d+\s*[.)-]\s*/, "")).filter(Boolean); // la pastille numérote déjà
-  const pas = Math.max(8, Math.floor((long - 20) / Math.max(1, etapes.length)));
+// sous-titres karaoké : 4 mots au plus, le mot prononcé en or
+const SousTitres: React.FC<{ sc: ScenePerso }> = ({ sc }) => {
+  const f = useCurrentFrame();
+  if (!sc.voix || !sc.soustitre || ["citation", "question", "signature"].includes(sc.type)) return null;
+  const mots = fr(sc.soustitre).split(/ +/).filter(Boolean);
+  const total = mots.reduce((n, m) => n + m.length + 1, 0);
+  const images = sc.voix.duree * FPS;
+  let t = VOIX_DEBUT, actuel = mots.length - 1;
+  for (let k = 0; k < mots.length; k++) { t += images * (mots[k].length + 1) / total; if (f < t) { actuel = k; break; } }
+  if (f < VOIX_DEBUT) return null;
+  const debut = Math.floor(actuel / 4) * 4;
   return (
-    <div style={{ position: "absolute", top: 300, left: 80, right: 80 }}>
-      {titre && <Entree><div style={{ fontFamily, fontWeight: 900, fontSize: 64, color: OR, marginBottom: 50 }}>{fr(titre.trim())}</div></Entree>}
-      {etapes.map((e, k) => (
-        <Entree key={k} delai={6 + k * pas}>
-          <div style={{ display: "flex", alignItems: "center", gap: 30, marginBottom: 44 }}>
-            <div style={{ minWidth: 90, height: 90, borderRadius: 45, background: OR, color: NUIT, fontFamily, fontWeight: 900, fontSize: 52,
-              display: "flex", alignItems: "center", justifyContent: "center" }}>{k + 1}</div>
-            <div style={{ fontFamily, fontWeight: 800, fontSize: e.length > 28 ? 52 : 60, lineHeight: 1.12, color: CREME }}>{fr(e)}</div>
-          </div>
-        </Entree>
+    <div style={{ position: "absolute", top: 1150, left: G, right: D, display: "flex", justifyContent: "center", flexWrap: "wrap",
+      gap: "6px 22px", fontFamily, fontWeight: 900, fontSize: 58, lineHeight: 1.15, textAlign: "center",
+      textShadow: "0 4px 0 #000, 0 0 18px rgba(0,0,0,0.8)" }}>
+      {mots.slice(debut, debut + 4).map((m, k) => (
+        <span key={k} style={{ color: debut + k === actuel ? OR : CREME, transform: `scale(${debut + k === actuel ? 1.1 : 1})`,
+          display: "inline-block" }}>{m}</span>
       ))}
     </div>
   );
 };
 
-const Question: React.FC<{ sc: ScenePerso }> = ({ sc }) => (
-  <div style={{ position: "absolute", top: 340, left: 80, right: 80 }}>
-    <Entree><div style={{ fontFamily: serif, fontSize: 200, color: OR, lineHeight: 1 }}>?</div></Entree>
-    <Entree delai={4}><div style={{ fontFamily, fontWeight: 900, fontSize: 70, color: CREME, lineHeight: 1.12, marginTop: 20 }}>{fr(sc.ecran ?? "")}</div></Entree>
-    <Entree delai={10}><div style={{ display: "inline-block", marginTop: 50, border: `3px solid ${OR}`, color: OR, fontFamily, fontWeight: 800,
-      fontSize: 40, padding: "14px 28px", borderRadius: 40 }}>Dis-le moi en commentaire</div></Entree>
+const Entete: React.FC<{ s: ScriptPerso }> = ({ s }) => (
+  <div style={{ position: "absolute", top: 250, left: G, right: D, display: "flex", justifyContent: "center" }}>
+    <div style={{ background: "rgba(15,16,32,0.6)", border: `2px solid ${OR}`, color: OR, fontFamily, fontWeight: 800, fontSize: 26,
+      letterSpacing: 3, padding: "8px 20px", borderRadius: 40 }}>{s.rubrique.toUpperCase()}</div>
   </div>
 );
 
-const Signature: React.FC<{ s: ScriptPerso }> = ({ s }) => (
-  <AbsoluteFill style={{ top: 230, height: 960, alignItems: "center", justifyContent: "center", textAlign: "center" }}>
-    <Entree><div style={{ fontFamily: serif, fontStyle: "italic", fontWeight: 700, fontSize: 110, color: CREME }}>{s.nom}</div></Entree>
-    <Entree delai={5}><div style={{ height: 6, width: 200, background: OR, borderRadius: 3, margin: "30px auto" }} /></Entree>
-    <Entree delai={8}><div style={{ fontFamily, fontWeight: 700, fontSize: 44, color: OR, letterSpacing: 2 }}>{s.compte}</div></Entree>
-  </AbsoluteFill>
-);
-
-function blocs(texte: string): string[][] {
-  const mots = texte.split(/ +/).filter(Boolean);
-  const out: string[][] = [];
-  let bloc: string[] = [];
-  mots.forEach((m, k) => {
-    bloc.push(m);
-    const reste = mots.length - k - 1;
-    if ((bloc.length >= 5 && /[,.;:!?]$/.test(m) && reste >= 3) || (bloc.length >= 7 && reste >= 3) || bloc.length >= 8) {
-      out.push(bloc); bloc = [];
-    }
-  });
-  if (bloc.length) { if (bloc.length < 3 && out.length) out[out.length - 1].push(...bloc); else out.push(bloc); }
-  return out;
-}
-
-const SousTitres: React.FC<{ sc: ScenePerso }> = ({ sc }) => {
+// entrée de scène : zoom « punch » + flash blanc bref
+const Punch: React.FC<{ children: React.ReactNode; long: number }> = ({ children, long }) => {
   const f = useCurrentFrame();
-  if (!sc.voix || !sc.soustitre || sc.type === "citation") return null; // la citation est déjà le texte dit
-  const b = blocs(fr(sc.soustitre));
-  const total = b.reduce((n, x) => n + x.join(" ").length, 0);
-  const images = sc.voix.duree * FPS;
-  let t = VOIX_DEBUT, actif = b.length - 1;
-  for (let k = 0; k < b.length; k++) { t += images * b[k].join(" ").length / total; if (f < t) { actif = k; break; } }
-  if (f < VOIX_DEBUT) return null;
+  const { fps } = useVideoConfig();
+  const p = spring({ frame: f, fps, config: { damping: 14, stiffness: 160 } });
+  const sortie = interpolate(f, [long - 4, long], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <div style={{ position: "absolute", top: 1240, left: 60, right: 60, height: 210, display: "flex", alignItems: "center", justifyContent: "center" }}>
-      <div style={{ background: "rgba(246,241,231,0.95)", borderRadius: 14, padding: "14px 26px", textAlign: "center", fontFamily, fontWeight: 800,
-        fontSize: 50, lineHeight: 1.18, color: NUIT }}>{b[actif].join(" ")}</div>
-    </div>
+    <AbsoluteFill style={{ transform: `scale(${1.12 - 0.12 * p})`, opacity: sortie }}>
+      {children}
+      <AbsoluteFill style={{ background: CREME, opacity: interpolate(f, [0, 4], [0.35, 0], { extrapolateRight: "clamp" }), pointerEvents: "none" }} />
+    </AbsoluteFill>
   );
 };
 
@@ -181,29 +275,31 @@ export const PersoReel: React.FC<ScriptPerso> = (s) => {
   const f = useCurrentFrame();
   const parole = scenes.filter((p) => p.sc.voix).map((p) => [p.debut + VOIX_DEBUT, p.debut + VOIX_DEBUT + Math.ceil(p.sc.voix!.duree * FPS)]);
   const attenuation = (x: number) => Math.min(1, ...parole.map(([a, b]) =>
-    interpolate(x, [a - 8, a, b, b + 8], [1, 0.3, 0.3, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })));
+    interpolate(x, [a - 8, a, b, b + 8], [1, 0.35, 0.35, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })));
   return (
     <AbsoluteFill style={{ backgroundColor: NUIT, fontFamily }}>
+      <Fond />
       {scenes.map((p) => (
         <Sequence key={p.i} from={p.debut} durationInFrames={p.longueur}>
-          <AbsoluteFill style={{ opacity: interpolate(f - p.debut, [0, FONDU, p.longueur - FONDU, p.longueur], [0, 1, 1, 0],
-            { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-            {p.sc.type === "photo" && (p.sc.photo ? <Photo sc={p.sc} i={p.i} long={p.longueur} /> : <Texte sc={p.sc} />)}
-            {p.sc.type === "citation" && <Citation sc={p.sc} />}
-            {p.sc.type === "texte" && <Texte sc={p.sc} />}
+          {p.sc.media && <Media m={p.sc.media} long={p.longueur} />}
+          <Punch long={p.longueur}>
+            {p.sc.type === "accroche" && <Accroche sc={p.sc} />}
+            {p.sc.type === "texte" && <><Emoji e={p.sc.emoji} /><Cinetique texte={p.sc.ecran ?? ""} taille={(p.sc.ecran ?? "").length > 34 ? 74 : 88} top={640} /></>}
             {p.sc.type === "liste" && <Liste sc={p.sc} long={p.longueur} />}
+            {p.sc.type === "comparaison" && <Comparaison sc={p.sc} />}
+            {p.sc.type === "citation" && <Citation sc={p.sc} />}
             {p.sc.type === "question" && <Question sc={p.sc} />}
             {p.sc.type === "signature" && <Signature s={s} />}
-          </AbsoluteFill>
+          </Punch>
           <SousTitres sc={p.sc} />
           {p.sc.voix && <Sequence from={VOIX_DEBUT}><Audio src={staticFile(p.sc.voix.src)} /></Sequence>}
         </Sequence>
       ))}
       <Entete s={s} />
-      <div style={{ position: "absolute", top: 0, left: 0, height: 8, width: `${(f / total) * 100}%`, background: OR }} />
+      <div style={{ position: "absolute", top: 0, left: 0, height: 10, width: `${(f / total) * 100}%`, background: `linear-gradient(90deg, ${CORAIL}, ${OR})` }} />
       {s.musique && (
         <Audio src={staticFile(s.musique)} loop
-          volume={(x) => (s.volume_musique ?? 0.10) * attenuation(x) * interpolate(x, [0, 15, total - 30, total], [0, 1, 1, 0],
+          volume={(x) => (s.volume_musique ?? 0.12) * attenuation(x) * interpolate(x, [0, 15, total - 30, total], [0, 1, 1, 0],
             { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
       )}
     </AbsoluteFill>

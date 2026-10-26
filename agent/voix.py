@@ -101,6 +101,8 @@ def preparer(texte: str, lexique: list[tuple[str, str]] | None = None) -> str:
     t = re.sub(r"https?://\S+|#\w+", "", texte)
     t = re.sub(r"[\U0001F300-\U0001FAFF☀-➿]", "", t)
     t = t.replace("…", ".").replace("—", ",").replace("–", ",").replace("«", "").replace("»", "")
+    # apostrophe typographique : « de l’aversion » était lu « de la aversion » (vérifié le 27/10 par transcription)
+    t = re.sub(r"[’‘ʼ´`]", "'", t)
     t = normaliser(t)
     for mot, prononciation in (lexique if lexique is not None else _lexique()):
         t = t.replace(mot, prononciation)
