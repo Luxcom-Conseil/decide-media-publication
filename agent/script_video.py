@@ -154,15 +154,26 @@ def _message(article: dict, remarques: list[str]) -> str:
 
 
 def _demander_gemini(article: dict, cfg: dict, remarques: list[str]) -> dict:
-    """Gemini (offre gratuite de Google AI Studio), clé GEMINI_API_KEY."""
+    """Gemini (offre gratuite de Google AI Studio), clé GEMINI_API_KEY. Surcharge ou limite par minute (429, 500, 503) :
+    nouvel essai après une pause, puis le modèle de secours."""
+    import time
+
     import requests
 
-    modele = (cfg.get("video") or {}).get("modele_gemini", "gemini-3.8-flash")
-    r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modele}:generateContent", timeout=180,
-                      headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
-                      json={"systemInstruction": {"parts": [{"text": SYSTEME}]},
-                            "contents": [{"role": "user", "parts": [{"text": _message(article, remarques)}]}],
-                            "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": SCHEMA}})
+    v = cfg.get("video") or {}
+    modeles = [v.get("modele_gemini", "gemini-3.8-flash"), v.get("modele_gemini_secours", "gemini-3.6-flash")]
+    for modele in dict.fromkeys(modeles):
+        for pause in (0, 20, 60):
+            time.sleep(pause)
+            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modele}:generateContent", timeout=180,
+                              headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+                              json={"systemInstruction": {"parts": [{"text": SYSTEME}]},
+                                    "contents": [{"role": "user", "parts": [{"text": _message(article, remarques)}]}],
+                                    "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": SCHEMA}})
+            if r.status_code not in (429, 500, 503):
+                break
+        if r.status_code == 200:
+            break
     if r.status_code != 200:
         raise RuntimeError(f"Gemini {r.status_code} : {r.text[:300]}")
     candidat = (r.json().get("candidates") or [{}])[0]
@@ -218,7 +229,7 @@ def script_pour(article: dict, cfg: dict, journal=print) -> dict | None:
         try:
             ecrit = _demander(article, cfg, remarques)
         except Exception as e:  # l'IA ne bloque jamais la publication
-            journal(f"⚠️ Script vidéo IA indisponible ({type(e).__name__}) : Short construit sans IA")
+            journal(f"⚠️ Script vidéo IA indisponible ({type(e).__name__} : {str(e)[:200]}) : Short construit sans IA")
             return None
         remarques = controler(ecrit, article)
         if not remarques:
