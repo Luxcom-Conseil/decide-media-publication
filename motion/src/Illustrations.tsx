@@ -129,7 +129,6 @@ const Couturiere: React.FC = () => {
         <circle cx={430} cy={300} r={18} fill={O} />
         <rect x={480} y={380} width={160} height={20} fill={GC} />
       </g>
-      <T t="Exemple inventé" x={380} y={490} fontSize={26} fill={GC} opacity={ap(20)} />
     </g>
   );
 };

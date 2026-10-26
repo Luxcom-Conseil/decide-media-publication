@@ -29,6 +29,11 @@ def test_liste_sans_points_refusee():
     assert any("liste sans ses points" in p for p in controler(s, ARTICLE))
 
 
+def test_exemple_fictif_refuse():
+    s = script(*[scene("Prenons un exemple inventé.", "Exemple fictif")] * 8)
+    assert any("Prenons un exemple" in p for p in controler(s, ARTICLE))
+
+
 def test_chiffre_invente_refuse():
     s = script(*[scene("Le taux passe à 9,5 %.", "9,5 %")] * 8)
     assert any("9.5" in p for p in controler(s, ARTICLE))

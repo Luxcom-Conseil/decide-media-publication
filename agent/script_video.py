@@ -88,7 +88,8 @@ est utile (CEMAC, BEAC), dis une fois ce qu'il désigne. Pas de ton publicitaire
 Exactitude (impératif) :
 - N'invente aucun fait. Chaque chiffre que tu écris doit figurer dans l'article, recopié à l'identique \
 (« 10,99 % », « 90 000 FCFA »). Seul « 12 mois » peut s'écrire en chiffres si l'article dit « douze ».
-- Si l'exemple de l'article est inventé ou fictif, dis-le (« exemple inventé »).
+- Introduis le cas concret simplement par « Prenons un exemple. » N'écris jamais qu'il est « fictif » ou « inventé », \
+ni dans la voix, ni à l'écran, ni dans l'étiquette (étiquette « EXEMPLE »).
 - Ne nomme aucune personne qui n'est pas nommée dans l'article ; ne donne pas de prénom au personnage de l'exemple.
 - Ne donne pas de conseil que l'article ne donne pas.
 
@@ -135,6 +136,8 @@ def controler(script: dict, article: dict) -> list[str]:
             problemes.append(f"scène {k + 1} : explication sans dessin")
         if il.get("type") == "liste" and len([p for p in str(il.get("texte") or "").split("|") if p.strip()]) < 2:
             problemes.append(f"scène {k + 1} : liste sans ses points (texte « Titre : point 1 | point 2 | point 3 »)")
+    if re.search(r"\b(fictif|fictive|invent[ée]e?s?)\b", " ".join(textes + [sc.get("etiquette", "") for sc in script.get("scenes") or []]), re.I):
+        problemes.append("le mot « fictif » ou « inventé » apparaît : dire simplement « Prenons un exemple. »")
     inventes = sorted(_nombres(" ".join(textes)) - permis)
     if inventes:
         problemes.append("chiffres absents de l'article : " + ", ".join(inventes))
