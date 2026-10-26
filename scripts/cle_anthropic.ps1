@@ -1,4 +1,4 @@
-# Enregistre la clé API Anthropic (une seule fois) : dans .env pour le PC et dans le coffre « Secrets » de GitHub.
+﻿# Enregistre la clé API Anthropic (une seule fois) : dans .env pour le PC et dans le coffre « Secrets » de GitHub.
 # Elle sert à écrire le script simplifié des Shorts (gabarit v2). La clé est saisie masquée et n'est jamais affichée.
 $ErrorActionPreference = "Stop"
 Set-Location (Split-Path $PSScriptRoot -Parent)
