@@ -111,7 +111,12 @@ Dessins disponibles :
 def _nombres(texte: str) -> set[str]:
     """« 1 080 000 », « 10,99 » → {"1080000", "10.99"} (espaces et séparateurs de milliers retirés)."""
     t = re.sub(r"(?<=\d)[   .](?=\d{3}\b)", "", texte)
-    return {n.replace(",", ".") for n in re.findall(r"\d+(?:,\d+)?", t)}
+    nombres = {n.replace(",", ".") for n in re.findall(r"\d+(?:,\d+)?", t)}
+    # « 1 million », « 25,289 milliards » valent aussi 1000000, 25289000000
+    for n, unite in re.findall(r"(\d+(?:,\d+)?)\s*(million|milliard)", t, re.I):
+        valeur = float(n.replace(",", ".")) * (1e6 if unite.lower() == "million" else 1e9)
+        nombres.add(str(int(valeur)) if valeur == int(valeur) else str(valeur))
+    return nombres
 
 
 def controler(script: dict, article: dict) -> list[str]:
@@ -154,28 +159,40 @@ def _message(article: dict, remarques: list[str]) -> str:
 
 
 def _demander_gemini(article: dict, cfg: dict, remarques: list[str]) -> dict:
-    """Gemini (offre gratuite de Google AI Studio), clé GEMINI_API_KEY. Surcharge ou limite par minute (429, 500, 503) :
-    nouvel essai après une pause, puis le modèle de secours."""
+    """Gemini (offre gratuite de Google AI Studio), clé GEMINI_API_KEY, réflexion réduite (réponse en quelques secondes).
+    L'offre gratuite passe après les clients payants : surchargé (503), limité (429) ou trop lent, on réessaie après
+    une pause, puis on passe au modèle suivant de la liste."""
     import time
 
     import requests
 
     v = cfg.get("video") or {}
-    modeles = [v.get("modele_gemini", "gemini-3.8-flash"), v.get("modele_gemini_secours", "gemini-3.6-flash")]
-    for modele in dict.fromkeys(modeles):
-        for pause in (0, 20, 60):
+    modeles = v.get("modeles_gemini") or ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest"]
+    erreur = "aucun modèle Gemini configuré"
+    for modele in modeles:
+        for pause in (0, 20):
             time.sleep(pause)
-            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modele}:generateContent", timeout=180,
-                              headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
-                              json={"systemInstruction": {"parts": [{"text": SYSTEME}]},
-                                    "contents": [{"role": "user", "parts": [{"text": _message(article, remarques)}]}],
-                                    "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": SCHEMA}})
+            try:
+                r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modele}:generateContent",
+                                  timeout=120, headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+                                  json={"systemInstruction": {"parts": [{"text": SYSTEME}]},
+                                        "contents": [{"role": "user", "parts": [{"text": _message(article, remarques)}]}],
+                                        "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": SCHEMA,
+                                                             "thinkingConfig": {"thinkingLevel": "low"}}})
+            except requests.RequestException as e:
+                erreur = f"{modele} : {type(e).__name__}"
+                continue
+            if r.status_code == 200:
+                break
+            erreur = f"{modele} : HTTP {r.status_code} {r.text[:200]}"
             if r.status_code not in (429, 500, 503):
                 break
+        else:
+            continue
         if r.status_code == 200:
             break
-    if r.status_code != 200:
-        raise RuntimeError(f"Gemini {r.status_code} : {r.text[:300]}")
+    else:
+        raise RuntimeError(f"Gemini indisponible ({erreur})")
     candidat = (r.json().get("candidates") or [{}])[0]
     if candidat.get("finishReason") not in (None, "STOP"):
         raise RuntimeError(f"réponse Gemini inutilisable (finishReason={candidat.get('finishReason')})")
@@ -235,7 +252,7 @@ def script_pour(article: dict, cfg: dict, journal=print) -> dict | None:
         if not remarques:
             script = _en_scenes(ecrit)
             SCRIPTS.mkdir(parents=True, exist_ok=True)
-            modele = (cfg.get("video") or {}).get("modele_gemini", "gemini-3.8-flash") if ia == "gemini" else cfg["ia"]["modele"]
+            modele = "gemini" if ia == "gemini" else cfg["ia"]["modele"]
             fichier.write_text(json.dumps({**script, "_article": article.get("id"), "_modele": modele},
                                           ensure_ascii=False, indent=2), encoding="utf-8")
             return script

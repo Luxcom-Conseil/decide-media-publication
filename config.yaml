@@ -44,8 +44,9 @@ youtube:
 video:
   gabarit: v2                 # validé par Stéphane le 26/10/2026 (essais Gemini sur 3 articles du lot du 24/10)
   ia: gemini
-  modele_gemini: gemini-3.8-flash
-  modele_gemini_secours: gemini-3.6-flash   # si le premier reste surchargé ou à sa limite
+  # dans l'ordre : le suivant sert si le précédent est surchargé (fréquent sur l'offre gratuite) ou trop lent.
+  # Mesuré le 26/10 avec réflexion réduite : 3.6 et 3.5 en 6-7 s, flash-latest en 55 s ; 3.8 souvent saturé.
+  modeles_gemini: [gemini-3.6-flash, gemini-3.5-flash, gemini-flash-latest]
 
 # Voix off des Shorts : Google Text-to-Speech (projet Google Cloud du compte de service Drive, API Text-to-Speech activée).
 # Chirp 3 HD : 1 million de caractères gratuits par mois. Au plafond, les Shorts sortent sans voix jusqu'au mois suivant.

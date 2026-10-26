@@ -24,6 +24,11 @@ def test_nombre_ecrit_en_lettres_dans_l_article_accepte():
     assert controler(s, article) == []
 
 
+def test_million_en_chiffres_accepte():
+    s = script(*[scene("Elle emprunte 1 000 000 FCFA.", "Prêt : 1 000 000 FCFA")] * 8)
+    assert controler(s, ARTICLE) == []
+
+
 def test_liste_sans_points_refusee():
     s = script(*[scene("Ce qu'il faut faire.", "À faire", {"type": "liste", "texte": None})] * 8)
     assert any("liste sans ses points" in p for p in controler(s, ARTICLE))
