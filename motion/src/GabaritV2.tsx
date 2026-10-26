@@ -114,12 +114,29 @@ const Chiffre: React.FC<{ sc: SceneV2 }> = ({ sc }) => (
   </AbsoluteFill>
 );
 
-const Explication: React.FC<{ sc: SceneV2 }> = ({ sc }) => (
+// « photo » : quand aucun dessin ne convient, le haut du visuel du lot (la photo, sans le texte incrusté dessous)
+const Photo: React.FC<{ image: string; long: number }> = ({ image, long }) => {
+  const f = useCurrentFrame();
+  const zoom = interpolate(f, [0, long], [1, 1.08]);
+  return (
+    <div style={{ width: 760, height: 500, overflow: "hidden", borderRadius: 20, border: `6px solid ${ORANGE}`, position: "relative" }}>
+      {/* décalé vers la droite et le bas : le logo incrusté dans le coin haut gauche du visuel reste hors cadre */}
+      <Img src={staticFile(image)} style={{ position: "absolute", left: -200, top: -70, width: 1000, height: 1000, objectFit: "cover",
+        transform: `scale(${zoom})`, transformOrigin: "50% 20%" }} />
+      <div style={{ position: "absolute", left: 16, bottom: 14, background: "rgba(14,14,14,0.85)", color: BLANC, fontFamily, fontWeight: 700,
+        fontSize: 20, letterSpacing: 2, padding: "5px 12px", borderRadius: 4 }}>ILLUSTRATION</div>
+    </div>
+  );
+};
+
+const Explication: React.FC<{ sc: SceneV2; image: string; long: number }> = ({ sc, image, long }) => (
   <>
     {sc.etiquette && <div style={{ position: "absolute", top: 335, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
       <Entree><div style={{ background: ORANGE, color: BLANC, fontFamily, fontWeight: 900, fontSize: 40, letterSpacing: 3,
         padding: "8px 26px", borderRadius: 6 }}>{sc.etiquette}</div></Entree></div>}
-    <div style={{ position: "absolute", top: 410, left: 160 }}><Dessin il={sc.illustration!} /></div>
+    <div style={{ position: "absolute", top: 410, left: 160 }}>
+      {sc.illustration?.type === "photo" ? <Photo image={image} long={long} /> : <Dessin il={sc.illustration!} />}
+    </div>
     {sc.ecran && <div style={{ position: "absolute", top: 945, left: 60, right: 60, textAlign: "center" }}>
       <Entree delai={8}><div style={{ fontFamily, fontWeight: 900, fontSize: sc.ecran.length > 28 ? 58 : 68, lineHeight: 1.1, color: BLANC }}>
         {fr(sc.ecran).split(" ").map((m, k) => <span key={k} style={{ color: estCle(m) ? ORANGE : BLANC }}>{m} </span>)}
@@ -192,7 +209,7 @@ export const GabaritV2: React.FC<ScriptV2> = (s) => {
         <Sequence key={p.i} from={p.debut} durationInFrames={p.longueur}>
           {p.sc.type === "visuel" && <Visuel s={s} i={0} long={p.longueur} />}
           {p.sc.type === "texte" && (p.sc.chiffre ? <Chiffre sc={p.sc} /> : <Visuel s={s} i={p.i} long={p.longueur} etiquette={p.sc.etiquette} />)}
-          {p.sc.type === "explication" && <Explication sc={p.sc} />}
+          {p.sc.type === "explication" && <Explication sc={p.sc} image={s.image} long={p.longueur} />}
           {p.sc.type === "question" && <Question sc={p.sc} />}
           {p.sc.type === "outro" && <Outro s={s} />}
           {s.source && p.sc.type !== "outro" && (

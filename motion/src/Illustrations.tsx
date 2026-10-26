@@ -67,12 +67,14 @@ const Rembourser: React.FC = () => {
   );
 };
 
-const Pays: React.FC = () => {
+// une région et ses pays ; texte = nom de la région (« CEMAC » par défaut)
+const Pays: React.FC<{ il: Illustration }> = ({ il }) => {
   const ap = useApparition();
+  const nom = (il.texte || "CEMAC").toUpperCase();
   return (
     <g>
       <circle cx={380} cy={260} r={110 * ap(0)} fill={O} />
-      <T t="CEMAC" x={380} y={274} fontSize={44} fill={B} opacity={ap(6)} />
+      <T t={nom} x={380} y={274} fontSize={nom.length > 8 ? 30 : 44} fill={B} opacity={ap(6)} />
       {[0, 1, 2, 3, 4, 5].map((k) => {
         const a = (k / 6) * Math.PI * 2 - Math.PI / 2, p = ap(10 + k * 4, 200);
         const x = 380 + Math.cos(a) * 200, y = 260 + Math.sin(a) * 180;
@@ -170,9 +172,29 @@ const Contrats: React.FC = () => {
   );
 };
 
+// sans montant : une date ou une durée (texte) sur la page du calendrier
+const Echeance: React.FC<{ il: Illustration }> = ({ il }) => {
+  const f = useCurrentFrame(), ap = useApparition();
+  const mots = (il.texte || "").split(" ");
+  const haut = mots.length > 1 ? mots.slice(0, -1).join(" ") : mots[0];
+  const bas = mots.length > 1 ? mots[mots.length - 1] : "";
+  const page = lin(f, 0, 10);
+  return (
+    <g transform={`scale(${ap(0)})`} style={{ transformOrigin: "380px 270px" }}>
+      <rect x={220} y={80} width={320} height={360} rx={16} fill={B} />
+      <rect x={220} y={80} width={320} height={80} rx={16} fill={O} />
+      <rect x={220} y={140} width={320} height={20} fill={O} />
+      {[280, 380, 480].map((x) => <rect key={x} x={x - 8} y={60} width={16} height={50} rx={8} fill={GC} />)}
+      <T t={haut} x={380} y={290} fontSize={Math.min(96, Math.floor(280 / (haut.length * 0.62)))} fill={N} opacity={page} />
+      <T t={bas} x={380} y={380} fontSize={54} fill={O} opacity={page} />
+    </g>
+  );
+};
+
 const Calendrier: React.FC<{ il: Illustration }> = ({ il }) => {
   const f = useCurrentFrame(), ap = useApparition();
   const mois = Math.max(1, Math.min(12, Math.floor(lin(f, 10, 100, 1, 12.99))));
+  if (!il.montant) return <Echeance il={il} />;
   return (
     <g>
       <g transform={`scale(${ap(0)})`} style={{ transformOrigin: "220px 270px" }}>
@@ -210,8 +232,10 @@ const Frais: React.FC<{ il: Illustration }> = ({ il }) => {
       <path d="M 230 90 L 530 90 L 530 420 L 505 400 L 480 420 L 455 400 L 430 420 L 405 400 L 380 420 L 355 400 L 330 420 L 305 400 L 280 420 L 255 400 L 230 420 Z" fill={B} />
       <T t="FRAIS" x={380} y={170} fontSize={56} fill={N} />
       <rect x={270} y={200} width={220} height={10} fill={GC} />
-      <T t={il.montant ?? ""} x={380} y={300} fontSize={64} fill={O} />
-      <T t="FCFA" x={380} y={355} fontSize={36} fill={N} />
+      {il.montant ? <>
+        <T t={il.montant} x={380} y={300} fontSize={il.montant.length > 9 ? 48 : 64} fill={O} />
+        <T t="FCFA" x={380} y={355} fontSize={36} fill={N} />
+      </> : <T t="?" x={380} y={330} fontSize={110} fill={O} />}
     </g>
   );
 };
@@ -260,15 +284,17 @@ const Loupe: React.FC = () => {
   );
 };
 
-const Liste: React.FC = () => {
+// liste cochée ; texte = « Titre : point 1 | point 2 | point 3 » (sans titre : « À RETENIR »)
+const Liste: React.FC<{ il: Illustration }> = ({ il }) => {
   const f = useCurrentFrame(), ap = useApparition();
-  const lignes = ["Chaque paiement", "Tous les frais", "Le total"];
+  const [titre, reste] = (il.texte || "").includes(":") ? il.texte!.split(/:(.*)/s) : ["À retenir", il.texte || ""];
+  const lignes = reste.split("|").map((l) => l.trim()).filter(Boolean).slice(0, 3);
   return (
     <g opacity={ap(0)}>
       <rect x={150} y={60} width={460} height={400} rx={14} fill={B} />
       <rect x={150} y={60} width={460} height={70} rx={14} fill={O} />
       <rect x={150} y={110} width={460} height={20} fill={O} />
-      <T t="TABLEAU DES PAIEMENTS" x={380} y={108} fontSize={28} fill={B} />
+      <T t={titre.trim().toUpperCase()} x={380} y={108} fontSize={titre.length > 22 ? 22 : 28} fill={B} />
       {lignes.map((l, k) => {
         const p = lin(f, 12 + k * 14, 22 + k * 14);
         return (
@@ -276,10 +302,130 @@ const Liste: React.FC = () => {
             <rect x={190} y={170 + k * 90} width={52} height={52} rx={8} fill="none" stroke={N} strokeWidth={5} />
             <path d={`M 198 ${196 + k * 90} L 212 ${210 + k * 90} L 236 ${180 + k * 90}`} fill="none" stroke={O} strokeWidth={9}
               strokeLinecap="round" strokeDasharray={60} strokeDashoffset={60 * (1 - p)} />
-            <text x={262} y={208 + k * 90} fontFamily={fontFamily} fontWeight={700} fontSize={32} fill={N}>{l}</text>
+            <text x={262} y={208 + k * 90} fontFamily={fontFamily} fontWeight={700} fontSize={l.length > 18 ? 26 : 32} fill={N}>{l}</text>
           </g>
         );
       })}
+    </g>
+  );
+};
+
+// pétrole : derrick et pompe à balancier qui hoche la tête, gouttes qui tombent
+const Petrole: React.FC = () => {
+  const f = useCurrentFrame(), ap = useApparition();
+  const hoche = Math.sin(f / 9) * 14;
+  return (
+    <g>
+      <line x1={80} y1={440} x2={680} y2={440} stroke={G} strokeWidth={6} />
+      <g opacity={ap(0)} transform={`translate(0 ${(1 - ap(0)) * 80})`}>
+        <polygon points="170,440 230,120 290,440" fill="none" stroke={B} strokeWidth={10} />
+        {[200, 260, 320, 380].map((y, k) => <line key={k} x1={230 - (440 - y) * 0.19} y1={y} x2={230 + (440 - y) * 0.19} y2={y} stroke={B} strokeWidth={6} />)}
+        <rect x={214} y={100} width={32} height={26} fill={O} />
+      </g>
+      <g opacity={ap(10)}>
+        <rect x={470} y={300} width={24} height={140} fill={B} />
+        <g transform={`rotate(${hoche} 482 300)`}>
+          <rect x={360} y={286} width={260} height={26} rx={8} fill={O} />
+          <path d="M 600 270 Q 650 299 600 328 Z" fill={O} />
+        </g>
+        <rect x={580} y={340} width={14} height={100} fill={GC} />
+      </g>
+      {[0, 1, 2].map((k) => {
+        const t = ((f - 20 - k * 10) % 30) / 30;
+        return f > 20 + k * 10 ? <path key={k} d="M 0 -18 C -12 0 -12 12 0 12 C 12 12 12 0 0 -18 Z" fill={N} stroke={O} strokeWidth={3}
+          transform={`translate(${380 + k * 30} ${440 + t * 40})`} opacity={1 - t} /> : null;
+      })}
+    </g>
+  );
+};
+
+// énergie solaire : soleil qui tourne, rangée de panneaux, éclair
+const Solaire: React.FC = () => {
+  const f = useCurrentFrame(), ap = useApparition();
+  return (
+    <g>
+      <g transform={`translate(560 130) rotate(${f * 1.5}) scale(${ap(0)})`}>
+        {Array.from({ length: 10 }).map((_, k) => <rect key={k} x={-6} y={-110} width={12} height={36} rx={6} fill={O} transform={`rotate(${k * 36})`} />)}
+        <circle r={62} fill={O} />
+      </g>
+      {[0, 1, 2].map((k) => {
+        const p = ap(8 + k * 5);
+        return (
+          <g key={k} transform={`translate(${110 + k * 150} ${300 + (1 - p) * 120})`} opacity={p}>
+            <polygon points="0,90 40,0 170,0 130,90" fill={B} />
+            {[1, 2].map((j) => <line key={j} x1={13 * j + 40 * (1 - j / 3)} y1={90 - 30 * j} x2={13 * j + 170 - 40 * j / 3} y2={90 - 30 * j} stroke={GC} strokeWidth={4} />)}
+            <line x1={85} y1={0} x2={65} y2={90} stroke={GC} strokeWidth={4} />
+            <rect x={70} y={90} width={14} height={50} fill={GC} />
+          </g>
+        );
+      })}
+      <polygon points="330,60 290,170 335,170 300,270 400,140 350,140 380,60" fill={B} opacity={ap(25)} />
+    </g>
+  );
+};
+
+// chantier : grue qui monte des blocs, bâtiment qui s'élève
+const Chantier: React.FC = () => {
+  const f = useCurrentFrame(), ap = useApparition();
+  const etages = Math.floor(lin(f, 10, 70, 0, 4.99));
+  const y = interpolate(f % 30, [0, 30], [140, 260]);
+  return (
+    <g>
+      <line x1={80} y1={440} x2={680} y2={440} stroke={G} strokeWidth={6} />
+      <g opacity={ap(0)}>
+        <rect x={180} y={90} width={24} height={350} fill={O} />
+        <rect x={120} y={80} width={420} height={24} fill={O} />
+        <rect x={100} y={104} width={60} height={40} fill={GC} />
+        <line x1={460} y1={104} x2={460} y2={y} stroke={B} strokeWidth={4} />
+        <rect x={430} y={y} width={60} height={34} fill={B} />
+      </g>
+      {Array.from({ length: etages }).map((_, k) => (
+        <g key={k}>
+          <rect x={360} y={380 - k * 60} width={200} height={60} fill={B} stroke={N} strokeWidth={4} />
+          {[0, 1, 2].map((j) => <rect key={j} x={380 + j * 62} y={395 - k * 60} width={36} height={30} fill={GC} />)}
+        </g>
+      ))}
+    </g>
+  );
+};
+
+// maison : la lumière s'allume (électricité, logement, ménage)
+const Maison: React.FC<{ il: Illustration }> = ({ il }) => {
+  const f = useCurrentFrame(), ap = useApparition();
+  const allume = f > 24;
+  return (
+    <g transform={`scale(${ap(0)})`} style={{ transformOrigin: "380px 300px" }}>
+      <polygon points="200,230 380,90 560,230" fill={O} />
+      <rect x={230} y={230} width={300} height={210} fill={B} />
+      <rect x={350} y={330} width={60} height={110} fill={G} />
+      {[260, 440].map((x) => <rect key={x} x={x} y={260} width={60} height={50} fill={allume ? O : G} />)}
+      {allume && [0, 1, 2, 3].map((k) => <line key={k} x1={290 + (k - 1.5) * 30} y1={250} x2={290 + (k - 1.5) * 50} y2={225} stroke={O} strokeWidth={5} opacity={ap(26)} />)}
+      {il.texte && <T t={il.texte} x={380} y={490} fontSize={30} fill={B} opacity={ap(14)} />}
+    </g>
+  );
+};
+
+// marché : étal avec auvent, panier et étiquette de prix (prix, consommation, commerce)
+const Marche: React.FC<{ il: Illustration }> = ({ il }) => {
+  const f = useCurrentFrame(), ap = useApparition();
+  const balance = Math.sin(f / 7) * 6;
+  return (
+    <g>
+      <g opacity={ap(0)}>
+        {[0, 1, 2, 3, 4, 5].map((k) => <path key={k} d={`M ${130 + k * 83} 120 L ${213 + k * 83} 120 L ${213 + k * 83} 170 Q ${171 + k * 83} 200 ${130 + k * 83} 170 Z`} fill={k % 2 ? B : O} />)}
+        <rect x={150} y={120} width={14} height={320} fill={GC} />
+        <rect x={596} y={120} width={14} height={320} fill={GC} />
+        <rect x={130} y={330} width={500} height={30} fill={B} />
+      </g>
+      <g opacity={ap(8)}>
+        <path d="M 230 330 L 250 260 L 370 260 L 390 330 Z" fill={O} />
+        {[0, 1, 2].map((k) => <circle key={k} cx={275 + k * 35} cy={250} r={22} fill={k === 1 ? B : "#C4402A"} />)}
+      </g>
+      <g opacity={ap(16)} transform={`rotate(${balance} 500 200)`}>
+        <line x1={500} y1={180} x2={500} y2={220} stroke={B} strokeWidth={3} />
+        <rect x={440} y={220} width={140} height={70} rx={10} fill={B} />
+        <T t={il.montant || "PRIX"} x={510} y={268} fontSize={il.montant && il.montant.length > 6 ? 26 : 34} fill={O} />
+      </g>
     </g>
   );
 };
@@ -291,7 +437,12 @@ export const Dessin: React.FC<{ il: Illustration }> = ({ il }) => (
     </defs>
     {il.type === "banque" && <Banque />}
     {il.type === "rembourser" && <Rembourser />}
-    {il.type === "pays" && <Pays />}
+    {il.type === "pays" && <Pays il={il} />}
+    {il.type === "petrole" && <Petrole />}
+    {il.type === "solaire" && <Solaire />}
+    {il.type === "chantier" && <Chantier />}
+    {il.type === "maison" && <Maison il={il} />}
+    {il.type === "marche" && <Marche il={il} />}
     {il.type === "pourcent" && <Pourcent il={il} />}
     {il.type === "couturiere" && <Couturiere />}
     {il.type === "personne" && <Personne il={il} />}
@@ -301,6 +452,6 @@ export const Dessin: React.FC<{ il: Illustration }> = ({ il }) => (
     {il.type === "frais" && <Frais il={il} />}
     {il.type === "balance" && <Balance il={il} />}
     {il.type === "loupe" && <Loupe />}
-    {il.type === "liste" && <Liste />}
+    {il.type === "liste" && <Liste il={il} />}
   </svg>
 );

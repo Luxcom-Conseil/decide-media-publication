@@ -16,19 +16,26 @@ RACINE = Path(__file__).resolve().parent.parent
 SCRIPTS = RACINE / "etat" / "scripts"
 
 ILLUSTRATIONS = {
-    "banque": "bâtiment de banque d'où sortent des pièces (prêt, crédit, épargne, banque)",
-    "rembourser": "deux barres : « prêté » et « rendu » plus haute (rendre plus que reçu, intérêts, prix du crédit)",
-    "pays": "un cercle CEMAC et six repères (moyenne régionale, plusieurs pays)",
-    "pourcent": "deux barres avant / après avec une flèche ; paramètres sens (baisse|hausse), avant, apres (ex. « 11,53 % »)",
-    "personne": "une personne (habitant, commerçant, artisan, parent, salarié…) ; paramètre texte = qui (ex. « Commerçante »)",
-    "couturiere": "une couturière à sa machine à coudre (seulement si l'article parle d'une couturière ou d'un atelier de couture)",
-    "contrats": "deux contrats A et B avec un point d'interrogation (choisir entre deux offres)",
-    "calendrier": "un calendrier qui compte les mois et des pièces qui s'empilent ; paramètre montant (ex. « 90 000 ») = paiement par mois",
-    "pile": "une pile de billets qui monte ; paramètre montant (ex. « 1 080 000 ») = total en FCFA",
-    "frais": "un ticket « FRAIS » qui tombe ; paramètre montant (ex. « + 40 000 »)",
-    "balance": "une balance qui penche vers B ; paramètres a et b = montants comparés (b le plus lourd)",
-    "loupe": "une loupe qui s'arrête sur la ligne TOTAL d'un document (bien vérifier, regarder le total)",
-    "liste": "un tableau des paiements avec trois cases cochées (ce qu'il faut demander ou vérifier)",
+    "banque": "bâtiment de banque d'où sortent des pièces : prêt, crédit, épargne, banque, argent public",
+    "rembourser": "deux barres « prêté » et « rendu » (plus haute) : rendre plus que ce qu'on a reçu, intérêts d'un crédit",
+    "pays": "un cercle et six repères : une région ou plusieurs pays ; texte = nom de la région (« CEMAC », « UEMOA »…)",
+    "pourcent": "deux barres avant / après et une flèche : un chiffre qui monte ou baisse ; sens (baisse|hausse), avant, apres",
+    "personne": "une personne qui fait signe : un habitant, un commerçant, un parent… ; texte = qui (« Commerçant »)",
+    "couturiere": "une couturière à sa machine : seulement si l'article parle de couture",
+    "contrats": "deux contrats A et B et un « ? » : seulement pour choisir entre deux offres ou deux contrats",
+    "calendrier": "un calendrier. Avec montant (« 90 000 ») : paiements mensuels qui s'empilent. Sans montant : une date ou "
+                  "une durée en texte (« 28 mai 2027 », « 15 mois »)",
+    "pile": "une pile de billets qui monte ; montant = somme en FCFA (« 1 080 000 »)",
+    "frais": "un ticket « FRAIS » qui tombe ; montant (« + 40 000 ») : frais, taxe, coût en plus",
+    "balance": "une balance qui penche vers B ; a et b = les deux choses comparées (b la plus lourde)",
+    "loupe": "une loupe sur un document : vérifier, lire les détails, regarder le total",
+    "liste": "une liste de trois points cochés ; texte = « Titre : point 1 | point 2 | point 3 » (mots courts)",
+    "petrole": "un derrick et une pompe à pétrole : pétrole, gaz, mines, exploration",
+    "solaire": "un soleil et des panneaux solaires avec un éclair : énergie solaire, centrale électrique",
+    "chantier": "une grue et un bâtiment qui monte : travaux, construction, route, infrastructure",
+    "maison": "une maison dont la lumière s'allume : électricité à la maison, logement, ménage ; texte facultatif",
+    "marche": "un étal de marché avec panier et étiquette de prix ; montant = le prix : prix, consommation, commerce",
+    "photo": "la photo de l'article : quand aucun autre dessin ne montre vraiment l'idée",
 }
 
 _PARAM = {"anyOf": [{"type": "string"}, {"type": "null"}]}
@@ -90,8 +97,10 @@ Format de chaque scène :
 - « ecran » : l'idée clé affichée en grand, 32 caractères au plus, chiffres compris (vide pour la scène « visuel »).
 - « etiquette » : 1 à 3 mots en majuscules (C'EST QUOI ?, LE FAIT, EXEMPLE, CONTRAT A, RÉSULTAT, LA LEÇON, \
 CE QU'IL FAUT FAIRE…). Vide pour la scène « visuel ».
-- « illustration » : le dessin animé qui montre l'idée, choisi dans la liste ; null pour la scène « visuel ». \
-Remplis seulement les paramètres utiles au dessin choisi, les autres à null.
+- « illustration » : le dessin animé qui montre l'idée de la scène, choisi dans la liste ; null pour la scène \
+« visuel ». Le dessin doit correspondre au sens de la scène : pas de banque pour parler de pétrole, pas de contrats A et B \
+s'il n'y a pas deux offres à comparer. Si aucun dessin ne convient, choisis « photo ». Varie les dessins d'une scène à \
+l'autre. Remplis seulement les paramètres utiles au dessin choisi, les autres à null.
 Entre 10 et 16 scènes en tout. « titre » : le titre affiché en haut pendant toute la vidéo, 45 caractères au plus.
 
 Dessins disponibles :
@@ -107,7 +116,9 @@ def _nombres(texte: str) -> set[str]:
 def controler(script: dict, article: dict) -> list[str]:
     """Problèmes qui interdisent d'utiliser le script (liste vide = bon pour la vidéo)."""
     source = " ".join(str(article.get(k) or "") for k in ("title", "body", "post_text", "value_added"))
-    permis = _nombres(source) | {str(n) for n in range(1, 13)}
+    from num2words import num2words
+    en_lettres = {str(n) for n in range(1, 101) if re.search(rf"\b{num2words(n, lang='fr')}\b", source, re.I)}  # « quinze mois »
+    permis = _nombres(source) | {str(n) for n in range(1, 13)} | en_lettres
     problemes = []
     if not 8 <= len(script.get("scenes") or []) <= 18:
         problemes.append(f"{len(script.get('scenes') or [])} scènes (8 à 18 attendues)")
@@ -122,6 +133,8 @@ def controler(script: dict, article: dict) -> list[str]:
             problemes.append(f"scène {k + 1} : texte écran trop long ({len(sc['ecran'])} caractères)")
         if sc.get("type") == "explication" and not il:
             problemes.append(f"scène {k + 1} : explication sans dessin")
+        if il.get("type") == "liste" and len([p for p in str(il.get("texte") or "").split("|") if p.strip()]) < 2:
+            problemes.append(f"scène {k + 1} : liste sans ses points (texte « Titre : point 1 | point 2 | point 3 »)")
     inventes = sorted(_nombres(" ".join(textes)) - permis)
     if inventes:
         problemes.append("chiffres absents de l'article : " + ", ".join(inventes))

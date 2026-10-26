@@ -18,6 +18,17 @@ def test_chiffres_de_l_article_acceptes():
     assert controler(s, ARTICLE) == []
 
 
+def test_nombre_ecrit_en_lettres_dans_l_article_accepte():
+    article = {**ARTICLE, "body": ARTICLE["body"] + " Le chantier doit durer quinze mois."}
+    s = script(*[scene("Le chantier dure 15 mois.", "15 mois", {"type": "calendrier", "texte": "15 mois"})] * 8)
+    assert controler(s, article) == []
+
+
+def test_liste_sans_points_refusee():
+    s = script(*[scene("Ce qu'il faut faire.", "À faire", {"type": "liste", "texte": None})] * 8)
+    assert any("liste sans ses points" in p for p in controler(s, ARTICLE))
+
+
 def test_chiffre_invente_refuse():
     s = script(*[scene("Le taux passe à 9,5 %.", "9,5 %")] * 8)
     assert any("9.5" in p for p in controler(s, ARTICLE))
