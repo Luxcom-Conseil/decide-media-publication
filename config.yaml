@@ -42,7 +42,7 @@ youtube:
 # animés, sous-titres). IA : gemini (gratuit, secret GEMINI_API_KEY) ou claude (payant, secret ANTHROPIC_API_KEY).
 # Sans clé, quota épuisé ou script refusé au contrôle, v2 découpe l'article sans IA : la publication continue.
 video:
-  gabarit: v1
+  gabarit: v2                 # validé par Stéphane le 26/10/2026 (essais Gemini sur 3 articles du lot du 24/10)
   ia: gemini
   modele_gemini: gemini-3.8-flash
 
