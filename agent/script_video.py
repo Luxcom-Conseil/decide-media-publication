@@ -14,14 +14,18 @@ from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
 SCRIPTS = RACINE / "etat" / "scripts"
+_IA_HORS_SERVICE = False  # passe à True pour la fin du passage si Gemini est saturé sur tous ses modèles
 
 ILLUSTRATIONS = {
     "banque": "bâtiment de banque d'où sortent des pièces : prêt, crédit, épargne, banque, argent public",
     "rembourser": "deux barres « prêté » et « rendu » (plus haute) : rendre plus que ce qu'on a reçu, intérêts d'un crédit",
     "pays": "un cercle et six repères : une région ou plusieurs pays ; texte = nom de la région (« CEMAC », « UEMOA »…)",
     "pourcent": "deux barres avant / après et une flèche : un chiffre qui monte ou baisse ; sens (baisse|hausse), avant, apres",
-    "personne": "une personne qui fait signe : un habitant, un commerçant, un parent… ; texte = qui (« Commerçant »)",
-    "couturiere": "une couturière à sa machine : seulement si l'article parle de couture",
+    "personnage": "un des personnages récurrents de DECIDE, avec son expression et son geste : chaque fois que la scène parle "
+                  "d'une personne ou de ce que vit le spectateur. personnage (commercante|artisan|salarie|etudiante), "
+                  "expression (contente|inquiete|surprise|pensive), geste (salue|montre|reflechit|tient_billet|"
+                  "tient_document|repos), texte = qui c'est (« Commerçante ») ou null",
+    "couturiere": "la commerçante à sa machine à coudre : seulement si l'article parle de couture",
     "contrats": "deux contrats A et B et un « ? » : seulement pour choisir entre deux offres ou deux contrats",
     "calendrier": "un calendrier. Avec montant (« 90 000 ») : paiements mensuels qui s'empilent. Sans montant : une date ou "
                   "une durée en texte (« 28 mai 2027 », « 15 mois »)",
@@ -39,6 +43,10 @@ ILLUSTRATIONS = {
 }
 
 _PARAM = {"anyOf": [{"type": "string"}, {"type": "null"}]}
+
+
+def _choix(*valeurs: str) -> dict:
+    return {"anyOf": [{"type": "string", "enum": list(valeurs)}, {"type": "null"}]}
 SCHEMA = {
     "type": "object",
     "properties": {
@@ -51,9 +59,12 @@ SCHEMA = {
                 "illustration": {"anyOf": [{"type": "null"}, {
                     "type": "object",
                     "properties": {"type": {"type": "string", "enum": list(ILLUSTRATIONS)},
-                                   "sens": {"anyOf": [{"type": "string", "enum": ["baisse", "hausse"]}, {"type": "null"}]},
-                                   "avant": _PARAM, "apres": _PARAM, "montant": _PARAM, "a": _PARAM, "b": _PARAM, "texte": _PARAM},
-                    "required": ["type", "sens", "avant", "apres", "montant", "a", "b", "texte"],
+                                   "sens": _choix("baisse", "hausse"),
+                                   "avant": _PARAM, "apres": _PARAM, "montant": _PARAM, "a": _PARAM, "b": _PARAM, "texte": _PARAM,
+                                   "personnage": _choix("commercante", "artisan", "salarie", "etudiante"),
+                                   "expression": _choix("contente", "inquiete", "surprise", "pensive"),
+                                   "geste": _choix("salue", "montre", "reflechit", "tient_billet", "tient_document", "repos")},
+                    "required": ["type", "sens", "avant", "apres", "montant", "a", "b", "texte", "personnage", "expression", "geste"],
                     "additionalProperties": False}]},
                 "ecran": {"type": "string"},
                 "dit": {"type": "string"},
@@ -102,6 +113,14 @@ CE QU'IL FAUT FAIRE…). Vide pour la scène « visuel ».
 « visuel ». Le dessin doit correspondre au sens de la scène : pas de banque pour parler de pétrole, pas de contrats A et B \
 s'il n'y a pas deux offres à comparer. Si aucun dessin ne convient, choisis « photo ». Varie les dessins d'une scène à \
 l'autre. Remplis seulement les paramètres utiles au dessin choisi, les autres à null.
+- Personnages récurrents : utilise-les dès qu'une scène parle d'une personne, du spectateur ou de ce qu'il ressent \
+(au moins deux scènes par vidéo). Garde le même personnage pour toute l'histoire d'un exemple. L'expression suit le sens \
+de la phrase : contente (bonne nouvelle, solution), inquiete (coût, risque, piège), surprise (chiffre inattendu), \
+pensive (choix, question). Le geste aussi : tient_billet pour une somme, tient_document pour un contrat ou un papier, \
+reflechit pour hésiter, montre pour attirer l'attention, salue pour l'accueil. Qui est qui : commercante = une femme \
+(commerçante, vendeuse, couturière, ouvrière, mère), artisan = un homme (artisan, ouvrier, agriculteur, soudeur), \
+salarie = un homme en veste (salarié, employé, fonctionnaire, père, chef d'entreprise), etudiante = une jeune femme \
+(étudiante, élève, jeune). Le « texte » sous le personnage doit correspondre à ce dessin.
 Entre 10 et 16 scènes en tout. « titre » : le titre affiché en haut pendant toute la vidéo, 45 caractères au plus.
 
 Dessins disponibles :
@@ -143,6 +162,8 @@ def controler(script: dict, article: dict) -> list[str]:
             problemes.append(f"scène {k + 1} : liste sans ses points (texte « Titre : point 1 | point 2 | point 3 »)")
     if re.search(r"\b(fictif|fictive|invent[ée]e?s?)\b", " ".join(textes + [sc.get("etiquette", "") for sc in script.get("scenes") or []]), re.I):
         problemes.append("le mot « fictif » ou « inventé » apparaît : dire simplement « Prenons un exemple. »")
+    if re.search(r"\b(vous|vos|votre)\b", " ".join(textes), re.I):
+        problemes.append("vouvoiement : tutoie le spectateur (tu, ton, ta, tes)")
     inventes = sorted(_nombres(" ".join(textes)) - permis)
     if inventes:
         problemes.append("chiffres absents de l'article : " + ", ".join(inventes))
@@ -167,7 +188,7 @@ def _demander_gemini(article: dict, cfg: dict, remarques: list[str]) -> dict:
     import requests
 
     v = cfg.get("video") or {}
-    modeles = v.get("modeles_gemini") or ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest"]
+    modeles = v.get("modeles_gemini") or ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-flash-latest"]
     erreur = "aucun modèle Gemini configuré"
     for modele in modeles:
         for pause in (0, 20):
@@ -192,6 +213,8 @@ def _demander_gemini(article: dict, cfg: dict, remarques: list[str]) -> dict:
         if r.status_code == 200:
             break
     else:
+        global _IA_HORS_SERVICE
+        _IA_HORS_SERVICE = True  # tous les modèles saturés : les articles suivants de ce passage n'attendent pas
         raise RuntimeError(f"Gemini indisponible ({erreur})")
     candidat = (r.json().get("candidates") or [{}])[0]
     if candidat.get("finishReason") not in (None, "STOP"):
@@ -239,7 +262,7 @@ def script_pour(article: dict, cfg: dict, journal=print) -> dict | None:
     if fichier.exists():
         return json.loads(fichier.read_text(encoding="utf-8"))
     ia = (cfg.get("video") or {}).get("ia", "gemini")
-    if not os.environ.get("GEMINI_API_KEY" if ia == "gemini" else "ANTHROPIC_API_KEY"):
+    if _IA_HORS_SERVICE or not os.environ.get("GEMINI_API_KEY" if ia == "gemini" else "ANTHROPIC_API_KEY"):
         return None
     remarques: list[str] = []
     for _ in range(2):  # une seconde chance, avec les remarques du contrôle

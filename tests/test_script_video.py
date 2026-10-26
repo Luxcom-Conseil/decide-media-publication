@@ -39,6 +39,11 @@ def test_exemple_fictif_refuse():
     assert any("Prenons un exemple" in p for p in controler(s, ARTICLE))
 
 
+def test_vouvoiement_refuse():
+    s = {**script(*[scene("Un crédit, c'est de l'argent prêté.", "Un crédit")] * 8), "question": "Avez-vous comparé ?"}
+    assert any("tutoie" in p for p in controler(s, ARTICLE))
+
+
 def test_chiffre_invente_refuse():
     s = script(*[scene("Le taux passe à 9,5 %.", "9,5 %")] * 8)
     assert any("9.5" in p for p in controler(s, ARTICLE))

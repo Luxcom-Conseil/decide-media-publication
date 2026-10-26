@@ -3,11 +3,15 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { loadFont } from "@remotion/google-fonts/Montserrat";
+import { NOMS, PersonnageAnime, deviner, type Expression, type Geste, type Personnage } from "./Personnages";
 
 const { fontFamily } = loadFont("normal", { weights: ["700", "900"], subsets: ["latin", "latin-ext"] });
 const O = "#F26A1B", B = "#FFFFFF", N = "#0E0E0E", G = "#3A3A40", GC = "#9A9AA2";
 
-export type Illustration = { type: string; sens?: "baisse" | "hausse"; avant?: string; apres?: string; montant?: string; a?: string; b?: string; texte?: string };
+export type Illustration = {
+  type: string; sens?: "baisse" | "hausse"; avant?: string; apres?: string; montant?: string; a?: string; b?: string; texte?: string;
+  personnage?: string; expression?: string; geste?: string; // type « personnage »
+};
 
 // 0 → 1 avec un léger rebond, à partir de `delai` images
 const useApparition = () => {
@@ -109,48 +113,34 @@ const Pourcent: React.FC<{ il: Illustration }> = ({ il }) => {
   );
 };
 
+// couturière à sa machine : la commerçante récurrente, contente, et sa machine dont l'aiguille pique
 const Couturiere: React.FC = () => {
   const f = useCurrentFrame(), ap = useApparition();
   const aiguille = Math.abs(Math.sin(f / 3)) * 16;
   return (
     <g>
-      {/* personne */}
-      <g transform={`translate(0 ${(1 - ap(0)) * 60})`} opacity={ap(0)}>
-        <path d="M 150 440 C 150 330 200 290 250 290 C 300 290 350 330 350 440 Z" fill={O} />
-        <circle cx={250} cy={225} r={52} fill="#8A5A3C" />
-        <path d="M 196 214 C 196 150 304 150 304 214 C 290 186 210 186 196 214 Z" fill={O} />
-        <circle cx={250} cy={152} r={20} fill={O} />
-      </g>
-      {/* machine à coudre */}
+      <PersonnageAnime qui="commercante" expression="contente" geste="repos" cx={220} />
       <g transform={`translate(${(1 - ap(10)) * 200} 0)`} opacity={ap(10)}>
-        <rect x={360} y={400} width={300} height={40} rx={6} fill={B} />
-        <path d="M 400 400 L 400 260 Q 400 230 430 230 L 620 230 Q 640 230 640 250 L 640 300 L 600 300 L 600 270 L 440 270 L 440 400 Z" fill={B} />
-        <rect x={596} y={300 + aiguille} width={8} height={50} fill={O} />
-        <circle cx={430} cy={300} r={18} fill={O} />
-        <rect x={480} y={380} width={160} height={20} fill={GC} />
+        <rect x={380} y={400} width={300} height={40} rx={6} fill={B} />
+        <path d="M 420 400 L 420 260 Q 420 230 450 230 L 640 230 Q 660 230 660 250 L 660 300 L 620 300 L 620 270 L 460 270 L 460 400 Z" fill={B} />
+        <rect x={616} y={300 + aiguille} width={8} height={50} fill={O} />
+        <circle cx={450} cy={300} r={18} fill={O} />
+        <rect x={500} y={380} width={160} height={20} fill={GC} />
       </g>
     </g>
   );
 };
 
-// personne ordinaire (commerçant, parent, salarié…), avec un mot qui dit qui c'est
-const Personne: React.FC<{ il: Illustration }> = ({ il }) => {
-  const f = useCurrentFrame(), ap = useApparition();
-  const p = ap(0);
-  const salut = Math.sin(f / 5) * 8;
-  return (
-    <g>
-      <g transform={`translate(0 ${(1 - p) * 60})`} opacity={p}>
-        <path d="M 270 440 C 270 320 320 280 380 280 C 440 280 490 320 490 440 Z" fill={O} />
-        <circle cx={380} cy={210} r={58} fill="#8A5A3C" />
-        <path d={`M 470 330 L 540 ${250 + salut} L 560 ${262 + salut} L 490 345 Z`} fill={O} />
-        <circle cx={552} cy={250 + salut} r={18} fill="#8A5A3C" />
-      </g>
-      {il.texte && <g opacity={ap(10)}><rect x={230} y={455} width={300} height={44} rx={22} fill={B} />
-        <T t={il.texte} x={380} y={487} fontSize={28} fill={N} /></g>}
-    </g>
-  );
-};
+// ancien type « personne » : le personnage récurrent qui correspond au mot affiché, qui salue
+const Personne: React.FC<{ il: Illustration }> = ({ il }) => (
+  <PersonnageAnime qui={deviner(il.texte)} expression="contente" geste="salue" texte={il.texte} />
+);
+
+// personnage récurrent avec son expression et son geste
+const Perso: React.FC<{ il: Illustration }> = ({ il }) => (
+  <PersonnageAnime qui={(il.personnage as Personnage) || deviner(il.texte)} expression={(il.expression as Expression) || "contente"}
+    geste={(il.geste as Geste) || "repos"} texte={il.texte || NOMS[(il.personnage as Personnage) || deviner(il.texte)]} />
+);
 
 const Contrat: React.FC<{ x: number; lettre: string; p: number; dx: number }> = ({ x, lettre, p, dx }) => (
   <g transform={`translate(${(1 - p) * dx} 0) rotate(${(1 - p) * (dx > 0 ? 10 : -10)} ${x + 110} 270)`} opacity={p}>
@@ -210,6 +200,9 @@ const Calendrier: React.FC<{ il: Illustration }> = ({ il }) => {
   );
 };
 
+// montant sans l'unité : l'IA écrit parfois « 95 000 FCFA », le dessin ajoute lui-même « FCFA »
+const sansUnite = (m?: string) => (m || "").replace(/\s*(F\s?CFA|francs?( CFA)?)\s*$/i, "").trim();
+
 const Pile: React.FC<{ il: Illustration }> = ({ il }) => {
   const f = useCurrentFrame(), ap = useApparition();
   const n = Math.floor(lin(f, 0, 40, 0, 12));
@@ -217,7 +210,7 @@ const Pile: React.FC<{ il: Illustration }> = ({ il }) => {
     <g>
       {Array.from({ length: n }).map((_, k) => <Billet key={k} x={230 + (k % 2) * 8} y={400 - k * 24} w={300} />)}
       <g opacity={ap(42)}><rect x={150} y={60} width={460} height={70} rx={35} fill={O} />
-        <T t={`${il.montant ?? ""} FCFA`} x={380} y={110} fontSize={44} fill={B} /></g>
+        <T t={`${sansUnite(il.montant)} FCFA`} x={380} y={110} fontSize={44} fill={B} /></g>
     </g>
   );
 };
@@ -231,8 +224,8 @@ const Frais: React.FC<{ il: Illustration }> = ({ il }) => {
       <path d="M 230 90 L 530 90 L 530 420 L 505 400 L 480 420 L 455 400 L 430 420 L 405 400 L 380 420 L 355 400 L 330 420 L 305 400 L 280 420 L 255 400 L 230 420 Z" fill={B} />
       <T t="FRAIS" x={380} y={170} fontSize={56} fill={N} />
       <rect x={270} y={200} width={220} height={10} fill={GC} />
-      {il.montant ? <>
-        <T t={il.montant} x={380} y={300} fontSize={il.montant.length > 9 ? 48 : 64} fill={O} />
+      {sansUnite(il.montant) ? <>
+        <T t={sansUnite(il.montant)} x={380} y={300} fontSize={sansUnite(il.montant).length > 9 ? 48 : 64} fill={O} />
         <T t="FCFA" x={380} y={355} fontSize={36} fill={N} />
       </> : <T t="?" x={380} y={330} fontSize={110} fill={O} />}
     </g>
@@ -445,6 +438,7 @@ export const Dessin: React.FC<{ il: Illustration }> = ({ il }) => (
     {il.type === "pourcent" && <Pourcent il={il} />}
     {il.type === "couturiere" && <Couturiere />}
     {il.type === "personne" && <Personne il={il} />}
+    {il.type === "personnage" && <Perso il={il} />}
     {il.type === "contrats" && <Contrats />}
     {il.type === "calendrier" && <Calendrier il={il} />}
     {il.type === "pile" && <Pile il={il} />}
