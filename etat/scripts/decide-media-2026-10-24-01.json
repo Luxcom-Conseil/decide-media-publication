@@ -1,0 +1,139 @@
+{
+  "titre": "Le coût du crédit dans la CEMAC",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Le crédit baisse dans la région, mais il monte au Cameroun. On t'explique ce que ça change."
+    },
+    {
+      "type": "explication",
+      "dit": "Un crédit, c'est de l'argent prêté par la banque. Tu dois le rembourser avec des frais.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "banque"
+      },
+      "ecran": "Un prêt avec des intérêts"
+    },
+    {
+      "type": "explication",
+      "dit": "Le TEG regroupe le taux d'intérêt et les frais obligatoires pour calculer le coût total.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Prix total du crédit"
+    },
+    {
+      "type": "explication",
+      "dit": "Dans la CEMAC, le coût moyen des nouveaux crédits baisse à 10,99 %, contre 11,53 % un an avant.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pays",
+        "texte": "CEMAC"
+      },
+      "ecran": "10,99 % dans la CEMAC"
+    },
+    {
+      "type": "explication",
+      "dit": "Au Cameroun, ce coût augmente sur un an : il passe de 7,77 % à 8,22 %.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "7,77 %",
+        "apres": "8,22 %"
+      },
+      "ecran": "8,22 % au Cameroun"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une couturière emprunte 1 million de FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "couturiere"
+      },
+      "ecran": "1 000 000 FCFA empruntés"
+    },
+    {
+      "type": "explication",
+      "dit": "Le contrat A demande douze versements de 90 000 FCFA. Elle rembourse 1 080 000 FCFA.",
+      "etiquette": "CONTRAT A",
+      "illustration": {
+        "type": "calendrier",
+        "montant": "90 000"
+      },
+      "ecran": "12 x 90 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Si tous les frais sont déjà inclus, le financement lui coûte 80 000 FCFA.",
+      "etiquette": "RÉSULTAT A",
+      "illustration": {
+        "type": "frais",
+        "montant": "80 000 FCFA"
+      },
+      "ecran": "Coût : 80 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Le contrat B prévoit douze versements de 88 000 FCFA, mais ajoute 40 000 FCFA de frais.",
+      "etiquette": "CONTRAT B",
+      "illustration": {
+        "type": "calendrier",
+        "montant": "88 000"
+      },
+      "ecran": "12 x 88 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Au total, elle rembourse 1 096 000 FCFA. L'ensemble lui coûte 16 000 FCFA de plus.",
+      "etiquette": "RÉSULTAT B",
+      "illustration": {
+        "type": "pile",
+        "montant": "1 096 000"
+      },
+      "ecran": "Total : 1 096 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Une mensualité plus faible peut cacher un coût total plus élevé.",
+      "etiquette": "COMPARAISON",
+      "illustration": {
+        "type": "balance",
+        "a": "Contrat A",
+        "b": "Contrat B"
+      },
+      "ecran": "Regarder le total"
+    },
+    {
+      "type": "explication",
+      "dit": "C'est le contrat entier qui engage ton entreprise ou ton foyer, pas seulement la moyenne.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Le contrat entier engage"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour choisir, demande toujours un tableau complet avec tous les paiements et les frais.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Avant de signer : Somme reçue | Échéances | Frais"
+      },
+      "ecran": "Demander le tableau complet"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà comparé deux offres de crédit avant d'emprunter pour ton activité ?",
+      "dit": "As-tu déjà comparé deux offres de crédit avant d'emprunter pour ton activité ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-24-01",
+  "_modele": "gemini"
+}
