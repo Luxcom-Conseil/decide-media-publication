@@ -1,0 +1,131 @@
+{
+  "titre": "Côte d'Ivoire : hausse du budget pour 2027",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "La Côte d'Ivoire annonce un budget en hausse pour l'année 2027. On t'explique ce que ça veut dire."
+    },
+    {
+      "type": "explication",
+      "dit": "Le budget de l'État, c'est l'ensemble de l'argent qu'il prévoit de récolter et de dépenser.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "pile",
+        "montant": "18 466,1 milliards"
+      },
+      "ecran": "Un budget de l'État"
+    },
+    {
+      "type": "explication",
+      "dit": "Le projet de budget 2027 atteint 18 466,1 milliards de FCFA contre 17 350,2 milliards en 2026.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "17 350,2 mia",
+        "apres": "18 466,1 mia"
+      },
+      "ecran": "+1 115,9 milliards FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Cela fait 1 115,9 milliards de FCFA de plus, soit une hausse d'environ 6,4 %.",
+      "etiquette": "LA HAUSSE",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "montant": "6,4 %"
+      },
+      "ecran": "+6,4 % en plus"
+    },
+    {
+      "type": "explication",
+      "dit": "Ça ne veut pas dire que chaque famille aura 6,4 % d'argent supplémentaire au quotidien.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personne",
+        "texte": "Citoyen"
+      },
+      "ecran": "Pas pour chaque famille"
+    },
+    {
+      "type": "explication",
+      "dit": "Le budget regroupe des dépenses très différentes : des études, des bâtiments ou leur fonctionnement.",
+      "etiquette": "DÉPENSES",
+      "illustration": {
+        "type": "liste",
+        "texte": "Budget : Études | Bâtiments | Dépenses"
+      },
+      "ecran": "Des dépenses différentes"
+    },
+    {
+      "type": "explication",
+      "dit": "Le gouvernement prévoit par exemple 70 milliards de FCFA pour des études de projets.",
+      "etiquette": "LES ÉTUDES",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "70 milliards d'études"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une commune réserve 100 millions de FCFA pour rénover une école.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "chantier"
+      },
+      "ecran": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "dit": "Les plans coutent 5 millions, les travaux 80 millions, et il reste 15 millions.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "liste",
+        "texte": "École : Plans 5M | Travaux 80M | Reste 15M"
+      },
+      "ecran": "5M plans, 80M travaux"
+    },
+    {
+      "type": "explication",
+      "dit": "Si on paie seulement les plans, les élèves restent dans de vieilles salles sans changement.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "maison",
+        "texte": "École"
+      },
+      "ecran": "Avoir de vrais résultats"
+    },
+    {
+      "type": "explication",
+      "dit": "Ce qui compte vraiment, ce ne sont pas les annonces, mais les ouvrages livrés qui fonctionnent.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "balance",
+        "a": "Annonce",
+        "b": "Résultats"
+      },
+      "ecran": "Compter ce qui fonctionne"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut suivre le passage au Parlement et les comptes pour vérifier ce qui est réalisé.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Suivre la suite au Parlement"
+    },
+    {
+      "type": "question",
+      "texte": "D'après toi, quels sont les chantiers prioritaires que l'État devrait financer en premier ?",
+      "dit": "D'après toi, quels sont les chantiers prioritaires que l'État devrait financer en premier ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-03",
+  "_modele": "gemini"
+}

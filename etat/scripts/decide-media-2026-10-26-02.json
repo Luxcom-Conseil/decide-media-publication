@@ -1,0 +1,119 @@
+{
+  "titre": "Transfert d'argent : gare au taux de change",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Tu envoies souvent de l'argent au pays depuis l'étranger pour aider ta famille ?"
+    },
+    {
+      "type": "explication",
+      "dit": "Le taux de change, c'est le prix auquel un euro ou un dollar est transformé en FCFA.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "marche"
+      },
+      "ecran": "Frais et taux de change"
+    },
+    {
+      "type": "explication",
+      "dit": "La Banque mondiale estime le coût moyen mondial d'un petit transfert international à 6,36 %.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "texte": "6,36 %"
+      },
+      "ecran": "6,36 % de coût moyen"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour un envoi de 200 dollars, ce pourcentage moyen représente 12,72 dollars de coût.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "frais",
+        "montant": "12,72 $"
+      },
+      "ecran": "12,72 $ pour 200 $"
+    },
+    {
+      "type": "explication",
+      "dit": "Un service peut annoncer peu de frais, mais convertir ton argent avec un taux de change peu avantageux.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Frais affichés vs change"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une Camerounaise dispose de 100 euros au total pour aider sa mère.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personne",
+        "texte": "100 euros à envoyer"
+      },
+      "ecran": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "dit": "Le service A prend 3 euros de frais et change le reste à 650 FCFA. Sa mère reçoit 63 050 FCFA.",
+      "etiquette": "SERVICE A",
+      "illustration": {
+        "type": "pile",
+        "montant": "63 050 FCFA"
+      },
+      "ecran": "Sa mère reçoit 63 050 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Le service B annonce zéro frais, mais change à 620 FCFA. Sa mère reçoit 62 000 FCFA.",
+      "etiquette": "SERVICE B",
+      "illustration": {
+        "type": "pile",
+        "montant": "62 000 FCFA"
+      },
+      "ecran": "Sa mère reçoit 62 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Avec le service sans frais, elle reçoit 1 050 FCFA de moins à cause du mauvais taux de change.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "balance",
+        "a": "Service B",
+        "b": "Service A"
+      },
+      "ecran": "1 050 FCFA de moins"
+    },
+    {
+      "type": "explication",
+      "dit": "Ce qui compte vraiment, c'est la somme exacte en FCFA qui arrive entre les mains de ta famille.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Regarde la somme finale"
+    },
+    {
+      "type": "explication",
+      "dit": "Avant d'envoyer, compare plusieurs services au même moment avec le même budget total.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Comparer : Même somme | Même moment | Somme reçue"
+      },
+      "ecran": "Compare la somme reçue"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà remarqué qu'un transfert sans frais te donnait moins de FCFA au final ?",
+      "dit": "As-tu déjà remarqué qu'un transfert sans frais te donnait moins de FCFA au final ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-02",
+  "_modele": "gemini"
+}

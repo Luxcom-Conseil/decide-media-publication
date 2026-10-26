@@ -2958,5 +2958,580 @@
       "titre": "EDC porte son capital à 25,289 milliards de FCFA. La hausse ne correspond pas à autant d’argent neuf.",
       "url": "https://youtu.be/Y2-z7JltUng"
     }
+  },
+  "decide-media-2026-10-26-01": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:02+00:00",
+      "piste": "principale",
+      "post_id": "122114039115499704",
+      "programme_pour": "2026-10-26T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les salaires reviennent sur la table dans l’industrie camerounaise. Les fiches de paie attendent encore un accord.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:55:03+00:00",
+      "piste": "principale",
+      "post_id": "1090665396932578",
+      "programme_pour": "2026-10-26T07:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les salaires reviennent sur la table dans l’industrie camerounaise. Les fiches de paie attendent encore un accord.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:10+00:00",
+      "piste": "principale",
+      "post_id": "6adeeefec5d33e7e5d02e3de",
+      "programme_pour": "2026-10-26T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les salaires reviennent sur la table dans l’industrie camerounaise. Les fiches de paie attendent encore un accord.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:17+00:00",
+      "piste": "principale",
+      "post_id": "6adeef05d62a2f4f00432084",
+      "programme_pour": "2026-10-26T07:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les salaires reviennent sur la table dans l’industrie camerounaise. Les fiches de paie attendent encore un accord.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "erreur": "buffer x_buffer : Invalid post: Twitter / X posts cannot exceed 280 characters.",
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:58:49+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Les salaires reviennent sur la table dans l’industrie camerounaise. Les fiches de paie attendent encore un accord."
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:48:28+00:00",
+      "piste": "principale",
+      "post_id": "cUxdmK069QM",
+      "programme_pour": "2026-10-26T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les salaires reviennent sur la table dans l’industrie camerounaise. Les fiches de paie attendent encore un accord.",
+      "url": "https://youtu.be/cUxdmK069QM"
+    }
+  },
+  "decide-media-2026-10-26-02": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:05+00:00",
+      "piste": "principale",
+      "post_id": "122114039169499704",
+      "programme_pour": "2026-10-26T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un transfert « sans frais » peut laisser moins d’argent à la famille. Le taux de change compte aussi.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:55:08+00:00",
+      "piste": "principale",
+      "post_id": "4717491805239870",
+      "programme_pour": "2026-10-26T09:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un transfert « sans frais » peut laisser moins d’argent à la famille. Le taux de change compte aussi.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:11+00:00",
+      "piste": "principale",
+      "post_id": "6adeeeffcacf63ab0ac19064",
+      "programme_pour": "2026-10-26T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un transfert « sans frais » peut laisser moins d’argent à la famille. Le taux de change compte aussi.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:18+00:00",
+      "piste": "principale",
+      "post_id": "6adeef06d62a2f4f004320b2",
+      "programme_pour": "2026-10-26T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un transfert « sans frais » peut laisser moins d’argent à la famille. Le taux de change compte aussi.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:00:15+00:00",
+      "piste": "principale",
+      "post_id": "6adeec6f467184a9e349cc9c",
+      "programme_pour": "2026-10-26T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un transfert « sans frais » peut laisser moins d’argent à la famille. Le taux de change compte aussi.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:50:07+00:00",
+      "piste": "principale",
+      "post_id": "FHSExh6bjV0",
+      "programme_pour": "2026-10-26T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un transfert « sans frais » peut laisser moins d’argent à la famille. Le taux de change compte aussi.",
+      "url": "https://youtu.be/FHSExh6bjV0"
+    }
+  },
+  "decide-media-2026-10-26-03": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:08+00:00",
+      "piste": "principale",
+      "post_id": "122114039223499704",
+      "programme_pour": "2026-10-26T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire prévoit 1 115,9 milliards de FCFA de budget en plus. Que financera cette hausse ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:55:14+00:00",
+      "piste": "principale",
+      "post_id": "1137479335903940",
+      "programme_pour": "2026-10-26T10:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire prévoit 1 115,9 milliards de FCFA de budget en plus. Que financera cette hausse ?",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:12+00:00",
+      "piste": "principale",
+      "post_id": "6adeef00c5d33e7e5d02e473",
+      "programme_pour": "2026-10-26T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire prévoit 1 115,9 milliards de FCFA de budget en plus. Que financera cette hausse ?",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:19+00:00",
+      "piste": "principale",
+      "post_id": "6adeef07ebc709901afb7941",
+      "programme_pour": "2026-10-26T10:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire prévoit 1 115,9 milliards de FCFA de budget en plus. Que financera cette hausse ?",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:01:30+00:00",
+      "piste": "principale",
+      "post_id": "6adeecba467184a9e34a0734",
+      "programme_pour": "2026-10-26T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire prévoit 1 115,9 milliards de FCFA de budget en plus. Que financera cette hausse ?",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:51:51+00:00",
+      "piste": "principale",
+      "post_id": "n99B8OMfgMI",
+      "programme_pour": "2026-10-26T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire prévoit 1 115,9 milliards de FCFA de budget en plus. Que financera cette hausse ?",
+      "url": "https://youtu.be/n99B8OMfgMI"
+    }
+  },
+  "decide-media-2026-10-26-04": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:12+00:00",
+      "piste": "principale",
+      "post_id": "122114039277499704",
+      "programme_pour": "2026-10-26T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le CBF se termine avec quatre recommandations. Les entreprises attendent maintenant des délais vérifiables.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:55:19+00:00",
+      "piste": "principale",
+      "post_id": "1144756991418131",
+      "programme_pour": "2026-10-26T12:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le CBF se termine avec quatre recommandations. Les entreprises attendent maintenant des délais vérifiables.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:13+00:00",
+      "piste": "principale",
+      "post_id": "6adeef01d62a2f4f00431fa4",
+      "programme_pour": "2026-10-26T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le CBF se termine avec quatre recommandations. Les entreprises attendent maintenant des délais vérifiables.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:19+00:00",
+      "piste": "principale",
+      "post_id": "6adeef072a10026cd9a8a307",
+      "programme_pour": "2026-10-26T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le CBF se termine avec quatre recommandations. Les entreprises attendent maintenant des délais vérifiables.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:03:15+00:00",
+      "piste": "principale",
+      "post_id": "6adeed233c2b9287727d2d27",
+      "programme_pour": "2026-10-26T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le CBF se termine avec quatre recommandations. Les entreprises attendent maintenant des délais vérifiables.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:53:33+00:00",
+      "piste": "principale",
+      "post_id": "m0RcmnhfWLM",
+      "programme_pour": "2026-10-26T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le CBF se termine avec quatre recommandations. Les entreprises attendent maintenant des délais vérifiables.",
+      "url": "https://youtu.be/m0RcmnhfWLM"
+    }
+  },
+  "decide-media-2026-10-26-05": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:15+00:00",
+      "piste": "principale",
+      "post_id": "122114039331499704",
+      "programme_pour": "2026-10-26T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Belife annonce sa certification ISO 9001:2015. Pour l’assuré, le contrat reste la pièce décisive.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:55:25+00:00",
+      "piste": "principale",
+      "post_id": "4354788858167172",
+      "programme_pour": "2026-10-26T13:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Belife annonce sa certification ISO 9001:2015. Pour l’assuré, le contrat reste la pièce décisive.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:14+00:00",
+      "piste": "principale",
+      "post_id": "6adeef01c5d33e7e5d02e52b",
+      "programme_pour": "2026-10-26T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Belife annonce sa certification ISO 9001:2015. Pour l’assuré, le contrat reste la pièce décisive.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:12:45+00:00",
+      "piste": "principale",
+      "post_id": "6adeef5dcacf63ab0ac19ceb",
+      "programme_pour": "2026-10-26T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Belife annonce sa certification ISO 9001:2015. Pour l’assuré, le contrat reste la pièce décisive.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:04:29+00:00",
+      "piste": "principale",
+      "post_id": "6adeed6db217de1f805570e3",
+      "programme_pour": "2026-10-26T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Belife annonce sa certification ISO 9001:2015. Pour l’assuré, le contrat reste la pièce décisive.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:54:59+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Belife annonce sa certification ISO 9001:2015. Pour l’assuré, le contrat reste la pièce décisive."
+    }
+  },
+  "decide-media-2026-10-26-06": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:18+00:00",
+      "piste": "principale",
+      "post_id": "122114039373499704",
+      "programme_pour": "2026-10-26T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Sénégal, l’alimentation augmente de 2 % en un mois. La moyenne générale ne raconte pas chaque panier.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:57:09+00:00",
+      "piste": "principale",
+      "post_id": "1786511389229658",
+      "programme_pour": "2026-10-26T15:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Sénégal, l’alimentation augmente de 2 % en un mois. La moyenne générale ne raconte pas chaque panier.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:14+00:00",
+      "piste": "principale",
+      "post_id": "6adeef02ebc709901afb78de",
+      "programme_pour": "2026-10-26T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Sénégal, l’alimentation augmente de 2 % en un mois. La moyenne générale ne raconte pas chaque panier.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:14:10+00:00",
+      "piste": "principale",
+      "post_id": "6adeefb1d62a2f4f00434566",
+      "programme_pour": "2026-10-26T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Sénégal, l’alimentation augmente de 2 % en un mois. La moyenne générale ne raconte pas chaque panier.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:05:43+00:00",
+      "piste": "principale",
+      "post_id": "6adeedb714e7509845ae4465",
+      "programme_pour": "2026-10-26T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Sénégal, l’alimentation augmente de 2 % en un mois. La moyenne générale ne raconte pas chaque panier.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-26-07": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:22+00:00",
+      "piste": "principale",
+      "post_id": "122114039433499704",
+      "programme_pour": "2026-10-26T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, un nouveau club APM prépare janvier 2027. Les dirigeants y travailleront leurs difficultés de gestion.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:15+00:00",
+      "piste": "principale",
+      "post_id": "6adeef03d62a2f4f00431ff3",
+      "programme_pour": "2026-10-26T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, un nouveau club APM prépare janvier 2027. Les dirigeants y travailleront leurs difficultés de gestion.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:17:24+00:00",
+      "piste": "principale",
+      "post_id": "6adef074d62a2f4f00437d49",
+      "programme_pour": "2026-10-26T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, un nouveau club APM prépare janvier 2027. Les dirigeants y travailleront leurs difficultés de gestion.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:06:58+00:00",
+      "piste": "principale",
+      "post_id": "6adeee02c5d33e7e5d028b2a",
+      "programme_pour": "2026-10-26T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, un nouveau club APM prépare janvier 2027. Les dirigeants y travailleront leurs difficultés de gestion.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-26-08": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:25+00:00",
+      "piste": "principale",
+      "post_id": "122114039499499704",
+      "programme_pour": "2026-10-26T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "TRADEX commence à servir les automobilistes à Kinshasa. Sa première station dispose de 130 000 litres de stockage.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:15+00:00",
+      "piste": "principale",
+      "post_id": "6adeef03c5d33e7e5d02e57e",
+      "programme_pour": "2026-10-26T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "TRADEX commence à servir les automobilistes à Kinshasa. Sa première station dispose de 130 000 litres de stockage.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:20:46+00:00",
+      "piste": "principale",
+      "post_id": "6adef13ecacf63ab0ac21afe",
+      "programme_pour": "2026-10-26T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "TRADEX commence à servir les automobilistes à Kinshasa. Sa première station dispose de 130 000 litres de stockage.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:08:11+00:00",
+      "piste": "principale",
+      "post_id": "6adeee4bebc709901afb4ee3",
+      "programme_pour": "2026-10-26T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "TRADEX commence à servir les automobilistes à Kinshasa. Sa première station dispose de 130 000 litres de stockage.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-26-09": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:28+00:00",
+      "piste": "principale",
+      "post_id": "122114039553499704",
+      "programme_pour": "2026-10-26T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Tongon prépare 52 MWc solaires pour 33 milliards de FCFA. La mise en service est attendue à la mi-2028.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:16+00:00",
+      "piste": "principale",
+      "post_id": "6adeef04d62a2f4f0043201e",
+      "programme_pour": "2026-10-26T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Tongon prépare 52 MWc solaires pour 33 milliards de FCFA. La mise en service est attendue à la mi-2028.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:23:07+00:00",
+      "piste": "principale",
+      "post_id": "6adef1cbebc709901afc1747",
+      "programme_pour": "2026-10-26T19:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Tongon prépare 52 MWc solaires pour 33 milliards de FCFA. La mise en service est attendue à la mi-2028.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:09:55+00:00",
+      "piste": "principale",
+      "post_id": "6adeeeb3d62a2f4f00430b0c",
+      "programme_pour": "2026-10-26T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Tongon prépare 52 MWc solaires pour 33 milliards de FCFA. La mise en service est attendue à la mi-2028.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-26-10": {
+    "facebook": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T05:46:31+00:00",
+      "piste": "principale",
+      "post_id": "122114039679499704",
+      "programme_pour": "2026-10-27T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À San Pedro, le ministre réclame une pesée transparente et des paiements à temps pour les planteurs.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:17+00:00",
+      "piste": "principale",
+      "post_id": "6adeef04d62a2f4f00432048",
+      "programme_pour": "2026-10-27T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À San Pedro, le ministre réclame une pesée transparente et des paiements à temps pour les planteurs.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:26:08+00:00",
+      "piste": "principale",
+      "post_id": "6adef280ebc709901afc367f",
+      "programme_pour": "2026-10-26T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À San Pedro, le ministre réclame une pesée transparente et des paiements à temps pour les planteurs.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T06:11:09+00:00",
+      "piste": "principale",
+      "post_id": "6adeeefdebc709901afb7846",
+      "programme_pour": "2026-10-27T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À San Pedro, le ministre réclame une pesée transparente et des paiements à temps pour les planteurs.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
   }
 }

@@ -1,0 +1,131 @@
+{
+  "titre": "Pourquoi les prix du marché touchent chacun",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Pourquoi tes dépenses au marché augmentent parfois plus vite que la moyenne du pays ?"
+    },
+    {
+      "type": "explication",
+      "dit": "L'inflation alimentaire, c'est l'augmentation globale du prix des produits qu'on mange.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "marche"
+      },
+      "ecran": "Prix de l'alimentation"
+    },
+    {
+      "type": "explication",
+      "dit": "Au Sénégal, la nourriture a augmenté de 2 % en septembre par rapport à août.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "Août",
+        "apres": "Septembre"
+      },
+      "ecran": "Nourriture : + 2 %"
+    },
+    {
+      "type": "explication",
+      "dit": "Sur le même mois, l'ensemble des prix n'a progressé que de 1,1 %.",
+      "etiquette": "MOYENNE NATIONALE",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse"
+      },
+      "ecran": "Ensemble des prix : + 1,1 %"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Deux ménages dépensent chacun 100 000 FCFA par mois.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personne",
+        "texte": "Deux ménages"
+      },
+      "ecran": "Prenons un exemple"
+    },
+    {
+      "type": "explication",
+      "dit": "Le premier consacre 60 000 FCFA à l'alimentation.",
+      "etiquette": "PREMIER MÉNAGE",
+      "illustration": {
+        "type": "pile",
+        "montant": "60 000 FCFA"
+      },
+      "ecran": "60 000 FCFA pour manger"
+    },
+    {
+      "type": "explication",
+      "dit": "Le second consacre 30 000 FCFA à la nourriture.",
+      "etiquette": "SECOND MÉNAGE",
+      "illustration": {
+        "type": "pile",
+        "montant": "30 000 FCFA"
+      },
+      "ecran": "30 000 FCFA pour manger"
+    },
+    {
+      "type": "explication",
+      "dit": "Avec 2 % de hausse, le premier paie 1 200 FCFA de plus. Son budget passe à 101 200 FCFA.",
+      "etiquette": "IMPACT PREMIER MÉNAGE",
+      "illustration": {
+        "type": "frais",
+        "montant": "+ 1 200 FCFA"
+      },
+      "ecran": "Budget : 101 200 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour le second, 2 % représentent 600 FCFA. Son budget atteint 100 600 FCFA.",
+      "etiquette": "IMPACT SECOND MÉNAGE",
+      "illustration": {
+        "type": "frais",
+        "montant": "+ 600 FCFA"
+      },
+      "ecran": "Budget : 100 600 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "La facture supplémentaire est deux fois plus lourde pour le premier ménage.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "balance",
+        "a": "Second ménage",
+        "b": "Premier ménage"
+      },
+      "ecran": "2 fois plus lourd"
+    },
+    {
+      "type": "explication",
+      "dit": "Une moyenne nationale ne reproduit pas les dépenses réelles de chaque famille.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Une moyenne varie selon chacun"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour bien suivre ton budget, garde une liste stable de produits et compare les prix unitaires.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Avis : Liste fixe | Prix unitaire | Quantités"
+      },
+      "ecran": "Suivre sa propre liste"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu remarqué une hausse du prix de tes aliments au marché ce mois-ci ?",
+      "dit": "As-tu remarqué une hausse du prix de tes aliments au marché ce mois-ci ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-06",
+  "_modele": "gemini"
+}

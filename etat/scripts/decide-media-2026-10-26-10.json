@@ -1,0 +1,99 @@
+{
+  "titre": "Palmier à huile : pesée et paiements",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "En Côte d'Ivoire, les planteurs de palmier à huile demandent de la transparence."
+    },
+    {
+      "type": "explication",
+      "dit": "La pesée, c'est mesurer le poids exact de tes fruits pour calculer ton paiement.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "balance",
+        "a": "Fruits livrés",
+        "b": "Poids payé"
+      },
+      "ecran": "Une pesée exacte"
+    },
+    {
+      "type": "explication",
+      "dit": "À San Pedro, le ministre a réclamé une pesée juste pour 30 000 planteurs.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personne",
+        "texte": "30 000 planteurs"
+      },
+      "ecran": "30 000 planteurs"
+    },
+    {
+      "type": "explication",
+      "dit": "Il demande aussi de payer les producteurs sans retard après la livraison.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "Délais de paiement"
+      },
+      "ecran": "Payer à temps"
+    },
+    {
+      "type": "explication",
+      "dit": "Comme le prix dépend du poids, une pesée faussée te fait perdre de l'argent.",
+      "etiquette": "POURQUOI ?",
+      "illustration": {
+        "type": "marche",
+        "montant": "Prix au kilo"
+      },
+      "ecran": "Chaque kilo compte"
+    },
+    {
+      "type": "explication",
+      "dit": "Si le paiement tarde, tu ne peux pas payer la nourriture ni la scolarité.",
+      "etiquette": "EN PRATIQUE",
+      "illustration": {
+        "type": "maison",
+        "texte": "Dépenses de la famille"
+      },
+      "ecran": "Gérer ton foyer"
+    },
+    {
+      "type": "explication",
+      "dit": "Attention, le ministre n'a pas annoncé de nouveau prix ni de délai obligatoire.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "photo"
+      },
+      "ecran": "Pas de nouveau tarif"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour être bien payé, il faut surveiller soi-même ses documents.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Vérifie tes tickets"
+    },
+    {
+      "type": "explication",
+      "dit": "Garde toujours tes tickets de pesée et note la date exacte où tu es payé.",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "A faire : Garder les tickets | Noter la date | Comparer le poids"
+      },
+      "ecran": "Garde tes reçus"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà eu des retards de paiement ou des soucis de pesée lors de tes ventes ?",
+      "dit": "As-tu déjà eu des retards de paiement ou des soucis de pesée lors de tes ventes ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-10",
+  "_modele": "gemini"
+}

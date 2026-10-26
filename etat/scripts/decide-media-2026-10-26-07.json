@@ -1,0 +1,117 @@
+{
+  "titre": "Entreprises : un nouveau club à Douala",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Tu diriges une entreprise au Cameroun ? Un nouveau club arrive à Douala."
+    },
+    {
+      "type": "explication",
+      "dit": "Le codéveloppement, c'est s'entraider entre patrons pour résoudre des problèmes de gestion.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personne",
+        "texte": "Dirigeant"
+      },
+      "ecran": "Un club pour dirigeants"
+    },
+    {
+      "type": "explication",
+      "dit": "L'APM a présenté le 21 octobre un nouveau club à Douala. Il démarrera en janvier 2027.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pays",
+        "texte": "Cameroun"
+      },
+      "ecran": "Démarrage en janvier 2027"
+    },
+    {
+      "type": "explication",
+      "dit": "Selon les comptes rendus, Nadine Tinen doit en assurer la présidence.",
+      "etiquette": "PRESIDENCE",
+      "illustration": {
+        "type": "personne",
+        "texte": "Présidente"
+      },
+      "ecran": "Nadine Tinen présidente"
+    },
+    {
+      "type": "explication",
+      "dit": "Le club recensera les besoins des membres, puis organisera des échanges avec des experts.",
+      "etiquette": "FONCTIONNEMENT",
+      "illustration": {
+        "type": "liste",
+        "texte": "Programme : Besoins | Échanges | Experts"
+      },
+      "ecran": "Besoins, échanges, experts"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Un fabricant cherche comment payer ses fournisseurs avant d'être payé.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "marche"
+      },
+      "ecran": "Retard de paiement"
+    },
+    {
+      "type": "explication",
+      "dit": "Les autres membres discutent ensemble pour lui proposer des solutions selon leur expérience.",
+      "etiquette": "SOLUTIONS",
+      "illustration": {
+        "type": "personne",
+        "texte": "Conseils"
+      },
+      "ecran": "Conseils entre patrons"
+    },
+    {
+      "type": "explication",
+      "dit": "Ce dispositif d'apprentissage ne constitue ni un prêt, ni une garantie de financement.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Pas un prêt d'argent"
+    },
+    {
+      "type": "explication",
+      "dit": "Le club abordera aussi la transmission des entreprises familiales pour assurer leur avenir.",
+      "etiquette": "AUTRE SUJET",
+      "illustration": {
+        "type": "maison",
+        "texte": "Famille"
+      },
+      "ecran": "Entreprises familiales"
+    },
+    {
+      "type": "explication",
+      "dit": "Échanger sur ses difficultés de gestion permet de trouver de meilleures solutions.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personne",
+        "texte": "Gestion"
+      },
+      "ecran": "Partager pour progresser"
+    },
+    {
+      "type": "explication",
+      "dit": "Si tu es intéressé, vérifie le programme, le temps requis et le coût auprès de l'association.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Vérifier les conditions"
+    },
+    {
+      "type": "question",
+      "texte": "Penses-tu que partager tes difficultés avec d'autres chefs d'entreprise peut t'aider dans ton activité ?",
+      "dit": "Penses-tu que partager tes difficultés avec d'autres chefs d'entreprise peut t'aider dans ton activité ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-07",
+  "_modele": "gemini"
+}

@@ -1,0 +1,111 @@
+{
+  "titre": "Industrie : vers une hausse des salaires ?",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Les salaires de l'industrie sont en discussion au Cameroun. On t'explique ce qui se négocie."
+    },
+    {
+      "type": "explication",
+      "dit": "Une convention collective, c'est l'accord qui fixe les règles et les salaires dans un secteur.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Convention collective"
+    },
+    {
+      "type": "explication",
+      "dit": "Le 21 octobre à Douala, patrons et syndicats ont repris la révision de cette convention.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pays",
+        "texte": "Cameroun"
+      },
+      "ecran": "Négociations à Douala"
+    },
+    {
+      "type": "explication",
+      "dit": "Les patrons citent les coûts d'énergie et de transport. Les salariés veulent faire face aux dépenses.",
+      "etiquette": "LE PROBLÈME",
+      "illustration": {
+        "type": "balance",
+        "a": "Charges patrons",
+        "b": "Dépenses ouvriers"
+      },
+      "ecran": "Coûts contre vie chère"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une ouvrière gagne 100 000 FCFA par mois.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personne",
+        "texte": "Ouvrière"
+      },
+      "ecran": "100 000 FCFA par mois"
+    },
+    {
+      "type": "explication",
+      "dit": "Ses dépenses de nourriture, logement et transport s'élèvent à 95 000 FCFA. Il lui reste 5 000 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "marche",
+        "montant": "95 000 FCFA"
+      },
+      "ecran": "Dépenses : 95 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Si ses dépenses augmentent de 5 %, elles passent à 99 750 FCFA. Il ne lui reste que 250 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "95 000",
+        "apres": "99 750"
+      },
+      "ecran": "Dépenses + 5 %"
+    },
+    {
+      "type": "explication",
+      "dit": "Une hausse de salaire de 3 % monte sa paie à 103 000 FCFA. Après 99 750 FCFA, il reste 3 250 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "montant": "103 000 FCFA"
+      },
+      "ecran": "Salaire + 3 %"
+    },
+    {
+      "type": "explication",
+      "dit": "Une bonne négociation doit regarder la somme qu'il reste vraiment à la fin du mois.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Regarder le montant réel"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut vérifier la date d'effet de l'accord et regarder l'impact réel sur la fiche de paie.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Accord : Date | Dates | Fiche de paie"
+      },
+      "ecran": "Attendre le texte final"
+    },
+    {
+      "type": "question",
+      "texte": "Penses-tu que les salaires doivent être augmentés dans les usines cette année ?",
+      "dit": "Penses-tu que les salaires doivent être augmentés dans les usines cette année ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-01",
+  "_modele": "gemini"
+}

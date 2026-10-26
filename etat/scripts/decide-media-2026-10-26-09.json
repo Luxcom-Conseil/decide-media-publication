@@ -1,0 +1,105 @@
+{
+  "titre": "Une centrale solaire de 33 milliards",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "La Côte d'Ivoire lance un projet de centrale solaire géante. Voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "dit": "Une centrale solaire fabrique de l'électricité avec la lumière du soleil grâce à des panneaux.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "solaire"
+      },
+      "ecran": "L'ÉNERGIE SOLAIRE"
+    },
+    {
+      "type": "explication",
+      "dit": "À Tongon, le pays lance un projet de 52 mégawatts-crête d'énergie solaire.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "solaire"
+      },
+      "ecran": "52 MWc de puissance"
+    },
+    {
+      "type": "explication",
+      "dit": "Ce projet représente un investissement total de 33 milliards de FCFA.",
+      "etiquette": "LE COÛT",
+      "illustration": {
+        "type": "pile",
+        "montant": "33 milliards FCFA"
+      },
+      "ecran": "33 milliards de FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Les travaux de construction doivent démarrer en 2027.",
+      "etiquette": "CALENDRIER",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "Travaux en 2027"
+      },
+      "ecran": "Travaux prévus en 2027"
+    },
+    {
+      "type": "explication",
+      "dit": "La mise en service est prévue au plus tard à la mi-2028.",
+      "etiquette": "OUVERTURE",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "Mi-2028"
+      },
+      "ecran": "Mise en service en 2028"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Près de 500 emplois sont annoncés pendant la construction.",
+      "etiquette": "CAS CONCRET",
+      "illustration": {
+        "type": "chantier"
+      },
+      "ecran": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "dit": "Le ministre demande que les habitants du coin soient recrutés en priorité sur le chantier.",
+      "etiquette": "LES EMPLOIS",
+      "illustration": {
+        "type": "personne",
+        "texte": "Habitant"
+      },
+      "ecran": "Priorité aux locaux"
+    },
+    {
+      "type": "explication",
+      "dit": "L'annonce d'un projet ne veut pas dire que l'électricité arrive tout de suite.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "maison"
+      },
+      "ecran": "L'électricité prend du temps"
+    },
+    {
+      "type": "explication",
+      "dit": "Si tu habites la région, reste informé des futures offres d'emploi pour le chantier.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Suivre les recrutements"
+    },
+    {
+      "type": "question",
+      "texte": "Penses-tu que l'énergie solaire va résoudre nos problèmes de courant ?",
+      "dit": "Penses-tu que l'énergie solaire va résoudre nos problèmes de courant ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-09",
+  "_modele": "gemini"
+}

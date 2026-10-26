@@ -1,0 +1,106 @@
+{
+  "titre": "TRADEX ouvre sa première station à Kinshasa",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Une grande entreprise du Cameroun vient d'ouvrir sa première station-service à Kinshasa."
+    },
+    {
+      "type": "explication",
+      "dit": "Une station-service est un endroit où tu achètes du carburant comme le Super ou le Gasoil.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "marche"
+      },
+      "ecran": "Un point de vente"
+    },
+    {
+      "type": "explication",
+      "dit": "TRADEX a commencé la vente de carburant le 22 octobre dans la commune de Limete.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pays",
+        "texte": "RDC"
+      },
+      "ecran": "Ouvert le 22 octobre"
+    },
+    {
+      "type": "explication",
+      "dit": "Cette station dispose d'une capacité de stockage totale de 130 000 litres.",
+      "etiquette": "CAPACITÉ",
+      "illustration": {
+        "type": "pile",
+        "montant": "130 000 litres"
+      },
+      "ecran": "130 000 litres de stock"
+    },
+    {
+      "type": "explication",
+      "dit": "Les réservoirs contiennent 75 000 litres de Super et 55 000 litres de Gasoil.",
+      "etiquette": "DÉTAILS",
+      "illustration": {
+        "type": "liste",
+        "texte": "Stock : Super 75 000 L | Gasoil 55 000 L"
+      },
+      "ecran": "Super et Gasoil"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Si tu es chauffeur de taxi, tu as un endroit de plus pour faire le plein.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personne",
+        "texte": "Chauffeur"
+      },
+      "ecran": "Un choix de plus"
+    },
+    {
+      "type": "explication",
+      "dit": "Sur 1 800 mètres carrés, il y a une boutique, du gaz et un forage pour les habitants.",
+      "etiquette": "SUR PLACE",
+      "illustration": {
+        "type": "maison"
+      },
+      "ecran": "Boutique et gaz"
+    },
+    {
+      "type": "explication",
+      "dit": "Attention, l'ouverture ne garantit pas des prix plus bas ni du carburant en permanence.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Pas de baisse promise"
+    },
+    {
+      "type": "explication",
+      "dit": "Une nouvelle station apporte du choix, mais il faut observer le service sur le terrain.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "texte": "Plus de choix | Service à vérifier"
+      },
+      "ecran": "Plus de concurrence"
+    },
+    {
+      "type": "explication",
+      "dit": "Regarde bien les prix affichés à la pompe et la disponibilité avant de faire ton plein.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Vérifie les prix"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà remarqué de nouvelles stations-service dans ton quartier ?",
+      "dit": "As-tu déjà remarqué de nouvelles stations-service dans ton quartier ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-08",
+  "_modele": "gemini"
+}

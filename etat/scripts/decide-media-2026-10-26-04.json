@@ -1,0 +1,127 @@
+{
+  "titre": "Cameroon Business Forum : quel changement ?",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Des réformes sont annoncées au Cameroun. Qu'est-ce que ça va changer pour ton travail ?"
+    },
+    {
+      "type": "explication",
+      "dit": "Un forum d'affaires, c'est une grande réunion entre le gouvernement et les entreprises.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "banque"
+      },
+      "ecran": "Réunion État-entreprises"
+    },
+    {
+      "type": "explication",
+      "dit": "Le Cameroon Business Forum s'est achevé le 23 octobre avec quatre recommandations.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "23 octobre"
+      },
+      "ecran": "4 recommandations le 23 octobre"
+    },
+    {
+      "type": "explication",
+      "dit": "Les priorités concernent les démarches, les routes, l'énergie et le crédit aux PME.",
+      "etiquette": "PRIORITÉS",
+      "illustration": {
+        "type": "liste",
+        "texte": "Priorités : Démarches | Routes | PME"
+      },
+      "ecran": "Démarches, routes et PME"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personne",
+        "texte": "Artisan"
+      },
+      "ecran": "Prenons un exemple"
+    },
+    {
+      "type": "explication",
+      "dit": "Un fabricant de meubles doit faire trois déplacements pour déposer et compléter sa demande.",
+      "etiquette": "SITUATION",
+      "illustration": {
+        "type": "photo"
+      },
+      "ecran": "3 déplacements au guichet"
+    },
+    {
+      "type": "explication",
+      "dit": "Chaque aller-retour coûte 2 000 FCFA. Il dépense 6 000 FCFA, sans compter le temps perdu.",
+      "etiquette": "COÛT ACTUEL",
+      "illustration": {
+        "type": "pile",
+        "montant": "6 000 FCFA"
+      },
+      "ecran": "6 000 FCFA de transport"
+    },
+    {
+      "type": "explication",
+      "dit": "Si une nouvelle procédure permet de tout faire en une visite, le transport tombe à 2 000 FCFA.",
+      "etiquette": "AVANTAGE",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "6 000",
+        "apres": "2 000"
+      },
+      "ecran": "1 seule visite : 2 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "L'économie atteint 4 000 FCFA. C'est ce que peut apporter une bonne réforme.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pile",
+        "montant": "4 000 FCFA"
+      },
+      "ecran": "4 000 FCFA d'économie"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour le vérifier, il faudra comparer le nombre de visites nécessaires avant et après.",
+      "etiquette": "À VÉRIFIER",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Comparer avant et après"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour un petit atelier, une réforme devient concrète quand elle coûte moins cher et moins de temps.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "marche"
+      },
+      "ecran": "Moins de temps, moins de frais"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut suivre le tableau promis pour vérifier si les délais et les coûts baissent vraiment.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Vérifier les résultats"
+    },
+    {
+      "type": "question",
+      "texte": "Combien de temps et de trajets perds-tu d'habitude pour régler tes papiers administratifs ?",
+      "dit": "Combien de temps et de trajets perds-tu d'habitude pour régler tes papiers administratifs ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-04",
+  "_modele": "gemini"
+}
