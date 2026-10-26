@@ -1,0 +1,116 @@
+{
+  "titre": "Assurance : la qualité et ton contrat",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Une assurance annonce avoir un label de qualité. Mais qu'est-ce que ça change pour ton argent ?"
+    },
+    {
+      "type": "explication",
+      "dit": "Une certification ISO montre que l'entreprise s'organise bien pour traiter tes dossiers.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Assuré",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Un label de qualité"
+    },
+    {
+      "type": "explication",
+      "dit": "Au Cameroun, Belife annonce le renouvellement de son label ISO 9001:2015.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "photo"
+      },
+      "ecran": "Label ISO 9001:2015 renouvelé"
+    },
+    {
+      "type": "explication",
+      "dit": "Ce label concerne le travail interne, mais il ne change pas les règles de ton contrat.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Le contrat ne change pas"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Tu as un contrat qui rembourse 80 % d'une dépense de 100 000 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Client",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "tient_document"
+      },
+      "ecran": "Dépense : 100 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "L'assureur te verse 80 000 FCFA et il te reste 20 000 FCFA à payer.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "montant": "80 000 FCFA"
+      },
+      "ecran": "Remboursé : 80 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Mais si la dépense est exclue du contrat, le label ne te remboursera rien du tout.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Client",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "ecran": "Dépense non couverte"
+    },
+    {
+      "type": "explication",
+      "dit": "En plus, l'édition ISO 2015 est remplacée par la version 2026 dans le catalogue officiel.",
+      "etiquette": "DÉTAILS",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "ISO 9001:2026"
+      },
+      "ecran": "Nouvelle édition 2026"
+    },
+    {
+      "type": "explication",
+      "dit": "Un label montre une bonne organisation, mais seul le papier signé fixe ce qu'on te rembourse.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Seul le contrat compte"
+    },
+    {
+      "type": "explication",
+      "dit": "Regarde le prix de ta cotisation, les dépenses couvertes et les conditions pour être payé.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Assurance : Prix | Ce qui est couvert | Remboursement"
+      },
+      "ecran": "Lis bien ton papier"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà eu une mauvaise surprise avec ce qui est remboursé par une assurance ?",
+      "dit": "As-tu déjà eu une mauvaise surprise avec ce qui est remboursé par une assurance ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-26-05",
+  "_modele": "gemini"
+}

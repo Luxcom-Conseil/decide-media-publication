@@ -3007,9 +3007,9 @@
     "x_buffer": {
       "erreur": "buffer x_buffer : Invalid post: Twitter / X posts cannot exceed 280 characters.",
       "lot": "2026-10-26",
-      "maj": "2026-10-26T05:58:49+00:00",
+      "maj": "2026-10-26T09:55:44+00:00",
       "statut": "echec",
-      "tentatives": 1,
+      "tentatives": 2,
       "titre": "Les salaires reviennent sur la table dans l’industrie camerounaise. Les fiches de paie attendent encore un accord."
     },
     "youtube": {
@@ -3287,10 +3287,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-26",
-      "maj": "2026-10-26T05:54:59+00:00",
-      "statut": "echec",
+      "maj": "2026-10-26T09:47:40+00:00",
+      "piste": "principale",
+      "post_id": "19keQpAD4GQ",
+      "programme_pour": "2026-10-26T14:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Belife annonce sa certification ISO 9001:2015. Pour l’assuré, le contrat reste la pièce décisive."
+      "titre": "Belife annonce sa certification ISO 9001:2015. Pour l’assuré, le contrat reste la pièce décisive.",
+      "url": "https://youtu.be/19keQpAD4GQ"
     }
   },
   "decide-media-2026-10-26-06": {
@@ -3348,6 +3352,17 @@
       "tentatives": 0,
       "titre": "Au Sénégal, l’alimentation augmente de 2 % en un mois. La moyenne générale ne raconte pas chaque panier.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T09:49:04+00:00",
+      "piste": "principale",
+      "post_id": "05uwxAQZerA",
+      "programme_pour": "2026-10-26T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Sénégal, l’alimentation augmente de 2 % en un mois. La moyenne générale ne raconte pas chaque panier.",
+      "url": "https://youtu.be/05uwxAQZerA"
     }
   },
   "decide-media-2026-10-26-07": {
@@ -3394,6 +3409,17 @@
       "tentatives": 0,
       "titre": "À Douala, un nouveau club APM prépare janvier 2027. Les dirigeants y travailleront leurs difficultés de gestion.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T09:50:27+00:00",
+      "piste": "principale",
+      "post_id": "1ytgzwSW5IU",
+      "programme_pour": "2026-10-26T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, un nouveau club APM prépare janvier 2027. Les dirigeants y travailleront leurs difficultés de gestion.",
+      "url": "https://youtu.be/1ytgzwSW5IU"
     }
   },
   "decide-media-2026-10-26-08": {
@@ -3440,6 +3466,17 @@
       "tentatives": 0,
       "titre": "TRADEX commence à servir les automobilistes à Kinshasa. Sa première station dispose de 130 000 litres de stockage.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T09:51:40+00:00",
+      "piste": "principale",
+      "post_id": "RSBpL2FPLwk",
+      "programme_pour": "2026-10-26T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "TRADEX commence à servir les automobilistes à Kinshasa. Sa première station dispose de 130 000 litres de stockage.",
+      "url": "https://youtu.be/RSBpL2FPLwk"
     }
   },
   "decide-media-2026-10-26-09": {
@@ -3486,6 +3523,17 @@
       "tentatives": 0,
       "titre": "Tongon prépare 52 MWc solaires pour 33 milliards de FCFA. La mise en service est attendue à la mi-2028.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T09:52:53+00:00",
+      "piste": "principale",
+      "post_id": "e1mC59pWtYY",
+      "programme_pour": "2026-10-26T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Tongon prépare 52 MWc solaires pour 33 milliards de FCFA. La mise en service est attendue à la mi-2028.",
+      "url": "https://youtu.be/e1mC59pWtYY"
     }
   },
   "decide-media-2026-10-26-10": {
@@ -3532,6 +3580,17 @@
       "tentatives": 0,
       "titre": "À San Pedro, le ministre réclame une pesée transparente et des paiements à temps pour les planteurs.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-26",
+      "maj": "2026-10-26T09:53:56+00:00",
+      "piste": "principale",
+      "post_id": "N1z27V70WTc",
+      "programme_pour": "2026-10-27T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À San Pedro, le ministre réclame une pesée transparente et des paiements à temps pour les planteurs.",
+      "url": "https://youtu.be/N1z27V70WTc"
     }
   }
 }
