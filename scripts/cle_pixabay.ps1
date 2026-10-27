@@ -6,9 +6,17 @@ $ErrorActionPreference = "Stop"
 Set-Location (Split-Path $PSScriptRoot -Parent)
 $depot = "Luxcom-Conseil/decide-media-publication"
 
-Write-Host "`nCollez la clé API Pixabay (clic droit pour coller ; rien ne s'affiche, c'est normal), puis Entrée :" -ForegroundColor Cyan
-$saisie = Read-Host -AsSecureString
-$cle = [Runtime.InteropServices.Marshal]::PtrToStringBSTR([Runtime.InteropServices.Marshal]::SecureStringToBSTR($saisie)).Trim()
+# La clé est lue dans le presse-papiers (copiée juste avant sur pixabay.com) : le collage dans une saisie masquée ne
+# marche pas dans tous les terminaux (panneau Terminal de Claude, 27/10/2026). Sinon, saisie masquée.
+$cle = "$(Get-Clipboard)".Trim()
+if ($cle -match '^\d+-[0-9a-f]{20,}$') {
+    Write-Host "`nClé Pixabay trouvée dans le presse-papiers ($($cle.Length) caractères)."
+    Set-Clipboard -Value " "  # on ne la laisse pas traîner dans le presse-papiers
+} else {
+    Write-Host "`nPas de clé Pixabay dans le presse-papiers. Collez-la (Ctrl+V), rien ne s'affiche, puis Entrée :" -ForegroundColor Cyan
+    $saisie = Read-Host -AsSecureString
+    $cle = [Runtime.InteropServices.Marshal]::PtrToStringBSTR([Runtime.InteropServices.Marshal]::SecureStringToBSTR($saisie)).Trim()
+}
 if ($cle.Length -lt 20) { throw "Ce n'est pas une clé Pixabay ($($cle.Length) caractères reçus)." }
 try {
     Invoke-RestMethod "https://pixabay.com/api/videos/?key=$cle&q=people&per_page=3" | Out-Null
