@@ -210,12 +210,17 @@ def short_en_cache(article: dict, image: Path) -> Path:
 
 def rendre_video(article: dict, image: Path, sortie: Path, journal=print, essai: bool = False) -> Path:
     """Fabrique le MP4 avec Remotion. Le visuel et la voix off sont mis dans public/_lots/ le temps du rendu.
-    config.yaml video.gabarit : v1 (modèle validé le 21/10) ou v2 (pédagogique, script écrit par une IA)."""
+    config.yaml video.gabarit : v1 (modèle validé le 21/10), v2 (pédagogique, script écrit par une IA) ou v3 (rythme
+    des Reels, fonds réalistes libres ; repli sur v2 si le script V3 n'est pas utilisable)."""
     from .config import charger_config
     if not (MOTION / "node_modules").exists():  # premier rendu sur une machine neuve (GitHub : à chaque passage)
         subprocess.run(["npm.cmd" if shutil.which("npm.cmd") else "npm", "ci", "--no-audit", "--no-fund"],
                        cwd=MOTION, check=True, capture_output=True, timeout=900)
-    if (charger_config(MOTION.parent / "config.yaml").get("video") or {}).get("gabarit") == "v2":
+    gabarit = (charger_config(MOTION.parent / "config.yaml").get("video") or {}).get("gabarit")
+    if gabarit == "v3":
+        from .gabarit_v3 import rendre_production
+        return rendre_production(article, image, sortie, journal, essai=essai)
+    if gabarit == "v2":
         from .gabarit_v2 import rendre_v2
         return rendre_v2(article, image, sortie, journal, essai=essai)
     dossier = MOTION / "public" / "_lots"

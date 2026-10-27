@@ -3,6 +3,7 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { loadFont } from "@remotion/google-fonts/Montserrat";
+import { Carte } from "./Carte";
 import { NOMS, PersonnageAnime, deviner, type Expression, type Geste, type Personnage } from "./Personnages";
 
 const { fontFamily } = loadFont("normal", { weights: ["700", "900"], subsets: ["latin", "latin-ext"] });
@@ -430,6 +431,7 @@ export const Dessin: React.FC<{ il: Illustration }> = ({ il }) => (
     {il.type === "banque" && <Banque />}
     {il.type === "rembourser" && <Rembourser />}
     {il.type === "pays" && <Pays il={il} />}
+    {il.type === "carte" && <Carte texte={il.texte} />}
     {il.type === "petrole" && <Petrole />}
     {il.type === "solaire" && <Solaire />}
     {il.type === "chantier" && <Chantier />}

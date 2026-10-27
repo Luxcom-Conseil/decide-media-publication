@@ -41,8 +41,10 @@ youtube:
 # Gabarit des Shorts : v1 = modèle validé le 21/10 ; v2 = pédagogique (script simplifié écrit par une IA, dessins
 # animés, sous-titres). IA : gemini (gratuit, secret GEMINI_API_KEY) ou claude (payant, secret ANTHROPIC_API_KEY).
 # Sans clé, quota épuisé ou script refusé au contrôle, v2 découpe l'article sans IA : la publication continue.
+# v3 = rythme des Reels perso aux couleurs DECIDE, fonds réalistes libres (Wikimedia Commons, Pixabay) crédités à
+# l'écran, carte animée ; si le script V3 échoue, le Short sort en v2.
 video:
-  gabarit: v2                 # validé par Stéphane le 26/10/2026 (essais Gemini sur 3 articles du lot du 24/10)
+  gabarit: v3                 # validé par Stéphane le 27/10/2026 (prototypes Yaoundé I et BEAC du lot du 27/10)
   ia: gemini
   # dans l'ordre : le suivant sert si le précédent est surchargé (fréquent sur l'offre gratuite) ou trop lent.
   # Mesuré le 26/10 avec réflexion réduite : 3.6 et 3.5 en 6-10 s, 3.5-lite en 5 s, flash-latest en 55 s ; 3.8 souvent

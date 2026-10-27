@@ -21,6 +21,7 @@ etat/*
 !etat/etat.json
 !etat/voix.json
 !etat/scripts/
+!etat/scripts_v3/
 !etat/perso.json
 !etat/instagram_perso.jeton
 
@@ -28,6 +29,7 @@ etat/*
 motion/node_modules/
 motion/public/_lots/
 motion/public/_perso/
+motion/public/_v3/
 motion/out/
 sortie/
 cache/

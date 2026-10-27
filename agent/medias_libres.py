@@ -27,14 +27,25 @@ def _telecharger(url: str, sortie: Path) -> Path:
     return sortie
 
 
-def _pixabay(requete: str, dossier: Path, nom: str, deja: set[str]) -> tuple[Path, bool] | None:
+_GENERIQUES = {"africa", "african", "people", "person", "man", "woman", "city", "the", "and", "with"}
+
+
+def _hors_sujet(requete: str, tags: str) -> bool:
+    """Pixabay renvoie aussi des médias sans rapport (un désert pour « students campus africa ») : il faut qu'au moins
+    un mot précis de la requête figure dans les mots clés du média."""
+    voulus = {m for m in requete.lower().split() if m not in _GENERIQUES}
+    presents = {t.strip() for t in tags.lower().replace(",", " ").split()}
+    return bool(voulus) and not any(m in presents or m.rstrip("s") in presents for m in voulus)
+
+
+def _pixabay(requete: str, dossier: Path, nom: str, deja: set[str], pertinent: bool = False) -> tuple[Path, bool] | None:
     cle = os.environ["PIXABAY_API_KEY"]
     r = requests.get("https://pixabay.com/api/videos/", timeout=30,
                      params={"key": cle, "q": requete[:100], "per_page": 20, "safesearch": "true", "video_type": "film"})
     r.raise_for_status()
     candidats = []
     for v in r.json().get("hits", []):
-        if f"x{v['id']}" in deja or v.get("duration", 0) < 4:
+        if f"x{v['id']}" in deja or v.get("duration", 0) < 4 or (pertinent and _hors_sujet(requete, v.get("tags", ""))):
             continue
         tailles = [t for t in (v.get("videos") or {}).values() if t.get("url") and (t.get("height") or 0) >= 720]
         if not tailles:
@@ -50,7 +61,7 @@ def _pixabay(requete: str, dossier: Path, nom: str, deja: set[str]) -> tuple[Pat
                                                                      "orientation": "vertical", "per_page": 20, "safesearch": "true"})
     r.raise_for_status()
     for p in r.json().get("hits", []):
-        if f"y{p['id']}" not in deja:
+        if f"y{p['id']}" not in deja and not (pertinent and _hors_sujet(requete, p.get("tags", ""))):
             deja.add(f"y{p['id']}")
             return _telecharger(p["largeImageURL"], dossier / f"{nom}.jpg"), False
     return None
@@ -79,15 +90,16 @@ def _pexels(requete: str, dossier: Path, nom: str, deja: set[str]) -> tuple[Path
     return None
 
 
-def chercher(requete: str, dossier: Path, nom: str, deja: set[str]) -> tuple[Path, bool] | None:
-    """(fichier, est_une_vidéo) pour la requête (en anglais), en évitant les médias déjà pris (`deja`)."""
+def chercher(requete: str, dossier: Path, nom: str, deja: set[str], pertinent: bool = False) -> tuple[Path, bool] | None:
+    """(fichier, est_une_vidéo) pour la requête (en anglais), en évitant les médias déjà pris (`deja`).
+    `pertinent` : écarte les médias Pixabay dont les mots clés ne reprennent aucun mot précis de la requête."""
     if not requete.strip():
         return None
     for variable, source in (("PIXABAY_API_KEY", _pixabay), ("PEXELS_API_KEY", _pexels)):
         if not os.environ.get(variable):
             continue
         try:
-            trouve = source(requete, dossier, nom, deja)
+            trouve = source(requete, dossier, nom, deja, pertinent) if source is _pixabay else source(requete, dossier, nom, deja)
         except requests.RequestException:
             trouve = None
         if trouve:

@@ -106,6 +106,10 @@ def preparer(texte: str, lexique: list[tuple[str, str]] | None = None) -> str:
     t = normaliser(t)
     for mot, prononciation in (lexique if lexique is not None else _lexique()):
         t = t.replace(mot, prononciation)
+    # « l'université », « d'inscription » étaient lus « la université », « de inscription », avec l'apostrophe droite
+    # comme avec la typographique (transcriptions du 27/10). Collées au mot suivant (« luniversité »), les élisions
+    # se prononcent juste : c'est le même son. Le mot suivant passe en minuscule (« lÉtat » était épelé).
+    t = re.sub(r"\b([lLdD])'(\w)", lambda m: m.group(1) + m.group(2).lower(), t)
     return re.sub(r"\s+", " ", t).strip()
 
 

@@ -20,6 +20,8 @@ ILLUSTRATIONS = {
     "banque": "bâtiment de banque d'où sortent des pièces : prêt, crédit, épargne, banque, argent public",
     "rembourser": "deux barres « prêté » et « rendu » (plus haute) : rendre plus que ce qu'on a reçu, intérêts d'un crédit",
     "pays": "un cercle et six repères : une région ou plusieurs pays ; texte = nom de la région (« CEMAC », « UEMOA »…)",
+    "carte": "une carte de l'Afrique qui zoome et des repères qui tombent sur les lieux cités : où ça se passe (ville, pays, "
+             "trajet) ; texte = 1 à 4 lieux nommés dans l'article, séparés par « | » (« Yaoundé | Douala », « Togo »)",
     "pourcent": "deux barres avant / après et une flèche : un chiffre qui monte ou baisse ; sens (baisse|hausse), avant, apres",
     "personnage": "un des personnages récurrents de DECIDE, avec son expression et son geste : chaque fois que la scène parle "
                   "d'une personne ou de ce que vit le spectateur. personnage (commercante|artisan|salarie|etudiante), "

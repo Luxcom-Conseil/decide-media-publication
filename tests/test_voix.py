@@ -27,3 +27,9 @@ def test_normaliser(brut, attendu):
 
 def test_preparer_lexique_apres_nombres():
     assert preparer("Dion Ngute, 2e fois", [("Ngute", "Ngouté")]) == "Dion Ngouté, deuxième fois"
+
+
+def test_elisions_collees_au_mot_suivant():
+    t = preparer("Tu veux t’inscrire à l'Université de Yaoundé I, date d'inscription, l’argent de l'État.",
+                 [("Yaoundé I", "Yaoundé un")])
+    assert t == "Tu veux t'inscrire à luniversité de Yaoundé un, date dinscription, largent de létat."
