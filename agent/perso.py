@@ -26,7 +26,7 @@ MOTION = RACINE / "motion"
 ETAT = RACINE / "etat" / "perso.json"
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 CRF = 25  # qualité du MP4 : 25 garde la semaine (21 Reels) sous la limite de 1 Go de GitHub Pages
-PAROLE_MIN = 1050  # caractères dits ≈ 60 secondes de vidéo avec la voix Schedar (884 caractères = 53 s le 27/10)
+PAROLE_MIN = 1000  # caractères dits ≈ 60 secondes de vidéo avec la voix Schedar (884 = 53 s, 1036 = 61 s le 27/10)
 TYPES = ["accroche", "texte", "liste", "comparaison", "citation"]
 _TXT = {"type": "string"}
 _TXT_NUL = {"anyOf": [{"type": "string"}, {"type": "null"}]}
@@ -198,11 +198,22 @@ def _nombres(texte: str) -> set[str]:
     return {n.replace(",", ".") for n in re.findall(r"\d+(?:,\d+)?", t)}
 
 
+def normaliser(script: dict) -> dict:
+    """Réparations sans perte de sens, avant le contrôle : Gemini découpe parfois une liste en une scène « liste » par
+    étape, sans « | » (production du 27/10 : 13 scripts refusés sur 21) ; une telle scène devient une scène « texte »."""
+    for sc in script.get("scenes") or []:
+        if sc.get("type") == "liste" and len([x for x in sc.get("ecran", "").split(":")[-1].split("|") if x.strip()]) < 2:
+            sc["type"] = "texte"
+            mots = (sc.get("ecran") or "").split(":")[-1].split()
+            sc["ecran"] = " ".join(mots[:6])
+    return script
+
+
 def controler(script: dict, source: str) -> list[str]:
     """Problèmes qui interdisent d'utiliser le script (vide = bon)."""
     problemes = []
     scenes = script.get("scenes") or []
-    if not 12 <= len(scenes) <= 20:
+    if not 11 <= len(scenes) <= 20:
         problemes.append(f"{len(scenes)} scènes (13 à 18 attendues)")
     if not scenes or scenes[0].get("type") != "accroche":
         problemes.append("la première scène doit être l'accroche (type « accroche »)")
@@ -212,7 +223,9 @@ def controler(script: dict, source: str) -> list[str]:
         problemes.append("il faut trois accroches de formules différentes")
     parole = sum(len(sc.get("dit", "")) for sc in scenes) + len(script.get("question", ""))
     if parole < PAROLE_MIN:
-        problemes.append(f"trop court : {parole} caractères dits, au moins 1 150 pour tenir 60 secondes")
+        problemes.append(f"trop court : {parole} caractères dits, il en faut au moins 1 150 pour tenir 60 secondes. "
+                         f"Ajoute environ {(1150 - parole) // 90 + 1} scènes (un exemple de plus, une étape de plus) "
+                         "et allonge les « dit » trop courts")
     textes = [script.get("titre", ""), script.get("question", ""), script.get("legende", "")]
     for k, sc in enumerate(scenes):
         textes += [sc.get("dit", ""), sc.get("ecran", ""), str(sc.get("a") or ""), str(sc.get("b") or "")]
@@ -282,12 +295,12 @@ def ecrire_script(cfg: dict, sujet: tuple, journal=print, angle: str = "") -> di
         parties.append({"text": f"Ce sujet a déjà été traité sur le compte. Cette fois, prends l'angle « {angle} » : "
                                 "des situations et une accroche nouvelles, centrées sur cet angle."})
     remarques: list[str] = []
-    for essai in range(3):
-        script = _demander(cfg, parties, remarques)
+    for essai in range(4):
+        script = normaliser(_demander(cfg, parties, remarques))
         remarques = controler(script, source)
         if not remarques:
             return script
-        journal(f"    ↺ script refusé ({essai + 1}/3) : " + " ; ".join(remarques)[:300])
+        journal(f"    ↺ script refusé ({essai + 1}/4) : " + " ; ".join(remarques)[:300])
     raise RuntimeError("script refusé au contrôle : " + " ; ".join(remarques)[:400])
 
 
