@@ -15,9 +15,16 @@ TAILLE_BLOC = 4 * 1024 * 1024
 _URL = re.compile(r"https?://\S+")
 
 
+# Décompte officiel de X (twitter-text v3) : ces plages de caractères comptent 1, tout le reste 2 (« … », émojis,
+# certains guillemets). Buffer refusait des posts de 280 caractères « simples » qui en faisaient 281 pour X.
+_POIDS_1 = ((0, 4351), (8192, 8205), (8208, 8223), (8242, 8247))
+
+
 def longueur_x(texte: str) -> int:
-    """Approximation du décompte X : chaque lien compte pour 23 caractères."""
-    return len(_URL.sub("x" * 23, texte))
+    """Longueur comptée par X : chaque lien vaut 23, chaque caractère hors des plages simples vaut 2."""
+    import unicodedata
+    t = _URL.sub("x" * 23, unicodedata.normalize("NFC", texte))
+    return sum(1 if any(a <= ord(c) <= b for a, b in _POIDS_1) else 2 for c in t)
 
 
 def couper_pour_x(texte: str, limite: int = 280) -> str:
@@ -26,7 +33,7 @@ def couper_pour_x(texte: str, limite: int = 280) -> str:
     mots, sortie = texte.split(), ""
     for mot in mots:
         essai = f"{sortie} {mot}".strip()
-        if longueur_x(essai) > limite - 1:
+        if longueur_x(essai) > limite - longueur_x("…"):  # place gardée pour « … », qui compte 2 pour X
             break
         sortie = essai
     return sortie.rstrip(" ,;:.") + "…"
