@@ -101,9 +101,11 @@ class InstagramPerso:
     def verifier(self) -> str:
         return "@" + self._get("me", fields="username")["username"]
 
-    def publier_reel(self, video_url: str, legende: str) -> Resultat:
+    def publier_reel(self, video_url: str, legende: str, couverture: str | None = None) -> Resultat:
+        """`couverture` : adresse publique de la miniature JPEG (sinon Instagram prend une image de la vidéo)."""
+        options = {"cover_url": couverture} if couverture else {}
         cid = self._post(f"{self.ig}/media", "création conteneur Reel", media_type="REELS", video_url=video_url,
-                         caption=legende, share_to_feed="true")["id"]
+                         caption=legende, share_to_feed="true", **options)["id"]
 
         def pret():
             s = self._get(cid, fields="status_code,status")

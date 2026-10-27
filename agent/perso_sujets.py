@@ -1,19 +1,42 @@
 """Catalogue des sujets des Reels « conseils et astuces psychologiques » du compte Instagram de Stéphane.
 
-Adapté du skill marketing-psychology de Corey Haines (github.com/coreyhaines31/marketingskills, licence MIT) :
-chaque modèle mental y est repris en français, tourné vers la vie de tous les jours et le travail, avec l'astuce
-pratique. C'est la seule source de faits du Reel : Gemini met en forme, il n'ajoute ni étude, ni chiffre, ni chercheur.
+Première partie adaptée du skill marketing-psychology de Corey Haines (github.com/coreyhaines31/marketingskills,
+licence MIT) : chaque modèle mental y est repris en français, tourné vers la vie de tous les jours et le travail.
+Seconde partie (27/10/2026, demande de Stéphane : « la psychologie touche tous les aspects de la vie ») : émotions,
+relations, confiance en soi, mémoire, travail, famille, corps et esprit, réseaux sociaux. Des notions établies, sans
+chiffre ni étude. Chaque fiche est la seule source de faits du Reel : Gemini met en forme, il n'ajoute ni étude, ni
+chiffre, ni chercheur. Un sujet déjà traité revient sous un autre angle (ANGLES) au cycle suivant.
 """
 from __future__ import annotations
 
 CATEGORIES = {
     "cerveau": "Les pièges du cerveau",
+    "emotions": "Émotions et stress",
     "influence": "Influence et persuasion",
+    "relations": "Relations et couple",
     "action": "Passer à l'action",
+    "confiance": "Confiance en soi",
     "penser": "Penser mieux",
+    "memoire": "Mémoire et apprentissage",
     "argent": "Psychologie de l'argent",
+    "travail": "Au travail",
+    "famille": "Famille et éducation",
+    "corps": "Corps et esprit",
+    "ecrans": "Écrans et réseaux sociaux",
     "reussir": "Réussir sur la durée",
 }
+
+# Un sujet déjà traité revient avec un angle différent : même mécanisme, autres situations, autre accroche.
+ANGLES = [
+    "",  # premier passage : l'angle le plus parlant
+    "au travail et avec les collègues",
+    "en couple et en amitié",
+    "avec l'argent et les achats",
+    "en famille et avec les enfants",
+    "sur les réseaux sociaux et le téléphone",
+    "dans tes décisions importantes",
+    "pour mieux te comprendre toi-même",
+]
 
 # (id, catégorie, nom, l'idée, l'astuce)
 SUJETS: list[tuple[str, str, str, str, str]] = [
@@ -273,21 +296,293 @@ SUJETS: list[tuple[str, str, str, str, str]] = [
     ("reseau", "reussir", "L'effet de réseau",
      "Une chose prend de la valeur à mesure que plus de gens l'utilisent.",
      "Investis dans les communautés où tu es déjà : chaque nouveau membre augmente la valeur pour tous."),
+
+    # ===================================================================== toute la vie (ajout du 27/10/2026)
+    # --- les pièges du cerveau
+    ("negativite", "cerveau", "Le biais de négativité",
+     "Le cerveau retient davantage le négatif que le positif. Une critique pèse plus lourd que plusieurs compliments.",
+     "Le soir, note trois choses qui se sont bien passées dans ta journée. Tu rééquilibres ce que ton cerveau garde."),
+    ("dunning_kruger", "cerveau", "L'effet Dunning-Kruger",
+     "Quand on débute dans un domaine, on a tendance à surestimer son niveau, parce qu'on ne voit pas encore tout ce qu'on "
+     "ne sait pas. Les plus compétents, eux, doutent souvent davantage.",
+     "Plus tu es sûr de toi sur un sujet que tu connais peu, plus il est utile de demander l'avis de quelqu'un d'expérimenté."),
+    ("halo", "cerveau", "L'effet de halo",
+     "Une seule qualité visible, comme l'apparence ou l'assurance, colore tout le jugement qu'on porte sur une personne.",
+     "Quand tu évalues quelqu'un, juge chaque point séparément. Et soigne la première impression : elle colore la suite."),
+    ("projecteur", "cerveau", "L'effet projecteur",
+     "On croit que les autres remarquent nos erreurs et nos défauts bien plus qu'ils ne le font vraiment. Chacun est surtout "
+     "occupé par lui-même.",
+     "La prochaine fois que tu as honte d'une petite erreur, rappelle-toi que la plupart des gens l'ont déjà oubliée."),
+    ("planification", "cerveau", "L'erreur de planification",
+     "On sous-estime presque toujours le temps nécessaire pour finir une tâche, même quand on s'est déjà trompé avant.",
+     "Pour estimer un délai, regarde combien de temps ça t'a pris les fois précédentes, puis ajoute une marge."),
+    ("optimisme", "cerveau", "Le biais d'optimisme",
+     "On pense que les ennuis arrivent surtout aux autres. On se croit moins exposé aux accidents ou aux échecs.",
+     "Garde ton optimisme, mais prévois un plan B pour les risques importants : santé, argent, travail."),
+    ("recul_retrospectif", "cerveau", "Le biais rétrospectif",
+     "Une fois qu'on connaît le résultat, on a l'impression qu'on l'avait vu venir. « Je le savais ! »",
+     "Avant une décision, note ce que tu prévois. Tu verras ensuite honnêtement si tu avais raison."),
+    ("faux_consensus", "cerveau", "L'effet de faux consensus",
+     "On croit que la plupart des gens pensent comme nous et partagent nos goûts et nos opinions.",
+     "Avant d'affirmer « tout le monde pense ça », demande l'avis de personnes très différentes de toi."),
+    ("statu_ego", "cerveau", "Le biais d'auto-complaisance",
+     "On attribue nos réussites à nos qualités, et nos échecs aux circonstances ou aux autres.",
+     "Après un échec, cherche aussi ce qui dépendait de toi. Après une réussite, remercie ce qui t'a aidé."),
+    ("dissonance", "cerveau", "La dissonance cognitive",
+     "Quand nos actes et nos convictions se contredisent, on ressent un malaise. Pour l'apaiser, on modifie souvent nos "
+     "convictions plutôt que nos actes.",
+     "Quand tu te surprends à te trouver de bonnes excuses, demande-toi si tu ne cherches pas juste à calmer ce malaise."),
+    ("reactance", "cerveau", "La réactance",
+     "Quand on sent qu'on nous retire une liberté ou qu'on nous force la main, on a envie de faire exactement l'inverse.",
+     "Pour convaincre, propose au lieu d'imposer, et laisse toujours un choix à la personne."),
+    ("illusion_controle", "cerveau", "L'illusion de contrôle",
+     "On croit avoir de l'influence sur des événements qui dépendent en réalité du hasard.",
+     "Sépare ce qui dépend vraiment de toi de ce qui n'en dépend pas, et mets ton énergie dans le premier."),
+    # --- émotions et stress
+    ("etiqueter", "emotions", "Nommer ses émotions",
+     "Mettre des mots précis sur ce qu'on ressent aide à calmer l'émotion. « Je suis frustré parce que… » apaise plus que de "
+     "ruminer en silence.",
+     "Quand une émotion monte, dis ou écris précisément ce que tu ressens et pourquoi. Plus le mot est précis, mieux c'est."),
+    ("rumination", "emotions", "La rumination",
+     "Ressasser une situation en boucle donne l'impression de chercher une solution, mais entretient surtout l'anxiété.",
+     "Donne-toi un moment fixe pour réfléchir à un problème, par écrit, puis passe à une activité qui occupe tes mains."),
+    ("respiration", "emotions", "Respirer pour se calmer",
+     "Une respiration lente, avec une expiration plus longue que l'inspiration, aide le corps à sortir de l'état d'alerte.",
+     "Avant une situation stressante, inspire calmement, puis expire lentement, plus longtemps. Recommence quelques fois."),
+    ("colere", "emotions", "La colère qui monte",
+     "La colère pousse à agir tout de suite, souvent d'une façon qu'on regrette ensuite.",
+     "Quand tu sens la colère monter, ne réponds pas tout de suite : éloigne-toi, respire, et reviens quand tu es calme."),
+    ("anxiete_anticipation", "emotions", "L'anxiété d'anticipation",
+     "On souffre souvent plus en imaginant un événement difficile qu'en le vivant réellement.",
+     "Écris le pire scénario, puis ce que tu ferais s'il arrivait. Avoir un plan réduit la peur."),
+    ("gratitude", "emotions", "La gratitude",
+     "Remarquer régulièrement ce qui va bien aide à se sentir mieux et rend plus attentif aux bons côtés de sa vie.",
+     "Chaque soir, pense à une chose ou une personne qui t'a fait du bien aujourd'hui, et dis-le-lui de temps en temps."),
+    ("acceptation", "emotions", "Accepter ses émotions",
+     "Lutter contre une émotion désagréable a tendance à la renforcer. L'accueillir, sans la juger, l'aide à passer.",
+     "Au lieu de te dire « je ne devrais pas ressentir ça », dis-toi « c'est normal de ressentir ça, ça va passer »."),
+    ("surcharge", "emotions", "La surcharge mentale",
+     "Garder en tête une longue liste de choses à faire fatigue l'esprit et donne une impression d'être débordé.",
+     "Vide ta tête sur papier : note tout ce que tu dois faire, puis choisis seulement trois priorités pour la journée."),
+    ("contagion_emotionnelle", "emotions", "La contagion émotionnelle",
+     "Les émotions se transmettent d'une personne à l'autre, souvent sans qu'on s'en rende compte.",
+     "Fais attention à l'humeur des gens que tu fréquentes le plus, et à celle que tu apportes toi-même aux autres."),
+    ("hedonique", "emotions", "L'adaptation hédonique",
+     "On s'habitue vite aux bonnes choses : le plaisir d'un achat ou d'une augmentation finit par retomber.",
+     "Investis plutôt dans des expériences et des moments partagés, dont le souvenir dure plus longtemps."),
+    # --- relations et couple
+    ("ecoute_active", "relations", "L'écoute active",
+     "Écouter vraiment, c'est chercher à comprendre l'autre avant de préparer sa réponse.",
+     "Reformule ce que l'autre vient de dire avant de donner ton avis : « Si je comprends bien, tu… »."),
+    ("je_tu", "relations", "Dire « je » plutôt que « tu »",
+     "« Tu ne m'écoutes jamais » déclenche la défense. « Je me sens ignoré quand… » ouvre la discussion.",
+     "Dans un désaccord, parle de ce que tu ressens et de ce dont tu as besoin, sans accuser."),
+    ("benjamin_franklin", "relations", "L'effet Benjamin Franklin",
+     "Quand quelqu'un nous rend un service, il a tendance à nous apprécier davantage ensuite.",
+     "N'hésite pas à demander un petit service à quelqu'un dont tu veux te rapprocher."),
+    ("proximite", "relations", "L'effet de proximité",
+     "On se lie plus facilement avec les gens qu'on croise souvent. Les amitiés naissent de la répétition des rencontres.",
+     "Pour créer des liens, fréquente régulièrement les mêmes lieux et les mêmes groupes."),
+    ("prenom", "relations", "Le pouvoir du prénom",
+     "Entendre son prénom attire l'attention et fait se sentir reconnu.",
+     "Retiens le prénom des gens et utilise-le naturellement dans la conversation, sans en abuser."),
+    ("reconnaissance_couple", "relations", "Les petites attentions",
+     "Dans un couple, ce sont souvent les petits gestes répétés qui entretiennent le lien, plus que les grandes occasions.",
+     "Remarque et remercie les petites choses que l'autre fait pour toi, même quand elles sont devenues habituelles."),
+    ("langages", "relations", "Chacun sa façon d'aimer",
+     "Tout le monde n'exprime pas son affection de la même manière : des mots, du temps, des gestes, des services, des "
+     "cadeaux.",
+     "Observe comment tes proches montrent leur affection : c'est souvent comme ça qu'ils aiment la recevoir."),
+    ("conflit_cause", "relations", "Le vrai sujet de la dispute",
+     "Dans une dispute, le sujet visible (la vaisselle, un retard) cache souvent un besoin plus profond : être respecté, "
+     "écouté, aidé.",
+     "Pendant un conflit, demande-toi : « de quoi est-ce qu'on parle vraiment ? »"),
+    ("miroir", "relations", "L'effet miroir",
+     "On se sent plus à l'aise avec quelqu'un dont l'attitude ressemble à la nôtre, comme le ton, le rythme ou la posture.",
+     "Adapte un peu ton rythme et ton ton à ceux de la personne en face, sans la singer."),
+    ("dire_non", "relations", "Savoir dire non",
+     "Dire oui à tout par peur de décevoir épuise et finit par abîmer les relations.",
+     "Dis non à la demande, pas à la personne : « Je ne peux pas cette fois, mais je pense à toi. »"),
+    # --- confiance en soi
+    ("imposteur", "confiance", "Le syndrome de l'imposteur",
+     "Beaucoup de personnes compétentes ont l'impression de ne pas mériter leur place et craignent d'être « démasquées ».",
+     "Garde une liste de tes réussites et des retours positifs reçus. Relis-la quand le doute revient."),
+    ("comparaison_sociale", "confiance", "La comparaison sociale",
+     "On évalue sa valeur en se comparant aux autres, souvent à ce qu'ils montrent de meilleur.",
+     "Compare-toi à la personne que tu étais il y a un an, pas aux autres."),
+    ("discours_interieur", "confiance", "Le discours intérieur",
+     "La façon dont on se parle à soi-même influence notre confiance et notre manière d'agir.",
+     "Parle-toi comme tu parlerais à un ami qui traverse la même situation."),
+    ("etat_esprit", "confiance", "L'état d'esprit de progression",
+     "Croire qu'on peut progresser avec l'effort aide à persévérer. Croire que les capacités sont figées pousse à éviter les "
+     "défis.",
+     "Ajoute « pas encore » à tes phrases : « je ne sais pas encore faire ça »."),
+    ("posture", "confiance", "Le corps et l'assurance",
+     "Notre posture et notre façon de bouger influencent la manière dont les autres nous perçoivent, et dont on se sent.",
+     "Avant un rendez-vous important, redresse-toi, détends tes épaules et prends ton temps pour parler."),
+    ("petites_victoires", "confiance", "Les petites victoires",
+     "La confiance se construit en tenant de petits engagements envers soi-même, l'un après l'autre.",
+     "Fixe-toi un petit objectif facile chaque jour et tiens-le. C'est une preuve que tu peux compter sur toi."),
+    ("perfectionnisme", "confiance", "Le piège du perfectionnisme",
+     "Vouloir que tout soit parfait pousse souvent à repousser, voire à ne jamais commencer.",
+     "Vise « suffisamment bien » pour une première version, puis améliore ensuite."),
+    ("critique", "confiance", "Recevoir une critique",
+     "Une critique touche souvent notre estime de nous, alors qu'elle porte sur un acte, pas sur notre valeur.",
+     "Avant de répondre, demande un exemple précis. Puis garde ce qui est utile et laisse le reste."),
+    # --- passer à l'action
+    ("deux_minutes", "action", "La règle des deux minutes",
+     "Une tâche qui prend moins de deux minutes coûte plus d'énergie à être repoussée qu'à être faite.",
+     "Si ça prend moins de deux minutes, fais-le tout de suite."),
+    ("procrastination", "action", "La procrastination",
+     "On repousse surtout les tâches qui nous mettent mal à l'aise : ennuyeuses, floues ou qui font peur d'échouer.",
+     "Découpe la tâche en une toute première action précise, et engage-toi seulement sur celle-là."),
+    ("empilement", "action", "Accrocher une habitude",
+     "Une nouvelle habitude tient mieux quand on l'accroche à une habitude qu'on a déjà.",
+     "Utilise la formule : « Après avoir… (habitude existante), je… (nouvelle habitude) »."),
+    ("intention", "action", "Le plan « si… alors »",
+     "Décider à l'avance quand et où on fera quelque chose augmente beaucoup les chances de le faire.",
+     "Écris : « Si c'est lundi à 7 h, alors je vais marcher 15 minutes. » Plus c'est précis, mieux ça marche."),
+    ("environnement", "action", "L'environnement décide",
+     "Notre environnement influence nos comportements plus que notre volonté.",
+     "Rends la bonne habitude visible et facile, et la mauvaise cachée et difficile."),
+    ("fatigue_decision", "action", "La fatigue décisionnelle",
+     "Plus on prend de décisions dans la journée, plus la qualité des suivantes baisse.",
+     "Prends tes décisions importantes le matin, et simplifie les petites : repas, tenue, routine."),
+    ("parkinson", "action", "La loi de Parkinson",
+     "Le travail s'étire pour occuper tout le temps qu'on lui donne.",
+     "Fixe-toi un délai plus court et précis pour chaque tâche."),
+    # --- penser mieux
+    ("journal_decision", "penser", "Juger une décision, pas son résultat",
+     "Une bonne décision peut mal tourner par malchance, et une mauvaise peut réussir par chance.",
+     "Après coup, juge ta décision sur les informations que tu avais au moment de choisir."),
+    ("steelman", "penser", "Comprendre l'avis contraire",
+     "On comprend mieux un sujet quand on est capable d'expliquer la meilleure version de l'avis opposé.",
+     "Avant de contredire quelqu'un, résume son point de vue jusqu'à ce qu'il te dise « oui, c'est ça »."),
+    ("dix_dix_dix", "penser", "La règle 10-10-10",
+     "Une décision paraît différente selon qu'on pense à ses effets dans 10 minutes, 10 mois ou 10 ans.",
+     "Devant un choix difficile, demande-toi ce que tu en penseras dans 10 minutes, dans 10 mois et dans 10 ans."),
+    ("pre_mortem", "penser", "Le pré-mortem",
+     "On imagine que le projet a déjà échoué, puis on cherche pourquoi. Ça fait apparaître les risques qu'on ne voulait pas "
+     "voir.",
+     "Avant de lancer un projet, écris : « Six mois plus tard, c'est un échec parce que… », et corrige ces points."),
+    ("correlation", "penser", "Corrélation n'est pas cause",
+     "Deux choses qui arrivent ensemble ne sont pas forcément liées par une cause.",
+     "Devant un lien qui paraît évident, cherche une troisième explication possible."),
+    # --- mémoire et apprentissage
+    ("oubli", "memoire", "La courbe de l'oubli",
+     "On oublie très vite ce qu'on vient d'apprendre si on ne le revoit pas.",
+     "Revois une notion le lendemain, puis quelques jours après, puis la semaine suivante."),
+    ("rappel_actif", "memoire", "Se tester plutôt que relire",
+     "Essayer de se rappeler une information la grave mieux que la relire plusieurs fois.",
+     "Ferme ton cahier et essaie de réexpliquer de mémoire ce que tu viens de lire."),
+    ("feynman", "memoire", "Expliquer pour comprendre",
+     "Expliquer une notion avec des mots simples, comme à un enfant, montre tout de suite ce qu'on n'a pas compris.",
+     "Explique ce que tu apprends à quelqu'un, ou à voix haute. Là où tu bloques, retourne étudier."),
+    ("multitache", "memoire", "Le mythe du multitâche",
+     "Le cerveau ne fait pas vraiment deux choses à la fois : il passe de l'une à l'autre, et perd du temps à chaque passage.",
+     "Fais une seule chose à la fois, par blocs de temps, notifications coupées."),
+    ("pauses", "memoire", "Le pouvoir des pauses",
+     "Les pauses et le sommeil aident le cerveau à consolider ce qu'il a appris.",
+     "Travaille par périodes concentrées, puis fais une vraie pause, loin de l'écran."),
+    ("emotion_memoire", "memoire", "Les émotions et la mémoire",
+     "On retient mieux ce qui nous a fait ressentir quelque chose.",
+     "Pour retenir ou faire retenir, raconte une histoire ou relie l'information à quelque chose qui compte pour toi."),
+    ("primaute", "memoire", "Le début et la fin",
+     "Dans une liste ou un discours, on retient surtout ce qui vient au début et à la fin.",
+     "Mets ton message le plus important au début, et répète-le à la fin."),
+    # --- au travail
+    ("peter", "travail", "Le principe de Peter",
+     "Dans une organisation, on a tendance à promouvoir les gens jusqu'à un poste où ils ne sont plus aussi à l'aise.",
+     "Avant d'accepter ou de proposer une promotion, vérifie qu'elle demande les mêmes forces que le poste actuel."),
+    ("pygmalion", "travail", "L'effet Pygmalion",
+     "Les attentes qu'on a envers quelqu'un influencent souvent ses performances.",
+     "Montre à tes collègues ou à ton équipe que tu crois en leurs capacités, avec des exemples concrets."),
+    ("feedback_sandwich", "travail", "Faire un retour utile",
+     "Un retour vague comme « c'est bien » ou « c'est nul » n'aide personne à progresser.",
+     "Dis ce que tu as observé, l'effet que ça a eu, et ce que tu proposes pour la prochaine fois."),
+    ("reunion", "travail", "Les réunions sans fin",
+     "Une réunion sans objectif clair s'allonge et décide peu.",
+     "Commence chaque réunion par une question : « Qu'est-ce qu'on doit avoir décidé en sortant ? »"),
+    ("ringelmann", "travail", "L'effet Ringelmann",
+     "Dans un grand groupe, chacun a tendance à fournir moins d'effort, parce que sa part se voit moins.",
+     "Donne à chacun une responsabilité précise et visible."),
+    ("flow", "travail", "L'état de flow",
+     "On est pleinement absorbé quand une tâche est assez difficile pour nous stimuler, sans l'être trop.",
+     "Choisis des défis juste au-dessus de ton niveau, et protège de longues plages sans interruption."),
+    ("reconnaissance_travail", "travail", "La reconnaissance au travail",
+     "Se sentir reconnu pour son travail motive souvent autant qu'une récompense matérielle.",
+     "Remercie précisément : dis ce que la personne a fait et ce que ça a permis."),
+    # --- famille et éducation
+    ("feliciter_effort", "famille", "Féliciter l'effort",
+     "Féliciter un enfant pour son effort plutôt que pour son intelligence l'encourage à persévérer face aux difficultés.",
+     "Dis « tu as bien travaillé pour y arriver » plutôt que « tu es intelligent »."),
+    ("choix_limite", "famille", "Le choix limité",
+     "Un enfant coopère plus facilement quand on lui laisse choisir entre deux options acceptables.",
+     "Au lieu de « mets ton manteau », propose : « tu mets le bleu ou le rouge ? »"),
+    ("exemple", "famille", "L'exemple compte plus que les mots",
+     "Les enfants apprennent surtout en imitant ce que font les adultes autour d'eux.",
+     "Avant de demander quelque chose à ton enfant, vérifie que tu le fais toi-même."),
+    ("attention", "famille", "Le besoin d'attention",
+     "Un enfant qui manque d'attention peut chercher à l'obtenir par des bêtises : même une réprimande vaut mieux que rien.",
+     "Accorde chaque jour un petit moment d'attention complète, sans écran, à chaque enfant."),
+    ("emotions_enfant", "famille", "Accueillir les émotions de l'enfant",
+     "Un enfant se calme plus vite quand on reconnaît son émotion plutôt que de la nier.",
+     "Dis-lui : « Je vois que tu es en colère parce que… » avant de poser la limite."),
+    ("routine", "famille", "La force des routines",
+     "Des routines prévisibles rassurent et réduisent les conflits du quotidien.",
+     "Installe les mêmes étapes, dans le même ordre, au réveil et au coucher."),
+    # --- corps et esprit
+    ("sommeil", "corps", "Le sommeil et l'humeur",
+     "Un manque de sommeil rend plus irritable, plus impulsif et moins concentré.",
+     "Garde des horaires de coucher réguliers, et laisse le téléphone hors de la chambre."),
+    ("mouvement", "corps", "Bouger pour le moral",
+     "L'activité physique régulière aide à réduire le stress et améliore l'humeur.",
+     "Commence petit : une marche de dix minutes après le repas, tous les jours."),
+    ("faim", "corps", "La faim et les décisions",
+     "La faim rend plus irritable et pousse à des choix impulsifs, notamment en faisant les courses.",
+     "Évite les décisions importantes et les courses le ventre vide."),
+    ("nature", "corps", "Le pouvoir de la nature",
+     "Passer du temps dehors, au calme ou au vert, aide à se détendre et à récupérer de la fatigue mentale.",
+     "Fais une pause dehors chaque jour, même courte, sans téléphone."),
+    ("ennui", "corps", "Le pouvoir de l'ennui",
+     "S'ennuyer laisse l'esprit vagabonder, ce qui favorise les idées et la créativité.",
+     "Accorde-toi des moments sans écran ni musique : ton esprit fera le reste."),
+    # --- écrans et réseaux sociaux
+    ("recompense_variable", "ecrans", "La récompense imprévisible",
+     "Ce qui récompense de façon imprévisible, comme une notification ou un nouveau like, donne envie d'y revenir sans cesse.",
+     "Désactive les notifications non essentielles et consulte ton téléphone à des moments choisis."),
+    ("defilement", "ecrans", "Le défilement sans fin",
+     "Sans fin naturelle, le fil d'actualité ne donne aucun signal d'arrêt : on continue sans s'en rendre compte.",
+     "Fixe-toi une limite avant d'ouvrir l'application : un temps ou un nombre de vidéos."),
+    ("vitrine", "ecrans", "La vitrine des réseaux",
+     "Sur les réseaux, chacun montre surtout le meilleur de sa vie, ce qui fausse la comparaison.",
+     "Rappelle-toi que tu compares tes coulisses avec la vitrine des autres."),
+    ("fomo", "ecrans", "La peur de rater quelque chose",
+     "La crainte de manquer une information ou un événement pousse à rester connecté en permanence.",
+     "Choisis consciemment ce que tu acceptes de manquer. Rien d'important ne disparaît en une heure."),
+    ("chambre_echo", "ecrans", "La chambre d'écho",
+     "Les réseaux nous montrent surtout des contenus proches de ce qu'on pense déjà, ce qui renforce nos opinions.",
+     "Suis volontairement quelques sources sérieuses qui ne pensent pas comme toi."),
+    ("telephone_table", "ecrans", "Le téléphone sur la table",
+     "Un téléphone visible pendant une conversation la rend moins profonde, même s'il ne sonne pas.",
+     "Pendant un repas ou une discussion importante, range ton téléphone hors de vue."),
 ]
 
 PAR_ID = {s[0]: s for s in SUJETS}
 
 
-def prochain(publies: list[str]) -> tuple[str, str, str, str, str]:
-    """Sujet suivant : les catégories tournent dans l'ordre, et dans chacune le premier sujet pas encore traité.
-    Une fois tout traité, le cycle recommence (autre angle, nouveaux exemples)."""
-    tour = len(publies) // len(SUJETS)
-    deja = set(publies[tour * len(SUJETS):])
+def prochain(publies: list[str]) -> tuple[tuple[str, str, str, str, str], str]:
+    """(sujet, angle) suivant : les catégories tournent dans l'ordre ; dans chacune, le sujet le moins traité (le premier
+    du catalogue à égalité). Un sujet déjà traité n fois revient avec l'angle ANGLES[n]."""
+    compte: dict[str, int] = {}
+    for p in publies:
+        compte[p] = compte.get(p, 0) + 1
     ordre = list(CATEGORIES)
     derniere = PAR_ID[publies[-1]][1] if publies and publies[-1] in PAR_ID else ordre[-1]
+    minimum = min(compte.get(s[0], 0) for s in SUJETS)  # on finit un tour du catalogue avant d'en commencer un autre
     for k in range(1, len(ordre) + 1):
         cat = ordre[(ordre.index(derniere) + k) % len(ordre)]
         for s in SUJETS:
-            if s[1] == cat and s[0] not in deja:
-                return s
-    return SUJETS[0]
+            if s[1] == cat and compte.get(s[0], 0) == minimum:
+                return s, ANGLES[minimum % len(ANGLES)]
+    return SUJETS[0], ""

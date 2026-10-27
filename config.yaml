@@ -100,12 +100,15 @@ lots:
   marge_minutes: 20
   ecart_minimum_minutes: 45
 
-# Compte Instagram de Stéphane (commande : python -m agent perso) : Reels « conseils et astuces psychologiques » de
-# 60 s et plus, sans visage filmé, un sujet du catalogue agent/perso_sujets.py par Reel ; connexion Instagram directe.
+# Compte Instagram de Stéphane : Reels « conseils et astuces psychologiques » de 60 s et plus, sans visage filmé, un
+# sujet du catalogue agent/perso_sujets.py par Reel ; connexion Instagram directe ; public européen.
+# Rythme validé par Stéphane le 27/10/2026 : production de toute la semaine le dimanche (workflow instagram-production),
+# puis 3 Reels par jour aux horaires ci-dessous (workflow instagram-publication, déclenché par cron-job.org).
 perso:
   # fonds réalistes : vidéos et photos libres Pixabay si le secret PIXABAY_API_KEY existe (gratuit), sinon fond animé
   publication: true           # validé par Stéphane le 27/10/2026 (Reel d'essai « rareté et urgence »)
-  jours: [lundi, mardi, jeudi, vendredi, dimanche]   # 5 Reels par semaine
-  heure: "12:00"               # heure de Paris : publié au premier passage qui suit (aujourd'hui celui de 13 h 45)
+  horaires: ["12:30", "18:30", "21:00"]   # heure de Paris, tous les jours
+  delai_production_heures: 3  # la production ne prend pas un horaire plus proche que ça (le temps de fabriquer)
+  retard_max_heures: 3        # au-delà, un Reel en retard n'est plus publié (il ne s'empile pas sur le suivant)
   nom: Stéphane Nzesseu
   compte: "@stephane_nzesseu"

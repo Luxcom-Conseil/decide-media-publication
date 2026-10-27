@@ -17,6 +17,7 @@ import requests
 RACINE = Path(__file__).resolve().parent.parent
 BRANCHE = "medias"
 JOURS_GARDES = 3
+JOURS_GARDES_SEMAINE = 10  # Reels Instagram perso produits le dimanche pour toute la semaine
 
 
 def _git(*args: str, cwd: Path = RACINE) -> str:
@@ -33,8 +34,9 @@ def adresse_site() -> str:
     return f"https://{compte.lower()}.github.io/{depot}"
 
 
-def mettre_en_ligne(fichiers: list[Path], jour: date, attente_max: int = 300) -> dict[str, str]:
-    """Dépose les fichiers (nom → adresse publique) et attend que GitHub Pages les serve."""
+def mettre_en_ligne(fichiers: list[Path], jour: date, attente_max: int = 300, nom_dossier: str | None = None) -> dict[str, str]:
+    """Dépose les fichiers (nom → adresse publique) et attend que GitHub Pages les serve.
+    `nom_dossier` (ex. « perso-2026-10-27 », Reels Instagram de la semaine) : gardé JOURS_GARDES_SEMAINE jours."""
     dossier = RACINE / ".medias"
     if dossier.exists():
         subprocess.run(["git", "worktree", "remove", "--force", str(dossier)], cwd=RACINE, capture_output=True)
@@ -47,11 +49,14 @@ def mettre_en_ligne(fichiers: list[Path], jour: date, attente_max: int = 300) ->
         if not existe:
             _git("rm", "-rqf", ".", cwd=dossier)
         limite = jour - timedelta(days=JOURS_GARDES)
+        limite_semaine = jour - timedelta(days=JOURS_GARDES_SEMAINE)
         for sous in dossier.iterdir():  # on ne garde que les derniers jours
             if sous.is_dir() and sous.name[:4].isdigit() and sous.name < limite.isoformat():
                 shutil.rmtree(sous)
+            elif sous.is_dir() and sous.name.startswith("perso-") and sous.name[6:] < limite_semaine.isoformat():
+                shutil.rmtree(sous)
         (dossier / ".nojekyll").touch()
-        cible = dossier / jour.isoformat()
+        cible = dossier / (nom_dossier or jour.isoformat())
         cible.mkdir(exist_ok=True)
         for f in fichiers:
             shutil.copy(f, cible / f.name)
@@ -63,7 +68,7 @@ def mettre_en_ligne(fichiers: list[Path], jour: date, attente_max: int = 300) ->
         subprocess.run(["git", "worktree", "remove", "--force", str(dossier)], cwd=RACINE, capture_output=True)
 
     base = adresse_site()
-    urls = {f.name: f"{base}/{jour.isoformat()}/{f.name}" for f in fichiers}
+    urls = {f.name: f"{base}/{nom_dossier or jour.isoformat()}/{f.name}" for f in fichiers}
     fin = time.time() + attente_max
     for url in urls.values():  # GitHub Pages met environ une minute à publier
         while True:

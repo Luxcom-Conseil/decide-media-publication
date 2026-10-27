@@ -1,0 +1,46 @@
+name: Instagram perso - publication
+
+# Publie les Reels du planning (etat/perso.json) dont l'heure est venue. Déclenché par cron-job.org à 12 h 30, 18 h 30
+# et 21 h (heure de Paris) ; le cron GitHub ci-dessous n'est qu'un filet de sécurité (souvent en retard de plusieurs
+# heures : un Reel en retard de plus de 3 h n'est plus publié, config.yaml perso.retard_max_heures).
+on:
+  schedule:
+    - cron: "40 11,17,20 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: instagram-perso-publication
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Publier les Reels dont l'heure est venue
+        env:
+          INSTAGRAM_PERSO_TOKEN: ${{ secrets.INSTAGRAM_PERSO_TOKEN }}
+          INSTAGRAM_PERSO_CLE: ${{ secrets.INSTAGRAM_PERSO_CLE }}
+        run: python -m agent perso-publier
+      - name: Enregistrer la mémoire
+        if: always()
+        run: |
+          git config user.name "agent-publication"
+          git config user.email "agent-publication@users.noreply.github.com"
+          git add etat/
+          if ! git diff --staged --quiet; then
+            git commit -m "etat: publication Instagram du $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase --autostash
+            git push
+          fi

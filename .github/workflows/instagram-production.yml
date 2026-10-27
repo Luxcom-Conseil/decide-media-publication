@@ -1,0 +1,120 @@
+name: Instagram perso - production de la semaine
+
+# Le dimanche : choisit les sujets des 7 prochains jours (3 Reels par jour), les fabrique en parallèle, les met en ligne
+# et les inscrit au planning (etat/perso.json). La publication à l'heure dite est faite par instagram-publication.yml.
+# Lancée à la main en milieu de semaine, elle ne comble que les horaires encore libres.
+on:
+  schedule:
+    - cron: "0 1 * * 0"   # dimanche 1 h UTC (GitHub peut décaler de quelques heures : sans importance ici)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  planifier:
+    runs-on: ubuntu-latest
+    outputs:
+      lots: ${{ steps.plan.outputs.lots }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Choisir les sujets de la semaine
+        run: python -m agent perso-planifier
+      - id: plan
+        name: Découper en lots
+        run: |
+          n=$(python -c "import json; print(len(json.load(open('sortie/perso/plan.json'))))")
+          lots=$(( n < 7 ? n : 7 ))
+          echo "lots=$(python -c "import json; print(json.dumps(list(range($lots))))")" >> "$GITHUB_OUTPUT"
+          echo "nombre=$lots" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plan
+          path: sortie/perso/plan.json
+
+  rendre:
+    needs: planifier
+    if: needs.planifier.outputs.lots != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 4   # Gemini gratuit : pas trop d'appels à la fois
+      matrix:
+        lot: ${{ fromJSON(needs.planifier.outputs.lots) }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: motion/package-lock.json
+      - name: Polices (émojis)
+        run: sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: plan
+          path: sortie/perso
+      - name: Fabriquer les Reels du lot
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python -m agent perso-rendre --lot ${{ matrix.lot }} --lots ${{ strategy.job-total }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reels-${{ matrix.lot }}
+          path: sortie/perso/lot${{ matrix.lot }}/
+          if-no-files-found: ignore
+          retention-days: 3
+
+  heberger:
+    needs: rendre
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    # même file que la publication DECIDE MEDIA : les deux réécrivent la branche « medias » (GitHub Pages)
+    concurrency:
+      group: publication-reseaux
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: reels-*
+          path: sortie/perso
+      - name: Mettre en ligne et programmer
+        run: python -m agent perso-heberger
+      - name: Enregistrer le planning
+        if: always()
+        run: |
+          git config user.name "agent-publication"
+          git config user.email "agent-publication@users.noreply.github.com"
+          git add etat/
+          if ! git diff --staged --quiet; then
+            git commit -m "etat: production Instagram du $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase --autostash
+            git push
+          fi

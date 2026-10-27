@@ -270,6 +270,39 @@ const Punch: React.FC<{ children: React.ReactNode; long: number }> = ({ children
   );
 };
 
+// Miniature du Reel : l'accroche en très grand, centrée dans la zone que la grille du profil garde (recadrage 3:4,
+// y 240–1680) et sous l'en-tête des Reels ; fond = image de la première scène, sinon le fond animé figé.
+export type CouverturePerso = { rubrique: string; accroche: string; emoji?: string; media?: { src: string; video: boolean }; compte: string };
+
+export const PersoCouverture: React.FC<CouverturePerso> = (c) => {
+  const mots = motsCles(c.accroche);
+  const taille = c.accroche.length > 45 ? 92 : c.accroche.length > 28 ? 108 : 124;
+  return (
+    <AbsoluteFill style={{ backgroundColor: NUIT, fontFamily }}>
+      <Fond />
+      {c.media && (
+        <AbsoluteFill>
+          {c.media.video ? <OffthreadVideo src={staticFile(c.media.src)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            : <Img src={staticFile(c.media.src)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
+          <AbsoluteFill style={{ background: "rgba(15,16,32,0.62)" }} />
+        </AbsoluteFill>
+      )}
+      <AbsoluteFill style={{ top: 330, height: 1260, padding: "0 80px", alignItems: "center", justifyContent: "center", textAlign: "center" }}>
+        <div style={{ border: `3px solid ${OR}`, color: OR, fontWeight: 800, fontSize: 30, letterSpacing: 3, padding: "8px 22px",
+          borderRadius: 40, background: "rgba(15,16,32,0.6)" }}>{c.rubrique.toUpperCase()}</div>
+        {c.emoji && <div style={{ fontSize: 200, lineHeight: 1, marginTop: 50, filter: "drop-shadow(0 12px 30px rgba(0,0,0,0.5))" }}>{c.emoji}</div>}
+        <div style={{ marginTop: 50, fontWeight: 900, fontSize: taille, lineHeight: 1.08, color: CREME, textShadow: "0 8px 30px rgba(0,0,0,0.6)" }}>
+          {mots.map(([m, cle], k) => (
+            <span key={k} style={{ display: "inline-block", marginRight: taille * 0.25, color: cle ? NUIT : CREME, background: cle ? OR : "transparent",
+              padding: cle ? "0 16px" : 0, borderRadius: 12 }}>{m}</span>
+          ))}
+        </div>
+        <div style={{ marginTop: 50, fontWeight: 800, fontSize: 36, color: OR }}>{c.compte}</div>
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+
 export const PersoReel: React.FC<ScriptPerso> = (s) => {
   const { scenes, total } = plan(s);
   const f = useCurrentFrame();

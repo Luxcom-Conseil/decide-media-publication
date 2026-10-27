@@ -50,10 +50,15 @@ def main(argv: list[str] | None = None) -> int:
 
     p = argparse.ArgumentParser(prog="agent", description="Publie sur les réseaux sociaux le contenu d'un dossier Drive.")
     p.add_argument("commande", nargs="?", default="publier",
-                   choices=["publier", "verifier", "lots", "essai-video", "perso", "perso-essai"],
+                   choices=["publier", "verifier", "lots", "essai-video", "perso", "perso-essai", "perso-planifier",
+                            "perso-rendre", "perso-heberger", "perso-publier"],
                    help="publier = dossiers « post » ; lots = lots quotidiens DECIDE MEDIA ; verifier = tester les accès ; "
-                        "essai-video = fabriquer un Short d'essai dans sortie/, sans publier ; perso = Reel du compte "
-                        "Instagram personnel ; perso-essai = fabriquer ce Reel dans sortie/, sans publier")
+                        "essai-video = fabriquer un Short d'essai dans sortie/, sans publier ; perso-essai = fabriquer un "
+                        "Reel Instagram perso dans sortie/, sans publier ; perso-planifier / perso-rendre / "
+                        "perso-heberger = production de la semaine (sortie/perso/) ; perso-publier = publier les Reels "
+                        "dont l'heure est venue")
+    p.add_argument("--lot", type=int, default=0, help="perso-rendre : numéro du lot à fabriquer (0, 1, …)")
+    p.add_argument("--lots", type=int, default=1, help="perso-rendre : nombre de lots fabriqués en parallèle")
     p.add_argument("--simulation", action="store_true", help="montre ce qui serait publié, sans rien publier")
     p.add_argument("--source-locale", metavar="DOSSIER", help="lire un dossier local au lieu de Google Drive")
     p.add_argument("--sans-ia", action="store_true", help="ne pas appeler Claude (texte d'origine)")
@@ -107,10 +112,24 @@ def main(argv: list[str] | None = None) -> int:
         _resume_github(log)
         return 0 if ok else 1
 
-    if a.commande in ("perso", "perso-essai"):
-        from .perso import traiter_perso
+    if a.commande.startswith("perso"):
+        import json
+        from pathlib import Path
 
-        ok = traiter_perso(cfg, log, simulation=simulation, essai=a.commande == "perso-essai")
+        from . import perso
+
+        plan_json = Path("sortie/perso/plan.json")
+        if a.commande == "perso-planifier":
+            ok = bool(perso.planifier(cfg, log, chemin=plan_json)) or True
+        elif a.commande == "perso-rendre":  # les Reels du lot a.lot sur a.lots (un Reel sur a.lots, en alternance)
+            plan = json.loads(plan_json.read_text(encoding="utf-8"))[a.lot::a.lots]
+            ok = perso.produire(cfg, plan, log, Path(f"sortie/perso/lot{a.lot}"))
+        elif a.commande == "perso-heberger":
+            ok = perso.heberger(cfg, log, Path("sortie/perso")) >= 0
+        elif a.commande == "perso-publier":
+            ok = perso.publier_dus(cfg, log)
+        else:
+            ok = perso.traiter_perso(cfg, log, simulation=simulation, essai=a.commande == "perso-essai")
         _resume_github(log)
         return 0 if ok else 1
 

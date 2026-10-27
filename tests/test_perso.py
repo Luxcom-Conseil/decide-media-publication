@@ -1,11 +1,11 @@
 from datetime import datetime, timezone
 
 from agent.config import charger_config
-from agent.perso import EtatPerso, controler, est_le_moment, fiche, legende_finale
+from agent.perso import EtatPerso, controler, creneaux_semaine, est_le_moment, fiche, legende_finale
 from agent.perso_sujets import CATEGORIES, PAR_ID, SUJETS, prochain
 
 CFG = charger_config("config.yaml")
-CFG["perso"].update(jours=["lundi", "jeudi"], heure="12:00")
+CFG["perso"].update(jours=["lundi", "jeudi"], heure="12:00", horaires=["12:30", "18:30", "21:00"], delai_production_heures=3)
 SOURCE = fiche(PAR_ID["pareto"])
 DIT = "Tu passes des heures sur des tâches qui ne rapportent presque rien, et ça n'avance pas."
 
@@ -61,15 +61,24 @@ def test_controle_comparaison_complete():
 def test_rotation_des_categories():
     publies, vus = [], []
     for _ in range(len(CATEGORIES) * 2):
-        s = prochain(publies)
+        s, _ = prochain(publies)
         publies.append(s[0])
         vus.append(s[1])
     assert len(set(publies)) == len(publies)
     assert all(a != b for a, b in zip(vus, vus[1:]))
 
 
-def test_cycle_complet_puis_recommence():
-    assert prochain([s[0] for s in SUJETS])[0] in PAR_ID
+def test_cycle_complet_puis_recommence_avec_un_angle():
+    s, angle = prochain([s[0] for s in SUJETS])
+    assert s[0] in PAR_ID and angle
+
+
+def test_creneaux_de_la_semaine():
+    mardi_14h = datetime(2026, 10, 27, 13, 0, tzinfo=timezone.utc)  # 14 h à Paris
+    c = creneaux_semaine(CFG, mardi_14h, set())
+    assert len(c) == 21  # mardi 18 h 30 (14 h + 3 h de production) jusqu'au mardi suivant 12 h 30 inclus
+    assert c[0].isoformat().startswith("2026-10-27T18:30") and c[-1].isoformat().startswith("2026-11-03T12:30")
+    assert len(creneaux_semaine(CFG, mardi_14h, {x.isoformat() for x in c[:5]})) == 16
 
 
 def test_moment(tmp_path):

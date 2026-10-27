@@ -4,7 +4,7 @@ import { Explainer, dureeTotale, FPS } from "./Explainer";
 import type { Script } from "./types";
 import exemple from "../public/exemple.json";
 import { GabaritV2, dureeTotaleV2, type ScriptV2 } from "./GabaritV2";
-import { PersoReel, dureeTotalePerso, type ScriptPerso } from "./PersoReel";
+import { PersoCouverture, PersoReel, dureeTotalePerso, type CouverturePerso, type ScriptPerso } from "./PersoReel";
 
 const exempleV2: ScriptV2 = { rubrique: "ANALYSE", titre: "Titre d'exemple", image: "lavage.png", scenes: [{ type: "visuel", duree: 3 }] };
 const exemplePerso: ScriptPerso = { rubrique: "Les pièges du cerveau", titre: "Exemple", nom: "Stéphane Nzesseu", compte: "@stephane_nzesseu",
@@ -43,6 +43,16 @@ export const Root: React.FC = () => (
       durationInFrames={dureeTotalePerso(exemplePerso)}
       defaultProps={exemplePerso}
       calculateMetadata={({ props }) => ({ durationInFrames: dureeTotalePerso(props as ScriptPerso) })}
+    />
+    {/* miniature des Reels (image fixe : remotion still) */}
+    <Composition
+      id="PersoCouverture"
+      component={PersoCouverture}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={30}
+      defaultProps={{ rubrique: "Les pièges du cerveau", accroche: "Tu *juges* trop vite ?", emoji: "🧐", compte: "@stephane_nzesseu" } as CouverturePerso}
     />
   </>
 );
