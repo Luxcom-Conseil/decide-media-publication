@@ -4,7 +4,7 @@ Chaque jour de publication (config perso.jours), au premier passage après perso
 (perso_sujets.py, adapté du skill marketing-psychology) devient un Reel. Gemini (gratuit) écrit trois accroches fortes,
 garde la meilleure, puis le script rythmé (scènes courtes, émoji, mots clés, listes, comparaisons) et la légende, à
 partir de la fiche du sujet seulement : aucune étude, aucun chercheur, aucun chiffre qui n'y figure pas (contrôlé).
-Fonds réalistes : vidéos et photos libres Pexels (medias_libres.py, facultatif). Voix Google (voix.py), rendu Remotion
+Fonds réalistes : vidéos et photos libres Pixabay (medias_libres.py, facultatif). Voix Google (voix.py), rendu Remotion
 (composition PersoReel), mise en ligne GitHub Pages, publication par la connexion Instagram directe.
 """
 from __future__ import annotations
@@ -277,7 +277,7 @@ def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, e
     dossier.mkdir(parents=True)
     scenes, dits, pris = [], [], set()
     if not disponible():
-        journal("ℹ️ PEXELS_API_KEY absente : fonds animés seulement, sans vidéos réalistes")
+        journal("ℹ️ aucune clé Pixabay (PIXABAY_API_KEY) : fonds animés seulement, sans vidéos réalistes")
     for k, sc in enumerate(script["scenes"]):
         s = {"type": sc["type"], "emoji": sc.get("emoji") or None, "ecran": sc.get("ecran") or None, "soustitre": sc["dit"]}
         if sc["type"] == "comparaison":

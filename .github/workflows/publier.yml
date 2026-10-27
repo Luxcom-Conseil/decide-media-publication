@@ -73,6 +73,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           INSTAGRAM_PERSO_TOKEN: ${{ secrets.INSTAGRAM_PERSO_TOKEN }}
           INSTAGRAM_PERSO_CLE: ${{ secrets.INSTAGRAM_PERSO_CLE }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python -m agent ${{ inputs.commande || 'lots' }}
 
@@ -86,6 +87,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           INSTAGRAM_PERSO_TOKEN: ${{ secrets.INSTAGRAM_PERSO_TOKEN }}
           INSTAGRAM_PERSO_CLE: ${{ secrets.INSTAGRAM_PERSO_CLE }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python -m agent perso
 
