@@ -272,6 +272,9 @@ def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, e
     from .voix import Voix
 
     p = cfg.get("perso") or {}
+    if not (MOTION / "node_modules").exists():  # machine neuve (GitHub : à chaque passage), comme scenario.rendre_video
+        subprocess.run(["npm.cmd" if shutil.which("npm.cmd") else "npm", "ci", "--no-audit", "--no-fund"],
+                       cwd=MOTION, check=True, capture_output=True, timeout=900)
     dossier = MOTION / "public" / "_perso"
     shutil.rmtree(dossier, ignore_errors=True)
     dossier.mkdir(parents=True)
