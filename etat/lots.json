@@ -3924,10 +3924,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-27",
-      "maj": "2026-10-27T05:57:10+00:00",
-      "statut": "echec",
+      "maj": "2026-10-27T09:47:41+00:00",
+      "piste": "principale",
+      "post_id": "2n4drLqnMNU",
+      "programme_pour": "2026-10-27T14:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Un gigaoctet ne garantit pas des heures de vidéo. Les réglages peuvent changer la dépense."
+      "titre": "Un gigaoctet ne garantit pas des heures de vidéo. Les réglages peuvent changer la dépense.",
+      "url": "https://youtu.be/2n4drLqnMNU"
     }
   },
   "decide-media-2026-10-27-06": {
@@ -3985,6 +3989,17 @@
       "tentatives": 0,
       "titre": "La BEAC étudie l’expérience indienne. Un paiement instantané ne garantit pas une facture plus légère.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-27",
+      "maj": "2026-10-27T09:48:49+00:00",
+      "piste": "principale",
+      "post_id": "r5AaYwt6gtE",
+      "programme_pour": "2026-10-27T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La BEAC étudie l’expérience indienne. Un paiement instantané ne garantit pas une facture plus légère.",
+      "url": "https://youtu.be/r5AaYwt6gtE"
     }
   },
   "decide-media-2026-10-27-07": {
@@ -4024,10 +4039,25 @@
     "x_buffer": {
       "erreur": "buffer x_buffer : Invalid post: Twitter / X posts cannot exceed 280 characters.",
       "lot": "2026-10-27",
-      "maj": "2026-10-27T06:08:50+00:00",
-      "statut": "echec",
+      "maj": "2026-10-27T09:53:11+00:00",
+      "piste": "principale",
+      "post_id": "6ae07487cedf2995f6496101",
+      "programme_pour": "2026-10-27T17:30:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "À Yaoundé I, les préinscriptions vont jusqu’au 31 octobre. Le portail affiche encore l’ancienne date."
+      "titre": "À Yaoundé I, les préinscriptions vont jusqu’au 31 octobre. Le portail affiche encore l’ancienne date.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-27",
+      "maj": "2026-10-27T09:49:54+00:00",
+      "piste": "principale",
+      "post_id": "PNzyQiW7t0s",
+      "programme_pour": "2026-10-27T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Yaoundé I, les préinscriptions vont jusqu’au 31 octobre. Le portail affiche encore l’ancienne date.",
+      "url": "https://youtu.be/PNzyQiW7t0s"
     }
   },
   "decide-media-2026-10-27-08": {
@@ -4074,6 +4104,17 @@
       "tentatives": 0,
       "titre": "La Côte d’Ivoire annonce près de 700 millions de FCFA pour les éleveurs sinistrés. Les modalités de versement restent à vérifier.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-27",
+      "maj": "2026-10-27T09:50:47+00:00",
+      "piste": "principale",
+      "post_id": "TtgqS0I3KFU",
+      "programme_pour": "2026-10-27T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire annonce près de 700 millions de FCFA pour les éleveurs sinistrés. Les modalités de versement restent à vérifier.",
+      "url": "https://youtu.be/TtgqS0I3KFU"
     }
   },
   "decide-media-2026-10-27-09": {
@@ -4113,10 +4154,25 @@
     "x_buffer": {
       "erreur": "buffer x_buffer : Invalid post: Twitter / X posts cannot exceed 280 characters.",
       "lot": "2026-10-27",
-      "maj": "2026-10-27T06:10:50+00:00",
-      "statut": "echec",
+      "maj": "2026-10-27T09:53:15+00:00",
+      "piste": "principale",
+      "post_id": "6ae0748bcedf2995f64961ce",
+      "programme_pour": "2026-10-27T20:30:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "Au Togo, 846 kilomètres de pistes rurales sont prévus pour la deuxième phase. Un tronçon de 32 kilomètres est déjà ouvert."
+      "titre": "Au Togo, 846 kilomètres de pistes rurales sont prévus pour la deuxième phase. Un tronçon de 32 kilomètres est déjà ouvert.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-27",
+      "maj": "2026-10-27T09:51:55+00:00",
+      "piste": "principale",
+      "post_id": "LkWpERalwkk",
+      "programme_pour": "2026-10-27T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Togo, 846 kilomètres de pistes rurales sont prévus pour la deuxième phase. Un tronçon de 32 kilomètres est déjà ouvert.",
+      "url": "https://youtu.be/LkWpERalwkk"
     }
   },
   "decide-media-2026-10-27-10": {
@@ -4163,6 +4219,17 @@
       "tentatives": 0,
       "titre": "La BAD et UK Export Finance veulent cofinancer des projets africains. L’accord ne fixe pas une enveloppe déjà distribuée.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-27",
+      "maj": "2026-10-27T09:52:46+00:00",
+      "piste": "principale",
+      "post_id": "cB0M5_bJYcQ",
+      "programme_pour": "2026-10-28T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La BAD et UK Export Finance veulent cofinancer des projets africains. L’accord ne fixe pas une enveloppe déjà distribuée.",
+      "url": "https://youtu.be/cB0M5_bJYcQ"
     }
   }
 }
