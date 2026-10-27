@@ -1,5 +1,87 @@
 {
   "echecs": {},
+  "planning": [
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261027-1830.jpg",
+      "id": "20261027-1830",
+      "legende": "Si tu n'arrives pas à te calmer quand la pression monte, ce n'est pas ta faute.\n\nQuand on est énervé ou stressé, on a tendance à ruminer en silence avec des mots très vagues. Pourtant, mettre un mot exact sur ce qu'on ressent permet immédiatement d'apaiser le cerveau.\n\nLa prochaine fois qu'une tension monte, fais cette pause rapide : dis ou écris précisément ce que tu ressens et pourquoi (« Je suis déçu parce que... »). Plus la description est précise, plus l'apaisement est rapide.\n\nQuelle est l'émotion que tu as le plus de mal à exprimer ?\n\n#psychologie #gestiondustress #emotions #bienetre",
+      "quand": "2026-10-27T18:30:00+01:00",
+      "statut": "programme",
+      "sujet": "etiqueter",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261027-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261027-2100.jpg",
+      "id": "20261027-2100",
+      "legende": "Ce petit cadeau gratuit te coûte beaucoup plus cher que tu ne le penses !\n\nQuand on reçoit quelque chose, notre cerveau ressent immédiatement l'obligation de donner en retour. C'est le principe de la réciprocité.\n\nLes commerçants et négociateurs l'utilisent souvent : un petit échantillon ou une attention gratuite débloque plus facilement ton d'accord pour un achat plus gros.\n\nPour t'en protéger, garde à l'esprit qu'un cadeau ne t'engage à rien. Et si tu veux persuader positivement, offre de la valeur spontanément avant d'attendre quoi que ce soit.\n\nTu as déjà acheté un produit juste parce qu'on t'a offert un échantillon ?\n\n#psychologie #persuasion #reciprocite #influence #conseil",
+      "quand": "2026-10-27T21:00:00+01:00",
+      "statut": "programme",
+      "sujet": "reciprocite",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261027-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261028-1230.jpg",
+      "id": "20261028-1230",
+      "legende": "Tu crois que tu écoutes ? Tu prépares juste ta réponse.\n\nQuand quelqu'un te parle, ton cerveau veut souvent trouver une solution immédiate. Résultat : tu n'écoutes plus vraiment, tu prépares ton discours.\n\nPour réagir différemment, essaie la reformulations. Utilise la phrase : « Si je comprends bien, tu... » avant de donner ton avis. L'autre se sentira vraiment compris.\n\nTu as plutôt tendance à donner des conseils tout de suite ou à écouter jusqu'au bout ?\n\n#psychologie #ecouteactive #communication #relations",
+      "quand": "2026-10-28T12:30:00+01:00",
+      "statut": "programme",
+      "sujet": "ecoute_active",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261028-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261028-1830.jpg",
+      "id": "20261028-1830",
+      "legende": "Si tu n'arrives jamais à choisir, ce n'est pas ta faute.\n\nFace à un trop grand nombre d'options complexes, notre cerveau se retrouve en surcharge mentale. Plus il y a de choix, plus on met de temps à décider... et plus on finit par abandonner.\n\nPour réussir à passer à l'action, simplifie tout : propose ou choisis une seule option claire à la fois. Un seul bouton vaut toujours mieux que trois options floues.\n\nTu mets aussi des heures à choisir un film le soir ?\n\n#psychologie #productivite #prisededecision #conseils",
+      "quand": "2026-10-28T18:30:00+01:00",
+      "statut": "programme",
+      "sujet": "hick",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261028-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261029-2100.jpg",
+      "id": "20261029-2100",
+      "legende": "Ce petit chiffre sur l'étiquette te coûte plus cher que tu ne crois. 🏷️\n\nQuand tu vois un prix qui finit par 9, ton cerveau lit le premier chiffre en premier et perçoit le prix comme bien plus bas qu'il ne l'est vraiment.\n\nPour éviter de tomber dans le panneau, prends le réflexe d'arrondir automatiquement au chiffre supérieur avant de prendre ta décision d'achat.\n\nTu fais attention aux prix qui finissent par 9 quand tu fais tes courses ?\n\n#psychologie #argent #achats #astuces",
+      "quand": "2026-10-29T21:00:00+01:00",
+      "statut": "programme",
+      "sujet": "prix_9",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261029-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261030-1230.jpg",
+      "id": "20261030-1230",
+      "legende": "Être très bon dans ton travail peut détruire ta carrière. 🧠\n\nDans beaucoup d'entreprises, on promeut les gens performants jusqu'à atteindre un poste où ils ne sont plus du tout à l'aise. C'est ce qu'on appelle le principe de Peter.\n\nPour éviter ce piège, vérifie toujours qu'une promotion demande les mêmes forces que ton poste actuel avant de l'accepter.\n\nAs-tu déjà vu ce phénomène se produire autour de toi au travail ?\n\n#psychologie #travail #carriere #management #entreprise",
+      "quand": "2026-10-30T12:30:00+01:00",
+      "statut": "programme",
+      "sujet": "peter",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261030-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261030-1830.jpg",
+      "id": "20261030-1830",
+      "legende": "Tu crois que dire \"tu es intelligent\" aide ton enfant ? C'est l'inverse.\n\nQuand on félicite un enfant sur ses capacités naturelles, on risque de lui faire craindre l'échec. Face à la moindre difficulté, il préfèrera abandonner plutôt que d'avoir l'air moins doué.\n\nEn valorisant plutôt le travail et la persévérance, tu lui donnes envie de se dépasser et d'apprendre de ses erreurs.\n\nLa prochaine fois, remplace \"Tu es intelligent\" par \"Tu as vraiment bien travaillé pour y arriver\". 🧠✨\n\nQuelle phrase tu as l'habitude de dire à ton enfant quand il réussit ?\n\n#education #parentalite #psychologie #enfants #conseilparental",
+      "quand": "2026-10-30T18:30:00+01:00",
+      "statut": "programme",
+      "sujet": "feliciter_effort",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261030-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261101-1830.jpg",
+      "id": "20261101-1830",
+      "legende": "Si tu n'arrives pas à tenir tes résolutions, ce n'est pas ta faute.\n\nNotre cerveau possède un besoin viscéral de rester cohérent avec ses choix passés. Dès que tu acceptes un premier petit engagement, tu te retrouves poussé à continuer dans cette voie.\n\nPour réussir tes projets, ne cherche pas à tout changer d'un coup. Commence par obtenir ou te donner un tout petit oui, puis annonce ton objectif à quelqu'un de ton entourage.\n\nQuel objectif vas-tu annoncer à ton proche aujourd'hui ?\n\n#psychologie #développementpersonnel #motivation #discipline",
+      "quand": "2026-11-01T18:30:00+01:00",
+      "statut": "programme",
+      "sujet": "engagement",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261101-1830.mp4"
+    }
+  ],
   "publications": [
     {
       "jour": "2026-10-27",
