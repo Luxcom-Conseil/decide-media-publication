@@ -1,0 +1,90 @@
+{
+  "titre": "Cofinancement BAD et UK Export Finance",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "La BAD et UK Export Finance veulent cofinancer des projets."
+    },
+    {
+      "type": "explication",
+      "dit": "Un accord, c'est une entente entre deux grandes institutions.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "banque"
+      },
+      "ecran": "Un accord de partenariat"
+    },
+    {
+      "type": "explication",
+      "dit": "Elles ont signé un protocole le 21 octobre à Conakry.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pays",
+        "texte": "Afrique"
+      },
+      "ecran": "Signature à Conakry"
+    },
+    {
+      "type": "explication",
+      "dit": "Le communiqué ne donne aucune enveloppe globale déjà versée.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "montant": "0"
+      },
+      "ecran": "Pas d'enveloppe fixée"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Tu attends peut-être de l'argent pour ton activité.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Ce que ça change"
+    },
+    {
+      "type": "explication",
+      "dit": "Ce n'est pas un fonds qui distribue des subventions aux petites entreprises.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Pas de subvention directe"
+    },
+    {
+      "type": "explication",
+      "dit": "Un projet doit encore être identifié avant d'être financé.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "chantier"
+      },
+      "ecran": "Il faut identifier les projets"
+    },
+    {
+      "type": "explication",
+      "dit": "Surveille les projets retenus, les montants et leurs conditions.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Projets | Montants | Conditions"
+      },
+      "ecran": "Attendre les projets retenus"
+    },
+    {
+      "type": "question",
+      "texte": "Penses-tu que ce type d'accord aide vraiment les entrepreneurs locaux ?",
+      "dit": "Penses-tu que ce type d'accord aide vraiment les entrepreneurs locaux ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-10",
+  "_modele": "gemini"
+}

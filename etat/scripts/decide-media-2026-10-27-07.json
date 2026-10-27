@@ -1,0 +1,111 @@
+{
+  "titre": "Préinscriptions à Yaoundé I",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Les préinscriptions à l'Université de Yaoundé I vont jusqu'au 31 octobre."
+    },
+    {
+      "type": "explication",
+      "dit": "Une préinscription, c'est l'étape pour poser ta candidature à l'université.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Étudiante",
+        "personnage": "etudiante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "La préinscription"
+    },
+    {
+      "type": "explication",
+      "dit": "Le rectorat a prolongé les préinscriptions jusqu'au 31 octobre 2026.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "montant": "31 octobre"
+      },
+      "ecran": "Jusqu'au 31 octobre"
+    },
+    {
+      "type": "explication",
+      "dit": "Le portail affichait encore une ancienne date, mais le communiqué fait foi.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Étudiante",
+        "personnage": "etudiante",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "ecran": "Attention au site"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Les frais de préinscription sont de 10 000 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "frais",
+        "montant": "10 000 FCFA"
+      },
+      "ecran": "10 000 FCFA de frais"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut choisir l'établissement, payer, remplir le formulaire et imprimer la fiche.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Choix | Paiement | Formulaire"
+      },
+      "ecran": "Les étapes à suivre"
+    },
+    {
+      "type": "explication",
+      "dit": "Conserve bien ta fiche et ton reçu pour garder les références du dossier.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Étudiante",
+        "personnage": "etudiante",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "ecran": "Garde tes reçus"
+    },
+    {
+      "type": "explication",
+      "dit": "Déposer une préinscription ne vaut pas admission définitive.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Étudiante",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "ecran": "Pas encore admis"
+    },
+    {
+      "type": "explication",
+      "dit": "Vérifie la liste des pièces de ton établissement avant de te déplacer.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Vérifie ta liste"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu pu faire ta préinscription à temps ? Dis-le-moi en commentaire.",
+      "dit": "As-tu pu faire ta préinscription à temps ? Dis-le-moi en commentaire. Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-07",
+  "_modele": "gemini"
+}

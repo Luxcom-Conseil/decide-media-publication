@@ -1,0 +1,127 @@
+{
+  "titre": "Comprendre le crédit-bail au Gabon",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Le crédit-bail gabonais a maintenant une association, l'AGA-CB."
+    },
+    {
+      "type": "explication",
+      "dit": "Un crédit-bail, c'est louer un équipement pour ton activité avec une option d'achat.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "banque"
+      },
+      "ecran": "Qu'est-ce que le crédit-bail ?"
+    },
+    {
+      "type": "explication",
+      "dit": "Au Gabon, les professionnels du secteur ont créé l'AGA-CB le 21 octobre.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pays",
+        "texte": "Gabon"
+      },
+      "ecran": "Nouvelle association au Gabon"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une boulangère peut utiliser un four sans tout payer au départ.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "ecran": "Un four sans tout payer"
+    },
+    {
+      "type": "explication",
+      "dit": "Un four coûte 1 200 000 FCFA au comptant.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "montant": "1 200 000"
+      },
+      "ecran": "Prix comptant"
+    },
+    {
+      "type": "explication",
+      "dit": "Un contrat prévoit un versement initial de 200 000 FCFA, puis vingt-quatre loyers de 50 000 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "calendrier",
+        "montant": "50 000",
+        "texte": "24 mois"
+      },
+      "ecran": "Versement et loyers"
+    },
+    {
+      "type": "explication",
+      "dit": "Les loyers représentent 1 200 000 FCFA. Avec le versement, elle paie déjà 1 400 000 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "montant": "1 400 000"
+      },
+      "ecran": "Total des loyers"
+    },
+    {
+      "type": "explication",
+      "dit": "Si elle ajoute 100 000 FCFA pour acheter le four à la fin, le total atteint 1 500 000 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "frais",
+        "montant": "+ 100 000"
+      },
+      "ecran": "Achat final"
+    },
+    {
+      "type": "explication",
+      "dit": "Cela fait 300 000 FCFA de plus que le prix comptant, avant d'autres frais.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "1 200 000",
+        "apres": "1 500 000"
+      },
+      "ecran": "300 000 FCFA de plus"
+    },
+    {
+      "type": "explication",
+      "dit": "Une petite mensualité ne dit pas le prix final du matériel.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "ecran": "Attention au prix final"
+    },
+    {
+      "type": "explication",
+      "dit": "Demande un tableau complet des versements et des obligations avant de signer.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Demande ton tableau"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà acheté du matériel en crédit-bail pour ton activité ? Raconte-nous ton expérience.",
+      "dit": "As-tu déjà acheté du matériel en crédit-bail pour ton activité ? Raconte-nous ton expérience. Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-04",
+  "_modele": "gemini"
+}

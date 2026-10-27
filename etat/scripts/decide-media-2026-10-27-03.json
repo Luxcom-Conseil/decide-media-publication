@@ -1,0 +1,106 @@
+{
+  "titre": "Surcharge CMA CGM : 550 dollars de plus !",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "CMA CGM ajoute une surcharge de 550 dollars depuis la Chine vers le Cameroun."
+    },
+    {
+      "type": "explication",
+      "dit": "Un EVP, c'est une mesure pour compter la taille des conteneurs de marchandises.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "pays",
+        "texte": "Cameroun"
+      },
+      "ecran": "Un conteneur d'EVP"
+    },
+    {
+      "type": "explication",
+      "dit": "Depuis le 22 octobre, c'est 550 dollars de plus par conteneur de vingt pieds.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "frais",
+        "sens": "hausse",
+        "montant": "550 $"
+      },
+      "ecran": "550 dollars en plus"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour quarante pieds, soit deux EVP, le montant monte à 1 100 dollars.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "montant": "1 100 $"
+      },
+      "ecran": "1 100 dollars pour 40 pieds"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. On partage 550 dollars sur 1 100 articles identiques.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Répartir le coût"
+    },
+    {
+      "type": "explication",
+      "dit": "Cela ajoute 0,50 dollar de coût par article dans le conteneur.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "frais",
+        "sens": "hausse",
+        "montant": "0,50 $"
+      },
+      "ecran": "0,50 dollar par article"
+    },
+    {
+      "type": "explication",
+      "dit": "Avec seulement 550 articles dans le conteneur, le supplément atteint un dollar.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "ecran": "Moins d'articles"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut pouvoir lire un devis complet pour comprendre toutes les lignes facturées.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Lire chaque ligne"
+    },
+    {
+      "type": "explication",
+      "dit": "Avant de commander, confirme bien le contrat concerné et le total à payer.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "contrats"
+      },
+      "ecran": "Confirmer le contrat"
+    },
+    {
+      "type": "question",
+      "texte": "Penses-tu que cette hausse va augmenter les prix au marché ?",
+      "dit": "Penses-tu que cette hausse va augmenter les prix au marché ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-03",
+  "_modele": "gemini"
+}

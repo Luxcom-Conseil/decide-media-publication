@@ -1,0 +1,98 @@
+{
+  "titre": "700 millions pour les éleveurs",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Près de 700 millions de FCFA annoncés pour des éleveurs."
+    },
+    {
+      "type": "explication",
+      "dit": "Une indemnité, c'est de l'argent versé pour réparer une perte.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "pile",
+        "montant": "700 millions"
+      },
+      "ecran": "Une aide financière"
+    },
+    {
+      "type": "explication",
+      "dit": "Le ministre a annoncé près de 700 millions de FCFA.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "montant": "700 millions"
+      },
+      "ecran": "700 millions de FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Cette aide concerne des animaux abattus pour raisons sanitaires.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "ecran": "Porcs et volailles"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. L'objectif est d'aider à reprendre l'activité.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Reprendre l'activité"
+    },
+    {
+      "type": "explication",
+      "dit": "Les éleveurs de porcs estiment leurs pertes à environ 15 milliards.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "montant": "15 milliards"
+      },
+      "ecran": "15 milliards de pertes"
+    },
+    {
+      "type": "explication",
+      "dit": "L'aide annoncée ne couvre pas toutes les pertes déclarées.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Vérifier les critères"
+    },
+    {
+      "type": "explication",
+      "dit": "Renseigne-toi sur les critères d'éligibilité et les justificatifs.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "tient_document"
+      },
+      "ecran": "Suivre les modalités"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà touché une aide de l'État après des pertes ?",
+      "dit": "As-tu déjà touché une aide de l'État après des pertes ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-08",
+  "_modele": "gemini"
+}

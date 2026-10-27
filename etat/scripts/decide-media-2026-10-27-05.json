@@ -1,0 +1,97 @@
+{
+  "titre": "Pourquoi ton forfait Internet fond si vite",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Un gigaoctet ne garantit pas des heures de vidéo. Regarde pourquoi."
+    },
+    {
+      "type": "explication",
+      "dit": "Un gigaoctet, souvent appelé Go, mesure une quantité de données sur ton téléphone.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "pile",
+        "montant": "1 Go"
+      },
+      "ecran": "Un gigaoctet, c'est quoi ?"
+    },
+    {
+      "type": "explication",
+      "dit": "Sur mobile, Netflix indique environ quatre heures de vidéo pour un gigaoctet en mode Automatique.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Étudiante",
+        "personnage": "etudiante",
+        "expression": "surprise",
+        "geste": "tient_billet"
+      },
+      "ecran": "Quatre heures de vidéo"
+    },
+    {
+      "type": "explication",
+      "dit": "En mode Économie des données, tu peux atteindre six heures de visionnage avec un seul gigaoctet.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "4 h",
+        "apres": "6 h"
+      },
+      "ecran": "Six heures en Économie"
+    },
+    {
+      "type": "explication",
+      "dit": "Avec le réglage Données maximum, la consommation peut atteindre un gigaoctet en vingt minutes.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "frais",
+        "montant": "20 min"
+      },
+      "ecran": "Vingt minutes max"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Trois séquences de vingt minutes peuvent utiliser trois gigaoctets en une heure.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Étudiante",
+        "personnage": "etudiante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Prenons un exemple"
+    },
+    {
+      "type": "explication",
+      "dit": "Ton volume acheté dure très différemment selon ton usage et les réglages de l'application.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Un usage différent"
+    },
+    {
+      "type": "explication",
+      "dit": "Réduis la qualité vidéo et contrôle les téléchargements avant de racheter un forfait.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Réduis la qualité | Contrôle les téléchargements | Vérifie tes paramètres"
+      },
+      "ecran": "Vérifie tes réglages"
+    },
+    {
+      "type": "question",
+      "texte": "Et toi, combien de temps dure ton forfait Internet en regardant des vidéos ?",
+      "dit": "Et toi, combien de temps dure ton forfait Internet en regardant des vidéos ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-05",
+  "_modele": "gemini"
+}

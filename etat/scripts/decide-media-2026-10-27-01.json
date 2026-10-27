@@ -1,0 +1,108 @@
+{
+  "titre": "L'économie bleue au Cameroun",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Sais-tu ce que rapporte l'eau au Cameroun ? L'économie bleue pèse très lourd."
+    },
+    {
+      "type": "explication",
+      "dit": "L'économie bleue regroupe la pêche, la vente et la transformation des poissons.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "marche"
+      },
+      "ecran": "Activités liées à l'eau"
+    },
+    {
+      "type": "explication",
+      "dit": "Cette richesse représente 1 720 milliards de FCFA, soit 5,8 % du PIB du pays.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "texte": "5,8 % du PIB"
+      },
+      "ecran": "1 720 milliards FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "L'étude compte près de 300 000 emplois déjà existants dans ce domaine.",
+      "etiquette": "LES EMPLOIS",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Travailleurs de l'eau",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "ecran": "Près de 300 000 emplois"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une transformatrice vend sa production 150 000 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Transformatrice",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "tient_billet"
+      },
+      "ecran": "Vente de poisson"
+    },
+    {
+      "type": "explication",
+      "dit": "Elle paye 100 000 de poisson, 10 000 de combustible et 5 000 d'emballage.",
+      "etiquette": "LES CHARGES",
+      "illustration": {
+        "type": "frais",
+        "montant": "115 000 FCFA"
+      },
+      "ecran": "115 000 FCFA de frais"
+    },
+    {
+      "type": "explication",
+      "dit": "Il reste 35 000 FCFA de valeur ajoutée. Ce n'est pas encore son bénéfice net.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pile",
+        "montant": "35 000 FCFA"
+      },
+      "ecran": "35 000 FCFA créés"
+    },
+    {
+      "type": "explication",
+      "dit": "Le chiffre global du pays ne dit pas ce que chaque commerçant gagne vraiment.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Attention aux chiffres",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "ecran": "Pas de l'argent à distribuer"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut investir dans la conservation pour que les travailleurs gagnent plus.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Investir sur le terrain"
+    },
+    {
+      "type": "question",
+      "texte": "Travailles-tu dans la pêche ou la vente de poisson au Cameroun ?",
+      "dit": "Travailles-tu dans la pêche ou la vente de poisson au Cameroun ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-01",
+  "_modele": "gemini"
+}

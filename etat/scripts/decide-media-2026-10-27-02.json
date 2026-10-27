@@ -1,0 +1,164 @@
+{
+  "titre": "Électricité au Burkina : l'accès et le coût",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Du courant pour 6 700 nouvelles localités. Mais combien cela va-t-il vraiment te coûter ?"
+    },
+    {
+      "type": "explication",
+      "dit": "L'électrification, c'est amener le réseau d'électricité et brancher les bâtiments.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "maison"
+      },
+      "ecran": "Électrification"
+    },
+    {
+      "type": "explication",
+      "dit": "Le Burkina Faso cible 6 700 nouvelles localités avec l'initiative Faso Wa-Fulu.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pays",
+        "texte": "Burkina Faso"
+      },
+      "ecran": "6 700 localités ciblées"
+    },
+    {
+      "type": "explication",
+      "dit": "Le gouvernement vise l'accès pour 3,5 millions de ménages et entreprises.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Ménages touchés",
+        "personnage": "commercante",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "ecran": "3,5 millions de ménages"
+    },
+    {
+      "type": "explication",
+      "dit": "Cela représente environ 17,9 millions de personnes visées.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Population",
+        "personnage": "artisan",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "ecran": "17,9 millions de personnes"
+    },
+    {
+      "type": "explication",
+      "dit": "Attention, ce sont des objectifs ciblés, pas encore des raccordements déjà terminés.",
+      "etiquette": "EN CLAIR",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Une cible à atteindre"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une boutique paierait 24 000 FCFA pour se raccorder.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Boutique",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Raccordement : 24 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Son usage mensuel lui coûterait ensuite 8 000 FCFA chaque mois.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "frais",
+        "montant": "8 000 FCFA"
+      },
+      "ecran": "Usage : 8 000 FCFA/mois"
+    },
+    {
+      "type": "explication",
+      "dit": "Si elle étale le raccordement sur 12 mois, cela fait 2 000 FCFA de plus par mois.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "12 mois"
+      },
+      "ecran": "2 000 FCFA par mois"
+    },
+    {
+      "type": "explication",
+      "dit": "Sa dépense totale monte alors à 10 000 FCFA par mois pendant un an.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "montant": "10 000 FCFA"
+      },
+      "ecran": "Total : 10 000 FCFA/mois"
+    },
+    {
+      "type": "explication",
+      "dit": "Si son ancienne solution lui coûtait 12 000 FCFA, l'écart est de 2 000 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "balance",
+        "a": "Courant (10 000)",
+        "b": "Avant (12 000)"
+      },
+      "ecran": "Écart de 2 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Mais il faut pouvoir avancer les 24 000 FCFA du départ pour se brancher.",
+      "etiquette": "LE PROBLÈME",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Avancer la somme",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "tient_billet"
+      },
+      "ecran": "Avancer les 24 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Le vrai progrès exige d'avoir le câble, un courant continu et un coût abordable.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "texte": "Accès : Raccordement | Continuité : Service | Coût : Prix abordable"
+      },
+      "ecran": "Accès, continuité et coût"
+    },
+    {
+      "type": "explication",
+      "dit": "Se renseigner sur les frais initiaux et les tarifs avant de s'engager.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Vérifier le contrat",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "tient_document"
+      },
+      "ecran": "Vérifier les vrais frais"
+    },
+    {
+      "type": "question",
+      "texte": "Dans ton quartier, quel est le plus grand obstacle pour avoir du courant : le prix du branchement ou les coupures ?",
+      "dit": "Dans ton quartier, quel est le plus grand obstacle pour avoir du courant : le prix du branchement ou les coupures ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-02",
+  "_modele": "gemini"
+}

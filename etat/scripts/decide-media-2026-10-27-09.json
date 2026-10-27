@@ -1,0 +1,105 @@
+{
+  "titre": "846 km de pistes rurales au Togo",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Au Togo, des pistes rurales se construisent pour faciliter ton quotidien."
+    },
+    {
+      "type": "explication",
+      "dit": "Une piste rurale, c'est une route en terre qui relie les villages isolés.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "chantier"
+      },
+      "ecran": "Une piste rurale"
+    },
+    {
+      "type": "explication",
+      "dit": "Au Togo, un tronçon de 32 kilomètres est déjà ouvert dans la commune de Blitta 2.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pays",
+        "texte": "Togo"
+      },
+      "ecran": "32 kilomètres ouverts"
+    },
+    {
+      "type": "explication",
+      "dit": "Le coût de cet axe atteint 980 millions de FCFA et il dessert six villages.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "montant": "980 millions de FCFA"
+      },
+      "ecran": "980 millions de FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour la deuxième phase, 846 kilomètres de pistes sont prévus pour 35,54 milliards de FCFA.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "chantier",
+        "montant": "35,54 milliards de FCFA"
+      },
+      "ecran": "846 kilomètres prévus"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une piste praticable permet à un véhicule de venir chercher tes récoltes.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "ecran": "Un véhicule vient"
+    },
+    {
+      "type": "explication",
+      "dit": "Cela ne garantit pas un prix d'achat plus élevé. Ça dépend des débouchés.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Pas de prix garanti"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut distinguer le tronçon déjà ouvert et le programme de la deuxième phase.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "chantier",
+        "texte": "Blitta 2"
+      },
+      "ecran": "Deux étapes distinctes"
+    },
+    {
+      "type": "explication",
+      "dit": "Regarde le calendrier des prochains travaux et le maintien de la circulation.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "Entretien"
+      },
+      "ecran": "Suivre les travaux"
+    },
+    {
+      "type": "question",
+      "texte": "Est-ce que l'état des routes près de chez toi s'améliore ?",
+      "dit": "Est-ce que l'état des routes près de chez toi s'améliore ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-09",
+  "_modele": "gemini"
+}

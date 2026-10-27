@@ -1,0 +1,107 @@
+{
+  "titre": "Paiement rapide : attention aux frais",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "La BEAC a regardé comment l'Inde gère les paiements rapides."
+    },
+    {
+      "type": "explication",
+      "dit": "Un paiement instantané, c'est de l'argent transféré tout de suite entre deux comptes.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "pays",
+        "texte": "CEMAC"
+      },
+      "ecran": "Un paiement rapide"
+    },
+    {
+      "type": "explication",
+      "dit": "Ces discussions ne veulent pas dire qu'un nouveau service est déjà là pour les commerçants de la CEMAC.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "banque"
+      },
+      "ecran": "Pas encore pour nous"
+    },
+    {
+      "type": "explication",
+      "dit": "La rapidité facilite les achats, mais elle ne dit pas combien le vendeur recevra ni les frais.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "marche"
+      },
+      "ecran": "Attention aux coûts"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Un commerçant vend un article 10 000 FCFA, acheté 9 800 FCFA.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "montant": "10 000 FCFA",
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "tient_billet"
+      },
+      "ecran": "Un article vendu"
+    },
+    {
+      "type": "explication",
+      "dit": "Supposons que le paiement arrive tout de suite, mais que 100 FCFA de frais soient prélevés.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "frais",
+        "montant": "+ 100 FCFA"
+      },
+      "ecran": "Les frais en plus"
+    },
+    {
+      "type": "explication",
+      "dit": "Il reçoit 9 900 FCFA. Après l'achat à 9 800 FCFA, il ne reste que 100 FCFA.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pile",
+        "montant": "100 FCFA",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "ecran": "Ce qu'il reste"
+    },
+    {
+      "type": "explication",
+      "dit": "La moitié de l'écart a servi à payer la commission. Vitesse ne rime pas avec gratuité.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "balance",
+        "sens": "hausse",
+        "avant": "vitesse",
+        "apres": "frais",
+        "a": "Vitesse",
+        "b": "Frais"
+      },
+      "ecran": "Vitesse et frais"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut bien regarder l'argent reçu sur le compte et les conditions pour le retirer.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Regarder les conditions"
+    },
+    {
+      "type": "question",
+      "texte": "Payes-tu souvent des frais cachés sur tes transactions ?",
+      "dit": "Payes-tu souvent des frais cachés sur tes transactions ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-27-06",
+  "_modele": "gemini"
+}
