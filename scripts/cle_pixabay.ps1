@@ -1,4 +1,4 @@
-# Enregistre la clé API Pixabay (gratuite) (une seule fois) : dans .env pour le PC et dans le coffre « Secrets » de GitHub.
+﻿# Enregistre la clé API Pixabay (gratuite) (une seule fois) : dans .env pour le PC et dans le coffre « Secrets » de GitHub.
 # Elle sert aux vidéos et photos réalistes de fond des Reels Instagram perso. La clé est saisie masquée et n'est jamais affichée.
 # Obtenir la clé : créer un compte gratuit sur https://pixabay.com, puis ouvrir https://pixabay.com/api/docs/ :
 # la clé est affichée dans la section « Parameters » (ligne « key », sur fond vert).

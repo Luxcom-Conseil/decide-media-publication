@@ -1,4 +1,4 @@
-# Enregistre le jeton du compte Instagram personnel (connexion Instagram directe, sans Page Facebook) :
+﻿# Enregistre le jeton du compte Instagram personnel (connexion Instagram directe, sans Page Facebook) :
 # dans .env pour le PC et dans le coffre « Secrets » de GitHub, avec une clé de chiffrement qui permet à l'agent de
 # renouveler le jeton tout seul chaque semaine. Le jeton est saisi masqué et n'est jamais affiché.
 #
