@@ -104,7 +104,7 @@ lots:
 # 60 s et plus, sans visage filmé, un sujet du catalogue agent/perso_sujets.py par Reel ; connexion Instagram directe.
 perso:
   # fonds réalistes : vidéos et photos libres Pixabay si le secret PIXABAY_API_KEY existe (gratuit), sinon fond animé
-  publication: false          # false = rien n'est publié tant que Stéphane n'a pas validé un Reel d'essai
+  publication: true           # validé par Stéphane le 27/10/2026 (Reel d'essai « rareté et urgence »)
   jours: [lundi, mardi, jeudi, vendredi, dimanche]   # 5 Reels par semaine
   heure: "12:00"               # heure de Paris : publié au premier passage qui suit (aujourd'hui celui de 13 h 45)
   nom: Stéphane Nzesseu
