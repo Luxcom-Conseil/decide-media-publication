@@ -9,9 +9,17 @@ Set-Location (Split-Path $PSScriptRoot -Parent)
 $depot = "Luxcom-Conseil/decide-media-publication"
 $python = Join-Path $env:USERPROFILE ".sapv\Scripts\python.exe"
 
-Write-Host "`nCollez le jeton Instagram (clic droit pour coller ; rien ne s'affiche, c'est normal), puis Entrée :" -ForegroundColor Cyan
-$saisie = Read-Host -AsSecureString
-$jeton = [Runtime.InteropServices.Marshal]::PtrToStringBSTR([Runtime.InteropServices.Marshal]::SecureStringToBSTR($saisie)).Trim()
+# Le jeton est lu dans le presse-papiers (copié juste avant dans le tableau de bord Meta) : le collage dans une saisie
+# masquée ne marche pas dans tous les terminaux (panneau Terminal de Claude, 27/10/2026). Sinon, saisie masquée.
+$jeton = "$(Get-Clipboard)".Trim()
+if ($jeton -match '^IG[A-Za-z0-9_\-]{50,}$') {
+    Write-Host "`nJeton Instagram trouvé dans le presse-papiers ($($jeton.Length) caractères)."
+    Set-Clipboard -Value " "  # on ne le laisse pas traîner dans le presse-papiers
+} else {
+    Write-Host "`nPas de jeton Instagram dans le presse-papiers. Collez-le (Ctrl+V), rien ne s'affiche, puis Entrée :" -ForegroundColor Cyan
+    $saisie = Read-Host -AsSecureString
+    $jeton = [Runtime.InteropServices.Marshal]::PtrToStringBSTR([Runtime.InteropServices.Marshal]::SecureStringToBSTR($saisie)).Trim()
+}
 if ($jeton.Length -lt 50) { throw "Ce n'est pas un jeton Instagram ($($jeton.Length) caractères reçus)." }
 
 try {
