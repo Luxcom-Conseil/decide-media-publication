@@ -1,0 +1,203 @@
+{
+  "accroches": [
+    "Ton artiste préféré gagne-t-il vraiment tout cet argent ?",
+    "400 000 FCFA de billets, mais combien pour l'artiste ?",
+    "Ce concert plein ne dit pas ce qu'il gagne."
+  ],
+  "titre": "Les vrais revenus des artistes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cotonou",
+        "logo": false,
+        "secours": "african city street"
+      },
+      "ecran": "Ton artiste préféré *gagne-t-il* vraiment tout cet argent ?",
+      "dit": "Ton artiste préféré gagne-t-il vraiment tout cet argent ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "À RETENIR",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cotonou | Bénin",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Et voici ce que *ça change* pour toi.",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cotonou",
+        "logo": false,
+        "secours": "african concert stage"
+      },
+      "ecran": "À *Cotonou*, le SIMA parle de revenus.",
+      "dit": "À Cotonou, le Salon des industries musicales parlera revenus les 12 et 13 novembre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Artiste",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Une salle *pleine* ne dit pas tout.",
+      "dit": "Pour le public, le succès se voit au nombre de spectateurs ou d'écoutes."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXEMPLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "concert crowd music",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Prenons un *exemple* de concert.",
+      "dit": "Prenons un exemple. Des billets sont vendus à 2 000 FCFA l'unité."
+    },
+    {
+      "type": "explication",
+      "etiquette": "CHIFFRES",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "400 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La billetterie *rapporte* 400 000 FCFA.",
+      "dit": "Si tous sont payés, la billetterie rapporte 400 000 FCFA au total."
+    },
+    {
+      "type": "media",
+      "etiquette": "LES FRAIS",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "empty concert hall",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les frais *coûtent* 250 000 FCFA.",
+      "dit": "Supposons que la salle, le son et la sécurité coûtent ensemble 250 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE RESTE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "150 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Il *reste* 150 000 FCFA.",
+      "dit": "Il reste donc 150 000 FCFA avant le partage prévu entre les participants."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "75 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'artiste reçoit *75 000 FCFA*.",
+      "dit": "Si le contrat attribue la moitié de ce reste, l'artiste reçoit 75 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tout *dépend* de la base utilisée.",
+      "dit": "La leçon en une phrase : tout dépend de la base utilisée pour le calcul."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Qui encaisse | Les dépenses | La part de chacun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifie *qui* encaisse et les dépenses.",
+      "dit": "Il faut vérifier qui encaisse, quelles dépenses sont retirées et la part de chacun."
+    }
+  ],
+  "question": "Penses-tu que les artistes gagnent assez avec leurs concerts ?"
+}

@@ -1,0 +1,94 @@
+{
+  "titre": "Siège de l'ARTAC au Cameroun",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Le Cameroun va abriter le siège de l'ARTAC, l'organisation des régulateurs des télécommunications."
+    },
+    {
+      "type": "explication",
+      "dit": "L'ARTAC, c'est l'Assemblée des régulateurs des télécommunications de l'Afrique centrale.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "pays",
+        "texte": "Afrique centrale"
+      },
+      "ecran": "L'ARTAC c'est quoi ?"
+    },
+    {
+      "type": "explication",
+      "dit": "Réunis à Libreville les 20 et 21 octobre, les régulateurs ont choisi le Cameroun.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "carte",
+        "texte": "Cameroun | Libreville"
+      },
+      "ecran": "Réunis les 20 et 21 octobre"
+    },
+    {
+      "type": "explication",
+      "dit": "Ils ont aussi adopté des statuts, un règlement intérieur et un règlement financier révisés.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "liste",
+        "texte": "Statuts | Règlement | Groupes"
+      },
+      "ecran": "Textes révisés"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Tu communiques souvent entre plusieurs pays de la région.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Salarié",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Appels entre pays"
+    },
+    {
+      "type": "explication",
+      "dit": "Attention, cette décision institutionnelle ne fixe aucun nouveau tarif d'appel ni baisse.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "marche"
+      },
+      "ecran": "Pas de nouveau tarif"
+    },
+    {
+      "type": "explication",
+      "dit": "La leçon, c'est qu'il faut distinguer l'installation administrative des actions futures.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "calendrier"
+      },
+      "ecran": "Rester patient"
+    },
+    {
+      "type": "explication",
+      "dit": "Ce qu'il faut faire, c'est suivre les actions des groupes de travail et leur calendrier.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Etudiante",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "ecran": "Suivre les actions"
+    },
+    {
+      "type": "question",
+      "texte": "Espères-tu une baisse du coût des appels entre pays de la région ?",
+      "dit": "Espères-tu une baisse du coût des appels entre pays de la région ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-28-07",
+  "_modele": "gemini"
+}

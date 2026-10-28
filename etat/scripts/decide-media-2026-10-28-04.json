@@ -1,0 +1,107 @@
+{
+  "titre": "Prix du pétrole : comprendre la recette",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "La SNH a arreté les prix du brut avec Perenco et Addax le 21 octobre à Paris."
+    },
+    {
+      "type": "explication",
+      "dit": "Un enlèvement, c'est du pétrole retiré pour ãtre acheminé vers l'acheteur.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "petrole"
+      },
+      "ecran": "Un enlèvement"
+    },
+    {
+      "type": "explication",
+      "dit": "Le compte rendu du 27 octobre mentionne les stocks sans donner les prix retenus.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "21 octobre"
+      },
+      "ecran": "Le compte rendu"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "dit": "Mille barils vendus à 70 dollars rapportent 70 000 dollars avant les dépenses.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "montant": "70 000 USD"
+      },
+      "ecran": "Mille barils"
+    },
+    {
+      "type": "explication",
+      "dit": "Si le prix passe à 75 dollars mais que huit cents barils sont vendus...",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "70",
+        "apres": "75"
+      },
+      "ecran": "Le prix monte"
+    },
+    {
+      "type": "explication",
+      "dit": "La recette brute atteint 60 000 dollars, donc la somme totale diminue de 10 000 dollars.",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pile",
+        "montant": "60 000 USD"
+      },
+      "ecran": "La somme diminue"
+    },
+    {
+      "type": "explication",
+      "dit": "Il ne suffit pas de connaître le prix d'un baril, la quantité vendue compte aussi.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "ecran": "Prix et quantité"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut suivre les prix, les volumes commercialisés et les sommes de l'État.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Suivi | Prix | Volumes"
+      },
+      "ecran": "Suivre les résultats"
+    },
+    {
+      "type": "question",
+      "texte": "Est-ce que tu regardes les quantités vendues en plus des prix dans ton activité ?",
+      "dit": "Est-ce que tu regardes les quantités vendues en plus des prix dans ton activité ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-28-04",
+  "_modele": "gemini"
+}

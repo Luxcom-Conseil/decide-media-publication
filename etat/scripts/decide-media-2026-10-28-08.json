@@ -1,0 +1,112 @@
+{
+  "titre": "La FIERA s'installe à Douala",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "La Foire internationale sur les énergies renouvelables arrive à Douala."
+    },
+    {
+      "type": "explication",
+      "dit": "Les énergies renouvelables, ce sont des sources d'énergie qui ne s'épuisent jamais.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "solaire"
+      },
+      "ecran": "Énergies renouvelables"
+    },
+    {
+      "type": "explication",
+      "dit": "La FIERA se tient du 28 au 31 octobre au Best Western Plus Soaho, à Douala.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "carte",
+        "texte": "Douala"
+      },
+      "ecran": "Du 28 au 31 octobre"
+    },
+    {
+      "type": "explication",
+      "dit": "Dès le 28 octobre à 8 heures, des ateliers pratiques sont prévus sur le solaire.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "28 octobre"
+      },
+      "ecran": "Ateliers et démos"
+    },
+    {
+      "type": "explication",
+      "dit": "Une entreprise veut comprendre ses besoins électriques avant d'acheter du matériel.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Comprendre ses besoins"
+    },
+    {
+      "type": "explication",
+      "dit": "Une batterie sert à conserver de l'énergie pour un autre moment.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "solaire"
+      },
+      "ecran": "Stockage d'énergie"
+    },
+    {
+      "type": "explication",
+      "dit": "Elle doit être choisie avec l'ensemble de l'installation.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Bien choisir"
+    },
+    {
+      "type": "explication",
+      "dit": "Un espace de rencontres réunit porteurs de projets et financeurs.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "banque"
+      },
+      "ecran": "Rencontre et finance"
+    },
+    {
+      "type": "explication",
+      "dit": "Une rencontre ne constitue pas, à elle seule, un financement accordé.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "ecran": "Se renseigner"
+    },
+    {
+      "type": "explication",
+      "dit": "Vérifie ta catégorie d'inscription et l'horaire de la séance sur le site officiel.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Vérifier | Horaires | Inscription"
+      },
+      "ecran": "Vérifier avant d'aller"
+    },
+    {
+      "type": "question",
+      "texte": "Penses-tu que l'énergie solaire peut aider ton activité au quotidien ?",
+      "dit": "Penses-tu que l'énergie solaire peut aider ton activité au quotidien ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-28-08",
+  "_modele": "gemini"
+}

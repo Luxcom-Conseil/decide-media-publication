@@ -4231,5 +4231,580 @@
       "titre": "La BAD et UK Export Finance veulent cofinancer des projets africains. L’accord ne fixe pas une enveloppe déjà distribuée.",
       "url": "https://youtu.be/cB0M5_bJYcQ"
     }
+  },
+  "decide-media-2026-10-28-01": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:45:56+00:00",
+      "piste": "principale",
+      "post_id": "122115024579499704",
+      "programme_pour": "2026-10-28T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Orange et l’ART ont passé le réseau au crible. L’abonné doit pouvoir voir ce qui s’améliore.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:05:24+00:00",
+      "piste": "principale",
+      "post_id": "1656985249345376",
+      "programme_pour": "2026-10-28T07:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Orange et l’ART ont passé le réseau au crible. L’abonné doit pouvoir voir ce qui s’améliore.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:51+00:00",
+      "piste": "principale",
+      "post_id": "6ae195e7e673d1e5894f8b60",
+      "programme_pour": "2026-10-28T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Orange et l’ART ont passé le réseau au crible. L’abonné doit pouvoir voir ce qui s’améliore.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "erreur": "buffer tiktok_buffer : Scheduled time must be in the future",
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:58+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Orange et l’ART ont passé le réseau au crible. L’abonné doit pouvoir voir ce qui s’améliore."
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:12:10+00:00",
+      "piste": "principale",
+      "post_id": "6ae1923af94c111d6ebc170d",
+      "programme_pour": "2026-10-28T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Orange et l’ART ont passé le réseau au crible. L’abonné doit pouvoir voir ce qui s’améliore.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:50:11+00:00",
+      "piste": "principale",
+      "post_id": "EPTubdmENuI",
+      "programme_pour": "2026-10-28T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Orange et l’ART ont passé le réseau au crible. L’abonné doit pouvoir voir ce qui s’améliore.",
+      "url": "https://youtu.be/EPTubdmENuI"
+    }
+  },
+  "decide-media-2026-10-28-02": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:45:59+00:00",
+      "piste": "principale",
+      "post_id": "122115024639499704",
+      "programme_pour": "2026-10-28T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala veut transformer ses quartiers. Un projet primé doit aussi tenir après l’inauguration.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:05:28+00:00",
+      "piste": "principale",
+      "post_id": "2130081587595096",
+      "programme_pour": "2026-10-28T09:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala veut transformer ses quartiers. Un projet primé doit aussi tenir après l’inauguration.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:52+00:00",
+      "piste": "principale",
+      "post_id": "6ae195e8f2db54e878c6a98f",
+      "programme_pour": "2026-10-28T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala veut transformer ses quartiers. Un projet primé doit aussi tenir après l’inauguration.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:59+00:00",
+      "piste": "principale",
+      "post_id": "6ae195ef52154ef997503697",
+      "programme_pour": "2026-10-28T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala veut transformer ses quartiers. Un projet primé doit aussi tenir après l’inauguration.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:14:17+00:00",
+      "piste": "principale",
+      "post_id": "6ae192b9f94c111d6ebc3152",
+      "programme_pour": "2026-10-28T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala veut transformer ses quartiers. Un projet primé doit aussi tenir après l’inauguration.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:53:57+00:00",
+      "piste": "principale",
+      "post_id": "2_4zBtHtoR4",
+      "programme_pour": "2026-10-28T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala veut transformer ses quartiers. Un projet primé doit aussi tenir après l’inauguration.",
+      "url": "https://youtu.be/2_4zBtHtoR4"
+    }
+  },
+  "decide-media-2026-10-28-03": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:46:01+00:00",
+      "piste": "principale",
+      "post_id": "122115024687499704",
+      "programme_pour": "2026-10-28T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L’Allemagne annonce plus de 25 milliards de FCFA au Togo. L’entretien mérite sa part du financement.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:05:34+00:00",
+      "piste": "principale",
+      "post_id": "1467871178570488",
+      "programme_pour": "2026-10-28T10:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L’Allemagne annonce plus de 25 milliards de FCFA au Togo. L’entretien mérite sa part du financement.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:53+00:00",
+      "piste": "principale",
+      "post_id": "6ae195e91d62943dedc8bd88",
+      "programme_pour": "2026-10-28T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L’Allemagne annonce plus de 25 milliards de FCFA au Togo. L’entretien mérite sa part du financement.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:59+00:00",
+      "piste": "principale",
+      "post_id": "6ae195ef1d62943dedc8bec2",
+      "programme_pour": "2026-10-28T10:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L’Allemagne annonce plus de 25 milliards de FCFA au Togo. L’entretien mérite sa part du financement.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:16:04+00:00",
+      "piste": "principale",
+      "post_id": "6ae193241d62943dedc8229c",
+      "programme_pour": "2026-10-28T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L’Allemagne annonce plus de 25 milliards de FCFA au Togo. L’entretien mérite sa part du financement.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:57:55+00:00",
+      "piste": "principale",
+      "post_id": "kAtnFSqPaL0",
+      "programme_pour": "2026-10-28T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L’Allemagne annonce plus de 25 milliards de FCFA au Togo. L’entretien mérite sa part du financement.",
+      "url": "https://youtu.be/kAtnFSqPaL0"
+    }
+  },
+  "decide-media-2026-10-28-04": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:46:04+00:00",
+      "piste": "principale",
+      "post_id": "122115024777499704",
+      "programme_pour": "2026-10-28T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La SNH arrête les prix du brut. Pour comprendre la recette, il faut aussi compter les barils.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:05:41+00:00",
+      "piste": "principale",
+      "post_id": "1430236665904836",
+      "programme_pour": "2026-10-28T12:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La SNH arrête les prix du brut. Pour comprendre la recette, il faut aussi compter les barils.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:54+00:00",
+      "piste": "principale",
+      "post_id": "6ae195eae673d1e5894f8ba4",
+      "programme_pour": "2026-10-28T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La SNH arrête les prix du brut. Pour comprendre la recette, il faut aussi compter les barils.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:28:00+00:00",
+      "piste": "principale",
+      "post_id": "6ae195f052154ef9975036f6",
+      "programme_pour": "2026-10-28T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La SNH arrête les prix du brut. Pour comprendre la recette, il faut aussi compter les barils.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:18:01+00:00",
+      "piste": "principale",
+      "post_id": "6ae193991d62943dedc84571",
+      "programme_pour": "2026-10-28T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La SNH arrête les prix du brut. Pour comprendre la recette, il faut aussi compter les barils.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:01:54+00:00",
+      "piste": "principale",
+      "post_id": "csyiWYe6S-Q",
+      "programme_pour": "2026-10-28T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La SNH arrête les prix du brut. Pour comprendre la recette, il faut aussi compter les barils.",
+      "url": "https://youtu.be/csyiWYe6S-Q"
+    }
+  },
+  "decide-media-2026-10-28-05": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:46:07+00:00",
+      "piste": "principale",
+      "post_id": "122115024837499704",
+      "programme_pour": "2026-10-28T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare une carte de la fibre. Une zone couverte ne garantit pas un logement raccordé.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:05:48+00:00",
+      "piste": "principale",
+      "post_id": "2961414530906019",
+      "programme_pour": "2026-10-28T13:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare une carte de la fibre. Une zone couverte ne garantit pas un logement raccordé.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:54+00:00",
+      "piste": "principale",
+      "post_id": "6ae195eaf94c111d6ebd1aae",
+      "programme_pour": "2026-10-28T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare une carte de la fibre. Une zone couverte ne garantit pas un logement raccordé.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:29:37+00:00",
+      "piste": "principale",
+      "post_id": "6ae196501e569a96142df548",
+      "programme_pour": "2026-10-28T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare une carte de la fibre. Une zone couverte ne garantit pas un logement raccordé.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:19:46+00:00",
+      "piste": "principale",
+      "post_id": "6ae1940252154ef9974fc9b8",
+      "programme_pour": "2026-10-28T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare une carte de la fibre. Une zone couverte ne garantit pas un logement raccordé.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:05:17+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Le Togo prépare une carte de la fibre. Une zone couverte ne garantit pas un logement raccordé."
+    }
+  },
+  "decide-media-2026-10-28-06": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:46:10+00:00",
+      "piste": "principale",
+      "post_id": "122115024963499704",
+      "programme_pour": "2026-10-28T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Cotonou, le SIMA parlera revenus. Une salle pleine ne dit pas ce que l’artiste gagne.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:09:46+00:00",
+      "piste": "principale",
+      "post_id": "1089693310638201",
+      "programme_pour": "2026-10-28T15:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Cotonou, le SIMA parlera revenus. Une salle pleine ne dit pas ce que l’artiste gagne.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:55+00:00",
+      "piste": "principale",
+      "post_id": "6ae195eb52154ef9975035c8",
+      "programme_pour": "2026-10-28T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Cotonou, le SIMA parlera revenus. Une salle pleine ne dit pas ce que l’artiste gagne.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:31:34+00:00",
+      "piste": "principale",
+      "post_id": "6ae196c6e673d1e5894fd0ec",
+      "programme_pour": "2026-10-28T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Cotonou, le SIMA parlera revenus. Une salle pleine ne dit pas ce que l’artiste gagne.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:21:20+00:00",
+      "piste": "principale",
+      "post_id": "6ae19460f2db54e878c63597",
+      "programme_pour": "2026-10-28T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Cotonou, le SIMA parlera revenus. Une salle pleine ne dit pas ce que l’artiste gagne.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-28-07": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:46:13+00:00",
+      "piste": "principale",
+      "post_id": "122115025017499704",
+      "programme_pour": "2026-10-28T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun accueillera le siège de l’ARTAC. Les régulateurs renforcent leur organisation commune.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:56+00:00",
+      "piste": "principale",
+      "post_id": "6ae195ec1d62943dedc8bdd9",
+      "programme_pour": "2026-10-28T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun accueillera le siège de l’ARTAC. Les régulateurs renforcent leur organisation commune.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:37:05+00:00",
+      "piste": "principale",
+      "post_id": "6ae1981052154ef99750d9ac",
+      "programme_pour": "2026-10-28T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun accueillera le siège de l’ARTAC. Les régulateurs renforcent leur organisation commune.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:23:06+00:00",
+      "piste": "principale",
+      "post_id": "6ae194ca1e569a96142db79a",
+      "programme_pour": "2026-10-28T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun accueillera le siège de l’ARTAC. Les régulateurs renforcent leur organisation commune.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-28-08": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:46:16+00:00",
+      "piste": "principale",
+      "post_id": "122115025125499704",
+      "programme_pour": "2026-10-28T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, la FIERA est annoncée du 28 au 31 octobre. Les solutions énergétiques passent à la démonstration.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:56+00:00",
+      "piste": "principale",
+      "post_id": "6ae195ecf94c111d6ebd1ad8",
+      "programme_pour": "2026-10-28T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, la FIERA est annoncée du 28 au 31 octobre. Les solutions énergétiques passent à la démonstration.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:43:41+00:00",
+      "piste": "principale",
+      "post_id": "6ae1999d1d62943dedc986f5",
+      "programme_pour": "2026-10-28T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, la FIERA est annoncée du 28 au 31 octobre. Les solutions énergétiques passent à la démonstration.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:24:41+00:00",
+      "piste": "principale",
+      "post_id": "6ae19529f2db54e878c67bfe",
+      "programme_pour": "2026-10-28T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, la FIERA est annoncée du 28 au 31 octobre. Les solutions énergétiques passent à la démonstration.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-28-09": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:46:19+00:00",
+      "piste": "principale",
+      "post_id": "122115025185499704",
+      "programme_pour": "2026-10-28T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Kara, le bus universitaire passera de 150 à 100 FCFA. Un aller-retour coûtera 200 FCFA.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:57+00:00",
+      "piste": "principale",
+      "post_id": "6ae195edf2db54e878c6a9e6",
+      "programme_pour": "2026-10-28T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Kara, le bus universitaire passera de 150 à 100 FCFA. Un aller-retour coûtera 200 FCFA.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:50:55+00:00",
+      "piste": "principale",
+      "post_id": "6ae19b4ff94c111d6ebe55ac",
+      "programme_pour": "2026-10-28T19:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Kara, le bus universitaire passera de 150 à 100 FCFA. Un aller-retour coûtera 200 FCFA.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:26:15+00:00",
+      "piste": "principale",
+      "post_id": "6ae195871d62943dedc8a6ca",
+      "programme_pour": "2026-10-28T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Kara, le bus universitaire passera de 150 à 100 FCFA. Un aller-retour coûtera 200 FCFA.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-28-10": {
+    "facebook": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T05:46:22+00:00",
+      "piste": "principale",
+      "post_id": "122115025245499704",
+      "programme_pour": "2026-10-29T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Abidjan, une première escale NYK a débarqué 139 véhicules, selon les données communiquées par AGL.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:57+00:00",
+      "piste": "principale",
+      "post_id": "6ae195ede673d1e5894f8c20",
+      "programme_pour": "2026-10-29T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Abidjan, une première escale NYK a débarqué 139 véhicules, selon les données communiquées par AGL.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:57:25+00:00",
+      "piste": "principale",
+      "post_id": "6ae19cd5f94c111d6ebea234",
+      "programme_pour": "2026-10-28T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Abidjan, une première escale NYK a débarqué 139 véhicules, selon les données communiquées par AGL.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T06:27:50+00:00",
+      "piste": "principale",
+      "post_id": "6ae195e6f94c111d6ebd1a5c",
+      "programme_pour": "2026-10-29T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Abidjan, une première escale NYK a débarqué 139 véhicules, selon les données communiquées par AGL.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
   }
 }

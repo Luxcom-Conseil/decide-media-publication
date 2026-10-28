@@ -1,0 +1,203 @@
+{
+  "accroches": [
+    "La fibre arrive-t-elle chez toi ?",
+    "250 millions de FCFA pour la fibre au Togo.",
+    "Attention aux frais cachés de la fibre."
+  ],
+  "titre": "La fibre au Togo",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african city internet",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La fibre arrive-t-elle chez toi ?",
+      "dit": "La fibre arrive-t-elle chez toi ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Togo",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Et voici la suite.",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": null,
+        "apres": null,
+        "montant": "250 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un projet de carte.",
+      "dit": "L'ARCEP prépare une carte des réseaux de fibre."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "telecom tower africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "240 jours de travaux.",
+      "dit": "Le projet prévoit jusqu'à 240 jours de réalisation."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un exemple.",
+      "dit": "Prenons un exemple pour un salon de coiffure."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "15 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "15 000 FCFA par mois.",
+      "dit": "Un opérateur propose un abonnement de 15 000 FCFA par mois."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "30 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "30 000 FCFA d'installation.",
+      "dit": "Il faut ajouter 30 000 FCFA pour l'installation."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "210 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "210 000 FCFA la première année.",
+      "dit": "La première année revient à 210 000 FCFA au total."
+    },
+    {
+      "type": "media",
+      "etiquette": "ATTENTION",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "smartphone internet africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Vérifie ton adresse.",
+      "dit": "Une zone couverte ne garantit pas un logement raccordé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Lis bien le contrat.",
+      "dit": "La carte ne remplace pas une vérification précise."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "modern office africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Demande un devis écrit.",
+      "dit": "Demande par écrit le coût et l'éligibilité."
+    }
+  ],
+  "question": "As-tu déjà la fibre chez toi ?"
+}

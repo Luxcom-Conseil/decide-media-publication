@@ -1,0 +1,243 @@
+{
+  "accroches": [
+    "Ta ville va-t-elle vraiment changer ?",
+    "Douala cherche des projets pour ses quartiers.",
+    "Ce concours va transformer ton quartier à Douala."
+  ],
+  "titre": "Douala veut transformer ses quartiers",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "african city street"
+      },
+      "ecran": "Ta ville va-t-elle *vraiment* changer ?",
+      "dit": "Ta ville va-t-elle vraiment changer avec de nouveaux projets ?"
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "douala city cameroun"
+      },
+      "ecran": "Et voici ce que ça *change*",
+      "dit": "Et voici ce que ça change pour ton quotidien à Douala."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala | Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un concours à *Douala*",
+      "dit": "À Douala, un concours est lancé pour améliorer la vie des quartiers."
+    },
+    {
+      "type": "media",
+      "etiquette": "L'ÉVÉNEMENT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Communauté urbaine de Douala",
+        "logo": true,
+        "secours": "city hall africa"
+      },
+      "ecran": "Forum les *25* et *26* novembre",
+      "dit": "Le Forum économique se tiendra les 25 et 26 novembre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LES PROJETS",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala : déchets | transport | services",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Déchets et *mobilité* visés",
+      "dit": "Le but est d'innover dans les déchets, le transport et les services."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE DÉFI",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Habitant",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Un projet doit *durer*",
+      "dit": "Mais un bon projet doit surtout pouvoir fonctionner après l'inauguration."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "marche",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Une collecte de déchets auprès de cent boutiques."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RECETTES",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "100 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*100 000 FCFA* de recettes",
+      "dit": "Si chaque boutique paie 1 000 FCFA par mois, l'association gagne 100 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DÉPENSES",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "80 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*80 000 FCFA* de charges",
+      "dit": "Le carburant et le travail du conducteur coûtent 80 000 FCFA par mois."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DÉFICIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "100 000 FCFA",
+        "apres": "60 000 FCFA",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Si les *recettes* baissent",
+      "dit": "Si seulement 60 boutiques paient, les recettes tombent à 60 000 FCFA. Il manque 20 000 FCFA."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE DANGER",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market rubbish",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Avoir le matériel ne *suffit* pas",
+      "dit": "Même avec un tricycle offert, le service s'arrête sans argent pour l'essence."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifier le *fonctionnement* futur",
+      "dit": "Le concours doit vérifier qui paiera et qui entretiendra le matériel."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Exiger : budget | responsable | calendrier",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *budget* clair exigé",
+      "dit": "Pour chaque projet retenu, il faut exiger un budget, un responsable et un calendrier."
+    }
+  ],
+  "question": "As-tu déjà vu un projet s'arrêter faute de financement dans ton quartier ?"
+}

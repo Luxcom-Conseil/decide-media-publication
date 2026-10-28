@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Ton téléphone rame-t-il à Douala ?",
+    "Réseau Orange : le contrôle de l'ART.",
+    "Ton réseau mobile va-t-il s'améliorer ?"
+  ],
+  "titre": "Télécoms : Orange contrôlé par l'ART",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african smartphone woman",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Ton téléphone *rame-t-il* à Douala ?",
+      "dit": "Ton réseau mobile est-il souvent lent ou coupé ? Voici ce qui se prépare."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSEAU",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Client",
+        "personnage": "etudiante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* pour toi.",
+      "dit": "Et voici ce que ça change pour toi au quotidien."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'ART *contrôle* le réseau Orange",
+      "dit": "L'ART, c'est le gendarme des télécoms au Cameroun."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "african city road"
+      },
+      "ecran": "Visite à *Douala* les 22 et 23 octobre",
+      "dit": "L'ART a contrôlé la qualité du réseau d'Orange à Douala les 22 et 23 octobre."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE CONTRÔLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "data center server",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Visite du *data center*",
+      "dit": "L'opérateur a montré son centre de données pour prouver ses investissements."
+    },
+    {
+      "type": "explication",
+      "etiquette": "PROBLÈME",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas de *chiffres* publics",
+      "dit": "Mais aucune donnée précise n'a été publiée pour comparer la qualité avant et après."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "AVANT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "16",
+        "apres": "20",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Seulement *16* envois sur *20*",
+      "dit": "Une commerçante tente 20 envois de messages. Seuls 16 passent direct."
+    },
+    {
+      "type": "explication",
+      "etiquette": "APRÈS",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "16",
+        "apres": "19",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*19* envois réussis sur *20*",
+      "dit": "Après travaux, si 19 messages passent sur 20, le progrès devient concret."
+    },
+    {
+      "type": "media",
+      "etiquette": "PROCHAINE ÉTAPE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "office meeting business africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une *feuille* de route commune",
+      "dit": "Une feuille de route commune avec des engagements doit maintenant être publiée."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Résultats : Publics | Localisés | Suivis",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des résultats *publics* et *localisés*",
+      "dit": "Les usagers doivent connaître les chiffres précis quartier par quartier."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Usager",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Note le *lieu* et l'*heure*",
+      "dit": "En attendant, note l'heure et le lieu exact de chaque panne pour réclamer."
+    }
+  ],
+  "question": "As-tu remarqué une amélioration du réseau Orange ces derniers jours ?"
+}
