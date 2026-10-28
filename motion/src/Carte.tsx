@@ -61,7 +61,6 @@ export const Carte: React.FC<{ texte?: string }> = ({ texte }) => {
           const d = 30 + k * 10;
           const chute = spring({ frame: f - d, fps, config: { damping: 9, stiffness: 160, mass: 0.6 } });
           const onde = ((f - d - 8) % 40) / 40;
-          const ly = dessus[k] ? y - 110 : y + 14;
           return (
             <g key={k} opacity={Math.min(1, chute * 2)}>
               {f > d + 8 && <circle cx={x} cy={y} r={10 + onde * 50} fill="none" stroke={O} strokeWidth={4} opacity={1 - onde} />}
@@ -70,10 +69,18 @@ export const Carte: React.FC<{ texte?: string }> = ({ texte }) => {
                 <path d="M0,0 C-8,-14 -24,-26 -24,-44 A24,24 0 1 1 24,-44 C24,-26 8,-14 0,0 Z" fill={O} stroke={B} strokeWidth={4} />
                 <circle cx={0} cy={-44} r={9} fill={B} />
               </g>
-              <g opacity={interpolate(f, [d + 10, d + 16], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}>
-                <rect x={x - (l.nom.length * 14 + 24) / 2} y={ly} width={l.nom.length * 14 + 24} height={40} rx={8} fill={B} />
-                <text x={x} y={ly + 28} textAnchor="middle" fontFamily={fontFamily} fontWeight={800} fontSize={24} fill="#0E0E0E">{l.nom}</text>
-              </g>
+            </g>
+          );
+        })}
+        {/* les noms par-dessus tous les repères : le repère d'un lieu voisin ne cache plus l'étiquette (Douala | Cameroun, 28/10) */}
+        {lieux.map((l, k) => {
+          const [x, y] = t(...l.pos);
+          const d = 30 + k * 10;
+          const ly = dessus[k] ? y - 110 : y + 14;
+          return (
+            <g key={k} opacity={interpolate(f, [d + 10, d + 16], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}>
+              <rect x={x - (l.nom.length * 14 + 24) / 2} y={ly} width={l.nom.length * 14 + 24} height={40} rx={8} fill={B} />
+              <text x={x} y={ly + 28} textAnchor="middle" fontFamily={fontFamily} fontWeight={800} fontSize={24} fill="#0E0E0E">{l.nom}</text>
             </g>
           );
         })}
