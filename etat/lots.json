@@ -4269,10 +4269,14 @@
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled time must be in the future",
       "lot": "2026-10-28",
-      "maj": "2026-10-28T06:27:58+00:00",
-      "statut": "echec",
+      "maj": "2026-10-28T10:04:48+00:00",
+      "piste": "principale",
+      "post_id": "6ae1c8c026cf140c4c8578b4",
+      "programme_pour": "2026-10-29T07:15:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "Orange et l’ART ont passé le réseau au crible. L’abonné doit pouvoir voir ce qui s’améliore."
+      "titre": "Orange et l’ART ont passé le réseau au crible. L’abonné doit pouvoir voir ce qui s’améliore.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-10-28",
@@ -4560,10 +4564,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-28",
-      "maj": "2026-10-28T06:05:17+00:00",
-      "statut": "echec",
+      "maj": "2026-10-28T09:47:54+00:00",
+      "piste": "principale",
+      "post_id": "Ysp4eZjrK_I",
+      "programme_pour": "2026-10-28T14:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Le Togo prépare une carte de la fibre. Une zone couverte ne garantit pas un logement raccordé."
+      "titre": "Le Togo prépare une carte de la fibre. Une zone couverte ne garantit pas un logement raccordé.",
+      "url": "https://youtu.be/Ysp4eZjrK_I"
     }
   },
   "decide-media-2026-10-28-06": {
@@ -4621,6 +4629,17 @@
       "tentatives": 0,
       "titre": "À Cotonou, le SIMA parlera revenus. Une salle pleine ne dit pas ce que l’artiste gagne.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T09:50:14+00:00",
+      "piste": "principale",
+      "post_id": "6K2caY79KRU",
+      "programme_pour": "2026-10-28T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Cotonou, le SIMA parlera revenus. Une salle pleine ne dit pas ce que l’artiste gagne.",
+      "url": "https://youtu.be/6K2caY79KRU"
     }
   },
   "decide-media-2026-10-28-07": {
@@ -4667,6 +4686,17 @@
       "tentatives": 0,
       "titre": "Le Cameroun accueillera le siège de l’ARTAC. Les régulateurs renforcent leur organisation commune.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T09:52:25+00:00",
+      "piste": "principale",
+      "post_id": "dI3RaIXTWV0",
+      "programme_pour": "2026-10-28T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun accueillera le siège de l’ARTAC. Les régulateurs renforcent leur organisation commune.",
+      "url": "https://youtu.be/dI3RaIXTWV0"
     }
   },
   "decide-media-2026-10-28-08": {
@@ -4713,6 +4743,17 @@
       "tentatives": 0,
       "titre": "À Douala, la FIERA est annoncée du 28 au 31 octobre. Les solutions énergétiques passent à la démonstration.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T09:55:53+00:00",
+      "piste": "principale",
+      "post_id": "cv2LJ4Rl82w",
+      "programme_pour": "2026-10-28T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Douala, la FIERA est annoncée du 28 au 31 octobre. Les solutions énergétiques passent à la démonstration.",
+      "url": "https://youtu.be/cv2LJ4Rl82w"
     }
   },
   "decide-media-2026-10-28-09": {
@@ -4759,6 +4800,17 @@
       "tentatives": 0,
       "titre": "À Kara, le bus universitaire passera de 150 à 100 FCFA. Un aller-retour coûtera 200 FCFA.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T09:58:26+00:00",
+      "piste": "principale",
+      "post_id": "JDW5VbLJ_FM",
+      "programme_pour": "2026-10-28T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Kara, le bus universitaire passera de 150 à 100 FCFA. Un aller-retour coûtera 200 FCFA.",
+      "url": "https://youtu.be/JDW5VbLJ_FM"
     }
   },
   "decide-media-2026-10-28-10": {
@@ -4805,6 +4857,17 @@
       "tentatives": 0,
       "titre": "À Abidjan, une première escale NYK a débarqué 139 véhicules, selon les données communiquées par AGL.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-28",
+      "maj": "2026-10-28T10:01:24+00:00",
+      "piste": "principale",
+      "post_id": "qmqv_eRqtms",
+      "programme_pour": "2026-10-29T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Abidjan, une première escale NYK a débarqué 139 véhicules, selon les données communiquées par AGL.",
+      "url": "https://youtu.be/qmqv_eRqtms"
     }
   }
 }

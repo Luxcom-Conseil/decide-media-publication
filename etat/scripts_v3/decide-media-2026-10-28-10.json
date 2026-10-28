@@ -1,0 +1,243 @@
+{
+  "accroches": [
+    "Sais-tu combien de voitures sont arrivées à Abidjan ?",
+    "139 voitures sont arrivées en 24 heures au port !",
+    "Ce nouveau bateau pourrait changer l'achat de ta voiture."
+  ],
+  "titre": "139 véhicules débarqués au port d'Abidjan",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Port of Abidjan",
+        "logo": false,
+        "secours": "port abidjan ships"
+      },
+      "ecran": "139 voitures *débarquées* à Abidjan !",
+      "dit": "139 voitures sont arrivées d'un coup à Abidjan !"
+    },
+    {
+      "type": "media",
+      "etiquette": "À SUIVRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "cargo ship port",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Et voici ce que ça *change* pour toi.",
+      "dit": "Et voici ce que ça change pour le marché de l'automobile."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST OÙ ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Abidjan",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une grande *escale* en Côte d'Ivoire",
+      "dit": "Tout s'est passé au port d'Abidjan, en Côte d'Ivoire."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *agent* maritime s'occupe du navire",
+      "dit": "Un agent maritime gère les papiers et l'accueil du bateau au port."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Abidjan",
+        "logo": false,
+        "secours": "abidjan city skyline"
+      },
+      "ecran": "139 *véhicules* déchargés le 24 octobre",
+      "dit": "Le 24 octobre, le navire Neptune Leader a débarqué 139 véhicules."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RAPIDITÉ",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "24 heures",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Débarqués en moins de *24 heures*",
+      "dit": "Toutes ces voitures ont été déchargées en moins de 24 heures."
+    },
+    {
+      "type": "explication",
+      "etiquette": "COMMENT ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Un *navire* roulier à rampe",
+      "dit": "Le bateau possède une rampe où les véhicules sortent en roulant."
+    },
+    {
+      "type": "media",
+      "etiquette": "PARTENAIRES",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Bolloré",
+        "logo": true,
+        "secours": "shipping logistics office"
+      },
+      "ecran": "AGL et NYK *s'associent*",
+      "dit": "AGL a géré l'escale avec l'armateur japonais NYK Line."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* concrètement.",
+      "dit": "Prenons un exemple pour un importateur de véhicules."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cette *escale* valide une opération",
+      "dit": "Cette première arrivée prouve juste que le bateau est bien venu."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": "Tarif final",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *coût* final reste à vérifier",
+      "dit": "Elle ne suffit pas à garantir des délais courts ni un prix plus bas."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "À vérifier : Fréquence | Ports | Tarifs",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Regarder la *fréquence* et les prix",
+      "dit": "Pour savoir si les prix vont baisser, il faudra regarder les prochains tarifs."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Suivre les *prochains* trajets",
+      "dit": "Renseigne-toi bien sur les frais réels avant d'acheter ta voiture."
+    }
+  ],
+  "question": "Penses-tu que l'arrivée de nouveaux bateaux va faire baisser le prix des voitures ?"
+}

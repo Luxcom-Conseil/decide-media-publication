@@ -1,0 +1,203 @@
+{
+  "accroches": [
+    "Tu veux passer au solaire pour ton activité ?",
+    "Du 28 au 31 octobre, le solaire s'expose à Douala.",
+    "Ce rendez-vous peut changer ta gestion d'électricité."
+  ],
+  "titre": "La foire des énergies renouvelables à Douala",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "douala city cameroon"
+      },
+      "ecran": "*Le solaire* s'expose du 28 au 31 octobre",
+      "dit": "Du 28 au 31 octobre, l'énergie solaire s'expose à Douala !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "À VENIR",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* pour toi.",
+      "dit": "Et voici ce que cet événement peut changer pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "solaire",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *FIERA*, foire des énergies renouvelables.",
+      "dit": "La FIERA est la Foire internationale sur les énergies renouvelables."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "solar panels africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des *ateliers* sur le solaire et le biogaz.",
+      "dit": "Elle propose des ateliers sur les bâtiments, le solaire et le biogaz."
+    },
+    {
+      "type": "explication",
+      "etiquette": "POUR QUI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Comprendre tes *besoins* en électricité.",
+      "dit": "C'est utile pour comprendre tes besoins avant d'acheter du matériel."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* avec les batteries.",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "solaire",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Garder l'*énergie* pour plus tard.",
+      "dit": "Une batterie sert à conserver de l'énergie pour un autre moment."
+    },
+    {
+      "type": "media",
+      "etiquette": "RENCONTRES",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "business meeting africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Rencontrer des *financeurs* sur place.",
+      "dit": "Il y aura aussi un espace pour rencontrer des financeurs."
+    },
+    {
+      "type": "media",
+      "etiquette": "RAPPEL",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "handshake business africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une *rencontre* n'est pas un accord.",
+      "dit": "Mais attention, une rencontre ne garantit pas un financement accordé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bien *étudier* ton projet avant d'investir.",
+      "dit": "Choisis toujours ton matériel avec l'ensemble de ton installation."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "FIERA : Horaire | Inscription | Programme",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifie les *horaires* sur le site.",
+      "dit": "Avant de te déplacer, vérifie ton inscription et les horaires sur le site officiel."
+    }
+  ],
+  "question": "Envisages-tu d'installer du matériel solaire pour tes activités ?"
+}

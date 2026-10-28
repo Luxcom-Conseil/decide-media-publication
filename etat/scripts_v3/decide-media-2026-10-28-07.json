@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Les télécoms changent-ils au Cameroun ?",
+    "7 pays unis pour les télécoms",
+    "Ce changement va-t-il baisser tes forfaits ?"
+  ],
+  "titre": "Télécoms : le Cameroun accueille l'ARTAC",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": "african city central camera"
+      },
+      "ecran": "Ce changement va-t-il *baisser* tes forfaits ?",
+      "dit": "Ce changement va-t-il baisser tes forfaits de téléphone ?"
+    },
+    {
+      "type": "media",
+      "etiquette": "LA SUITE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "using mobile phone africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Et voici *ce que ça change* pour toi.",
+      "dit": "Et voici ce que ça change vraiment pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *Cameroun* au cœur des télécoms",
+      "dit": "Le Cameroun va accueillir le siège de l'ARTAC."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Un régulateur",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Un *régulateur* surveille les télécoms",
+      "dit": "Un régulateur, c'est l'autorité qui surveille les compagnies de téléphone."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Libreville",
+        "logo": false,
+        "secours": "african city gabon"
+      },
+      "ecran": "Décision prise les *20 et 21 octobre*",
+      "dit": "Les régulateurs se sont réunis à Libreville les 20 et 21 octobre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LES PAYS",
+      "illustration": {
+        "type": "pays",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Afrique centrale",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*7 pays* réunis pour collaborer",
+      "dit": "Ils venaient du Cameroun, Congo, RDC, Gabon, Tchad, Centrafrique et Sao Tomé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "ARTAC : Statuts | Règles | Groupes",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *règles* communes adoptées",
+      "dit": "Ils ont révisé les statuts et créé des groupes de travail."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* concrètement.",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXEMPLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "calling phone market africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Tu *appelles* dans un autre pays",
+      "dit": "Tu penses que tes appels vers le Gabon vont baisser tout de suite ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Pas de *nouveau prix* pour l'instant",
+      "dit": "Eh bien non, aucun nouveau tarif d'appel n'a été annoncé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une décision *administrative* d'abord",
+      "dit": "C'est une décision d'organisation entre États, pas une baisse de prix directe."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Prochaines annonces",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre les *prochaines* annonces",
+      "dit": "Il faut attendre les travaux futurs pour voir des changements sur ton téléphone."
+    }
+  ],
+  "question": "Trouves-tu que les appels entre pays d'Afrique centrale coûtent trop cher ?"
+}

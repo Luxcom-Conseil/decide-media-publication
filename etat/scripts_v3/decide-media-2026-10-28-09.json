@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Ton trajet en bus va-t-il coûter moins cher ?",
+    "Le ticket de bus passe de 150 FCFA à 100 FCFA.",
+    "Cette baisse de tarif va alléger ton budget transport."
+  ],
+  "titre": "À Kara, le bus universitaire baisse ses prix",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Université de Kara",
+        "logo": false,
+        "secours": "african students campus"
+      },
+      "ecran": "Le bus passe à *100 FCFA*",
+      "dit": "Le ticket de bus universitaire va bientôt coûter moins cher."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Kara | Togo",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *baisse* de tarif",
+      "dit": "L'Université de Kara réduit le prix du bus pour les étudiants."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Université de Kara",
+        "logo": false,
+        "secours": "university campus africa"
+      },
+      "ecran": "De *150 FCFA* à *100 FCFA*",
+      "dit": "Le trajet passe de 150 FCFA à 100 FCFA dans ces bus."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "150 FCFA",
+        "apres": "100 FCFA",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un aller-retour à *200 FCFA*",
+      "dit": "Un aller-retour te coûtera désormais 200 FCFA."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "road construction africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Début le *1er novembre 2026*",
+      "dit": "Cette décision s'appliquera à partir du 1er novembre 2026."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Étudiante",
+        "personnage": "etudiante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple pour bien comprendre la différence."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "300 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Avant : *300 FCFA* par jour",
+      "dit": "Avant, deux tickets de 150 FCFA te coûtaient 300 FCFA par jour."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "200 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Maintenant : *200 FCFA* par jour",
+      "dit": "Maintenant, pour ces deux trajets, tu vas payer 200 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "4 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Sur vingt jours : *4 000 FCFA*",
+      "dit": "Pour vingt jours de cours, la dépense passe de 6 000 FCFA à 4 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Économie",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "tient_billet"
+      },
+      "fond": null,
+      "ecran": "Une économie de *2 000 FCFA*",
+      "dit": "Tu réalises ainsi une économie de 2 000 FCFA."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA LEÇON",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "students campus africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un budget transport *réduit*",
+      "dit": "Cette baisse réduit le budget de ceux qui prennent ces bus."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*Vérifie* les horaires et arrêt",
+      "dit": "Vérifie les horaires et les points d'arrêt auprès de l'université."
+    }
+  ],
+  "question": "Prends-tu régulièrement le bus pour aller étudier ?"
+}
