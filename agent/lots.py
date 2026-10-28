@@ -133,6 +133,10 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                  maintenant: datetime | None = None) -> None:
     c = cfg["lots"]
     maintenant = maintenant or datetime.now(timezone.utc)
+    # le passage dure (rendu des Shorts V3 : 1 h et plus) : l'heure de départ ne suffit plus pour juger un créneau
+    depart = datetime.now(timezone.utc)
+    horloge = lambda: maintenant + (datetime.now(timezone.utc) - depart)
+    marge = timedelta(minutes=int(c["marge_minutes"]))
     tz = ZoneInfo(c["fuseau_creneaux"])
     aujourdhui = maintenant.astimezone(ZoneInfo(cfg["fuseau_horaire"])).date()
     plus_ancien = aujourdhui - timedelta(days=int(c["jours_max"]))
@@ -228,16 +232,21 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
             jour_lot = date.fromisoformat(dossier.nom)
             cle = (reseau, piste)
             prevus.setdefault(cle, [])
-            horaires = creneaux(cfg, max(jour_lot, aujourdhui), len(restants), maintenant,
-                               # le lot du jour est prioritaire : il prend les créneaux du jour même si des posts
-                               # d'anciens lots y débordent encore (sinon chaque lot glisse au lendemain)
-                               journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"], piste,
-                                                lot=dossier.nom if dossier.nom == aujourdhui.isoformat() else None)
-                               + prevus[cle],
-                               reseau if piste == "principale" else f"{reseau}_rattrapage")
+            # le lot du jour est prioritaire : il prend les créneaux du jour même si des posts
+            # d'anciens lots y débordent encore (sinon chaque lot glisse au lendemain)
+            pris = journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"], piste,
+                                    lot=dossier.nom if dossier.nom == aujourdhui.isoformat() else None)
+            nom_creneaux = reseau if piste == "principale" else f"{reseau}_rattrapage"
+            horaires = creneaux(cfg, max(jour_lot, aujourdhui), len(restants), horloge(), pris + prevus[cle],
+                                nom_creneaux)
             prevus[cle] += horaires
             with tempfile.TemporaryDirectory() as tmp:
                 for article, quand in zip(restants, horaires):
+                    if not simulation and quand < horloge() + marge:
+                        # créneau dépassé pendant le passage (Shorts précédents longs à rendre) : le suivant libre
+                        quand = creneaux(cfg, max(jour_lot, aujourdhui), 1, horloge(), pris + prevus[cle],
+                                         nom_creneaux)[0]
+                        prevus[cle].append(quand)
                     texte = (article.get("platform_texts") or {}).get(reseau) or article["post_text"]
                     heure = quand.astimezone(tz).strftime("%d/%m %H:%M")
                     if simulation:

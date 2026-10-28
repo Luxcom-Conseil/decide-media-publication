@@ -166,7 +166,8 @@ def controler_v3(script: dict, article: dict) -> list[str]:
         problemes.append(f"montre où ça se passe : une scène « explication » avec le dessin « carte » "
                          f"(texte = « {str(article.get('country')).split('/')[-1].strip()} » ou une ville nommée dans l'article), "
                          "parmi les quatre premières scènes")
-    if sum(sc.get("type") == "media" for sc in scenes) < 3:
+    # l'accroche a aussi un fond réaliste : elle compte (28/10, 4 replis V2 sur 10, surtout pour 2 scènes « media » au lieu de 3)
+    if sum(sc.get("type") in ("accroche", "media") for sc in scenes) < 3:
         problemes.append("au moins trois scènes « media » (fonds réalistes)")
     if sum(sc.get("type") == "explication" for sc in scenes) < 3:
         problemes.append("au moins trois scènes « explication » (dessins)")

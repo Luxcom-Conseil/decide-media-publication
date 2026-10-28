@@ -111,6 +111,32 @@ def test_reprise_apres_incident(tmp_path):
     assert len(fb.programmes) == 9
 
 
+def test_creneau_depasse_pendant_le_passage(tmp_path, monkeypatch):
+    """28/10 : les Shorts V3 prennent ~8 min chacun, le créneau TikTok de 07:15 était passé quand son tour est venu."""
+    import agent.lots as lots
+    from datetime import timedelta
+
+    class Horloge(datetime):
+        t = MATIN
+
+        @classmethod
+        def now(cls, tz=None):
+            return cls.t
+
+    monkeypatch.setattr(lots, "datetime", Horloge)
+
+    class Lent(FauxFacebook):
+        def programmer(self, texte, image, quand, article=None):
+            assert quand >= Horloge.t + timedelta(minutes=20), f"{quand} déjà passé à {Horloge.t}"
+            Horloge.t += timedelta(minutes=120)  # rendu très long
+            return super().programmer(texte, image, quand, article)
+
+    fb = Lent()
+    traiter_lots(CFG, FauxDrive(manifeste()), {"facebook": fb}, Journal(tmp_path / "l.json"), print, maintenant=MATIN)
+    quands = [q for _, q in fb.programmes]
+    assert len(quands) == 10 and len(set(quands)) == 10
+
+
 def test_lot_non_ready_ignore(tmp_path):
     fb = FauxFacebook()
     traiter_lots(CFG, FauxDrive(manifeste(status="failed")), {"facebook": fb}, Journal(tmp_path / "l.json"),
