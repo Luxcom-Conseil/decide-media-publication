@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Ton crédit d'entreprise va-t-il devenir plus facile ?",
+    "Bénin : 5 milliards de FCFA pour garantir vos crédits ?",
+    "Une garantie de crédit n'est pas de l'argent gratuit."
+  ],
+  "titre": "Bénin : comprendre la garantie de crédit PME",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market business",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une garantie *n'est pas* un cadeau",
+      "dit": "Une garantie de crédit n'est pas de l'argent gratuit."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change*",
+      "dit": "Et voici ce que ça change vraiment pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ SA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Bénin",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *Bénin* valide un fonds PME",
+      "dit": "Au Bénin, le gouvernement fait évoluer un fonds pour aider les petites entreprises."
+    },
+    {
+      "type": "media",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "bank counter",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Garantir un *crédit* à la banque",
+      "dit": "Garantir un crédit, c'est rassurer la banque si l'entreprise ne peut plus payer."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "5 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dotation de *5 milliards* FCFA",
+      "dit": "Le FIGPME a été créé avec une dotation de 5 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ce n'est pas à *partager*",
+      "dit": "Ce n'est pas de l'argent distribué directement aux entrepreneurs."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Transformatrice",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Une banque prête un million de FCFA à une entreprise."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "rembourser",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "500 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le fonds garantit *500 000 FCFA*",
+      "dit": "Si le fonds garantit la moitié, soit 500 000 FCFA, c'est une protection pour la banque."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Emprunteuse",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Tu dois *tout* rembourser",
+      "dit": "L'entrepreneuse ne reçoit pas de cadeau et doit rembourser tout son prêt."
+    },
+    {
+      "type": "media",
+      "etiquette": "À SAVOIR",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Bénin",
+        "logo": false,
+        "secours": "african government building"
+      },
+      "ecran": "Les règles ne sont *pas encore* connues",
+      "dit": "Les détails précis sur les conditions et les frais ne sont pas encore publiés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une annonce n'est *pas un prêt*",
+      "dit": "Une annonce de garantie n'est pas un crédit déjà versé sur ton compte."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "office worker africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Vérifie les *règles* réelles",
+      "dit": "Renseigne-toi auprès de ta banque pour connaître les règles applicables."
+    }
+  ],
+  "question": "As-tu déjà demandé un crédit pour ton entreprise ?"
+}

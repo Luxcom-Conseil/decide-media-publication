@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Tes jus locaux contiennent-ils vraiment la quantité promise ?",
+    "Il manque 1 litre dans ta commande de bouteilles ?",
+    "Ce projet au Togo va changer la qualité des produits !"
+  ],
+  "titre": "Togo : des normes pour les produits locaux",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "juice bottles market africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Tes jus contiennent-ils *la* quantité ?",
+      "dit": "Tes jus locaux contiennent-ils vraiment la quantité promise ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change*",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Togo | Lomé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des règles au *Togo*",
+      "dit": "Au Togo, à Lomé, les autorités préparent de nouvelles règles pour les produits locaux."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une norme *fixe* les règles",
+      "dit": "Une norme, c'est une règle précise pour garantir ce qu'on vend et ce qu'on achète."
+    },
+    {
+      "type": "media",
+      "etiquette": "L'ÉVÉNEMENT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Lomé",
+        "logo": false,
+        "secours": "african city road"
+      },
+      "ecran": "Concertation du 26 au 28 *octobre*",
+      "dit": "Du 26 au 28 octobre, une concertation à Lomé fixe la feuille de route de ces normes."
+    },
+    {
+      "type": "media",
+      "etiquette": "LES ACTEURS",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "UEMOA",
+        "logo": true,
+        "secours": "office building africa"
+      },
+      "ecran": "L' *UEMOA* et le ministère",
+      "dit": "L'UEMOA, le ministère du Commerce et l'Agence de normalisation mènent ce travail."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA COMMANDE",
+      "illustration": {
+        "type": "marche",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "25 L",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "100 bouteilles de 250 *ml*",
+      "dit": "Une commerçante achète 100 bouteilles censées faire 250 millilitres chacune. Soit 25 litres."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE MANQUE",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "24 L",
+        "b": "25 L",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Il manque 1 *litre* complet",
+      "dit": "Si chaque bouteille ne fait que 240 millilitres, au total il ne reste que 24 litres. Il manque un litre !"
+    },
+    {
+      "type": "media",
+      "etiquette": "LE COÛT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "laboratory science africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les analyses en *laboratoire*",
+      "dit": "Pour les petits transformateurs, payer des tests en laboratoire sera un vrai sujet."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un beau flacon *ne* suffit *pas*",
+      "dit": "Un bel emballage ne suffit pas, il faut prouver la qualité de son produit."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Conseil : Demander les règles | Vérifier la quantité | Exiger les preuves",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Demande les *critères* officiels",
+      "dit": "Si tu es producteur, demande les critères applicables à ton produit et les preuves à fournir."
+    }
+  ],
+  "question": "Vérifies-tu toujours la quantité exacte sur les bouteilles que tu achètes ?"
+}

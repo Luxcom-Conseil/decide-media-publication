@@ -1,0 +1,250 @@
+{
+  "accroches": [
+    "Tes actions valent-elles vraiment ce prix ?",
+    "Seulement 18 actions vendues à Douala.",
+    "Attention si tu veux revendre tes actions."
+  ],
+  "titre": "Comprendre la vente d'actions à Douala",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "african city market"
+      },
+      "ecran": "Tes actions *valent-elles* ce prix ?",
+      "dit": "Tes actions valent-elles vraiment le prix affiché sur ton écran ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "A SAVOIR",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Voici ce qui *change* tout.",
+      "dit": "Et voici ce que ça change pour toi et tes économies."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *action* c'est quoi ?",
+      "dit": "Une action, c'est une petite part d'une entreprise que tu achètes."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Bourse des valeurs mobilières d'Afrique centrale",
+        "logo": false,
+        "secours": "stock exchange office"
+      },
+      "ecran": "Seulement *18* actions échangées",
+      "dit": "À la bourse de Douala, lors de la séance du 28 octobre, 18 actions Socapalm ont été échangées."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "897 300",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Montant *897 300* FCFA",
+      "dit": "Ces transactions ont représenté un montant total de 897 300 FCFA."
+    },
+    {
+      "type": "media",
+      "etiquette": "PROBLÈME",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "bank counter",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des offres *sans* acheteur",
+      "dit": "Pour d'autres entreprises comme La Régionale et SCG-Ré, aucune vente n'a eu lieu."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXPLICATION",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Acheteur",
+        "b": "Vendeur",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas d'*accord* sur le prix",
+      "dit": "Les acheteurs proposaient un prix plus bas que celui demandé par les vendeurs."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Épargnant",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*.",
+      "dit": "Prenons un exemple. Tu possèdes 10 actions affichées à 20 000 FCFA chacune."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "200 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Valeur théorique *200 000* FCFA",
+      "dit": "Sur le papier, tu as donc une valeur de 200 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Un acheteur propose *19 000* FCFA",
+      "dit": "Mais un acheteur veut seulement deux actions à 19 000 FCFA chacune."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "38 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tu reçois *38 000* FCFA",
+      "dit": "Si tu acceptes, tu reçois 38 000 FCFA et tes 8 autres actions restent invendues."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le prix n'est pas une *garantie*",
+      "dit": "Un prix affiché montre une vente passée, il ne garantit pas un acheteur au même prix aujourd'hui."
+    },
+    {
+      "type": "explication",
+      "etiquette": "A FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Avant d'investir : Regarder les ventes | Vérifier la liquidité | Comparer les prix",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Regarde les *ventes* réelles",
+      "dit": "Avant d'investir, regarde les transactions réalisées sur plusieurs jours pour vérifier la facilité à revendre."
+    }
+  ],
+  "question": "As-tu déjà essayé de revendre un placement ou des actions ?"
+}

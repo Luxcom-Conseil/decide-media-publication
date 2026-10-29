@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Un désaccord avec ta banque au Gabon ?",
+    "30 000 FCFA prélevés sur ton compte ?",
+    "La médiation financière démarre au Gabon."
+  ],
+  "titre": "Gabon : le rôle de la médiation financière",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Libreville",
+        "logo": false,
+        "secours": "african city libreville"
+      },
+      "ecran": "Un désaccord avec ta *banque* ?",
+      "dit": "Un désaccord avec ta banque au Gabon ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "A SAVOIR",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Client",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Voici ce qui *change* pour toi",
+      "dit": "Et voici ce que ça change pour toi !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Gabon | Libreville",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Nouveau service au *Gabon*",
+      "dit": "Le Gabon a lancé le 26 octobre à Libreville un service de médiation financière."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Régler un *litige* sans tribunal",
+      "dit": "Un médiateur aide à trouver un accord gratuit entre toi et ta banque sans aller au tribunal."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "bank counter africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un recours *gratuit* et utile",
+      "dit": "Ce service intervient si la banque n'a pas résolu ta première réclamation."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cliente",
+        "personnage": "commercante",
+        "expression": "surprise",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "30 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*30 000 FCFA* de frais prélevés",
+      "dit": "Une cliente voit 30 000 FCFA de frais sur son relevé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Désaccord",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Elle prévoyait *10 000 FCFA*",
+      "dit": "Elle pensait payer 10 000 FCFA selon ses papiers. Le désaccord est de 20 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "A SAVOIR",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le médiateur *analyse* le dossier",
+      "dit": "Le médiateur étudie le contrat et les tarifs pour aider les deux parties à discuter."
+    },
+    {
+      "type": "media",
+      "etiquette": "ATTENTION",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "signature contract document",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Pas de *remboursement* garanti",
+      "dit": "Attention, saisir le médiateur ne garantit pas d'obtenir un remboursement automatique."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Dossier : Contrat | Reçus | Reclamations",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Garde tous tes *documents*",
+      "dit": "Conserve toujours les preuves de tes démarches et de tes contrats avec ta banque."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "office worker writing",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Écris d'abord à ta *banque*",
+      "dit": "Fais d'abord une réclamation écrite à ton établissement avant de contacter le médiateur."
+    }
+  ],
+  "question": "As-tu déjà eu des frais contestés sur ton compte bancaire ?"
+}

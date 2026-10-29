@@ -1,0 +1,210 @@
+{
+  "accroches": [
+    "Ton diplôme d'instituteur change-t-il ?",
+    "Le Togo supprime le CAP !",
+    "Attention à ton concours d'enseignement."
+  ],
+  "titre": "Le Togo supprime le CAP",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Lomé",
+        "logo": false,
+        "secours": "african school class"
+      },
+      "ecran": "Le Togo supprime le *CAP* !",
+      "dit": "Le Togo supprime les examens du CAP pédagogique. Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Togo",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Où ça se *passe* ?",
+      "dit": "L'information concerne le Togo, selon un arrêté signé le 23 octobre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Enseignant",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Le *CAP* c'est quoi ?",
+      "dit": "Un CAP, c'est un certificat qui mesure les compétences professionnelles des enseignants."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère de l'Éducation nationale",
+        "logo": false,
+        "secours": "african school building"
+      },
+      "ecran": "La fin d'un *texte* ancien.",
+      "dit": "Le texte abroge un ancien arrêté qui datait du 12 avril 1978."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Enseignant",
+        "personnage": "salarie",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Premier *degré*.",
+      "dit": "Prenons un exemple. Pour le premier degré, le CEAP garde une issue."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "CEAP | Autorisé | Examen",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le CEAP reste *valide*.",
+      "dit": "Les titulaires du CEAP restent autorisés à se présenter à l'examen du CAP à titre transitoire."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Professeur",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Deuxième *degré*.",
+      "dit": "Pour le deuxième degré, la mesure concerne des enseignants fonctionnaires de matières spécifiques."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "school blackboard africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Dessin et *musique*.",
+      "dit": "Cela touche le dessin, le sport, l'enseignement ménager et la musique."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifie tes *diplômes*.",
+      "dit": "Il faut posséder un diplôme équivalant au CEAP ou au baccalauréat deuxième partie."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Enseignant",
+        "personnage": "salarie",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Chaque cas est *unique*.",
+      "dit": "La portée dépend de ta situation professionnelle et du diplôme que tu détenais."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vérifier | Administration | Éligibilité",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Contacte ton *administration*.",
+      "dit": "Vérifie ton éligibilité exacte auprès de ton administration avant d'engager des dépenses."
+    }
+  ],
+  "question": "Es-tu concerné par cette suppression de diplôme ?"
+}

@@ -1,0 +1,243 @@
+{
+  "accroches": [
+    "L'État te doit de l'argent ?",
+    "1 000 000 FCFA d'impayés ?",
+    "Tes factures d'État enfin payées ?"
+  ],
+  "titre": "Sénégal : remboursement de la dette intérieure",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Dakar",
+        "logo": false,
+        "secours": "dakar street senegal"
+      },
+      "ecran": "Tes factures d'État *enfin* payées ?",
+      "dit": "Tes factures dues par l'État vont-elles enfin être payées ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Entrepreneur",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Voici ce que *ça* change",
+      "dit": "Et voici ce que cette décision change pour ton entreprise."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Sénégal",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La dette *intérieure*",
+      "dit": "La dette intérieure, c'est l'argent que l'État doit aux entreprises de ton pays."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african business meeting",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'État veut *payer* vite",
+      "dit": "Au Conseil des ministres du 28 octobre, le président a demandé l'apurement rapide de cette dette."
+    },
+    {
+      "type": "media",
+      "etiquette": "SÉNÉGAL",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "construction site africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Relancer les *chantier*",
+      "dit": "Il veut aussi relancer les chantiers à l'arrêt et évaluer le Plan de redressement économique."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas encore de *chiffres*",
+      "dit": "Mais le communiqué ne donne ni montant total réglé, ni calendrier précis pour chaque PME."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Imprimeur",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Un imprimeur livre des cahiers à l'État pour 1 000 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LES FRAIS",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "700 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dépenses déjà *effectuées*",
+      "dit": "Il a déjà dépensé 700 000 FCFA pour le papier et l'encre avant de livrer."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ACOMPTE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "400 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un paiement *partiel*",
+      "dit": "S'il reçoit seulement 400 000 FCFA, il manque encore 300 000 FCFA pour couvrir ses frais."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE SOLDE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "600 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Attente du *solde*",
+      "dit": "Le solde à recevoir reste de 600 000 FCFA pour que sa facture soit payée en entier."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Imprimeur",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "tient_billet"
+      },
+      "fond": null,
+      "ecran": "Payer ses *charges*",
+      "dit": "Une fois le million encaissé, il lui reste 300 000 FCFA pour payer ses autres charges."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA LEÇON",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "office worker africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Transparence des *délais*",
+      "dit": "Pour relancer l'économie, il faut connaître les montants réellement versés et les délais."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "A suivre : Versés | Échéances | Contrats",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre les *échéances*",
+      "dit": "Si tu es fournisseur, suis de près les prochaines données sur les paiements effectifs."
+    }
+  ],
+  "question": "As-tu déjà attendu un paiement de l'État pour ton activité ?"
+}

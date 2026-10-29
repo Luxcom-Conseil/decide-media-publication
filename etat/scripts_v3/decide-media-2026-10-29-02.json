@@ -1,0 +1,230 @@
+{
+  "accroches": [
+    "Côte d'Ivoire : où sont passés les 108 entrepôts promis ?",
+    "108 entrepôts et 60 silos : que deviennent-ils en Côte d'Ivoire ?",
+    "Ton maïs ou ton cajou va-t-il enfin être protégé ?"
+  ],
+  "titre": "Côte d'Ivoire : le point sur les entrepôts",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african farm harvest",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "108 entrepôts et *60 silos* promis ?",
+      "dit": "108 entrepôts et 60 silos promis. Où en est-on aujourd'hui ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA PROMESSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Côte d'Ivoire | Bouaké",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Et voici *ce que ça change* pour toi",
+      "dit": "Et voici ce que cette histoire d'entrepôts change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "maison",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un entrepôt *protège* tes récoltes",
+      "dit": "Un entrepôt, c'est un grand bâtiment pour garder tes récoltes à l'abri de la pluie et des insectes."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Marché de gros de Bouaké",
+        "logo": false,
+        "secours": "african food market warehouse"
+      },
+      "ecran": "108 entrepôts et *60 silos*",
+      "dit": "Le 27 octobre, les autorités ont à nouveau parlé de 108 entrepôts secs et de 60 silos à céréales."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE DOUTE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Des chiffres déjà *annoncés* en 2021",
+      "dit": "Problème : ces mêmes chiffres avaient déjà été annoncés en septembre 2021."
+    },
+    {
+      "type": "explication",
+      "etiquette": "QUESTION",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Quels sites *fonctionnent* vraiment ?",
+      "dit": "Aujourd'hui, impossible de savoir précisément quels bâtiments sont déjà construits et utilisables."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* tout simple",
+      "dit": "Prenons un exemple. Tu es agriculteur et tu récoltes cent sacs de céréales."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "10 perdus",
+        "apres": "2 perdus",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Moins de *pertes* après récolte",
+      "dit": "Sans bon stockage, tu en perds dix. Avec un bon entrepôt, tu n'en perds plus que deux."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "160 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "160 000 FCFA de *ventes* sauvées",
+      "dit": "Si un sac se vend 20 000 FCFA, tu sauves 160 000 FCFA de récolte."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ FRAIS",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Il faut payer le *stockage*",
+      "dit": "Mais attention : il faut aussi payer le transport et les frais pour louer l'entrepôt."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Coût",
+        "b": "Profit",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un entrepôt doit être *rentable*",
+      "dit": "Stocker tes produits est utile seulement si le service ne coûte pas plus cher que tes gains."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "corn harvest storage africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Publier la *liste* des sites ouverts",
+      "dit": "Il faut donc publier la liste exacte des entrepôts ouverts, leurs adresses et leurs tarifs."
+    }
+  ],
+  "question": "As-tu des entrepôts près de chez toi pour conserver tes récoltes ?"
+}

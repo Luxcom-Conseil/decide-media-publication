@@ -1,0 +1,210 @@
+{
+  "accroches": [
+    "Tes projets vont-ils profiter de l'intelligence artificielle ?",
+    "100 jeunes se forment à l'IA à Libreville !",
+    "Ce changement va booster ton projet entrepreneurial."
+  ],
+  "titre": "Libreville : 100 jeunes se forment à l'IA",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Libreville",
+        "logo": false,
+        "secours": "african city street view"
+      },
+      "ecran": "Tes projets vont-ils profiter de l'intelligence artificielle ?",
+      "dit": "Tes projets vont-ils profiter de l'intelligence artificielle ? Et voici ce que ça change pour toi à Libreville au Gabon."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Libreville | Gabon",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'intelligence artificielle aide ton *projet*.",
+      "dit": "Un projet, c'est une idée que tu développes pour créer ton activité et gagner ta vie."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3 semaines",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "100 jeunes se *forment* à l'IA.",
+      "dit": "Le 28 octobre à Libreville, un programme a lancé trois semaines d'apprentissage pour cent porteurs de projets."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 femmes",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "25 femmes et 75 *hommes*.",
+      "dit": "Le groupe réunit 25 femmes et 75 hommes, âgés de 18 à 45 ans."
+    },
+    {
+      "type": "media",
+      "etiquette": "INSTITUTION",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "UNESCO",
+        "logo": true,
+        "secours": "international organization building"
+      },
+      "ecran": "Des *partenaires* soutiennent le programme.",
+      "dit": "L'UNESCO et AKEWA Accélérateur figurent parmi les partenaires cités pour cette formation."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Activité",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*.",
+      "dit": "Prenons un exemple. Pour une petite activité, l'enjeu est de relier l'apprentissage à une tâche précise."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Mieux préparer les *documents*.",
+      "dit": "Il s'agit de mieux préparer des documents, organiser une information ou présenter son offre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un soutien *financier* attendu.",
+      "dit": "Le reportage évoque également un accompagnement financier attendu après la formation."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Montant | Conditions | Versement",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun montant *précisé*.",
+      "dit": "Il ne précise pas le montant par bénéficiaire ni les conditions complètes d'attribution."
+    },
+    {
+      "type": "media",
+      "etiquette": "TERRAIN",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african business training",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Observer les *effets* sur l'emploi.",
+      "dit": "Son effet sur les ventes ou l'emploi devra ensuite être observé par les acteurs."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Formation",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Suivre les *modalités*.",
+      "dit": "Les prochains éléments utiles seront les compétences acquises et les modalités du soutien."
+    }
+  ],
+  "question": "Penses-tu que l'intelligence artificielle peut aider ton commerce ? Dis-le-nous en commentaire."
+}

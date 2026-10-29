@@ -4869,5 +4869,583 @@
       "titre": "À Abidjan, une première escale NYK a débarqué 139 véhicules, selon les données communiquées par AGL.",
       "url": "https://youtu.be/qmqv_eRqtms"
     }
+  },
+  "decide-media-2026-10-29-01": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:45:59+00:00",
+      "piste": "principale",
+      "post_id": "122115449991499704",
+      "programme_pour": "2026-10-29T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la Bourse de Douala, 18 actions ont changé de mains. Un cours affiché ne garantit pas un acheteur.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:04:08+00:00",
+      "piste": "principale",
+      "post_id": "1998268011511940",
+      "programme_pour": "2026-10-29T07:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la Bourse de Douala, 18 actions ont changé de mains. Un cours affiché ne garantit pas un acheteur.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:14+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e68e9c83386213503820",
+      "programme_pour": "2026-10-29T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la Bourse de Douala, 18 actions ont changé de mains. Un cours affiché ne garantit pas un acheteur.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:22+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e696b8abb6631d101af4",
+      "programme_pour": "2026-10-29T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la Bourse de Douala, 18 actions ont changé de mains. Un cours affiché ne garantit pas un acheteur.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:10:01+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e338f66393dd568f35e8",
+      "programme_pour": "2026-10-29T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la Bourse de Douala, 18 actions ont changé de mains. Un cours affiché ne garantit pas un acheteur.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:49:56+00:00",
+      "piste": "principale",
+      "post_id": "U5UyOMm-n2Y",
+      "programme_pour": "2026-10-29T08:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la Bourse de Douala, 18 actions ont changé de mains. Un cours affiché ne garantit pas un acheteur.",
+      "url": "https://youtu.be/U5UyOMm-n2Y"
+    }
+  },
+  "decide-media-2026-10-29-02": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:02+00:00",
+      "piste": "principale",
+      "post_id": "122115450039499704",
+      "programme_pour": "2026-10-29T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire reparle de 108 entrepôts et de 60 silos. Le stockage mérite un point d’étape public.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:04:13+00:00",
+      "piste": "principale",
+      "post_id": "1789397195514144",
+      "programme_pour": "2026-10-29T09:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire reparle de 108 entrepôts et de 60 silos. Le stockage mérite un point d’étape public.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:15+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e68f2467e67f12822ae4",
+      "programme_pour": "2026-10-29T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire reparle de 108 entrepôts et de 60 silos. Le stockage mérite un point d’étape public.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:23+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e697b8abb6631d101b5a",
+      "programme_pour": "2026-10-29T10:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire reparle de 108 entrepôts et de 60 silos. Le stockage mérite un point d’étape public.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:11:58+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e3ad2467e67f12816fdb",
+      "programme_pour": "2026-10-29T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire reparle de 108 entrepôts et de 60 silos. Le stockage mérite un point d’étape public.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:53:08+00:00",
+      "piste": "principale",
+      "post_id": "N6rJJ773joA",
+      "programme_pour": "2026-10-29T10:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La Côte d’Ivoire reparle de 108 entrepôts et de 60 silos. Le stockage mérite un point d’étape public.",
+      "url": "https://youtu.be/N6rJJ773joA"
+    }
+  },
+  "decide-media-2026-10-29-03": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:06+00:00",
+      "piste": "principale",
+      "post_id": "122115450093499704",
+      "programme_pour": "2026-10-29T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Sénégal veut accélérer le paiement de sa dette intérieure. Pour une PME, la relance commence à l’encaissement.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:04:19+00:00",
+      "piste": "principale",
+      "post_id": "1083617481164731",
+      "programme_pour": "2026-10-29T10:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Sénégal veut accélérer le paiement de sa dette intérieure. Pour une PME, la relance commence à l’encaissement.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:16+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e690b8abb6631d101a08",
+      "programme_pour": "2026-10-29T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Sénégal veut accélérer le paiement de sa dette intérieure. Pour une PME, la relance commence à l’encaissement.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:24+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e6972467e67f12822c09",
+      "programme_pour": "2026-10-29T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Sénégal veut accélérer le paiement de sa dette intérieure. Pour une PME, la relance commence à l’encaissement.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:13:14+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e3faf66393dd568f5a42",
+      "programme_pour": "2026-10-29T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Sénégal veut accélérer le paiement de sa dette intérieure. Pour une PME, la relance commence à l’encaissement.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:56:44+00:00",
+      "piste": "principale",
+      "post_id": "ebqaGb90UKM",
+      "programme_pour": "2026-10-29T11:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Sénégal veut accélérer le paiement de sa dette intérieure. Pour une PME, la relance commence à l’encaissement.",
+      "url": "https://youtu.be/ebqaGb90UKM"
+    }
+  },
+  "decide-media-2026-10-29-04": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:08+00:00",
+      "piste": "principale",
+      "post_id": "122115450141499704",
+      "programme_pour": "2026-10-29T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Gabon, la médiation financière devient opérationnelle. Un recours gratuit ne garantit pas un remboursement.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:04:24+00:00",
+      "piste": "principale",
+      "post_id": "1476427207708173",
+      "programme_pour": "2026-10-29T12:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Gabon, la médiation financière devient opérationnelle. Un recours gratuit ne garantit pas un remboursement.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:17+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e6912467e67f12822b30",
+      "programme_pour": "2026-10-29T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Gabon, la médiation financière devient opérationnelle. Un recours gratuit ne garantit pas un remboursement.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:24+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e6989c8338621350394c",
+      "programme_pour": "2026-10-29T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Gabon, la médiation financière devient opérationnelle. Un recours gratuit ne garantit pas un remboursement.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:14:31+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e4479c833862134f96fa",
+      "programme_pour": "2026-10-29T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Gabon, la médiation financière devient opérationnelle. Un recours gratuit ne garantit pas un remboursement.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:59:58+00:00",
+      "piste": "principale",
+      "post_id": "JInq9SwM0ng",
+      "programme_pour": "2026-10-29T13:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au Gabon, la médiation financière devient opérationnelle. Un recours gratuit ne garantit pas un remboursement.",
+      "url": "https://youtu.be/JInq9SwM0ng"
+    }
+  },
+  "decide-media-2026-10-29-05": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:11+00:00",
+      "piste": "principale",
+      "post_id": "122115450189499704",
+      "programme_pour": "2026-10-29T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:04:29+00:00",
+      "piste": "principale",
+      "post_id": "1123098170099933",
+      "programme_pour": "2026-10-29T13:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:18+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e69135657f219b2f1a5e",
+      "programme_pour": "2026-10-29T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:26:12+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e7048d517922b233eb07",
+      "programme_pour": "2026-10-29T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:15:56+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e49c2467e67f1281b516",
+      "programme_pour": "2026-10-29T14:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:04:04+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse."
+    }
+  },
+  "decide-media-2026-10-29-06": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:14+00:00",
+      "piste": "principale",
+      "post_id": "122115450237499704",
+      "programme_pour": "2026-10-29T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le FIGPME béninois franchit une étape, selon le ministre. Garantir un crédit ne revient pas à offrir l’argent.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:07:28+00:00",
+      "piste": "principale",
+      "post_id": "1121656150226938",
+      "programme_pour": "2026-10-29T15:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le FIGPME béninois franchit une étape, selon le ministre. Garantir un crédit ne revient pas à offrir l’argent.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:18+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e692b8abb6631d101a4a",
+      "programme_pour": "2026-10-29T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le FIGPME béninois franchit une étape, selon le ministre. Garantir un crédit ne revient pas à offrir l’argent.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:27:39+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e75b2467e67f1282535e",
+      "programme_pour": "2026-10-29T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le FIGPME béninois franchit une étape, selon le ministre. Garantir un crédit ne revient pas à offrir l’argent.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:17:11+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e4e79c833862134fc84f",
+      "programme_pour": "2026-10-29T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le FIGPME béninois franchit une étape, selon le ministre. Garantir un crédit ne revient pas à offrir l’argent.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-29-07": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:18+00:00",
+      "piste": "principale",
+      "post_id": "122115450291499704",
+      "programme_pour": "2026-10-29T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Quatre entreprises tunisiennes prospectent au Cameroun. Les partenariats industriels restent à conclure.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:19+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e6938d517922b233d921",
+      "programme_pour": "2026-10-29T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Quatre entreprises tunisiennes prospectent au Cameroun. Les partenariats industriels restent à conclure.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:33:41+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e8c535657f219b2fbd53",
+      "programme_pour": "2026-10-29T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Quatre entreprises tunisiennes prospectent au Cameroun. Les partenariats industriels restent à conclure.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:18:37+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e53db8abb6631d0fcd7e",
+      "programme_pour": "2026-10-29T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Quatre entreprises tunisiennes prospectent au Cameroun. Les partenariats industriels restent à conclure.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-29-08": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:20+00:00",
+      "piste": "principale",
+      "post_id": "122115450441499704",
+      "programme_pour": "2026-10-29T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Trois étudiantes de Douala remportent l’or à Pékin. Leur projet MERA met la robotique au service de la recherche.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:20+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e694b8abb6631d101a82",
+      "programme_pour": "2026-10-29T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Trois étudiantes de Douala remportent l’or à Pékin. Leur projet MERA met la robotique au service de la recherche.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:41:23+00:00",
+      "piste": "principale",
+      "post_id": "6ae2ea939c8338621350f9ab",
+      "programme_pour": "2026-10-29T19:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Trois étudiantes de Douala remportent l’or à Pékin. Leur projet MERA met la robotique au service de la recherche.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:20:03+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e5932467e67f1281f214",
+      "programme_pour": "2026-10-29T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Trois étudiantes de Douala remportent l’or à Pékin. Leur projet MERA met la robotique au service de la recherche.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-29-09": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:24+00:00",
+      "piste": "principale",
+      "post_id": "122115450633499704",
+      "programme_pour": "2026-10-29T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo supprime les examens du CAP pédagogique. Des dispositions transitoires maintiennent certaines candidatures.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:21+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e6948d517922b233d953",
+      "programme_pour": "2026-10-29T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo supprime les examens du CAP pédagogique. Des dispositions transitoires maintiennent certaines candidatures.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:46:43+00:00",
+      "piste": "principale",
+      "post_id": "6ae2ebd3f66393dd56910147",
+      "programme_pour": "2026-10-29T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo supprime les examens du CAP pédagogique. Des dispositions transitoires maintiennent certaines candidatures.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:22:28+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e62435657f219b2f095e",
+      "programme_pour": "2026-10-29T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo supprime les examens du CAP pédagogique. Des dispositions transitoires maintiennent certaines candidatures.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
+  },
+  "decide-media-2026-10-29-10": {
+    "facebook": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T05:46:27+00:00",
+      "piste": "principale",
+      "post_id": "122115450801499704",
+      "programme_pour": "2026-10-30T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Libreville, 100 porteurs de projets se forment à l’IA. L’accompagnement financier reste une étape annoncée.",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:21+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e6952467e67f12822b7a",
+      "programme_pour": "2026-10-30T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Libreville, 100 porteurs de projets se forment à l’IA. L’accompagnement financier reste une étape annoncée.",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:52:54+00:00",
+      "piste": "principale",
+      "post_id": "6ae2ed4635657f219b308beb",
+      "programme_pour": "2026-10-30T07:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Libreville, 100 porteurs de projets se forment à l’IA. L’accompagnement financier reste une étape annoncée.",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T06:24:13+00:00",
+      "piste": "principale",
+      "post_id": "6ae2e68db8abb6631d10198f",
+      "programme_pour": "2026-10-30T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Libreville, 100 porteurs de projets se forment à l’IA. L’accompagnement financier reste une étape annoncée.",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    }
   }
 }

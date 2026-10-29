@@ -1,0 +1,250 @@
+{
+  "accroches": [
+    "Le Cameroun va-t-il construire moins cher ?",
+    "4 entreprises tunisiennes arrivent au Cameroun.",
+    "Des nouveaux matériaux pour tes chantiers ?"
+  ],
+  "titre": "Mission tunisienne dans le BTP au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "road construction africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Du *nouveau* pour nos chantiers ?",
+      "dit": "Du nouveau pour nos chantiers ? Quatre entreprises tunisiennes arrivent au Cameroun."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE MOTEUR",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun | Tunisie",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Voici *ce que ça* change",
+      "dit": "Et voici ce que ça change concrètement pour le secteur du bâtiment."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Mission commercial",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Chercher *de nouveaux* partenaires",
+      "dit": "La prospection, c'est voyager pour trouver de nouveaux clients ou des fournisseurs."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": "african city street"
+      },
+      "ecran": "*4* entreprises en prospection",
+      "dit": "Quatre entreprises tunisiennes du bâtiment sont venues à Yaoundé et Douala."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "african city center"
+      },
+      "ecran": "Rencontres du *27* au *29*",
+      "dit": "Ces rencontres se sont déroulées du 27 au 29 octobre 2026."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE DÉTAIL",
+      "illustration": {
+        "type": "chantier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Matériaux, câbles *et* sanitaires",
+      "dit": "Elles proposent des matériaux de construction, des câbles électriques et du matériel de chantier."
+    },
+    {
+      "type": "explication",
+      "etiquette": "L'OBJECTIF",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Des *partenariats* en discussion",
+      "dit": "Le but est de vendre leurs produits ou de fabriquer directement sur place."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EN CLAIR",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*Aucun* contrat encore signé",
+      "dit": "Mais attention : aucun contrat définitif n'a encore été signé pour le moment."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Pour un entrepreneur du bâtiment, cela donne plus de choix."
+    },
+    {
+      "type": "explication",
+      "etiquette": "COMPARES",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Prix",
+        "b": "Qualité / Transport",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Comparer *prix* et *délais*",
+      "dit": "Il faut comparer le prix, mais aussi le transport, les délais et le service."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "repos"
+      },
+      "fond": null,
+      "ecran": "Pas de *baisse* garantie",
+      "dit": "Une simple visite ne garantit pas que les matériaux coûteront moins cher demain."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Étapes : Contact | Accords | Livraisons",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Contact *avant* la signature",
+      "dit": "La prospection crée le contact, mais seuls les futurs contrats compteront."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre les *prochains* accords",
+      "dit": "Pour tes affaires, surveille si ces produits deviennent vraiment disponibles."
+    }
+  ],
+  "question": "Achètes-tu des matériaux importés pour tes travaux ?"
+}
