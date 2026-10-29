@@ -1,0 +1,203 @@
+{
+  "accroches": [
+    "Trois étudiantes gagnent l'or à Pékin !",
+    "La robotique camerounaise brille à Pékin !",
+    "Trois étudiantes de Douala championnes du monde !"
+  ],
+  "titre": "Trois étudiantes de Douala dorées à Pékin",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "african city students"
+      },
+      "ecran": "3 étudiantes gagnent *l'or* à Pékin !",
+      "dit": "Trois étudiantes de Douala ont remporté la médaille d'or à Pékin !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXPLOIT",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala | Dschang",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un exploit pour le *Cameroun*",
+      "dit": "Et voici ce que leur succès apporte à notre pays."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Étudiantes en génie logiciel",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "3 championnes en *génie logiciel*",
+      "dit": "Le génie logiciel, c'est l'art de créer des programmes informatiques."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "École nationale supérieure polytechnique de Douala",
+        "logo": false,
+        "secours": "african university campus"
+      },
+      "ecran": "Victoire à la *Global Competition*",
+      "dit": "Elles ont gagné la Global Competition on Design for Future 2026."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE PROJET",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Projet MERA",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Le projet *MERA* primé",
+      "dit": "Leur projet MERA utilise la robotique pour l'assistance médicale."
+    },
+    {
+      "type": "media",
+      "etiquette": "AUTRE PRIX",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Université de Dschang",
+        "logo": false,
+        "secours": "african university"
+      },
+      "ecran": "*L'argent* pour Dschang",
+      "dit": "Une équipe de l'Université de Dschang a aussi décroché l'argent."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Création d'équipements",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Une entreprise cherche à concevoir des outils médicaux."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Compétences locales",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Des talents *sur place*",
+      "dit": "Elle peut désormais embaucher des talents formés directement au pays."
+    },
+    {
+      "type": "media",
+      "etiquette": "ENJEU",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "hospital technology africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Pas encore de *vente*",
+      "dit": "Mais attention, aucun prix de vente ni commande n'est encore annoncé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Essais à venir",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Du projet au *produit*",
+      "dit": "Un prix récompense une idée, il faut maintenant la fabriquer."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Avenir : Essais | Partenaires | Production",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre la *suite*",
+      "dit": "Il faudra suivre les futurs essais cliniques et la recherche de partenaires."
+    }
+  ],
+  "question": "Penses-tu que la robotique peut transformer la santé dans ton pays ?"
+}

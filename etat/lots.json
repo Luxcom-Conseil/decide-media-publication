@@ -5201,10 +5201,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-29",
-      "maj": "2026-10-29T06:04:04+00:00",
-      "statut": "echec",
+      "maj": "2026-10-29T09:50:10+00:00",
+      "piste": "principale",
+      "post_id": "_0BcpYk-pqk",
+      "programme_pour": "2026-10-29T14:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse."
+      "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse.",
+      "url": "https://youtu.be/_0BcpYk-pqk"
     }
   },
   "decide-media-2026-10-29-06": {
@@ -5262,6 +5266,17 @@
       "tentatives": 0,
       "titre": "Le FIGPME béninois franchit une étape, selon le ministre. Garantir un crédit ne revient pas à offrir l’argent.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T09:53:49+00:00",
+      "piste": "principale",
+      "post_id": "9-6VUHsf2xw",
+      "programme_pour": "2026-10-29T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le FIGPME béninois franchit une étape, selon le ministre. Garantir un crédit ne revient pas à offrir l’argent.",
+      "url": "https://youtu.be/9-6VUHsf2xw"
     }
   },
   "decide-media-2026-10-29-07": {
@@ -5308,6 +5323,17 @@
       "tentatives": 0,
       "titre": "Quatre entreprises tunisiennes prospectent au Cameroun. Les partenariats industriels restent à conclure.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T09:57:30+00:00",
+      "piste": "principale",
+      "post_id": "HrJwnY7aFxY",
+      "programme_pour": "2026-10-29T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Quatre entreprises tunisiennes prospectent au Cameroun. Les partenariats industriels restent à conclure.",
+      "url": "https://youtu.be/HrJwnY7aFxY"
     }
   },
   "decide-media-2026-10-29-08": {
@@ -5354,6 +5380,17 @@
       "tentatives": 0,
       "titre": "Trois étudiantes de Douala remportent l’or à Pékin. Leur projet MERA met la robotique au service de la recherche.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T10:01:02+00:00",
+      "piste": "principale",
+      "post_id": "keyQ2cP-xT4",
+      "programme_pour": "2026-10-29T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Trois étudiantes de Douala remportent l’or à Pékin. Leur projet MERA met la robotique au service de la recherche.",
+      "url": "https://youtu.be/keyQ2cP-xT4"
     }
   },
   "decide-media-2026-10-29-09": {
@@ -5400,6 +5437,17 @@
       "tentatives": 0,
       "titre": "Le Togo supprime les examens du CAP pédagogique. Des dispositions transitoires maintiennent certaines candidatures.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T10:04:29+00:00",
+      "piste": "principale",
+      "post_id": "nvttlJFeZsU",
+      "programme_pour": "2026-10-29T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Togo supprime les examens du CAP pédagogique. Des dispositions transitoires maintiennent certaines candidatures.",
+      "url": "https://youtu.be/nvttlJFeZsU"
     }
   },
   "decide-media-2026-10-29-10": {
@@ -5446,6 +5494,17 @@
       "tentatives": 0,
       "titre": "À Libreville, 100 porteurs de projets se forment à l’IA. L’accompagnement financier reste une étape annoncée.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-29",
+      "maj": "2026-10-29T10:08:21+00:00",
+      "piste": "principale",
+      "post_id": "CH5jONlohtA",
+      "programme_pour": "2026-10-30T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Libreville, 100 porteurs de projets se forment à l’IA. L’accompagnement financier reste une étape annoncée.",
+      "url": "https://youtu.be/CH5jONlohtA"
     }
   }
 }
