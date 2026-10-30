@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Camair-Co aura-t-elle ses nouveaux avions plus tard ?",
+    "Camair-Co : les crédits reportés à 2028 ?",
+    "Tes voyages en avion au Cameroun vont-ils changer ?"
+  ],
+  "titre": "Camair-Co : nouveaux avions reportés à 2028 ?",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Camair-Co",
+        "logo": false,
+        "secours": "airplane tarmac africa"
+      },
+      "ecran": "Camair-Co : des avions en *2028* ?",
+      "dit": "Tes voyages en avion au Cameroun vont-ils changer ?"
+    },
+    {
+      "type": "media",
+      "etiquette": "À SUIVRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african airport lounge",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Ce qui *change* pour tes voyages",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Camair-Co, la *compagnie* nationale",
+      "dit": "Camair-Co est la compagnie aérienne nationale du Cameroun."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": "yaounde government building"
+      },
+      "ecran": "Des crédits *reportés* à 2028",
+      "dit": "Le gouvernement recommande de reporter les financements prévus en 2027 à 2028."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Clarifier la *préparation* du projet",
+      "dit": "L'État demande de mieux vérifier la préparation du projet avant de payer."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "500 000 FCFA",
+        "b": "600 000 FCFA",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*500 000 FCFA* contre 600 000 FCFA",
+      "dit": "Un vol encaisse 500 000 FCFA de billets mais coûte 600 000 FCFA à assurer."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "100 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un manque de *100 000 FCFA*",
+      "dit": "Il manque 100 000 FCFA pour couvrir cette dépense."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Plus d'avions ne *suffit* pas",
+      "dit": "Ajouter des vols identiques ne règle pas le problème si le vol perd de l'argent."
+    },
+    {
+      "type": "media",
+      "etiquette": "POUR TOI",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "airplane flight cloud",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Plus de *vols* et de places ?",
+      "dit": "Un avion de plus offre des places, mais il faut assurer le carburant et l'entretien."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Projet : Avions | Trajets | Financement",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tout *vérifier* avant de dépenser",
+      "dit": "Mieux vaut bien planifier les dépenses avant d'acheter pour avoir des vols fiables."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre le *plan* définitif",
+      "dit": "Il faut attendre le plan de vol précis et son vrai financement."
+    }
+  ],
+  "question": "As-tu déjà pris un vol avec la Camair-Co au Cameroun ?"
+}

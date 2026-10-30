@@ -1,0 +1,118 @@
+{
+  "titre": "Terrains à Essassa : attention au coût total",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Acheter un terrain à Essassa coûte 2 750 000 FCFA. Mais attention à ce que tu dois vraiment payer."
+    },
+    {
+      "type": "explication",
+      "dit": "L'apport initial, c'est l'argent que tu verses au départ pour réserver ton bien.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Acheteur",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "tient_billet"
+      },
+      "ecran": "L'APPORT INITIAL"
+    },
+    {
+      "type": "explication",
+      "dit": "La SNI propose des terrains de 500 mètres carrés à Essassa au Gabon pour 2 750 000 FCFA.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "carte",
+        "texte": "Libreville | Essassa"
+      },
+      "ecran": "2 750 000 FCFA LE TERRAIN"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Acheteur",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "ecran": "PRENONS UN EXEMPLE"
+    },
+    {
+      "type": "explication",
+      "dit": "Au départ, la SNI demande un apport de 30 %, ce qui fait 825 000 FCFA.",
+      "etiquette": "L'APPORT",
+      "illustration": {
+        "type": "pile",
+        "montant": "825 000"
+      },
+      "ecran": "APPORT : 825 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Après avoir payé cet apport, il te reste encore 1 925 000 FCFA à verser.",
+      "etiquette": "LE SOLDE",
+      "illustration": {
+        "type": "pile",
+        "montant": "1 925 000"
+      },
+      "ecran": "SOLDE : 1 925 000 FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Si tu étales ce solde sur 12 mois, cela fait environ 160 417 FCFA par mois.",
+      "etiquette": "SUR 12 MOIS",
+      "illustration": {
+        "type": "calendrier",
+        "montant": "160 417"
+      },
+      "ecran": "160 417 FCFA PAR MOIS"
+    },
+    {
+      "type": "explication",
+      "dit": "Avoir les 825 000 FCFA du début ne suffit pas : il faut pouvoir payer chaque mois.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Acheteur",
+        "personnage": "salarie",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "ecran": "GARDER DE L'ARGENT"
+    },
+    {
+      "type": "explication",
+      "dit": "Un apport faible attire l'œil, mais c'est le total avec tous les frais qui compte.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "COMPTER TOUS LES FRAIS"
+    },
+    {
+      "type": "explication",
+      "dit": "Demande toujours un document écrit avec le prix total, les frais et les échéances exactes.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Vérifier : Prix total | Frais annexes | Échéances"
+      },
+      "ecran": "DEMANDER UN ÉCRIT"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà essayé d'acheter un terrain ? Raconte-nous ton expérience en commentaire !",
+      "dit": "As-tu déjà essayé d'acheter un terrain ? Raconte-nous ton expérience en commentaire ! Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-30-06",
+  "_modele": "gemini"
+}

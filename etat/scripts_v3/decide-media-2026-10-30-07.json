@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Ton transport de marchandises va-t-il changer ?",
+    "Gulfcam change de directeur le 1er novembre.",
+    "Un nouveau chef pour la ligne Kribi Douala."
+  ],
+  "titre": "Gulfcam : nouveau directeur pour Camship",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "container ship port africa"
+      },
+      "ecran": "Ton transport de *marchandises* va-t-il changer ?",
+      "dit": "Ton transport de marchandises au Cameroun va-t-il changer ?"
+    },
+    {
+      "type": "media",
+      "etiquette": "À SUIVRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "container port africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Ce que ça *change* pour toi",
+      "dit": "Voici ce que ce changement de direction annonce pour tes affaires."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Kribi | Douala",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *cabotage* entre nos ports",
+      "dit": "Le cabotage, c'est le transport de conteneurs par bateau entre deux ports d'un même pays."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Kribi",
+        "logo": false,
+        "secours": "port container ship"
+      },
+      "ecran": "Nouveau chef chez *Gulfcam*",
+      "dit": "Gulfcam a présenté Bernard André Ndengue comme nouveau directeur général le 27 octobre à Douala."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "shipping port sea"
+      },
+      "ecran": "Prise de poste le *1er novembre*",
+      "dit": "Il prend ses fonctions le 1er novembre avec pour mission prioritaire de développer Camship."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Georges Njoya nommé *conseiller*",
+      "dit": "Georges Njoya devient aussi conseiller du président pour les affaires maritimes à la même date."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Tu importes des marchandises par conteneur."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Prix, délais et *fréquence*",
+      "dit": "Ce qui compte pour toi, ce sont les tarifs, les délais et les bateaux disponibles."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "repos"
+      },
+      "fond": null,
+      "ecran": "Pas de *baisse* de prix annoncée",
+      "dit": "Ce changement de chef ne garantit pas une baisse des prix ou des trajets plus rapides."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Infos manquantes : Tarifs | Calendrier | Nouveaux navires",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun *nouveau* tarif publié",
+      "dit": "Aucune nouvelle grille tarifaire ni achat de navire n'a été annoncé pour l'instant."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Les *conditions* font la différence",
+      "dit": "Les nominations fixent des dirigeants, mais ce sont les conditions de transport qui comptent."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Surveille les *offres* à venir",
+      "dit": "Renseigne-toi sur les prochaines offres publiées pour tes transports de conteneurs."
+    }
+  ],
+  "question": "Utilises-tu le transport maritime pour tes marchandises entre Kribi et Douala ?"
+}

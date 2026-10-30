@@ -1,0 +1,203 @@
+{
+  "accroches": [
+    "Le téléphone va-t-il couper au Congo ?",
+    "Une commande de 15 000 FCFA bloquée ?",
+    "Le manque de gasoil coupe tes appels."
+  ],
+  "titre": "Congo : le gasoil menace le réseau mobile",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "phone signal africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le manque de *gasoil* coupe tes appels ?",
+      "dit": "Le manque de gasoil risque de couper ton téléphone au Congo."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXPLICATION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Voici ce que ça *change* pour toi",
+      "dit": "Et voici ce que cette crise change concrètement pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Congo",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une antenne a *besoin* d'énergie",
+      "dit": "Pour transmettre tes appels et tes messages, une antenne mobile a besoin d'électricité."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "ARPCE",
+        "logo": true,
+        "secours": "telecom tower africa"
+      },
+      "ecran": "L'*ARPCE* alerte sur le réseau",
+      "dit": "Le 27 octobre, l'ARPCE a alerté sur des perturbations du réseau."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "petrole",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les groupes manquent de *gasoil*",
+      "dit": "En cas de coupure de courant, les groupes électrogènes manquent aussi de gasoil."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Société nationale des pétroles du Congo",
+        "logo": true,
+        "secours": "fuel station africa"
+      },
+      "ecran": "Les centres de *données* touchés",
+      "dit": "Même les équipements centraux et les centres de données en ville sont concernés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vendeuse",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "marche",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "15 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une commande de *15 000 FCFA*",
+      "dit": "Une vendeuse reçoit une commande de 15 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Le paiement mobile *bloqué*",
+      "dit": "Si le réseau pèse, le paiement mobile ne passe pas et l'argent reste bloqué."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Commande",
+        "b": "Argent en main",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Commande et *argent* sont différents",
+      "dit": "Une commande validée et l'argent vraiment encaissé, ce n'est pas la même chose."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market seller",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Suivre les *livraisons* de carburant",
+      "dit": "Pour savoir si le service va revenir, il faut suivre les livraisons de carburant."
+    }
+  ],
+  "question": "As-tu déjà eu des problèmes de paiement mobile à cause du réseau ?"
+}

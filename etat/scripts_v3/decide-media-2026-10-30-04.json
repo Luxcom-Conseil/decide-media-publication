@@ -1,0 +1,210 @@
+{
+  "accroches": [
+    "Ton pays a-t-il reçu *215,9 millions* de don ?",
+    "*215,9 millions* d'euros pour le cacao camerounais !",
+    "Ce gros montant n'est pas un *don gratuit*. "
+  ],
+  "titre": "Cacao au Cameroun : don ou crédit ?",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": "african farmer cocoa"
+      },
+      "ecran": "*215,9 millions* d'euros pour le cacao !",
+      "dit": "215,9 millions d'euros pour le cacao et le café au Cameroun !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Voici ce que ça *change* vraiment",
+      "dit": "Mais attention, tout cet argent n'est pas cadeau. Voici pourquoi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *don* ou un *prêt* ?",
+      "dit": "Un don c'est gratuit. Un prêt, il faut le rembourser avec des conditions."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère de l'Économie, de la Planification et de l'Aménagement du territoire",
+        "logo": true,
+        "secours": "government building africa"
+      },
+      "ecran": "*87 millions* du Fonds vert",
+      "dit": "Le Fonds vert donne 87 millions d'euros : 78,3 millions en prêt et 8,7 millions en don."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "88,5 millions €",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*88,5 millions* venant du Cameroun",
+      "dit": "Le Cameroun ajoute lui-même 88,5 millions d'euros grâce aux redevances des exportations."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "40,4 millions €",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*40,4 millions* sous conditions",
+      "dit": "S'y ajoutent 40,4 millions d'euros d'une initiative forestière, mais sous conditions."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cultivatrice",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Une cultivatrice veut acheter de bons plants de cacao."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cultivatrice",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "L'argent est-il *déjà* là ?",
+      "dit": "L'annonce ne dit pas combien elle touchera ni quand elle l'aura."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXEMPLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "cocoa farm africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Aucun *premier paiement* attesté",
+      "dit": "Pour l'instant, aucun premier paiement aux producteurs n'est prouvé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre les *vraies* étapes",
+      "dit": "Il faut suivre le chemin : approbation, accord final, puis versement réel."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Calculer ses *vrais* revenus",
+      "dit": "Avant de fêter une hausse de revenus, calcule tes dépenses et tes récoltes."
+    }
+  ],
+  "question": "As-tu déjà vu des aides annoncées tarder à arriver sur le terrain ?"
+}

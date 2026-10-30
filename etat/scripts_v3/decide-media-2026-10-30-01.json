@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "871 milliards pour le Cameroun : où est passé l'argent ?",
+    "Où vont les 871 milliards de FCFA du C2D au Cameroun ?",
+    "Ce grand projet près de chez toi va-t-il durer ?"
+  ],
+  "titre": "Cameroun : 871 milliards du C2D et après ?",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "african city road"
+      },
+      "ecran": "871 milliards *décaissés* au Cameroun",
+      "dit": "Où vont les 871 milliards de FCFA du C2D au Cameroun ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Citoyen",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* pour toi",
+      "dit": "Et voici ce que ça change concrètement pour ton quotidien."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala | Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le C2D *annule* une dette",
+      "dit": "Le C2D transforme la dette du Cameroun en de l'argent pour des projets."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Pont sur le Wouri",
+        "logo": false,
+        "secours": "bridge construction africa"
+      },
+      "ecran": "Trois contrats pour *967,4 milliards*",
+      "dit": "Au total, trois contrats représentent 967,4 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "871 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Déjà *871 milliards* décaissés",
+      "dit": "À ce jour, 871 milliards de FCFA ont déjà été décaissés."
+    },
+    {
+      "type": "media",
+      "etiquette": "LES TRAVAUX",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "african city drain"
+      },
+      "ecran": "Ponts, voiries et *drainage*",
+      "dit": "Cet argent finance les routes, le deuxième pont du Wouri ou le drainage."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "C2D (11,81 Mld)",
+        "b": "Total (109 Mld)",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Pour le drainage de Douala, le C2D donne 11,81 milliards."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "chantier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un projet à *109 milliards*",
+      "dit": "Mais le coût total du chantier monte à environ 109 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vendeuse",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "L'eau va-t-elle bien *s'écouler* ?",
+      "dit": "Pour une vendeuse près d'un canal, l'important est de savoir si l'eau s'écoule."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vendeuse",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Qui va *entretenir* les ouvrages ?",
+      "dit": "Il faut aussi savoir qui va nettoyer et entretenir les installations."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA LEÇON",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african city street",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Payer ne suffit pas à *entretenir*",
+      "dit": "Donner de l'argent ne garantit pas que les ouvrages marchent dans le temps."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre la *qualité* des services",
+      "dit": "Il faut publier des budgets d'entretien pour protéger ces investissements."
+    }
+  ],
+  "question": "As-tu vu des travaux du C2D être bien entretenus près de chez toi ?"
+}

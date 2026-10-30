@@ -1,0 +1,250 @@
+{
+  "accroches": [
+    "Vas-tu gagner de l'argent grâce à nos forêts ?",
+    "29,7 millions de dollars débloqués pour la forêt.",
+    "Un don géant va changer la vie en forêt."
+  ],
+  "titre": "Un don de 29,7 millions pour les forêts",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african rainforest jungle",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "29,7 millions $ *débloqués* pour les forêts",
+      "dit": "29,7 millions de dollars débloqués pour la forêt."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RELANCE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Voici ce que ça *change* pour toi",
+      "dit": "Et voici ce que ça change concrètement pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ S'A PASSE ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le projet vise le *Cameroun*",
+      "dit": "Tout se passe au Cameroun pour protéger la forêt."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un don est de l'argent *gratuit*",
+      "dit": "Un don, c'est une aide financière qu'on n'a pas besoin de rembourser."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": "african forest green"
+      },
+      "ecran": "Un don de *29,7 millions* de dollars",
+      "dit": "Le Fonds vert a approuvé un don de 29,7 millions de dollars."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE BUDGET",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "46 000 000 $",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un total de *46 millions* de dollars",
+      "dit": "Avec les cofinancements, l'investissement total atteint 46 millions de dollars."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DURÉE",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un projet prévu sur *7 ans*",
+      "dit": "Ce programme va durer sept ans dans plusieurs régions."
+    },
+    {
+      "type": "media",
+      "etiquette": "L'OBJECTIF",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market fruit",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Vendre des produits *de la forêt*",
+      "dit": "Le but est de restaurer la forêt et vendre des produits sans couper d'arbres."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EN PRATIQUE",
+      "illustration": {
+        "type": "marche",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Récolter la *mangue sauvage*",
+      "dit": "Les habitants pourront mieux vendre la mangue sauvage ou le petit cola."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le projet n'a pas *encore* démarré",
+      "dit": "Attention, l'argent n'est pas encore distribué aux familles."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Protéger la forêt *rapporte* de l'argent",
+      "dit": "La forêt peut créer du travail sans être détruite."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "A suivre : Calendrier | Activités | Revenus",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre le *calendrier* de démarrage",
+      "dit": "Il faut suivre les prochaines annonces sur le démarrage du projet."
+    }
+  ],
+  "question": "Penses-tu que la collecte de produits forestiers peut créer assez d'emplois dans ton village ?"
+}

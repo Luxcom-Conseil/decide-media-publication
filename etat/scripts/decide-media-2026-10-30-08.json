@@ -1,0 +1,119 @@
+{
+  "titre": "Togo-Russie : reconnaissance des brevets",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Tu es marin et tu veux travailler à l'international ? Un nouvel accord vient de sortir."
+    },
+    {
+      "type": "explication",
+      "dit": "Un brevet de marin, c'est le diplôme officiel qui prouve tes compétences sur un navire.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "photo"
+      },
+      "ecran": "Un brevet de marin"
+    },
+    {
+      "type": "explication",
+      "dit": "Le 28 octobre à Moscou, le Togo et la Russie ont signé un accord de reconnaissance mutuelle.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "carte",
+        "texte": "Togo"
+      },
+      "ecran": "Accord Togo-Russie"
+    },
+    {
+      "type": "explication",
+      "dit": "Chaque pays pourra vérifier si le brevet présenté est bien vrai et valide.",
+      "etiquette": "LES REGLES",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Des contrôles prévus"
+    },
+    {
+      "type": "explication",
+      "dit": "Les autorités s'engagent à répondre aux vérifications par email sous sept jours ouvrables.",
+      "etiquette": "LE DELAI",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "7 jours ouvrables"
+      },
+      "ecran": "Réponse sous 7 jours"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Tu as un brevet togolais et tu veux faire valider ton document.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Marin",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "ecran": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "dit": "Tes démarches de reconnaissance seront encadrées et facilitées grâce à cet accord.",
+      "etiquette": "CE QUE CA CHANGE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Démarches simplifiées",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "ecran": "Démarches plus simples"
+    },
+    {
+      "type": "explication",
+      "dit": "Mais attention, ce texte ne te garantit ni un travail à bord, ni un salaire précis.",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Pas d'emploi garanti",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "ecran": "Pas de contrat garanti"
+    },
+    {
+      "type": "explication",
+      "dit": "Un accord valide tes papiers, mais c'est à toi de chercher ton emploi sur un bateau.",
+      "etiquette": "LA LECON",
+      "illustration": {
+        "type": "photo"
+      },
+      "ecran": "Un cadre officiel"
+    },
+    {
+      "type": "explication",
+      "dit": "Renseigne-toi directement auprès de l'autorité maritime pour connaître les pièces à fournir.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Se renseigner",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "ecran": "Vérifie les détails"
+    },
+    {
+      "type": "question",
+      "texte": "Penses-tu que cet accord va aider les marins togolais à trouver plus facilement du travail ?",
+      "dit": "Penses-tu que cet accord va aider les marins togolais à trouver plus facilement du travail ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-30-08",
+  "_modele": "gemini"
+}

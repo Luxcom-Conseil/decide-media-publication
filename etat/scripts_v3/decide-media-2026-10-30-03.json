@@ -1,0 +1,230 @@
+{
+  "accroches": [
+    "Le sésame peut-il te rendre plus riche ?",
+    "100 000 tonnes de sésame en 2030 !",
+    "Plus de récolte, mais moins d'argent ?"
+  ],
+  "titre": "Togo : plus de sésame, plus de revenus ?",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "sesame field africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Plus de *récolte*, mais moins d'argent ?",
+      "dit": "Vendre plus de récolte peut-il te faire gagner moins d'argent ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "EN BREF",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Voici ce que ça *change* pour toi",
+      "dit": "Voici ce que les nouvelles décisions sur le sésame changent pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Togo | Lomé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *sésame*, une graine qui s'exporte",
+      "dit": "Le sésame est une graine très cultivée au Togo et vendue à l'étranger."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Lomé",
+        "logo": false,
+        "secours": "lome city togo"
+      },
+      "ecran": "Objectif *100 000* tonnes en 2030",
+      "dit": "À Lomé, la filière sésame vise 100 000 tonnes produites par an d'ici 2030."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "Actuel",
+        "apres": "100 000 t",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une nouvelle *organisation* pour la filière",
+      "dit": "Producteurs et acheteurs se regroupent pour organiser les ventes et la qualité."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "tient_billet"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Tu vends 1 000 kilos de sésame à 600 FCFA le kilo."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "600 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tu récoltes *600 000 FCFA*",
+      "dit": "Si tu es payé en totalité, tu encaisse 600 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "L'année suivante, le *prix* chute",
+      "dit": "L'année suivante, tu vends 1 100 kilos, mais le prix baisse à 500 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "550 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tu gagnes *550 000 FCFA*",
+      "dit": "Tu encaisse 550 000 FCFA. C'est 50 000 FCFA de moins, malgré plus de travail."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Plus de tonnes",
+        "b": "Prix plus bas",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Produire plus ne *garantit* rien",
+      "dit": "Produire plus de tonnes ne garantit donc pas un meilleur revenu."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA LEÇON",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market agriculture",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Surveiller le *prix* et la qualité",
+      "dit": "Ce qui compte, ce sont les prix négociés, les frais et les délais de paiement."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Exige des *contrats* très clairs",
+      "dit": "Vérifie bien les conditions de pesée et de paiement avant de vendre ta récolte."
+    }
+  ],
+  "question": "As-tu déjà vu les prix de tes récoltes baisser d'une année à l'autre ?"
+}

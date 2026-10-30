@@ -1,0 +1,108 @@
+{
+  "titre": "Foire artisanale de Tsévié au Togo",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "À Tsévié, 125 artisans formés ont une vitrine jusqu'au 31 octobre."
+    },
+    {
+      "type": "explication",
+      "dit": "Une vitrine, c'est un espace pour montrer ce qu'on fabrique.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "texte": "Togo | Tsévié"
+      },
+      "ecran": "Une vitrine pour les artisans"
+    },
+    {
+      "type": "explication",
+      "dit": "La première foire artisanale de la région Maritime a été lancée.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Artisan",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "ecran": "125 artisans formés"
+    },
+    {
+      "type": "explication",
+      "dit": "L'événement se poursuit jusqu’au 31 octobre à Tsévié.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "31 octobre"
+      },
+      "ecran": "Jusqu'au 31 octobre"
+    },
+    {
+      "type": "explication",
+      "dit": "La rencontre met en avant la vannerie et la poterie.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "liste",
+        "texte": "Métiers | vannerie | poterie"
+      },
+      "ecran": "Vannerie et poterie"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Pour une fabricante de paniers, cela peut aider.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Fabricante",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "ecran": "Trouver un client"
+    },
+    {
+      "type": "explication",
+      "dit": "Cette possibilité ne constitue pas un chiffre de ventes déjà réalisé.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Fabricante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Pas de chiffre de ventes"
+    },
+    {
+      "type": "explication",
+      "dit": "La foire sert à rencontrer le public et rechercher des débouchés.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Créer des débouchés"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut suivre les ventes et les contacts transformés en commandes.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "À suivre | les ventes | les contacts"
+      },
+      "ecran": "Suivre les retombées"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà visité une foire artisanale près de chez toi ?",
+      "dit": "As-tu déjà visité une foire artisanale près de chez toi ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-30-09",
+  "_modele": "gemini"
+}
