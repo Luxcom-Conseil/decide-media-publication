@@ -5838,10 +5838,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-30",
-      "maj": "2026-10-30T06:06:08+00:00",
-      "statut": "echec",
+      "maj": "2026-10-30T09:48:45+00:00",
+      "piste": "principale",
+      "post_id": "JzBil1nnJAA",
+      "programme_pour": "2026-10-30T14:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Au Congo, le téléphone dépend aussi du gasoil. Une antenne sans énergie ne transmet plus."
+      "titre": "Au Congo, le téléphone dépend aussi du gasoil. Une antenne sans énergie ne transmet plus.",
+      "url": "https://youtu.be/JzBil1nnJAA"
     }
   },
   "decide-media-2026-10-30-06": {
@@ -5899,6 +5903,17 @@
       "tentatives": 0,
       "titre": "À Essassa, la parcelle annoncée coûte 2,75 millions de FCFA. Les 825 000 d’apport ne suffisent pas.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-30",
+      "maj": "2026-10-30T09:51:17+00:00",
+      "piste": "principale",
+      "post_id": "PE-_rZVef5Y",
+      "programme_pour": "2026-10-30T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Essassa, la parcelle annoncée coûte 2,75 millions de FCFA. Les 825 000 d’apport ne suffisent pas.",
+      "url": "https://youtu.be/PE-_rZVef5Y"
     }
   },
   "decide-media-2026-10-30-07": {
@@ -5945,6 +5960,17 @@
       "tentatives": 0,
       "titre": "Gulfcam change de direction le 1er novembre. Camship reste le cap annoncé.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-30",
+      "maj": "2026-10-30T09:53:49+00:00",
+      "piste": "principale",
+      "post_id": "pZ4a8DVFX0U",
+      "programme_pour": "2026-10-30T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gulfcam change de direction le 1er novembre. Camship reste le cap annoncé.",
+      "url": "https://youtu.be/pZ4a8DVFX0U"
     }
   },
   "decide-media-2026-10-30-08": {
@@ -5991,6 +6017,17 @@
       "tentatives": 0,
       "titre": "Togo-Russie : les brevets maritimes seront mieux reconnus. L’accord encadre aussi les vérifications.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-30",
+      "maj": "2026-10-30T09:56:56+00:00",
+      "piste": "principale",
+      "post_id": "g1J4oIwaQII",
+      "programme_pour": "2026-10-30T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Togo-Russie : les brevets maritimes seront mieux reconnus. L’accord encadre aussi les vérifications.",
+      "url": "https://youtu.be/g1J4oIwaQII"
     }
   },
   "decide-media-2026-10-30-09": {
@@ -6037,6 +6074,17 @@
       "tentatives": 0,
       "titre": "À Tsévié, 125 artisans formés ont une vitrine. La foire se poursuit jusqu’au 31 octobre.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-30",
+      "maj": "2026-10-30T10:00:21+00:00",
+      "piste": "principale",
+      "post_id": "WiVwa7sJ3Tw",
+      "programme_pour": "2026-10-30T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Tsévié, 125 artisans formés ont une vitrine. La foire se poursuit jusqu’au 31 octobre.",
+      "url": "https://youtu.be/WiVwa7sJ3Tw"
     }
   },
   "decide-media-2026-10-30-10": {
@@ -6083,6 +6131,17 @@
       "tentatives": 0,
       "titre": "Le Cameroun obtient l’approbation d’un don de 29,7 millions de dollars pour ses forêts.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-30",
+      "maj": "2026-10-30T10:02:32+00:00",
+      "piste": "principale",
+      "post_id": "oXUvkZZqYF0",
+      "programme_pour": "2026-10-31T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun obtient l’approbation d’un don de 29,7 millions de dollars pour ses forêts.",
+      "url": "https://youtu.be/oXUvkZZqYF0"
     }
   }
 }

@@ -1,0 +1,243 @@
+{
+  "accroches": [
+    "Tu veux acheter un terrain au Gabon ?",
+    "Un terrain à 2,75 millions de FCFA ?",
+    "L'apport de 825 000 FCFA ne suffit pas."
+  ],
+  "titre": "Acheter un terrain : attention au solde !",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african land real estate",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Tu veux acheter un *terrain* au Gabon ?",
+      "dit": "Tu veux acheter un terrain au Gabon ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "À SAVOIR",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Voici ce que tu dois *savoir*",
+      "dit": "Et voici ce que ça change vraiment pour ton budget."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Gabon | Libreville",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des terrains vendus au *Gabon*",
+      "dit": "La SNI propose des parcelles au Gabon."
+    },
+    {
+      "type": "media",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Libreville",
+        "logo": false,
+        "secours": "city africa libreville"
+      },
+      "ecran": "L'apport est un *premier* versement",
+      "dit": "L'apport initial, c'est l'avance qu'on paie pour réserver."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2 750 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le prix total est *2 750 000 FCFA*",
+      "dit": "La parcelle de 500 mètres carrés coûte 2 750 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "L'APPORT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "0 %",
+        "apres": "30 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'apport demandé est de *30 %*",
+      "dit": "On te demande un apport initial de 30 %."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE CALCUL",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "825 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tu payes d'abord *825 000 FCFA*",
+      "dit": "Cela fait 825 000 FCFA à verser tout de suite."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* concret",
+      "dit": "Prenons un exemple pour bien comprendre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE RESTE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 925 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Il reste *1 925 000 FCFA*",
+      "dit": "Une fois l'apport payé, il reste 1 925 000 FCFA à régler."
+    },
+    {
+      "type": "explication",
+      "etiquette": "MENSUALITÉ",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "160 417 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Soit environ *160 417 FCFA* par mois",
+      "dit": "Sur 12 mois, cela représente environ 160 417 FCFA par mois."
+    },
+    {
+      "type": "media",
+      "etiquette": "RÉSULTAT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "family budget money",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Garde de l'argent pour *vivre*",
+      "dit": "Il faut pouvoir payer cette somme sans couper les dépenses de la maison."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA LEÇON",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "signing contract document",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'avance ne fait pas le *prix*",
+      "dit": "L'apport n'est qu'une partie de ton engagement."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Demande un *échéancier* écrit",
+      "dit": "Vérifie toujours le prix total, les frais et l'échéancier écrit."
+    }
+  ],
+  "question": "As-tu déjà essayé d'acheter un terrain à crédit ?"
+}

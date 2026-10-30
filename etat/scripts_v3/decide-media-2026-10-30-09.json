@@ -1,0 +1,203 @@
+{
+  "accroches": [
+    "Savais-tu que 125 artisans exposent leurs plus belles créations ?",
+    "125 artisans formés exposent jusqu'au 31 octobre au Togo.",
+    "Cette foire artisanale peut t'offrir de nouveaux débouchés localement."
+  ],
+  "titre": "Tsévié : 125 artisans exposent leurs produits",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african craft market",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "125 artisans exposent jusqu'au 31 octobre au Togo.",
+      "dit": "125 artisans formés exposent leurs créations jusqu'au 31 octobre au Togo."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À DÉCOUVRIR",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Artisanat",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* pour toi.",
+      "dit": "Et voici ce que cet événement change pour toi et l'économie locale."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Tsévié | Togo",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La foire se tient à *Tsévié*.",
+      "dit": "C'est la première foire artisanale organisée à Tsévié, au Togo."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Tsévié",
+        "logo": false,
+        "secours": "african town street"
+      },
+      "ecran": "125 artisans issus de *8 préfectures*.",
+      "dit": "125 artisans formés venus de 8 préfectures participent à cette foire."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Vannerie, poterie et *savons* traditionnels.",
+      "dit": "Tu y trouves de la vannerie, de la poterie et des savons traditionnels."
+    },
+    {
+      "type": "media",
+      "etiquette": "SOUTIEN",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african women community",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Projet soutenu par la *FAO*.",
+      "dit": "Une association de femmes porte l'initiative avec l'appui de la FAO."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* concret.",
+      "dit": "Prenons un exemple avec une fabricante de paniers en vannerie."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OPPORTUNITÉ",
+      "illustration": {
+        "type": "marche",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Rencontrer de nouveaux *clients*.",
+      "dit": "Cette vitrine lui permet d'exposer et de trouver un nouveau revendeur."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des contacts à *transformer*.",
+      "dit": "Exposer aide à se faire connaître, mais il faut ensuite concrétiser les ventes."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA LEÇON",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "handicraft market africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La formation crée des *opportunités*.",
+      "dit": "Se former et exposer permet de développer son activité sur le long terme."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Pour réussir : Visiter la foire | Découvrir les produits | Soutenir l'artisanat",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Soutiens le *savoir-faire* local.",
+      "dit": "Si tu es sur place, va visiter la foire et découvre le savoir-faire local."
+    }
+  ],
+  "question": "Achètes-tu souvent des produits artisanaux fabriqués chez toi ?"
+}

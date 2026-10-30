@@ -1,0 +1,243 @@
+{
+  "accroches": [
+    "Tes diplômes de marin reconnus en Russie ?",
+    "Togo et Russie : accord sur les marins",
+    "Ce changement simplifie la vie des marins."
+  ],
+  "titre": "Togo-Russie : accord sur les brevets maritimes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "cargo ship sea",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Tes *diplômes de marin* reconnus en Russie ?",
+      "dit": "Tes diplômes de marin reconnus en Russie ?"
+    },
+    {
+      "type": "media",
+      "etiquette": "EXPLICATIONS",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african sailor ship",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Voici ce que *ça change* pour toi",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Togo",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *brevet maritime* explique tes compétences",
+      "dit": "Un brevet maritime, c'est le diplôme qui prouve tes compétences sur un navire."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Lomé",
+        "logo": false,
+        "secours": "lome port togo"
+      },
+      "ecran": "*Accord* signé entre le Togo et la Russie",
+      "dit": "Le Togo et la Russie ont signé un accord le 28 octobre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DETAILS",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Règles : formation | visas | contrôles",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *reconnaissance mutuelle* des diplômes",
+      "dit": "Les brevets des marins des deux pays seront désormais reconnus de part et d'autre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "CONTRÔLE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *vérifications* obligatoires",
+      "dit": "Chaque document sera vérifié pour éviter les faux diplômes."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DÉLAI",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réponse sous *7 jours* ouvrables",
+      "dit": "Les autorités doivent répondre aux demandes sous sept jours ouvrables."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXEMPLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "ship deck worker",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Marin",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Un *marin* togolais diplômé",
+      "dit": "Un marin formé au Togo veut travailler sur un navire lié à la Russie."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Marin",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Démarches *plus simples*",
+      "dit": "Grâce à l'accord, la reconnaissance de son brevet est plus rapide."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Marin",
+        "personnage": "salarie",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Pas d'emploi *garanti*",
+      "dit": "Mais attention, cet accord ne garantit ni un contrat ni un salaire."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Accord : cadre légal | pas d'embauche",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *cadre officiel* créé",
+      "dit": "L'accord fixe un cadre officiel, mais il ne recrute pas à ta place."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Marin",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Renseigne-toi aux *affaires maritimes*",
+      "dit": "Si tu es marin, vérifie les démarches auprès des autorités maritimes."
+    }
+  ],
+  "question": "Connaissais-tu l'existence de ces accords pour les marins ?"
+}
