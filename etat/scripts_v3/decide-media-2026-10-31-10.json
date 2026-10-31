@@ -1,0 +1,150 @@
+{
+  "accroches": [
+    "La Côte d'Ivoire et la RDC s'en sortent ?",
+    "Sortie de la liste grise pour deux pays !",
+    "Ce changement touche tes virements bancaires."
+  ],
+  "titre": "Côte d'Ivoire et RDC : fin de la liste grise",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Sortie de la *liste grise* !",
+      "dit": "La Côte d'Ivoire et la RDC sortent de la liste grise du GAFI."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Côte d'Ivoire | RDC",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* pour toi.",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE MOT CLÉ",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le GAFI *surveille* l'argent sale.",
+      "dit": "Le Groupe d'action financière évalue la lutte contre le blanchiment d'argent."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Paris",
+        "logo": false,
+        "secours": "city street europe"
+      },
+      "ecran": "Annonce faite le *30 octobre* à Paris.",
+      "dit": "L'annonce a été faite le 30 octobre lors d'une réunion à Paris."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* pour une entreprise.",
+      "dit": "Prenons un exemple. Pour une entreprise qui fait des paiements internationaux, le statut change."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas de baisse *automatique* des frais.",
+      "dit": "Les sources n'annoncent ni baisse automatique des frais, ni suppression des justificatifs."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA SUITE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "bank counter",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les *contrôles* continuent en banque.",
+      "dit": "Les contrôles et les obligations des banques continuent dans les pays."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Il faut observer les *pratiques* des banques.",
+      "dit": "La leçon est que les réformes progressent, mais les coûts devront se mesurer avec le temps."
+    }
+  ],
+  "question": "As-tu déjà remarqué des changements lors de tes virements bancaires ?"
+}

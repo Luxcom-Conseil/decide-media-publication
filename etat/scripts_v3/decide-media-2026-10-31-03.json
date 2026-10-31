@@ -1,0 +1,230 @@
+{
+  "accroches": [
+    "Le Togo veut poser 5 000 biodigesteurs. Bon plan ?",
+    "5 000 biodigesteurs prévus d'ici 2030 !",
+    "Tu veux réduire tes dépenses de gaz ?"
+  ],
+  "titre": "Togo : 5 000 biodigesteurs d'ici 2030",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Lomé",
+        "logo": false,
+        "secours": "african village cooking"
+      },
+      "ecran": "*5 000* biodigesteurs d'ici 2030 !",
+      "dit": "Le Togo veut installer 5 000 biodigesteurs. Est-ce vraiment rentable ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Ce que ça *change* chez toi",
+      "dit": "Voici exactement ce que cette technologie peut changer dans ton quotidien."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Togo",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Projet lancé au *Togo*",
+      "dit": "Le Togo a annoncé ce projet lors d'une rencontre régionale à Lomé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "maison",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Déchets transforms en *gaz*",
+      "dit": "Un biodigesteur transforme les déchets animaux en gaz pour cuisiner."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Lomé",
+        "logo": false,
+        "secours": "lome city street"
+      },
+      "ecran": "*5 000* au Togo, *50 000* en Afrique",
+      "dit": "L'objectif est d'avoir 5 000 équipements au Togo et 50 000 dans la région."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ÉCONOMIE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "12 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*12 000 FCFA* de gaz en moins",
+      "dit": "Un ménage peut économiser 12 000 FCFA de combustible par mois."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ENTRETIEN",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 4 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*4 000 FCFA* de frais par mois",
+      "dit": "Mais il faut compter environ 4 000 FCFA par mois pour l'entretien."
+    },
+    {
+      "type": "explication",
+      "etiquette": "BÉNÉFICE",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "8 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*8 000 FCFA* de gain net",
+      "dit": "Le ménage économise donc 8 000 FCFA net chaque mois."
+    },
+    {
+      "type": "media",
+      "etiquette": "ATTENTION",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market seller",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le matériel *coûte* cher",
+      "dit": "Attention, il faut aussi financer l'achat du matériel et trouver les techniciens."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bien *entretenir* l'équipement",
+      "dit": "Sans bon entretien et sans suivi, une telle installation s'arrête très vite."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vérifier : Coût matériel | Entretien | Financement",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Calculer le *coût réel*",
+      "dit": "Avant d'investir, vérifie le prix complet et la présence de techniciens."
+    }
+  ],
+  "question": "Aimerais-tu utiliser un biodigesteur chez toi ?"
+}

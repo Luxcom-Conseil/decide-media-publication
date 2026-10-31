@@ -1,0 +1,98 @@
+{
+  "titre": "Contrôles TPU au Togo le 2 novembre",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Contrôles de la TPU pour les transporteurs au Togo le 2 novembre."
+    },
+    {
+      "type": "explication",
+      "dit": "La Taxe professionnelle unique est un impôt pour les transporteurs.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Conducteur",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "La TPU"
+    },
+    {
+      "type": "explication",
+      "dit": "L'Office togolais des recettes lance les contrôles le 2 novembre.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "carte",
+        "texte": "Togo"
+      },
+      "ecran": "Le 2 novembre 2026"
+    },
+    {
+      "type": "explication",
+      "dit": "L'opération concerne le paiement du troisième trimestre 2026.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "texte": "3e trimestre"
+      },
+      "ecran": "Troisième trimestre"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Pour un minibus, le montant dépend de sa catégorie.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Conducteur",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "ecran": "Catégorie du véhicule"
+    },
+    {
+      "type": "explication",
+      "dit": "Le montant d'un autre transporteur ne donne pas ton obligation exacte.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Vérifier sa situation"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut régulariser sa situation avant les vérifications de l'administration.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Transporteur",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "ecran": "Régulariser avant tout"
+    },
+    {
+      "type": "explication",
+      "dit": "Vérifie le trimestre visé et la catégorie fiscale de ton véhicule.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "liste",
+        "texte": "Trimestre | Catégorie"
+      },
+      "ecran": "Vérifier ses papiers"
+    },
+    {
+      "type": "question",
+      "texte": "As-tu déjà payé ta taxe pour ce trimestre ?",
+      "dit": "As-tu déjà payé ta taxe pour ce trimestre ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-31-08",
+  "_modele": "gemini"
+}

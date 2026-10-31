@@ -1,0 +1,104 @@
+{
+  "titre": "Chèques d’indemnisation à Okala",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "À Okala, les premiers chèques d'indemnisation sont remis aux propriétaires."
+    },
+    {
+      "type": "explication",
+      "dit": "Une indemnisation, c'est l'argent versé quand on prend ton bien pour un projet.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "chantier"
+      },
+      "ecran": "Élargissement de la voie"
+    },
+    {
+      "type": "explication",
+      "dit": "La première phase représente une enveloppe annoncée de 715 millions de FCFA.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "montant": "715 millions"
+      },
+      "ecran": "715 millions de FCFA"
+    },
+    {
+      "type": "explication",
+      "dit": "Le ministre a remis les premiers chèques le 29 octobre au Grand Libreville.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "montant": "29 octobre",
+        "texte": "29 octobre"
+      },
+      "ecran": "Remise des chèques"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. L'indemnité individuelle la plus élevée annoncée atteint 310 millions.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Propriétaire",
+        "personnage": "artisan",
+        "expression": "surprise",
+        "geste": "tient_billet"
+      },
+      "ecran": "310 millions max"
+    },
+    {
+      "type": "explication",
+      "dit": "Au total, l'emprise compte 20 habitations familiales et 46 bâtiments commerciaux.",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "chantier",
+        "montant": "66"
+      },
+      "ecran": "66 biens recensés"
+    },
+    {
+      "type": "explication",
+      "dit": "Chaque dossier est évalué séparément selon sa situation.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Vérifier son dossier"
+    },
+    {
+      "type": "explication",
+      "dit": "Il faut suivre l'avancement de la validation des dossiers et des paiements.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Habitant",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "ecran": "Suivre l'avancement"
+    },
+    {
+      "type": "explication",
+      "dit": "Une parcelle avec un titre foncier est aussi prévue sur un site identifié.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "maison"
+      },
+      "ecran": "Solution foncière"
+    },
+    {
+      "type": "question",
+      "texte": "Est-ce que ton quartier est concerné par ces grands travaux d'élargissement ? Dis-le-nous en commentaire.",
+      "dit": "Est-ce que ton quartier est concerné par ces grands travaux d'élargissement ? Dis-le-nous en commentaire. Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-31-09",
+  "_modele": "gemini"
+}

@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "La sécurité sociale va-t-elle changer ?",
+    "17 millions de FCFA pour la sécurité sociale.",
+    "Ce diagnostic touche ta protection sociale."
+  ],
+  "titre": "Sécurité sociale au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african city street",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La sécurité sociale va-t-elle *changer* ?",
+      "dit": "La sécurité sociale va-t-elle changer au Cameroun ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "À SUIVRE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça change pour *toi*.",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE CONTEXTE",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": "african administration building"
+      },
+      "ecran": "Une étude est en *cours*.",
+      "dit": "Une étude est en cours pour analyser le système."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La sécurité sociale protège les *travailleurs*.",
+      "dit": "La sécurité sociale, c'est l'aide pour les travailleurs."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "17 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un budget de *17 millions* de FCFA.",
+      "dit": "Le coût estimé est de 17 millions de FCFA."
+    },
+    {
+      "type": "media",
+      "etiquette": "L'INSTITUTION",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "ministry building africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le ministère pilote le *projet*.",
+      "dit": "Le ministère du Travail cherche à évaluer les services."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "couturiere",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons l'exemple d'une *couturière*.",
+      "dit": "Prenons l'exemple d'une couturière indépendante."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Couturière",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Pas de nouveau *droit* immédiat.",
+      "dit": "L'étude n'attribue pas automatiquement une allocation."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE TERRAIN",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market stall",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'argent ne se *partage* pas.",
+      "dit": "Ce montant sert à payer l'étude, pas les assurés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DÉLAI",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "60 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un délai de soixante *jours*.",
+      "dit": "Le délai est de soixante jours après le démarrage."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "C'est un *diagnostic*, pas une aide.",
+      "dit": "Retiens bien que c'est un diagnostic et pas une aide."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Suivre | Le marché | Les décisions",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Il faut suivre les *décisions*.",
+      "dit": "Il faut suivre les décisions prises après ce rapport."
+    }
+  ],
+  "question": "As-tu déjà bénéficié de la sécurité sociale ?"
+}

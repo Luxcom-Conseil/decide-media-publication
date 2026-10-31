@@ -1,0 +1,243 @@
+{
+  "accroches": [
+    "Peux-tu gagner ta vie avec les déchets à Libreville ?",
+    "8 000 FCFA par tonne de déchets à Libreville ?",
+    "Ramasser les ordures à Libreville : combien tu gagnes ?"
+  ],
+  "titre": "8 000 FCFA par tonne de déchets à Libreville",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Libreville",
+        "logo": false,
+        "secours": "african city street"
+      },
+      "ecran": "8 000 FCFA par tonne ?",
+      "dit": "Peux-tu vraiment gagner ta vie en ramassant les ordures à Libreville ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Voici ce qu'il faut *savoir*",
+      "dit": "Voici exactement ce que ça change pour toi si tu veux te lancer."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Libreville",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Libreville au *Gabon*",
+      "dit": "Tout se passe à Libreville, au Gabon."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "marche",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *ramassage* de quartier",
+      "dit": "La pré-collecte, c'est ramasser les ordures là où les gros camions ne passent pas."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "waste management africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'offre de *Clean Africa*",
+      "dit": "L'entreprise Clean Africa a annoncé le 30 octobre qu'elle paiera les pré-collecteurs."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE PRIX",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "8 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "8 000 FCFA par *tonne*",
+      "dit": "Le tarif annoncé est de 8 000 FCFA pour chaque tonne apportée."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Pré-collecteur",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE CALCUL",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "16 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "2 tonnes = *16 000 FCFA*",
+      "dit": "Si tu apportes 2 tonnes de déchets, tu reçois 16 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ce n'est pas le *bénéfice*",
+      "dit": "Mais attention, ce chiffre n'est pas ce qu'il te reste dans la poche."
+    },
+    {
+      "type": "media",
+      "etiquette": "LES CHARGES",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "truck transport africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Il faut payer le *matériel*",
+      "dit": "De cette somme, tu dois enlever le carburant, l'entretien du matériel et tes aides."
+    },
+    {
+      "type": "media",
+      "etiquette": "RÈGLEMENT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Libreville",
+        "logo": false,
+        "secours": "city hall africa"
+      },
+      "ecran": "Autorisation à la *mairie*",
+      "dit": "Il faut aussi obtenir une autorisation officielle à la mairie centrale avant de signer."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Recette",
+        "b": "Dépenses",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Recette n'est pas *bénéfice*",
+      "dit": "Un prix au kilo ou à la tonne donne une recette, pas un revenu garanti."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Calcule bien tes *dépenses*",
+      "dit": "Avant de te lancer, calcule tous tes frais pour savoir ce qu'il te restera réellement."
+    }
+  ],
+  "question": "Penses-tu que la collecte des ordures peut devenir une activité rentable dans ta ville ?"
+}

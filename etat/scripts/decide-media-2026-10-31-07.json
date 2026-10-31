@@ -1,0 +1,162 @@
+{
+  "titre": "Douanes au Cameroun : 2,27 milliards d'amendes",
+  "scenes": [
+    {
+      "type": "visuel",
+      "dit": "Les Douanes camerounaises annoncent 2,27 milliards de FCFA d'amendes !"
+    },
+    {
+      "type": "explication",
+      "dit": "Une amende, c'est une sanction financière qu'on doit payer quand on ne respecte pas la loi.",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "frais",
+        "montant": "Amende"
+      },
+      "ecran": "Sanction financière"
+    },
+    {
+      "type": "explication",
+      "dit": "À Yaoundé, la douane a examiné 492 affaires entre le 5 et le 27 octobre 2026.",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "carte",
+        "texte": "Yaoundé | Cameroun"
+      },
+      "ecran": "492 affaires examinées"
+    },
+    {
+      "type": "explication",
+      "dit": "Résultat : 2,27 milliards de FCFA d'amendes réclamées aux fraudeurs.",
+      "etiquette": "LES CHIFFRES",
+      "illustration": {
+        "type": "pile",
+        "montant": "2 270 000 000"
+      },
+      "ecran": "2,27 milliards d'amendes"
+    },
+    {
+      "type": "explication",
+      "dit": "Il y a aussi 521,3 millions de FCFA de droits et taxes non payés à l'origine.",
+      "etiquette": "AUTRE CHIFFRE",
+      "illustration": {
+        "type": "frais",
+        "montant": "521,3 millions"
+      },
+      "ecran": "521,3 millions de droits"
+    },
+    {
+      "type": "explication",
+      "dit": "La non-présentation de marchandises en entrepôt représente environ un milliard d'amendes.",
+      "etiquette": "DANGER",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "ecran": "Marchandises non présentées"
+    },
+    {
+      "type": "explication",
+      "dit": "Ce problème d'entrepôt représente à lui seul près de 44 % de tout l'argent réclamé.",
+      "etiquette": "LA CAUSE",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "apres": "44 %"
+      },
+      "ecran": "44 % des sanctions"
+    },
+    {
+      "type": "explication",
+      "dit": "Mais la fraude la plus fréquente est la contrebande, avec 101 affaires détectées.",
+      "etiquette": "EN NOMBRE",
+      "illustration": {
+        "type": "marche",
+        "montant": "101 cas"
+      },
+      "ecran": "Contrebande en tête"
+    },
+    {
+      "type": "explication",
+      "dit": "Elle est suivie par les fausses déclarations de valeur, qui comptent 98 dossiers.",
+      "etiquette": "AUTRE FRAUDE",
+      "illustration": {
+        "type": "loupe"
+      },
+      "ecran": "Fausses déclarations : 98"
+    },
+    {
+      "type": "explication",
+      "dit": "Prenons un exemple. Une commerçante fait entrer du marchandise sans tout déclarer.",
+      "etiquette": "CAS CONCRET",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "ecran": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "dit": "La douane découvre le problème et fixe une lourde amende sur le papier.",
+      "etiquette": "LA SANCTION",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "ecran": "Amende annoncée"
+    },
+    {
+      "type": "explication",
+      "dit": "Mais l'article n'indique pas combien d'argent est réellement rentré dans les caisses.",
+      "etiquette": "LA RÉALITÉ",
+      "illustration": {
+        "type": "banque"
+      },
+      "ecran": "Pas encore encaissé"
+    },
+    {
+      "type": "explication",
+      "dit": "Une amende annoncée par l'administration n'est pas toujours de l'argent déjà encaissé.",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "balance",
+        "a": "Annoncé",
+        "b": "Encaissé"
+      },
+      "ecran": "Annoncé n'est pas réclamé"
+    },
+    {
+      "type": "explication",
+      "dit": "Pour travailler sereinement, déclare toujours la vraie valeur de tes marchandises à la douane.",
+      "etiquette": "CE QU'IL FAUT FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "ecran": "Déclarer correctement"
+    },
+    {
+      "type": "question",
+      "texte": "Penses-tu que réclamer de fortes amendes suffit à stopper la contrebande ?",
+      "dit": "Penses-tu que réclamer de fortes amendes suffit à stopper la contrebande ? Dis-le en commentaire."
+    },
+    {
+      "type": "outro",
+      "dit": "Décide média. Abonne-toi."
+    }
+  ],
+  "_article": "decide-media-2026-10-31-07",
+  "_modele": "gemini"
+}

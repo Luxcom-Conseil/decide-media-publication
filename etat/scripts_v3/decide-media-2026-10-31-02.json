@@ -1,0 +1,243 @@
+{
+  "accroches": [
+    "Sais-tu combien de projets publics le Gabon vient de rajouter ?",
+    "1 162 projets publics sont désormais recensés au Gabon.",
+    "Les projets de ton quartier sont-ils enfin comptés au Gabon ?"
+  ],
+  "titre": "Gabon : 1 162 projets publics recensés",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Libreville",
+        "logo": false,
+        "secours": "african city road"
+      },
+      "ecran": "1 162 projets *recensés* au Gabon",
+      "dit": "1 162 projets publics sont désormais recensés au Gabon."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉVÉLATION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Habitant",
+        "personnage": "artisan",
+        "expression": "surprise",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* pour toi.",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Gabon",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *recensement* des projets publics",
+      "dit": "Un recensement, c'est la liste officielle de tous les chantiers de l'État."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "road construction africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le nombre passe de 675 à *1 162*",
+      "dit": "Le Gabon est passé de 675 à 1 162 projets recensés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE CHIFFRE",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "675",
+        "apres": "1 162",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une hausse de *72 %* de projets",
+      "dit": "C'est une hausse de 72 % du portefeuille de projets recensés."
+    },
+    {
+      "type": "media",
+      "etiquette": "PRECISION",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque mondiale",
+        "logo": true,
+        "secours": "office building africa"
+      },
+      "ecran": "487 projets *ajoutés* à la liste",
+      "dit": "Le pays a ajouté 487 projets avec l'aide de la Banque mondiale."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EN CLAIR",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Pas forcément *plus* de dépenses",
+      "dit": "Attention, cela ne veut pas dire plus de dépenses ou de nouveaux chantiers."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE TERRAIN",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "students campus africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Collecte dans les *9* provinces",
+      "dit": "La collecte s'est déroulée du 10 au 24 mai dans les neuf provinces."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Parents",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "repos"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "chantier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'école inscrite dans les *dossiers*",
+      "dit": "Des parents voient l'école de leur enfant enfin inscrite dans la base."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Parents",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Les travaux sont-ils *financés* ?",
+      "dit": "Ils ont maintenant besoin de savoir si le chantier est vraiment financé."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Planning",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *calendrier* clair pour tous",
+      "dit": "Un inventaire aide à planifier, mais seul le suivi des travaux aide les citoyens."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifier la *réalité* du terrain",
+      "dit": "Connaître ce qui fonctionne permet de demander des comptes."
+    }
+  ],
+  "question": "Et toi, as-tu un projet public en attente dans ta ville ?"
+}

@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Sais-tu combien de ciment Dangote a vendu au Cameroun ?",
+    "836 800 tonnes de ciment vendues par Dangote au Cameroun.",
+    "Le prix de ton sac de ciment va-t-il vraiment baisser ?"
+  ],
+  "titre": "Dangote vend 836 800 tonnes au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "cement bags construction africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "836 800 *tonnes* de ciment vendues",
+      "dit": "836 800 tonnes de ciment vendues par Dangote au Cameroun. Qu'est-ce que ça change pour tes travaux ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Maçon",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change*",
+      "dit": "Et voici ce que ces chiffres changent vraiment pour ton portefeuille."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les ventes de Dangote au *Cameroun*",
+      "dit": "On regarde les résultats du groupe Dangote Cement au Cameroun."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "927 300 t",
+        "apres": "836 800 t",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des ventes en *baisse* de 9,8 %",
+      "dit": "Entre janvier et septembre 2026, les ventes ont baissé de 9,8 % sur un an."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXPLICATION",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "truck transport africa road",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des *soucis* de livraison et production",
+      "dit": "L'entreprise explique cela par des problèmes de production et de livraison dans les dépôts."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE CHANCE",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3e trimestre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *stabilisation* au 3e trimestre",
+      "dit": "Mais au troisième trimestre, les ventes se sont stabilisées à 240 000 tonnes."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Maçon sur le chantier",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* concrètement",
+      "dit": "Prenons un exemple. Tu es maçon et tu dois couler une dalle sur ton chantier."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXEMPLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "building construction site africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Tu as *besoin* de ciment au dépôt",
+      "dit": "Ce qui compte pour toi, c'est de trouver des sacs disponibles chez ton vendeur."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "marche",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *prix* au sac compte vraiment",
+      "dit": "Tu veux connaître le prix exact du sac et le coût pour le transporter sur ton chantier."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Ventes usine",
+        "b": "Prix au sac",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chiffres usine vs *prix* réel",
+      "dit": "Les tonnes vendues par l'usine ne disent pas si le sac est moins cher pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ne pas *confondre* ventes et prix",
+      "dit": "La leçon : une hausse des ventes industrielles ne baisse pas automatiquement tes dépenses."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "hardware store construction",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Compare les *prix* dans les dépôts",
+      "dit": "Concrètement, vérifie toujours les prix réels et la disponibilité dans plusieurs dépôts."
+    }
+  ],
+  "question": "As-tu remarqué un changement sur le prix du ciment dans ta ville ?"
+}

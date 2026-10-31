@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Ton entreprise attend-elle l'argent d'un projet ?",
+    "36,5 milliards de FCFA restent bloqués au Cameroun !",
+    "Un crédit accordé ne veut pas dire argent disponible."
+  ],
+  "titre": "Cameroun : 36,5 milliards de FCFA bloqués",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": "cameroon landscape"
+      },
+      "ecran": "36,5 *milliards* bloqués au Cameroun !",
+      "dit": "36,5 milliards de FCFA restent bloqués au Cameroun !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "À SAVOIR",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Citoyen",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Ce que ça *change* vraiment",
+      "dit": "Et voici ce que cela change pour l'économie."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le projet au *Cameroun*",
+      "dit": "Cela se passe au Cameroun, autour d'un grand projet minier."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *tirage* de crédit",
+      "dit": "Un tirage, c'est l'utilisation effective de l'argent prêté."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "45,5 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*45,5 milliards* déjà mobilisés",
+      "dit": "Sur un crédit de 82 milliards de FCFA, seuls 45,5 milliards ont été retirés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LES CHIFFRES",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "55,5 %",
+        "apres": "44,5 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*36,5 milliards* encore bloqués",
+      "dit": "Il reste 36,5 milliards de FCFA, soit 44,5 % non disponibles."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA BANQUE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "bank counter",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des *conditions* à vérifier",
+      "dit": "La banque doit visiter le site avant tout nouveau versement."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Sous-traitant",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple avec une entreprise qui attend un contrat."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Attente",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas de *date* garantie",
+      "dit": "Même si le crédit est signé, la date de paiement reste incertaine."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Signer n'est pas *avoir*",
+      "dit": "Un financement théorique ne donne pas un accès immédiat au cash."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Attendre la *décision* réelle",
+      "dit": "Il faut attendre la décision des prêteurs avant de lancer les travaux."
+    },
+    {
+      "type": "media",
+      "etiquette": "SITUATION",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "road construction africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les *étapes* doivent avancer",
+      "dit": "Les contrats prennent tout leur sens quand les étapes avancent."
+    }
+  ],
+  "question": "As-tu déjà eu un retard dans le déblocage d'un crédit ?"
+}
