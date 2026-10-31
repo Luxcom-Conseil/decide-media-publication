@@ -1,0 +1,203 @@
+{
+  "accroches": [
+    "As-tu vu ces milliards d'amendes annoncés par les douanes ?",
+    "2,27 milliards de FCFA d'amendes annoncés au Cameroun !",
+    "Ces amendes de la douane touchent aussi tes affaires."
+  ],
+  "titre": "Douanes au Cameroun : 2,27 milliards d'amendes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": "cameroon yaounde city"
+      },
+      "ecran": "2,27 milliards de FCFA d'amendes au Cameroun !",
+      "dit": "2,27 milliards de FCFA d'amendes annoncés au Cameroun !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun | Yaoundé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les douanes font le *bilan*",
+      "dit": "À Yaoundé, les douanes du Cameroun ont rendu leur bilan."
+    },
+    {
+      "type": "media",
+      "etiquette": "À SAVOIR",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Direction générale des Douanes (Cameroun)",
+        "logo": true,
+        "secours": "customs officer africa"
+      },
+      "ecran": "Voici ce que ça *change*",
+      "dit": "Et voici ce que ces chiffres changent vraiment pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*492* affaires examinées",
+      "dit": "En octobre 2026, la commission a examiné 492 affaires."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2,27 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "2,27 milliards de *FCFA*",
+      "dit": "Elle annonce 2,27 milliards de FCFA d'amendes."
+    },
+    {
+      "type": "media",
+      "etiquette": "LES TAXES",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "521,3 millions de *droits*",
+      "dit": "Et 521,3 millions de FCFA de droits compromis."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Annoncé n'est pas *encaissé*",
+      "dit": "Mais attention: ces montants ne sont pas encore tous encaissés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE PLUS GROS",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": null,
+        "apres": "44 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "44 % du *total*",
+      "dit": "L'absence de marchandise en entrepôt compte pour près de 44 % du total."
+    },
+    {
+      "type": "media",
+      "etiquette": "CONTREBANDE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "truck africa road",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "*101* cas de contrebande",
+      "dit": "En nombre de dossiers, la contrebande est en tête avec 101 cas."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "98 fausses *déclarations*",
+      "dit": "Prenons un exemple: 98 dossiers concernent de fausses déclarations de valeur."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçante",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Suivre l'argent *réellement* récupéré",
+      "dit": "Pour mesurer l'efficacité, il faudra regarder le recouvrement effectif."
+    }
+  ],
+  "question": "Penses-tu que les contrôles en douane touchent ton activité ?"
+}

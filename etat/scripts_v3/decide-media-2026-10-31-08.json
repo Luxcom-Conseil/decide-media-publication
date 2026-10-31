@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "Transporteur au Togo : ton contrôle commence ce 2 novembre ?",
+    "2 novembre 2026 : début des contrôles TPU au Togo.",
+    "Togo : attention aux contrôles sur ta taxe de transport !"
+  ],
+  "titre": "Togo : contrôles de la TPU des transporteurs",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "togo road traffic",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Transporteur au Togo : *contrôle* dès le 2 novembre ?",
+      "dit": "Transporteur au Togo, attention : les contrôles démarrent ce lundi 2 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À SAVOIR",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Togo",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* pour toi.",
+      "dit": "Et voici ce qu'il faut savoir pour éviter les ennuis sur la route."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Transporteur",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "La TPU, c'est le *trimestre*",
+      "dit": "La Taxe Professionnelle Unique des transporteurs, c'est ce qu'on appelle souvent le trimestre."
+    },
+    {
+      "type": "media",
+      "etiquette": "L'INSTITUTION",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "OTR",
+        "logo": true,
+        "secours": "tax office africa"
+      },
+      "ecran": "L'OTR *lance* les vérifications",
+      "dit": "L'Office togolais des recettes, l'OTR, annonce le contrôle du 3e trimestre 2026."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african minibus bus",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Contrôles sur tout le *territoire*",
+      "dit": "L'opération se déroule sur tout le territoire national togolais à partir du 2 novembre."
+    },
+    {
+      "type": "explication",
+      "etiquette": "COMMENT ÇA MARCHE",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Places / Tonnage",
+        "b": "Montant TPU",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le tarif *dépend* du véhicule",
+      "dit": "Le montant est calculé selon la catégorie, le nombre de places ou le tonnage du véhicule."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Chauffeur de minibus",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Situation personnelle",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Ne recopie pas le *voisin*",
+      "dit": "Pour un minibus, le montant dépend de sa grille, pas du prix payé par un autre chauffeur."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vérifier sa catégorie",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifie ta *catégorie* fiscale",
+      "dit": "Ce contrôle ne signifie pas une hausse des tarifs, mais une vérification des paiements dus."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "lome street transport",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "*Régularise* avant les contrôles",
+      "dit": "Régularise ta situation auprès de l'OTR avant le passage des agents."
+    }
+  ],
+  "question": "As-tu déjà mis à jour ta TPU pour le troisième trimestre ?"
+}

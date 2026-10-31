@@ -1,0 +1,250 @@
+{
+  "accroches": [
+    "Reçois-tu une indemnisation si l'État prend ta maison ?",
+    "715 millions de FCFA versés aux propriétaires d'Okala.",
+    "Si la route passe chez toi, ton indemnité arrive."
+  ],
+  "titre": "Okala : les indemnités distribuées",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "road construction africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Si la route passe chez toi, ton *indemnité* arrive",
+      "dit": "Si la route passe chez toi, ton indemnité arrive. Voici ce qu'il faut savoir."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE LIEU",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Gabon | Libreville",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cela se passe au *Gabon*",
+      "dit": "Au Gabon, les travaux d'élargissement de la voie d'Okala avancent."
+    },
+    {
+      "type": "media",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african city street",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une *indemnisation* pour les propriétaires",
+      "dit": "Une indemnisation, c'est de l'argent donné par l'État pour compenser la perte d'un bien."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "715 millions",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Première enveloppe de *715 millions* FCFA",
+      "dit": "Le ministre du Logement a remis les premiers chèques d'une enveloppe de 715 millions de FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LES BIENS",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Biens recensés : 20 habitations | 46 commerces | Total : 66",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*66* biens recensés au total",
+      "dit": "Au total, 66 biens sont recensés : 20 habitations et 46 bâtiments commerciaux."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE RECORD",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "310 millions",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *310 millions* FCFA",
+      "dit": "L'indemnisation individuelle la plus élevée annoncée atteint 310 millions de FCFA."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Propriétaire",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple. Tu possèdes une boutique touchée par les travaux du projet."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ton dossier est *évalué*",
+      "dit": "Ton dossier doit d'abord être évalué et validé par l'administration."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Chèque reçu",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Tu reçois ton *chèque*",
+      "dit": "Si ton dossier fait partie de la première phase, tu reçois ton chèque d'indemnisation."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ET EN PLUS",
+      "illustration": {
+        "type": "maison",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Titre foncier",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *parcelle* avec titre foncier",
+      "dit": "Une parcelle avec un titre foncier est aussi prévue sur un site identifié."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LA SUITE",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Deuxième phase",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *deuxième phase* reste prévue",
+      "dit": "Si ton dossier n'est pas encore validé, une deuxième phase est prévue après examen."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Les indemnités varient selon *l'évaluation*",
+      "dit": "Chaque dossier est unique : les montants ne sont pas identiques pour tous."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "office documents desk",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Suivre l'avancement de *ton dossier*",
+      "dit": "Suis bien la validation des dossiers et l'attribution des parcelles pour la suite."
+    }
+  ],
+  "question": "As-tu déjà été touché par des travaux publics près de chez toi ?"
+}

@@ -6475,10 +6475,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-10-31",
-      "maj": "2026-10-31T06:09:09+00:00",
-      "statut": "echec",
+      "maj": "2026-10-31T09:48:31+00:00",
+      "piste": "principale",
+      "post_id": "vTG4BIhCYJc",
+      "programme_pour": "2026-10-31T14:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Sécurité sociale au Cameroun : 17 millions de FCFA prévus pour le diagnostic. Une étude ne crée pas de nouveaux droits."
+      "titre": "Sécurité sociale au Cameroun : 17 millions de FCFA prévus pour le diagnostic. Une étude ne crée pas de nouveaux droits.",
+      "url": "https://youtu.be/vTG4BIhCYJc"
     }
   },
   "decide-media-2026-10-31-06": {
@@ -6536,6 +6540,17 @@
       "tentatives": 0,
       "titre": "À Libreville, 8 000 FCFA annoncés par tonne de déchets. Le pré-collecteur doit encore payer sa tournée.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-31",
+      "maj": "2026-10-31T09:51:22+00:00",
+      "piste": "principale",
+      "post_id": "EMx8L7HUESA",
+      "programme_pour": "2026-10-31T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Libreville, 8 000 FCFA annoncés par tonne de déchets. Le pré-collecteur doit encore payer sa tournée.",
+      "url": "https://youtu.be/EMx8L7HUESA"
     }
   },
   "decide-media-2026-10-31-07": {
@@ -6582,6 +6597,17 @@
       "tentatives": 0,
       "titre": "Les Douanes annoncent 2,27 milliards de FCFA d’amendes. Ce montant ne dit pas ce qui est encaissé.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-31",
+      "maj": "2026-10-31T09:55:14+00:00",
+      "piste": "principale",
+      "post_id": "-5YpbUQKpmk",
+      "programme_pour": "2026-10-31T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les Douanes annoncent 2,27 milliards de FCFA d’amendes. Ce montant ne dit pas ce qui est encaissé.",
+      "url": "https://youtu.be/-5YpbUQKpmk"
     }
   },
   "decide-media-2026-10-31-08": {
@@ -6628,6 +6654,17 @@
       "tentatives": 0,
       "titre": "Transporteurs au Togo : les contrôles de la TPU commencent le 2 novembre.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-31",
+      "maj": "2026-10-31T09:59:31+00:00",
+      "piste": "principale",
+      "post_id": "N9Bbth1X0AQ",
+      "programme_pour": "2026-10-31T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Transporteurs au Togo : les contrôles de la TPU commencent le 2 novembre.",
+      "url": "https://youtu.be/N9Bbth1X0AQ"
     }
   },
   "decide-media-2026-10-31-09": {
@@ -6674,6 +6711,17 @@
       "tentatives": 0,
       "titre": "À Okala, les premiers chèques d’indemnisation sont remis. Une deuxième phase reste prévue.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-31",
+      "maj": "2026-10-31T10:03:40+00:00",
+      "piste": "principale",
+      "post_id": "Me1sIGpdrqU",
+      "programme_pour": "2026-10-31T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Okala, les premiers chèques d’indemnisation sont remis. Une deuxième phase reste prévue.",
+      "url": "https://youtu.be/Me1sIGpdrqU"
     }
   },
   "decide-media-2026-10-31-10": {
@@ -6720,6 +6768,17 @@
       "tentatives": 0,
       "titre": "Côte d’Ivoire et RDC sortent de la liste grise du GAFI. Les contrôles contre le blanchiment continuent.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-10-31",
+      "maj": "2026-10-31T10:05:51+00:00",
+      "piste": "principale",
+      "post_id": "DjuYVElafAo",
+      "programme_pour": "2026-11-01T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Côte d’Ivoire et RDC sortent de la liste grise du GAFI. Les contrôles contre le blanchiment continuent.",
+      "url": "https://youtu.be/DjuYVElafAo"
     }
   }
 }
