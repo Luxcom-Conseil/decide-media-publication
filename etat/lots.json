@@ -7112,10 +7112,14 @@
     "youtube": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-11-01",
-      "maj": "2026-11-01T06:00:00+00:00",
-      "statut": "echec",
+      "maj": "2026-11-01T09:48:40+00:00",
+      "piste": "principale",
+      "post_id": "WsVy4AEh39o",
+      "programme_pour": "2026-11-01T14:30:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Au Sénégal, le budget rectificatif bute encore en commission. Que change ce nouveau rejet ?"
+      "titre": "Au Sénégal, le budget rectificatif bute encore en commission. Que change ce nouveau rejet ?",
+      "url": "https://youtu.be/WsVy4AEh39o"
     }
   },
   "decide-media-2026-11-01-06": {
@@ -7173,6 +7177,17 @@
       "tentatives": 0,
       "titre": "CIVIC passe par le numérique. Importer une voiture exige toujours un dossier juste.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-01",
+      "maj": "2026-11-01T09:51:11+00:00",
+      "piste": "principale",
+      "post_id": "4AGIrruGwaU",
+      "programme_pour": "2026-11-01T16:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "CIVIC passe par le numérique. Importer une voiture exige toujours un dossier juste.",
+      "url": "https://youtu.be/4AGIrruGwaU"
     }
   },
   "decide-media-2026-11-01-07": {
@@ -7219,6 +7234,17 @@
       "tentatives": 0,
       "titre": "À Vridi, Petroci annonce le feu éteint. La distribution du butane continue, assure l’entreprise.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-01",
+      "maj": "2026-11-01T09:53:27+00:00",
+      "piste": "principale",
+      "post_id": "eUVUWH0XR7o",
+      "programme_pour": "2026-11-01T17:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Vridi, Petroci annonce le feu éteint. La distribution du butane continue, assure l’entreprise.",
+      "url": "https://youtu.be/eUVUWH0XR7o"
     }
   },
   "decide-media-2026-11-01-08": {
@@ -7265,6 +7291,17 @@
       "tentatives": 0,
       "titre": "SIGCOM vise 36 communes supplémentaires. Le PROLOG prépare l’extension de l’outil.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-01",
+      "maj": "2026-11-01T09:55:47+00:00",
+      "piste": "principale",
+      "post_id": "9hfji5sPWzY",
+      "programme_pour": "2026-11-01T19:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "SIGCOM vise 36 communes supplémentaires. Le PROLOG prépare l’extension de l’outil.",
+      "url": "https://youtu.be/9hfji5sPWzY"
     }
   },
   "decide-media-2026-11-01-09": {
@@ -7311,6 +7348,17 @@
       "tentatives": 0,
       "titre": "Six réseaux d’eau solaire prévus à Batouri. L’appel d’offres porte sur 120 millions de FCFA.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-01",
+      "maj": "2026-11-01T09:58:26+00:00",
+      "piste": "principale",
+      "post_id": "8hCJywiYsW0",
+      "programme_pour": "2026-11-01T20:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Six réseaux d’eau solaire prévus à Batouri. L’appel d’offres porte sur 120 millions de FCFA.",
+      "url": "https://youtu.be/8hCJywiYsW0"
     }
   },
   "decide-media-2026-11-01-10": {
@@ -7357,6 +7405,17 @@
       "tentatives": 0,
       "titre": "À Lomé, 501 bénéficiaires terminent D-CLIC. Les projets numériques passent au test du travail.",
       "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-01",
+      "maj": "2026-11-01T10:01:24+00:00",
+      "piste": "principale",
+      "post_id": "EzWIm86AM6Y",
+      "programme_pour": "2026-11-02T07:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À Lomé, 501 bénéficiaires terminent D-CLIC. Les projets numériques passent au test du travail.",
+      "url": "https://youtu.be/EzWIm86AM6Y"
     }
   }
 }
