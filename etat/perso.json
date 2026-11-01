@@ -214,9 +214,12 @@
       "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261101-2100.jpg",
       "id": "20261101-2100",
       "legende": "Pourquoi tu t'énerves pour un rien ce matin ? Ça porte un nom.\n\nLe manque de sommeil a un impact direct sur notre humeur, notre niveau d'impulsivité et notre capacité de concentration au travail comme à la maison.\n\nHeureusement, il existe des solutions simples pour retrouver des nuits réparatrices et apaiser ses journées.\n\nÀ quelle heure éteins-tu ton téléphone le soir ?\n\n#sommeil #psychologie #bienetre #productivite #developpementpersonnel",
+      "media_id": "17919082932465083",
+      "publie_le": "2026-11-01T20:02:59+00:00",
       "quand": "2026-11-01T21:00:00+01:00",
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "sommeil",
+      "url": "https://www.instagram.com/reel/DfNizJEEulF/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-10-27/20261101-2100.mp4"
     },
     {
@@ -518,6 +521,13 @@
       "media_id": "18363533344301412",
       "sujet": "engagement",
       "url": "https://www.instagram.com/reel/DfNRgFlCS6e/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-01",
+      "media_id": "17919082932465083",
+      "sujet": "sommeil",
+      "url": "https://www.instagram.com/reel/DfNizJEEulF/"
     }
   ]
 }
