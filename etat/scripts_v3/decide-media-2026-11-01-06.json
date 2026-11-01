@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Tu veux importer une voiture au Cameroun ?",
+    "Le Cameroun numérise l'importation de voitures.",
+    "Attention à tes papiers si tu importes une auto !"
+  ],
+  "titre": "Importer une voiture : ce qui change",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "car import port africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Tu veux *importer* une voiture ?",
+      "dit": "Tu veux importer une voiture au Cameroun ? Attention aux nouvelles règles !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "À SAVOIR",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change*",
+      "dit": "Et voici ce que ça change concrètement pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ SA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala | Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le programme *CIVIC* à Douala",
+      "dit": "Un atelier s'est tenu à Douala le 27 octobre sur le programme CIVIC."
+    },
+    {
+      "type": "media",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": "douala port city"
+      },
+      "ecran": "Le *numérique* pour les voitures",
+      "dit": "Le programme CIVIC sert à identifier numériquement les véhicules importés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tout passe par *e-FORCE*",
+      "dit": "La procédure se fait maintenant en ligne via la plateforme e-FORCE."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Importateur",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Les *erreurs* restent des erreurs",
+      "dit": "Mais attention, numérisé ne veut pas dire automatique. Le dossier doit être exact."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Commerçant",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Une faute de *châssis* ?",
+      "dit": "Si le numéro de châssis saisi sur l'écran ne correspond pas à la voiture..."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "salarie",
+        "expression": "surprise",
+        "geste": "repos"
+      },
+      "fond": null,
+      "ecran": "Le dossier est *bloqué*",
+      "dit": "Ton dossier sera bloqué et il faudra faire une correction."
+    },
+    {
+      "type": "media",
+      "etiquette": "À SAVOIR",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "customs officer port",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Fiche *n'est pas* quittance",
+      "dit": "Avoir la fiche d'identification ne prouve pas que les taxes sont payées."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA LEÇON",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "used car ship container",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le numérique *n'offre pas* de réduction",
+      "dit": "Ce système rend le suivi plus clair, mais ne garantit pas de baisser les coûts."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Demande un *devis détaillé*",
+      "dit": "Avant de payer, sépare bien l'identification, les taxes et le transport."
+    }
+  ],
+  "question": "As-tu déjà eu des retards pour dédouaner une voiture ?"
+}

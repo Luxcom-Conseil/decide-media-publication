@@ -1,0 +1,250 @@
+{
+  "accroches": [
+    "6 nouveaux réseaux d'eau solaire à Batouri ?",
+    "120 millions de FCFA pour de l'eau potable à Batouri !",
+    "De l'eau solaire arrive bientôt dans tes robinets."
+  ],
+  "titre": "Batouri : 120 millions pour l'eau solaire",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african village water pump",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "120 millions de FCFA pour de l'eau à Batouri",
+      "dit": "120 millions de FCFA pour apporter de l'eau potable à Batouri !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Voici ce que ça *change* pour toi",
+      "dit": "Et voici ce que ce projet change concrètement pour les habitants."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un projet situé au *Cameroun*",
+      "dit": "Ça se passe à Batouri, une commune située à l'Est du Cameroun."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "solaire",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des pompes à eau *solaire*",
+      "dit": "L'énergie solaire va faire tourner des pompes pour distribuer de l'eau potable."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "120 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un appel d'offres de *120 millions*",
+      "dit": "Un appel d'offres de 120 millions de FCFA a été publié pour bâtir six mini-réseaux d'eau."
+    },
+    {
+      "type": "media",
+      "etiquette": "FINANCEMENT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "FEICOM",
+        "logo": true,
+        "secours": "african bank building"
+      },
+      "ecran": "Financé par le *FEICOM*",
+      "dit": "Ce projet est financé par le FEICOM et la commune pour l'exercice 2026."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DÉTAILS",
+      "illustration": {
+        "type": "maison",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 500 litres",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des réservoirs de *7 500 litres*",
+      "dit": "Chaque réseau aura un réservoir en béton d'une capacité de 7 500 litres."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXEMPLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african woman carrying water",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'eau arrive dans le *quartier*",
+      "dit": "Une commerçante d'un quartier concerné aura une fontaine d'eau potable plus proche de chez elle."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Moins de temps perdu à *attendre*",
+      "dit": "Elle gagnera du temps chaque jour pour son commerce au lieu d'aller chercher de l'eau loin."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ce n'est qu'un *budget*",
+      "dit": "Mais attention : 120 millions est un budget prévu, pas la preuve que les travaux sont faits."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "chantier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un projet passe par des *étapes*",
+      "dit": "Un projet public doit d'abord être attribué, puis construit avant de donner de l'eau."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "24 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre l'avancée des *travaux*",
+      "dit": "Il faut suivre le choix de l'entreprise après la fin des offres le 24 novembre 2026."
+    }
+  ],
+  "question": "As-tu déjà un réseau d'eau solaire dans ta commune ?"
+}

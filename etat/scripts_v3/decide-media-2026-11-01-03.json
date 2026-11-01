@@ -1,0 +1,203 @@
+{
+  "accroches": [
+    "6 000 volontaires pour les Jeux : quel avenir pour toi ?",
+    "6 000 jeunes mobilisés pour Dakar 2026 !",
+    "Ces Jeux olympiques peuvent transformer ton avenir professionnel."
+  ],
+  "titre": "Dakar 2026 : quel avenir pour les volontaires ?",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Dakar",
+        "logo": false,
+        "secours": "dakar senegal city"
+      },
+      "ecran": "6 000 *volontaires* mobilisés à Dakar !",
+      "dit": "6 000 volontaires sont mobilisés pour les Jeux olympiques de la jeunesse à Dakar !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Dakar | Sénégal",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Voici ce que ça *change*.",
+      "dit": "Et voici ce que ça va changer pour ces jeunes."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Un volontaire offre son *temps*.",
+      "dit": "Un volontaire aide gratuitement pendant un grand événement pour gagner de l'expérience."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Dakar",
+        "logo": false,
+        "secours": "dakar street senegal"
+      },
+      "ecran": "Le Sénégal prépare leur *avenir*.",
+      "dit": "Le gouvernement a demandé le 28 octobre de préparer leur insertion professionnelle."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "13 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "6 000 *jeunes* aux Jeux.",
+      "dit": "Les Jeux se déroulent du 31 octobre au 13 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Pas d'emploi *garanti* promis.",
+      "dit": "Attention : cela ne veut pas dire que 6 000 emplois seront distribués."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXEMPLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "hotel reception africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Prenons un *exemple* concret.",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Prouver ses *compétences* acquises.",
+      "dit": "Un jeune qui oriente les visiteurs doit pouvoir expliquer ses tâches pour postuler dans un hôtel."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Donner de la *valeur*.",
+      "dit": "Des attestations précises et un accompagnement donnent de la valeur à ce travail."
+    },
+    {
+      "type": "media",
+      "etiquette": "À FAIRE",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Dakar",
+        "logo": false,
+        "secours": "students campus africa"
+      },
+      "ecran": "Préparer l'après-Jeux *maintenant*.",
+      "dit": "Le suivi doit être préparé dès maintenant avec les employeurs et la formation."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Avenir : études | formation | emploi",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifier les *portes* ouvertes.",
+      "dit": "Le vrai succès sera de mesurer combien de jeunes trouvent un emploi ou une formation."
+    }
+  ],
+  "question": "Penses-tu que le volontariat aide vraiment à trouver un travail ?"
+}

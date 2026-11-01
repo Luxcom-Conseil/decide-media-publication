@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Du cobalt découvert dans ton champ au Cameroun ?",
+    "1 % de cobalt trouvé dans le sol !",
+    "Attention aux fausses promesses sur ton terrain."
+  ],
+  "titre": "Cobalt à Elig-Mfomo : attention aux rumeurs",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african village soil",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Du cobalt trouvé dans ton *champ* ?",
+      "dit": "Du cobalt découvert dans ton champ au Cameroun ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "À SAVOIR",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* pour toi",
+      "dit": "Et voici ce que ça change vraiment pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Découverte à *Elig-Mfomo*",
+      "dit": "Des chercheurs ont trouvé du nickel et du cobalt à Elig-Mfomo."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "petrole",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le cobalt est un *métal* rare",
+      "dit": "Le cobalt est un métal très recherché pour les batteries."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Elig-Mfomo",
+        "logo": false,
+        "secours": "african village soil nature"
+      },
+      "ecran": "Un échantillon dépasse *1 %*",
+      "dit": "Un seul échantillon dépasse 1 % de cobalt."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "0 %",
+        "apres": "1 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "1 % = *10 grammes* par kilo",
+      "dit": "1 %, c'est dix grammes de métal par kilogramme de terre."
+    },
+    {
+      "type": "media",
+      "etiquette": "ATTENTION",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "excavator digging soil",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Ce n'est pas encore une *mine*",
+      "dit": "Mais attention, un caillou riche ne fait pas une mine rentable !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "On lui promet la *fortune*",
+      "dit": "Si on te dit que ton champ vaut des millions car ton voisin a du cobalt..."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "C'est une *erreur*",
+      "dit": "C'est faux. Le sous-sol peut changer à quelques mètres près."
+    },
+    {
+      "type": "media",
+      "etiquette": "LA LEÇON",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african farmer field",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Pas de *précipitation*",
+      "dit": "Une analyse positive ne garantit ni travaux ni emplois."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Prudence : Attendre les études | Vérifier | Pas de spéculation",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Attends les *études officielles*",
+      "dit": "Ne vends pas ta terre et n'achète rien sur de simples rumeurs."
+    }
+  ],
+  "question": "As-tu déjà entendu des rumeurs de richesse sous les terres de ton village ?"
+}

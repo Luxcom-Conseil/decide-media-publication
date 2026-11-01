@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Ta commune sait-elle vraiment où installer tes services ?",
+    "36 communes du Cameroun vont moderniser leur gestion localisée.",
+    "Bientôt de meilleurs services publics dans ta commune ?"
+  ],
+  "titre": "Cameroun : 36 communes visées par SIGCOM",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "cameroon city road",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Ta commune sait-elle *où* investir ?",
+      "dit": "Ta commune sait-elle vraiment où installer tes services ?"
+    },
+    {
+      "type": "media",
+      "etiquette": "LA SUITE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african town street",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Voici ce que ça *change*",
+      "dit": "Et voici ce que ça change pour toi au quotidien."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ SA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Direction le *Cameroun*",
+      "dit": "Cela se passe au Cameroun, dans plusieurs collectivités."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "SIGCOM, l'outil de *carte*",
+      "dit": "Le SIGCOM est une carte informatique pour localiser tous les équipements de la ville."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "10",
+        "apres": "36",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*36* communes supplémentaires",
+      "dit": "Après 10 communes test, l'outil va s'étendre à 36 nouvelles communes."
+    },
+    {
+      "type": "media",
+      "etiquette": "L'OBJECTIF",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "water pump africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Mieux gérer le *patrimoine*",
+      "dit": "L'objectif est de recenser l'emplacement et l'état des routes ou des points d'eau."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Habitant",
+        "personnage": "artisan",
+        "expression": "inquiete",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Pompe en panne",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Trouver la *panne*",
+      "dit": "Une pompe à eau tombe en panne dans ton quartier."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Réparation rapide",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Intervenir plus *vite*",
+      "dit": "Grâce à la carte, la mairie sait exactement où elle est et envoie la bonne équipe."
+    },
+    {
+      "type": "media",
+      "etiquette": "COMMENT ?",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "office computer africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Logiciels et *ordinateurs*",
+      "dit": "Le projet va financer les ordinateurs et former les équipes locales."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "SIGCOM : Cartographier | Décider | Réparer",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Mieux voir pour *mieux* agir",
+      "dit": "Une commune qui connaît ses équipements prépare de meilleurs investissements."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Citoyen",
+        "personnage": "salarie",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Suivre les *services* municipaux",
+      "dit": "Pour les habitants, il faudra suivre si les services publics s'améliorent vraiment."
+    }
+  ],
+  "question": "Est-ce que ta mairie sait rapidement réparer les pannes dans ton quartier ?"
+}

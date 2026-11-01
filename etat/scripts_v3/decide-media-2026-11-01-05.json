@@ -1,0 +1,256 @@
+{
+  "accroches": [
+    "Le budget 2026 du Sénégal est-il bloqué ?",
+    "1 budget rectificatif rejeté en commission au Sénégal !",
+    "Tes bourses et subventions risquent-elles de prendre du retard ?"
+  ],
+  "titre": "Sénégal : le budget 2026 bloqué ?",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Sénégal",
+        "logo": false,
+        "secours": "dakar senegal city"
+      },
+      "ecran": "Le budget 2026 du Sénégal *bloqué* ?",
+      "dit": "Le budget 2026 du Sénégal est-il bloqué ?"
+    },
+    {
+      "type": "media",
+      "etiquette": "À SAVOIR",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african city street",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Voici ce que ça *change* pour toi",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Sénégal",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le débat se passe au *Sénégal*",
+      "dit": "Tout se passe au Sénégal, où les députés débattent du budget."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un budget pour *réviser* les dépenses",
+      "dit": "Un budget rectificatif sert à modifier les dépenses prévues au cours de l'année."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Assemblée nationale (Sénégal)",
+        "logo": false,
+        "secours": "senegal parliament building"
+      },
+      "ecran": "Rejeté le *30 octobre* en commission",
+      "dit": "Le 30 octobre, la commission des finances a rejeté le projet de budget."
+    },
+    {
+      "type": "media",
+      "etiquette": "L'INSTITUTION",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère des Finances et du Budget (Sénégal)",
+        "logo": true,
+        "secours": "finance ministry senegal"
+      },
+      "ecran": "Le ministère *alerte* sur la trésorerie",
+      "dit": "Le ministère des Finances alerte sur de possibles tensions d'argent."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EN JEU",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Priorités : Énergie | Bourses | Dépenses",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Énergie, bourses et dépenses *prioritaires*",
+      "dit": "On y discute des subventions à l'énergie et des bourses de sécurité familiale."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Bénéficiaire",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple* concret",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "SUR LE TERRAIN",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Paiement",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ce qui compte : la *date* du paiement",
+      "dit": "Pour une famille aidée, l'important est de savoir quand l'argent sera versé."
+    },
+    {
+      "type": "media",
+      "etiquette": "COMMERCE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market vendor",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Et pour les *fournisseurs* de l'État ?",
+      "dit": "Pour un fournisseur public, l'enjeu est de voir sa facture payée."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Restons prudents",
+        "personnage": "salarie",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Les aides ne sont pas *supprimées*",
+      "dit": "Mais attention, ce rejet ne veut pas dire que les aides sont annulées."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA suite",
+      "illustration": {
+        "type": "banque",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un vote en *séance plénière* arrive",
+      "dit": "Une séance plénière doit encore voter sur le texte à une date à venir."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un blocage *prolonge* le débat",
+      "dit": "Le rejet en commission rallonge les discussions, sans tout stopper."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Informons-nous",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Suivre les *propositions* et le vote",
+      "dit": "Il faut suivre les propositions chiffrées et le vote final."
+    }
+  ],
+  "question": "T'inquiètes-tu des retards de paiement de l'État ?"
+}

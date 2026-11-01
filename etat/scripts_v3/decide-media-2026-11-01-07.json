@@ -1,0 +1,223 @@
+{
+  "accroches": [
+    "Vas-tu manquer de gaz en Côte d'Ivoire ?",
+    "2 heures pour éteindre l'incendie de gaz à Vridi !",
+    "Cet incendie risque d'impacter ta bouteille de gaz."
+  ],
+  "titre": "Incendie de gaz à Vridi : quel impact ?",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "gas cylinder cooking",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Vas-tu *manquer* de gaz ?",
+      "dit": "Vas-tu manquer de gaz pour ta cuisine en Côte d'Ivoire ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "RASSURE-TOI",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Ménages",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "La *distribution* de gaz continue",
+      "dit": "Et voici ce que ça change pour toi."
+    },
+    {
+      "type": "media",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Petroci",
+        "logo": true,
+        "secours": "gas company warehouse"
+      },
+      "ecran": "Petroci géant du *gaz* ivoirien",
+      "dit": "Petroci est la société nationale qui gère le pétrole et le gaz."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE LIEU",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Côte d'Ivoire",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Incident survenu à *Abidjan*",
+      "dit": "Le 31 octobre, une fuite de gaz a déclenché un feu."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Abidjan",
+        "logo": false,
+        "secours": "city street africa"
+      },
+      "ecran": "Incendie déclaré à *7 h 25*",
+      "dit": "Une fuite s'est produite le 31 octobre à 7 h 25 sur un site de Petroci."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DURÉE",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 h 21 min",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Feu éteint à *9 h 46*",
+      "dit": "Il s'est écoulé deux heures et vingt et une minutes avant l'extinction."
+    },
+    {
+      "type": "media",
+      "etiquette": "BILAN",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Société ivoirienne de raffinage",
+        "logo": true,
+        "secours": "fire truck station"
+      },
+      "ecran": "Aucune *perte* en vie humaine",
+      "dit": "Les pompiers ont éteint le feu. Il n'y a aucune victime."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vendeurs",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "maison",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cuisine",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bouteilles de *butane* disponibles",
+      "dit": "Un vendeur de bouteilles s'inquiète pour son stock de gaz."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vendeur",
+        "personnage": "artisan",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "La distribution *continue*",
+      "dit": "Petroci rassure : les livraisons de gaz butane continuent normalement."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas de *pénurie* prouvée",
+      "dit": "Rien ne permet de déduire une pénurie ou une hausse des prix."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Info : Dégâts | Enquête",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre les *résultats* officiels",
+      "dit": "Il faut attendre l'évaluation des dégâts et l'enquête technique."
+    }
+  ],
+  "question": "As-tu remarqué des manques de bouteilles de gaz près de chez toi ?"
+}

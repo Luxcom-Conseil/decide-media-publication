@@ -1,0 +1,250 @@
+{
+  "accroches": [
+    "Veux-tu voir les routes de ton pays enfin terminées ?",
+    "Le Cameroun veut consacrer 30 % du budget à l'investissement.",
+    "Ce choix budgétaire va changer ton quotidien au marché."
+  ],
+  "titre": "Cameroun : vers 30 % d'investissement en 2027",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "road construction africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Voir les *routes* enfin terminées ?",
+      "dit": "Veux-tu voir les routes de ton pays enfin terminées ?"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Citoyen",
+        "personnage": "artisan",
+        "expression": "pensive",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Ce que ça *change* pour toi",
+      "dit": "Et voici ce que cela change concrètement pour ton quotidien."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA SE PASSE",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *Cameroun* prépare 2027",
+      "dit": "Tout se passe au Cameroun, pour préparer le budget de 2027."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "chantier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'*investissement*, c'est construire",
+      "dit": "L'investissement public, c'est l'argent réservé pour construire des routes ou des ponts."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE FAIT",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "23,4 %",
+        "apres": "30 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Viser au moins *30 %* du budget",
+      "dit": "Une circulaire du 12 octobre fixe un objectif d'au moins 30 % pour l'investissement."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE CONSTAT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": "african city buildings"
+      },
+      "ecran": "En 2026 : *23,4 %* du budget",
+      "dit": "En 2026, l'investissement compte 2 031,15 milliards sur 8 683,9 milliards de budget."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vendeuse",
+        "personnage": "commercante",
+        "expression": "inquiete",
+        "geste": "repos"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "media",
+      "etiquette": "SUR LE TERRAIN",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Pour une vendeuse de *vivres*",
+      "dit": "Une vendeuse de vivres attend au marché ses produits par camion."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LE BESOIN",
+      "illustration": {
+        "type": "chantier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Finir le *pont* pour le camion",
+      "dit": "Terminer le pont permettra au camion d'arriver jusqu'à son étal."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA PRIORITÉ",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Vendeuse",
+        "personnage": "commercante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Un ouvrage *terminé* aide le marché",
+      "dit": "Un pont utilisable facilite son travail, bien plus qu'une simple promesse."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LES ENTREPRISES",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Entrepreneur",
+        "personnage": "salarie",
+        "expression": "inquiete",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Protéger les *entreprises* du BTP",
+      "dit": "Si l'argent ne suit pas, l'entrepreneur ne peut plus payer ses salariés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Suivre la *fin* des chantiers",
+      "dit": "Augmenter le budget doit s'accompagner d'un suivi des travaux vraiment achevés."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Loi de finances : Sommes | Calendriers | Services",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifier la loi de *finances*",
+      "dit": "Dans la future loi de finances, il faudra vérifier le calendrier des paiements."
+    }
+  ],
+  "question": "Penses-tu que la priorité doit être de finir les anciens chantiers avant d'en lancer de nouveaux ?"
+}

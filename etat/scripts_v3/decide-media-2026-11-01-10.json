@@ -1,0 +1,263 @@
+{
+  "accroches": [
+    "Veux-tu te former gratuitement aux métiers du numérique ?",
+    "501 jeunes formés au numérique à Lomé !",
+    "Une formation au numérique change ton avenir professionnel."
+  ],
+  "titre": "Lomé : 501 jeunes formés au numérique",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Université de Lomé",
+        "logo": false,
+        "secours": "students campus africa"
+      },
+      "ecran": "501 *jeunes* formés au numérique !",
+      "dit": "À Lomé, 501 jeunes viennent de terminer une formation aux métiers du numérique !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Togo | Lomé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change*.",
+      "dit": "Et voici ce que ce programme change concrètement pour l'emploi."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Programme D-CLIC",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "D-CLIC : *formation* aux métiers digitaux",
+      "dit": "Le programme D-CLIC, c'est une formation gratuite pour apprendre les métiers du Web."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Université de Lomé",
+        "logo": false,
+        "secours": "university hall africa"
+      },
+      "ecran": "*501* diplômés le 30 octobre",
+      "dit": "Au total, 501 bénéficiaires ont reçu leur attestation le 30 octobre à l'Université de Lomé."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE DURÉE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "students campus africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une formation de *4 mois*",
+      "dit": "Financé par la Francophonie, ce parcours pratique a duré environ 4 mois."
+    },
+    {
+      "type": "explication",
+      "etiquette": "DOMAINES",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Compétences : Web & Mobile | Design | Données & IA",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Du *web* à l'intelligence artificielle",
+      "dit": "Les étudiants ont appris le développement web, le design ou l'intelligence artificielle."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSEAU",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "pensive",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Un réseau de *300* entreprises",
+      "dit": "L'incubateur travaille avec plus de 300 entreprises partenaires."
+    },
+    {
+      "type": "explication",
+      "etiquette": "PRÉCISION",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Attention : pas de *stage* garanti",
+      "dit": "Ce réseau est un contact utile, mais cela ne garantit pas 501 emplois immédiats."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*.",
+      "dit": "Prenons un exemple."
+    },
+    {
+      "type": "media",
+      "etiquette": "EXEMPLE",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "african market shop",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Aider une *boutique* en ligne",
+      "dit": "Une diplômée souhaite aider une boutique locale à présenter ses produits sur Internet."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "tient_document"
+      },
+      "fond": null,
+      "ecran": "Montrer ses *projets* réalisés",
+      "dit": "Elle montre son projet de fin d'études au commerçant pour prouver son savoir-faire."
+    },
+    {
+      "type": "explication",
+      "etiquette": "RÉSULTAT",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "tient_billet"
+      },
+      "fond": null,
+      "ecran": "Décrocher un premier *client*",
+      "dit": "La preuve par la pratique lui permet de décrocher son premier contrat rémunéré."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Attestation",
+        "b": "Projets réels",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *pratique* vaut plus que le diplôme",
+      "dit": "L'attestation confirme la formation, mais ce sont tes projets qui convainquent le client."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Crée ton *portfolio* de projets",
+      "dit": "Si tu te formes, constitue un dossier de réalisations concrètes à montrer aux recruteurs."
+    }
+  ],
+  "question": "Penses-tu que les formations courtes au numérique aident vraiment à trouver un emploi ?"
+}

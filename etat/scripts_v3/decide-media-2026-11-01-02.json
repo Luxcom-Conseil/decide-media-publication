@@ -1,0 +1,230 @@
+{
+  "accroches": [
+    "164 écoles pro annoncées en Côte d'Ivoire !",
+    "La formation pro va-t-elle changer ton avenir ?",
+    "Du travail garanti pour nos jeunes professionnels ?"
+  ],
+  "titre": "164 centres de formation en Côte d'Ivoire",
+  "scenes": [
+    {
+      "type": "accroche",
+      "etiquette": "",
+      "illustration": null,
+      "fond": {
+        "source": "pixabay",
+        "recherche": "vocational training africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "164 écoles *pro* en Côte d'Ivoire !",
+      "dit": "164 écoles professionnelles annoncées en Côte d'Ivoire !"
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA SUITE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Étudiante",
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "salue"
+      },
+      "fond": null,
+      "ecran": "Et voici ce que ça *change* !",
+      "dit": "Et voici ce que ça change concrètement pour ton avenir."
+    },
+    {
+      "type": "explication",
+      "etiquette": "OÙ ÇA ?",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Côte d'Ivoire",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ça se passe en *Côte d'Ivoire*",
+      "dit": "Le gouvernement prévoit ce grand projet d'ici 2030."
+    },
+    {
+      "type": "explication",
+      "etiquette": "C'EST QUOI ?",
+      "illustration": {
+        "type": "chantier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Construire et *réhabiliter* des ateliers",
+      "dit": "C'est construire et rénover des centres pour apprendre des métiers."
+    },
+    {
+      "type": "media",
+      "etiquette": "LE FAIT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Abidjan",
+        "logo": false,
+        "secours": "abidjan city ivory coast"
+      },
+      "ecran": "*164* établissements d'ici 2030",
+      "dit": "L'annonce parle de 164 établissements techniques et professionnels."
+    },
+    {
+      "type": "media",
+      "etiquette": "L'ÉVÉNEMENT",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "CGECI",
+        "logo": true,
+        "secours": "business forum africa"
+      },
+      "ecran": "Des formations avec les *entreprises*",
+      "dit": "L'objectif est d'enseigner des métiers directement adaptés au marché."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Apprentie",
+        "personnage": "etudiante",
+        "expression": "pensive",
+        "geste": "reflechit"
+      },
+      "fond": null,
+      "ecran": "Prenons un *exemple*",
+      "dit": "Prenons un exemple avec une apprentie électricienne."
+    },
+    {
+      "type": "explication",
+      "etiquette": "EXEMPLE",
+      "illustration": {
+        "type": "personnage",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": "etudiante",
+        "expression": "contente",
+        "geste": "montre"
+      },
+      "fond": null,
+      "ecran": "Apprendre la *pratique* sur le terrain",
+      "dit": "Elle doit savoir dépanner et travailler en sécurité dans une vraie entreprise."
+    },
+    {
+      "type": "explication",
+      "etiquette": "ATTENTION",
+      "illustration": {
+        "type": "loupe",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ce ne sont pas *164* nouvelles écoles",
+      "dit": "Attention, il y aura de la rénovation, pas uniquement des bâtiments neufs."
+    },
+    {
+      "type": "explication",
+      "etiquette": "POUR LES FAMILLES",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les frais de *transport* et matériel",
+      "dit": "Les repas et les déplacements restent une charge pour les parents."
+    },
+    {
+      "type": "explication",
+      "etiquette": "LA LEÇON",
+      "illustration": {
+        "type": "balance",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": "Théorie",
+        "b": "Emploi",
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Créer de *vrais* emplois",
+      "dit": "Un beau bâtiment ne suffit pas, il faut un vrai travail à la sortie."
+    },
+    {
+      "type": "explication",
+      "etiquette": "À FAIRE",
+      "illustration": {
+        "type": "liste",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Suivre : Matériel | Stages | Emplois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifier la *qualité* des ateliers",
+      "dit": "Il faut vérifier si les ateliers sont bien équipés pour les jeunes."
+    }
+  ],
+  "question": "Penses-tu que les formations professionnelles aident vraiment à trouver un travail chez toi ?"
+}
