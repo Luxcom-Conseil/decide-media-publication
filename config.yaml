@@ -67,12 +67,13 @@ buffer:
     x_buffer: 6ad88f9c778b240e2f78d689          # X @Decide_Media
     linkedin_buffer: 6ad88ffd778b240e2f78dad7   # Page LinkedIn DECIDE MEDIA
     tiktok_buffer: 6ad8aefe778b240e2f7a1ffd     # TikTok @decide_media (Shorts seulement, mention IA)
-  shorts_par_lot: 4            # les 4 premiers articles en Short, les 6 suivants en visuel
+  shorts_par_lot: 4            # les 4 premiers articles en Short, le 5e en visuel
 
 # Lots quotidiens DECIDE MEDIA (commande : python -m agent lots)
 lots:
   dossier_drive: 1T_1QBeDbS1GIgHY2UsZsNnN3wJu5Cmwa   # « Article DECIDE MEDIA - Quotidien »
-  # facebook = 10 visuels ; facebook_shorts = les 6 premiers Shorts en vidéo sur la Page (16 posts/jour)
+  # 5 articles par jour (protocole 2.0, décision de Stéphane du 02/11/2026) :
+  # facebook = 5 visuels ; facebook_shorts = les 5 Shorts en vidéo sur la Page (10 posts/jour)
   reseaux: [facebook, youtube, facebook_shorts, x_buffer, linkedin_buffer, tiktok_buffer]   # sans accès : ignoré
   max_par_lot:
     youtube: 10                # limite d'envoi constatée le 21/10 : 10 vidéos/jour ; au-delà, réessai le lendemain
@@ -94,10 +95,11 @@ lots:
     depuis: "2026-10-16"
     reseaux_avec_lot_du_jour: [facebook]
   fuseau_creneaux: Africa/Douala   # heures de publication pensées pour le lectorat camerounais
-  creneaux: ["07:00", "08:30", "10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00", "20:30"]
+  # 5 créneaux étalés sur la journée ; premier à 08:00 pour laisser au passage de 06:45 le temps de rendre les Shorts
+  creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00"]
   creneaux_par_reseau:         # Shorts Facebook : 45 min après le visuel du même article
-    facebook_shorts: ["07:45", "09:15", "10:45", "12:15", "13:45", "15:15"]
-    tiktok_buffer: ["07:15", "08:45", "10:15", "11:45", "13:15", "14:45", "16:15", "17:45", "19:15", "20:45"]
+    facebook_shorts: ["08:45", "11:45", "14:45", "17:45", "20:45"]
+    tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15"]
     # visuels du lot de rattrapage : 20 min après chaque visuel du lot du jour
     facebook_rattrapage: ["07:20", "08:50", "10:20", "11:50", "13:20", "14:50", "16:20", "17:50", "19:20", "20:50"]
   marge_minutes: 20

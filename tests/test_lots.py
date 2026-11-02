@@ -42,6 +42,16 @@ def test_controle_manifeste():
         controler_manifeste(m, "2026-10-21")
 
 
+def test_controle_manifeste_protocole_2_0():
+    cinq = {"protocol_version": "2.0", "article_count": 5, "required_article_count": 5}
+    assert len(controler_manifeste(manifeste(**cinq, articles=[article(i) for i in range(1, 6)]), "2026-10-21")) == 5
+    with pytest.raises(LotInvalide, match="exactement 5 articles"):
+        controler_manifeste(manifeste(protocol_version="2.0"), "2026-10-21")  # 10 articles en 2.0
+    with pytest.raises(LotInvalide, match="exactement 10 articles"):  # 5 articles en 1.3
+        controler_manifeste(manifeste(**{**cinq, "protocol_version": "1.3"},
+                                      articles=[article(i) for i in range(1, 6)]), "2026-10-21")
+
+
 def test_creneaux_du_jour_et_decalage():
     h = creneaux(CFG, datetime(2026, 10, 21).date(), 10, MATIN, [])
     assert [x.strftime("%H:%M") for x in h[:3]] == ["07:00", "08:30", "10:00"]

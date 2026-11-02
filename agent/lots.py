@@ -1,5 +1,5 @@
 """Mode « lots DECIDE MEDIA » : lit les lots quotidiens déposés dans Drive par le producteur
-(protocole _PROTOCOLE_DECIDE_MEDIA.md v1.2) et les dépose dans les planificateurs des réseaux.
+(protocole DECIDE MEDIA v1.2 à v2.0) et les dépose dans les planificateurs des réseaux.
 
 Règles du protocole appliquées :
   - seuls les sous-dossiers datés AAAA-MM-JJ sont parcourus ; _references et le protocole sont ignorés ;
@@ -22,6 +22,7 @@ from .publieurs.base import ErreurLimite
 
 RE_LOT = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 DATE_CONTRAT_12 = date(2026, 10, 12)
+ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": 5}  # 1.3 = 1.2 + champs de rattrapage ; 2.0 = 5 articles par jour
 
 
 class LotInvalide(ValueError):
@@ -38,12 +39,13 @@ def controler_manifeste(m: dict, nom_dossier: str) -> list[dict]:
         raise LotInvalide(f"date du manifeste ({m.get('date')}) ≠ nom du dossier ({nom_dossier})")
     articles = m.get("articles") or []
     if date.fromisoformat(nom_dossier) >= DATE_CONTRAT_12:
-        if m.get("protocol_version") not in ("1.2", "1.3"):  # 1.3 = 1.2 + champs de rattrapage
-            raise LotInvalide(f"protocol_version {m.get('protocol_version')} ≠ 1.2 ou 1.3")
+        attendus = ARTICLES_PAR_PROTOCOLE.get(m.get("protocol_version"))
+        if attendus is None:
+            raise LotInvalide(f"protocol_version {m.get('protocol_version')} ≠ 1.2, 1.3 ou 2.0")
         if m.get("publish_allowed") is False:
             raise LotInvalide("le producteur a marqué ce lot publish_allowed=false")
-        if not (m.get("required_article_count") == m.get("article_count") == len(articles) == 10):
-            raise LotInvalide(f"il faut exactement 10 articles (article_count={m.get('article_count')}, "
+        if not (m.get("required_article_count") == m.get("article_count") == len(articles) == attendus):
+            raise LotInvalide(f"il faut exactement {attendus} articles (article_count={m.get('article_count')}, "
                               f"entrées={len(articles)})")
         for champ in ("delivery_deadline", "delivered_on_time", "completed_at"):
             if champ not in m:
