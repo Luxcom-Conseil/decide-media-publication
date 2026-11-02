@@ -140,12 +140,16 @@ def _nombres(texte: str) -> set[str]:
     return nombres
 
 
+def nombres_permis(source: str) -> set[str]:
+    """Les nombres de l'article, écrits en chiffres ou en lettres (« quinze mois »)."""
+    from num2words import num2words
+    return _nombres(source) | {str(n) for n in range(1, 101) if re.search(rf"\b{num2words(n, lang='fr')}\b", source, re.I)}
+
+
 def controler(script: dict, article: dict) -> list[str]:
     """Problèmes qui interdisent d'utiliser le script (liste vide = bon pour la vidéo)."""
     source = " ".join(str(article.get(k) or "") for k in ("title", "body", "post_text", "value_added"))
-    from num2words import num2words
-    en_lettres = {str(n) for n in range(1, 101) if re.search(rf"\b{num2words(n, lang='fr')}\b", source, re.I)}  # « quinze mois »
-    permis = _nombres(source) | {str(n) for n in range(0, 13)} | en_lettres  # « 0 frais », « 12 mois »
+    permis = nombres_permis(source) | {str(n) for n in range(0, 13)}  # « 0 frais », « 12 mois »
     problemes = []
     if not 8 <= len(script.get("scenes") or []) <= 18:
         problemes.append(f"{len(script.get('scenes') or [])} scènes (8 à 18 attendues)")

@@ -1,6 +1,6 @@
-// Gabarit V3 (prototype, 27/10/2026) : le rythme des Reels perso aux couleurs DECIDE. Accroche choc, entrée de scène
+// Gabarit V3 (27/10/2026, mode information le 02/11/2026) : le rythme des Reels perso aux couleurs DECIDE. Hook, entrée de scène
 // « punch », texte cinétique mot à mot (*mots clés* en orange), sous-titres karaoké, fonds réalistes libres (Wikimedia
-// Commons, Pixabay) avec leur crédit à l'écran, dessins animés et personnages pour les explications.
+// Commons, Pixabay) avec leur crédit à l'écran, dessins animés pour un lieu, un chiffre ou une date.
 // Zones sûres (1080×1920, Shorts / Reels / TikTok) : rien au-dessus de 230 (barres de recherche et onglets des applis),
 // en-tête 230–400, contenu 430–1240, sous-titres 1270–1430, crédit ~1450, rien d'important dans les 150 px de droite.
 import React from "react";
@@ -21,8 +21,7 @@ const G = 60, D = 150; // marges gauche / droite
 export type MediaV3 = { src: string; video: boolean; credit?: string; logo?: boolean };
 
 export type SceneV3 = {
-  type: "accroche" | "media" | "explication" | "question" | "outro";
-  etiquette?: string;
+  type: "accroche" | "media" | "explication" | "outro";
   ecran?: string; // *mot clé* en orange
   illustration?: Illustration;
   media?: MediaV3;
@@ -134,13 +133,6 @@ const Cinetique: React.FC<{ texte: string; taille: number; top: number; pas?: nu
   );
 };
 
-const Etiquette: React.FC<{ t?: string; top?: number }> = ({ t, top = 430 }) => t ? (
-  <div style={{ position: "absolute", top, left: G, right: D - 40, display: "flex", justifyContent: "center" }}>
-    <Pop><div style={{ background: ORANGE, color: BLANC, fontFamily, fontWeight: 900, fontSize: 38, letterSpacing: 3,
-      padding: "8px 24px", borderRadius: 8 }}>{t}</div></Pop>
-  </div>
-) : null;
-
 // accroche : sur un fond réaliste si on en a un, sinon sur le visuel du lot en carte (son texte incrusté reste lisible)
 const Accroche: React.FC<{ sc: SceneV3; image: string; long: number }> = ({ sc, image, long }) => {
   const f = useCurrentFrame();
@@ -163,11 +155,11 @@ const Accroche: React.FC<{ sc: SceneV3; image: string; long: number }> = ({ sc, 
 
 const Explication: React.FC<{ sc: SceneV3; image: string }> = ({ sc, image }) => (
   <>
-    <Etiquette t={sc.etiquette} />
     <div style={{ position: "absolute", top: 510, left: 140 }}>
       {sc.illustration?.type === "photo"
-        ? <div style={{ width: 760, height: 500, borderRadius: 20, overflow: "hidden", border: `6px solid ${ORANGE}` }}>
-            <Img src={staticFile(image)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 20%" }} /></div>
+        ? <div style={{ position: "relative", width: 760, height: 500, borderRadius: 20, overflow: "hidden", border: `6px solid ${ORANGE}` }}>
+            {/* la partie photo du visuel seulement (sous le logo, au-dessus du titre : 8 à 48 % de sa hauteur), le titre est déjà en tête */}
+            <Img src={staticFile(image)} style={{ position: "absolute", width: 1250, height: 1250, maxWidth: "none", left: -245, top: -100 }} /></div>
         : <Dessin il={sc.illustration!} />}
     </div>
     {sc.ecran && <Cinetique texte={sc.ecran} taille={sc.ecran.length > 28 ? 60 : 70} top={1040} />}
@@ -176,21 +168,7 @@ const Explication: React.FC<{ sc: SceneV3; image: string }> = ({ sc, image }) =>
 
 const ScMedia: React.FC<{ sc: SceneV3 }> = ({ sc }) => (
   <>
-    <Etiquette t={sc.etiquette} />
     {sc.ecran && <Cinetique texte={sc.ecran} taille={sc.ecran.length > 28 ? 74 : 88} top={sc.media?.logo ? 1000 : 820} />}
-  </>
-);
-
-const Question: React.FC<{ sc: SceneV3 }> = ({ sc }) => (
-  <>
-    <div style={{ position: "absolute", top: 430, left: G, right: D - 40, display: "flex", justifyContent: "center" }}>
-      <Pop><div style={{ fontFamily, fontWeight: 900, fontSize: 200, color: ORANGE, lineHeight: 1 }}>?</div></Pop>
-    </div>
-    <Cinetique texte={sc.ecran ?? ""} taille={(sc.ecran ?? "").length > 60 ? 62 : 74} top={680} />
-    <div style={{ position: "absolute", top: 1120, left: G, right: D - 40, display: "flex", justifyContent: "center" }}>
-      <Pop delai={14}><div style={{ background: ORANGE, color: BLANC, fontFamily, fontWeight: 900, fontSize: 44, padding: "18px 34px",
-        borderRadius: 50 }}>Dis-le en commentaire 👇</div></Pop>
-    </div>
   </>
 );
 
@@ -198,7 +176,7 @@ const Outro: React.FC<{ s: ScriptV3 }> = ({ s }) => (
   <AbsoluteFill style={{ top: 420, height: 800, alignItems: "center", justifyContent: "center", textAlign: "center" }}>
     <Pop><div style={{ fontFamily, fontWeight: 900, fontSize: 120, color: BLANC }}>DEC<span style={{ color: ORANGE }}>I</span>DE
       <span style={{ fontWeight: 600, fontSize: 50, marginLeft: 8 }}>media</span></div></Pop>
-    <Pop delai={4}><div style={{ fontFamily, fontWeight: 800, fontSize: 52, color: ORANGE, marginTop: 20 }}>Abonne-toi pour comprendre</div></Pop>
+    <Pop delai={4}><div style={{ fontFamily, fontWeight: 800, fontSize: 52, color: ORANGE, marginTop: 20 }}>Abonne-toi</div></Pop>
     {s.source && <Pop delai={8}><div style={{ fontFamily, fontWeight: 600, fontSize: 30, color: GRIS, marginTop: 50, padding: "0 80px" }}>{s.source}</div></Pop>}
   </AbsoluteFill>
 );
@@ -206,7 +184,7 @@ const Outro: React.FC<{ s: ScriptV3 }> = ({ s }) => (
 // sous-titres karaoké : 4 mots au plus, le mot prononcé en orange
 const SousTitres: React.FC<{ sc: SceneV3 }> = ({ sc }) => {
   const f = useCurrentFrame();
-  if (!sc.voix || !sc.soustitre || ["question", "outro"].includes(sc.type)) return null;
+  if (!sc.voix || !sc.soustitre || sc.type === "outro") return null;
   const mots = fr(sc.soustitre).split(/ +/).filter(Boolean); // l'espace insécable lie un nombre à son unité
   const total = mots.reduce((n, m) => n + m.length + 1, 0);
   const images = sc.voix.duree * FPS;
@@ -277,7 +255,6 @@ export const GabaritV3: React.FC<ScriptV3> = (s) => {
             {p.sc.type === "accroche" && <Accroche sc={p.sc} image={s.image} long={p.longueur} />}
             {p.sc.type === "media" && <ScMedia sc={p.sc} />}
             {p.sc.type === "explication" && <Explication sc={p.sc} image={s.image} />}
-            {p.sc.type === "question" && <Question sc={p.sc} />}
             {p.sc.type === "outro" && <Outro s={s} />}
           </Punch>
           <SousTitres sc={p.sc} />
