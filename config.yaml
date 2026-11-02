@@ -88,8 +88,9 @@ lots:
   # Rattrapage (règle validée par Stéphane le 21/10) : un lot « backfill » par jour, du plus ancien au plus récent.
   # Avec un lot du jour : rattrapage sur Facebook seulement (10 visuels, créneaux intercalés).
   # Sans lot du jour : le rattrapage passe sur tous les réseaux, aux créneaux normaux.
+  # Coupé le 02/11/2026 à la demande de Stéphane : les lots du 19 et du 20/10 ne doivent pas partir.
   rattrapage:
-    actif: true
+    actif: false
     depuis: "2026-10-16"
     reseaux_avec_lot_du_jour: [facebook]
   fuseau_creneaux: Africa/Douala   # heures de publication pensées pour le lectorat camerounais
