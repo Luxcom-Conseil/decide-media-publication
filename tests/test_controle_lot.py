@@ -1,6 +1,9 @@
 import json
-from datetime import date
+from datetime import date, datetime
 
+import pytest
+
+from agent import controle_lot
 from agent.controle_lot import controler, diagnostiquer, titre_alerte
 from agent.sources import Dossier, Fichier
 
@@ -87,3 +90,14 @@ def test_simulation_n_ouvre_rien():
     journal = []
     controler(FauxDrive(), None, JOUR, journal.append, simulation=True)
     assert "Aucun dossier" in journal[0]
+
+
+def test_pas_de_controle_avant_l_heure(monkeypatch):
+    class TotLeMatin(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2026, 11, 4, 5, 45, tzinfo=tz)
+
+    monkeypatch.setattr(controle_lot, "datetime", TotLeMatin)
+    monkeypatch.setattr(controle_lot.SourceDrive, "depuis_env", lambda: pytest.fail("le Drive ne doit pas être lu"))
+    assert controle_lot.main([]) == 0
