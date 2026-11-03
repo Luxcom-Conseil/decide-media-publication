@@ -33,3 +33,7 @@ def test_elisions_collees_au_mot_suivant():
     t = preparer("Tu veux t’inscrire à l'Université de Yaoundé I, date d'inscription, l’argent de l'État.",
                  [("Yaoundé I", "Yaoundé un")])
     assert t == "Tu veux t'inscrire à luniversité de Yaoundé un, date dinscription, largent de létat."
+
+
+def test_preparer_garde_les_elisions_pour_la_voix_de_conseil():
+    assert preparer("Dans l'État, c'est d'abord l’argent.", [], coller=False) == "Dans l'État, c'est d'abord l'argent."

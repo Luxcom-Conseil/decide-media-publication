@@ -27,7 +27,7 @@ ETAT = RACINE / "etat" / "perso.json"
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 CRF = 25  # qualité du MP4 : 25 garde la semaine (21 Reels) sous la limite de 1 Go de GitHub Pages
 PAROLE_MIN = 1000  # caractères dits ≈ 60 secondes de vidéo avec la voix Schedar (884 = 53 s, 1036 = 61 s le 27/10)
-PAROLE_COURT = (420, 650)  # format court : 30 à 35 secondes de vidéo, avec la signature
+PAROLE_COURT = (370, 560)  # format court : 30 à 35 secondes de vidéo avec la voix de conseil, plus lente (15 caractères/s)
 TYPES = ["accroche", "texte", "liste", "comparaison", "citation"]
 _TXT = {"type": "string"}
 _TXT_NUL = {"anyOf": [{"type": "string"}, {"type": "null"}]}
@@ -74,7 +74,7 @@ FORMULES = [
 ACCROCHE_USEE = re.compile(r"porte un nom|ça s'appelle|pas (de )?ta faute", re.I)
 
 FORMAT_COURT = """FORMAT COURT, prioritaire sur les longueurs données plus haut : un Reel de 30 à 35 secondes. Entre 7 et 10 scènes, \
-de 450 à 550 caractères dits en tout, question comprise. Déroulé : l'accroche ; le nom du mécanisme ; une seule situation \
+de 400 à 480 caractères dits en tout, question comprise. Déroulé : l'accroche ; le nom du mécanisme ; une seule situation \
 où le spectateur se reconnaît ; pourquoi, en une phrase ; l'astuce en 2 étapes ; la phrase à retenir. Pas de relance ni de \
 comparaison, chaque phrase doit apprendre quelque chose."""
 
@@ -243,7 +243,7 @@ def controler(script: dict, source: str, court: bool = False) -> list[str]:
     parole = sum(len(sc.get("dit", "")) for sc in scenes) + len(script.get("question", ""))
     if court:
         if not PAROLE_COURT[0] <= parole <= PAROLE_COURT[1]:
-            problemes.append(f"format court : {parole} caractères dits, il en faut de 450 à 550, question comprise")
+            problemes.append(f"format court : {parole} caractères dits, il en faut de 400 à 480, question comprise")
     elif parole < PAROLE_MIN:
         problemes.append(f"trop court : {parole} caractères dits, il en faut au moins 1 350 pour tenir 60 secondes. "
                          f"Ajoute environ {(1350 - parole) // 90 + 1} scènes (un exemple de plus, une étape de plus) "
@@ -358,6 +358,7 @@ def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, e
     """Reel (MP4) dans `sortie` ; avec `couverture`, aussi la miniature JPEG (accroche + fond de la première scène)."""
     from .medias_libres import chercher, disponible
     from .voix import Voix
+    from .voix_conseil import narration as narration_conseil
 
     p = cfg.get("perso") or {}
     dossier = MOTION / "public" / "_perso"
@@ -382,12 +383,18 @@ def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, e
     scenes.append({"type": "signature", "duree": 3.0})
     dits.append("")
     journal(f"    🎬 {sum('media' in s for s in scenes)} fond(s) réaliste(s)")
-    try:
-        pistes = {x["cle"]: x for x in Voix(journal).narration(
-            [{"cle": f"s{k}", "texte": t} for k, t in enumerate(dits)], dossier, "voix", forcer=essai) or []}
-    except Exception as e:  # la voix ne bloque jamais la vidéo
-        journal(f"⚠️ Voix off indisponible, Reel sans voix : {e}")
-        pistes = {}
+    textes = [{"cle": f"s{k}", "texte": t} for k, t in enumerate(dits)]
+    pistes = {}
+    if p.get("voix_gemini"):
+        try:
+            pistes = {x["cle"]: x for x in narration_conseil(cfg, textes, dossier, "voix", journal)}
+        except Exception as e:  # préversion gratuite : la voix Chirp prend le relais, le Reel sort quand même
+            journal(f"⚠️ Voix de conseil indisponible, relais sur la voix habituelle : {e}")
+    if not pistes:
+        try:
+            pistes = {x["cle"]: x for x in Voix(journal).narration(textes, dossier, "voix", forcer=essai) or []}
+        except Exception as e:  # la voix ne bloque jamais la vidéo
+            journal(f"⚠️ Voix off indisponible, Reel sans voix : {e}")
     for k, sc in enumerate(scenes):
         if f"s{k}" in pistes:
             sc["voix"] = {"src": pistes[f"s{k}"]["src"], "duree": pistes[f"s{k}"]["duree"]}

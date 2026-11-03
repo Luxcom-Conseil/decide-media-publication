@@ -95,9 +95,9 @@ def normaliser(t: str) -> str:
     return re.sub(r"\d+(?:[,.]\d+)?", lambda m: _en_lettres(m.group(0)), t)
 
 
-def preparer(texte: str, lexique: list[tuple[str, str]] | None = None) -> str:
+def preparer(texte: str, lexique: list[tuple[str, str]] | None = None, coller: bool = True) -> str:
     """Texte prononcé : sans liens, hashtags, émojis ni points de suspension de coupe, nombres en lettres,
-    lexique appliqué."""
+    lexique appliqué. `coller=False` : élisions gardées telles quelles (voix_conseil.py les lit bien)."""
     t = re.sub(r"https?://\S+|#\w+", "", texte)
     t = re.sub(r"[\U0001F300-\U0001FAFF☀-➿]", "", t)
     t = t.replace("…", ".").replace("—", ",").replace("–", ",").replace("«", "").replace("»", "")
@@ -109,7 +109,8 @@ def preparer(texte: str, lexique: list[tuple[str, str]] | None = None) -> str:
     # « l'université », « d'inscription » étaient lus « la université », « de inscription », avec l'apostrophe droite
     # comme avec la typographique (transcriptions du 27/10). Collées au mot suivant (« luniversité »), les élisions
     # se prononcent juste : c'est le même son. Le mot suivant passe en minuscule (« lÉtat » était épelé).
-    t = re.sub(r"\b([lLdD])'(\w)", lambda m: m.group(1) + m.group(2).lower(), t)
+    if coller:
+        t = re.sub(r"\b([lLdD])'(\w)", lambda m: m.group(1) + m.group(2).lower(), t)
     return re.sub(r"\s+", " ", t).strip()
 
 
