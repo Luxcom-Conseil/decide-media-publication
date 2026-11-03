@@ -59,6 +59,8 @@ def main(argv: list[str] | None = None) -> int:
                         "dont l'heure est venue")
     p.add_argument("--lot", type=int, default=0, help="perso-rendre : numéro du lot à fabriquer (0, 1, …)")
     p.add_argument("--lots", type=int, default=1, help="perso-rendre : nombre de lots fabriqués en parallèle")
+    p.add_argument("--court", action="store_true", help="perso-essai : Reel au format court (30 à 35 secondes)")
+    p.add_argument("--sujet", help="perso-essai : identifiant du sujet (sinon le suivant du catalogue)")
     p.add_argument("--simulation", action="store_true", help="montre ce qui serait publié, sans rien publier")
     p.add_argument("--source-locale", metavar="DOSSIER", help="lire un dossier local au lieu de Google Drive")
     p.add_argument("--sans-ia", action="store_true", help="ne pas appeler Claude (texte d'origine)")
@@ -129,7 +131,8 @@ def main(argv: list[str] | None = None) -> int:
         elif a.commande == "perso-publier":
             ok = perso.publier_dus(cfg, log)
         else:
-            ok = perso.traiter_perso(cfg, log, simulation=simulation, essai=a.commande == "perso-essai")
+            ok = perso.traiter_perso(cfg, log, simulation=simulation, essai=a.commande == "perso-essai",
+                                     sujet_id=a.sujet, court=a.court)
         _resume_github(log)
         return 0 if ok else 1
 

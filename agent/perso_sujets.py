@@ -586,3 +586,12 @@ def prochain(publies: list[str]) -> tuple[tuple[str, str, str, str, str], str]:
             if s[1] == cat and compte.get(s[0], 0) == minimum:
                 return s, ANGLES[minimum % len(ANGLES)]
     return SUJETS[0], ""
+
+
+def prochain_travail(publies: list[str]) -> tuple[tuple[str, str, str, str, str], str]:
+    """(sujet, angle) pour un Reel sur le travail : un sujet de la catégorie encore jamais traité, sinon le sujet suivant
+    de la rotation, pris sous l'angle du travail."""
+    for s in SUJETS:
+        if s[1] == "travail" and s[0] not in publies:
+            return s, ""
+    return prochain(publies)[0], ANGLES[1]

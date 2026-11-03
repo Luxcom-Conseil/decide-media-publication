@@ -19,7 +19,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from .perso_sujets import CATEGORIES, PAR_ID, prochain
+from .perso_sujets import CATEGORIES, PAR_ID, prochain, prochain_travail
 
 RACINE = Path(__file__).resolve().parent.parent
 MOTION = RACINE / "motion"
@@ -27,6 +27,7 @@ ETAT = RACINE / "etat" / "perso.json"
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 CRF = 25  # qualité du MP4 : 25 garde la semaine (21 Reels) sous la limite de 1 Go de GitHub Pages
 PAROLE_MIN = 1000  # caractères dits ≈ 60 secondes de vidéo avec la voix Schedar (884 = 53 s, 1036 = 61 s le 27/10)
+PAROLE_COURT = (420, 650)  # format court : 30 à 35 secondes de vidéo, avec la signature
 TYPES = ["accroche", "texte", "liste", "comparaison", "citation"]
 _TXT = {"type": "string"}
 _TXT_NUL = {"anyOf": [{"type": "string"}, {"type": "null"}]}
@@ -59,15 +60,23 @@ SCHEMA = {
     "additionalProperties": False,
 }
 
-FORMULES = """\
-- Liste : « 3 choses que tu fais sans t'en rendre compte quand… », « 4 signes que ton cerveau te piège… »
-- Pourquoi + nom : « Pourquoi tu gardes des choses inutiles ? Ça porte un nom. »
-- Pas ta faute : « Si tu n'arrives pas à…, ce n'est pas ta faute. C'est ton cerveau. »
-- Ordre : « Arrête de… tant que tu n'as pas vu ça. »
-- Démasquer : « Les vendeurs utilisent ça sur toi tous les jours. »
-- Contre-pied : « Tu crois que… ? C'est l'inverse. »
-- Révélation : « Ce petit réflexe te coûte plus cher que tu ne crois. »
-- Défi : « Personne ne m'a jamais expliqué ça, et ça a tout changé. »"""
+# Bilan du 3/11 : 14 Reels sur 24 s'ouvraient sur « Ça porte un nom » ou « ce n'est pas ta faute » ; le meilleur (906 vues,
+# contre 131 en médiane) annonçait un enjeu. Ces deux formules sont refusées au contrôle et chaque Reel reçoit la sienne.
+FORMULES = [
+    ("Enjeu", "« Être très bon dans ton travail peut détruire ta carrière. »"),
+    ("Liste", "« 3 choses que tu fais sans t'en rendre compte quand… », « 4 signes que ton cerveau te piège… »"),
+    ("Ordre", "« Arrête de… tant que tu n'as pas vu ça. »"),
+    ("Démasquer", "« Les vendeurs utilisent ça sur toi tous les jours. »"),
+    ("Contre-pied", "« Tu crois que… ? C'est l'inverse. »"),
+    ("Révélation", "« Ce petit réflexe te coûte plus cher que tu ne crois. »"),
+    ("Défi", "« Personne ne m'a jamais expliqué ça, et ça a tout changé. »"),
+]
+ACCROCHE_USEE = re.compile(r"porte un nom|ça s'appelle|pas (de )?ta faute", re.I)
+
+FORMAT_COURT = """FORMAT COURT, prioritaire sur les longueurs données plus haut : un Reel de 30 à 35 secondes. Entre 7 et 10 scènes, \
+de 450 à 550 caractères dits en tout, question comprise. Déroulé : l'accroche ; le nom du mécanisme ; une seule situation \
+où le spectateur se reconnaît ; pourquoi, en une phrase ; l'astuce en 2 étapes ; la phrase à retenir. Pas de relance ni de \
+comparaison, chaque phrase doit apprendre quelque chose."""
 
 SYSTEME = """Tu écris le script d'un Reel Instagram de 60 à 90 secondes pour le compte de Stéphane Nzesseu : des conseils \
 et astuces de psychologie pour la vie de tous les jours et le travail. Public : francophones d'Afrique et d'Europe, \
@@ -75,9 +84,11 @@ entrepreneurs, salariés, étudiants, curieux, sans formation en psychologie. Il
 2 secondes pour les arrêter, puis il faut une relance toutes les 10 secondes.
 
 1. L'ACCROCHE décide de tout. Écris trois accroches de formules différentes (champ « accroches »), parmi celles-ci :
-""" + FORMULES + """
-Une accroche : 12 mots au plus, concrète, elle vise le spectateur (« tu »), crée une tension ou une curiosité, et ne \
-donne pas encore la réponse. Garde la plus forte : elle devient la première scène (type « accroche »).
+""" + "\n".join(f"- {nom} : {exemple}" for nom, exemple in FORMULES) + """
+Une accroche : 12 mots au plus, concrète, elle vise le spectateur (« tu »), annonce dès la première phrase ce qu'il risque \
+de perdre ou peut gagner (sa carrière, son argent, son couple, son temps), et ne donne pas encore la réponse. N'écris \
+jamais « ça porte un nom », « ça s'appelle » ni « ce n'est pas ta faute » dans une accroche ou la première ligne de la \
+légende : le compte les a trop utilisées. Garde la plus forte : elle devient la première scène (type « accroche »).
 
 2. Le déroulé, une idée par scène, entre 13 et 18 scènes courtes :
 - accroche ; puis une relance qui promet la suite (« Et le pire, c'est la troisième. »)
@@ -102,7 +113,7 @@ Ton : celui de Stéphane, direct, chaleureux, un peu malicieux. Il tutoie. Fran�
 courtes et rythmées. Pas de ton publicitaire, pas de tiret long (—).
 
 Chaque scène :
-- « dit » : la voix, entre 50 et 120 caractères (3 à 7 secondes). En tout, au moins 1 150 caractères dits.
+- « dit » : la voix, entre 70 et 120 caractères (4 à 7 secondes). En tout, au moins 1 350 caractères dits.
 - « emoji » : UN émoji qui illustre la scène (😱 🧠 💸 🛒 📱 ⏳ 🔥 ✅ ❌ 🤔 💡 🎯 …), varié d'une scène à l'autre.
 - « ecran » : le texte affiché en grand, 6 mots au plus, avec le ou les mots clés entre astérisques (« Tu *détestes* perdre »).
   - « accroche » : l'accroche choisie, 12 mots au plus.
@@ -209,11 +220,13 @@ def normaliser(script: dict) -> dict:
     return script
 
 
-def controler(script: dict, source: str) -> list[str]:
-    """Problèmes qui interdisent d'utiliser le script (vide = bon)."""
+def controler(script: dict, source: str, court: bool = False) -> list[str]:
+    """Problèmes qui interdisent d'utiliser le script (vide = bon). `court` : format de 30 à 35 secondes."""
     problemes = []
     scenes = script.get("scenes") or []
-    if not 11 <= len(scenes) <= 20:
+    if court and not 6 <= len(scenes) <= 11:
+        problemes.append(f"{len(scenes)} scènes (7 à 10 attendues)")
+    elif not court and not 11 <= len(scenes) <= 20:
         problemes.append(f"{len(scenes)} scènes (13 à 18 attendues)")
     if not scenes or scenes[0].get("type") != "accroche":
         problemes.append("la première scène doit être l'accroche (type « accroche »)")
@@ -221,10 +234,19 @@ def controler(script: dict, source: str) -> list[str]:
         problemes.append("accroche trop longue (12 mots au plus)")
     if len(script.get("accroches") or []) < 3:
         problemes.append("il faut trois accroches de formules différentes")
+    ouverture = script.get("legende", "").split("\n")[0]
+    if scenes:
+        ouverture += f" {scenes[0].get('ecran') or ''} {scenes[0].get('dit') or ''}"
+    if ACCROCHE_USEE.search(ouverture):
+        problemes.append("accroche interdite : pas de « ça porte un nom », « ça s'appelle » ni « ce n'est pas ta faute », "
+                         "ni dans la première scène ni dans la première ligne de la légende. Annonce un enjeu concret")
     parole = sum(len(sc.get("dit", "")) for sc in scenes) + len(script.get("question", ""))
-    if parole < PAROLE_MIN:
-        problemes.append(f"trop court : {parole} caractères dits, il en faut au moins 1 150 pour tenir 60 secondes. "
-                         f"Ajoute environ {(1150 - parole) // 90 + 1} scènes (un exemple de plus, une étape de plus) "
+    if court:
+        if not PAROLE_COURT[0] <= parole <= PAROLE_COURT[1]:
+            problemes.append(f"format court : {parole} caractères dits, il en faut de 450 à 550, question comprise")
+    elif parole < PAROLE_MIN:
+        problemes.append(f"trop court : {parole} caractères dits, il en faut au moins 1 350 pour tenir 60 secondes. "
+                         f"Ajoute environ {(1350 - parole) // 90 + 1} scènes (un exemple de plus, une étape de plus) "
                          "et allonge les « dit » trop courts")
     textes = [script.get("titre", ""), script.get("question", ""), script.get("legende", "")]
     for k, sc in enumerate(scenes):
@@ -286,18 +308,21 @@ def _demander(cfg: dict, parties: list[dict], remarques: list[str]) -> dict:
     raise RuntimeError(f"Gemini indisponible ({erreur})")
 
 
-def ecrire_script(cfg: dict, sujet: tuple, journal=print, angle: str = "") -> dict:
+def ecrire_script(cfg: dict, sujet: tuple, journal=print, angle: str = "", court: bool = False, formule: str = "") -> dict:
     if not os.environ.get("GEMINI_API_KEY"):
         raise RuntimeError("clé GEMINI_API_KEY absente")
     source = fiche(sujet)
     parties = [{"text": f"<fiche>\n{source}\n</fiche>"}]
-    if angle:  # sujet déjà traité : même mécanisme, autres situations, autre accroche
-        parties.append({"text": f"Ce sujet a déjà été traité sur le compte. Cette fois, prends l'angle « {angle} » : "
-                                "des situations et une accroche nouvelles, centrées sur cet angle."})
+    if angle:  # même mécanisme, autres situations, autre accroche
+        parties.append({"text": f"Prends l'angle « {angle} » : des situations et une accroche centrées sur cet angle."})
+    if formule:
+        parties.append({"text": f"L'accroche retenue (la première scène) suit la formule « {formule} »."})
+    if court:
+        parties.append({"text": FORMAT_COURT})
     remarques: list[str] = []
     for essai in range(4):
         script = normaliser(_demander(cfg, parties, remarques))
-        remarques = controler(script, source)
+        remarques = controler(script, source, court)
         if not remarques:
             return script
         journal(f"    ↺ script refusé ({essai + 1}/4) : " + " ; ".join(remarques)[:300])
@@ -386,21 +411,26 @@ def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, e
 # --------------------------------------------------------------------------- production de la semaine
 
 def planifier(cfg: dict, log, maintenant: datetime | None = None, chemin: Path = RACINE / "sortie" / "perso" / "plan.json") -> list[dict]:
-    """Choisit sujet et angle pour chaque horaire libre des 7 prochains jours ; écrit le plan pour les tâches de rendu."""
+    """Choisit sujet, angle, formule d'accroche et format pour chaque horaire libre des 7 prochains jours ; écrit le plan
+    pour les tâches de rendu. Test décidé au bilan du 3/11 : sur 3 Reels, un sur le travail, un court (30 à 35 s), un
+    ordinaire ; les rôles tournent d'un jour à l'autre pour que l'heure de publication ne fausse pas la comparaison."""
     maintenant = maintenant or datetime.now(timezone.utc)
     etat = EtatPerso()
     publies = etat.sujets_publies()
     plan = []
-    for quand in creneaux_semaine(cfg, maintenant, etat.creneaux_pris()):
-        sujet, angle = prochain(publies)
+    for i, quand in enumerate(creneaux_semaine(cfg, maintenant, etat.creneaux_pris())):
+        role = (i % 3 - i // 3) % 3  # 0 = travail, 1 = court, 2 = ordinaire
+        sujet, angle = prochain_travail(publies) if role == 0 else prochain(publies)
         publies.append(sujet[0])
-        plan.append({"id": quand.strftime("%Y%m%d-%H%M"), "quand": quand.isoformat(), "sujet": sujet[0], "angle": angle})
+        plan.append({"id": quand.strftime("%Y%m%d-%H%M"), "quand": quand.isoformat(), "sujet": sujet[0], "angle": angle,
+                     "format": "court" if role == 1 else "long", "formule": FORMULES[i % len(FORMULES)][0]})
     chemin.parent.mkdir(parents=True, exist_ok=True)
     chemin.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     log(f"Instagram perso : {len(plan)} Reel(s) à produire, du {plan[0]['quand'][:16] if plan else '-'} "
         f"au {plan[-1]['quand'][:16] if plan else '-'}")
     for x in plan:
-        log(f"    {x['quand'][5:16].replace('T', ' ')}  {PAR_ID[x['sujet']][2]}" + (f"  (angle : {x['angle']})" if x["angle"] else ""))
+        log(f"    {x['quand'][5:16].replace('T', ' ')}  {PAR_ID[x['sujet']][2]}  [{x['format']}, {x['formule']}]"
+            + (f"  (angle : {x['angle']})" if x["angle"] else ""))
     return plan
 
 
@@ -415,7 +445,7 @@ def produire(cfg: dict, plan: list[dict], log, dossier: Path = RACINE / "sortie"
         log(f"• {x['quand'][5:16].replace('T', ' ')} — {sujet[2]}" + (f" ({x['angle']})" if x["angle"] else ""))
         avant = Voix(log).consommes()
         try:
-            script = ecrire_script(cfg, sujet, log, x.get("angle", ""))
+            script = ecrire_script(cfg, sujet, log, x.get("angle", ""), x.get("format") == "court", x.get("formule", ""))
             log(f"    📝 accroche « {script['scenes'][0]['ecran']} », {len(script['scenes'])} scènes")
             rendre(cfg, script, sujet, dossier / f"{x['id']}.mp4", log, couverture=dossier / f"{x['id']}.jpg")
             (dossier / f"{x['id']}.json").write_text(json.dumps(
@@ -448,6 +478,7 @@ def heberger(cfg: dict, log, dossier: Path = RACINE / "sortie" / "perso", mainte
     urls = mettre_en_ligne(fichiers, jour, nom_dossier=f"perso-{jour.isoformat()}", attente_max=900)
     for f, v, c in sorted(prets, key=lambda x: x[0]["quand"]):
         etat.d["planning"].append({"id": f["id"], "quand": f["quand"], "sujet": f["sujet"], "angle": f.get("angle", ""),
+                                   "format": f.get("format", "long"), "formule": f.get("formule", ""),
                                    "video_url": urls[v.name], "cover_url": urls.get(c.name) if c else None,
                                    "legende": f["legende"], "statut": "programme"})
     etat.d["planning"].sort(key=lambda x: x["quand"])
@@ -506,7 +537,7 @@ def publier_dus(cfg: dict, log, maintenant: datetime | None = None) -> bool:
 # --------------------------------------------------------------------------- essai (un Reel, rien de publié)
 
 def traiter_perso(cfg: dict, log, *, simulation: bool = False, essai: bool = False, sujet_id: str | None = None,
-                  maintenant: datetime | None = None, sortie_essai: Path = RACINE / "sortie") -> bool:
+                  court: bool = False, maintenant: datetime | None = None, sortie_essai: Path = RACINE / "sortie") -> bool:
     """Reel d'essai du prochain sujet (ou de `sujet_id`) dans sortie/, avec sa miniature et sa légende, sans publier.
     La publication passe par la production de la semaine (planifier, produire, heberger) et publier_dus."""
     maintenant = maintenant or datetime.now(timezone.utc)
@@ -520,7 +551,7 @@ def traiter_perso(cfg: dict, log, *, simulation: bool = False, essai: bool = Fal
     if simulation:
         return True
     try:
-        script = ecrire_script(cfg, sujet, log, angle)
+        script = ecrire_script(cfg, sujet, log, angle, court)
         log(f"    📝 accroche « {script['scenes'][0]['ecran']} », {len(script['scenes'])} scènes, "
             f"{sum(len(s['dit']) for s in script['scenes'])} caractères dits")
         sortie_essai.mkdir(parents=True, exist_ok=True)

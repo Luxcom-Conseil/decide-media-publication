@@ -1,8 +1,8 @@
 from datetime import datetime, timezone
 
 from agent.config import charger_config
-from agent.perso import EtatPerso, controler, creneaux_semaine, est_le_moment, fiche, legende_finale
-from agent.perso_sujets import CATEGORIES, PAR_ID, SUJETS, prochain
+from agent.perso import EtatPerso, controler, creneaux_semaine, est_le_moment, fiche, legende_finale, planifier
+from agent.perso_sujets import ANGLES, CATEGORIES, PAR_ID, SUJETS, prochain, prochain_travail
 
 CFG = charger_config("config.yaml")
 CFG["perso"].update(jours=["lundi", "jeudi"], heure="12:00", horaires=["12:30", "18:30", "21:00"], delai_production_heures=3)
@@ -56,6 +56,45 @@ def test_controle_refuse_commentaire_dans_les_scenes():
 def test_controle_comparaison_complete():
     scenes = [_sc("accroche", "Accroche")] + [_sc() for _ in range(13)] + [_sc("comparaison", "Perte vs gain", a="Perdre")]
     assert any("comparaison" in p for p in controler(_script(scenes=scenes), SOURCE))
+
+
+def test_controle_refuse_les_accroches_usees():
+    for ecran in ("Tes disputes ? Ça porte un nom.", "Ce n'est pas ta faute.", "Ça s'appelle l'ancrage"):
+        scenes = [_sc("accroche", ecran)] + [_sc() for _ in range(14)]
+        assert any("accroche interdite" in p for p in controler(_script(scenes=scenes), SOURCE))
+    assert any("accroche interdite" in p for p in controler(_script(legende="Ça porte un nom.\n\nSuite."), SOURCE))
+
+
+def test_le_nom_du_mecanisme_reste_permis_apres_l_accroche():
+    scenes = [_sc("accroche", "Ton travail te coûte *cher*")] + [_sc() for _ in range(13)] + [_sc(dit="Ça s'appelle la loi de Pareto, " + DIT)]
+    assert controler(_script(scenes=scenes), SOURCE) == []
+
+
+def test_controle_format_court():
+    bon = [_sc("accroche", "Ton travail te coûte *cher*")] + [_sc() for _ in range(5)]
+    assert controler(_script(scenes=bon), SOURCE, court=True) == []
+    assert any("scènes" in p or "caractères" in p for p in controler(_script(), SOURCE, court=True))
+    assert any("format court" in p for p in controler(_script(scenes=bon[:1] + [_sc(dit="Court.") for _ in range(6)]), SOURCE, court=True))
+
+
+def test_prochain_travail_puis_angle():
+    travail = [s[0] for s in SUJETS if s[1] == "travail"]
+    s, angle = prochain_travail(travail[:2])
+    assert s[0] == travail[2] and angle == ""
+    s, angle = prochain_travail(travail)
+    assert s[1] != "travail" and angle == ANGLES[1]
+
+
+def test_plan_un_tiers_de_chaque_role_sans_lien_avec_l_heure(tmp_path, monkeypatch):
+    import agent.perso as perso
+    monkeypatch.setattr(perso.EtatPerso.__init__, "__defaults__", (tmp_path / "absent.json",))
+    plan = planifier(CFG, lambda _: None, datetime(2026, 11, 8, 7, 0, tzinfo=timezone.utc), tmp_path / "plan.json")
+    assert len(plan) == 21
+    courts = [x for x in plan if x["format"] == "court"]
+    assert len(courts) == 7
+    assert {x["quand"][11:16] for x in courts} == {"12:30", "18:30", "21:00"}
+    assert sum(PAR_ID[x["sujet"]][1] == "travail" or x["angle"] == ANGLES[1] for x in plan) >= 7
+    assert len({x["formule"] for x in plan}) == 7
 
 
 def test_rotation_des_categories():

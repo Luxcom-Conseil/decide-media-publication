@@ -230,7 +230,11 @@ const Signature: React.FC<{ s: ScriptPerso }> = ({ s }) => (
 const SousTitres: React.FC<{ sc: ScenePerso }> = ({ sc }) => {
   const f = useCurrentFrame();
   if (!sc.voix || !sc.soustitre || ["citation", "question", "signature"].includes(sc.type)) return null;
-  const mots = fr(sc.soustitre).split(/ +/).filter(Boolean);
+  // la ponctuation isolée reste avec le mot d'avant : un sous-titre ne commence jamais par « : »
+  const mots = fr(sc.soustitre).split(/ +/).filter(Boolean).reduce<string[]>((l, m) => {
+    if (/^[?!:;»]+$/.test(m) && l.length) l[l.length - 1] += " " + m; else l.push(m);
+    return l;
+  }, []);
   const total = mots.reduce((n, m) => n + m.length + 1, 0);
   const images = sc.voix.duree * FPS;
   let t = VOIX_DEBUT, actuel = mots.length - 1;
