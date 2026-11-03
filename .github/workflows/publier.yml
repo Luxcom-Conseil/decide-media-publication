@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       commande:
-        description: "lots = passage normal ; verifier = tester les accès ; essai-video = fabriquer un Short sans publier ; perso-essai = fabriquer un Reel Instagram perso sans publier"
+        description: "lots = passage normal ; verifier = tester les accès ; essai-video = fabriquer un Short sans publier ; perso-essai = fabriquer un Reel Instagram perso sans publier ; controle-lot = seulement l'alerte « pas de lot », sans publier"
         type: choice
-        options: [lots, verifier, essai-video, perso-essai]
+        options: [lots, verifier, essai-video, perso-essai, controle-lot]
         default: lots
       simulation:
         description: "Simulation (ne publie rien, affiche ce qui serait fait)"
@@ -25,6 +25,7 @@ concurrency:
 
 permissions:
   contents: write   # pour enregistrer etat/ (journal des publications) dans le dépôt
+  issues: write     # pour l'alerte « pas de lot aujourd'hui »
 
 jobs:
   agent:
@@ -54,7 +55,20 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Avant l'agent, car le rendu des Shorts peut durer plus d'une heure. Un échec de ce contrôle n'arrête rien :
+      # les étapes suivantes tournent, et la dernière rend le passage rouge (GitHub prévient alors par e-mail).
+      - name: Contrôler le lot du jour
+        id: controle_lot
+        if: (inputs.commande || 'lots') == 'lots' || inputs.commande == 'controle-lot'
+        continue-on-error: true
+        env:
+          SIMULATION: ${{ inputs.simulation }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m agent.controle_lot ${{ inputs.commande == 'controle-lot' && '--forcer' || '' }}
+
       - name: Lancer l'agent
+        if: inputs.commande != 'controle-lot'
         env:
           SIMULATION: ${{ inputs.simulation }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
@@ -106,3 +120,9 @@ jobs:
             git pull --rebase --autostash
             git push
           fi
+
+      - name: Signaler un contrôle du lot impossible
+        if: steps.controle_lot.outcome == 'failure'
+        run: |
+          echo "::error::Le contrôle du lot du jour n'a pas pu se faire : aucune alerte n'a été envoyée."
+          exit 1
