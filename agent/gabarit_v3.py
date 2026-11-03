@@ -2,9 +2,9 @@
 
 Mode information depuis le 02/11/2026 (demande de Stéphane) : un hook qui donne le fait, puis les faits, lus d'un seul
 tenant comme un flash, en 30 secondes environ. Plus de parties, d'étiquettes, d'exemple, de leçon, de conseil, de
-personnages ni de question finale. Images : Wikimedia Commons pour ce que l'article nomme (institution, ville, bâtiment,
-logo officiel), crédit affiché, sinon le visuel du lot. Plus de Pixabay : à l'essai du 02/11, « permis moto » a donné un
-moteur de bateau, et la règle est aucune image hors contexte.
+personnages ni de question finale. Images : banque_photos pour ce que l'article nomme (ville, bâtiment, institution), logo
+officiel sur Wikimedia Commons, crédit affiché, sinon le visuel du lot. Plus de Pixabay : à l'essai du 02/11, « permis
+moto » a donné un moteur de bateau, et la règle est aucune image hors contexte.
 Le script est écrit par Gemini (gratuit) et contrôlé par controler_v3. Refusé ou indisponible : script_secours lit les
 phrases de l'article, sans IA.
 """
@@ -84,8 +84,8 @@ ni « tu » ni « vous ».
 
 3. Les images. Aucune image hors contexte : une image montre ce que l'article nomme, sinon le visuel de l'article.
 - « accroche » : la première scène, avec un « fond », ou fond null si l'article ne nomme aucun lieu ni institution.
-- « media » : une vraie photo libre de Wikimedia Commons (champ « fond »), illustration null, seulement pour une chose que l'ARTICLE NOMME : une ville, un bâtiment, une université, une institution. « source » = « commons ». « recherche » = son nom exact, tel qu'on le trouve sur Wikipédia (« Université de Yaoundé I », « Douala », « Banque des États de l'Afrique centrale »). « logo » = true pour le logo officiel d'une institution ou d'une entreprise nommée (« recherche » = son sigle ou son nom). « secours » = null. Une même recherche une seule fois par vidéo. Jamais de personnes nommées, de chaînes de télévision ou de médias.
-- « explication » : toutes les autres scènes, fond null, avec le dessin qui montre le fait (champ « illustration ») ; aucun dessin ne convient : « photo », le visuel de l'article.
+- « media » : une vraie photo vérifiée (champ « fond »), illustration null, seulement pour une chose que l'ARTICLE NOMME : une ville, un bâtiment, une université, une institution. « source » = « commons ». « recherche » = son nom exact (« Université de Yaoundé I », « Douala », « port de Douala »), jamais une région ou un secteur administratif. « logo » = true pour le logo officiel d'une institution ou d'une entreprise nommée (« recherche » = son sigle ou son nom). « secours » = null. Une même recherche une seule fois par vidéo. Jamais de personnes nommées, de chaînes de télévision ou de médias.
+- « explication » : toutes les autres scènes, fond null, avec le dessin qui montre le fait (champ « illustration ») ; aucun dessin ne convient : « photo », le visuel de l'article. Le chiffre d'un dessin est celui de la phrase lue dans la même scène. « pourcent » seulement pour une évolution dont l'article donne l'avant et l'après, jamais pour une part d'un total.
 
 Langue : français simple et correct, phrases courtes, mots de tous les jours, écrites pour être lues à voix haute. Un fait \
 ancien au passé, avec sa date. Pas de ton publicitaire, pas de tiret long (—). N'emploie jamais « assurer », « transformer », \
@@ -124,10 +124,18 @@ def _sans_etoiles(t: str) -> str:
 
 def _reparer(script: dict) -> dict:
     """Une carte sur des lieux absents du fond de carte (un quartier, par exemple) passe sur le visuel du lot : à l'essai
-    du 02/11, ce seul défaut a fait refuser trois scripts de suite."""
+    du 02/11, ce seul défaut a fait refuser trois scripts de suite. Un dessin dont le chiffre n'est pas dans la phrase lue
+    y passe aussi : à l'essai du 03/11, des barres en hausse sur une part de 44 % et une pile de 2,27 milliards sur
+    « 492 dossiers » disaient autre chose que la voix."""
     for sc in script.get("scenes") or []:
         il = sc.get("illustration") or {}
+        lu = _nombres(f"{_sans_etoiles(sc.get('ecran'))} {sc.get('dit', '')}")
         if il.get("type") == "carte" and not all(lieu_connu(n) for n in str(il.get("texte") or "").split("|")):
+            sc["illustration"] = {"type": "photo"}
+        elif il.get("type") == "pourcent" and not (il.get("sens") and il.get("avant") and il.get("apres")
+                                                   and _nombres(f"{il['avant']} {il['apres']}") <= lu):
+            sc["illustration"] = {"type": "photo"}
+        elif il.get("type") in ("pile", "frais") and not (il.get("montant") and _nombres(str(il["montant"])) & lu):
             sc["illustration"] = {"type": "photo"}
     return script
 
@@ -225,12 +233,16 @@ def script_v3(article: dict, cfg: dict, journal=print, cache: Path | None = None
 
 def _fond(fond: dict, dossier: Path, nom: str, pris: set[str], journal) -> dict | None:
     from . import medias_commons
-    trouve = medias_commons.chercher(fond["recherche"], dossier, nom, pris, logo=bool(fond.get("logo")))
+    if fond.get("logo"):
+        trouve = medias_commons.chercher(fond["recherche"], dossier, nom, pris, logo=True)
+        credit = "Logo : " + trouve[1] if trouve else None
+    else:
+        trouve = medias_commons.dans_banque(fond["recherche"], dossier, nom, pris)
+        credit = trouve[1] if trouve else None
     if trouve:
-        journal(f"      🖼 Commons « {fond['recherche']} » : {trouve[1]}")
-        return {"src": f"_v3/{trouve[0].name}", "video": False, "credit": ("Logo : " if fond.get("logo") else "Photo : ") + trouve[1],
-                "logo": bool(fond.get("logo"))}
-    journal(f"      · Commons « {fond['recherche']} » : rien de libre et de pertinent")
+        journal(f"      🖼 « {fond['recherche']} » : {credit}")
+        return {"src": f"_v3/{trouve[0].name}", "video": False, "credit": credit, "logo": bool(fond.get("logo"))}
+    journal(f"      · « {fond['recherche']} » : rien de vérifié, visuel du lot")
     return None
 
 

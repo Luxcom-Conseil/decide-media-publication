@@ -62,6 +62,28 @@ def test_refuse_trop_de_parties_et_personnage():
     assert any("dessin" in p for p in controler_v3(s, ARTICLE))
 
 
+def _dessin(dit, **il):
+    from agent.gabarit_v3 import _reparer
+    sc = {"type": "explication", "ecran": "x", "dit": dit, "illustration": il}
+    return _reparer({"scenes": [sc]})["scenes"][0]["illustration"]["type"]
+
+
+def test_un_dessin_dit_le_meme_chiffre_que_la_voix():
+    assert _dessin("Un milliard pour un seul motif.", type="pourcent", sens="hausse", texte="44 %") == "photo"
+    assert _dessin("La taxe passe de 15 % à 30 %.", type="pourcent", sens="hausse", avant="15 %", apres="30 %") == "pourcent"
+    assert _dessin("492 dossiers examinés.", type="pile", montant="2 270 000 000") == "photo"
+    assert _dessin("2,27 milliards d'amendes.", type="pile", montant="2 270 000 000") == "pile"
+
+
+def test_photos_seulement_depuis_la_banque(tmp_path):
+    from agent.medias_commons import dans_banque
+    assert dans_banque("Littoral", tmp_path, "f", set()) is None
+    pris = set()
+    fichier, credit_photo = dans_banque("Douala", tmp_path, "f", pris)
+    assert fichier.is_file() and "Douala" in credit_photo and len(pris) == 1
+    assert dans_banque("Douala", tmp_path, "g", pris) and len(pris) == 2  # jamais deux fois la même photo
+
+
 def test_secours_lit_les_phrases_de_l_article():
     from agent.gabarit_v3 import script_secours
     s = script_secours(ARTICLE)

@@ -8,13 +8,16 @@ Gratuit, sans clé. Wikimedia demande un User-Agent qui identifie l'outil.
 """
 from __future__ import annotations
 
+import json
 import re
+import shutil
 import unicodedata
 from pathlib import Path
 
 import requests
 
-API = "https://commons.wikimedia.org/w/api.php"
+BANQUE = Path(__file__).parent.parent / "banque_photos"
+API ="https://commons.wikimedia.org/w/api.php"
 ENTETES = {"User-Agent": "DecideMediaPublication/1.0 (https://github.com/Luxcom-Conseil/decide-media-publication)"}
 LICENCES = re.compile(r"^(public domain|pd|cc0|cc by(-sa)?( \d\.\d)?|attribution)", re.I)
 MIMES = {"image/jpeg": ".jpg", "image/png": ".png", "image/svg+xml": ".png", "image/webp": ".jpg"}
@@ -37,6 +40,26 @@ def credit(auteur: str, licence: str) -> str:
     """« Photo : Kondah / Wikimedia Commons · CC BY-SA 4.0 » (auteur raccourci : il est affiché en petit)."""
     auteur = re.sub(r"\s*\(.*?\)", "", auteur).strip()[:40] or "auteur inconnu"
     return f"{auteur} / Wikimedia Commons · {licence}"
+
+
+def dans_banque(requete: str, dossier: Path, nom: str, deja: set[str]) -> tuple[Path, str] | None:
+    """(fichier, crédit) d'une photo vérifiée de banque_photos/ pour un lieu ou une chose nommés, ou None. Une recherche libre
+    sur Commons a donné, à l'essai du 03/11, des jeunes dans une bibliothèque pour « Littoral » : les photos passent donc
+    toutes par la banque, sans visage reconnaissable ni marque. Une ville seule ne donne qu'une vue de la ville (thème
+    ville_habitat) : un hôpital de Yaoundé n'illustre pas un article sur la douane de Yaoundé."""
+    voulus = _mots(requete)
+    if not voulus:
+        return None
+    for e in json.loads((BANQUE / "index.json").read_text(encoding="utf-8")):
+        if e["personnes"] not in ("aucune", "loin") or e["marque"] or e["fichier"] in deja:
+            continue
+        lieu_nomme = voulus <= _mots(e["lieu"]) and (len(voulus) > 1 or e["theme"] == "ville_habitat")
+        if lieu_nomme or voulus <= _mots(e["montre"]):
+            sortie = dossier / f"{nom}.jpg"
+            shutil.copy(BANQUE / e["fichier"], sortie)
+            deja.add(e["fichier"])
+            return sortie, e["credit"]
+    return None
 
 
 def chercher(requete: str, dossier: Path, nom: str, deja: set[str], logo: bool = False) -> tuple[Path, str] | None:
