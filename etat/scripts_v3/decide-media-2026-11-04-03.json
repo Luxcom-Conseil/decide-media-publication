@@ -1,0 +1,49 @@
+{
+  "accroches": [
+    "À Douala, une employée consacre 33 pour cent de son salaire au transport.",
+    "En 2024, les prix du transport ont progressé de 12,3 pour cent au Cameroun.",
+    "En 2024, l'inflation a atteint 5,1 pour cent à Douala."
+  ],
+  "titre": "Transport à Douala",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "33% du salaire en *transport*",
+      "dit": "À Douala, une employée consacre 33 pour cent de son salaire au transport."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse de 12,3% des *prix*",
+      "dit": "En 2024, les prix du transport ont progressé de 12,3 pour cent au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Inflation de 5,1% à *Douala*",
+      "dit": "En 2024, l'inflation a atteint 5,1 pour cent à Douala."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse de 15% des *carburants*",
+      "dit": "Les prix des carburants à la pompe ont augmenté de 15 pour cent en février 2024."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "accroches": [
+    "L'importation du gasoil coûte 984,46 FCFA le litre.",
+    "L'État verse 439,83 FCFA de subvention par litre de gasoil.",
+    "Le coût d'importation du gasoil a bondi de 50,6 % en quatre mois."
+  ],
+  "titre": "Gasoil : hausse des subventions au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "L'importation coûte *984,46 FCFA* le litre",
+      "dit": "En novembre 2026, importer un litre de gasoil coûte 984,46 FCFA au Cameroun."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Prix maintenu à *828 FCFA*",
+      "dit": "À la pompe, le prix reste fixé à 828 FCFA le litre à Douala."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 439,83",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Subvention de *439,83 FCFA* par litre",
+      "dit": "L'État prend en charge 439,83 FCFA par litre pour combler l'écart."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le coût grimpe de *50,6 %*",
+      "dit": "Depuis juillet, le coût d'importation a progressé de 50,6 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "57 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*57 milliards* de subventions en septembre",
+      "dit": "Le ministre des Finances a évalué le soutien aux carburants à 57 milliards de FCFA en septembre."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "Les kits solaires de META Energy reviennent plus cher que le réseau.",
+    "META Energy a présenté les conditions de ses kits solaires au Cameroun.",
+    "L'électricité solaire revient à 133 FCFA le kilowattheure pour la grande offre."
+  ],
+  "titre": "Solaire au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les kits solaires *reviennent* plus cher",
+      "dit": "Le 27 octobre à Yaoundé, META Energy a présenté les conditions commerciales de ses kits solaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 133",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'électricité à *133 FCFA* le kilowattheure",
+      "dit": "Pour l'offre la plus puissante, l'électricité reviendrait à 133 FCFA le kilowattheure."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "6 490 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un total de *6,49 millions* de FCFA",
+      "dit": "Le client verse 499 900 FCFA au début, puis des mensualités de 49 900 FCFA sur dix ans."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "3 240 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'offre moins chère à *3,24 millions*",
+      "dit": "L'offre moins chère demande 249 900 FCFA au départ, puis 24 900 FCFA par mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2500 en 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Objectif de *2 500* installations en 2027",
+      "dit": "META vise 400 installations avant la fin de 2026 et 2 500 en 2027."
+    }
+  ]
+}

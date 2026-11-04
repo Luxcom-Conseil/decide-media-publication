@@ -1,0 +1,110 @@
+{
+  "accroches": [
+    "Les anciennes pièces de la BEAC n'ont plus de valeur.",
+    "Les pièces de 1958 à 1985 sont désormais démonétisées.",
+    "Des marchés refusaient ces pièces dès le 28 octobre."
+  ],
+  "titre": "Démonétisation des anciennes pièces BEAC",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque des États de l'Afrique centrale",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Les anciennes *pièces* n'ont plus de valeur",
+      "dit": "Les anciennes pièces de la Banque des États de l'Afrique centrale n'ont plus de valeur depuis le 1er novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Elles ne *peuvent* plus servir",
+      "dit": "Elles ont perdu leur cours légal et ne peuvent plus servir pour des achats."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les pièces *2006* et *2024* restent valables",
+      "dit": "Les pièces des gammes 2006 et 2024 gardent leur cours légal dans la Zone Cemac."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "31 juillet 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Échange *possible* jusqu'en 2027",
+      "dit": "L'échange est possible dans les banques et microfinances jusqu'au 31 juillet 2027."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque des États de l'Afrique centrale",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Échange à la *BEAC* uniquement",
+      "dit": "Du 1er août au 31 octobre 2027, l'échange se fera uniquement aux guichets de la BEAC."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Garoua",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *refus* enregistrés à Garoua",
+      "dit": "À Garoua, des marchés refusaient déjà ces pièces le 28 octobre."
+    }
+  ]
+}

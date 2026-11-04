@@ -1,0 +1,69 @@
+{
+  "accroches": [
+    "Quatre cent cinquante milliards de francs CFA dormaient dans les banques en 2022.",
+    "Le ministère des Finances lance un recensement des comptes publics en banque.",
+    "L'État veut rapatrier l'argent public placé dans les banques commerciales."
+  ],
+  "titre": "Comptes publics en banque",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Quatre cent cinquante milliards de francs *CFA*.",
+      "dit": "Quatre cent cinquante milliards de francs CFA ont été identifiés dans les banques en 2022."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "29 septembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": "repos"
+      },
+      "fond": null,
+      "ecran": "Un recensement lancé le *29* septembre *2026*.",
+      "dit": "Le 29 septembre 2026 à Yaoundé, le ministère des Finances a lancé un nouveau recensement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": "repos"
+      },
+      "fond": null,
+      "ecran": "Une mission de vingt *jours* ouvrables.",
+      "dit": "Une mission de vingt jours ouvrables doit examiner les comptes des administrations publiques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Préparer un transfert vers le *Trésor*.",
+      "dit": "Le but est de préparer un éventuel transfert progressif vers le Compte unique du Trésor."
+    }
+  ]
+}
