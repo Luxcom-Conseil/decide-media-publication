@@ -344,9 +344,12 @@
       "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-01/20261105-1230.jpg",
       "id": "20261105-1230",
       "legende": "Si tu oublies tout ce que tu apprends, ce n'est pas ta faute.\n\nQuand on apprend quelque chose de nouveau, notre cerveau efface très rapidement l'information si elle n'est pas réutilisée. C'est ce qu'on appelle la courbe de l'oubli.\n\nPour fixer une information sur le long terme, pas besoin d'y passer des heures. Il suffit d'espacer ses rappels : une fois le lendemain, une fois quelques jours après, puis une dernière fois la semaine suivante.\n\nTu as plutôt tendance à tout réviser d'un coup ou à espacer tes révisions ?\n\n#apprentissage #memoire #productivite #etudes #organisation",
+      "media_id": "18654980749045518",
+      "publie_le": "2026-11-05T11:31:46+00:00",
       "quand": "2026-11-05T12:30:00+01:00",
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "oubli",
+      "url": "https://www.instagram.com/reel/DfW7fMfDGyS/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-01/20261105-1230.mp4"
     },
     {
@@ -618,6 +621,13 @@
       "media_id": "17915380839284494",
       "sujet": "jtbd",
       "url": "https://www.instagram.com/reel/DfVRFQxDaX5/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-05",
+      "media_id": "18654980749045518",
+      "sujet": "oubli",
+      "url": "https://www.instagram.com/reel/DfW7fMfDGyS/"
     }
   ]
 }
