@@ -116,6 +116,13 @@ class YouTube(Publieur):
             if fd:
                 fd.close()
         vid = reponse["id"]
+        from ..gabarit_v3 import couverture
+        jpg = couverture(video)
+        if jpg.exists():  # miniature personnalisée : la chaîne doit être vérifiée, sinon refus sans effet sur le Short
+            try:
+                self._service().thumbnails().set(videoId=vid, media_body=MediaFileUpload(str(jpg), mimetype="image/jpeg")).execute()
+            except HttpError as e:
+                print(f"    ⚠ miniature refusée par YouTube : {e.reason}")
         return Resultat(f"https://youtu.be/{vid}", vid)
 
     def trouver_programme(self, texte: str) -> dict | None:

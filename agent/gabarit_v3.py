@@ -246,6 +246,54 @@ def _fond(fond: dict, dossier: Path, nom: str, pris: set[str], journal) -> dict 
     return None
 
 
+# Thèmes de la banque où une photo illustre le sujet sans montrer un lieu ou un bâtiment précis : un pylône pour
+# l'électricité, un étal pour les prix. Hors liste (institutions, ville_habitat, port_aeroport, education, sante) : la
+# photo d'un bâtiment ou d'une ville nommés ferait croire qu'il s'agit de celui de l'article.
+THEMES_GENERIQUES = {"electricite", "solaire", "carburant", "marche", "transport", "agriculture", "elevage", "eau",
+                     "travail", "bois_foret", "peche"}
+PHOTOS_PAR_SHORT = 4
+COUVERTURE_MS = 500  # instant de la couverture : texte du hook complet, secousse finie (Buffer → TikTok : thumbnailOffset)
+
+
+def photos_du_sujet(article: dict, dossier: Path, pris: set[str], recentes: dict | None = None) -> list[dict]:
+    """La photo vérifiée de l'article (banque_photos), puis jusqu'à 3 autres du même thème générique, sans visage
+    reconnaissable ni marque, et pas déjà sorties ces 7 derniers jours. Liste vide si la photo de l'article n'est pas
+    dans la banque : pas d'image devinée."""
+    from .lots import cle_photo
+    from .medias_commons import BANQUE
+    page = cle_photo((article.get("image_provenance") or {}).get("page"))
+    if not page:
+        return []
+    index = json.loads((BANQUE / "index.json").read_text(encoding="utf-8"))
+    sienne = next((e for e in index if cle_photo(e.get("page")) == page), None)
+    if not sienne:
+        return []
+    if recentes is None:
+        f = MOTION.parent / "etat" / "photos_utilisees.json"
+        recentes = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+    jour = str(article.get("_lot") or date.today().isoformat())
+
+    def recente(e):
+        vu = recentes.get(cle_photo(e.get("page")))
+        try:
+            return vu is not None and 0 <= (date.fromisoformat(jour) - date.fromisoformat(vu)).days <= 7
+        except ValueError:
+            return False
+
+    choisies = [sienne]
+    if sienne["theme"] in THEMES_GENERIQUES:
+        choisies += [e for e in index if e is not sienne and e["theme"] == sienne["theme"] and e["fichier"] not in pris
+                     and e["personnes"] in ("aucune", "loin") and not e["marque"] and not recente(e)
+                     and "panneau de" not in e["montre"]][:PHOTOS_PAR_SHORT - 1]
+    sortie = []
+    for k, e in enumerate(choisies):
+        cible = dossier / f"theme{k}.jpg"
+        shutil.copy(BANQUE / e["fichier"], cible)
+        pris.add(e["fichier"])
+        sortie.append({"src": f"_v3/{cible.name}", "video": False, "credit": e["credit"]})
+    return sortie
+
+
 def rendre_production(article: dict, image: Path, sortie: Path, journal=print, essai: bool = False) -> Path:
     """Short V3 ; si Gemini ne fournit pas de script utilisable, les phrases de l'article sont lues telles quelles (la
     publication continue). Le script est gardé dans etat/scripts_v3/<id>.json : même vidéo pour tous les réseaux et tous
@@ -285,6 +333,24 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
                 s.update(type="explication", illustration={"type": "photo"})
         scenes.append(s)
         dits.append({"cle": f"s{k}", "texte": sc["dit"]})
+    # plus d'images (demande du 05/11) : la photo de l'article et celles de son thème, à tour de rôle ; une scène
+    # « photo » (le visuel du lot en carte) passe en plein écran, un dessin garde son fond photo très assombri
+    photos = photos_du_sujet(article, dossier, pris)
+    tour = 0
+    for s in scenes:
+        if not photos or s.get("media"):
+            continue
+        photo = dict(photos[tour % len(photos)])
+        tour += 1
+        if s["type"] == "accroche":
+            s["media"] = photo
+        elif s["type"] == "explication" and (s.get("illustration") or {}).get("type") == "photo":
+            s.pop("illustration")
+            s.update(type="media", media=photo)
+        elif s["type"] == "explication":
+            s["media"] = {**photo, "voile": True}
+    if photos:
+        journal(f"      🖼 {len(photos)} photo(s) du thème, {tour} scène(s) illustrée(s)")
     scenes.append({"type": "outro", "duree": 3.5})
     dits.append({"cle": f"s{len(scenes) - 1}", "texte": "Décide média. Abonne-toi."})
     try:
@@ -307,11 +373,24 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
         with tempfile.TemporaryDirectory() as d:
             fichier = Path(d) / "props.json"
             fichier.write_text(json.dumps(props, ensure_ascii=False), encoding="utf-8")
-            r = subprocess.run(["npx.cmd" if shutil.which("npx.cmd") else "npx", "remotion", "render", "src/index.ts", "DecideShortV3",
+            npx = "npx.cmd" if shutil.which("npx.cmd") else "npx"
+            r = subprocess.run([npx, "remotion", "render", "src/index.ts", "DecideShortV3",
                                 str(sortie.resolve()), f"--props={fichier}", "--codec=h264", "--crf=22", "--log=warn"],
                                cwd=MOTION, capture_output=True, text=True, timeout=2400)
+            if r.returncode == 0:
+                # couverture JPEG (YouTube) : l'image de la vidéo à COUVERTURE_MS, la même que TikTok affiche
+                c = subprocess.run([npx, "remotion", "still", "src/index.ts", "DecideShortV3", str(couverture(sortie).resolve()),
+                                    f"--props={fichier}", f"--frame={COUVERTURE_MS * 30 // 1000}", "--image-format=jpeg",
+                                    "--jpeg-quality=90", "--log=warn"], cwd=MOTION, capture_output=True, text=True, timeout=600)
+                if c.returncode != 0:
+                    journal(f"⚠️ couverture non fabriquée : {(c.stderr + c.stdout)[-300:]}")
     finally:
         shutil.rmtree(dossier, ignore_errors=True)
     if r.returncode != 0 or not sortie.exists():
         raise RuntimeError(f"rendu Remotion impossible (code {r.returncode}) : {(r.stderr + r.stdout)[-1500:]}")
     return sortie
+
+
+def couverture(short: Path) -> Path:
+    """Couverture JPEG d'un Short V3, à côté du MP4 (absente si le rendu de l'image fixe a échoué)."""
+    return short.with_name(short.stem + "_couverture.jpg")

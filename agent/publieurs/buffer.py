@@ -85,7 +85,11 @@ class _Buffer(Publieur):
                 copie.write_bytes(media.read_bytes())
             jour = date.fromisoformat(article.get("_lot") or quand.date().isoformat())
             _HEBERGES[nom] = mettre_en_ligne([copie], jour)[nom]
-        asset = {"video": {"url": _HEBERGES[nom]}} if en_video else {"image": {"url": _HEBERGES[nom]}}
+        # couverture d'un Short : l'image à COUVERTURE_MS (hook complet sur photo) ; Buffer la transmet à TikTok
+        # (thumbnailOffset en millisecondes, doc Buffer « Create Video Post » : Instagram, TikTok, Pinterest)
+        from ..gabarit_v3 import COUVERTURE_MS
+        asset = ({"video": {"url": _HEBERGES[nom], "metadata": {"thumbnailOffset": COUVERTURE_MS}}} if en_video
+                 else {"image": {"url": _HEBERGES[nom]}})
         entree = {
             "channelId": self._canal(), "text": self.texte(article, texte), "schedulingType": "automatic",
             "mode": "customScheduled", "assets": [asset],

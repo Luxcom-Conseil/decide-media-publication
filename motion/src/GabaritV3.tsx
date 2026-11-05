@@ -18,7 +18,8 @@ const GRIS = "#B4B4BC";
 const VOIX_DEBUT = 3, VOIX_FIN = 5; // images : rythme serré
 const G = 60, D = 150; // marges gauche / droite
 
-export type MediaV3 = { src: string; video: boolean; credit?: string; logo?: boolean };
+// voile : photo de fond très assombrie derrière un dessin (une image de plus, sans gêner la lecture du dessin)
+export type MediaV3 = { src: string; video: boolean; credit?: string; logo?: boolean; voile?: boolean };
 
 export type SceneV3 = {
   type: "accroche" | "media" | "explication" | "outro";
@@ -103,7 +104,8 @@ const Media: React.FC<{ m: MediaV3; long: number }> = ({ m, long }) => {
   return (
     <AbsoluteFill>
       {m.video ? <OffthreadVideo src={staticFile(m.src)} muted style={style} /> : <Img src={staticFile(m.src)} style={style} />}
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(14,14,14,0.75) 0%, rgba(14,14,14,0.25) 30%, rgba(14,14,14,0.45) 50%, rgba(14,14,14,0.92) 72%)" }} />
+      <AbsoluteFill style={{ background: m.voile ? "rgba(14,14,14,0.8)"
+        : "linear-gradient(180deg, rgba(14,14,14,0.75) 0%, rgba(14,14,14,0.25) 30%, rgba(14,14,14,0.45) 50%, rgba(14,14,14,0.92) 72%)" }} />
     </AbsoluteFill>
   );
 };
@@ -116,14 +118,15 @@ const Pop: React.FC<{ delai?: number; children: React.ReactNode; style?: React.C
   return <div style={{ transform: `scale(${0.5 + 0.5 * p})`, opacity: Math.min(1, p * 1.5), ...style }}>{children}</div>;
 };
 
-const Cinetique: React.FC<{ texte: string; taille: number; top: number; pas?: number }> = ({ texte, taille, top, pas = 3 }) => {
+// immediat : tous les mots sont là dès la première image (le hook sert de couverture : TikTok, X et LinkedIn la prennent au début)
+const Cinetique: React.FC<{ texte: string; taille: number; top: number; pas?: number; immediat?: boolean }> = ({ texte, taille, top, pas = 3, immediat }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   return (
     <div style={{ position: "absolute", top, left: G, right: D - 40, textAlign: "center", fontFamily, fontWeight: 900, fontSize: taille,
       lineHeight: 1.14, color: BLANC, textShadow: "0 6px 24px rgba(0,0,0,0.6)" }}>
       {motsCles(texte).map(([m, cle], k) => {
-        const p = spring({ frame: f - 2 - k * pas, fps, config: { damping: 12, stiffness: 200, mass: 0.5 } });
+        const p = immediat ? 1 : spring({ frame: f - 2 - k * pas, fps, config: { damping: 12, stiffness: 200, mass: 0.5 } });
         return (
           <span key={k} style={{ display: "inline-block", margin: `0 ${taille * 0.12}px ${taille * 0.12}px`, transform: `translateY(${(1 - p) * 40}px) scale(${0.7 + 0.3 * p})`,
             opacity: p, background: cle ? ORANGE : "transparent", padding: cle ? "0 14px" : 0, borderRadius: 10 }}>{m}</span>
@@ -133,23 +136,23 @@ const Cinetique: React.FC<{ texte: string; taille: number; top: number; pas?: nu
   );
 };
 
-// accroche : sur un fond réaliste si on en a un, sinon sur le visuel du lot en carte (son texte incrusté reste lisible)
+// accroche = couverture : le texte est complet dès la première image, en grand, dans la zone que gardent les grilles de
+// profil (recadrage 3:4 au centre, y 240–1680) ; sur une vraie photo si on en a une, sinon sur le visuel du lot en carte
 const Accroche: React.FC<{ sc: SceneV3; image: string; long: number }> = ({ sc, image, long }) => {
   const f = useCurrentFrame();
-  const secousse = f < 12 ? Math.sin(f * 2.2) * (12 - f) : 0;
   const t = sc.ecran ?? "";
   if (sc.media) {
     // un logo occupe la carte blanche 480–920 : l'accroche passe dessous
-    return <div style={{ transform: `translateX(${secousse}px)` }}><Cinetique texte={t} taille={sc.media.logo ? 70 : t.length > 50 ? 76 : 90} top={sc.media.logo ? 960 : 720} pas={4} /></div>;
+    return <Cinetique texte={t} taille={sc.media.logo ? 76 : t.length > 50 ? 84 : 100} top={sc.media.logo ? 960 : 700} immediat />;
   }
   return (
-    <div style={{ transform: `translateX(${secousse}px)` }}>
-      <Pop style={{ position: "absolute", top: 430, left: 260, width: 560, height: 560, borderRadius: 24, overflow: "hidden", border: `6px solid ${ORANGE}`,
+    <>
+      <div style={{ position: "absolute", top: 430, left: 260, width: 560, height: 560, borderRadius: 24, overflow: "hidden", border: `6px solid ${ORANGE}`,
         boxShadow: "0 30px 80px rgba(0,0,0,0.6)" }}>
         <Img src={staticFile(image)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${interpolate(f, [0, long], [1, 1.06])})` }} />
-      </Pop>
-      <Cinetique texte={t} taille={t.length > 50 ? 62 : 72} top={1020} pas={4} />
-    </div>
+      </div>
+      <Cinetique texte={t} taille={t.length > 50 ? 66 : 78} top={1020} immediat />
+    </>
   );
 };
 
@@ -184,7 +187,8 @@ const Outro: React.FC<{ s: ScriptV3 }> = ({ s }) => (
 // sous-titres karaoké : 4 mots au plus, le mot prononcé en orange
 const SousTitres: React.FC<{ sc: SceneV3 }> = ({ sc }) => {
   const f = useCurrentFrame();
-  if (!sc.voix || !sc.soustitre || sc.type === "outro") return null;
+  // le hook est déjà écrit en grand : ses sous-titres le doubleraient, couverture comprise
+  if (!sc.voix || !sc.soustitre || sc.type === "outro" || sc.type === "accroche") return null;
   const mots = fr(sc.soustitre).split(/ +/).filter(Boolean); // l'espace insécable lie un nombre à son unité
   const total = mots.reduce((n, m) => n + m.length + 1, 0);
   const images = sc.voix.duree * FPS;
@@ -226,15 +230,16 @@ const Entete: React.FC<{ s: ScriptV3 }> = ({ s }) => (
 );
 
 // entrée de scène : zoom « punch » + flash bref, sortie en fondu court
-const Punch: React.FC<{ children: React.ReactNode; long: number }> = ({ children, long }) => {
+// première scène : pas d'entrée, la première image est déjà la couverture
+const Punch: React.FC<{ children: React.ReactNode; long: number; premiere?: boolean }> = ({ children, long, premiere }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const p = spring({ frame: f, fps, config: { damping: 14, stiffness: 160 } });
+  const p = premiere ? 1 : spring({ frame: f, fps, config: { damping: 14, stiffness: 160 } });
   const sortie = interpolate(f, [long - 4, long], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <AbsoluteFill style={{ transform: `scale(${1.1 - 0.1 * p})`, opacity: sortie }}>
       {children}
-      <AbsoluteFill style={{ background: ORANGE, opacity: interpolate(f, [0, 4], [0.28, 0], { extrapolateRight: "clamp" }), pointerEvents: "none" }} />
+      {!premiere && <AbsoluteFill style={{ background: ORANGE, opacity: interpolate(f, [0, 4], [0.28, 0], { extrapolateRight: "clamp" }), pointerEvents: "none" }} />}
     </AbsoluteFill>
   );
 };
@@ -250,7 +255,7 @@ export const GabaritV3: React.FC<ScriptV3> = (s) => {
       <Fond />
       {scenes.map((p) => (
         <Sequence key={p.i} from={p.debut} durationInFrames={p.longueur}>
-          <Punch long={p.longueur}>
+          <Punch long={p.longueur} premiere={p.i === 0}>
             {p.sc.media && <Media m={p.sc.media} long={p.longueur} />}
             {p.sc.type === "accroche" && <Accroche sc={p.sc} image={s.image} long={p.longueur} />}
             {p.sc.type === "media" && <ScMedia sc={p.sc} />}
