@@ -1,0 +1,59 @@
+{
+  "accroches": [
+    "La facture de Nachtigal est projetée à 196,16 milliards en 2027.",
+    "Le contrat d'électricité impose de payer même sans tout consommer.",
+    "La facture mensuelle moyenne atteindrait 16,35 milliards de FCFA."
+  ],
+  "titre": "Centrale de Nachtigal : la facture de 2027",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Nachtigal",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La *facture* projetée à 196,16 milliards",
+      "dit": "La facture de Nachtigal est projetée à 196,16 milliards de FCFA en 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un contrat de type *take or pay*",
+      "dit": "Ce montant découle du mécanisme take or pay, où l'acheteur paie la disponibilité."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "16,35 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "16,35 milliards par *mois*",
+      "dit": "La somme donne une moyenne théorique de 16,35 milliards de FCFA par mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Ligne Nachtigal-Douala en *novembre 2026*",
+      "dit": "L'achèvement de la ligne Nachtigal-Douala est annoncé pour novembre 2026."
+    }
+  ]
+}

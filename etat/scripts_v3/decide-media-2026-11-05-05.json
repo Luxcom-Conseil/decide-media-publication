@@ -1,0 +1,79 @@
+{
+  "accroches": [
+    "La douane a saisi 40 kits Starlink à Douala.",
+    "Un véhicule de luxe et des couches jetables ont été saisis.",
+    "L'amende pour réseau non autorisé atteint 550 millions FCFA."
+  ],
+  "titre": "Saisie de kits Starlink à Douala",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "40 kits *Starlink* saisis",
+      "dit": "La Douane camerounaise a saisi 40 kits Starlink à Douala le week-end dernier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un véhicule et des *couches* saisis",
+      "dit": "Les agents ont aussi intercepté un véhicule de luxe et plus d'un million de couches jetables."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "550 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Amende de 100 à *550 millions*",
+      "dit": "L'importation de ces terminaux exige un titre officiel, sous peine de 100 à 550 millions FCFA d'amende."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Procédure *contentieuse* engagée",
+      "dit": "L'administration douanière engage une procédure contentieuse contre les contrebandiers."
+    }
+  ]
+}

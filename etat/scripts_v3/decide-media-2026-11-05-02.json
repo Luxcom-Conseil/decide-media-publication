@@ -1,0 +1,64 @@
+{
+  "accroches": [
+    "200 boulangeries répertoriées sur 350 ne sont pas certifiées au Cameroun.",
+    "Environ 57 % des boulangeries répertoriées manquent de certification au Cameroun.",
+    "La facture d'importation de blé a baissé à 187,8 milliards de FCFA."
+  ],
+  "titre": "Certification des boulangeries au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "200 *boulangeries* sur 350 non certifiées",
+      "dit": "200 boulangeries répertoriées sur 350 ne sont pas certifiées au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Environ 43 % de *certifications*",
+      "dit": "L'ANOR recense seulement 150 établissements certifiés, soit près de 43 % du total enregistré."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La norme NC 213:2014 est *obligatoire*",
+      "dit": "Pourtant, la norme NC 213:2014 est d'application obligatoire pour la fabrication du pain."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Importations de *blé* en baisse",
+      "dit": "En 2025, la facture d'importation de blé est passée à 187,8 milliards de FCFA."
+    }
+  ]
+}
