@@ -129,6 +129,30 @@ class Journal:
         tmp.replace(self.chemin)
 
 
+# --------------------------------------------------------------------------- photos déjà utilisées
+
+def cle_photo(page: str) -> str:
+    """Adresse de la page d'une photo, sous une forme stable (encodage et casse de l'hôte ignorés)."""
+    from urllib.parse import unquote
+    return unquote(str(page or "")).strip().replace("http://", "https://").rstrip("/")
+
+
+def noter_photos(articles: list[dict], lot: str, chemin: str | Path = "etat/photos_utilisees.json",
+                 garder_jours: int = 30) -> None:
+    """Liste légère des photos publiées, lue par la production du lendemain (les manifestes sont trop lourds).
+    {adresse de la page : date du dernier lot qui l'a utilisée}."""
+    chemin = Path(chemin)
+    d = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else {}
+    for a in articles:
+        page = (a.get("image_provenance") or {}).get("page")
+        if page and d.get(cle_photo(page), "") < lot:
+            d[cle_photo(page)] = lot
+    limite = (date.fromisoformat(lot) - timedelta(days=garder_jours)).isoformat()
+    d = {k: v for k, v in d.items() if v >= limite}
+    chemin.parent.mkdir(parents=True, exist_ok=True)
+    chemin.write_text(json.dumps(d, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
 # --------------------------------------------------------------------------- passage
 
 def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, simulation: bool = False,
@@ -178,6 +202,8 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
             if articles:
                 travaux.append((d, articles, reseaux, "principale"))
                 du_jour = du_jour or d.nom == aujourdhui.isoformat()
+                if not simulation:
+                    noter_photos(articles, d.nom, Path(journal.chemin).parent / "photos_utilisees.json")
 
     # 2. un lot de rattrapage par jour (lots marqués « backfill » par le producteur), du plus ancien au plus récent :
     #    s'il y a un lot du jour, le rattrapage ne passe que sur Facebook (visuels, créneaux intercalés) ;

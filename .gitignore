@@ -20,6 +20,7 @@ etat/*
 !etat/lots.json
 !etat/etat.json
 !etat/voix.json
+!etat/photos_utilisees.json
 !etat/scripts/
 !etat/scripts_v3/
 !etat/perso.json
