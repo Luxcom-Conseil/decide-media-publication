@@ -1,0 +1,159 @@
+{
+ "faits": [
+  "tulipes",
+  "lustig"
+ ],
+ "attente_partie2": {
+  "id": "lustig",
+  "jour_partie1": "2026-11-06",
+  "script": {
+   "titre": "L'homme qui vendit la tour Eiffel",
+   "scenes": [
+    {
+     "type": "accroche",
+     "ecran": "Il a vendu la tour Eiffel",
+     "grand": null,
+     "dit": "Il a vendu la tour Eiffel. Cet escroc de génie a berné toute la France.",
+     "image": 1,
+     "recherche": "Eiffel Tower 1920s"
+    },
+    {
+     "type": "date",
+     "ecran": "4 janvier 1890",
+     "grand": "1890",
+     "dit": "Tout commence le 4 janvier 1890 avec la naissance de Victor Lustig en Autriche-Hongrie.",
+     "image": 2,
+     "recherche": "Hostinne town 1900"
+    },
+    {
+     "type": "recit",
+     "ecran": "Un *polyglotte* redoutable",
+     "grand": null,
+     "dit": "Doté d'une brillante éducation, il parle couramment au moins cinq langues.",
+     "image": 3,
+     "recherche": "luxury ocean liner 1910s"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "19 ans",
+     "grand": "19",
+     "dit": "À l'âge de 19 ans, une querelle amoureuse lui laisse une cicatrice caractéristique au visage.",
+     "image": 4,
+     "recherche": "vintage portrait man 1910s"
+    },
+    {
+     "type": "recit",
+     "ecran": "Tricher sur les *transatlantiques*",
+     "grand": null,
+     "dit": "Avant la guerre, il gagne sa vie en trichant aux cartes sur les grands paquebots.",
+     "image": 5,
+     "recherche": "ocean liner interior 1910s"
+    },
+    {
+     "type": "date",
+     "ecran": "En 1920",
+     "grand": "1920",
+     "dit": "En 1920, il s'installe aux États-Unis et se fait appeler comte Victor Lustig.",
+     "image": 2,
+     "recherche": "New York 1920s street"
+    },
+    {
+     "type": "recit",
+     "ecran": "Arnaquer *Al Capone*",
+     "grand": null,
+     "dit": "Avec son allure aristocratique, il pousse ses escroqueries à la perfection et piège même Al Capone.",
+     "image": 3,
+     "recherche": "Al Capone 1930"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le retour à *Paris*",
+     "grand": null,
+     "dit": "Dans les années 1920, il revient en France pour profiter des Années folles à Paris.",
+     "image": 0,
+     "recherche": "Paris 1920s cabarets"
+    },
+    {
+     "type": "recit",
+     "ecran": "Sans un *sou*",
+     "grand": null,
+     "dit": "Mais le coût de la vie est élevé et il se retrouve rapidement sans un sou en poche.",
+     "image": 4,
+     "recherche": "Hotel de Crillon Paris"
+    },
+    {
+     "type": "recit",
+     "ecran": "À l'hôtel de *Crillon*",
+     "grand": null,
+     "dit": "Installé dans sa luxueuse chambre, il lit un journal pour trouver l'inspiration.",
+     "image": 5,
+     "recherche": "Place de la Concorde 1920s"
+    },
+    {
+     "type": "recit",
+     "ecran": "Un article *providentiel*",
+     "grand": null,
+     "dit": "Il découvre un article sur les difficultés de l'État à entretenir la tour Eiffel.",
+     "image": 3,
+     "recherche": "French newspaper 1920s"
+    },
+    {
+     "type": "recit",
+     "ecran": "Une *blague* journalistique",
+     "grand": null,
+     "dit": "L'article se termine par une question ironique : devra-t-on vendre la tour Eiffel ?",
+     "image": 6,
+     "recherche": "Eiffel Tower construction"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "1889",
+     "grand": "1889",
+     "dit": "Construite pour l'Exposition universelle de 1889, la dame de fer coûte cher en rénovation.",
+     "image": 7,
+     "recherche": "Paris 1889 exposition"
+    },
+    {
+     "type": "suite",
+     "ecran": "Comment réussir ce coup ?",
+     "grand": null,
+     "dit": "Comment va-t-il s'y prendre pour duper des acheteurs ? La suite dans la partie 2.",
+     "image": 0,
+     "recherche": null
+    }
+   ],
+   "question": "Comment a-t-il pu vendre la tour Eiffel ?",
+   "legende": "Cet escroc a réussi l'impensable en vendant la tour Eiffel.\nDécouvre le début de cette arnaque légendaire.\nComment a-t-il piégé ses victimes ?",
+   "hashtags": [
+    "histoire",
+    "argent",
+    "paris",
+    "secret",
+    "documentaire"
+   ]
+  }
+ },
+ "journal": [
+  {
+   "jour": "2026-11-06",
+   "id": "tulipes",
+   "format": "chiffre",
+   "nom": "hva-tulipes-c"
+  },
+  {
+   "jour": "2026-11-06",
+   "id": "humbert",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : chiffres absents de l'article : 20"
+  },
+  {
+   "jour": "2026-11-06",
+   "id": "lustig",
+   "format": "serie",
+   "nom": "hva-lustig-p1"
+  }
+ ],
+ "en_chiffre": [
+  "humbert"
+ ]
+}
