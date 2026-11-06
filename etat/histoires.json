@@ -1,135 +1,144 @@
 {
  "faits": [
   "tulipes",
-  "lustig"
+  "lustig",
+  "ponzi",
+  "law"
  ],
  "attente_partie2": {
-  "id": "lustig",
+  "id": "law",
   "jour_partie1": "2026-11-06",
   "script": {
-   "titre": "L'homme qui vendit la tour Eiffel",
+   "titre": "Le système de Law",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "Il a vendu la tour Eiffel",
+     "ecran": "Ce papier monnaie censé sauver la France a créé le pire chaos.",
      "grand": null,
-     "dit": "Il a vendu la tour Eiffel. Cet escroc de génie a berné toute la France.",
+     "dit": "On croyait que le papier monnaie allait sauver la France de la faillite, il a provoqué la pire folie financière.",
      "image": 1,
-     "recherche": "Eiffel Tower 1920s"
+     "recherche": null
     },
     {
      "type": "date",
-     "ecran": "4 janvier 1890",
-     "grand": "1890",
-     "dit": "Tout commence le 4 janvier 1890 avec la naissance de Victor Lustig en Autriche-Hongrie.",
+     "ecran": "Mort de Louis XIV",
+     "grand": "1715",
+     "dit": "En septembre 1715, le roi Louis XIV meurt. Il laisse le royaume de France dans un état financier totalement désastreux.",
      "image": 2,
-     "recherche": "Hostinne town 1900"
-    },
-    {
-     "type": "recit",
-     "ecran": "Un *polyglotte* redoutable",
-     "grand": null,
-     "dit": "Doté d'une brillante éducation, il parle couramment au moins cinq langues.",
-     "image": 3,
-     "recherche": "luxury ocean liner 1910s"
+     "recherche": "Louis XIV deathbed Versailles"
     },
     {
      "type": "chiffre",
-     "ecran": "19 ans",
-     "grand": "19",
-     "dit": "À l'âge de 19 ans, une querelle amoureuse lui laisse une cicatrice caractéristique au visage.",
-     "image": 4,
-     "recherche": "vintage portrait man 1910s"
+     "ecran": "De dette publique",
+     "grand": "2,8 milliards",
+     "dit": "La dette de la France s'élève à 2,8 milliards de livres. Cela représente dix ans de recettes de l'État.",
+     "image": 3,
+     "recherche": "French royal treasury coins gold"
     },
     {
      "type": "recit",
-     "ecran": "Tricher sur les *transatlantiques*",
+     "ecran": "Un *Écossais* arrive à Paris",
      "grand": null,
-     "dit": "Avant la guerre, il gagne sa vie en trichant aux cartes sur les grands paquebots.",
+     "dit": "C'est alors qu'un Écossais nommé John Law propose une idée révolutionnaire au régent, le duc d'Orléans.",
      "image": 5,
-     "recherche": "ocean liner interior 1910s"
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Le *papier-monnaie* au lieu de l'or",
+     "grand": null,
+     "dit": "John Law veut remplacer les pièces d'or et d'argent par des billets en papier pour stimuler le commerce.",
+     "image": 1,
+     "recherche": null
     },
     {
      "type": "date",
-     "ecran": "En 1920",
-     "grand": "1920",
-     "dit": "En 1920, il s'installe aux États-Unis et se fait appeler comte Victor Lustig.",
-     "image": 2,
-     "recherche": "New York 1920s street"
+     "ecran": "Création de la Banque générale",
+     "grand": "2 mai 1716",
+     "dit": "Le 2 mai 1716, Law est autorisé à créer la Banque générale, une banque privée installée à Paris.",
+     "image": 4,
+     "recherche": null
     },
     {
-     "type": "recit",
-     "ecran": "Arnaquer *Al Capone*",
-     "grand": null,
-     "dit": "Avec son allure aristocratique, il pousse ses escroqueries à la perfection et piège même Al Capone.",
+     "type": "chiffre",
+     "ecran": "Capital initial en livres",
+     "grand": "6 millions",
+     "dit": "Son capital initial s'élève à six millions de livres. Le succès est immédiat auprès des investisseurs.",
      "image": 3,
-     "recherche": "Al Capone 1930"
+     "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Le retour à *Paris*",
+     "ecran": "Payer ses *impôts* en billets",
      "grand": null,
-     "dit": "Dans les années 1920, il revient en France pour profiter des Années folles à Paris.",
+     "dit": "En 1717, le régent autorise même les Français à payer leurs impôts avec les billets émis par la banque de Law.",
+     "image": 8,
+     "recherche": "French tax collector 18th century"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le *monopole* de la Louisiane",
+     "grand": null,
+     "dit": "Law crée ensuite la Compagnie d'Occident et récupère le monopole du commerce avec la Louisiane.",
+     "image": 8,
+     "recherche": null
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Capital de la compagnie",
+     "grand": "100 millions",
+     "dit": "Le capital de cette nouvelle compagnie atteint 100 millions de livres, découpé en 200 000 actions.",
      "image": 0,
-     "recherche": "Paris 1920s cabarets"
+     "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Sans un *sou*",
+     "ecran": "La *propagande* de l'Eldorado",
      "grand": null,
-     "dit": "Mais le coût de la vie est élevé et il se retrouve rapidement sans un sou en poche.",
-     "image": 4,
-     "recherche": "Hotel de Crillon Paris"
+     "dit": "Pour vendre ses actions, Law fait passer la Louisiane pour un véritable pays de cocagne plein de richesses.",
+     "image": 9,
+     "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "À l'hôtel de *Crillon*",
+     "ecran": "Des *rafles* dans les prisons",
      "grand": null,
-     "dit": "Installé dans sa luxueuse chambre, il lit un journal pour trouver l'inspiration.",
-     "image": 5,
-     "recherche": "Place de la Concorde 1920s"
+     "dit": "Pour peupler la colonie, on arrête les prisonniers, mais aussi d'honnêtes artisans enlevés en pleine rue.",
+     "image": 2,
+     "recherche": "Paris arrest 18th century guards"
     },
     {
      "type": "recit",
-     "ecran": "Un article *providentiel*",
+     "ecran": "Contrôle *total* de l'économie",
      "grand": null,
-     "dit": "Il découvre un article sur les difficultés de l'État à entretenir la tour Eiffel.",
-     "image": 3,
-     "recherche": "French newspaper 1920s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Une *blague* journalistique",
-     "grand": null,
-     "dit": "L'article se termine par une question ironique : devra-t-on vendre la tour Eiffel ?",
+     "dit": "En 1719, la banque devient la Banque royale. Law s'empare du tabac, des impôts et de la frappe des monnaies.",
      "image": 6,
-     "recherche": "Eiffel Tower construction"
+     "recherche": null
     },
     {
-     "type": "chiffre",
-     "ecran": "1889",
-     "grand": "1889",
-     "dit": "Construite pour l'Exposition universelle de 1889, la dame de fer coûte cher en rénovation.",
+     "type": "recit",
+     "ecran": "La *folie* rue Quincampoix",
+     "grand": null,
+     "dit": "À Paris, la rue Quincampoix devient le théâtre d'une spéculation frénétique où tout le monde veut s'enrichir.",
      "image": 7,
-     "recherche": "Paris 1889 exposition"
+     "recherche": null
     },
     {
      "type": "suite",
-     "ecran": "Comment réussir ce coup ?",
+     "ecran": "La bulle va-t-elle exploser ?",
      "grand": null,
-     "dit": "Comment va-t-il s'y prendre pour duper des acheteurs ? La suite dans la partie 2.",
-     "image": 0,
+     "dit": "Que va-t-il se passer quand les actionnaires vont exiger leur or ? La suite dans la partie 2.",
+     "image": 3,
      "recherche": null
     }
    ],
-   "question": "Comment a-t-il pu vendre la tour Eiffel ?",
-   "legende": "Cet escroc a réussi l'impensable en vendant la tour Eiffel.\nDécouvre le début de cette arnaque légendaire.\nComment a-t-il piégé ses victimes ?",
+   "question": "Tu aurais acheté du papier monnaie à cette époque ?",
+   "legende": "Ce papier monnaie censé sauver la France a créé le pire chaos.\nDécouvre l'incroyable histoire du système de Law et de la spéculation à Paris sous la Régence.\nTu aurais acheté du papier monnaie à cette époque ?",
    "hashtags": [
     "histoire",
-    "argent",
-    "paris",
-    "secret",
-    "documentaire"
+    "finance",
+    "france",
+    "histoiredefrance"
    ]
   }
  },
@@ -151,9 +160,80 @@
    "id": "lustig",
    "format": "serie",
    "nom": "hva-lustig-p1"
+  },
+  {
+   "jour": "2026-11-06",
+   "id": "lustig",
+   "format": "serie2",
+   "nom": "hva-lustig-p2"
+  },
+  {
+   "jour": "2026-11-06",
+   "id": "humbert",
+   "format": "chiffre",
+   "erreur": "script refusé au contrôle : 643 caractères dits, il en faut de 380 à 600 (question comprise)"
+  },
+  {
+   "jour": "2026-11-06",
+   "id": "ponzi",
+   "format": "chiffre",
+   "nom": "hva-ponzi-c"
+  },
+  {
+   "jour": "2026-11-06",
+   "id": "law",
+   "format": "serie",
+   "nom": "hva-law-p1"
   }
  ],
  "en_chiffre": [
   "humbert"
+ ],
+ "ecartes": {
+  "humbert": "script refusé au contrôle : 643 caractères dits, il en faut de 380 à 600 (question comprise)"
+ },
+ "programmes": [
+  {
+   "jour": "2026-11-06",
+   "nom": "hva-lustig-p2",
+   "reseau": "tiktok",
+   "buffer": "6aedcc8e730edf821acc888a",
+   "heure": "2026-11-06T14:08:00+01:00"
+  },
+  {
+   "jour": "2026-11-06",
+   "nom": "hva-lustig-p2",
+   "reseau": "youtube",
+   "buffer": "6aedcc8ffd32b2a5bf0b563e",
+   "heure": "2026-11-06T14:08:00+01:00"
+  },
+  {
+   "jour": "2026-11-06",
+   "nom": "hva-ponzi-c",
+   "reseau": "tiktok",
+   "buffer": "6aedcc900b0f6e64a0bcc8b1",
+   "heure": "2026-11-06T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-06",
+   "nom": "hva-ponzi-c",
+   "reseau": "youtube",
+   "buffer": "6aedcc90e45c1855cb3b93b1",
+   "heure": "2026-11-06T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-06",
+   "nom": "hva-law-p1",
+   "reseau": "tiktok",
+   "buffer": "6aedcc920b0f6e64a0bcc971",
+   "heure": "2026-11-06T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-06",
+   "nom": "hva-law-p1",
+   "reseau": "youtube",
+   "buffer": "6aedcc92fd32b2a5bf0b56a1",
+   "heure": "2026-11-06T20:30:00+01:00"
+  }
  ]
 }
