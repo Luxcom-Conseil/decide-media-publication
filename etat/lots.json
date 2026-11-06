@@ -8418,10 +8418,14 @@
     "x_buffer": {
       "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-06/decide-media-2026-11-06-05.jpg",
       "lot": "2026-11-06",
-      "maj": "2026-11-06T06:11:36+00:00",
-      "statut": "echec",
+      "maj": "2026-11-06T09:47:25+00:00",
+      "piste": "principale",
+      "post_id": "6aeda22d86fe9b83798929fe",
+      "programme_pour": "2026-11-06T20:00:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "À la douane, l'addition est salée"
+      "titre": "À la douane, l'addition est salée",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
     },
     "youtube": {
       "lot": "2026-11-06",
