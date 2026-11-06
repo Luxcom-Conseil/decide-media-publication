@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "Le Cameroun prévoit 600 milliards de FCFA pour sa dette intérieure en 2027.",
+    "Les restes à payer du Trésor s'élevaient à 703,5 milliards de FCFA.",
+    "83,6 % des impayés du Trésor ont plus de trois mois de retard."
+  ],
+  "titre": "600 milliards pour la dette intérieure",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "600 milliards pour la *dette*",
+      "dit": "Le Cameroun prévoit 600 milliards de FCFA pour régler sa dette intérieure en 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "703 500 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "703,5 milliards d'*impayés*",
+      "dit": "À fin juin 2026, les restes à payer du Trésor atteignaient 703,5 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "83,6 % de *retards* anciens",
+      "dit": "Sur ce total, 588,4 milliards de FCFA attendaient leur règlement depuis plus de trois mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "288 800 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "288,8 milliards de *reliquat*",
+      "dit": "Pour la dette auditée de 2000 à 2019, le reliquat s'élevait à 288,8 milliards au 29 mai 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Déficit limité à *2,7 %*",
+      "dit": "La circulaire du 12 octobre fixe le déficit budgétaire 2027 à 2,7 % du PIB."
+    }
+  ]
+}

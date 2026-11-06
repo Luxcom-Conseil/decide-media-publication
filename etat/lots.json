@@ -8097,5 +8097,342 @@
       "titre": "Starlink dans le viseur de la douane",
       "url": "https://youtu.be/dGku84MfTv4"
     }
+  },
+  "decide-media-2026-11-06-01": {
+    "facebook": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:46:04+00:00",
+      "piste": "principale",
+      "post_id": "122118686571499704",
+      "programme_pour": "2026-11-06T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coup de pouce à 275 000 francs",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:56:30+00:00",
+      "piste": "principale",
+      "post_id": "1207157982247976",
+      "programme_pour": "2026-11-06T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coup de pouce à 275 000 francs",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:11:38+00:00",
+      "piste": "principale",
+      "post_id": "6aed6f997b7e47e8f40fad05",
+      "programme_pour": "2026-11-06T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coup de pouce à 275 000 francs",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:14:07+00:00",
+      "piste": "principale",
+      "post_id": "6aed702f7b7e47e8f40fc711",
+      "programme_pour": "2026-11-06T08:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coup de pouce à 275 000 francs",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:59:20+00:00",
+      "piste": "principale",
+      "post_id": "6aed6cb807f945cca943d707",
+      "programme_pour": "2026-11-06T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coup de pouce à 275 000 francs",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:48:28+00:00",
+      "piste": "principale",
+      "post_id": "hHoUQvNNqQc",
+      "programme_pour": "2026-11-06T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coup de pouce à 275 000 francs",
+      "url": "https://youtu.be/hHoUQvNNqQc"
+    }
+  },
+  "decide-media-2026-11-06-02": {
+    "facebook": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:46:07+00:00",
+      "piste": "principale",
+      "post_id": "122118686721499704",
+      "programme_pour": "2026-11-06T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les quotas de poisson changent de mains",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:56:37+00:00",
+      "piste": "principale",
+      "post_id": "1669178081576007",
+      "programme_pour": "2026-11-06T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les quotas de poisson changent de mains",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:11:39+00:00",
+      "piste": "principale",
+      "post_id": "6aed6f9ac1e74b84e5cdda4f",
+      "programme_pour": "2026-11-06T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les quotas de poisson changent de mains",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:14:08+00:00",
+      "piste": "principale",
+      "post_id": "6aed70307b7e47e8f40fc785",
+      "programme_pour": "2026-11-06T11:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les quotas de poisson changent de mains",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:01:17+00:00",
+      "piste": "principale",
+      "post_id": "6aed6d2ddbada656bef74b79",
+      "programme_pour": "2026-11-06T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les quotas de poisson changent de mains",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:50:11+00:00",
+      "piste": "principale",
+      "post_id": "fiu3IDetpdI",
+      "programme_pour": "2026-11-06T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les quotas de poisson changent de mains",
+      "url": "https://youtu.be/fiu3IDetpdI"
+    }
+  },
+  "decide-media-2026-11-06-03": {
+    "facebook": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:46:10+00:00",
+      "piste": "principale",
+      "post_id": "122118686769499704",
+      "programme_pour": "2026-11-06T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L'ardoise de l'État, version 2027",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:56:48+00:00",
+      "piste": "principale",
+      "post_id": "1646236557004767",
+      "programme_pour": "2026-11-06T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L'ardoise de l'État, version 2027",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:11:40+00:00",
+      "piste": "principale",
+      "post_id": "6aed6f9c07f945cca94506f3",
+      "programme_pour": "2026-11-06T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L'ardoise de l'État, version 2027",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:14:09+00:00",
+      "piste": "principale",
+      "post_id": "6aed7031dbada656bef825a3",
+      "programme_pour": "2026-11-06T14:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L'ardoise de l'État, version 2027",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:04:55+00:00",
+      "piste": "principale",
+      "post_id": "6aed6e0607f945cca9448763",
+      "programme_pour": "2026-11-06T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L'ardoise de l'État, version 2027",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:52:03+00:00",
+      "piste": "principale",
+      "post_id": "viypcqk2Hwg",
+      "programme_pour": "2026-11-06T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L'ardoise de l'État, version 2027",
+      "url": "https://youtu.be/viypcqk2Hwg"
+    }
+  },
+  "decide-media-2026-11-06-04": {
+    "facebook": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:46:14+00:00",
+      "piste": "principale",
+      "post_id": "122118686817499704",
+      "programme_pour": "2026-11-06T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le tramway de Douala reste en gare",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:56:54+00:00",
+      "piste": "principale",
+      "post_id": "1126036910224683",
+      "programme_pour": "2026-11-06T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le tramway de Douala reste en gare",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:11:41+00:00",
+      "piste": "principale",
+      "post_id": "6aed6f9d07f945cca945071f",
+      "programme_pour": "2026-11-06T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le tramway de Douala reste en gare",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:14:10+00:00",
+      "piste": "principale",
+      "post_id": "6aed703286fe9b837977f1dc",
+      "programme_pour": "2026-11-06T17:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le tramway de Douala reste en gare",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:06:31+00:00",
+      "piste": "principale",
+      "post_id": "6aed6e67f3498efda772e8e0",
+      "programme_pour": "2026-11-06T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le tramway de Douala reste en gare",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:53:48+00:00",
+      "piste": "principale",
+      "post_id": "IhhfWLG1-Lk",
+      "programme_pour": "2026-11-06T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le tramway de Douala reste en gare",
+      "url": "https://youtu.be/IhhfWLG1-Lk"
+    }
+  },
+  "decide-media-2026-11-06-05": {
+    "facebook": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:46:17+00:00",
+      "piste": "principale",
+      "post_id": "122118686871499704",
+      "programme_pour": "2026-11-06T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la douane, l'addition est salée",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:57:01+00:00",
+      "piste": "principale",
+      "post_id": "2589571944898274",
+      "programme_pour": "2026-11-06T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la douane, l'addition est salée",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:14:06+00:00",
+      "piste": "principale",
+      "post_id": "6aed702ec1e74b84e5cdf870",
+      "programme_pour": "2026-11-06T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la douane, l'addition est salée",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:15:46+00:00",
+      "piste": "principale",
+      "post_id": "6aed7092f3498efda773716c",
+      "programme_pour": "2026-11-06T20:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la douane, l'addition est salée",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-06/decide-media-2026-11-06-05.jpg",
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T06:11:36+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "À la douane, l'addition est salée"
+    },
+    "youtube": {
+      "lot": "2026-11-06",
+      "maj": "2026-11-06T05:56:24+00:00",
+      "piste": "principale",
+      "post_id": "7L2v7R2ZR7g",
+      "programme_pour": "2026-11-06T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "À la douane, l'addition est salée",
+      "url": "https://youtu.be/7L2v7R2ZR7g"
+    }
   }
 }

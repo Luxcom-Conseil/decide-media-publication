@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "18 entreprises sur 52 n'ont importé aucun poisson.",
+    "Le Cameroun redéploie les quotas d'importation de poisson non utilisés.",
+    "Congelcam détient 130 000 tonnes de quotas de poisson."
+  ],
+  "titre": "Réattribution des quotas de poisson",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "18 entreprises n'ont *aucun* poisson",
+      "dit": "18 entreprises sur 52 n'ont importé aucun poisson."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Redéploiement des *quotas* inutilisés",
+      "dit": "Selon Ecomatin, le ministère du Commerce veut redéployer les quotas non utilisés vers d'autres importateurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Congelcam détient *130 000 tonnes*",
+      "dit": "Congelcam concentre 130 000 tonnes d'autorisations sur les 200 000 tonnes accordées pour 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Imports de poisson en *hausse*",
+      "dit": "En 2025, le Cameroun a importé 267 601 tonnes de poisson, en hausse de 29 % sur un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La demande atteint *500 000 tonnes*",
+      "dit": "La production nationale s'est établie à 259 000 tonnes en 2025, pour une demande de 500 000 tonnes."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "accroches": [
+    "Le projet de tramway de Douala coûte 400 milliards de FCFA.",
+    "La date limite pour le tramway de Douala est fixée au 25 février 2027.",
+    "Le tramway de Douala prévoit 750 000 voyageurs par jour."
+  ],
+  "titre": "Tramway de Douala",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le tramway de Douala *coûte* 400 milliards.",
+      "dit": "Le projet de tramway de Douala coûte 400 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 février 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Candidatures ouvertes jusqu'au *25 février* 2027.",
+      "dit": "La date limite de candidature est fixée au 25 février 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "120 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les candidats présentent *120 milliards* de fonds propres.",
+      "dit": "Les candidats doivent présenter 120 milliards FCFA de fonds propres."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un tarif social sous les *500 FCFA*.",
+      "dit": "La communauté urbaine annonce un tarif social sous les 500 FCFA."
+    }
+  ]
+}

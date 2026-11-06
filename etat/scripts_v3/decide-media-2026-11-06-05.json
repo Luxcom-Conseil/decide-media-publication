@@ -1,0 +1,69 @@
+{
+  "accroches": [
+    "492 dossiers contentieux examinés par la douane au Cameroun.",
+    "2,27 milliards de FCFA d'amendes douanières au Cameroun.",
+    "Un milliard d'amendes pour non-présentation de marchandises en entrepôt."
+  ],
+  "titre": "Douane au Cameroun : 2,27 milliards d'amendes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "2,27 milliards d'amendes *douanières*",
+      "dit": "2,27 milliards de FCFA d'amendes douanières ont été prononcés au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 au 27 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "492 dossiers *examinés*",
+      "dit": "492 dossiers ont été examinés entre le 5 et le 27 octobre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un milliard *d'amendes*",
+      "dit": "La non-présentation de marchandises en entrepôt totalise un milliard de FCFA d'amendes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "101 dossiers de *contrebande*",
+      "dit": "La contrebande à l'importation arrive en tête avec 101 dossiers."
+    }
+  ]
+}

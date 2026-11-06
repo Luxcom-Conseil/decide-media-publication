@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "20 000 jeunes vont recevoir 275 000 FCFA de subvention au Cameroun.",
+    "Le gouvernement prépare une subvention totale de 5,5 milliards de FCFA.",
+    "La Banque mondiale finance des subventions non remboursables pour des jeunes informels."
+  ],
+  "titre": "Aide financière pour 20 000 jeunes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "20 000 jeunes *reçoivent* 275 000 FCFA",
+      "dit": "20 000 jeunes vont recevoir 275 000 FCFA de subvention au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une aide *non remboursable* par personne",
+      "dit": "Cette aide financière non remboursable vise des jeunes de 18 à 35 ans du secteur informel."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Maroua | Douala | Yaoundé | Garoua",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Sélection dans *huit* villes",
+      "dit": "Le programme concerne des travailleurs indépendants situés dans huit villes du pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "9 nov. au 9 déc. 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Inscriptions *ouvertes* en ligne",
+      "dit": "Les inscriptions en ligne ont lieu du 9 novembre au 9 décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "5 500 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Financement par la *Banque mondiale*",
+      "dit": "L'enveloppe globale de 5,5 milliards de FCFA est financée par la Banque mondiale."
+    }
+  ]
+}
