@@ -558,10 +558,16 @@ def programmer(cfg: dict, log, jour: str) -> bool:
     etat = lire_etat()
     etat.setdefault("programmes", [])
     ok = True
-    for v in plan:
+    # Lancement à la main (bouton « Run workflow », demande de Stéphane du 07/11/2026) : publication tout de suite, une
+    # vidéo toutes les 30 min, sans attendre les créneaux. Le passage automatique du matin garde les créneaux.
+    immediat = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" or os.environ.get("HISTOIRES_IMMEDIAT") == "1"
+    maintenant = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0)
+    for rang, v in enumerate(plan):
         meta = json.loads((dossier / f"{v['nom']}.json").read_text(encoding="utf-8"))
         quand = datetime.fromisoformat(f"{jour}T{v['heure']}:00").replace(tzinfo=ZoneInfo("Europe/Paris"))
-        if quand < datetime.now(ZoneInfo("Europe/Paris")):
+        if immediat:
+            quand = maintenant + timedelta(minutes=10 + 30 * rang)
+        elif quand < datetime.now(ZoneInfo("Europe/Paris")):
             quand = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0) + timedelta(minutes=20)
         for reseau, canal in canaux.items():
             metadata = ({"tiktok": {"isAiGenerated": True, "title": v["titre"][:90]}} if reseau == "tiktok" else
