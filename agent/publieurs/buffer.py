@@ -21,9 +21,10 @@ API = "https://api.buffer.com"
 _HEBERGES: dict[Path, str] = {}  # même média pour X et LinkedIn : mis en ligne une seule fois par passage
 
 
-def requete(query: str, variables: dict | None = None) -> dict:
+def requete(query: str, variables: dict | None = None, cle: str = "BUFFER_API_KEY") -> dict:
+    """`cle` : nom de la variable d'environnement (BUFFER_API_KEY_HISTOIRES pour le second compte Buffer)."""
     r = requests.post(API, json={"query": query, "variables": variables or {}}, timeout=TIMEOUT,
-                      headers={"Authorization": f"Bearer {os.environ['BUFFER_API_KEY']}"})
+                      headers={"Authorization": f"Bearer {os.environ[cle]}"})
     if r.status_code == 429:  # trop de requêtes sur 15 min (plan gratuit) : réessai au passage suivant, sans compter d'essai
         raise ErreurLimite("buffer : trop de requêtes (HTTP 429), réessai au prochain passage")
     controler(r, "buffer")

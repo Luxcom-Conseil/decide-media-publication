@@ -30,6 +30,7 @@ etat/*
 motion/node_modules/
 motion/public/_lots/
 motion/public/_perso/
+motion/public/_histoires/
 motion/public/_v3/
 motion/out/
 sortie/

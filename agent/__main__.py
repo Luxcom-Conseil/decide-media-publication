@@ -51,7 +51,8 @@ def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="agent", description="Publie sur les réseaux sociaux le contenu d'un dossier Drive.")
     p.add_argument("commande", nargs="?", default="publier",
                    choices=["publier", "verifier", "lots", "essai-video", "perso", "perso-essai", "perso-planifier",
-                            "perso-rendre", "perso-heberger", "perso-publier"],
+                            "perso-rendre", "perso-heberger", "perso-publier", "histoires-essai",
+                            "histoires-produire", "histoires-programmer"],
                    help="publier = dossiers « post » ; lots = lots quotidiens DECIDE MEDIA ; verifier = tester les accès ; "
                         "essai-video = fabriquer un Short d'essai dans sortie/, sans publier ; perso-essai = fabriquer un "
                         "Reel Instagram perso dans sortie/, sans publier ; perso-planifier / perso-rendre / "
@@ -111,6 +112,27 @@ def main(argv: list[str] | None = None) -> int:
         from .essai_video import essai_video
 
         ok = essai_video(SourceDrive.depuis_env(), Path("sortie"), log)
+        _resume_github(log)
+        return 0 if ok else 1
+
+    if a.commande == "histoires-essai":  # compte « Histoires vraies d'argent » : vidéos d'essai, rien n'est publié
+        from . import histoires
+
+        ok = histoires.essai(cfg, log, a.sujet)
+        _resume_github(log)
+        return 0 if ok else 1
+
+    if a.commande in ("histoires-produire", "histoires-programmer"):  # production quotidienne (workflow histoires.yml)
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+
+        from . import histoires
+
+        jour = datetime.now(ZoneInfo("Europe/Paris")).date().isoformat()
+        if a.commande == "histoires-produire":
+            ok = bool(histoires.produire(cfg, log, jour))
+        else:
+            ok = histoires.programmer(cfg, log, jour)
         _resume_github(log)
         return 0 if ok else 1
 

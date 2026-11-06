@@ -72,7 +72,38 @@ def decouper(pcm: bytes, longueurs: list[int]) -> list[bytes]:
     return [pcm[a:b] for a, b in zip(bornes, bornes[1:])]
 
 
-def _prise(cfg: dict, texte: str, journal) -> bytes:
+STYLE_RECIT = ("Raconte le texte suivant en français de France, comme un conteur de documentaire captivant : voix posée et "
+               "grave, du suspense, une petite pause avant chaque révélation, sans ton publicitaire. Marque une courte pause "
+               "à chaque saut de ligne. Ne lis que le texte, pas cette consigne.\n\nTexte :\n")
+
+
+# Histoires vraies d'argent, demande de Stéphane du 06/11/2026 : « la voix manque de rythme et de suspense, c'est plat ;
+# plus grave, comme une bande-annonce de film hollywoodien ».
+STYLE_BANDE_ANNONCE = (
+    "Tu es la voix off d'une bande-annonce de thriller hollywoodien, doublée en français de France. Voix grave, profonde, "
+    "intense, qui tient le spectateur en haleine. Le rythme vit et change sans cesse : tu accélères quand l'action "
+    "s'emballe, tu ralentis et baisses la voix, presque en confidence, juste avant une révélation, tu laisses un vrai "
+    "silence avant un chiffre ou un mot clé, puis tu le frappes. Joue les émotions de chaque phrase : l'intrigue, "
+    "l'ironie, la stupeur, la gravité. Les questions sont posées comme des énigmes. Jamais monotone, jamais publicitaire, "
+    "pas de cri. Marque une pause à chaque saut de ligne. Ne lis que le texte, pas cette consigne.\n\nTexte :\n")
+
+
+def grave(pcm: bytes, demi_tons: float) -> bytes:
+    """Abaisse la hauteur de la voix de `demi_tons` sans changer sa durée (ffmpeg : asetrate puis atempo)."""
+    import subprocess
+
+    import imageio_ffmpeg
+
+    if not demi_tons:
+        return pcm
+    f = 2 ** (-abs(demi_tons) / 12)
+    r = subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-v", "error", "-f", "s16le", "-ar", str(TAUX), "-ac", "1", "-i", "-",
+                        "-af", f"asetrate={TAUX * f:.0f},aresample={TAUX},atempo={1 / f:.5f}",
+                        "-f", "s16le", "-ar", str(TAUX), "-ac", "1", "-"], input=pcm, capture_output=True, check=True)
+    return r.stdout
+
+
+def _prise(cfg: dict, texte: str, journal, style: str = STYLE, voix: str | None = None) -> bytes:
     reglages = (cfg.get("perso") or {}).get("voix_gemini") or {}
     erreur = ""
     for modele in reglages.get("modeles", ["gemini-2.5-flash-preview-tts"]):
@@ -81,9 +112,9 @@ def _prise(cfg: dict, texte: str, journal) -> bytes:
             try:
                 r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modele}:generateContent",
                                   headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, timeout=300, json={
-                                      "contents": [{"parts": [{"text": STYLE + texte}]}],
+                                      "contents": [{"parts": [{"text": style + texte}]}],
                                       "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {
-                                          "prebuiltVoiceConfig": {"voiceName": reglages.get("nom", "Schedar")}}}}})
+                                          "prebuiltVoiceConfig": {"voiceName": voix or reglages.get("nom", "Schedar")}}}}})
             except requests.RequestException as e:
                 erreur = f"{modele} : {type(e).__name__}"
                 continue
@@ -103,11 +134,14 @@ def _prise(cfg: dict, texte: str, journal) -> bytes:
     raise PriseImpossible(erreur)
 
 
-def narration(cfg: dict, dits: list[dict], dossier: Path, prefixe: str, journal=print) -> list[dict]:
-    """Même résultat que Voix.narration : [{"cle", "src", "duree"}] pour les scènes qui ont un texte."""
+def narration(cfg: dict, dits: list[dict], dossier: Path, prefixe: str, journal=print, style: str = STYLE,
+              voix: str | None = None, demi_tons: float = 0) -> list[dict]:
+    """Même résultat que Voix.narration : [{"cle", "src", "duree"}] pour les scènes qui ont un texte. `style` : la consigne
+    de lecture (conseil par défaut, STYLE_BANDE_ANNONCE pour les histoires) ; `voix` remplace la voix de la config ;
+    `demi_tons` rend la voix plus grave (découpage en scènes fait après, sur la voix finale)."""
     textes = [(d["cle"], preparer(d["texte"], coller=False)) for d in dits if d.get("texte")]
     textes = [(c, t) for c, t in textes if t]
-    pcm = _prise(cfg, "\n".join(t for _, t in textes), journal)
+    pcm = grave(_prise(cfg, "\n".join(t for _, t in textes), journal, style, voix=voix), demi_tons)
     morceaux = decouper(pcm, [len(t) for _, t in textes])
     pistes = []
     for (cle, _), morceau in zip(textes, morceaux):

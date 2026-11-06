@@ -105,6 +105,17 @@ lots:
   marge_minutes: 20
   ecart_minimum_minutes: 45
 
+# Compte « Histoires vraies d'argent » (agent/histoires.py, workflow histoires.yml) : 3 vidéos par jour, publiées par
+# le SECOND compte Buffer (secret BUFFER_API_KEY_HISTOIRES), créé le 06/11/2026.
+histoires:
+  canaux:
+    tiktok: 6aed2f70e29c69a1717a0a84    # TikTok @histoires.vraies.argents
+    youtube: 6aed2ff5e29c69a1717a0e25   # YouTube « Histoires Vraies d'Argent »
+  categorie_youtube: "27"               # Éducation
+  voix:                                 # essai C choisi par Stéphane le 06/11/2026 : ton bande-annonce de thriller
+    nom: Algenib
+    demi_tons: 1                        # un peu plus grave
+
 # Compte Instagram de Stéphane : Reels « conseils et astuces psychologiques » de 60 s et plus, sans visage filmé, un
 # sujet du catalogue agent/perso_sujets.py par Reel ; connexion Instagram directe ; public européen.
 # Rythme validé par Stéphane le 27/10/2026 : production de toute la semaine le dimanche (workflow instagram-production),
