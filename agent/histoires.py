@@ -460,8 +460,31 @@ def ecrire_etat(etat: dict) -> None:
     ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def prochain(etat: dict, format_: str) -> dict | None:
-    return next((s for s in CATALOGUE if s["format"] == format_ and s["id"] not in etat["faits"]), None)
+ESSAIS_PAR_CRENEAU = 3  # sujets essayés au plus pour un même créneau, quand le script d'un sujet est refusé
+
+
+def prochain(etat: dict, format_: str, deja: set = frozenset()) -> dict | None:
+    """Sujet suivant du catalogue pour ce format. Une série écartée (article trop court pour deux parties) repasse en
+    « chiffre fou » avant les chiffres du catalogue ; un sujet écarté deux fois n'est plus proposé."""
+    exclus = set(etat["faits"]) | set(deja) | set(etat.get("ecartes", {}))
+    if format_ == "chiffre":
+        for i in etat.get("en_chiffre", []):
+            if i not in exclus and i in PAR_ID:
+                return PAR_ID[i]
+    else:
+        exclus |= set(etat.get("en_chiffre", []))
+    return next((s for s in CATALOGUE if s["format"] == format_ and s["id"] not in exclus), None)
+
+
+def _ecarter(etat: dict, sujet: dict, format_: str, raison: str, log) -> None:
+    """Un script refusé ne bloque plus la production : la série devient un « chiffre fou » (un récit court tient dans
+    un article maigre), le chiffre refusé sort du catalogue."""
+    if format_ == "serie" and sujet["id"] not in etat.setdefault("en_chiffre", []):
+        etat["en_chiffre"].append(sujet["id"])
+        log(f"    ↪ {sujet['id']} : trop court pour une série, repassera en « chiffre fou »")
+    else:
+        etat.setdefault("ecartes", {})[sujet["id"]] = raison[:200]
+        log(f"    ↪ {sujet['id']} écarté du catalogue")
 
 
 def produire(cfg: dict, log, jour: str) -> list[dict]:
@@ -470,35 +493,45 @@ def produire(cfg: dict, log, jour: str) -> list[dict]:
     etat = lire_etat()
     dossier = RACINE / "sortie" / "histoires" / jour
     faites = []
-    taches = []
     attente = etat.get("attente_partie2")
-    if attente:
-        taches.append(("serie2", PAR_ID[attente["id"]], attente))
-    for format_ in ("chiffre", "serie"):
-        s = prochain(etat, format_)
-        if s:
-            taches.append((format_, s, None))
-        else:
-            log(f"⚠️ catalogue épuisé pour le format « {format_} » : ajouter des sujets dans agent/histoires_sujets.py")
-    for format_, sujet, att in taches:
-        suffixe = {"serie": "p1", "serie2": "p2", "chiffre": "c"}[format_]
-        nom = f"hva-{sujet['id']}-{suffixe}"
-        log(f"• {sujet['article']} [{format_}]")
-        try:
-            meta = fabriquer(cfg, sujet, dossier, nom, log, format_=format_, partie1=att["script"] if att else None)
-        except Exception as e:
-            log(f"    ❌ {type(e).__name__} : {str(e)[:400]}")
-            etat["journal"].append({"jour": jour, "id": sujet["id"], "format": format_, "erreur": str(e)[:300]})
+    deja: set = set()  # sujets déjà essayés aujourd'hui
+    for format_ in ("serie2", "chiffre", "serie"):
+        if format_ == "serie2" and not attente:
             continue
-        if format_ == "serie2":
-            etat["attente_partie2"] = None
-        else:
-            etat["faits"].append(sujet["id"])
-            if format_ == "serie":
-                etat["attente_partie2"] = {"id": sujet["id"], "jour_partie1": jour, "script": meta["script"]}
-        titre = meta["script"]["titre"] + {"serie": " (partie 1)", "serie2": " (partie 2)"}.get(format_, "")
-        faites.append({"nom": nom, "format": format_, "heure": CRENEAUX[format_], "titre": titre})
-        etat["journal"].append({"jour": jour, "id": sujet["id"], "format": format_, "nom": nom})
+        for _ in range(1 if format_ == "serie2" else ESSAIS_PAR_CRENEAU):
+            sujet = PAR_ID[attente["id"]] if format_ == "serie2" else prochain(etat, format_, deja)
+            if not sujet:
+                log(f"⚠️ catalogue épuisé pour le format « {format_} » : ajouter des sujets dans agent/histoires_sujets.py")
+                break
+            deja.add(sujet["id"])
+            suffixe = {"serie": "p1", "serie2": "p2", "chiffre": "c"}[format_]
+            nom = f"hva-{sujet['id']}-{suffixe}"
+            log(f"• {sujet['article']} [{format_}]")
+            try:
+                meta = fabriquer(cfg, sujet, dossier, nom, log, format_=format_,
+                                 partie1=attente["script"] if format_ == "serie2" else None)
+            except Exception as e:
+                log(f"    ❌ {type(e).__name__} : {str(e)[:400]}")
+                etat["journal"].append({"jour": jour, "id": sujet["id"], "format": format_, "erreur": str(e)[:300]})
+                if format_ == "serie2":
+                    # la partie 1 est en ligne : on retente demain, puis on abandonne au bout de 2 jours
+                    attente["echecs"] = attente.get("echecs", 0) + 1
+                    if attente["echecs"] >= 2:
+                        log(f"    ↪ partie 2 de {sujet['id']} abandonnée après 2 échecs")
+                        etat["attente_partie2"] = None
+                else:
+                    _ecarter(etat, sujet, format_, str(e), log)
+                continue
+            if format_ == "serie2":
+                etat["attente_partie2"] = None
+            else:
+                etat["faits"].append(sujet["id"])
+                if format_ == "serie":
+                    etat["attente_partie2"] = {"id": sujet["id"], "jour_partie1": jour, "script": meta["script"]}
+            titre = meta["script"]["titre"] + {"serie": " (partie 1)", "serie2": " (partie 2)"}.get(format_, "")
+            faites.append({"nom": nom, "format": format_, "heure": CRENEAUX[format_], "titre": titre})
+            etat["journal"].append({"jour": jour, "id": sujet["id"], "format": format_, "nom": nom})
+            break
     (dossier / "plan.json").parent.mkdir(parents=True, exist_ok=True)
     (dossier / "plan.json").write_text(json.dumps(faites, ensure_ascii=False, indent=1), encoding="utf-8")
     ecrire_etat(etat)
