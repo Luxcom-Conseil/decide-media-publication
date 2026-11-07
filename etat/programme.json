@@ -3,7 +3,9 @@
   "comptes-publics-001",
   "plan-esr-001",
   "plan-btp-logement-001",
-  "pole-public-bancaire-002"
+  "pole-public-bancaire-002",
+  "pole-public-bancaire-001",
+  "plan-sante-001"
  ],
  "ecartes": {},
  "journal": [
@@ -26,6 +28,16 @@
    "jour": "2026-11-07",
    "id": "pole-public-bancaire-002",
    "nom": "prog-pole-public-bancaire-002"
+  },
+  {
+   "jour": "2026-11-07",
+   "id": "pole-public-bancaire-001",
+   "nom": "prog-pole-public-bancaire-001"
+  },
+  {
+   "jour": "2026-11-07",
+   "id": "plan-sante-001",
+   "nom": "prog-plan-sante-001"
   }
  ],
  "programmes": [
@@ -84,6 +96,34 @@
    "reseau": "youtube",
    "buffer": "6aeefb1baf7e526d4314dc0a",
    "heure": "2026-11-07T12:59:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-pole-public-bancaire-001",
+   "reseau": "tiktok",
+   "buffer": "6aeeff25a7751de7c9df47bb",
+   "heure": "2026-11-07T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-pole-public-bancaire-001",
+   "reseau": "youtube",
+   "buffer": "6aeeff26af7e526d43161ea7",
+   "heure": "2026-11-07T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-plan-sante-001",
+   "reseau": "tiktok",
+   "buffer": "6aeeff26229bf05daf42deb2",
+   "heure": "2026-11-07T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-plan-sante-001",
+   "reseau": "youtube",
+   "buffer": "6aeeff27a7751de7c9df483c",
+   "heure": "2026-11-07T22:00:00+01:00"
   }
  ],
  "echecs": {
