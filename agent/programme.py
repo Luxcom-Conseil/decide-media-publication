@@ -233,7 +233,8 @@ réponse (« Tu serais pour ou contre ? », « Ça changerait quoi pour toi ? »
 lien, pas d'émoji. « hashtags » : 3 à 5 hashtags en français sans le #, dont presidentielle2027."""
 
 CONSIGNE_FORMAT = """FORMAT PROGRAMME (60 secondes) : entre 12 et 16 scènes, de 950 à 1 100 caractères dits en tout, \
-question comprise. L'accroche ; le point de départ vécu ; la tension (le problème selon LFI) ; le tournant (la mesure) ; \
+question comprise (vise 1 000). La scène 1 est TOUJOURS de type « accroche » ; le point de départ vécu (« Imagine… ») \
+vient en scène 2. Puis : la tension (le problème selon LFI) ; le tournant (la mesure) ; \
 comment elle marcherait et combien elle coûterait ou rapporterait, si l'extrait le dit ; ce qui l'accompagne ; ce que \
 ça changerait concrètement ; la scène « lecon »."""
 
@@ -242,7 +243,8 @@ _CAMPAGNE = re.compile(r"\b(vote[zr]?|votons|votez|élisez|soutenez|rejoignez|no
 
 
 def controler(script: dict, source: str) -> list[str]:
-    problemes = h.controler(script, source, "programme", 0)
+    # le cadre de la rubrique (présidentielle 2027, 18 avril et 2 mai) peut être cité même si l'extrait ne le dit pas
+    problemes = h.controler(script, source + "\nPrésidentielle 2027 : 18 avril et 2 mai 2027.", "programme", 0)
     problemes = [p for p in problemes if "hors de la liste" not in p]  # images : toujours -1 + recherche ici
     dits = " ".join(sc.get("dit", "") for sc in script.get("scenes") or [])
     if not _ATTRIBUTION.search(dits):
@@ -348,8 +350,11 @@ def produire(cfg: dict, log, jour: str) -> list[dict]:
         fiches = [f for f in _ordre(json.loads(FICHES.read_text(encoding="utf-8")))
                   if f["id"] not in etat["faits"] and f["id"] not in etat["ecartes"]]
         heures = CRENEAUX[n]
-        for fiche in fiches[:n + 3]:  # 3 fiches de réserve si un script est refusé
-            if len(faites) == n:
+        deja = sum(1 for j in etat["journal"] if j["jour"] == jour)  # relance dans la journée : seulement le manque
+        n -= deja
+        echecs = etat.setdefault("echecs", {})
+        for fiche in fiches[:n + 4]:  # 4 fiches de réserve si un script est refusé
+            if len(faites) >= n:
                 break
             nom = f"prog-{fiche['id']}"
             log(f"• {fiche['titre']} [{fiche['doc']}, accroche {fiche['formule']}]")
@@ -357,10 +362,13 @@ def produire(cfg: dict, log, jour: str) -> list[dict]:
                 meta = fabriquer(cfg, fiche, dossier, nom, log)
             except Exception as e:
                 log(f"    ❌ {type(e).__name__} : {str(e)[:400]}")
-                etat["ecartes"][fiche["id"]] = str(e)[:200]
+                echecs[fiche["id"]] = echecs.get(fiche["id"], 0) + 1
+                if echecs[fiche["id"]] >= 2:  # deux passages ratés : la fiche sort du catalogue
+                    etat["ecartes"][fiche["id"]] = str(e)[:200]
                 continue
             etat["faits"].append(fiche["id"])
-            faites.append({"nom": nom, "format": "programme", "heure": heures[len(faites)], "titre": meta["script"]["titre"]})
+            faites.append({"nom": nom, "format": "programme", "heure": heures[deja + len(faites)],
+                           "titre": meta["script"]["titre"]})
             etat["journal"].append({"jour": jour, "id": fiche["id"], "nom": nom})
         if len(faites) < n:
             log(f"⚠️ {len(faites)} vidéo(s) sur {n} prévues ; reste {len(fiches) - len(faites)} fiche(s) au catalogue")

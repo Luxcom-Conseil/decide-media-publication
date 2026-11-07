@@ -52,7 +52,7 @@ FORMATS = {
     "serie": ((13, 24), (1150, 1700)),
     "serie2": ((12, 24), (1100, 1700)),
     "chiffre": ((6, 11), (380, 600)),
-    "programme": ((11, 17), (900, 1150)),  # 60 s (demande de Stéphane du 07/11/2026)  # rubrique Présidentielle 2027 (agent/programme.py)
+    "programme": ((10, 17), (850, 1250)),  # 60 s (demande de Stéphane du 07/11/2026)  # rubrique Présidentielle 2027 (agent/programme.py)
 }
 TYPES = ["accroche", "recit", "date", "chiffre", "suite", "lecon"]
 _TXT = {"type": "string"}
