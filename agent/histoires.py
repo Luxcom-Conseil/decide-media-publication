@@ -561,7 +561,7 @@ def programmer(cfg: dict, log, jour: str) -> bool:
     ok = True
     # Lancement à la main (bouton « Run workflow », demande de Stéphane du 07/11/2026) : publication tout de suite, une
     # vidéo toutes les 30 min, sans attendre les créneaux. Le passage automatique du matin garde les créneaux.
-    immediat = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" or os.environ.get("HISTOIRES_IMMEDIAT") == "1"
+    immediat = os.environ.get("HISTOIRES_IMMEDIAT") == "1"  # case « immediat » du lancement manuel (histoires.yml)
     maintenant = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0)
     for rang, v in enumerate(plan):
         meta = json.loads((dossier / f"{v['nom']}.json").read_text(encoding="utf-8"))

@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "7 0 * * *"    # 0 h 07 UTC (1 h ou 2 h à Paris) : le 06/11, GitHub a démarré le passage avec 8 h de retard
   workflow_dispatch:
+    inputs:
+      immediat:
+        description: "Publier tout de suite (sinon : créneaux 12 h 30, 18 h 30, 20 h 30)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -72,6 +77,7 @@ jobs:
       - name: Mettre en ligne et programmer dans Buffer
         env:
           BUFFER_API_KEY_HISTOIRES: ${{ secrets.BUFFER_API_KEY_HISTOIRES }}
+          HISTOIRES_IMMEDIAT: ${{ (github.event_name == 'workflow_dispatch' && inputs.immediat) && '1' || '0' }}
         run: python -m agent histoires-programmer
       - name: Enregistrer l'avancement
         if: always()
