@@ -8748,10 +8748,14 @@
     "tiktok_buffer": {
       "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-07/decide-media-2026-11-07-05.mp4",
       "lot": "2026-11-07",
-      "maj": "2026-11-07T06:11:04+00:00",
-      "statut": "echec",
+      "maj": "2026-11-07T09:49:56+00:00",
+      "piste": "principale",
+      "post_id": "6aeef4439214322f68e1e192",
+      "programme_pour": "2026-11-07T20:15:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "Rocade de Yaoundé : le chantier patiente"
+      "titre": "Rocade de Yaoundé : le chantier patiente",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-11-07",
