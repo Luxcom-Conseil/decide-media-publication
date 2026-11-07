@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "Le Cameroun cherche 98,4 milliards pour la rocade de Yaoundé.",
+    "Le chef de l'État a signé le décret le 5 novembre 2026.",
+    "La rocade de Yaoundé s'étendra sur 90 à 95 kilomètres."
+  ],
+  "titre": "Rocade de Yaoundé : un prêt signé",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le Cameroun *cherche* 98,4 milliards de FCFA",
+      "dit": "Le Cameroun cherche 98,4 milliards pour la rocade de Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Décret *signé* par le président",
+      "dit": "Le 5 novembre 2026, le chef de l'État a signé un décret autorisant l'emprunt de 150 millions d'euros."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le tronçon T3 fait *22,8* kilomètres",
+      "dit": "Le tronçon T3 s'étend sur 22,8 kilomètres entre Nkozoa et Minkoameyos."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "229 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le projet *coûte* 229 milliards",
+      "dit": "Le ministère de l'Habitat estime le coût prévisionnel du T3 à 229 milliards de FCFA hors taxes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucune *date* de démarrage annoncée",
+      "dit": "Les indemnités et les études restent à finaliser avant le début des travaux."
+    }
+  ]
+}

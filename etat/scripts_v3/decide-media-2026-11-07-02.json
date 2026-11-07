@@ -1,0 +1,59 @@
+{
+  "accroches": [
+    "57 milliards de FCFA ont été payés par l'État en septembre 2026.",
+    "Maintenir les prix du carburant a coûté 57 milliards en un mois.",
+    "L'État a dépensé 57 milliards de FCFA pour les prix en septembre."
+  ],
+  "titre": "Carburant : 57 milliards en septembre",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "57 milliards pour les *carburants* en septembre",
+      "dit": "57 milliards de FCFA ont été payés par l'État en septembre 2026 pour maintenir les prix à la pompe."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le prix est *resté* stable à Douala",
+      "dit": "À Douala, les prix sont restés fixés à 828 FCFA le litre de gasoil et 840 FCFA pour le super."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "310 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une provision de *310* milliards pour l'énergie",
+      "dit": "Le budget 2026 retient une provision de 310 milliards de FCFA pour les subventions à l'énergie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le coût des *subventions* a beaucoup varié",
+      "dit": "Le coût des subventions sur les carburants avait atteint près de 1000 milliards de FCFA en 2022."
+    }
+  ]
+}

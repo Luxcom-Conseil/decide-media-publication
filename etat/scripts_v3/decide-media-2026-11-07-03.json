@@ -1,0 +1,49 @@
+{
+  "accroches": [
+    "Le PIB réel du Cameroun progresse de 1,6 % au premier trimestre 2026.",
+    "L'investissement public recule de 27,7 % au premier trimestre 2026.",
+    "La consommation des ménages progresse de 2,6 % au premier trimestre 2026."
+  ],
+  "titre": "Croissance au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le PIB progresse de *1,6 %*.",
+      "dit": "Le PIB réel du Cameroun progresse de 1,6 % au premier trimestre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La hausse atteint *3,4 %* sur un an.",
+      "dit": "Sur un an, la hausse atteint 3,4 % selon l'Institut national de la statistique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'investissement public *recule* de 27,7 %.",
+      "dit": "L'investissement public recule de 27,7 % sur le trimestre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'État dépense *plus* pour fonctionner.",
+      "dit": "La consommation des administrations publiques augmente de 11,0 % sur la même période."
+    }
+  ]
+}

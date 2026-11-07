@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "65 entreprises ont été exclues des marchés publics au Cameroun en 2025.",
+    "Les exclusions d'entreprises pour fraude ont augmenté de 132,1 % en 2025.",
+    "Le nombre de résiliations de marchés publics est passé de 46 à 99."
+  ],
+  "titre": "Fraude : 65 entreprises exclues des marchés",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "65 entreprises *exclues* des marchés publics",
+      "dit": "65 entreprises ont été exclues des marchés publics au Cameroun en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "+ 132,1 % d'*exclusions* pour fraude",
+      "dit": "Elles étaient 28 en 2024, soit une hausse de 132,1 % pour faux documents et fraudes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "46",
+        "apres": "99",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "99 *résiliations* de marché en 2025",
+      "dit": "Les résiliations de marché sont passées de 46 à 99 sur la même période."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "49 *abandons* de prestations constatés",
+      "dit": "Parmi ces résiliations, 49 découlent d'abandons de prestations constatés par 26 maîtres d'ouvrage."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à 2 ans d'*interdiction*",
+      "dit": "La loi prévoit une exclusion temporaire des marchés publics d'une durée maximale de deux ans."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "40 % du bœuf camerounais vient du Tchad.",
+    "Le Tchad veut interdire l'exportation de bétail vivant dès 2028.",
+    "Les importations de bovins tchadiens au Cameroun ont bondi de 67 %."
+  ],
+  "titre": "Fin du bétail tchadien importé au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "40 % du *bœuf* vient du Tchad",
+      "dit": "Plus de 40 % de l'approvisionnement en viande bovine du Cameroun dépend du Tchad."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "1er janvier 2028",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le Tchad *interdit* le bétail vivant",
+      "dit": "Le Tchad veut interdire les exportations de bétail vivant dès le 1er janvier 2028."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Importations en *hausse* de 67 %",
+      "dit": "En 2023, le ministère camerounais de l'Élevage a recensé 49 606 bovins importés du Tchad."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "400 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "400 milliards *investis* par N'Djamena",
+      "dit": "N'Djamena prévoit 400 milliards de FCFA d'investissements pour vendre de la viande découpée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Yaoundé | Douala",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Risque de *hausse* des prix",
+      "dit": "La presse alerte sur un risque de pénurie et de hausse des prix à Yaoundé et Douala."
+    }
+  ]
+}
