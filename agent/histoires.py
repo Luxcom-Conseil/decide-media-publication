@@ -52,6 +52,7 @@ FORMATS = {
     "serie": ((13, 24), (1150, 1700)),
     "serie2": ((12, 24), (1100, 1700)),
     "chiffre": ((6, 11), (380, 600)),
+    "programme": ((11, 17), (900, 1150)),  # 60 s (demande de Stéphane du 07/11/2026)  # rubrique Présidentielle 2027 (agent/programme.py)
 }
 TYPES = ["accroche", "recit", "date", "chiffre", "suite", "lecon"]
 _TXT = {"type": "string"}
@@ -239,9 +240,9 @@ def controler(script: dict, source: str, format_: str, nb_images: int) -> list[s
     return problemes
 
 
-def _demander(cfg: dict, parties: list[dict], remarques: list[str]) -> dict:
+def _demander(cfg: dict, parties: list[dict], remarques: list[str], systeme: str | None = None,
+              schema: dict | None = None, consigne: str = "Écris le script de la vidéo.") -> dict:
     modeles = (cfg.get("video") or {}).get("modeles_gemini") or ["gemini-3.5-flash", "gemini-flash-latest"]
-    consigne = "Écris le script de la vidéo."
     if remarques:
         consigne += "\n\nTa version précédente a été refusée pour ces raisons, corrige-les :\n- " + "\n- ".join(remarques)
     erreur = ""
@@ -251,9 +252,10 @@ def _demander(cfg: dict, parties: list[dict], remarques: list[str]) -> dict:
             try:
                 r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modele}:generateContent",
                                   timeout=300, headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
-                                  json={"systemInstruction": {"parts": [{"text": SYSTEME}]},
+                                  json={"systemInstruction": {"parts": [{"text": systeme or SYSTEME}]},
                                         "contents": [{"role": "user", "parts": parties + [{"text": consigne}]}],
-                                        "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": SCHEMA,
+                                        "generationConfig": {"responseMimeType": "application/json",
+                                                             "responseJsonSchema": schema or SCHEMA,
                                                              "thinkingConfig": {"thinkingLevel": "low"}}})
             except requests.RequestException as e:
                 erreur = f"{modele} : {type(e).__name__}"
@@ -348,7 +350,7 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
            journal=print, format_: str | None = None) -> set[int]:
     """MP4 et miniature ; renvoie les numéros d'images utilisées (pour les crédits)."""
     from .voix import Voix
-    from .voix_conseil import STYLE_RECIT_CONTINU, narration
+    from .voix_conseil import STYLE_RECIT_CHALEUREUX, STYLE_RECIT_CONTINU, narration
 
     scenes, dits, utilisees = [], [], set()
     for sc in script["scenes"]:
@@ -370,7 +372,11 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
     if (cfg.get("perso") or {}).get("voix_gemini"):
         try:
             v = (cfg.get("histoires") or {}).get("voix") or {}
-            pistes = {x["cle"]: x for x in narration(cfg, textes, dossier, "voix", journal, style=STYLE_RECIT_CONTINU,
+            style = STYLE_RECIT_CONTINU
+            if format_ == "programme":  # voix plus chaude, plus de rythme (demande de Stéphane du 07/11/2026)
+                v = (cfg.get("programme") or {}).get("voix") or v
+                style = STYLE_RECIT_CHALEUREUX
+            pistes = {x["cle"]: x for x in narration(cfg, textes, dossier, "voix", journal, style=style,
                                                      voix=v.get("nom", "Algenib"), demi_tons=v.get("demi_tons", 1),
                                                      continu=True)}
         except Exception as e:
@@ -387,7 +393,8 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
             sc["duree"] = max(2.5, len(sc.get("soustitre") or "") / 15)
     format_ = format_ or sujet["format"]
     props = {"serie": NOM_SERIE, "titre": script["titre"], "compte": COMPTE, "scenes": scenes,
-             "partie": {"serie": "Partie 1", "serie2": "Partie 2"}.get(format_), "format": format_,
+             "partie": {"serie": "Partie 1", "serie2": "Partie 2", "programme": "Présidentielle 2027"}.get(format_),
+             "format": format_,
              "musique": "melodie.wav", "volume_musique": 0.10}
     _remotion("RecitReel", props, sortie)
     premiere = scenes[0]
@@ -539,9 +546,10 @@ def produire(cfg: dict, log, jour: str) -> list[dict]:
     return faites
 
 
-def programmer(cfg: dict, log, jour: str) -> bool:
+def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None, ecrire=None) -> bool:
     """Met en ligne les vidéos du `jour` (GitHub Pages) et les programme dans le second compte Buffer, sur TikTok et
-    YouTube, aux heures de Paris du plan."""
+    YouTube, aux heures de Paris du plan. `dossier`, `lire`, `ecrire` : pour la rubrique programme (agent/programme.py)."""
+    lire, ecrire = lire or lire_etat, ecrire or ecrire_etat
     from datetime import date, datetime, timedelta
     from zoneinfo import ZoneInfo
 
@@ -550,13 +558,13 @@ def programmer(cfg: dict, log, jour: str) -> bool:
 
     h = cfg.get("histoires") or {}
     canaux = h.get("canaux") or {}
-    dossier = RACINE / "sortie" / "histoires" / jour
+    dossier = dossier or RACINE / "sortie" / "histoires" / jour
     plan = json.loads((dossier / "plan.json").read_text(encoding="utf-8")) if (dossier / "plan.json").exists() else []
     if not plan:
         log("ℹ️ rien à programmer")
         return True
     adresses = mettre_en_ligne([dossier / f"{v['nom']}.mp4" for v in plan], date.fromisoformat(jour))
-    etat = lire_etat()
+    etat = lire()
     etat.setdefault("programmes", [])
     ok = True
     # Lancement à la main (bouton « Run workflow », demande de Stéphane du 07/11/2026) : publication tout de suite, une
@@ -592,7 +600,7 @@ def programmer(cfg: dict, log, jour: str) -> bool:
             else:
                 ok = False
                 log(f"    ❌ {reseau} : {d.get('message', 'refus sans motif')[:300]}")
-    ecrire_etat(etat)
+    ecrire(etat)
     return ok
 
 

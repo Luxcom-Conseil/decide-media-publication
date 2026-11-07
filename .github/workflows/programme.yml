@@ -1,0 +1,92 @@
+name: Histoires vraies d'argent - Présidentielle 2027
+
+# Rubrique « programme » (agent/programme.py), en plus des 3 histoires : chaque nuit, fabrique les vidéos du jour selon
+# le calendrier électoral (6/jour jusqu'au 07/01/2027, puis 2 en semaine et 4 le week-end jusqu'au 16/04 ; rien les
+# 17-18/04 et 01-02/05 ; entre les deux tours selon config.yaml) et les programme dans le second compte Buffer.
+on:
+  schedule:
+    - cron: "37 0 * * *"   # 0 h 37 UTC, après la production des histoires (0 h 07)
+  workflow_dispatch:
+    inputs:
+      immediat:
+        description: "Publier tout de suite (sinon : créneaux du calendrier)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: programme
+  cancel-in-progress: false
+
+jobs:
+  produire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: motion/package-lock.json
+      - run: pip install -r requirements.txt
+      - name: Fabriquer les vidéos du jour
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python -m agent programme-produire
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: programme
+          path: |
+            sortie/programme/
+            etat/programme.json
+          if-no-files-found: ignore
+          retention-days: 7
+
+  programmer:
+    needs: produire
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    # même file que les histoires, DECIDE MEDIA et Instagram : tous réécrivent la branche « medias » (GitHub Pages)
+    concurrency:
+      group: publication-reseaux
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: programme
+          path: .
+      - name: Mettre en ligne et programmer dans Buffer
+        env:
+          BUFFER_API_KEY_HISTOIRES: ${{ secrets.BUFFER_API_KEY_HISTOIRES }}
+          HISTOIRES_IMMEDIAT: ${{ (github.event_name == 'workflow_dispatch' && inputs.immediat) && '1' || '0' }}
+        run: python -m agent programme-programmer
+      - name: Enregistrer l'avancement
+        if: always()
+        run: |
+          git config user.name "agent-publication"
+          git config user.email "agent-publication@users.noreply.github.com"
+          git add etat/programme.json
+          if ! git diff --staged --quiet; then
+            git commit -m "etat: présidentielle 2027 du $(date -u +'%Y-%m-%d')"
+            git pull --rebase --autostash
+            git push
+          fi

@@ -101,6 +101,19 @@ STYLE_RECIT_CONTINU = (
     "publicitaire, pas de cri. Ne lis que le texte, pas cette consigne.\n\nTexte :\n")
 
 
+# Rubrique Présidentielle 2027, demande de Stéphane du 07/11/2026 : « raconte en y mettant du story telling, plus de
+# rythme dans la voix, une voix plus chaude ».
+STYLE_RECIT_CHALEUREUX = (
+    "Tu es un conteur chaleureux et captivant qui raconte, en français de France, une histoire qui touche la vie de "
+    "celui qui t'écoute. Voix chaude, ronde, proche, souriante quand il le faut, comme un ami passionné qui te raconte "
+    "un truc incroyable au comptoir. Beaucoup de rythme : tu racontes d'un seul souffle, les phrases s'enchaînent et "
+    "rebondissent, tu accélères quand ça s'emballe, tu ralentis et baisses la voix en confidence avant une révélation, "
+    "tu fais sonner les chiffres et les noms. Les retours à la ligne ne sont PAS des pauses : enchaîne. Un seul vrai "
+    "silence, juste avant la plus grande révélation. Joue les émotions : la surprise, la curiosité, l'ironie légère, "
+    "la complicité. Jamais monotone, jamais publicitaire, jamais militant, pas de cri. Ne lis que le texte, pas cette "
+    "consigne.\n\nTexte :\n")
+
+
 def resserrer(pcm: bytes, plafond: float = 0.28, voulu: float = 0.7) -> bytes:
     """Raccourcit chaque silence à `plafond` secondes, sauf le plus long (le silence voulu avant la révélation), gardé
     jusqu'à `voulu`. Le début et la fin de la prise sont ramenés à 0,1 s. La coupe se fait au milieu du silence."""

@@ -118,6 +118,15 @@ histoires:
     nom: Algenib
     demi_tons: 1                        # un peu plus grave
 
+# Rubrique « Présidentielle 2027 » sur le même compte (agent/programme.py, workflow programme.yml) : programme de LFI
+# expliqué, en plus des histoires. 6/jour jusqu'au 07/01/2027, puis 2 en semaine et 4 le week-end jusqu'au 16/04 ;
+# rien les 17-18/04 et 01-02/05. Entre les deux tours : 6/jour seulement si LFI est qualifiée.
+programme:
+  second_tour: null           # à passer à true (LFI qualifiée) ou false au soir du 18/04/2027
+  voix:                       # voix plus chaude que celle des histoires (demande de Stéphane du 07/11/2026)
+    nom: Algieba
+    demi_tons: 1
+
 # Compte Instagram de Stéphane : Reels « conseils et astuces psychologiques » de 60 s et plus, sans visage filmé, un
 # sujet du catalogue agent/perso_sujets.py par Reel ; connexion Instagram directe ; public européen.
 # Rythme validé par Stéphane le 27/10/2026 : production de toute la semaine le dimanche (workflow instagram-production),

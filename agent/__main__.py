@@ -52,7 +52,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("commande", nargs="?", default="publier",
                    choices=["publier", "verifier", "lots", "essai-video", "perso", "perso-essai", "perso-planifier",
                             "perso-rendre", "perso-heberger", "perso-publier", "histoires-essai",
-                            "histoires-produire", "histoires-programmer"],
+                            "histoires-produire", "histoires-programmer", "programme-fiches", "programme-essai",
+                            "programme-produire", "programme-programmer"],
                    help="publier = dossiers « post » ; lots = lots quotidiens DECIDE MEDIA ; verifier = tester les accès ; "
                         "essai-video = fabriquer un Short d'essai dans sortie/, sans publier ; perso-essai = fabriquer un "
                         "Reel Instagram perso dans sortie/, sans publier ; perso-planifier / perso-rendre / "
@@ -133,6 +134,30 @@ def main(argv: list[str] | None = None) -> int:
             ok = bool(histoires.produire(cfg, log, jour))
         else:
             ok = histoires.programmer(cfg, log, jour)
+        _resume_github(log)
+        return 0 if ok else 1
+
+    if a.commande.startswith("programme-"):  # rubrique Présidentielle 2027 (workflow programme.yml)
+        from datetime import datetime
+        from pathlib import Path
+        from zoneinfo import ZoneInfo
+
+        from . import programme
+
+        jour = datetime.now(ZoneInfo("Europe/Paris")).date().isoformat()
+        if a.commande == "programme-fiches":  # une fois : découpe les documents en fiches (sources/programme/fiches.json)
+            ok = bool(programme.extraire_fiches(cfg, log, a.sujet))
+        elif a.commande == "programme-essai":  # une vidéo dans sortie/programme-essai/, rien n'est publié
+            import json
+
+            fiches = json.loads(programme.FICHES.read_text(encoding="utf-8"))
+            fiche = next(f for f in fiches if f["id"] == a.sujet) if a.sujet else programme._ordre(fiches)[0]
+            ok = bool(programme.fabriquer(cfg, fiche, Path("sortie/programme-essai"), f"prog-{fiche['id']}", log))
+        elif a.commande == "programme-produire":
+            prevu = programme.quota(datetime.fromisoformat(jour).date(), cfg)
+            ok = len(programme.produire(cfg, log, jour)) > 0 or prevu == 0
+        else:
+            ok = programme.programmer(cfg, log, jour)
         _resume_github(log)
         return 0 if ok else 1
 
