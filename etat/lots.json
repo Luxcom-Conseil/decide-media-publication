@@ -8779,5 +8779,138 @@
       "titre": "Rocade de Yaoundé : le chantier patiente",
       "url": "https://youtu.be/C1rZXmLa3ik"
     }
+  },
+  "decide-media-2026-11-07-06": {
+    "facebook": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:22:05+00:00",
+      "piste": "principale",
+      "post_id": "122119311615499704",
+      "programme_pour": "2026-11-08T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La note grimpe, le ratio recule",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:26:13+00:00",
+      "piste": "principale",
+      "post_id": "1144821418046652",
+      "programme_pour": "2026-11-08T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La note grimpe, le ratio recule",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:30:17+00:00",
+      "piste": "principale",
+      "post_id": "6aef8a5951492b796efbac03",
+      "programme_pour": "2026-11-08T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La note grimpe, le ratio recule",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:31:55+00:00",
+      "piste": "principale",
+      "post_id": "6aef8abb562f2e6de97cabc6",
+      "programme_pour": "2026-11-08T08:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La note grimpe, le ratio recule",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "erreur": "buffer x_buffer : Invalid post: Twitter / X posts cannot exceed 280 characters.",
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:28:40+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "La note grimpe, le ratio recule"
+    },
+    "youtube": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:24:28+00:00",
+      "piste": "principale",
+      "post_id": "f_6xrW7agTA",
+      "programme_pour": "2026-11-08T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La note grimpe, le ratio recule",
+      "url": "https://youtu.be/f_6xrW7agTA"
+    }
+  },
+  "decide-media-2026-11-07-07": {
+    "facebook": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:22:09+00:00",
+      "piste": "principale",
+      "post_id": "122119311663499704",
+      "programme_pour": "2026-11-08T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le gré à gré passe en force",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:26:18+00:00",
+      "piste": "principale",
+      "post_id": "1119523564263520",
+      "programme_pour": "2026-11-08T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le gré à gré passe en force",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:30:18+00:00",
+      "piste": "principale",
+      "post_id": "6aef8a5a229bf05daf71a4fe",
+      "programme_pour": "2026-11-08T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le gré à gré passe en force",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:33:53+00:00",
+      "piste": "principale",
+      "post_id": "6aef8b31004e4879a77aeb4e",
+      "programme_pour": "2026-11-08T11:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le gré à gré passe en force",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:30:16+00:00",
+      "piste": "principale",
+      "post_id": "6aef8a589214322f6814da8d",
+      "programme_pour": "2026-11-08T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le gré à gré passe en force",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-07",
+      "maj": "2026-11-07T20:26:07+00:00",
+      "piste": "principale",
+      "post_id": "hWSYrcf_H24",
+      "programme_pour": "2026-11-08T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le gré à gré passe en force",
+      "url": "https://youtu.be/hWSYrcf_H24"
+    }
   }
 }

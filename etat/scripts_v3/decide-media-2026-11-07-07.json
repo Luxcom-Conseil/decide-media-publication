@@ -1,0 +1,64 @@
+{
+  "accroches": [
+    "1 marché public sur 5 a été attribué de gré à gré.",
+    "2 064 contrats publics ont évité l'appel à la concurrence.",
+    "Le gré à gré dépasse le double du seuil légal."
+  ],
+  "titre": "Marches publics au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "1 marché sur 5 attribué *de gré à gré*",
+      "dit": "En 2025, plus d'un marché public sur cinq a été attribué de gré à gré au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "2 064 contrats *sans concurrence*",
+      "dit": "Cela représente 2 064 contrats sur 10 126, soit le double du seuil de référence de 10 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le gré à gré reste *exceptionnel*",
+      "dit": "Le Code des marchés publics réserve pourtant cette procédure aux cas d'urgence ou de sécurité."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 octobre 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le contexte de l'élection *présidentielle*",
+      "dit": "La Direction du Budget explique cette hausse par le contexte de l'élection présidentielle de 2025."
+    }
+  ]
+}

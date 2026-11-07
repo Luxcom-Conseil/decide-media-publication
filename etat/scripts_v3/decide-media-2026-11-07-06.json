@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "La dette du Cameroun a atteint 15 607 milliards de FCFA.",
+    "La dette publique du Cameroun s'élève à 44,2 % du PIB.",
+    "191 milliards de FCFA de dette supplémentaire en trois mois."
+  ],
+  "titre": "La dette publique du Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "La dette atteint *15 607 milliards*",
+      "dit": "La dette publique du Cameroun a atteint 15 607 milliards de FCFA à fin juin 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La dette représente *44,2 %* du PIB",
+      "dit": "Selon la Caisse autonome d'amortissement, ce montant représente 44,2 % du PIB."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "191 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*+ 191 milliards* de FCFA",
+      "dit": "Entre mars et juin 2026, l'encours a augmenté de 191 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un chiffre sous le seuil *CEMAC*",
+      "dit": "Selon EcoMatin, le niveau de dette reste sous le seuil de 70 % fixé par la CEMAC."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 121 200 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des dettes *non encore comptées*",
+      "dit": "Des créances des collectivités de 121,2 milliards de FCFA doivent encore être intégrées."
+    }
+  ]
+}
