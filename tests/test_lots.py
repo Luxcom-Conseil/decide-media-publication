@@ -52,6 +52,34 @@ def test_controle_manifeste_protocole_2_0():
                                       articles=[article(i) for i in range(1, 6)]), "2026-10-21")
 
 
+def test_controle_manifeste_protocole_2_1():
+    """5 actualités + 1 à 3 dossiers : 6 à 8 articles ; 5 ou 9 refusés."""
+    for n in (6, 7, 8):
+        m = manifeste(protocol_version="2.1", article_count=n, required_article_count=n,
+                      articles=[article(i) for i in range(1, n + 1)])
+        assert len(controler_manifeste(m, "2026-10-21")) == n
+    for n in (5, 9):
+        m = manifeste(protocol_version="2.1", article_count=n, required_article_count=n,
+                      articles=[article(i) for i in range(1, n + 1)])
+        with pytest.raises(LotInvalide, match="de 6 à 8 articles"):
+            controler_manifeste(m, "2026-10-21")
+    m = manifeste(protocol_version="2.1", article_count=7, required_article_count=8,
+                  articles=[article(i) for i in range(1, 8)])
+    with pytest.raises(LotInvalide, match="de 6 à 8 articles"):
+        controler_manifeste(m, "2026-10-21")
+
+
+def test_creneaux_dossiers_apres_les_actualites():
+    """config.yaml réel : les 5 actualités gardent 08:00…20:00, les dossiers prennent 12:30, 15:30, 18:30."""
+    cfg = charger_config(Path(__file__).resolve().parent.parent / "config.yaml")
+    h = creneaux(cfg, datetime(2026, 10, 21).date(), 8, MATIN, [])
+    assert [x.strftime("%H:%M") for x in h] == ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30"]
+    assert len({x.date() for x in h}) == 1  # tout le même jour, aucun créneau la nuit
+    for reseau in ("facebook_shorts", "tiktok_buffer"):
+        h = creneaux(cfg, datetime(2026, 10, 21).date(), 8, MATIN, [], reseau)
+        assert len(h) == 8 and len({x.date() for x in h}) == 1
+
+
 def test_creneaux_du_jour_et_decalage():
     h = creneaux(CFG, datetime(2026, 10, 21).date(), 10, MATIN, [])
     assert [x.strftime("%H:%M") for x in h[:3]] == ["07:00", "08:30", "10:00"]

@@ -22,7 +22,9 @@ from .publieurs.base import ErreurLimite
 
 RE_LOT = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 DATE_CONTRAT_12 = date(2026, 10, 12)
-ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": 5}  # 1.3 = 1.2 + champs de rattrapage ; 2.0 = 5 articles par jour
+# 1.3 = 1.2 + champs de rattrapage ; 2.0 = 5 articles par jour ;
+# 2.1 = les 5 articles d'actualité + 1 à 3 « dossiers » (suivi ou explication), décision de Stéphane du 07/11/2026
+ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": 5, "2.1": (6, 8)}
 
 
 class LotInvalide(ValueError):
@@ -41,11 +43,14 @@ def controler_manifeste(m: dict, nom_dossier: str) -> list[dict]:
     if date.fromisoformat(nom_dossier) >= DATE_CONTRAT_12:
         attendus = ARTICLES_PAR_PROTOCOLE.get(m.get("protocol_version"))
         if attendus is None:
-            raise LotInvalide(f"protocol_version {m.get('protocol_version')} ≠ 1.2, 1.3 ou 2.0")
+            raise LotInvalide(f"protocol_version {m.get('protocol_version')} ≠ " + ", ".join(ARTICLES_PAR_PROTOCOLE))
         if m.get("publish_allowed") is False:
             raise LotInvalide("le producteur a marqué ce lot publish_allowed=false")
-        if not (m.get("required_article_count") == m.get("article_count") == len(articles) == attendus):
-            raise LotInvalide(f"il faut exactement {attendus} articles (article_count={m.get('article_count')}, "
+        bas, haut = attendus if isinstance(attendus, tuple) else (attendus, attendus)
+        if not (m.get("required_article_count") == m.get("article_count") == len(articles)
+                and bas <= len(articles) <= haut):
+            quoi = f"exactement {bas}" if bas == haut else f"de {bas} à {haut}"
+            raise LotInvalide(f"il faut {quoi} articles (article_count={m.get('article_count')}, "
                               f"entrées={len(articles)})")
         for champ in ("delivery_deadline", "delivered_on_time", "completed_at"):
             if champ not in m:
