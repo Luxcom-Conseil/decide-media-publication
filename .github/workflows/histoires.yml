@@ -5,7 +5,7 @@ name: Histoires vraies d'argent - production du jour
 # à 12 h 30, 18 h 30 et 20 h 30 (heure de Paris). L'avancement du catalogue est gardé dans etat/histoires.json.
 on:
   schedule:
-    - cron: "30 4 * * *"   # 4 h 30 UTC (5 h 30 ou 6 h 30 à Paris) ; GitHub peut décaler de quelques heures
+    - cron: "7 0 * * *"    # 0 h 07 UTC (1 h ou 2 h à Paris) : le 06/11, GitHub a démarré le passage avec 8 h de retard
   workflow_dispatch:
 
 permissions:
