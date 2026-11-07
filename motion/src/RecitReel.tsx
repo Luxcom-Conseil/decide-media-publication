@@ -20,7 +20,8 @@ const NOIR = "#120E0B";
 const PAPIER = "#F3E9D2";
 const OR = "#E2B04A";
 const ROUGE = "#C2412D";
-const VOIX_DEBUT = 3, VOIX_FIN = 5;
+// 0 : les pistes de voix s'enchaînent sans vide (récit d'un seul souffle, demande de Stéphane du 07/11/2026)
+const VOIX_DEBUT = 0, VOIX_FIN = 0;
 const G = 70, D = 150;
 
 export type SceneRecit = {

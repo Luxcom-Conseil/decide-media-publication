@@ -88,6 +88,45 @@ STYLE_BANDE_ANNONCE = (
     "pas de cri. Marque une pause à chaque saut de ligne. Ne lis que le texte, pas cette consigne.\n\nTexte :\n")
 
 
+# Demande de Stéphane du 07/11/2026 : « le temps de pause entre deux interventions de voix coupe tout le plaisir ; je
+# veux une histoire dite en continu, avec du rythme ». Mesure sur la vidéo des tulipes : 20 % de silence, un trou de
+# 0,5 à 1,6 s toutes les 2 à 3 s (consigne « pause à chaque saut de ligne » + vides au montage).
+STYLE_RECIT_CONTINU = (
+    "Tu es un conteur captivant qui raconte une histoire vraie en français de France, d'une voix grave et profonde, comme "
+    "la voix off d'une bande-annonce de thriller. Tu racontes d'un seul souffle, sans t'arrêter : les phrases "
+    "s'enchaînent, on ne doit jamais avoir l'impression que tu lis une liste. Le rythme vit : tu accélères quand l'action "
+    "s'emballe, tu baisses la voix, presque en confidence, avant une révélation, tu frappes les chiffres et les mots "
+    "clés. Les retours à la ligne ne sont PAS des pauses : enchaîne. Un seul vrai silence dans tout le récit, juste avant "
+    "la plus grande révélation. Joue les émotions : l'intrigue, l'ironie, la stupeur. Jamais monotone, jamais "
+    "publicitaire, pas de cri. Ne lis que le texte, pas cette consigne.\n\nTexte :\n")
+
+
+def resserrer(pcm: bytes, plafond: float = 0.28, voulu: float = 0.7) -> bytes:
+    """Raccourcit chaque silence à `plafond` secondes, sauf le plus long (le silence voulu avant la révélation), gardé
+    jusqu'à `voulu`. Le début et la fin de la prise sont ramenés à 0,1 s. La coupe se fait au milieu du silence."""
+    trouves = silences(pcm)
+    if not trouves:
+        return pcm
+    duree = len(pcm) / OCTETS_PAR_SECONDE
+    plus_long = max(trouves, key=lambda s: s[1] - s[0])
+    retraits = []  # (début, fin) en secondes des passages à retirer
+    for a, b in trouves:
+        if a <= 0.01:
+            retraits.append((a, b - 0.1))
+        elif b >= duree - 0.01:
+            retraits.append((a + 0.1, b))
+        else:
+            garde = voulu if (a, b) == plus_long else plafond
+            retraits.append((a + garde / 2, b - garde / 2))
+    morceaux, position = [], 0.0
+    for a, b in retraits:
+        if b > a:
+            morceaux.append(pcm[int(position * TAUX) * 2:int(a * TAUX) * 2])
+            position = b
+    morceaux.append(pcm[int(position * TAUX) * 2:])
+    return b"".join(morceaux)
+
+
 def grave(pcm: bytes, demi_tons: float) -> bytes:
     """Abaisse la hauteur de la voix de `demi_tons` sans changer sa durée (ffmpeg : asetrate puis atempo)."""
     import subprocess
@@ -135,13 +174,17 @@ def _prise(cfg: dict, texte: str, journal, style: str = STYLE, voix: str | None 
 
 
 def narration(cfg: dict, dits: list[dict], dossier: Path, prefixe: str, journal=print, style: str = STYLE,
-              voix: str | None = None, demi_tons: float = 0) -> list[dict]:
+              voix: str | None = None, demi_tons: float = 0, continu: bool = False) -> list[dict]:
     """Même résultat que Voix.narration : [{"cle", "src", "duree"}] pour les scènes qui ont un texte. `style` : la consigne
     de lecture (conseil par défaut, STYLE_BANDE_ANNONCE pour les histoires) ; `voix` remplace la voix de la config ;
     `demi_tons` rend la voix plus grave (découpage en scènes fait après, sur la voix finale)."""
     textes = [(d["cle"], preparer(d["texte"], coller=False)) for d in dits if d.get("texte")]
     textes = [(c, t) for c, t in textes if t]
     pcm = grave(_prise(cfg, "\n".join(t for _, t in textes), journal, style, voix=voix), demi_tons)
+    if continu:  # récit d'un seul souffle : les silences sont raccourcis avant le découpage en scènes
+        avant = len(pcm)
+        pcm = resserrer(pcm)
+        journal(f"    ✂️ silences resserrés : {(avant - len(pcm)) / OCTETS_PAR_SECONDE:.1f} s retirées")
     morceaux = decouper(pcm, [len(t) for _, t in textes])
     pistes = []
     for (cle, _), morceau in zip(textes, morceaux):

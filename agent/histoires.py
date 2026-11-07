@@ -348,7 +348,7 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
            journal=print, format_: str | None = None) -> set[int]:
     """MP4 et miniature ; renvoie les numéros d'images utilisées (pour les crédits)."""
     from .voix import Voix
-    from .voix_conseil import STYLE_BANDE_ANNONCE, narration
+    from .voix_conseil import STYLE_RECIT_CONTINU, narration
 
     scenes, dits, utilisees = [], [], set()
     for sc in script["scenes"]:
@@ -370,8 +370,9 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
     if (cfg.get("perso") or {}).get("voix_gemini"):
         try:
             v = (cfg.get("histoires") or {}).get("voix") or {}
-            pistes = {x["cle"]: x for x in narration(cfg, textes, dossier, "voix", journal, style=STYLE_BANDE_ANNONCE,
-                                                     voix=v.get("nom", "Algenib"), demi_tons=v.get("demi_tons", 1))}
+            pistes = {x["cle"]: x for x in narration(cfg, textes, dossier, "voix", journal, style=STYLE_RECIT_CONTINU,
+                                                     voix=v.get("nom", "Algenib"), demi_tons=v.get("demi_tons", 1),
+                                                     continu=True)}
         except Exception as e:
             journal(f"⚠️ Voix Schedar indisponible, relais sur la voix Chirp : {e}")
     if not pistes:
