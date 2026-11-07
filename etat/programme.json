@@ -1,0 +1,95 @@
+{
+ "faits": [
+  "comptes-publics-001",
+  "plan-esr-001",
+  "plan-btp-logement-001",
+  "pole-public-bancaire-002"
+ ],
+ "ecartes": {
+  "pole-public-bancaire-001": "script refusé au contrôle : 1282 caractères dits, il en faut de 900 à 1150 (question comprise)",
+  "plan-sante-001": "script refusé au contrôle : 1190 caractères dits, il en faut de 900 à 1150 (question comprise) ; chiffres absents de l'article : 2023433000",
+  "plan-ruralites-001": "script refusé au contrôle : 1191 caractères dits, il en faut de 900 à 1150 (question comprise)",
+  "plan-automobile-001": "script refusé au contrôle : la première scène doit être l'accroche",
+  "comptes-publics-002": "script refusé au contrôle : 9 scènes (11 à 17 attendues) ; la première scène doit être l'accroche ; 876 caractères dits, il en faut de 900 à 1150 (question comprise)"
+ },
+ "journal": [
+  {
+   "jour": "2026-11-07",
+   "id": "comptes-publics-001",
+   "nom": "prog-comptes-publics-001"
+  },
+  {
+   "jour": "2026-11-07",
+   "id": "plan-esr-001",
+   "nom": "prog-plan-esr-001"
+  },
+  {
+   "jour": "2026-11-07",
+   "id": "plan-btp-logement-001",
+   "nom": "prog-plan-btp-logement-001"
+  },
+  {
+   "jour": "2026-11-07",
+   "id": "pole-public-bancaire-002",
+   "nom": "prog-pole-public-bancaire-002"
+  }
+ ],
+ "programmes": [
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-comptes-publics-001",
+   "reseau": "tiktok",
+   "buffer": "6aeefb179214322f68e467da",
+   "heure": "2026-11-07T11:29:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-comptes-publics-001",
+   "reseau": "youtube",
+   "buffer": "6aeefb179214322f68e46827",
+   "heure": "2026-11-07T11:29:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-plan-esr-001",
+   "reseau": "tiktok",
+   "buffer": "6aeefb18004e4879a74aa8e7",
+   "heure": "2026-11-07T11:59:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-plan-esr-001",
+   "reseau": "youtube",
+   "buffer": "6aeefb19af7e526d4314db1b",
+   "heure": "2026-11-07T11:59:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-plan-btp-logement-001",
+   "reseau": "tiktok",
+   "buffer": "6aeefb19af7e526d4314db79",
+   "heure": "2026-11-07T12:29:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-plan-btp-logement-001",
+   "reseau": "youtube",
+   "buffer": "6aeefb1aa7751de7c9de2333",
+   "heure": "2026-11-07T12:29:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-pole-public-bancaire-002",
+   "reseau": "tiktok",
+   "buffer": "6aeefb1aaf7e526d4314dbc6",
+   "heure": "2026-11-07T12:59:00+01:00"
+  },
+  {
+   "jour": "2026-11-07",
+   "nom": "prog-pole-public-bancaire-002",
+   "reseau": "youtube",
+   "buffer": "6aeefb1baf7e526d4314dc0a",
+   "heure": "2026-11-07T12:59:00+01:00"
+  }
+ ]
+}
