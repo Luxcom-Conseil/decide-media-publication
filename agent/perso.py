@@ -27,6 +27,7 @@ ETAT = RACINE / "etat" / "perso.json"
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 CRF = 25  # qualité du MP4 : 25 garde la semaine (21 Reels) sous la limite de 1 Go de GitHub Pages
 PAROLE_MIN = 1000  # caractères dits ≈ 60 secondes de vidéo avec la voix Schedar (884 = 53 s, 1036 = 61 s le 27/10)
+PAROLE_SECOURS = 850  # en dessous de 1 350 mais au-dessus de ça, après 5 refus : Reel d'environ 50 s plutôt qu'un horaire vide
 PAROLE_COURT = (370, 560)  # format court : 30 à 35 secondes de vidéo avec la voix de conseil, plus lente (15 caractères/s)
 TYPES = ["accroche", "texte", "liste", "comparaison", "citation"]
 _TXT = {"type": "string"}
@@ -320,13 +321,24 @@ def ecrire_script(cfg: dict, sujet: tuple, journal=print, angle: str = "", court
     if court:
         parties.append({"text": FORMAT_COURT})
     remarques: list[str] = []
-    for essai in range(4):
+    secours = None  # le plus long des scripts dont le seul défaut est d'être un peu court (8/11 : 2 Reels perdus à 942 et 912)
+    for essai in range(5):
         script = normaliser(_demander(cfg, parties, remarques))
         remarques = controler(script, source, court)
         if not remarques:
             return script
-        journal(f"    ↺ script refusé ({essai + 1}/4) : " + " ; ".join(remarques)[:300])
+        if not court and len(remarques) == 1 and remarques[0].startswith("trop court"):
+            if _parole(script) >= PAROLE_SECOURS and (secours is None or _parole(script) > _parole(secours)):
+                secours = script
+        journal(f"    ↺ script refusé ({essai + 1}/5) : " + " ; ".join(remarques)[:300])
+    if secours:
+        journal(f"    ⚠️ script gardé malgré sa longueur ({_parole(secours)} caractères, Reel d'environ 50 s)")
+        return secours
     raise RuntimeError("script refusé au contrôle : " + " ; ".join(remarques)[:400])
+
+
+def _parole(script: dict) -> int:
+    return sum(len(sc.get("dit", "")) for sc in script.get("scenes") or []) + len(script.get("question", ""))
 
 
 def legende_finale(script: dict) -> str:
@@ -354,8 +366,10 @@ def _remotion(composition: str, props: dict, sortie: Path, still: bool = False) 
 
 
 def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, essai: bool = False,
-           couverture: Path | None = None) -> Path:
-    """Reel (MP4) dans `sortie` ; avec `couverture`, aussi la miniature JPEG (accroche + fond de la première scène)."""
+           couverture: Path | None = None, infos: dict | None = None) -> Path:
+    """Reel (MP4) dans `sortie` ; avec `couverture`, aussi la miniature JPEG (accroche + fond de la première scène).
+    `infos["timbre"]` reçoit la voix utilisée : « conseil » (Gemini), « habituelle » (Chirp, relais) ou « aucune »."""
+    infos = {} if infos is None else infos
     from .medias_libres import chercher, disponible
     from .voix import Voix
     from .voix_conseil import narration as narration_conseil
@@ -390,9 +404,11 @@ def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, e
             pistes = {x["cle"]: x for x in narration_conseil(cfg, textes, dossier, "voix", journal)}
         except Exception as e:  # préversion gratuite : la voix Chirp prend le relais, le Reel sort quand même
             journal(f"⚠️ Voix de conseil indisponible, relais sur la voix habituelle : {e}")
+    infos["timbre"] = "conseil" if pistes else "aucune"
     if not pistes:
         try:
             pistes = {x["cle"]: x for x in Voix(journal).narration(textes, dossier, "voix", forcer=essai) or []}
+            infos["timbre"] = "habituelle" if pistes else "aucune"
         except Exception as e:  # la voix ne bloque jamais la vidéo
             journal(f"⚠️ Voix off indisponible, Reel sans voix : {e}")
     for k, sc in enumerate(scenes):
@@ -420,24 +436,39 @@ def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, e
 def planifier(cfg: dict, log, maintenant: datetime | None = None, chemin: Path = RACINE / "sortie" / "perso" / "plan.json") -> list[dict]:
     """Choisit sujet, angle, formule d'accroche et format pour chaque horaire libre des 7 prochains jours ; écrit le plan
     pour les tâches de rendu. Test décidé au bilan du 3/11 : sur 3 Reels, un sur le travail, un court (30 à 35 s), un
-    ordinaire ; les rôles tournent d'un jour à l'autre pour que l'heure de publication ne fausse pas la comparaison."""
+    ordinaire ; les rôles tournent d'un jour à l'autre pour que l'heure de publication ne fausse pas la comparaison.
+    Le rôle et la formule dépendent du jour et de l'horaire (pas du rang dans le plan) : la production est quotidienne
+    depuis le 8/11 et ne fabrique souvent que le 7ᵉ jour.
+    S'y ajoutent, au plus perso.refaire_par_jour, les Reels programmés qui ont reçu la voix habituelle faute de quota de
+    la voix de conseil (gratuite, environ 10 prises par jour) : ils sont refaits avec celle-ci, plus de 12 h avant leur heure."""
     maintenant = maintenant or datetime.now(timezone.utc)
+    p = cfg.get("perso") or {}
+    tz = ZoneInfo(cfg["fuseau_horaire"])
+    horaires = p.get("horaires", ["12:30", "18:30", "21:00"])
     etat = EtatPerso()
     publies = etat.sujets_publies()
     plan = []
-    for i, quand in enumerate(creneaux_semaine(cfg, maintenant, etat.creneaux_pris())):
-        role = (i % 3 - i // 3) % 3  # 0 = travail, 1 = court, 2 = ordinaire
+    for quand in creneaux_semaine(cfg, maintenant, etat.creneaux_pris()):
+        local = quand.astimezone(tz)
+        jour, k = local.date().toordinal(), horaires.index(local.strftime("%H:%M"))
+        role = (k - jour) % 3  # 0 = travail, 1 = court, 2 = ordinaire
         sujet, angle = prochain_travail(publies) if role == 0 else prochain(publies)
         publies.append(sujet[0])
         plan.append({"id": quand.strftime("%Y%m%d-%H%M"), "quand": quand.isoformat(), "sujet": sujet[0], "angle": angle,
-                     "format": "court" if role == 1 else "long", "formule": FORMULES[i % len(FORMULES)][0]})
+                     "format": "court" if role == 1 else "long", "formule": FORMULES[(3 * jour + k) % len(FORMULES)][0]})
+    if p.get("voix_gemini"):
+        limite = maintenant + timedelta(hours=12)
+        for x in [x for x in etat.d["planning"] if x.get("statut") == "programme" and x.get("timbre") == "habituelle"
+                  and datetime.fromisoformat(x["quand"]) >= limite][:int(p.get("refaire_par_jour", 6))]:
+            plan.append({k: x.get(k, "") for k in ("id", "quand", "sujet", "angle", "formule")}
+                        | {"format": x.get("format", "long"), "refaire": True, "script": x.get("script")})
     chemin.parent.mkdir(parents=True, exist_ok=True)
     chemin.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     log(f"Instagram perso : {len(plan)} Reel(s) à produire, du {plan[0]['quand'][:16] if plan else '-'} "
         f"au {plan[-1]['quand'][:16] if plan else '-'}")
     for x in plan:
         log(f"    {x['quand'][5:16].replace('T', ' ')}  {PAR_ID[x['sujet']][2]}  [{x['format']}, {x['formule']}]"
-            + (f"  (angle : {x['angle']})" if x["angle"] else ""))
+            + (f"  (angle : {x['angle']})" if x["angle"] else "") + ("  ↻ à refaire avec la voix de conseil" if x.get("refaire") else ""))
     return plan
 
 
@@ -451,15 +482,25 @@ def produire(cfg: dict, plan: list[dict], log, dossier: Path = RACINE / "sortie"
         sujet = PAR_ID[x["sujet"]]
         log(f"• {x['quand'][5:16].replace('T', ' ')} — {sujet[2]}" + (f" ({x['angle']})" if x["angle"] else ""))
         avant = Voix(log).consommes()
+        nom = x["id"] + ("-r" if x.get("refaire") else "")  # un Reel refait ne remplace pas le fichier déjà en ligne
         try:
-            script = ecrire_script(cfg, sujet, log, x.get("angle", ""), x.get("format") == "court", x.get("formule", ""))
-            log(f"    📝 accroche « {script['scenes'][0]['ecran']} », {len(script['scenes'])} scènes")
-            rendre(cfg, script, sujet, dossier / f"{x['id']}.mp4", log, couverture=dossier / f"{x['id']}.jpg")
-            (dossier / f"{x['id']}.json").write_text(json.dumps(
-                {**x, "legende": legende_finale(script), "voix": Voix(log).consommes() - avant}, ensure_ascii=False), encoding="utf-8")
-            log("    ✅ prêt")
+            script = x.get("script") or ecrire_script(cfg, sujet, log, x.get("angle", ""), x.get("format") == "court",
+                                                      x.get("formule", ""))
+            log(f"    📝 accroche « {script['scenes'][0]['ecran']} », {len(script['scenes'])} scènes"
+                + (" (script d'origine)" if x.get("script") else ""))
+            infos: dict = {}
+            rendre(cfg, script, sujet, dossier / f"{nom}.mp4", log, couverture=dossier / f"{nom}.jpg", infos=infos)
+            if x.get("refaire") and infos.get("timbre") != "conseil":
+                for f in (dossier / f"{nom}.mp4", dossier / f"{nom}.jpg"):
+                    f.unlink(missing_ok=True)
+                log("    ➖ toujours sans la voix de conseil : le Reel déjà programmé reste, nouvel essai demain")
+                continue
+            (dossier / f"{nom}.json").write_text(json.dumps(
+                {**x, "fichier": nom, "script": script, "timbre": infos.get("timbre"), "legende": legende_finale(script),
+                 "voix": Voix(log).consommes() - avant}, ensure_ascii=False), encoding="utf-8")
+            log("    ✅ prêt" + (" (voix habituelle : à refaire)" if infos.get("timbre") == "habituelle" else ""))
         except Exception as e:  # un Reel raté ne bloque pas les autres ; son horaire reste libre pour la prochaine production
-            ok = False
+            ok = ok and bool(x.get("refaire"))  # un Reel à refaire raté garde sa version programmée
             log(f"    ❌ {type(e).__name__} : {str(e)[:300]}")
     return ok
 
@@ -473,8 +514,11 @@ def heberger(cfg: dict, log, dossier: Path = RACINE / "sortie" / "perso", mainte
     etat = EtatPerso()
     fiches = [json.loads(f.read_text(encoding="utf-8")) for f in sorted(dossier.glob("*/*.json")) + sorted(dossier.glob("*.json"))
               if f.name != "plan.json"]
-    prets = [(f, next(dossier.rglob(f"{f['id']}.mp4"), None), next(dossier.rglob(f"{f['id']}.jpg"), None)) for f in fiches]
-    prets = [(f, v, c) for f, v, c in prets if v and f["quand"] not in etat.creneaux_pris()]
+    prets = [(f, next(dossier.rglob(f"{f.get('fichier', f['id'])}.mp4"), None),
+              next(dossier.rglob(f"{f.get('fichier', f['id'])}.jpg"), None)) for f in fiches]
+    programmes = {x["quand"]: x for x in etat.d["planning"] if x.get("statut") == "programme"}
+    prets = [(f, v, c) for f, v, c in prets if v and (f["quand"] in programmes if f.get("refaire")
+                                                       else f["quand"] not in etat.creneaux_pris())]
     if not prets:
         log("Instagram perso : aucun Reel produit à mettre en ligne")
         return 0
@@ -484,10 +528,14 @@ def heberger(cfg: dict, log, dossier: Path = RACINE / "sortie" / "perso", mainte
     jour = maintenant.astimezone(ZoneInfo(cfg["fuseau_horaire"])).date()
     urls = mettre_en_ligne(fichiers, jour, nom_dossier=f"perso-{jour.isoformat()}", attente_max=900)
     for f, v, c in sorted(prets, key=lambda x: x[0]["quand"]):
-        etat.d["planning"].append({"id": f["id"], "quand": f["quand"], "sujet": f["sujet"], "angle": f.get("angle", ""),
-                                   "format": f.get("format", "long"), "formule": f.get("formule", ""),
-                                   "video_url": urls[v.name], "cover_url": urls.get(c.name) if c else None,
-                                   "legende": f["legende"], "statut": "programme"})
+        entree = {"id": f["id"], "quand": f["quand"], "sujet": f["sujet"], "angle": f.get("angle", ""),
+                  "format": f.get("format", "long"), "formule": f.get("formule", ""),
+                  "video_url": urls[v.name], "cover_url": urls.get(c.name) if c else None,
+                  "legende": f["legende"], "statut": "programme", "timbre": f.get("timbre"), "script": f.get("script")}
+        if f.get("refaire"):
+            programmes[f["quand"]].update(entree, refait_le=maintenant.isoformat(timespec="seconds"))
+        else:
+            etat.d["planning"].append(entree)
     etat.d["planning"].sort(key=lambda x: x["quand"])
     etat.sauver()
     log(f"✅ Instagram perso : {len(prets)} Reel(s) programmé(s)")
@@ -523,6 +571,7 @@ def publier_dus(cfg: dict, log, maintenant: datetime | None = None) -> bool:
         try:
             res = pub.publier_reel(x["video_url"], x["legende"], couverture=x.get("cover_url"))
             x.update(statut="publie", url=res.url, media_id=res.id, publie_le=datetime.now(timezone.utc).isoformat(timespec="seconds"))
+            x.pop("script", None)  # gardé seulement pour refaire la voix avant publication
             etat.d["publications"].append({"jour": x["quand"][:10], "sujet": x["sujet"], "angle": x.get("angle", ""),
                                            "url": res.url, "media_id": res.id})
             log(f"    ✅ {nom} : {res.url}")

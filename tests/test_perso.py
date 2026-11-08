@@ -135,3 +135,71 @@ def test_moment(tmp_path):
 def test_legende_sans_tiret_long_et_hashtags():
     t = legende_finale(_script(legende="Une idée — simple.", hashtags=["#psychologie", "astuces"]))
     assert "—" not in t and t.endswith("#psychologie #astuces")
+
+
+def test_script_un_peu_court_garde_apres_cinq_refus(monkeypatch):
+    import agent.perso as perso
+    monkeypatch.setenv("GEMINI_API_KEY", "x")
+    moyen = _script(scenes=[_sc("accroche", "Ton travail te coûte *cher*")] + [_sc() for _ in range(10)])  # ≈ 950 caractères
+    monkeypatch.setattr(perso, "_demander", lambda *a: moyen)
+    assert perso.ecrire_script(CFG, PAR_ID["pareto"], lambda _: None) is moyen
+    trop = _script(scenes=[_sc("accroche", "Ton travail te coûte *cher*")] + [_sc(dit="Court.") for _ in range(12)])
+    monkeypatch.setattr(perso, "_demander", lambda *a: trop)
+    try:
+        perso.ecrire_script(CFG, PAR_ID["pareto"], lambda _: None)
+        assert False
+    except RuntimeError as e:
+        assert "trop court" in str(e)
+
+
+def test_production_quotidienne_garde_les_roles_du_jour(tmp_path, monkeypatch):
+    import json
+
+    import agent.perso as perso
+    etat = tmp_path / "etat.json"
+    monkeypatch.setattr(perso.EtatPerso.__init__, "__defaults__", (etat,))
+    semaine = planifier(CFG, lambda _: None, datetime(2026, 11, 8, 7, 0, tzinfo=timezone.utc), tmp_path / "plan.json")
+    pris = semaine[:-3]
+    etat.write_text(json.dumps({"planning": [{**x, "statut": "programme", "timbre": "conseil"} for x in pris],
+                                "publications": []}), encoding="utf-8")
+    jour = planifier(CFG, lambda _: None, datetime(2026, 11, 8, 7, 0, tzinfo=timezone.utc), tmp_path / "plan.json")
+    assert [(x["quand"], x["format"], x["formule"]) for x in jour] == [(x["quand"], x["format"], x["formule"]) for x in semaine[-3:]]
+
+
+def test_reels_a_la_voix_habituelle_refaits(tmp_path, monkeypatch):
+    import json
+
+    import agent.perso as perso
+    etat = tmp_path / "etat.json"
+    monkeypatch.setattr(perso.EtatPerso.__init__, "__defaults__", (etat,))
+    semaine = planifier(CFG, lambda _: None, datetime(2026, 11, 8, 7, 0, tzinfo=timezone.utc), tmp_path / "plan.json")
+    planning = [{**x, "statut": "programme", "timbre": "habituelle" if i % 2 else "conseil", "script": {"s": i}}
+                for i, x in enumerate(semaine)]
+    etat.write_text(json.dumps({"planning": planning, "publications": []}), encoding="utf-8")
+    plan = planifier(CFG, lambda _: None, datetime(2026, 11, 8, 7, 0, tzinfo=timezone.utc), tmp_path / "plan.json")
+    refaire = [x for x in plan if x.get("refaire")]
+    assert len(refaire) == 6 and all(x["script"]["s"] % 2 for x in refaire)
+    assert all(datetime.fromisoformat(x["quand"]) >= datetime(2026, 11, 8, 19, 0, tzinfo=timezone.utc) for x in refaire)
+
+
+def test_heberger_remplace_un_reel_refait(tmp_path, monkeypatch):
+    import json
+
+    import agent.hebergement as hebergement
+    import agent.perso as perso
+    etat = tmp_path / "etat.json"
+    monkeypatch.setattr(perso.EtatPerso.__init__, "__defaults__", (etat,))
+    quand = "2026-11-13T18:30:00+01:00"
+    etat.write_text(json.dumps({"planning": [{"id": "20261113-1830", "quand": quand, "sujet": "pareto", "statut": "programme",
+                                              "timbre": "habituelle", "video_url": "ancien"}], "publications": []}), encoding="utf-8")
+    lot = tmp_path / "sortie" / "lot0"
+    lot.mkdir(parents=True)
+    (lot / "20261113-1830-r.mp4").write_bytes(b"v")
+    (lot / "20261113-1830-r.json").write_text(json.dumps({"id": "20261113-1830", "fichier": "20261113-1830-r", "quand": quand,
+                                                          "sujet": "pareto", "refaire": True, "timbre": "conseil",
+                                                          "legende": "L", "script": {}}), encoding="utf-8")
+    monkeypatch.setattr(hebergement, "mettre_en_ligne", lambda fichiers, *a, **k: {f.name: "nouveau/" + f.name for f in fichiers})
+    monkeypatch.setattr("agent.voix.Voix._ajouter", lambda *a: None)
+    assert perso.heberger(CFG, lambda _: None, tmp_path / "sortie", datetime(2026, 11, 9, 10, tzinfo=timezone.utc)) == 1
+    planning = json.loads(etat.read_text(encoding="utf-8"))["planning"]
+    assert len(planning) == 1 and planning[0]["video_url"] == "nouveau/20261113-1830-r.mp4" and planning[0]["timbre"] == "conseil"

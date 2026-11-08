@@ -478,6 +478,7 @@
       "quand": "2026-11-08T21:00:00+01:00",
       "statut": "programme",
       "sujet": "faim",
+      "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261108-2100.mp4"
     },
     {
@@ -490,6 +491,7 @@
       "quand": "2026-11-09T12:30:00+01:00",
       "statut": "programme",
       "sujet": "vitrine",
+      "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-1230.mp4"
     },
     {
@@ -502,6 +504,7 @@
       "quand": "2026-11-09T18:30:00+01:00",
       "statut": "programme",
       "sujet": "ringelmann",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-1830.mp4"
     },
     {
@@ -514,6 +517,7 @@
       "quand": "2026-11-09T21:00:00+01:00",
       "statut": "programme",
       "sujet": "emotions_enfant",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-2100.mp4"
     },
     {
@@ -526,6 +530,7 @@
       "quand": "2026-11-10T12:30:00+01:00",
       "statut": "programme",
       "sujet": "nature",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-1230.mp4"
     },
     {
@@ -538,6 +543,7 @@
       "quand": "2026-11-10T18:30:00+01:00",
       "statut": "programme",
       "sujet": "fomo",
+      "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-1830.mp4"
     },
     {
@@ -550,6 +556,7 @@
       "quand": "2026-11-10T21:00:00+01:00",
       "statut": "programme",
       "sujet": "flow",
+      "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-2100.mp4"
     },
     {
@@ -562,6 +569,7 @@
       "quand": "2026-11-11T12:30:00+01:00",
       "statut": "programme",
       "sujet": "reconnaissance_travail",
+      "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-1230.mp4"
     },
     {
@@ -574,6 +582,7 @@
       "quand": "2026-11-11T18:30:00+01:00",
       "statut": "programme",
       "sujet": "routine",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-1830.mp4"
     },
     {
@@ -586,6 +595,7 @@
       "quand": "2026-11-11T21:00:00+01:00",
       "statut": "programme",
       "sujet": "ennui",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-2100.mp4"
     },
     {
@@ -598,6 +608,7 @@
       "quand": "2026-11-12T12:30:00+01:00",
       "statut": "programme",
       "sujet": "chambre_echo",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1230.mp4"
     },
     {
@@ -610,6 +621,7 @@
       "quand": "2026-11-12T18:30:00+01:00",
       "statut": "programme",
       "sujet": "volant",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1830.mp4"
     },
     {
@@ -622,6 +634,7 @@
       "quand": "2026-11-12T21:00:00+01:00",
       "statut": "programme",
       "sujet": "confirmation",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-2100.mp4"
     },
     {
@@ -634,6 +647,7 @@
       "quand": "2026-11-13T12:30:00+01:00",
       "statut": "programme",
       "sujet": "colere",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261113-1230.mp4"
     },
     {
@@ -646,6 +660,7 @@
       "quand": "2026-11-13T21:00:00+01:00",
       "statut": "programme",
       "sujet": "proximite",
+      "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261113-2100.mp4"
     },
     {
@@ -658,6 +673,7 @@
       "quand": "2026-11-14T12:30:00+01:00",
       "statut": "programme",
       "sujet": "comb",
+      "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261114-1230.mp4"
     },
     {
@@ -670,6 +686,7 @@
       "quand": "2026-11-14T18:30:00+01:00",
       "statut": "programme",
       "sujet": "discours_interieur",
+      "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261114-1830.mp4"
     },
     {
@@ -682,6 +699,7 @@
       "quand": "2026-11-14T21:00:00+01:00",
       "statut": "programme",
       "sujet": "competence",
+      "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261114-2100.mp4"
     }
   ],

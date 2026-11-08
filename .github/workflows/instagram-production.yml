@@ -1,11 +1,12 @@
 name: Instagram perso - production de la semaine
 
-# Le dimanche : choisit les sujets des 7 prochains jours (3 Reels par jour), les fabrique en parallèle, les met en ligne
-# et les inscrit au planning (etat/perso.json). La publication à l'heure dite est faite par instagram-publication.yml.
-# Lancée à la main en milieu de semaine, elle ne comble que les horaires encore libres.
+# Chaque nuit : comble les horaires libres des 7 prochains jours (en régime normal, les 3 Reels du 7ᵉ jour), refait avec
+# la voix de conseil les Reels programmés qui ont dû prendre la voix habituelle (quota gratuit d'environ 10 prises par
+# jour), les met en ligne et les inscrit au planning (etat/perso.json). Avant le 8/11/2026 : 21 Reels le dimanche, ce qui
+# dépassait le quota de la voix. La publication à l'heure dite est faite par instagram-publication.yml.
 on:
   schedule:
-    - cron: "0 1 * * 0"   # dimanche 1 h UTC (GitHub peut décaler de quelques heures : sans importance ici)
+    - cron: "0 10 * * *"  # 10 h UTC, après la remise à zéro du quota Gemini (minuit en Californie, 9 h à Paris)
   workflow_dispatch:
 
 permissions:
