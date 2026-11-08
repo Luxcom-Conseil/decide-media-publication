@@ -52,7 +52,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("commande", nargs="?", default="publier",
                    choices=["publier", "verifier", "lots", "essai-video", "perso", "perso-essai", "perso-planifier",
                             "perso-rendre", "perso-heberger", "perso-publier", "histoires-essai",
-                            "histoires-produire", "histoires-programmer", "programme-fiches", "programme-essai",
+                            "histoires-produire", "histoires-programmer", "histoires-relancer","programme-fiches", "programme-essai",
                             "programme-produire", "programme-programmer"],
                    help="publier = dossiers « post » ; lots = lots quotidiens DECIDE MEDIA ; verifier = tester les accès ; "
                         "essai-video = fabriquer un Short d'essai dans sortie/, sans publier ; perso-essai = fabriquer un "
@@ -122,6 +122,14 @@ def main(argv: list[str] | None = None) -> int:
         ok = histoires.essai(cfg, log, a.sujet)
         _resume_github(log)
         return 0 if ok else 1
+
+    if a.commande == "histoires-relancer":  # reprogramme les posts Buffer refusés (histoires + Présidentielle 2027)
+        from . import histoires, programme
+
+        n = histoires.relancer(log) + histoires.relancer(log, programme.lire_etat, programme.ecrire_etat)
+        log(f"🔁 {n} post(s) reprogrammé(s)")
+        _resume_github(log)
+        return 0
 
     if a.commande in ("histoires-produire", "histoires-programmer"):  # production quotidienne (workflow histoires.yml)
         from datetime import datetime

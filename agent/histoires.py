@@ -546,10 +546,62 @@ def produire(cfg: dict, log, jour: str) -> list[dict]:
     return faites
 
 
+RELANCES_MAX = 3
+
+
+def relancer(log, lire=None, ecrire=None, jours: int = 3) -> int:
+    """Reprogramme les posts Buffer refusés des `jours` derniers jours (ex. 08/11/2026 : limite d'envois d'une chaîne
+    YouTube non vérifiée), une vidéo toutes les 30 min à partir de maintenant + 15 min, au plus RELANCES_MAX fois par
+    post. Renvoie le nombre de posts reprogrammés."""
+    lire, ecrire = lire or lire_etat, ecrire or ecrire_etat
+    from datetime import datetime, timedelta
+    from zoneinfo import ZoneInfo
+
+    from .publieurs.buffer import requete
+
+    etat = lire()
+    maintenant = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0)
+    depuis, n = maintenant - timedelta(days=jours), 0
+    for p in etat.get("programmes", []):
+        if datetime.fromisoformat(p["heure"]) < depuis or p.get("relances", 0) >= RELANCES_MAX:
+            continue
+        try:
+            post = requete("query($id: PostId!) { post(input: {id: $id}) { status error { message } } }",
+                           {"id": p["buffer"]}, cle="BUFFER_API_KEY_HISTOIRES")["post"]
+        except Exception as e:
+            log(f"    ⚠️ état Buffer illisible pour {p['nom']} ({p['reseau']}) : {e}")
+            continue
+        if not post or post.get("status") != "error":
+            continue
+        quand = maintenant + timedelta(minutes=15 + 30 * n)
+        motif = ((post.get("error") or {}).get("message") or "?")[:120]
+        try:
+            d = requete("""mutation($input: EditPostInput!) { editPost(input: $input) {
+                ... on PostActionSuccess { post { id status } } ... on MutationError { message } } }""",
+                        {"input": {"id": p["buffer"], "dueAt": quand.astimezone(ZoneInfo("UTC")).strftime(
+                            "%Y-%m-%dT%H:%M:%S.000Z"), "mode": "customScheduled", "schedulingType": "automatic"}},
+                        cle="BUFFER_API_KEY_HISTOIRES")["editPost"]
+        except Exception as e:
+            d = {"message": f"{type(e).__name__} : {e}"}
+        p["relances"] = p.get("relances", 0) + 1
+        if d.get("post"):
+            n += 1
+            p["heure_relance"] = quand.isoformat()
+            log(f"    🔁 {p['reseau']} {quand:%d/%m %H:%M} : {p['nom']} reprogrammé (refus : {motif})")
+        else:
+            log(f"    ❌ relance {p['reseau']} {p['nom']} : {d.get('message', 'refus sans motif')[:300]}")
+    ecrire(etat)
+    return n
+
+
 def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None, ecrire=None) -> bool:
     """Met en ligne les vidéos du `jour` (GitHub Pages) et les programme dans le second compte Buffer, sur TikTok et
     YouTube, aux heures de Paris du plan. `dossier`, `lire`, `ecrire` : pour la rubrique programme (agent/programme.py)."""
     lire, ecrire = lire or lire_etat, ecrire or ecrire_etat
+    try:  # d'abord les posts refusés des jours précédents (une relance ne doit jamais bloquer la programmation)
+        relancer(log, lire, ecrire)
+    except Exception as e:
+        log(f"⚠️ relance des posts refusés impossible : {e}")
     from datetime import date, datetime, timedelta
     from zoneinfo import ZoneInfo
 
