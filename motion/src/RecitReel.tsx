@@ -32,6 +32,9 @@ export type SceneRecit = {
   soustitre?: string;
   voix?: { src: string; duree: number };
   duree?: number;
+  // bruitages de la charte sonore (agent/sons.py) : `a` = instant de la scène (s) où le son doit frapper,
+  // `avance` = temps de l'attaque ou du pic dans le fichier, pour que ce point tombe pile sur `a`
+  sons?: { src: string; a: number; avance: number; gain: number }[];
 };
 
 export type ScriptRecit = {
@@ -285,6 +288,15 @@ export const RecitReel: React.FC<ScriptRecit> = (s) => {
           {p.sc.voix && <Sequence from={VOIX_DEBUT}><Audio src={staticFile(p.sc.voix.src)} /></Sequence>}
         </Sequence>
       ))}
+      {scenes.flatMap((p) => (p.sc.sons ?? []).map((b, k) => {
+        const debut = p.debut + Math.round((b.a - b.avance) * FPS);
+        // un son qui devrait démarrer avant le début du film est entamé d'autant (trimBefore), jamais décalé
+        return (
+          <Sequence key={`son-${p.i}-${k}`} from={Math.max(0, debut)}>
+            <Audio src={staticFile(b.src)} volume={b.gain} trimBefore={Math.max(0, -debut)} />
+          </Sequence>
+        );
+      }))}
       <Grain />
       <Entete s={s} />
       <div style={{ position: "absolute", top: 0, left: 0, height: 10, width: `${(f / total) * 100}%`, background: `linear-gradient(90deg, ${ROUGE}, ${OR})` }} />

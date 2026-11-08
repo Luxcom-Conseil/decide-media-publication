@@ -285,6 +285,8 @@ def legende(script: dict, fiche: dict, images: list[dict], utilisees: set[int]) 
     credits = sorted({images[k]["credit"] for k in utilisees})
     if credits:
         pied += " Images : " + " ; ".join(credits) + "."
+    if script.get("_credit_musique"):
+        pied += f" Musique : {script['_credit_musique']}."
     return f"{texte}\n\n{pied}\n\n{' '.join('#' + t for t in tags)}".strip()[:2200]
 
 

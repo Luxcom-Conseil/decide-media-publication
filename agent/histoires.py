@@ -341,6 +341,8 @@ def legende_finale(script: dict, source: dict, images: list[dict], utilisees: se
     pied = f"Source : Wikipédia, « {source['titre']} » (CC BY-SA)."
     if credits:
         pied += " Images : " + " ; ".join(credits) + "."
+    if script.get("_credit_musique"):
+        pied += f" Musique : {script['_credit_musique']}."
     return f"{texte}\n\n{pied}\n\n{tags}".strip()[:2200]
 
 
@@ -392,11 +394,18 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
         elif sc["type"] != "signature":
             sc["duree"] = max(2.5, len(sc.get("soustitre") or "") / 15)
     format_ = format_ or sujet["format"]
+    from . import sons
+    son = {"musique": "melodie.wav", "volume_musique": 0.10}
+    try:  # charte sonore « thriller d'archives » (config histoires.son) ; sans banque : mélodie habituelle, sans bruitage
+        son.update(sons.habiller(cfg, "histoires", scenes, cle=script["titre"], format_=format_, journal=journal))
+    except Exception as e:
+        journal(f"    ⚠️ charte sonore non appliquée : {e}")
+    script["_credit_musique"] = son.pop("credit_musique", None)
     props = {"serie": NOM_SERIE, "titre": script["titre"], "compte": COMPTE, "scenes": scenes,
              "partie": {"serie": "Partie 1", "serie2": "Partie 2", "programme": "Présidentielle 2027"}.get(format_),
-             "format": format_,
-             "musique": "melodie.wav", "volume_musique": 0.10}
+             "format": format_, **son}
     _remotion("RecitReel", props, sortie)
+    sons.niveler(cfg, "histoires", sortie, journal)
     premiere = scenes[0]
     _remotion("RecitCouverture", {"serie": NOM_SERIE, "accroche": premiere.get("ecran") or script["titre"],
                                   "image": premiere.get("image"), "partie": props["partie"], "compte": COMPTE}, couverture, still=True)

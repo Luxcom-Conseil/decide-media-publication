@@ -1,0 +1,203 @@
+{
+ "moments": {
+  "accroche": [
+   {
+    "src": "sons/histoires/accroche_1.wav",
+    "son": "sub_drop/long",
+    "graine": 1,
+    "duree": 2.088,
+    "attaque": 0.0,
+    "pic": 0.351
+   },
+   {
+    "src": "sons/histoires/accroche_2.wav",
+    "son": "sub_drop/long",
+    "graine": 2,
+    "duree": 2.088,
+    "attaque": 0.0,
+    "pic": 0.338
+   },
+   {
+    "src": "sons/histoires/accroche_3.wav",
+    "son": "sub_drop/long",
+    "graine": 3,
+    "duree": 2.088,
+    "attaque": 0.0,
+    "pic": 0.338
+   }
+  ],
+  "date": [
+   {
+    "src": "sons/histoires/date_1.wav",
+    "son": "knock/wood",
+    "graine": 1,
+    "duree": 0.154,
+    "attaque": 0.012,
+    "pic": 0.015
+   },
+   {
+    "src": "sons/histoires/date_2.wav",
+    "son": "knock/wood",
+    "graine": 2,
+    "duree": 0.163,
+    "attaque": 0.012,
+    "pic": 0.017
+   },
+   {
+    "src": "sons/histoires/date_3.wav",
+    "son": "knock/wood",
+    "graine": 3,
+    "duree": 0.156,
+    "attaque": 0.012,
+    "pic": 0.017
+   }
+  ],
+  "chiffre": [
+   {
+    "src": "sons/histoires/chiffre_1.wav",
+    "son": "impact/deep",
+    "graine": 1,
+    "duree": 6.464,
+    "attaque": 0.0,
+    "pic": 0.127
+   },
+   {
+    "src": "sons/histoires/chiffre_2.wav",
+    "son": "impact/deep",
+    "graine": 2,
+    "duree": 6.606,
+    "attaque": 0.0,
+    "pic": 0.152
+   },
+   {
+    "src": "sons/histoires/chiffre_3.wav",
+    "son": "impact/deep",
+    "graine": 3,
+    "duree": 6.813,
+    "attaque": 0.0,
+    "pic": 0.009
+   }
+  ],
+  "transition": [
+   {
+    "src": "sons/histoires/transition_1.wav",
+    "son": "whoosh_big/swell",
+    "graine": 1,
+    "duree": 1.38,
+    "attaque": 0.045,
+    "pic": 0.376
+   },
+   {
+    "src": "sons/histoires/transition_2.wav",
+    "son": "whoosh_big/swell",
+    "graine": 2,
+    "duree": 1.35,
+    "attaque": 0.071,
+    "pic": 0.414
+   },
+   {
+    "src": "sons/histoires/transition_3.wav",
+    "son": "whoosh_big/swell",
+    "graine": 3,
+    "duree": 1.36,
+    "attaque": 0.043,
+    "pic": 0.397
+   }
+  ],
+  "suite": [
+   {
+    "src": "sons/histoires/suite_1.wav",
+    "son": "riser/swell",
+    "graine": 1,
+    "duree": 2.2,
+    "attaque": 1.248,
+    "pic": 2.193
+   },
+   {
+    "src": "sons/histoires/suite_2.wav",
+    "son": "riser/swell",
+    "graine": 2,
+    "duree": 2.2,
+    "attaque": 1.313,
+    "pic": 2.192
+   },
+   {
+    "src": "sons/histoires/suite_3.wav",
+    "son": "riser/swell",
+    "graine": 3,
+    "duree": 2.2,
+    "attaque": 1.315,
+    "pic": 2.193
+   }
+  ],
+  "signature": [
+   {
+    "src": "sons/histoires/signature_1.wav",
+    "son": "impact/metal",
+    "graine": 1,
+    "duree": 5.248,
+    "attaque": 0.0,
+    "pic": 0.042
+   },
+   {
+    "src": "sons/histoires/signature_2.wav",
+    "son": "impact/metal",
+    "graine": 2,
+    "duree": 5.055,
+    "attaque": 0.0,
+    "pic": 0.117
+   },
+   {
+    "src": "sons/histoires/signature_3.wav",
+    "son": "impact/metal",
+    "graine": 3,
+    "duree": 5.154,
+    "attaque": 0.0,
+    "pic": 0.117
+   }
+  ]
+ },
+ "musiques": [
+  {
+   "src": "sons/histoires/musique/4d14023e-c281-4759-a65a-1391f91c1fe2.mp3",
+   "credit": "« freaky news » par Baringo (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/0fe24229-118d-4e24-8c46-97f2c0841756.mp3",
+   "credit": "« Egypt Detective Flute Orcherstra Piano Atmo Dark Thriller Strings Cinematic Music Surround » par szegvari (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/a2495eb5-30f6-41f1-9250-b63512568619.mp3",
+   "credit": "« suspense_line » par vlad.zaichyk (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/b22c3e69-5781-4abd-b2de-4a529b2e6aa2.mp3",
+   "credit": "« Suspenseful Strings Music 01 » par Magmi.Soundtracks (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/33308e78-3a9c-4fd9-a475-e0a671ab70c5.mp3",
+   "credit": "« dark AMBIENT » par heymanzzzz (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/6dbee5ce-2628-49fe-ae49-2a4766b76b07.mp3",
+   "credit": "« Street Museum (Dark Ambient BGM) » par ChristmasKrumble666 (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/7fddc5b5-86fe-4fe7-b685-7ab0654d7489.mp3",
+   "credit": "« Thriller Documentary Pack #1 » par dekstromoramid (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/ae4a2f74-a8d5-430e-823c-873ed44a9ea9.mp3",
+   "credit": "« Drama Strings » par younoise (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/ed8f4448-491d-4567-8784-32302c7c52b1.mp3",
+   "credit": "« Electronic Cinematic Music » par szegvari (CC0, Freesound)"
+  },
+  {
+   "src": "sons/histoires/musique/240ba5e2-82b8-4a1f-8482-4a758f858815.mp3",
+   "credit": "« Curious Ambience » par Reg1n0ld (CC0, Freesound)"
+  }
+ ],
+ "origine": "Earshot (github.com/Leonxlnx/earshot, MIT) : sons fabriqués par du code, aucun enregistrement"
+}

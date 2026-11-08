@@ -117,6 +117,25 @@ histoires:
   voix:                                 # essai C choisi par Stéphane le 06/11/2026 : ton bande-annonce de thriller
     nom: Algenib
     demi_tons: 1                        # un peu plus grave
+  # Charte sonore « thriller d'archives » (08/11/2026). Les bruitages sont rendus UNE fois en local par
+  # scripts/banque_sons.py (Earshot : sons fabriqués par du code, aucun risque Content ID) dans
+  # motion/public/sons/histoires/ ; les musiques sont choisies à l'oreille, CC0 ou domaine public seulement
+  # (la chaîne a 2 avertissements sur 3). La production du jour ne fait que piocher dans cette banque (agent/sons.py).
+  son:
+    banque: sons/histoires              # dossier sous motion/public/
+    prises: 3                           # variantes par moment, tournantes, pour ne pas entendre deux fois la même
+    moments:                            # type de scène → son de la banque Earshot (choisi avec earshot rank)
+      accroche:   {son: sub_drop/long,    caler: attaque, a: 0.0,  gain_db: -4}   # le boum de la 1re image
+      date:       {son: knock/wood,       caler: attaque, a: 0.15, gain_db: -6}   # le tampon de la date
+      chiffre:    {son: impact/deep,      caler: attaque, a: 0.08, gain_db: -7}   # le chiffre qui tombe
+      transition: {son: whoosh_big/swell, caler: pic,     a: 0.0,  gain_db: -14}  # nouvelle image d'archive
+      suite:      {son: riser/swell,      caler: pic,     a: 0.0,  gain_db: -6}   # « À SUIVRE », cliffhanger
+      signature:  {son: impact/metal,     caler: attaque, a: 0.07, gain_db: -8}   # le tampon « VRAI »
+    transition_ecart_s: 6               # pas deux whooshs à moins de 6 s : un son par rebondissement, pas par plan
+    musique_volume: 0.10                # sous la voix, ramené à 35 % pendant la parole (RecitReel)
+    volume_final_lufs: -14              # TikTok et YouTube ; pic vrai au plus -1.5 dBTP
+    formats:                            # la rubrique Présidentielle 2027 garde l'habillage, sans effets de thriller
+      programme: {sans: [accroche, suite], gain_db: -3}
 
 # Rubrique « Présidentielle 2027 » sur le même compte (agent/programme.py, workflow programme.yml) : programme de LFI
 # expliqué, en plus des histoires. 6/jour jusqu'au 07/01/2027, puis 2 en semaine et 4 le week-end jusqu'au 16/04 ;
