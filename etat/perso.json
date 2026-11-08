@@ -496,42 +496,435 @@
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-1830.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-1830-r.jpg",
       "format": "long",
       "formule": "Contre-pied",
       "id": "20261109-1830",
-      "legende": "Tu crois que travailler en équipe rend plus efficace ? C'est l'inverse.\n\nDans les grands groupes, notre cerveau a tendance à baisser la garde et à fournir moins d'efforts parce que notre travail se voit moins. C'est le piège classique de l'effet Ringelmann.\n\nLa solution est simple : découper les projets et donner à chacun une responsabilité claire et visible.\n\nTu as plutôt tendance à tout faire en groupe ou à déléguer ? 🧠✨\n\n#psychologie #travail #productivité #management",
+      "legende": "Tu crois que travailler en grande équipe te rend plus efficace ? C'est l'inverse.\n\nQuand le groupe grandit, notre cerveau relâche naturellement l'effort. C'est l'effet Ringelmann : si la responsabilité est partagée par trop de monde, elle s'efface.\n\nPour garder une équipe motivée, la règle est simple : attribue des tâches individuelles précises et rends le travail de chacun visible.\n\nAs-tu déjà remarqué cette baisse d'énergie dans les grands projets de groupe ?\n\n#psychologie #travail #productivite #management #efficacité",
       "quand": "2026-11-09T18:30:00+01:00",
+      "refait_le": "2026-11-08T11:39:57+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que travailler en grande équipe te rend plus efficace ? C'est l'inverse."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe en réunion de groupe te coûte ton énergie sans payer."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Rester dans des projets trop grands peut complètement bloquer ta carrière."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "travail",
+          "productivite",
+          "management",
+          "efficacité"
+        ],
+        "legende": "Tu crois que travailler en grande équipe te rend plus efficace ? C'est l'inverse.\n\nQuand le groupe grandit, notre cerveau relâche naturellement l'effort. C'est l'effet Ringelmann : si la responsabilité est partagée par trop de monde, elle s'efface.\n\nPour garder une équipe motivée, la règle est simple : attribue des tâches individuelles précises et rends le travail de chacun visible.\n\nAs-tu déjà remarqué cette baisse d'énergie dans les grands projets de groupe ?",
+        "question": "As-tu déjà remarqué cette baisse d'énergie dans les grands projets de groupe ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu crois que travailler en grande équipe te rend plus efficace ? C'est l'inverse.",
+            "ecran": "Travailler en équipe rend *moins* efficace",
+            "emoji": "🚨",
+            "recherche": "office team meeting discussion",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce qui se passe silencieusement dans ton cerveau.",
+            "ecran": "Et le *pire* arrive...",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce phénomène a un nom tout simple : l'effet Ringelmann.",
+            "ecran": "L'effet *Ringelmann*",
+            "emoji": "🧠",
+            "recherche": "thinking man office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Plus le groupe s'agrandit, plus l'effort individuel diminue sans qu'on s'en rende compte.",
+            "ecran": "Plus nombreux, *moins* d'effort",
+            "emoji": "👥",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Seul",
+            "b": "En groupe",
+            "dit": "Regarde la différence de motivation entre bosser solo ou dans un grand projet.",
+            "ecran": "Effort *seul* vs *groupe*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu l'as forcément déjà vécu au bureau, pendant ces réunions à dix personnes.",
+            "ecran": "Réunion à *dix* personnes",
+            "emoji": "💻",
+            "recherche": "boring business meeting",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tout le monde attend que l'autre prenne des notes ou relance le client.",
+            "ecran": "« Quelqu'un s'en *occupe* »",
+            "emoji": "😴",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourquoi ton cerveau fait ça ? Parce que ta contribution personnelle devient invisible.",
+            "ecran": "La part de chacun *disparaît*",
+            "emoji": "🙈",
+            "recherche": "man looking at computer screen",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand personne ne voit précisément ce que tu fais, l'inconscient se repose.",
+            "ecran": "Moins de *responsabilité*",
+            "emoji": "🛋️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une méthode très simple pour corriger ça immédiatement.",
+            "ecran": "La solution en *2 étapes*",
+            "emoji": "📌",
+            "recherche": "writing notebook task list",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Attribue un seul rôle clair à chaque personne. Deux. Rends le résultat mesurable et visible.",
+            "ecran": "Astuces : Rôles précis | Résultat visible",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne dis plus « il faut faire ce rapport », mais « Thomas s'occupe du rapport ». ",
+            "ecran": "Nomme *un* responsable",
+            "emoji": "✍️",
+            "recherche": "office worker typing keyboard",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si tu es salarié, clarifie toujours quelle est ta tâche exacte devant l'équipe.",
+            "ecran": "Protège *ton* travail",
+            "emoji": "🛡️",
+            "recherche": "confident businessman smiling",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce qui appartient à tout le monde n'appartient à personne.",
+            "ecran": "Ce qui appartient à *tout le monde* n'appartient à *personne*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet Ringelmann"
+      },
       "statut": "programme",
       "sujet": "ringelmann",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-1830.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-1830-r.mp4"
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-2100.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-2100-r.jpg",
       "format": "court",
       "formule": "Révélation",
       "id": "20261109-2100",
-      "legende": "Ce petit réflexe te coûte plus cher que tu ne crois avec les enfants.\n\nQuand une crise éclate, notre premier réflexe est souvent de nier l'émotion ou de demander le silence. Pourtant, valider ce que ressent l'enfant change tout.\n\nNomme d'abord son ressenti avant de fixer ta limite.\n\nQuelle est ta méthode habituelle face à une crise ?\n\n#psychologie #education #parentalite #enfants #emotions",
+      "legende": "Cette phrase innocente ruine tes relations avec ton enfant.\n\nQuand ton enfant fait une crise, lui dire « c'est rien » augmente sa frustration. Son cerveau a besoin de se sentir écouté pour baisser en pression.\n\nLa méthode en 2 étapes :\n1. Nomme son émotion : « Je vois que tu es en colère ».\n2. Pose la limite : « Mais il est l'heure de ranger ».\n\nQuelle phrase tu utilises le plus souvent en crise ?\n\n#parentalite #educationpositive #psychologieenfant #gestiondesemotions",
       "quand": "2026-11-09T21:00:00+01:00",
+      "refait_le": "2026-11-08T11:39:57+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Cette phrase innocente ruine tes relations avec ton enfant."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de dire « c'est rien » à ton enfant."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois calmer ton enfant en le rassurant ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "parentalite",
+          "educationpositive",
+          "psychologieenfant",
+          "gestiondesemotions"
+        ],
+        "legende": "Cette phrase innocente ruine tes relations avec ton enfant.\n\nQuand ton enfant fait une crise, lui dire « c'est rien » augmente sa frustration. Son cerveau a besoin de se sentir écouté pour baisser en pression.\n\nLa méthode en 2 étapes :\n1. Nomme son émotion : « Je vois que tu es en colère ».\n2. Pose la limite : « Mais il est l'heure de ranger ».\n\nQuelle phrase tu utilises le plus souvent en crise ?",
+        "question": "Quelle phrase tu utilises le plus souvent en crise ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Cette phrase innocente ruine complètement tes relations avec ton propre enfant.",
+            "ecran": "Cette phrase *ruine* tout avec ton enfant",
+            "emoji": "😱",
+            "recherche": "crying child parent frustrated",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La clé, c'est d'accueillir ses émotions plutôt que d'essayer de les nier.",
+            "ecran": "Accueillir ses *émotions*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au supermarché, il hurle pour un jouet et tu répètes sans cesse : c'est rien !",
+            "ecran": "« C'est *rien*, arrête ! »",
+            "emoji": "🛒",
+            "recherche": "child supermarket tantrum",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un enfant se calme plus vite quand il se sent enfin compris et entendu.",
+            "ecran": "Son cerveau *surchauffe*",
+            "emoji": "💥",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Dis-lui : Je vois que tu es en colère parce qu'on s'en va.",
+            "ecran": "Méthode : 1. Valide | 2. Limite",
+            "emoji": "💡",
+            "recherche": "mother comforting child",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Pose la limite calmement : Mais il est l'heure de rentrer.",
+            "ecran": "Poser la *limite*",
+            "emoji": "🛑",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Nommer l'émotion désamorce la crise.",
+            "ecran": "Nommer l'émotion désamorce la crise",
+            "emoji": "🎯",
+            "recherche": "smiling parent child park",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Accueillir les émotions de l'enfant"
+      },
       "statut": "programme",
       "sujet": "emotions_enfant",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-2100.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-2100-r.mp4"
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-1230.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-1230-r.jpg",
       "format": "court",
       "formule": "Défi",
       "id": "20261110-1230",
-      "legende": "Personne ne m'a jamais expliqué ça, et ça a tout changé pour ma fatigue mentale.\n\nSortir un peu chaque jour change vraiment la donne pour ton cerveau. Pas besoin d'y passer des heures, juste un moment au vert.\n\nTu passes combien de temps dehors par jour ?\n\n#psychologie #bienetre #productivite #nature",
+      "legende": "Personne ne m'a expliqué ça, et ça a changé ma vie.\n\nQuand tu te sens vidé par le travail, s'enfermer devant un autre écran ne recharge pas tes batteries. Ton esprit a besoin de calme visuel.\n\nFais une courte pause dehors chaque jour, sans regarder ton téléphone. Quelques minutes au vert suffisent pour relâcher la pression.\n\nTu fais des pauses dehors dans ta journée ?\n\n#psychologie #bienetre #stress #santeMentale",
       "quand": "2026-11-10T12:30:00+01:00",
+      "refait_le": "2026-11-08T11:39:57+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Défi",
+            "texte": "Personne ne m'a expliqué ça, et ça a changé ma vie."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe gratuit te coûte ton énergie tous les jours."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de chercher des solutions complexes tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "bienetre",
+          "stress",
+          "santeMentale"
+        ],
+        "legende": "Personne ne m'a expliqué ça, et ça a changé ma vie.\n\nQuand tu te sens vidé par le travail, s'enfermer devant un autre écran ne recharge pas tes batteries. Ton esprit a besoin de calme visuel.\n\nFais une courte pause dehors chaque jour, sans regarder ton téléphone. Quelques minutes au vert suffisent pour relâcher la pression.\n\nTu fais des pauses dehors dans ta journée ?",
+        "question": "Tu fais des pauses dehors dans ta journée ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Personne ne m'a expliqué ça, et ça a changé ma vie.",
+            "ecran": "Ça a *tout* changé pour moi",
+            "emoji": "🌿",
+            "recherche": "man walking outdoors park",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est simplement le pouvoir de la nature sur ton cerveau.",
+            "ecran": "Le *pouvoir* de la nature",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu passes ta journée assis devant ton écran et tu finis le soir vidé.",
+            "ecran": "Tu finis la journée *épuisé*",
+            "emoji": "😫",
+            "recherche": "tired worker desk computer",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Passer du temps dehors au vert aide ton esprit à récupérer de la fatigue.",
+            "ecran": "Le calme *recharge* le cerveau",
+            "emoji": "🔋",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour appliquer ça : Un, sors dehors chaque jour. Deux, laisse ton téléphone dans ta poche.",
+            "ecran": "L'astuce : 1. Sors 10min | 2. Pas de téléphone",
+            "emoji": "💡",
+            "recherche": "person walking park no phone",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Dix minutes dehors sans écran valent mieux qu'une heure de pause scrollée.",
+            "ecran": "Dix minutes *dehors* valent une heure de repos",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu fais des pauses dehors dans ta journée ?",
+            "ecran": "Ta *pause* dehors ?",
+            "emoji": "❓",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le pouvoir de la nature"
+      },
       "statut": "programme",
       "sujet": "nature",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-1230.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-1230-r.mp4"
     },
     {
       "angle": "",
@@ -574,42 +967,546 @@
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-1830.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-1830-r.jpg",
       "format": "court",
       "formule": "Démasquer",
       "id": "20261111-1830",
-      "legende": "Les enfants testent tes limites tous les soirs pour une raison précise.\n\nInstalle des repères fixes pour éviter les tensions à la maison. Des étapes claires au réveil et au coucher rassurent toute la famille.\n\nQuelle est la routine qui sauve tes soirées ?\n\n#famille #parentalite #education #psychologie",
+      "legende": "Tes enfants n'écoutent rien ? On te cache la vraie solution.\n\nLes crises du réveil et du coucher épuisent tout le monde. Pourtant, un cerveau rassuré est un cerveau qui coopère.\n\nEn mettant en place des étapes simples et fixes, tu supprimes le besoin de négocier chaque soir. L'enfant sait exactement ce qui vient après.\n\nQuelle étape bloque souvent dans ta routine du soir ?\n\n#parentalite #education #routine #viedefamille #psychologie",
       "quand": "2026-11-11T18:30:00+01:00",
+      "refait_le": "2026-11-08T11:39:57+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Démasquer",
+            "texte": "Tes enfants n'écoutent rien ? On te cache la vraie solution."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Gérer les crises du soir te fait perdre toute ton énergie."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce mauvais réflexe à la maison te coûte tes soirées."
+          }
+        ],
+        "hashtags": [
+          "parentalite",
+          "education",
+          "routine",
+          "viedefamille",
+          "psychologie"
+        ],
+        "legende": "Tes enfants n'écoutent rien ? On te cache la vraie solution.\n\nLes crises du réveil et du coucher épuisent tout le monde. Pourtant, un cerveau rassuré est un cerveau qui coopère.\n\nEn mettant en place des étapes simples et fixes, tu supprimes le besoin de négocier chaque soir. L'enfant sait exactement ce qui vient après.\n\nQuelle étape bloque souvent dans ta routine du soir ?",
+        "question": "Quelle étape bloque souvent dans ta routine du soir ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tes enfants n'écoutent rien ? On te cache la vraie solution.",
+            "ecran": "On te *cache* la vraie solution",
+            "emoji": "😱",
+            "recherche": "angry child parents home",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour stopper les crises, utilise la force des routines.",
+            "ecran": "La *force* des routines",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Chaque soir, c'est la négociation interminable pour aller au lit.",
+            "ecran": "La *bataille* du coucher",
+            "emoji": "🛏️",
+            "recherche": "tired parent kids bed",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Des routines prévisibles rassurent l'enfant et réduisent la fatigue.",
+            "ecran": "Le cerveau aime la *prévisibilité*",
+            "emoji": "🛡️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Installe deux règles : les mêmes étapes, toujours dans le même ordre.",
+            "ecran": "Routines : Mêmes étapes | Même ordre",
+            "emoji": "💡",
+            "recherche": "family morning routine",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Applique cet enchaînement exact au réveil et avant de dormir.",
+            "ecran": "Au *réveil* comme au coucher",
+            "emoji": "⏳",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La routine remplace la négociation.",
+            "ecran": "La *routine* remplace la négociation",
+            "emoji": "🎯",
+            "recherche": "happy family evening",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La force des routines"
+      },
       "statut": "programme",
       "sujet": "routine",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-1830.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-1830-r.mp4"
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-2100.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-2100-r.jpg",
       "format": "long",
       "formule": "Contre-pied",
       "id": "20261111-2100",
-      "legende": "Tu penses que t'ennuyer est une perte de temps ? C'est l'inverse.\n\nOn cherche constamment à remplir le moindre moment de vide avec notre smartphone, que ce soit dans les transports ou dans une file d'attente. Pourtant, ce manque de pause épuise notre attention.\n\nEn s'accordant de vrais moments sans écran ni musique, on laisse enfin l'esprit vagabonder et trouver de nouvelles inspirations.\n\nTu arrives à passer cinq minutes sans ton téléphone ?\n\n#psychologie #developpementpersonnel #creativite #cerveau #bienetre",
+      "legende": "Tu crois que ne rien faire te fait perdre ton temps ? C'est l'inverse.\n\nQuand tu remplis chaque temps mort avec un écran ou du son, tu empêches ton cerveau de se reposer. Résultat : tu tues ta propre créativité sans t'en rendre compte.\n\nPour retrouver tes meilleures idées, crée volontairement des moments de vide. Pas de téléphone, pas de musique. Laisse simplement ton esprit vagabonder pendant quelques minutes.\n\nQuelle est la dernière bonne idée que tu as eue sans utiliser ton téléphone ?\n\n#psychologie #creativite #productivite #developpementpersonnel",
       "quand": "2026-11-11T21:00:00+01:00",
+      "refait_le": "2026-11-08T11:39:57+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que ne rien faire te fait perdre ton temps ? C'est l'inverse."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe de sortir ton téléphone te coûte tes meilleures idées."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de remplir chaque minute vide tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "creativite",
+          "productivite",
+          "developpementpersonnel"
+        ],
+        "legende": "Tu crois que ne rien faire te fait perdre ton temps ? C'est l'inverse.\n\nQuand tu remplis chaque temps mort avec un écran ou du son, tu empêches ton cerveau de se reposer. Résultat : tu tues ta propre créativité sans t'en rendre compte.\n\nPour retrouver tes meilleures idées, crée volontairement des moments de vide. Pas de téléphone, pas de musique. Laisse simplement ton esprit vagabonder pendant quelques minutes.\n\nQuelle est la dernière bonne idée que tu as eue sans utiliser ton téléphone ?",
+        "question": "Quelle est la dernière bonne idée que tu as eue sans utiliser ton téléphone ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu crois que ne rien faire te fait perdre ton temps ? C'est l'inverse.",
+            "ecran": "Tu *perds* ton temps ?",
+            "emoji": "🤯",
+            "recherche": "bored man looking smartphone",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Dès qu'il y a une pause, dans les transports ou une file d'attente, tu sors ton écran.",
+            "ecran": "Toujours *occupé*",
+            "emoji": "📱",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et sans le savoir, tu bloques ce qui pourrait débloquer toute ta journée.",
+            "ecran": "Une grave *erreur*",
+            "emoji": "⚡",
+            "recherche": "waiting line bus stop",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce phénomène tout simple, c'est le pouvoir de l'ennui.",
+            "ecran": "Le *pouvoir* de l'ennui",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tu ne lui donnes aucune stimulation, ton cerveau cherche tout seul à s'occuper.",
+            "ecran": "Ton cerveau *cherche*",
+            "emoji": "💡",
+            "recherche": "thoughtful person looking window",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Il laisse l'esprit vagabonder librement, loin du stress du travail.",
+            "ecran": "L'esprit *vagabonde*",
+            "emoji": "🕊️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est exactement dans ces moments vides que naissent tes meilleures idées et ta créativité.",
+            "ecran": "Les *meilleures* idées",
+            "emoji": "✨",
+            "recherche": "creative spark idea happy",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si tu remplis chaque seconde avec de la musique ou des vidéos, tu coupes ce processus.",
+            "ecran": "Tu *bloques* tout",
+            "emoji": "🔕",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu as déjà remarqué comme tes meilleures idées arrivent sous la douche ou en marchant ?",
+            "ecran": "L'effet *douche*",
+            "emoji": "🚿",
+            "recherche": "man walking peaceful park",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce n'est pas un hasard, c'est juste que ton cerveau a enfin de l'espace pour respirer.",
+            "ecran": "Ce n'est pas un *hasard*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Écran continu",
+            "b": "Temps vide",
+            "dit": "Plus tu acceptes les temps morts, plus ton esprit devient créatif et efficace.",
+            "ecran": "Créativité et *temps vide*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour en profiter, applique cette méthode simple au quotidien.",
+            "ecran": "La méthode : 0 écran | 0 musique | Laisser faire",
+            "emoji": "🛠️",
+            "recherche": "putting phone down desk",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Accorde-toi chaque jour des moments courts sans aucun écran.",
+            "ecran": "Un. *Zéro* écran",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Marche ou attends sans mettre de casque ni de musique.",
+            "ecran": "Deux. *Zéro* musique",
+            "emoji": "2️⃣",
+            "recherche": "person walking city side view",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Laisse ton esprit vagabonder sans forcer, ton cerveau fera tout le reste.",
+            "ecran": "Trois. *Laisser* faire",
+            "emoji": "3️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Laisse ton esprit respirer pour débloquer tes meilleures idées.",
+            "ecran": "Laisse ton esprit *respirer* pour débloquer tes meilleures idées.",
+            "emoji": "💎",
+            "recherche": "mindful relaxed person breathing",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le pouvoir de l'ennui"
+      },
       "statut": "programme",
       "sujet": "ennui",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-2100.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-2100-r.mp4"
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1230.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1230-r.jpg",
       "format": "long",
       "formule": "Révélation",
       "id": "20261112-1230",
-      "legende": "Ce petit réflexe sur ton téléphone te coûte plus que tu ne crois.\n\nLes algorithmes nous enferment souvent dans une bulle où tout le monde pense comme nous. C'est la fameuse chambre d'écho.\n\nPour garder l'esprit critique, l'astuce est simple : ajoute quelques sources sérieuses qui ont des avis différents.\n\nAs-tu l'impression d'être enfermé dans une bulle sur tes réseaux ? 📱🧠\n\n#psychologie #reseauxsociaux #developpementpersonnel #biaiscognitif",
+      "legende": "Ce petit réflexe sur ton téléphone te rend plus têtu chaque jour.\n\nLes réseaux sociaux ont tendance à nous enfermer dans une chambre d'écho. Les algorithmes sélectionnent en priorité les contenus qui confirment nos avis préexistants. Résultat : on finit par croire que tout le monde pense comme nous.\n\nPour garder un esprit critique, force-toi à suivre quelques sources sérieuses avec lesquelles tu n'es pas d'accord au départ. Cela enrichit ta réflexion et t'évite de tomber dans le piège.\n\nAs-tu déjà remarqué que tes réseaux te montrent toujours la même chose ?\n\n#psychologie #reseauxsociaux #biaiscognitif #développementpersonnel #espritcritique",
       "quand": "2026-11-12T12:30:00+01:00",
+      "refait_le": "2026-11-08T11:39:57+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe sur ton téléphone te rend plus têtu chaque jour."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Regarder ton fil d'actualité détruit ta capacité à débattre calmement."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de scroller tant que tu n'as pas compris ce piège."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "reseauxsociaux",
+          "biaiscognitif",
+          "développementpersonnel",
+          "espritcritique"
+        ],
+        "legende": "Ce petit réflexe sur ton téléphone te rend plus têtu chaque jour.\n\nLes réseaux sociaux ont tendance à nous enfermer dans une chambre d'écho. Les algorithmes sélectionnent en priorité les contenus qui confirment nos avis préexistants. Résultat : on finit par croire que tout le monde pense comme nous.\n\nPour garder un esprit critique, force-toi à suivre quelques sources sérieuses avec lesquelles tu n'es pas d'accord au départ. Cela enrichit ta réflexion et t'évite de tomber dans le piège.\n\nAs-tu déjà remarqué que tes réseaux te montrent toujours la même chose ?",
+        "question": "As-tu déjà remarqué que tes réseaux te montrent toujours la même chose ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce petit réflexe sur ton téléphone te rend plus têtu chaque jour sans que tu le saches.",
+            "ecran": "Ce *réflexe* te rend plus têtu",
+            "emoji": "📱",
+            "recherche": "person scrolling phone couch",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que tu as l'impression d'avoir toujours raison sur tout le monde.",
+            "ecran": "Et le pire *arrive* après",
+            "emoji": "🔥",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce phénomène a un nom bien précis. C'est le principe de la chambre d'écho.",
+            "ecran": "La *chambre* d'écho",
+            "emoji": "🧠",
+            "recherche": "brain neon lights digital",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tu es dans le métro ou au bureau et que tu regardes ton fil d'actualité...",
+            "ecran": "Ton fil te *ressemble*",
+            "emoji": "👇",
+            "recherche": "person train phone commuting",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les réseaux sociaux te montrent uniquement des contenus proches de ce que tu penses déjà.",
+            "ecran": "L'algorithme *t'observe*",
+            "emoji": "🤖",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Chaque vidéo et chaque article vienne confirmer tes opinions au lieu de les questionner.",
+            "ecran": "Tu valides tes *idées*",
+            "emoji": "🎯",
+            "recherche": "happy woman checking phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Ton avis",
+            "b": "Autres avis",
+            "dit": "Résultat : ton cerveau voit tout le temps la même idée et ignore les autres perspectives.",
+            "ecran": "Ce que tu *vois* vraiment",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "À la pause café ou en famille, tu ne comprends plus ceux qui ne sont pas d'accord.",
+            "ecran": "La pause *café*",
+            "emoji": "🗣️",
+            "recherche": "office coffee break discussion",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu te dis qu'ils n'ont rien compris, alors que ton fil a juste filtré la réalité.",
+            "ecran": "Tu les penses *fous*",
+            "emoji": "🤯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une méthode très simple pour sortir de cette bulle virtuelle.",
+            "ecran": "Comment *casser* la bulle",
+            "emoji": "🛡️",
+            "recherche": "man thinking thoughtful outdoor",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici le plan d'action immédiat à appliquer aujourd'hui sur tes comptes.",
+            "ecran": "Sortir de la bulle : Chercher | S'abonner | Analyser",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Suis volontairement trois ou quatre comptes sérieux qui ne pensent pas comme toi.",
+            "ecran": "Un : *Varie* tes abonnements",
+            "emoji": "1️⃣",
+            "recherche": "person choosing social media follow",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Prends le temps de lire leurs explications sans réagir tout de suite sous le coup de l'émotion.",
+            "ecran": "Deux : *Lis* leurs arguments",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En faisant ça, tu entraînes ton cerveau à comprendre la complexité du monde.",
+            "ecran": "Un esprit plus *ouvert*",
+            "emoji": "💪",
+            "recherche": "walking in city confident",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour mieux penser, écoute ce qui te dérange.",
+            "ecran": "Pour mieux *penser*, écoute ce qui te dérange.",
+            "emoji": "💎",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La chambre d'écho"
+      },
       "statut": "programme",
       "sujet": "chambre_echo",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1230.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1230-r.mp4"
     },
     {
       "angle": "au travail et avec les collègues",
@@ -649,6 +1546,212 @@
       "sujet": "colere",
       "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261113-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261113-1830.jpg",
+      "format": "long",
+      "formule": "Ordre",
+      "id": "20261113-1830",
+      "legende": "Arrête de retourner en réunion tant que tu n'as pas vu ça.\n\nQuand une réunion n'a pas de but clair, elle s'étire indéfiniment et personne ne tranche. On brasse de l'air, on perd de l'énergie et on finit par replanifier un point la semaine suivante.\n\nPour reprendre le contrôle, pose cette question dès le début : « Qu'est-ce qu'on doit avoir décidé en sortant ? ». Cela force tout le monde à se concentrer sur l'essentiel.\n\nTu passes combien d'heures par semaine en réunion inutile ?\n\n#productivite #travail #reunion #efficacite #organisation",
+      "quand": "2026-11-13T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de retourner en réunion tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Accepter toutes les réunions sans filtre peut détruire ton travail."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe en réunion te coûte des heures chaque semaine."
+          }
+        ],
+        "hashtags": [
+          "productivite",
+          "travail",
+          "reunion",
+          "efficacite",
+          "organisation"
+        ],
+        "legende": "Arrête de retourner en réunion tant que tu n'as pas vu ça.\n\nQuand une réunion n'a pas de but clair, elle s'étire indéfiniment et personne ne tranche. On brasse de l'air, on perd de l'énergie et on finit par replanifier un point la semaine suivante.\n\nPour reprendre le contrôle, pose cette question dès le début : « Qu'est-ce qu'on doit avoir décidé en sortant ? ». Cela force tout le monde à se concentrer sur l'essentiel.\n\nTu passes combien d'heures par semaine en réunion inutile ?",
+        "question": "Tu passes combien d'heures par semaine en réunion inutile ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Arrête de retourner en réunion tant que tu n'as pas vu ça.",
+            "ecran": "Arrête d'aller en *réunion*",
+            "emoji": "🛑",
+            "recherche": "tired man office meeting",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu as déjà passé une heure à écouter des gens parler sans rien conclure ?",
+            "ecran": "Tu *perds* ton temps",
+            "emoji": "⏳",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce qui se passe juste à la fin de la séance.",
+            "ecran": "Et le pire *arrive*",
+            "emoji": "🔥",
+            "recherche": "frustrated worker desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce problème a un mécanisme bien connu : les réunions sans fin.",
+            "ecran": "Les *réunions* sans fin",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu t'assieds dans la salle ou tu te connectes sur ton écran à dix heures.",
+            "ecran": "Se retrouver à *l'amphi*",
+            "emoji": "💻",
+            "recherche": "business team meeting room",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tout le monde parle de ses sujets, mais personne ne sait pourquoi on est là.",
+            "ecran": "Chacun donne son *avis*",
+            "emoji": "🗣️",
+            "recherche": "people talking office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La discussion déborde, on ouvre trois autres sujets et les minutes passent.",
+            "ecran": "Le temps *s'allonge*",
+            "emoji": "📉",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "À la fin de l'heure, vous reprogrammez une autre séance pour décider.",
+            "ecran": "L'heure est *écoulée*",
+            "emoji": "⏰",
+            "recherche": "clock ticking fast",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Temps perdu",
+            "b": "Décisions",
+            "dit": "Sans objectif clair, une réunion s'allonge toujours et ne décide rien du tout.",
+            "ecran": "Réunion sans but vs avec but",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourquoi ? Parce que sans cadre précis, le cerveau humain remplit tout l'espace.",
+            "ecran": "Le cerveau *s'éparpille*",
+            "emoji": "🤯",
+            "recherche": "thinking overwhelmed worker",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une astuce magique pour stopper ce gâchis immédiatement.",
+            "ecran": "La *solution* simple",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Dès les premières secondes de la rencontre, pose une seule et unique question.",
+            "ecran": "La méthode : poser la question | fixer le livrable | trancher",
+            "emoji": "🎯",
+            "recherche": "man speaking meeting point",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Demande à haute voix : qu'est-ce qu'on doit avoir décidé en sortant d'ici ?",
+            "ecran": "La question *clef*",
+            "emoji": "❓",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Dès que quelqu'un s'égare, tu rappelles la question initiale pour avancer.",
+            "ecran": "Recadrer la *discussion*",
+            "emoji": "⚙️",
+            "recherche": "team working together desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pas de décision fixée, pas de réunion lancée.",
+            "ecran": "Pas de *décision* fixée, pas de réunion lancée.",
+            "emoji": "📌",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Les réunions sans fin"
+      },
+      "statut": "programme",
+      "sujet": "reunion",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261113-1830.mp4"
     },
     {
       "angle": "au travail et avec les collègues",
