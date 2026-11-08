@@ -5,7 +5,13 @@
   "plan-btp-logement-001",
   "pole-public-bancaire-002",
   "pole-public-bancaire-001",
-  "plan-sante-001"
+  "plan-sante-001",
+  "plan-ruralites-001",
+  "plan-automobile-001",
+  "comptes-publics-002",
+  "plan-sante-002",
+  "plan-esr-002",
+  "plan-ruralites-002"
  ],
  "ecartes": {},
  "journal": [
@@ -38,6 +44,36 @@
    "jour": "2026-11-07",
    "id": "plan-sante-001",
    "nom": "prog-plan-sante-001"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "plan-ruralites-001",
+   "nom": "prog-plan-ruralites-001"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "plan-automobile-001",
+   "nom": "prog-plan-automobile-001"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "comptes-publics-002",
+   "nom": "prog-comptes-publics-002"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "plan-sante-002",
+   "nom": "prog-plan-sante-002"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "plan-esr-002",
+   "nom": "prog-plan-esr-002"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "plan-ruralites-002",
+   "nom": "prog-plan-ruralites-002"
   }
  ],
  "programmes": [
@@ -124,6 +160,90 @@
    "reseau": "youtube",
    "buffer": "6aeeff27a7751de7c9df483c",
    "heure": "2026-11-07T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-ruralites-001",
+   "reseau": "tiktok",
+   "buffer": "6af02177d6bbae6fa1d29617",
+   "heure": "2026-11-08T08:35:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-ruralites-001",
+   "reseau": "youtube",
+   "buffer": "6af02178229bf05daf97a446",
+   "heure": "2026-11-08T08:35:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-automobile-001",
+   "reseau": "tiktok",
+   "buffer": "6af0217851492b796e2220eb",
+   "heure": "2026-11-08T09:45:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-automobile-001",
+   "reseau": "youtube",
+   "buffer": "6af021799214322f683a03fb",
+   "heure": "2026-11-08T09:45:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-comptes-publics-002",
+   "reseau": "tiktok",
+   "buffer": "6af0217a229bf05daf97a571",
+   "heure": "2026-11-08T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-comptes-publics-002",
+   "reseau": "youtube",
+   "buffer": "6af0217b562f2e6de9a295cf",
+   "heure": "2026-11-08T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-sante-002",
+   "reseau": "tiktok",
+   "buffer": "6af0217c51492b796e2225dd",
+   "heure": "2026-11-08T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-sante-002",
+   "reseau": "youtube",
+   "buffer": "6af0217dd6bbae6fa1d29889",
+   "heure": "2026-11-08T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-esr-002",
+   "reseau": "tiktok",
+   "buffer": "6af0217dd6bbae6fa1d298dd",
+   "heure": "2026-11-08T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-esr-002",
+   "reseau": "youtube",
+   "buffer": "6af0217e51492b796e222691",
+   "heure": "2026-11-08T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-ruralites-002",
+   "reseau": "tiktok",
+   "buffer": "6af0217e562f2e6de9a298e7",
+   "heure": "2026-11-08T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "prog-plan-ruralites-002",
+   "reseau": "youtube",
+   "buffer": "6af0217f229bf05daf97a7fa",
+   "heure": "2026-11-08T22:00:00+01:00"
   }
  ],
  "echecs": {
