@@ -42,12 +42,17 @@ def habiller(cfg: dict, production: str, scenes: list[dict], cle: str, format_: 
     sans, gain_format = set(regles.get("sans", [])), float(regles.get("gain_db", 0))
     ecart = float(ch.get("transition_ecart_s", 6))
     moments = ch.get("moments", {})
+    types_transition = set(ch.get("transition_types", ["recit"]))
+    dessins_chiffre = set(ch.get("chiffre_dessins", []))   # DECIDE : une scène dont le dessin montre un chiffre
     t, derniere_transition, image_precedente, poses = 0.0, -1e9, None, 0
     for k, sc in enumerate(scenes):
         sc.pop("sons", None)
         role = sc.get("type")
-        image = (sc.get("image") or {}).get("src")
-        if role not in moments and role == "recit" and image and image != image_precedente and k > 0 \
+        dessin = (sc.get("illustration") or {}).get("type")
+        image = (sc.get("image") or sc.get("media") or {}).get("src") or (f"dessin:{k}" if dessin else None)
+        if role not in moments and dessin in dessins_chiffre:
+            role = "chiffre"
+        elif role not in moments and role in types_transition and image and image != image_precedente and k > 0 \
                 and t - derniere_transition >= ecart:
             role = "transition"
         if role in moments and role not in sans and b["moments"].get(role):

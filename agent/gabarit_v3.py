@@ -369,6 +369,15 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
              "lieu": article.get("country"), "date": _date_fr(article.get("event_date")), "titre": ecrit.get("titre") or article.get("title", ""),
              "image": f"_v3/{nom_image}", "source": ("Source : " + ", ".join(editeurs[:3])) if editeurs else None,
              "scenes": scenes, "musique": "melodie.wav", "volume_musique": 0.10}
+    from . import sons
+    from .config import charger_config
+    cfg = charger_config(MOTION.parent / "config.yaml")
+    try:  # charte sonore « flash info » : un son manquant n'empêche jamais le Short
+        props.update(sons.habiller(cfg, "video", scenes, cle=str(article.get("id") or props["titre"]), journal=journal,
+                                   duree_scene=lambda sc: (sc["voix"]["duree"] + 8 / 30) if sc.get("voix") else float(sc.get("duree") or 3)))
+        props.pop("credit_musique", None)
+    except Exception as e:
+        journal(f"    ⚠️ charte sonore non appliquée : {e}")
     try:
         with tempfile.TemporaryDirectory() as d:
             fichier = Path(d) / "props.json"
@@ -388,6 +397,7 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
         shutil.rmtree(dossier, ignore_errors=True)
     if r.returncode != 0 or not sortie.exists():
         raise RuntimeError(f"rendu Remotion impossible (code {r.returncode}) : {(r.stderr + r.stdout)[-1500:]}")
+    sons.niveler(cfg, "video", sortie, journal)
     return sortie
 
 

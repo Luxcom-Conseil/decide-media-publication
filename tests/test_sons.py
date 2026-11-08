@@ -69,6 +69,23 @@ def test_la_rubrique_programme_n_a_ni_boum_ni_cliffhanger_et_joue_plus_bas():
     assert p[4]["sons"][0]["gain"] < h[4]["sons"][0]["gain"]
 
 
+def test_decide_flash_info_accroche_chiffres_photos_et_logo():
+    photo = lambda n: {"src": f"_v3/fond{n}.jpg", "video": False}
+    sc = [
+        {"type": "accroche", "media": photo(0), "voix": {"duree": 3.0}},
+        {"type": "media", "media": photo(1), "voix": {"duree": 4.0}},         # nouvelle photo, 4 s après l'accroche
+        {"type": "explication", "illustration": {"type": "pourcent"}, "voix": {"duree": 4.0}},
+        {"type": "media", "media": photo(2), "voix": {"duree": 2.0}},         # 6 s après le dernier souffle
+        {"type": "explication", "illustration": {"type": "pile"}, "voix": {"duree": 3.0}},
+        {"type": "outro", "duree": 3.5},
+    ]
+    reglages = sons.habiller(CFG, "video", sc, cle="art-1", journal=lambda *_: None)
+    roles = [Path(s["sons"][0]["src"]).stem.rsplit("_", 1)[0] if s.get("sons") else None for s in sc]
+    assert roles == ["accroche", "transition", "chiffre", "transition", "chiffre", "outro"]
+    assert all(s["sons"][0]["src"].startswith("sons/decide/") for s in sc)
+    assert reglages == {}                   # la mélodie validée le 21/10 reste la musique de DECIDE
+
+
 def test_production_sans_charte_ne_change_rien():
     sc = _scenes()
     assert sons.habiller(CFG, "perso", sc, cle="x", journal=lambda *_: None) == {}

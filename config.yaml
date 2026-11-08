@@ -50,6 +50,21 @@ video:
   # Mesuré le 26/10 avec réflexion réduite : 3.6 et 3.5 en 6-10 s, 3.5-lite en 5 s, flash-latest en 55 s ; 3.8 souvent
   # saturé. Si tous sont saturés pour un article, les suivants du même passage sont faits sans IA (pas d'attente).
   modeles_gemini: [gemini-3.6-flash, gemini-3.5-flash, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-flash-latest]
+  # Charte sonore « flash info » des Shorts V3 (08/11/2026) : bruitages Earshot rendus une fois en local par
+  # scripts/banque_sons.py video, dans motion/public/sons/decide/ (sons fabriqués par du code, aucun risque Content ID).
+  # La musique reste la mélodie validée par Stéphane le 21/10 (melodie.wav) : aucune musique dans la banque.
+  son:
+    banque: sons/decide
+    prises: 3
+    moments:                            # choisis avec earshot rank le 08/11
+      accroche:   {son: impact/punch,           caler: attaque, a: 0.0,  gain_db: -6}   # le fait qui tombe
+      transition: {son: swish/bright,           caler: pic,     a: 0.0,  gain_db: -12}  # nouvelle photo
+      chiffre:    {son: notify/mid_wood,        caler: attaque, a: 0.12, gain_db: -11}  # le dessin du chiffre
+      outro:      {son: logo_sting/whoosh_glass, caler: attaque, a: 0.1, gain_db: -8}   # le logo DECIDE
+    transition_types: [media, explication]
+    chiffre_dessins: [pourcent, pile, frais, calendrier, carte]   # la carte : le point du lieu qui apparaît
+    transition_ecart_s: 4               # flash de 30 s : un souffle toutes les 4 s au plus
+    volume_final_lufs: -14              # YouTube, Facebook et TikTok ; pic vrai au plus -1.5 dBTP
 
 # Voix off des Shorts : Google Text-to-Speech (projet Google Cloud du compte de service Drive, API Text-to-Speech activée).
 # Chirp 3 HD : 1 million de caractères gratuits par mois. Au plafond, les Shorts sortent sans voix jusqu'au mois suivant.

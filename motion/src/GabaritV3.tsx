@@ -29,6 +29,8 @@ export type SceneV3 = {
   soustitre?: string;
   voix?: { src: string; duree: number };
   duree?: number;
+  // bruitages de la charte sonore (agent/sons.py) : joués à `a` s du début de la scène, avancés de `avance` s
+  sons?: { src: string; a: number; avance: number; gain: number }[];
 };
 
 export type ScriptV3 = {
@@ -267,6 +269,14 @@ export const GabaritV3: React.FC<ScriptV3> = (s) => {
           {p.sc.voix && <Sequence from={VOIX_DEBUT}><Audio src={staticFile(p.sc.voix.src)} /></Sequence>}
         </Sequence>
       ))}
+      {scenes.flatMap((p) => (p.sc.sons ?? []).map((b, k) => {
+        const debut = p.debut + Math.round((b.a - b.avance) * FPS);
+        return (
+          <Sequence key={`son-${p.i}-${k}`} from={Math.max(0, debut)}>
+            <Audio src={staticFile(b.src)} volume={b.gain} trimBefore={Math.max(0, -debut)} />
+          </Sequence>
+        );
+      }))}
       <Entete s={s} />
       <div style={{ position: "absolute", top: 0, left: 0, height: 10, width: `${(f / total) * 100}%`, background: ORANGE }} />
       {s.musique && (

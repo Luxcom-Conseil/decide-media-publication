@@ -1,0 +1,110 @@
+{
+ "moments": {
+  "accroche": [
+   {
+    "src": "sons/decide/accroche_1.wav",
+    "son": "impact/punch",
+    "graine": 1,
+    "duree": 2.914,
+    "attaque": 0.0,
+    "pic": 0.033
+   },
+   {
+    "src": "sons/decide/accroche_2.wav",
+    "son": "impact/punch",
+    "graine": 2,
+    "duree": 2.885,
+    "attaque": 0.0,
+    "pic": 0.065
+   },
+   {
+    "src": "sons/decide/accroche_3.wav",
+    "son": "impact/punch",
+    "graine": 3,
+    "duree": 2.889,
+    "attaque": 0.0,
+    "pic": 0.079
+   }
+  ],
+  "transition": [
+   {
+    "src": "sons/decide/transition_1.wav",
+    "son": "swish/bright",
+    "graine": 1,
+    "duree": 0.345,
+    "attaque": 0.024,
+    "pic": 0.185
+   },
+   {
+    "src": "sons/decide/transition_2.wav",
+    "son": "swish/bright",
+    "graine": 2,
+    "duree": 0.34,
+    "attaque": 0.048,
+    "pic": 0.189
+   },
+   {
+    "src": "sons/decide/transition_3.wav",
+    "son": "swish/bright",
+    "graine": 3,
+    "duree": 0.345,
+    "attaque": 0.011,
+    "pic": 0.182
+   }
+  ],
+  "chiffre": [
+   {
+    "src": "sons/decide/chiffre_1.wav",
+    "son": "notify/mid_wood",
+    "graine": 1,
+    "duree": 0.317,
+    "attaque": 0.004,
+    "pic": 0.038
+   },
+   {
+    "src": "sons/decide/chiffre_2.wav",
+    "son": "notify/mid_wood",
+    "graine": 2,
+    "duree": 0.317,
+    "attaque": 0.005,
+    "pic": 0.035
+   },
+   {
+    "src": "sons/decide/chiffre_3.wav",
+    "son": "notify/mid_wood",
+    "graine": 3,
+    "duree": 0.317,
+    "attaque": 0.004,
+    "pic": 0.034
+   }
+  ],
+  "outro": [
+   {
+    "src": "sons/decide/outro_1.wav",
+    "son": "logo_sting/whoosh_glass",
+    "graine": 2,
+    "duree": 1.88,
+    "attaque": 0.086,
+    "pic": 0.209
+   },
+   {
+    "src": "sons/decide/outro_2.wav",
+    "son": "logo_sting/whoosh_glass",
+    "graine": 3,
+    "duree": 2.066,
+    "attaque": 0.085,
+    "pic": 0.201
+   },
+   {
+    "src": "sons/decide/outro_3.wav",
+    "son": "logo_sting/whoosh_glass",
+    "graine": 4,
+    "duree": 1.917,
+    "attaque": 0.084,
+    "pic": 0.204
+   }
+  ]
+ },
+ "musiques": [],
+ "origine": "Earshot (github.com/Leonxlnx/earshot, MIT) : sons fabriqués par du code, aucun enregistrement"
+}
