@@ -549,7 +549,7 @@ def produire(cfg: dict, log, jour: str) -> list[dict]:
 RELANCES_MAX = 3
 
 
-def relancer(log, lire=None, ecrire=None, jours: int = 3) -> int:
+def relancer(log, lire=None, ecrire=None, jours: int = 3, categorie: str = "27") -> int:
     """Reprogramme les posts Buffer refusés des `jours` derniers jours (ex. 08/11/2026 : limite d'envois d'une chaîne
     YouTube non vérifiée), une vidéo toutes les 30 min à partir de maintenant + 15 min, au plus RELANCES_MAX fois par
     post. Renvoie le nombre de posts reprogrammés."""
@@ -566,7 +566,9 @@ def relancer(log, lire=None, ecrire=None, jours: int = 3) -> int:
         if datetime.fromisoformat(p["heure"]) < depuis or p.get("relances", 0) >= RELANCES_MAX:
             continue
         try:
-            post = requete("query($id: PostId!) { post(input: {id: $id}) { status error { message } } }",
+            post = requete("""query($id: PostId!) { post(input: {id: $id}) { status error { message } text
+                assets { ... on VideoAsset { source } }
+                metadata { ... on YoutubePostMetadata { title } ... on TiktokPostMetadata { title } } } }""",
                            {"id": p["buffer"]}, cle="BUFFER_API_KEY_HISTOIRES")["post"]
         except Exception as e:
             log(f"    ⚠️ état Buffer illisible pour {p['nom']} ({p['reseau']}) : {e}")
@@ -575,11 +577,20 @@ def relancer(log, lire=None, ecrire=None, jours: int = 3) -> int:
             continue
         quand = maintenant + timedelta(minutes=15 + 30 * n)
         motif = ((post.get("error") or {}).get("message") or "?")[:120]
+        # editPost remplace le post entier : texte, vidéo et métadonnées sont renvoyés tels quels
+        titre = (post.get("metadata") or {}).get("title") or p["nom"]
+        video = next((a["source"] for a in post.get("assets") or [] if a.get("source")), None)
+        metadata = ({"tiktok": {"isAiGenerated": True, "title": titre[:90]}} if p["reseau"] == "tiktok" else
+                    {"youtube": {"title": titre[:100], "categoryId": str(categorie), "privacy": "public",
+                                 "madeForKids": False, "notifySubscribers": True, "embeddable": True,
+                                 "license": "youtube"}})
         try:
             d = requete("""mutation($input: EditPostInput!) { editPost(input: $input) {
                 ... on PostActionSuccess { post { id status } } ... on MutationError { message } } }""",
                         {"input": {"id": p["buffer"], "dueAt": quand.astimezone(ZoneInfo("UTC")).strftime(
-                            "%Y-%m-%dT%H:%M:%S.000Z"), "mode": "customScheduled", "schedulingType": "automatic"}},
+                            "%Y-%m-%dT%H:%M:%S.000Z"), "mode": "customScheduled", "schedulingType": "automatic",
+                            "text": post.get("text") or "", "metadata": metadata,
+                            "assets": [{"video": {"url": video, "metadata": {"thumbnailOffset": 0}}}]}},
                         cle="BUFFER_API_KEY_HISTOIRES")["editPost"]
         except Exception as e:
             d = {"message": f"{type(e).__name__} : {e}"}
@@ -599,7 +610,7 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
     YouTube, aux heures de Paris du plan. `dossier`, `lire`, `ecrire` : pour la rubrique programme (agent/programme.py)."""
     lire, ecrire = lire or lire_etat, ecrire or ecrire_etat
     try:  # d'abord les posts refusés des jours précédents (une relance ne doit jamais bloquer la programmation)
-        relancer(log, lire, ecrire)
+        relancer(log, lire, ecrire, categorie=str((cfg.get("histoires") or {}).get("categorie_youtube", "27")))
     except Exception as e:
         log(f"⚠️ relance des posts refusés impossible : {e}")
     from datetime import date, datetime, timedelta

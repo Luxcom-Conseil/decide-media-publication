@@ -187,7 +187,9 @@
    "nom": "prog-plan-automobile-001",
    "reseau": "youtube",
    "buffer": "6af021799214322f683a03fb",
-   "heure": "2026-11-08T09:45:00+01:00"
+   "heure": "2026-11-08T09:45:00+01:00",
+   "relances": 2,
+   "heure_relance": "2026-11-08T11:50:00+01:00"
   },
   {
    "jour": "2026-11-08",
@@ -201,7 +203,9 @@
    "nom": "prog-comptes-publics-002",
    "reseau": "youtube",
    "buffer": "6af0217b562f2e6de9a295cf",
-   "heure": "2026-11-08T11:15:00+01:00"
+   "heure": "2026-11-08T11:15:00+01:00",
+   "relances": 2,
+   "heure_relance": "2026-11-08T12:20:00+01:00"
   },
   {
    "jour": "2026-11-08",
