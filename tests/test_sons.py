@@ -88,7 +88,7 @@ def test_decide_flash_info_accroche_chiffres_photos_et_logo():
 
 def test_production_sans_charte_ne_change_rien():
     sc = _scenes()
-    assert sons.habiller(CFG, "perso", sc, cle="x", journal=lambda *_: None) == {}
+    assert sons.habiller(CFG, "sans_charte", sc, cle="x", journal=lambda *_: None) == {}
     assert not any(s.get("sons") for s in sc)
 
 
@@ -104,3 +104,22 @@ def test_niveler_ramene_le_mp4_au_volume_de_la_charte(tmp_path):
     apres = sons.niveler(CFG, "histoires", mp4, journal=lambda *_: None)
     assert abs(apres["lufs"] - CFG["histoires"]["son"]["volume_final_lufs"]) <= 1.0
     assert apres["pic"] <= -1.0
+
+
+def test_perso_un_son_par_type_de_scene_et_un_souffle_par_nouveau_fond():
+    fond = lambda n: {"src": f"_perso/fond{n}.jpg", "video": False}
+    sc = [
+        {"type": "accroche", "media": fond(0), "voix": {"duree": 4.0}},
+        {"type": "texte", "media": fond(1), "voix": {"duree": 5.0}},      # nouveau fond, 4 s après le début
+        {"type": "texte", "media": fond(1), "voix": {"duree": 3.0}},      # même fond
+        {"type": "liste", "voix": {"duree": 6.0}},
+        {"type": "texte", "media": fond(2), "voix": {"duree": 4.0}},      # 14 s après le premier souffle
+        {"type": "comparaison", "voix": {"duree": 5.0}},
+        {"type": "citation", "voix": {"duree": 4.0}},
+        {"type": "question", "voix": {"duree": 3.0}},
+        {"type": "signature", "duree": 3.0},
+    ]
+    assert sons.habiller(CFG, "perso", sc, cle="Rareté", journal=lambda *_: None) == {}   # melodie.wav reste
+    roles = [Path(s["sons"][0]["src"]).stem.rsplit("_", 1)[0] if s.get("sons") else None for s in sc]
+    assert roles == ["accroche", "transition", None, "liste", "transition", "comparaison", "citation", "question", "signature"]
+    assert all(s["sons"][0]["src"].startswith("sons/perso/") for s in sc if s.get("sons"))

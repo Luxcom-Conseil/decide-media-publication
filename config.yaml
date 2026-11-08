@@ -177,3 +177,20 @@ perso:
   retard_max_heures: 3        # au-delà, un Reel en retard n'est plus publié (il ne s'empile pas sur le suivant)
   nom: Stéphane Nzesseu
   compte: "@stephane_nzesseu"
+  # Charte sonore « conseil chaleureux » des Reels (08/11/2026) : sons doux et organiques (bambou, carillon), distincts
+  # du flash info DECIDE et du thriller Histoires. Banque Earshot rendue une fois par scripts/banque_sons.py perso
+  # dans motion/public/sons/perso/. La musique reste melodie.wav (Reel d'essai validé le 27/10).
+  son:
+    banque: sons/perso
+    prises: 3
+    moments:                            # choisis avec earshot rank le 08/11
+      accroche:    {son: pro_sub_drop/quick,          caler: attaque, a: 0.0,  gain_db: -8}   # l'accroche posée
+      transition:  {son: fit/whoosh.short/bamboo_swish, caler: pic,   a: 0.0,  gain_db: -12}  # nouveau fond réaliste
+      liste:       {son: pro_pop/bloop,               caler: attaque, a: 0.15, gain_db: -11}  # la liste qui s'ouvre
+      comparaison: {son: fit/hit/bamboo_tok,          caler: attaque, a: 0.15, gain_db: -10}  # les deux options
+      citation:    {son: mallet/up4,                  caler: attaque, a: 0.1,  gain_db: -12}  # l'idée à retenir
+      question:    {son: pro_notify/ding_1822,        caler: attaque, a: 0.1,  gain_db: -11}  # invitation à commenter
+      signature:   {son: logo_sting/soft_bloom,       caler: attaque, a: 0.1,  gain_db: -9}   # nom et compte
+    transition_types: [texte]
+    transition_ecart_s: 6
+    volume_final_lufs: -14              # Instagram ; pic vrai au plus -1.5 dBTP

@@ -1,0 +1,188 @@
+{
+ "moments": {
+  "accroche": [
+   {
+    "src": "sons/perso/accroche_1.wav",
+    "son": "pro_sub_drop/quick",
+    "graine": 1,
+    "duree": 1.0,
+    "attaque": 0.0,
+    "pic": 0.249
+   },
+   {
+    "src": "sons/perso/accroche_2.wav",
+    "son": "pro_sub_drop/quick",
+    "graine": 2,
+    "duree": 1.0,
+    "attaque": 0.0,
+    "pic": 0.249
+   },
+   {
+    "src": "sons/perso/accroche_3.wav",
+    "son": "pro_sub_drop/quick",
+    "graine": 3,
+    "duree": 1.0,
+    "attaque": 0.0,
+    "pic": 0.249
+   }
+  ],
+  "transition": [
+   {
+    "src": "sons/perso/transition_1.wav",
+    "son": "fit/whoosh.short/bamboo_swish",
+    "graine": 1,
+    "duree": 0.477,
+    "attaque": 0.089,
+    "pic": 0.13
+   },
+   {
+    "src": "sons/perso/transition_2.wav",
+    "son": "fit/whoosh.short/bamboo_swish",
+    "graine": 2,
+    "duree": 0.477,
+    "attaque": 0.089,
+    "pic": 0.13
+   },
+   {
+    "src": "sons/perso/transition_3.wav",
+    "son": "fit/whoosh.short/bamboo_swish",
+    "graine": 3,
+    "duree": 0.477,
+    "attaque": 0.089,
+    "pic": 0.131
+   }
+  ],
+  "liste": [
+   {
+    "src": "sons/perso/liste_1.wav",
+    "son": "pro_pop/bloop",
+    "graine": 1,
+    "duree": 0.12,
+    "attaque": 0.0,
+    "pic": 0.006
+   },
+   {
+    "src": "sons/perso/liste_2.wav",
+    "son": "pro_pop/bloop",
+    "graine": 3,
+    "duree": 0.122,
+    "attaque": 0.0,
+    "pic": 0.005
+   },
+   {
+    "src": "sons/perso/liste_3.wav",
+    "son": "pro_pop/bloop",
+    "graine": 5,
+    "duree": 0.124,
+    "attaque": 0.0,
+    "pic": 0.005
+   }
+  ],
+  "comparaison": [
+   {
+    "src": "sons/perso/comparaison_1.wav",
+    "son": "fit/hit/bamboo_tok",
+    "graine": 1,
+    "duree": 0.17,
+    "attaque": 0.007,
+    "pic": 0.011
+   },
+   {
+    "src": "sons/perso/comparaison_2.wav",
+    "son": "fit/hit/bamboo_tok",
+    "graine": 2,
+    "duree": 0.17,
+    "attaque": 0.007,
+    "pic": 0.011
+   },
+   {
+    "src": "sons/perso/comparaison_3.wav",
+    "son": "fit/hit/bamboo_tok",
+    "graine": 3,
+    "duree": 0.17,
+    "attaque": 0.007,
+    "pic": 0.011
+   }
+  ],
+  "citation": [
+   {
+    "src": "sons/perso/citation_1.wav",
+    "son": "mallet/up4",
+    "graine": 1,
+    "duree": 0.749,
+    "attaque": 0.0,
+    "pic": 0.336
+   },
+   {
+    "src": "sons/perso/citation_2.wav",
+    "son": "mallet/up4",
+    "graine": 2,
+    "duree": 0.747,
+    "attaque": 0.0,
+    "pic": 0.117
+   },
+   {
+    "src": "sons/perso/citation_3.wav",
+    "son": "mallet/up4",
+    "graine": 3,
+    "duree": 0.748,
+    "attaque": 0.0,
+    "pic": 0.337
+   }
+  ],
+  "question": [
+   {
+    "src": "sons/perso/question_1.wav",
+    "son": "pro_notify/ding_1822",
+    "graine": 1,
+    "duree": 0.26,
+    "attaque": 0.0,
+    "pic": 0.004
+   },
+   {
+    "src": "sons/perso/question_2.wav",
+    "son": "pro_notify/ding_1822",
+    "graine": 2,
+    "duree": 0.26,
+    "attaque": 0.0,
+    "pic": 0.006
+   },
+   {
+    "src": "sons/perso/question_3.wav",
+    "son": "pro_notify/ding_1822",
+    "graine": 3,
+    "duree": 0.26,
+    "attaque": 0.0,
+    "pic": 0.005
+   }
+  ],
+  "signature": [
+   {
+    "src": "sons/perso/signature_1.wav",
+    "son": "logo_sting/soft_bloom",
+    "graine": 1,
+    "duree": 1.988,
+    "attaque": 0.19,
+    "pic": 0.299
+   },
+   {
+    "src": "sons/perso/signature_2.wav",
+    "son": "logo_sting/soft_bloom",
+    "graine": 3,
+    "duree": 1.95,
+    "attaque": 0.116,
+    "pic": 0.301
+   },
+   {
+    "src": "sons/perso/signature_3.wav",
+    "son": "logo_sting/soft_bloom",
+    "graine": 4,
+    "duree": 1.924,
+    "attaque": 0.156,
+    "pic": 0.304
+   }
+  ]
+ },
+ "musiques": [],
+ "origine": "Earshot (github.com/Leonxlnx/earshot, MIT) : sons fabriqués par du code, aucun enregistrement"
+}

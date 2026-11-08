@@ -419,8 +419,16 @@ def rendre(cfg: dict, script: dict, sujet: tuple, sortie: Path, journal=print, e
     rubrique = CATEGORIES[sujet[1]]
     props = {"rubrique": rubrique, "titre": script["titre"], "nom": p.get("nom", "Stéphane Nzesseu"),
              "compte": p.get("compte", "@stephane_nzesseu"), "scenes": scenes, "musique": "melodie.wav", "volume_musique": 0.12}
+    from . import sons
+    try:  # charte sonore « conseil chaleureux » : un son manquant n'empêche jamais le Reel
+        props.update(sons.habiller(cfg, "perso", scenes, cle=script["titre"], journal=journal,
+                                   duree_scene=lambda sc: (sc["voix"]["duree"] + 8 / 30) if sc.get("voix") else float(sc.get("duree") or 3)))
+        props.pop("credit_musique", None)
+    except Exception as e:
+        journal(f"    ⚠️ charte sonore non appliquée : {e}")
     try:
         _remotion("PersoReel", props, sortie)
+        sons.niveler(cfg, "perso", sortie, journal)
         if couverture:
             premiere = scenes[0]
             _remotion("PersoCouverture", {"rubrique": rubrique, "accroche": premiere.get("ecran") or script["titre"],
