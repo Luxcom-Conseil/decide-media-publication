@@ -5,143 +5,144 @@
   "ponzi",
   "law",
   "panama",
-  "stavisky"
+  "stavisky",
+  "krach1929",
+  "spaggiari"
  ],
  "attente_partie2": {
-  "id": "stavisky",
-  "jour_partie1": "2026-11-07",
+  "id": "spaggiari",
+  "jour_partie1": "2026-11-08",
   "script": {
-   "titre": "L'affaire Stavisky",
+   "titre": "Le casse du siècle",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "Quand sa mort survient, tout l'État tremble.",
+     "ecran": "50 millions de francs volés sans violence",
      "grand": null,
-     "dit": "Le jour où cet homme s'est éteint à Chamonix, c'est tout le gouvernement français qui a failli s'effondrer.",
-     "image": 0,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Un *escroc* nommé Alexandre Stavisky",
-     "grand": null,
-     "dit": "Son vrai nom est Serge Alexandre Stavisky. On le surnomme le beau Sacha, un escroc de haut vol.",
-     "image": 0,
-     "recherche": null
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Nombre de relaxes judiciaires",
-     "grand": "19",
-     "dit": "Pendant des années, il accumule les poursuites pour fraude. Mais il est relaxé dix-neuf fois.",
-     "image": 3,
-     "recherche": "Palais de justice Paris 1930s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Un *système* de Ponzi géant",
-     "grand": null,
-     "dit": "Stavisky monte une immense escroquerie basée sur un système de Ponzi grâce au Crédit communal.",
-     "image": 3,
-     "recherche": "French bank 1930s"
-    },
-    {
-     "type": "date",
-     "ecran": "Une arrestation à Bayonne",
-     "grand": "23 décembre 1933",
-     "dit": "Le vingt-trois décembre 1933, Gustave Tissier, le directeur du Crédit municipal de Bayonne, est arrêté.",
-     "image": 0,
-     "recherche": "Bayonne France 1930s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Des *faux* bons au porteur",
-     "grand": null,
-     "dit": "La police découvre qu'il a mis en circulation de faux bons au porteur. Tissier n'est qu'un exécutant.",
+     "dit": "Il vide 371 coffres sans violence et laisse un message énigmatique à la police.",
      "image": 2,
-     "recherche": "French bonds 1930s"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Montant de la fraude découverte",
-     "grand": "261 millions",
-     "dit": "Le montant total de la fraude atteint deux cent soixante-un millions de francs.",
-     "image": 3,
-     "recherche": "French francs 1930s"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Somme détournée par Stavisky",
-     "grand": "200 millions",
-     "dit": "À lui seul, Stavisky a détourné plus de deux cent millions de francs dans cette affaire.",
-     "image": 0,
      "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Un *député* complice arrêté",
+     "ecran": "Un *photographe* calme à Nice",
      "grand": null,
-     "dit": "Le député-maire de Bayonne, Dominique-Joseph Garat, surveillait même le système en complice.",
+     "dit": "Albert Spaggiari mène une vie paisible en 1976. Il tient un magasin de photo et travaille pour la mairie.",
      "image": 1,
-     "recherche": null
+     "recherche": "Nice 1970s street"
     },
     {
      "type": "recit",
-     "ecran": "Des *protections* au sommet",
+     "ecran": "Lecture d'un *roman* inspirant",
      "grand": null,
-     "dit": "L'enquête est menée par Albert Prince. Il découvre que Stavisky arrose la police et la justice.",
+     "dit": "Il dévore des livres à suspense. L'idée de cambrioler une banque en passant par les égouts germe dans son esprit.",
+     "image": 3,
+     "recherche": "vintage sewer tunnel"
+    },
+    {
+     "type": "recit",
+     "ecran": "La *Société générale* de Nice",
+     "grand": null,
+     "dit": "Un employé municipal lui apprend un détail crucial. La salle des coffres n'a aucun système d'alarme.",
+     "image": 2,
+     "recherche": null
+    },
+    {
+     "type": "chiffre",
+     "ecran": "mètres d'épaisseur",
+     "grand": "1,80 m",
+     "dit": "Les murs de béton de la banque sont massifs. Spaggiari sait qu'il devra creuser pour les atteindre.",
+     "image": 3,
+     "recherche": "concrete wall cut"
+    },
+    {
+     "type": "recit",
+     "ecran": "Test d'un *réveil* la nuit",
+     "grand": null,
+     "dit": "Deux ans avant le casse, il loue un coffre et y place un réveil pour tester l'absence de détecteurs sismiques.",
      "image": 4,
-     "recherche": "French police 1930s"
+     "recherche": "old bank vault"
     },
     {
      "type": "recit",
-     "ecran": "Des *hommes* politiques arrosés",
+     "ecran": "Exploration des *égouts* de Nice",
      "grand": null,
-     "dit": "Le député Gaston Bonnaure, le sénateur René Renoult et des ministres ont profité de ses largesses.",
-     "image": 1,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Des *procès* sans cesse reportés",
-     "grand": null,
-     "dit": "Le procureur général Pressard, beau-frère du président du Conseil Chautemps, bloquait ses procès.",
+     "dit": "Il explore minutieusement les boyaux sombres sous la ville pour trouver le trajet exact vers la banque.",
      "image": 1,
      "recherche": null
     },
     {
      "type": "date",
-     "ecran": "Retrouvé agonisant à Chamonix",
-     "grand": "8 janvier 1934",
-     "dit": "Le huit janvier 1934, la police retrouve Stavisky agonisant d'une balle dans un chalet de Chamonix.",
-     "image": 0,
-     "recherche": "Chamonix 1930s"
+     "ecran": "Le premier coup de *burin*",
+     "grand": "7 mai 1976",
+     "dit": "Une quinzaine d'hommes commence à creuser un tunnel de huit mètres depuis les égouts.",
+     "image": 5,
+     "recherche": "construction workers underground"
     },
     {
      "type": "recit",
-     "ecran": "Suicide ou *assassinat* prémédité ?",
+     "ecran": "Port de *matériel* lourd",
      "grand": null,
-     "dit": "La presse se déchaîne. Est-ce un suicide ou l'a-t-on fait taire pour protéger des politiciens ?",
+     "dit": "Chaque nuit, ils portent jusqu'à 50 kilos de matériel à travers trois kilomètres de boyaux sinueux.",
+     "image": 0,
+     "recherche": "heavy tools underground"
+    },
+    {
+     "type": "recit",
+     "ecran": "Visite du *président*",
+     "grand": null,
+     "dit": "Le 9 juillet 1976, Valéry Giscard d'Estaing visite Nice. Le dispositif policier force Spaggiari à interrompre les travaux.",
      "image": 2,
-     "recherche": "French newspaper 1930s"
+     "recherche": "Valery Giscard dEstaing 1970s"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "heures de percement",
+     "grand": "371 coffres",
+     "dit": "Le week-end des 17 et 18 juillet, le mur tombe. L'équipe ouvre des centaines de coffres en trois jours.",
+     "image": 6,
+     "recherche": "bank safety deposit boxes"
+    },
+    {
+     "type": "recit",
+     "ecran": "Vin et *pâté* sur place",
+     "grand": null,
+     "dit": "Entre deux efforts au chalumeau, les braqueurs boivent du vin et affichent des photos dénudées sur les murs.",
+     "image": 3,
+     "recherche": "vintage wine bottle and food"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "millions de francs",
+     "grand": "50 millions",
+     "dit": "Ils emportent l'or et les devises. Le butin colossal équivaut à 40 millions d'euros actuels.",
+     "image": 7,
+     "recherche": "gold bars stack"
+    },
+    {
+     "type": "recit",
+     "ecran": "Message sur le *mur*",
+     "grand": null,
+     "dit": "Avant de partir dans l'eau jusqu'au cou, Spaggiari laisse une phrase célèbre signée de toute la bande.",
+     "image": 8,
+     "recherche": "handwritten note on wall"
     },
     {
      "type": "suite",
-     "ecran": "Qui a fait taire Stavisky ?",
+     "ecran": "Quel était ce message ?",
      "grand": null,
-     "dit": "Qui avait vraiment intérêt à faire taire le beau Sacha ? La suite dans la partie 2.",
-     "image": 0,
-     "recherche": null
+     "dit": "Quel était ce message mystérieux ? La suite dans la partie 2.",
+     "image": 6,
+     "recherche": "police investigation 1970s"
     }
    ],
-   "question": "Penses-tu qu'il s'est suicidé ou qu'on l'a fait taire ?",
-   "legende": "Le jour où cet homme s'est éteint à Chamonix, c'est tout le gouvernement français qui a failli s'effondrer. Alexandre Stavisky avait détourné des centaines de millions avec la complicité de hauts fonctionnaires. Penses-tu qu'il s'est suicidé ou qu'on l'a fait taire ?",
+   "question": "Tu aurais osé creuser sous une banque ?",
+   "legende": "Albert Spaggiari réalise le casse du siècle à Nice en passant par les égouts. Un braquage hors du commun sans violence.\n\nTu aurais osé creuser sous une banque ?",
    "hashtags": [
-    "affairestavisky",
-    "histoiredefrance",
-    "arnaque",
-    "scandale",
-    "histoirevraie"
+    "histoire",
+    "braquage",
+    "faitdivers",
+    "france"
    ]
   }
  },
@@ -205,6 +206,24 @@
    "id": "stavisky",
    "format": "serie",
    "nom": "hva-stavisky-p1"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "stavisky",
+   "format": "serie2",
+   "nom": "hva-stavisky-p2"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "krach1929",
+   "format": "chiffre",
+   "nom": "hva-krach1929-c"
+  },
+  {
+   "jour": "2026-11-08",
+   "id": "spaggiari",
+   "format": "serie",
+   "nom": "hva-spaggiari-p1"
   }
  ],
  "en_chiffre": [
@@ -297,6 +316,48 @@
    "reseau": "youtube",
    "buffer": "6aee7c5ea7751de7c9bb1a33",
    "heure": "2026-11-07T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "hva-stavisky-p2",
+   "reseau": "tiktok",
+   "buffer": "6af0177f229bf05daf94f9ed",
+   "heure": "2026-11-08T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "hva-stavisky-p2",
+   "reseau": "youtube",
+   "buffer": "6af0177f51492b796e1f8108",
+   "heure": "2026-11-08T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "hva-krach1929-c",
+   "reseau": "tiktok",
+   "buffer": "6af017809214322f6837513e",
+   "heure": "2026-11-08T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "hva-krach1929-c",
+   "reseau": "youtube",
+   "buffer": "6af017819214322f68375184",
+   "heure": "2026-11-08T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "hva-spaggiari-p1",
+   "reseau": "tiktok",
+   "buffer": "6af01781004e4879a79d34f8",
+   "heure": "2026-11-08T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-08",
+   "nom": "hva-spaggiari-p1",
+   "reseau": "youtube",
+   "buffer": "6af0178251492b796e1f8187",
+   "heure": "2026-11-08T20:30:00+01:00"
   }
  ]
 }
