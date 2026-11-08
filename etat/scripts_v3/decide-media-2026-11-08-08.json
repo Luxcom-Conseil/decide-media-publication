@@ -1,0 +1,79 @@
+{
+  "accroches": [
+    "L'inflation au Cameroun atteint 3,4 % en juillet.",
+    "L'inflation a franchi le seuil de convergence de la CEMAC.",
+    "Les prix des denrées fraîches ont bondi de 8,2 %."
+  ],
+  "titre": "Inflation au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'inflation au Cameroun atteint *3,4 %* en juillet.",
+      "dit": "L'inflation au Cameroun atteint 3,4 % en juillet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "3,0 %",
+        "apres": "3,4 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Elle passe de *3,0 %* à *3,4 %*.",
+      "dit": "Elle est passée de 3,0 % en juin 2026 à 3,4 % en juillet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "8,2 %",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les denrées fraîches bondissent de *8,2 %*.",
+      "dit": "Les denrées fraîches ont vu leurs prix bondir de 8,2 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "28 août 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Publication de la note le *28 août*.",
+      "dit": "La note de l'INS a été publiée le 28 août 2026."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "La Chine a exporté pour 230,5 milliards de FCFA de vêtements au Cameroun.",
+    "Les exportations de vêtements chinois vers le Cameroun ont augmenté de 12,1 %.",
+    "Les vêtements en coton pour femmes venus de Chine ont doublé en 2026."
+  ],
+  "titre": "Textile : les exportations chinoises grimpent",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "230,5 milliards de *FCFA* d'habits",
+      "dit": "La Chine a exporté pour 230,5 milliards de FCFA de vêtements et chaussures vers le Cameroun en 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "2025",
+        "apres": "+ 12,1 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Exportations en *hausse* de 12,1 %",
+      "dit": "Ces ventes ont augmenté de 12,1 % par rapport à la même période en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "24 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les habits féminins ont *doublé*",
+      "dit": "Les pantalons et shorts en coton pour femmes ont doublé pour atteindre 24 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les chaussures *reculent* de 1,7 %",
+      "dit": "Les exportations de chaussures ont légèrement reculé de 1,7 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun | Tchad | Centrafrique",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réexportation vers le *Tchad*",
+      "dit": "Selon Ecomatin, une partie de ces marchandises pourrait être réexportée vers le Tchad et la Centrafrique."
+    }
+  ]
+}

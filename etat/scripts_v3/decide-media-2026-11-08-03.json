@@ -1,0 +1,79 @@
+{
+  "accroches": [
+    "Treize ans après, le barrage de Bini à Warak n'a pas de financement.",
+    "Le projet hydroélectrique de Bini à Warak cherche toujours son financement.",
+    "Aucun financement n'est acquis pour le barrage de Bini à Warak."
+  ],
+  "titre": "Bini à Warak : le barrage patiente",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Treize ans après, le barrage n'a pas de financement.",
+      "dit": "Treize ans après, le barrage de Bini à Warak n'a pas de financement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "393 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le projet *coûte* 393 milliards.",
+      "dit": "Le projet est chiffré à 393 milliards de francs CFA dans le budget de l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 février 2013",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un contrat *attribué* en 2013.",
+      "dit": "Le contrat initial avait été attribué le 7 février 2013."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "47 500 000",
+        "a": null,
+        "b": null,
+        "texte": "11 septembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un audit *confié* en septembre.",
+      "dit": "Un audit technique et financier a été confié le 11 septembre 2026 pour 47,5 millions de francs CFA."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "accroches": [
+    "Les anciennes pièces de la BEAC n'ont plus de cours légal.",
+    "La démonétisation des vieilles pièces est entrée en vigueur le 1er novembre.",
+    "Les vieilles pièces de la BEAC sont retirées de la circulation."
+  ],
+  "titre": "Fin des anciennes pièces de la BEAC",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les anciennes pièces n'ont plus *cours*.",
+      "dit": "Les anciennes pièces de la BEAC n'ont plus de cours légal depuis le 1er novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "31 juillet 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Échange gratuit jusqu'en *juillet 2027*.",
+      "dit": "Elles peuvent être échangées gratuitement jusqu'au 31 juillet 2027 auprès des banques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Échange obligatoire sans *compte*.",
+      "dit": "Les banques et microfinances ont l'obligation d'échanger les pièces sans obligation d'ouvrir un compte."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 octobre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Décision prise le *7 octobre*.",
+      "dit": "La décision a été prise le 7 octobre par le Comité ministériel de l'UMAC."
+    }
+  ]
+}

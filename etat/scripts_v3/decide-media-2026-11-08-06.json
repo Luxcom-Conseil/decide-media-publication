@@ -1,0 +1,69 @@
+{
+  "accroches": [
+    "L'investissement public atteint 30 pour cent du budget en 2027.",
+    "La circulaire présidentielle fixe l'investissement à 30 pour cent pour 2027.",
+    "L'investissement public au Cameroun vise 30 pour cent en 2027."
+  ],
+  "titre": "Cameroun : l'investissement à 30 %",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'investissement *vise* 30 %",
+      "dit": "L'investissement public vise 30 pour cent du budget en 2027 au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Contre *23,4* pour cent en 2026",
+      "dit": "La part minimale de l'investissement était de 23,4 pour cent en 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2 031,15",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "2 031,15 *milliards* de FCFA",
+      "dit": "En 2026, le budget d'investissement public s'élevait à 2 031,15 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *progression* appréciable",
+      "dit": "Le Conseil de cabinet du 27 octobre 2026 a annoncé une progression appréciable de l'investissement."
+    }
+  ]
+}

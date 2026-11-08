@@ -1,0 +1,69 @@
+{
+  "accroches": [
+    "Les sept groupes du barrage de Nachtigal sont désormais en service.",
+    "Quatre cent vingt mégawatts sont produits par le barrage de Nachtigal.",
+    "L'alimentation des industriels de Douala attend l'achèvement des lignes."
+  ],
+  "titre": "Barrage de Nachtigal",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les sept groupes de *Nachtigal* en service.",
+      "dit": "Les sept groupes du barrage de Nachtigal, d'une puissance totale de 420 MW, sont en service."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Cent soixante-dix *mégawatts* de plus.",
+      "dit": "Cent soixante-dix mégawatts de plus pourraient être disponibles d'ici fin 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Achèvement reporté au *15 novembre*.",
+      "dit": "L'achèvement des travaux du poste d'Edéa-Béon a été reporté au 15 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un câble *livré* en retard.",
+      "dit": "Ce report est notamment dû à un câble principal livré en retard."
+    }
+  ]
+}
