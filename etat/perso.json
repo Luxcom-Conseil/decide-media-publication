@@ -494,10 +494,13 @@
       "formule": "Démasquer",
       "id": "20261109-1230",
       "legende": "Les réseaux sociaux cachent une vérité que tu ignores.\n\nEn voulant tout comparer, tu oublies que les autres ne montrent que le meilleur de leur quotidien. Tes journées normales valent largement leurs filtres.\n\nÀ quel moment de la journée regardes-tu le plus les réseaux ?\n\n#psychologie #reseauxsociaux #developpementpersonnel #bienetre",
+      "media_id": "18100031969227563",
+      "publie_le": "2026-11-09T11:31:44+00:00",
       "quand": "2026-11-09T12:30:00+01:00",
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "vitrine",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfhOqijnFC4/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-1230.mp4"
     },
     {
@@ -2077,6 +2080,13 @@
       "media_id": "17922639204239363",
       "sujet": "faim",
       "url": "https://www.instagram.com/reel/DffkQhPlW4y/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-09",
+      "media_id": "18100031969227563",
+      "sujet": "vitrine",
+      "url": "https://www.instagram.com/reel/DfhOqijnFC4/"
     }
   ]
 }
