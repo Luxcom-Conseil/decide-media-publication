@@ -1,0 +1,86 @@
+{
+  "accroches": [
+    "18 importateurs de poisson n'ont effectué aucune importation en 2026.",
+    "Une seule entreprise détient 66 % des quotas d'importation de poisson.",
+    "Le Cameroun a importé pour 230,8 milliards de FCFA de poisson en 2025."
+  ],
+  "titre": "Importations de poisson au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "18 importateurs n'ont *rien* importé",
+      "dit": "Au 4 novembre 2026, 18 des 52 opérateurs autorisés n'avaient effectué aucune importation de poisson."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère du Commerce",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Vers une *redistribution* des quotas",
+      "dit": "Le ministre du Commerce a demandé le redéploiement des autorisations non exécutées vers d'autres acteurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "130 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Congelcam détient *66 %* du volume",
+      "dit": "Sur près de 200 000 tonnes attribuées pour 2026, Congelcam en détient 130 000 à elle seule."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La production *couvre* 52 % des besoins",
+      "dit": "En 2025, la production nationale a atteint 259 000 tonnes pour une demande annuelle de 500 000 tonnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "207 000 tonnes",
+        "apres": "267 259 tonnes",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les achats de poisson ont *augmenté*",
+      "dit": "Le pays a importé 267 259 tonnes de poissons congelés en 2025, contre 207 000 tonnes en 2024."
+    }
+  ]
+}

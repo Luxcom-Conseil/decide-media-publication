@@ -1,0 +1,59 @@
+{
+  "accroches": [
+    "La dette extérieure a atteint 1 896,5 millions de dollars en 2025.",
+    "Le service de la dette a augmenté de 12,3 % en un an.",
+    "Les intérêts de la dette publique ont augmenté de 6 %."
+  ],
+  "titre": "La facture de la dette extérieure grossit",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque mondiale",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "La *dette* atteint 1 896,5 millions de dollars",
+      "dit": "La dette extérieure du Cameroun a atteint 1 896,5 millions de dollars en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une *hausse* de 12,3 % en un an",
+      "dit": "Selon la Banque mondiale, ce montant a augmenté de 12,3 % en un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "19,1 %",
+        "apres": "22,1 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *charge* atteint 22,1 % des recettes",
+      "dit": "La charge rapportée aux recettes extérieures est passée de 19,1 % à 22,1 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'encours *augmente* de 10,5 %",
+      "dit": "L'encours de la dette extérieure a progressé de 10,5 % en dollars."
+    }
+  ]
+}

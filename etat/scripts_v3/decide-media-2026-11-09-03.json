@@ -1,0 +1,76 @@
+{
+  "accroches": [
+    "Les ventes de pétrole de l'État chassent de 20,8 % au premier semestre 2026.",
+    "L'État camerounais a vendu 34,3 % de barils de pétrole en moins.",
+    "La production totale de pétrole brut a chuté de 8 % au Cameroun."
+  ],
+  "titre": "Pétrole : l'État vend moins de barils",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Les ventes de pétrole de l'État *chutent* de 20,8 %",
+      "dit": "Les ventes de pétrole de l'État chassent de 20,8 % au premier semestre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "300,3 milliards",
+        "apres": "237,9 milliards",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La valeur *recule* de 62,4 milliards",
+      "dit": "La valeur du brut vendu atteint 237,9 milliards de FCFA, contre 300,3 milliards un an plus tôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "34,3 % de barils en *moins*",
+      "dit": "La SNH a vendu 4,635 millions de barils pour l'État, soit une baisse de 34,3 %."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Société nationale des hydrocarbures",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Le premier trimestre est le *plus* touché",
+      "dit": "Le premier trimestre a enregistré une chute des volumes vendus de 58,7 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "182 100 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le solde transférable *baisse* à 182,1 milliards",
+      "dit": "Le solde transférable à l'État s'établit à 182,1 milliards de FCFA contre 231,3 milliards."
+    }
+  ]
+}

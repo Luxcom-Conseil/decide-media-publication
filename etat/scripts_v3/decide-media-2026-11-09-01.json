@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "L'État camerounais a dépensé neuf fois ses prévisions en 2025.",
+    "Les dépenses de restructuration ont dépassé de 125 milliards les budgets.",
+    "L'État a dépensé 140 milliards de FCFA au lieu de 15 prévus."
+  ],
+  "titre": "Dépenses de l'État : l'écart record",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'État a dépensé *neuf fois* plus",
+      "dit": "En 2025, l'État a dépensé 140,6 milliards de FCFA pour des restructurations et prises de participation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "15 milliards",
+        "apres": "140,6 milliards",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "140,6 milliards au lieu de *15*",
+      "dit": "La loi de finances ne prévoyait que 15 milliards au départ."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "125 600 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un dépassement de *125,6 milliards*",
+      "dit": "Selon Investir au Cameroun, le dépassement s'élève à 125,6 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La restructuration augmente de *58,4 %*",
+      "dit": "Entre 2024 et 2025, la restructuration a grimpé de 50,2 à 79,5 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucune *ventilation* détaillée fournie",
+      "dit": "Le rapport de la Direction générale du Budget ne donne pas le détail par entreprise."
+    }
+  ]
+}

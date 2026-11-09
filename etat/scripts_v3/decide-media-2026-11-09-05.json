@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "Le lycée de Ndemba 1 n'a aucune classe en dur.",
+    "Le lycée de Ndemba 1 affiche 60 % au bac.",
+    "Un lycée compte 230 élèves sans aucune classe en dur."
+  ],
+  "titre": "Un lycée de planches sans budget public",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le lycée n'a *aucune* classe en dur",
+      "dit": "Le lycée de Ndemba 1 n'a aucune classe en dur construite par l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun *budget* public reçu depuis 17 ans",
+      "dit": "Créé il y a 17 ans à Belabo, cet établissement n'a jamais bénéficié du budget d'investissement public."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Toutes les salles sont en *planches*",
+      "dit": "Toutes les salles de la Sixième à la Terminale sont construites en planches ou en terre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "230 élèves",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de 230 *élèves* scolarisés",
+      "dit": "Le lycée compte plus de 230 élèves cette année, contre moins de 200 l'an dernier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "42,14 %",
+        "apres": "60 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de 60 % de *réussite* au bac",
+      "dit": "Au baccalauréat 2026, l'établissement a obtenu plus de 60 % de réussite, contre 42,14 % au niveau national."
+    }
+  ]
+}

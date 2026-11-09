@@ -1,0 +1,93 @@
+{
+  "accroches": [
+    "Plus de 40 % du bœuf camerounais provient du Tchad.",
+    "Le Tchad va interdire l'exportation de bovins sur pied.",
+    "Le Cameroun a importé 49 606 bovins tchadiens en 2023."
+  ],
+  "titre": "Viande bovine : le Cameroun dépend du Tchad",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Plus de *40 %* du bœuf provient du Tchad",
+      "dit": "Plus de 40 % de l'approvisionnement du Cameroun en viande bovine dépend du Tchad."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "1er janvier 2028",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Exportations *interdites* dès 2028",
+      "dit": "Le président tchadien a annoncé l'interdiction d'exporter des bovins sur pied à compter du 1er janvier 2028."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "29 718",
+        "apres": "49 606",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*49 606* bovins importés en 2023",
+      "dit": "Le Cameroun a recensé 49 606 bovins importés du Tchad en 2023, contre 29 718 en 2022."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "35 690 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*35,69 milliards* de FCFA en 2024",
+      "dit": "Les importations informelles de bovins tchadiens ont atteint 35,69 milliards de FCFA en 2024."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "3 500",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le kilo à *3 500 F CFA*",
+      "dit": "Le prix du kilo de bœuf est passé à 3 500 F CFA en octobre 2025."
+    }
+  ]
+}
