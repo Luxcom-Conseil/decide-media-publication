@@ -527,115 +527,14 @@
       "formule": "Révélation",
       "id": "20261109-2100",
       "legende": "Cette phrase innocente ruine tes relations avec ton enfant.\n\nQuand ton enfant fait une crise, lui dire « c'est rien » augmente sa frustration. Son cerveau a besoin de se sentir écouté pour baisser en pression.\n\nLa méthode en 2 étapes :\n1. Nomme son émotion : « Je vois que tu es en colère ».\n2. Pose la limite : « Mais il est l'heure de ranger ».\n\nQuelle phrase tu utilises le plus souvent en crise ?\n\n#parentalite #educationpositive #psychologieenfant #gestiondesemotions",
+      "media_id": "18114968549130477",
+      "publie_le": "2026-11-09T20:02:22+00:00",
       "quand": "2026-11-09T21:00:00+01:00",
       "refait_le": "2026-11-08T11:39:57+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Révélation",
-            "texte": "Cette phrase innocente ruine tes relations avec ton enfant."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de dire « c'est rien » à ton enfant."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois calmer ton enfant en le rassurant ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "parentalite",
-          "educationpositive",
-          "psychologieenfant",
-          "gestiondesemotions"
-        ],
-        "legende": "Cette phrase innocente ruine tes relations avec ton enfant.\n\nQuand ton enfant fait une crise, lui dire « c'est rien » augmente sa frustration. Son cerveau a besoin de se sentir écouté pour baisser en pression.\n\nLa méthode en 2 étapes :\n1. Nomme son émotion : « Je vois que tu es en colère ».\n2. Pose la limite : « Mais il est l'heure de ranger ».\n\nQuelle phrase tu utilises le plus souvent en crise ?",
-        "question": "Quelle phrase tu utilises le plus souvent en crise ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Cette phrase innocente ruine complètement tes relations avec ton propre enfant.",
-            "ecran": "Cette phrase *ruine* tout avec ton enfant",
-            "emoji": "😱",
-            "recherche": "crying child parent frustrated",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "La clé, c'est d'accueillir ses émotions plutôt que d'essayer de les nier.",
-            "ecran": "Accueillir ses *émotions*",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au supermarché, il hurle pour un jouet et tu répètes sans cesse : c'est rien !",
-            "ecran": "« C'est *rien*, arrête ! »",
-            "emoji": "🛒",
-            "recherche": "child supermarket tantrum",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un enfant se calme plus vite quand il se sent enfin compris et entendu.",
-            "ecran": "Son cerveau *surchauffe*",
-            "emoji": "💥",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Dis-lui : Je vois que tu es en colère parce qu'on s'en va.",
-            "ecran": "Méthode : 1. Valide | 2. Limite",
-            "emoji": "💡",
-            "recherche": "mother comforting child",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Pose la limite calmement : Mais il est l'heure de rentrer.",
-            "ecran": "Poser la *limite*",
-            "emoji": "🛑",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Nommer l'émotion désamorce la crise.",
-            "ecran": "Nommer l'émotion désamorce la crise",
-            "emoji": "🎯",
-            "recherche": "smiling parent child park",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Accueillir les émotions de l'enfant"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "emotions_enfant",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfiJG8igB9k/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-2100-r.mp4"
     },
     {
@@ -1915,6 +1814,13 @@
       "media_id": "18121885646471607",
       "sujet": "ringelmann",
       "url": "https://www.instagram.com/reel/Dfh34MinE3j/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-09",
+      "media_id": "18114968549130477",
+      "sujet": "emotions_enfant",
+      "url": "https://www.instagram.com/reel/DfiJG8igB9k/"
     }
   ]
 }
