@@ -11,7 +11,13 @@
   "comptes-publics-002",
   "plan-sante-002",
   "plan-esr-002",
-  "plan-ruralites-002"
+  "plan-ruralites-002",
+  "plan-btp-logement-002",
+  "comptes-publics-003",
+  "pole-public-bancaire-003",
+  "plan-sante-003",
+  "plan-ruralites-003",
+  "plan-btp-logement-003"
  ],
  "ecartes": {},
  "journal": [
@@ -74,6 +80,36 @@
    "jour": "2026-11-08",
    "id": "plan-ruralites-002",
    "nom": "prog-plan-ruralites-002"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "plan-btp-logement-002",
+   "nom": "prog-plan-btp-logement-002"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "comptes-publics-003",
+   "nom": "prog-comptes-publics-003"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "pole-public-bancaire-003",
+   "nom": "prog-pole-public-bancaire-003"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "plan-sante-003",
+   "nom": "prog-plan-sante-003"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "plan-ruralites-003",
+   "nom": "prog-plan-ruralites-003"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "plan-btp-logement-003",
+   "nom": "prog-plan-btp-logement-003"
   }
  ],
  "programmes": [
@@ -248,6 +284,90 @@
    "reseau": "youtube",
    "buffer": "6af0217f229bf05daf97a7fa",
    "heure": "2026-11-08T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-plan-btp-logement-002",
+   "reseau": "tiktok",
+   "buffer": "6af17c722f1ff83d452578db",
+   "heure": "2026-11-09T09:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-plan-btp-logement-002",
+   "reseau": "youtube",
+   "buffer": "6af17c73e29b1359f0db10cc",
+   "heure": "2026-11-09T09:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-comptes-publics-003",
+   "reseau": "tiktok",
+   "buffer": "6af17c73796ccae26692a369",
+   "heure": "2026-11-09T09:45:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-comptes-publics-003",
+   "reseau": "youtube",
+   "buffer": "6af17c73796ccae26692a397",
+   "heure": "2026-11-09T09:45:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-pole-public-bancaire-003",
+   "reseau": "tiktok",
+   "buffer": "6af17c747522f65ac0cb7e06",
+   "heure": "2026-11-09T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-pole-public-bancaire-003",
+   "reseau": "youtube",
+   "buffer": "6af17c742f1ff83d45257953",
+   "heure": "2026-11-09T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-plan-sante-003",
+   "reseau": "tiktok",
+   "buffer": "6af17c757522f65ac0cb7f08",
+   "heure": "2026-11-09T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-plan-sante-003",
+   "reseau": "youtube",
+   "buffer": "6af17c76e29b1359f0db1384",
+   "heure": "2026-11-09T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-plan-ruralites-003",
+   "reseau": "tiktok",
+   "buffer": "6af17c76e29b1359f0db145b",
+   "heure": "2026-11-09T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-plan-ruralites-003",
+   "reseau": "youtube",
+   "buffer": "6af17c772f1ff83d45257c3d",
+   "heure": "2026-11-09T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-plan-btp-logement-003",
+   "reseau": "tiktok",
+   "buffer": "6af17c77e44ddbb57c3fe7b1",
+   "heure": "2026-11-09T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "prog-plan-btp-logement-003",
+   "reseau": "youtube",
+   "buffer": "6af17c78e44ddbb57c3fe7e7",
+   "heure": "2026-11-09T22:00:00+01:00"
   }
  ],
  "echecs": {
@@ -255,6 +375,8 @@
   "plan-sante-001": 1,
   "plan-ruralites-001": 1,
   "plan-automobile-001": 1,
-  "comptes-publics-002": 1
+  "comptes-publics-002": 1,
+  "plan-automobile-002": 1,
+  "plan-esr-003": 1
  }
 }
