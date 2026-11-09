@@ -510,193 +510,14 @@
       "formule": "Contre-pied",
       "id": "20261109-1830",
       "legende": "Tu crois que travailler en grande équipe te rend plus efficace ? C'est l'inverse.\n\nQuand le groupe grandit, notre cerveau relâche naturellement l'effort. C'est l'effet Ringelmann : si la responsabilité est partagée par trop de monde, elle s'efface.\n\nPour garder une équipe motivée, la règle est simple : attribue des tâches individuelles précises et rends le travail de chacun visible.\n\nAs-tu déjà remarqué cette baisse d'énergie dans les grands projets de groupe ?\n\n#psychologie #travail #productivite #management #efficacité",
+      "media_id": "18121885646471607",
+      "publie_le": "2026-11-09T17:31:52+00:00",
       "quand": "2026-11-09T18:30:00+01:00",
       "refait_le": "2026-11-08T11:39:57+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que travailler en grande équipe te rend plus efficace ? C'est l'inverse."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce réflexe en réunion de groupe te coûte ton énergie sans payer."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Rester dans des projets trop grands peut complètement bloquer ta carrière."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "travail",
-          "productivite",
-          "management",
-          "efficacité"
-        ],
-        "legende": "Tu crois que travailler en grande équipe te rend plus efficace ? C'est l'inverse.\n\nQuand le groupe grandit, notre cerveau relâche naturellement l'effort. C'est l'effet Ringelmann : si la responsabilité est partagée par trop de monde, elle s'efface.\n\nPour garder une équipe motivée, la règle est simple : attribue des tâches individuelles précises et rends le travail de chacun visible.\n\nAs-tu déjà remarqué cette baisse d'énergie dans les grands projets de groupe ?",
-        "question": "As-tu déjà remarqué cette baisse d'énergie dans les grands projets de groupe ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu crois que travailler en grande équipe te rend plus efficace ? C'est l'inverse.",
-            "ecran": "Travailler en équipe rend *moins* efficace",
-            "emoji": "🚨",
-            "recherche": "office team meeting discussion",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est ce qui se passe silencieusement dans ton cerveau.",
-            "ecran": "Et le *pire* arrive...",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce phénomène a un nom tout simple : l'effet Ringelmann.",
-            "ecran": "L'effet *Ringelmann*",
-            "emoji": "🧠",
-            "recherche": "thinking man office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Plus le groupe s'agrandit, plus l'effort individuel diminue sans qu'on s'en rende compte.",
-            "ecran": "Plus nombreux, *moins* d'effort",
-            "emoji": "👥",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Seul",
-            "b": "En groupe",
-            "dit": "Regarde la différence de motivation entre bosser solo ou dans un grand projet.",
-            "ecran": "Effort *seul* vs *groupe*",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": 3,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu l'as forcément déjà vécu au bureau, pendant ces réunions à dix personnes.",
-            "ecran": "Réunion à *dix* personnes",
-            "emoji": "💻",
-            "recherche": "boring business meeting",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tout le monde attend que l'autre prenne des notes ou relance le client.",
-            "ecran": "« Quelqu'un s'en *occupe* »",
-            "emoji": "😴",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pourquoi ton cerveau fait ça ? Parce que ta contribution personnelle devient invisible.",
-            "ecran": "La part de chacun *disparaît*",
-            "emoji": "🙈",
-            "recherche": "man looking at computer screen",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand personne ne voit précisément ce que tu fais, l'inconscient se repose.",
-            "ecran": "Moins de *responsabilité*",
-            "emoji": "🛋️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il existe une méthode très simple pour corriger ça immédiatement.",
-            "ecran": "La solution en *2 étapes*",
-            "emoji": "📌",
-            "recherche": "writing notebook task list",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Attribue un seul rôle clair à chaque personne. Deux. Rends le résultat mesurable et visible.",
-            "ecran": "Astuces : Rôles précis | Résultat visible",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ne dis plus « il faut faire ce rapport », mais « Thomas s'occupe du rapport ». ",
-            "ecran": "Nomme *un* responsable",
-            "emoji": "✍️",
-            "recherche": "office worker typing keyboard",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Si tu es salarié, clarifie toujours quelle est ta tâche exacte devant l'équipe.",
-            "ecran": "Protège *ton* travail",
-            "emoji": "🛡️",
-            "recherche": "confident businessman smiling",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce qui appartient à tout le monde n'appartient à personne.",
-            "ecran": "Ce qui appartient à *tout le monde* n'appartient à *personne*",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'effet Ringelmann"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "ringelmann",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Dfh34MinE3j/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261109-1830-r.mp4"
     },
     {
@@ -2087,6 +1908,13 @@
       "media_id": "18100031969227563",
       "sujet": "vitrine",
       "url": "https://www.instagram.com/reel/DfhOqijnFC4/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-09",
+      "media_id": "18121885646471607",
+      "sujet": "ringelmann",
+      "url": "https://www.instagram.com/reel/Dfh34MinE3j/"
     }
   ]
 }
