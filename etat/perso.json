@@ -1239,42 +1239,424 @@
     },
     {
       "angle": "au travail et avec les collègues",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1830.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261112-1830-r.jpg",
       "format": "long",
       "formule": "Défi",
       "id": "20261112-1830",
-      "legende": "Personne ne m'a expliqué ce secret au travail et ça a tout changé pour moi.\n\nQuand tu lances un nouveau projet professionnel, les premiers jours demandent une énergie immense. Ton cerveau veut tout arrêter.\n\nMais en appliquant l'effet volant d'inertie, tu comprends que l'effort soutenu finit par créer un élan naturel. Les débuts sont lourds, mais la suite devient fluide.\n\nSur quel projet as-tu l'impression de pousser un bloc de pierre en ce moment ?\n\n#psychologie #travail #productivite #carriere",
+      "legende": "Personne ne m'a expliqué ce secret, et ça a sauvé ma carrière.\n\nQuand tu lances un nouveau projet ou que tu arrives dans une équipe, chaque action demande une énergie immense. Tu as l'impression de pousser un bloc de pierre immobile.\n\nC'est l'effet volant d'inertie. Le démarrage est la phase la plus lourde, mais une fois la dynamique enclenchée, le mouvement se maintient avec beaucoup moins d'effort.\n\nL'astuce au travail ? Ne renonce pas pendant la phase de démarrage. Pousse régulièrement, la fluidité arrive juste après.\n\nAs-tu déjà ressenti ce moment où un projet pro devient soudainement plus facile ?\n\n#psychologie #travail #carriere #productivite #conseil",
       "quand": "2026-11-12T18:30:00+01:00",
+      "refait_le": "2026-11-09T20:58:36+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Défi",
+            "texte": "Personne ne m'a expliqué ce secret, et ça a sauvé ma carrière."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Travailler dur au début peut transformer toute ta carrière sans effort."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois qu'avancer demande toujours d'efforts ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "travail",
+          "carriere",
+          "productivite",
+          "conseil"
+        ],
+        "legende": "Personne ne m'a expliqué ce secret, et ça a sauvé ma carrière.\n\nQuand tu lances un nouveau projet ou que tu arrives dans une équipe, chaque action demande une énergie immense. Tu as l'impression de pousser un bloc de pierre immobile.\n\nC'est l'effet volant d'inertie. Le démarrage est la phase la plus lourde, mais une fois la dynamique enclenchée, le mouvement se maintient avec beaucoup moins d'effort.\n\nL'astuce au travail ? Ne renonce pas pendant la phase de démarrage. Pousse régulièrement, la fluidité arrive juste après.\n\nAs-tu déjà ressenti ce moment où un projet pro devient soudainement plus facile ?",
+        "question": "As-tu déjà ressenti ce moment où un projet pro devient soudainement plus facile ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Personne ne m'a expliqué ce secret au travail, et ça a tout changé pour moi.",
+            "ecran": "Ce *secret* a sauvé ma carrière",
+            "emoji": "🚀",
+            "recherche": "man working office computer",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce qui se passe quand tu abandonnes juste avant le déclic.",
+            "ecran": "Le plus *dur* arrive maintenant",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie du travail, on appelle ça l'effet volant d'inertie.",
+            "ecran": "L'effet *volant* d'inertie",
+            "emoji": "🧠",
+            "recherche": "heavy wheel spinning slow",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu arrives dans une nouvelle équipe. Tu donnes tout, mais rien ne semble avancer.",
+            "ecran": "Nouveau *poste* difficile",
+            "emoji": "💼",
+            "recherche": "tired employee office desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu relances tes collègues, tu organises les projets, mais la lourdeur reste énorme.",
+            "ecran": "Des *efforts* sans retour",
+            "emoji": "📧",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Départ",
+            "b": "Élan",
+            "dit": "Au début, il faut pousser très fort. Mais ensuite, l'élan prend le relais tout seul.",
+            "ecran": "L'énergie selon la *phase*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau épuisé veut abandonner. Pourtant, la roue commence enfin à tourner.",
+            "ecran": "La *confiance* s'installe",
+            "emoji": "🤝",
+            "recherche": "business people handshake meeting",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les collègues te font confiance, les dossiers s'enchaînent et la vitesse augmente.",
+            "ecran": "Tout devient *fluide*",
+            "emoji": "⚡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce qui te demandait une énergie folle au début se fait maintenant presque sans effort.",
+            "ecran": "Moins d'*effort*, plus d'impact",
+            "emoji": "🎯",
+            "recherche": "happy professional worker laptop",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici les trois étapes pour utiliser cet élan à ton avantage au bureau.",
+            "ecran": "Méthode : Accepter le début | Viser la régularité | Garder l'élan",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Accepte que les premières semaines sur un projet soient toujours les plus lourdes.",
+            "ecran": "Un. Le *début* est lourd",
+            "emoji": "1️⃣",
+            "recherche": "focused employee writing whiteboard",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Ne cherche pas la vitesse immédiate, pousse un tout petit peu chaque jour.",
+            "ecran": "Deux. Pousse *chaque* jour",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Une fois l'inertie lancée, entretiens le rythme sans couper l'effort brusquement.",
+            "ecran": "Trois. Laisse *l'élan* agir",
+            "emoji": "3️⃣",
+            "recherche": "team success high five office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les débuts sont toujours les plus lourds : tiens bon, l'élan vient après.",
+            "ecran": "Les débuts sont *lourds*, l'élan vient après",
+            "emoji": "🏆",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet volant d'inertie au travail"
+      },
       "statut": "programme",
       "sujet": "volant",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1830.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261112-1830-r.mp4"
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-2100.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261112-2100-r.jpg",
       "format": "court",
       "formule": "Enjeu",
       "id": "20261112-2100",
-      "legende": "Tu as l'impression d'avoir toujours raison et ça détruit tes décisions.\n\nNotre cerveau adore trier les informations pour garder uniquement ce qui l'arrange. C'est le biais de confirmation.\n\nPour l'éviter, force toi à chercher des avis contraires avant de trancher.\n\nQuelle est la dernière certitude que tu as dû changer ?\n\n#psychologie #developpementpersonnel #cerveau #travail",
+      "legende": "Ton cerveau te ment pour te donner toujours raison.\n\nNous cherchons tous à valider nos idées au lieu de vérifier les faits. C'est le biais de confirmation.\n\nAvant un choix important, force-toi à chercher trois preuves que tu as tort. Pour persuader quelqu'un, ne l'attaque pas : commence par valider son point de vue.\n\nAs-tu déjà ignoré un défaut juste pour acheter un objet qui te plaisait ?\n\n#psychologie #biaiscognitif #decisions #developpementpersonnel",
       "quand": "2026-11-12T21:00:00+01:00",
+      "refait_le": "2026-11-09T20:58:36+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Enjeu",
+            "texte": "Ton cerveau te ment pour te donner toujours raison."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de chercher à avoir raison avant de voir ça."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois être objectif quand tu décides ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "biaiscognitif",
+          "decisions",
+          "developpementpersonnel"
+        ],
+        "legende": "Ton cerveau te ment pour te donner toujours raison.\n\nNous cherchons tous à valider nos idées au lieu de vérifier les faits. C'est le biais de confirmation.\n\nAvant un choix important, force-toi à chercher trois preuves que tu as tort. Pour persuader quelqu'un, ne l'attaque pas : commence par valider son point de vue.\n\nAs-tu déjà ignoré un défaut juste pour acheter un objet qui te plaisait ?",
+        "question": "As-tu déjà ignoré un défaut juste pour acheter un objet qui te plaisait ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau te ment pour te donner toujours raison.",
+            "ecran": "Ton cerveau te *ment* toujours",
+            "emoji": "🧠",
+            "recherche": "man thinking phone stressed",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est le biais de confirmation.",
+            "ecran": "Le *biais* de confirmation",
+            "emoji": "🏷️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tu achètes un téléphone, tu ne lis que les avis positifs et tu ignores les pannes signalées.",
+            "ecran": "Tu *ignores* le reste",
+            "emoji": "📱",
+            "recherche": "woman checking smartphone reviews",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau cherche la facilité et protège tes certitudes pour éviter le doute.",
+            "ecran": "Protéger tes *crooyances*",
+            "emoji": "🛡️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour éviter ce piège, cherche 3 arguments contre ton choix. Et pour convaincre, pars de la croyance de l'autre.",
+            "ecran": "L'astuce : 3 contre-arguments | Partir de son avis",
+            "emoji": "💡",
+            "recherche": "man writing notebook decision",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Cherche la vérité, pas à avoir raison.",
+            "ecran": "Chercher la *vérité*, pas avoir raison",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "As-tu déjà ignoré un défaut juste pour acheter un objet qui te plaisait ?",
+            "ecran": "As-tu déjà fait ce *choix* ?",
+            "emoji": "❓",
+            "recherche": "person shopping thinking",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le biais de confirmation"
+      },
       "statut": "programme",
       "sujet": "confirmation",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-2100.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261112-2100-r.mp4"
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261113-1230.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261113-1230-r.jpg",
       "format": "court",
       "formule": "Liste",
       "id": "20261113-1230",
-      "legende": "3 signes que ta colère va te faire faire une grosse bêtise.\n\nLa colère nous pousse souvent à agir trop vite et à dire des choses qu'on regrette amèrement juste après. Heureusement, il existe une astuce simple pour éviter cela.\n\nLa prochaine fois que la moutarde te monte au nez, coupe court, va t'isoler quelques minutes et respire avant de revenir.\n\nTu as déjà regretté un message envoyé sous le coup de la colère ?\n\n#psychologie #gestiondestress #emotions #developpementpersonnel",
+      "legende": "3 choses que tu fais sans t'en rendre compte quand tu t'énerves.\n\nLa colère nous pousse souvent à agir et à répondre trop vite, ce qu'on finit par regretter. La prochaine fois, fais une pause.\n\nQuelle est ta technique pour garder ton calme face à quelqu'un d'énervé ?\n\n#psychologie #gestiondeseress #emotions #developpementpersonnel",
       "quand": "2026-11-13T12:30:00+01:00",
+      "refait_le": "2026-11-09T20:58:36+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Liste",
+            "texte": "3 choses que tu fais sans t'en rendre compte quand tu t'énerves."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Une seule crise de colère peut détruire tes efforts."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de répondre tout de suite tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "gestiondeseress",
+          "emotions",
+          "developpementpersonnel"
+        ],
+        "legende": "3 choses que tu fais sans t'en rendre compte quand tu t'énerves.\n\nLa colère nous pousse souvent à agir et à répondre trop vite, ce qu'on finit par regretter. La prochaine fois, fais une pause.\n\nQuelle est ta technique pour garder ton calme face à quelqu'un d'énervé ?",
+        "question": "Quelle est ta technique pour garder ton calme face à quelqu'un d'énervé ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "3 choses que tu fais sans t'en rendre compte quand tu t'énerves.",
+            "ecran": "3 *erreurs* quand tu t'énerves",
+            "emoji": "🔥",
+            "recherche": "angry man office",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La colère pousse à agir tout de suite, souvent d'une façon qu'on regrette ensuite.",
+            "ecran": "La *colère* te pousse à agir",
+            "emoji": "🧠",
+            "recherche": "stressed person shouting",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu reçois un message agaçant au bureau et tu réponds du tac au lit sans réfléchir.",
+            "ecran": "Un *message* envoyé trop vite",
+            "emoji": "📱",
+            "recherche": "person typing phone angrily",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau émotionnel prend le dessus pour te pousser à te défendre immédiatement.",
+            "ecran": "Le *cerveau* prend le contrôle",
+            "emoji": "⚡",
+            "recherche": "brain neon glowing",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici l'astuce. Un : éloigne toi. Deux : respire et reviens calme.",
+            "ecran": "L'*astuce* en deux étapes",
+            "emoji": "💡",
+            "recherche": "deep breath calm",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tu sens la colère monter, ne réponds pas tout de suite.",
+            "ecran": "*Agis* calmement",
+            "emoji": "✅",
+            "recherche": "zen person smiling",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La colère qui monte"
+      },
       "statut": "programme",
       "sujet": "colere",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261113-1230.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261113-1230-r.mp4"
     },
     {
       "angle": "",
@@ -1523,16 +1905,1233 @@
     },
     {
       "angle": "",
-      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261114-2100.jpg",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261114-2100-r.jpg",
       "format": "long",
       "formule": "Défi",
       "id": "20261114-2100",
-      "legende": "Personne ne m'a jamais expliqué le cercle de compétence, et ça a tout changé.\n\nOn essaie souvent de tout faire soi-même au travail, en perdant un temps précieux sur des tâches où l'on est simplement moyen. La clé est d'identifier ses réelles forces.\n\nEn concentrant votre énergie là où vous êtes le meilleur et en vous entourant pour le reste, vous transformez radicalement votre efficacité.\n\nQuelle est la tâche que tu devrais absolument déléguer cette semaine ?\n\n#psychologie #productivite #travail #entrepreneur #carriere",
+      "legende": "Personne ne m'a jamais expliqué ça, et ça a tout changé.\n\nVouloir tout faire soi même est le meilleur moyen de s'épuiser. En identifiant clairement tes points forts et en acceptant de déléguer le reste, tu gagnes en efficacité et en sérénité au travail comme dans ta vie personnelle.\n\nDans quel domaine as-tu le plus de mal à déléguer aujourd'hui ?\n\n#psychologie #productivite #developpementpersonnel #travail",
       "quand": "2026-11-14T21:00:00+01:00",
+      "refait_le": "2026-11-09T20:58:36+00:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Défi",
+            "texte": "Personne ne m'a jamais expliqué ça, et ça a tout changé pour moi."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Vouloir tout faire soi même peut détruire ton entreprise et ta santé."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que tu dois être bon partout ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "developpementpersonnel",
+          "travail"
+        ],
+        "legende": "Personne ne m'a jamais expliqué ça, et ça a tout changé.\n\nVouloir tout faire soi même est le meilleur moyen de s'épuiser. En identifiant clairement tes points forts et en acceptant de déléguer le reste, tu gagnes en efficacité et en sérénité au travail comme dans ta vie personnelle.\n\nDans quel domaine as-tu le plus de mal à déléguer aujourd'hui ?",
+        "question": "Dans quel domaine as-tu le plus de mal à déléguer aujourd'hui ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Personne ne m'a jamais expliqué ça, et ça a tout changé.",
+            "ecran": "Personne ne m'a *jamais* expliqué ça",
+            "emoji": "🔥",
+            "recherche": "man stressed phone",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que tu perds un temps fou chaque jour en faisant l'inverse.",
+            "ecran": "Et le pire, c'est la *suite*.",
+            "emoji": "🧠",
+            "recherche": "person working late desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le mécanisme en question s'appelle le cercle de compétence.",
+            "ecran": "Le cercle de *compétence*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au bureau, tu passes des heures à régler la comptabilité alors que ce n'est pas ton point fort.",
+            "ecran": "Tu veux tout *gérer* au bureau",
+            "emoji": "💼",
+            "recherche": "office worker overwhelmed",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu t'épuises sur des tâches compliquées pour toi au lieu d'avancer sur ce que tu maîtrises vraiment.",
+            "ecran": "Tu perds ton *énergie*",
+            "emoji": "📉",
+            "recherche": "tired businessman",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est pareil dans ta vie personnelle quand tu refuses de déléguer ou de demander de l'aide pour des bricoles.",
+            "ecran": "Même chose dans ta *vie*",
+            "emoji": "🛒",
+            "recherche": "woman shopping market",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le cerveau humain veut tout contrôler par peur du regard des autres, mais cela mène tout droit à l'épuisement.",
+            "ecran": "Connais tes *limites*",
+            "emoji": "💡",
+            "recherche": "thinking person close up",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici comment corriger ça dès aujourd'hui en trois étapes simples et rapides.",
+            "ecran": "La méthode en *trois* étapes",
+            "emoji": "✅",
+            "recherche": "person writing notes",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un, liste clairement ce que tu sais faire mieux que personne et qui te prend peu d'efforts.",
+            "ecran": "Étape un : *identifier*",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux, concentre ton énergie uniquement là où tu es vraiment fort pour maximiser tes résultats.",
+            "ecran": "Étape deux : *rester*",
+            "emoji": "2️⃣",
+            "recherche": "focused worker",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois, apprends à déléguer le reste ou à te faire aider par des personnes plus compétentes que toi.",
+            "ecran": "Étape trois : *s'entourer*",
+            "emoji": "3️⃣",
+            "recherche": "team meeting collaboration",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Concentre ton énergie là où tu es vraiment fort, et entoure-toi pour le reste.",
+            "ecran": "Concentre ton énergie là où tu es *fort*",
+            "emoji": "✨",
+            "recherche": "smiling person confident",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le cercle de compétence"
+      },
       "statut": "programme",
       "sujet": "competence",
-      "timbre": "habituelle",
-      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261114-2100.mp4"
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261114-2100-r.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-1230.jpg",
+      "format": "long",
+      "formule": "Enjeu",
+      "id": "20261115-1230",
+      "legende": "Relire tes dossiers en boucle peut ruiner ton efficacité au travail.\n\nQuand tu relis tes notes plusieurs fois, ton cerveau reconnait les mots. Tu as l'impression de maîtriser le sujet. Pourtant, le jour où tu dois prendre la parole en réunion, c'est le trou noir.\n\nPour ancrer une information, ton cerveau doit faire l'effort de aller la chercher dans ta mémoire. C'est cet effort de rappel qui construit un souvenir solide.\n\nLa méthode est simple : lis ton document une fois, ferme-le, puis réexplique de mémoire ce que tu viens de lire.\n\nQuelle est ta méthode actuelle pour préparer tes réunions importantes ?\n\n#productivite #travail #apprentissage #conseilsentreprises #organisation",
+      "quand": "2026-11-15T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Enjeu",
+            "texte": "Relire tes dossiers en boucle peut ruiner ton efficacité au travail."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de relire tes notes de réunion tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que relire tes dossiers te fait mémoriser ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "productivite",
+          "travail",
+          "apprentissage",
+          "conseilsentreprises",
+          "organisation"
+        ],
+        "legende": "Relire tes dossiers en boucle peut ruiner ton efficacité au travail.\n\nQuand tu relis tes notes plusieurs fois, ton cerveau reconnait les mots. Tu as l'impression de maîtriser le sujet. Pourtant, le jour où tu dois prendre la parole en réunion, c'est le trou noir.\n\nPour ancrer une information, ton cerveau doit faire l'effort de aller la chercher dans ta mémoire. C'est cet effort de rappel qui construit un souvenir solide.\n\nLa méthode est simple : lis ton document une fois, ferme-le, puis réexplique de mémoire ce que tu viens de lire.\n\nQuelle est ta méthode actuelle pour préparer tes réunions importantes ?",
+        "question": "Quelle est ta méthode actuelle pour préparer tes réunions importantes ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Relire tes dossiers en boucle peut ruiner ton efficacité au travail.",
+            "ecran": "Relire tes dossiers *ruine* ton efficacité",
+            "emoji": "⚠️",
+            "recherche": "man stressed office notes",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce qui se passe quand ton patron te pose une question.",
+            "ecran": "Et le *pire* arrive en réunion",
+            "emoji": "😱",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu as passé toute ta soirée à relire la présentation du nouveau projet.",
+            "ecran": "Tu passes des *heures* à relire",
+            "emoji": "📑",
+            "recherche": "person reading documents late",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tu relis tes fiches, ton cerveau reconnait le texte et te dit que tu sais.",
+            "ecran": "L'illusion de la *maîtrise*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais devant tes collègues en réunion, impossible de retrouver l'argument précis.",
+            "ecran": "Mais le jour J, c'est le *trou*",
+            "emoji": "📉",
+            "recherche": "business meeting confused person",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Essayer de se rappeler une information la grave beaucoup mieux que la relire.",
+            "ecran": "L'effet de *recherche* en mémoire",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Relire",
+            "b": "Se tester",
+            "dit": "Reconnaître une note donne l'impression de savoir, mais l'effort de mémoire crée l'ancrage.",
+            "ecran": "L'effort de *mémoire* gagne",
+            "emoji": "📊",
+            "recherche": "brain glowing animation",
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu dois défendre ton budget de dix mille euros face à l'équipe direction.",
+            "ecran": "Exemple 1 : Présenter un *projet*",
+            "emoji": "💬",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au lieu d'ouvrir le fichier Excel dix fois de suite avant d'entrer en salle...",
+            "ecran": "Au lieu d'ouvrir le *fichier*...",
+            "emoji": "❌",
+            "recherche": "laptop screens text analytics",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Cache l'écran et tente d'expliquer les trois chiffres clés à voix haute.",
+            "ecran": "Ferme tout et *répète*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Avant d'appeler un client important, ne parcours pas ses mails une fois de plus.",
+            "ecran": "Exemple 2 : Appel *client*",
+            "emoji": "📞",
+            "recherche": "person calling office phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Prends une feuille vierge et note ses deux attentes principales de tête.",
+            "ecran": "Écris de *mémoire*",
+            "emoji": "📝",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici la méthode exacte en trois étapes pour retenir n'importe quel dossier.",
+            "ecran": "Méthode : 1. Lis une fois | 2. Cache la note | 3. Réexplique de mémoire",
+            "emoji": "✅",
+            "recherche": "hand writing notebook checklist",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Lis ton document une seule fois avec une attention maximale et concentrée.",
+            "ecran": "Un. *Lis* une seule fois",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Ferme ton cahier ou l'onglet de ton écran pour ne plus rien voir.",
+            "ecran": "Deux. *Ferme* le dossier",
+            "emoji": "2️⃣",
+            "recherche": "closing laptop screen hand",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Essaie de réexpliquer de mémoire ce que tu viens de lire comme à un collègue.",
+            "ecran": "Trois. *Explique* à voix haute",
+            "emoji": "3️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Relire donne l'illusion, se tester crée le savoir.",
+            "ecran": "Relire donne l'illusion, *se tester* crée le savoir.",
+            "emoji": "📌",
+            "recherche": "man talking to camera smiling",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Se tester plutôt que relire"
+      },
+      "statut": "programme",
+      "sujet": "rappel_actif",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-1830.jpg",
+      "format": "court",
+      "formule": "Liste",
+      "id": "20261115-1830",
+      "legende": "3 pièges que ton cerveau adore quand tu fais tes achats.\n\nFace à trois choix, nous avons naturellement tendance à éliminer l'extrême le plus cher et le plus basique pour choisir la sécurité au milieu. Les commerçants l'utilisent très souvent pour guider tes achats.\n\nSi tu vends un produit, place ton offre principale au centre. Si tu achètes, demande-toi si la version de base ne suffit pas à ton besoin réel.\n\nTu prends souvent l'option du milieu au restaurant ?\n\n#psychologie #argent #conseils #negociation",
+      "quand": "2026-11-15T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Liste",
+            "texte": "3 pièges que ton cerveau adore quand tu fais tes achats."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe au restaurant te coûte plus cher que prévu."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois choisir librement ? On t'oriente vers le milieu."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "argent",
+          "conseils",
+          "negociation"
+        ],
+        "legende": "3 pièges que ton cerveau adore quand tu fais tes achats.\n\nFace à trois choix, nous avons naturellement tendance à éliminer l'extrême le plus cher et le plus basique pour choisir la sécurité au milieu. Les commerçants l'utilisent très souvent pour guider tes achats.\n\nSi tu vends un produit, place ton offre principale au centre. Si tu achètes, demande-toi si la version de base ne suffit pas à ton besoin réel.\n\nTu prends souvent l'option du milieu au restaurant ?",
+        "question": "Tu prends souvent l'option du milieu au restaurant ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici 3 pièges que ton cerveau adore quand tu fais tes achats.",
+            "ecran": "3 *pièges* quand tu achètes",
+            "emoji": "🛒",
+            "recherche": "person shopping supermarket",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce phénomène s'explique par la psychologie des trois offres.",
+            "ecran": "L'effet *de trois* offres",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au café, tu hésites entre le petit à deux euros et le grand à six euros.",
+            "ecran": "Menu : *Petit*, Moyen, Grand",
+            "emoji": "☕",
+            "recherche": "coffee shop menu board",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu prends le moyen à quatre euros, persuadé de faire une bonne affaire.",
+            "ecran": "Le *moyen* semble parfait",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau ne juge pas un prix absolu, il le compare aux autres options.",
+            "ecran": "On *compare* au lieu d'évaluer",
+            "emoji": "⚖️",
+            "recherche": "brain comparison balance concept",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si tu vends, mets ton offre cible au milieu. Si tu achètes, vérifie ton besoin.",
+            "ecran": "besoin",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Compare ton besoin réel, pas seulement les options affichées.",
+            "ecran": "Compare le *besoin*, pas les options.",
+            "emoji": "📌",
+            "recherche": "thinking carefully decision",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le piège des trois offres"
+      },
+      "statut": "programme",
+      "sujet": "trois_offres",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-2100.jpg",
+      "format": "long",
+      "formule": "Ordre",
+      "id": "20261115-2100",
+      "legende": "Arrête de poser ton téléphone sur la table tant que tu n'as pas vu ça.\n\nMême éteint ou face cachée, un téléphone posé sur la table nuit à la qualité de tes échanges. Ton cerveau reste en alerte et ton interlocuteur se sent inconsciemment moins écouté.\n\nLa solution est simple : range ton téléphone dans ta poche ou ton sac pendant les repas et les discussions importantes. Hors de vue, hors de portée.\n\nTu poses souvent ton téléphone sur la table au restaurant ?\n\n#psychologie #relations #ecrans #communication #bienetre",
+      "quand": "2026-11-15T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de poser ton téléphone sur la table tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe sur ton bureau te coûte tes plus belles amitiés."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que ton écran éteint ne dérange personne ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "relations",
+          "ecrans",
+          "communication",
+          "bienetre"
+        ],
+        "legende": "Arrête de poser ton téléphone sur la table tant que tu n'as pas vu ça.\n\nMême éteint ou face cachée, un téléphone posé sur la table nuit à la qualité de tes échanges. Ton cerveau reste en alerte et ton interlocuteur se sent inconsciemment moins écouté.\n\nLa solution est simple : range ton téléphone dans ta poche ou ton sac pendant les repas et les discussions importantes. Hors de vue, hors de portée.\n\nTu poses souvent ton téléphone sur la table au restaurant ?",
+        "question": "Tu poses souvent ton téléphone sur la table au restaurant ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Arrête de poser ton téléphone sur la table tant que tu n'as pas vu cette vidéo.",
+            "ecran": "Arrête de *poser* ton téléphone sur la table",
+            "emoji": "📱",
+            "recherche": "smartphone on restaurant table",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu penses que c'est inoffensif s'il est éteint ? Et le pire arrive juste après.",
+            "ecran": "Un simple *détail* change tout",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce phénomène a un impact direct sur la qualité de tes conversations quotidiennes.",
+            "ecran": "L'effet *téléphone* sur la table",
+            "emoji": "🧠",
+            "recherche": "friends talking café",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Imagine un déjeuner avec un ami. Tu poses ton smartphone juste à côté de ton assiette.",
+            "ecran": "Tu es au *restaurant* ensemble",
+            "emoji": "☕",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "L'écran reste noir. Pas de vibreur, pas de sonnerie, pas de notification.",
+            "ecran": "Même s'il ne *sonne* pas",
+            "emoji": "🔇",
+            "recherche": "black smartphone screen table",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourtant, la discussion devient tout de suite moins profonde et plus superficielle.",
+            "ecran": "La discussion devient *superficielle*",
+            "emoji": "📉",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au bureau, c'est pareil. Posé à côté de ton bloc-notes, il crée une distance invisible.",
+            "ecran": "Même chose en *réunion*",
+            "emoji": "💼",
+            "recherche": "office meeting table phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Visible",
+            "b": "Caché",
+            "dit": "La simple vue de l'écran bloque l'attention et réduit la confiance mutuelle.",
+            "ecran": "Profondeur des *échanges*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourquoi ? Parce que ton cerveau sait qu'une interruption peut arriver à tout moment.",
+            "ecran": "Ton cerveau reste *en alerte*",
+            "emoji": "💭",
+            "recherche": "thoughtful person looking away",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton interlocuteur le sent aussi. Il s'investit moins et garde ses émotions pour lui.",
+            "ecran": "L'autre se sent *moins écouté*",
+            "emoji": "💔",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une astuce très simple pour corriger ça immédiatement.",
+            "ecran": "Une habitude à *changer*",
+            "emoji": "🛑",
+            "recherche": "putting phone in jacket pocket",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pendant un repas ou un rendez-vous important, applique ces règles simples.",
+            "ecran": "Méthode : Dans le sac | Hors de vue | Pleine présence",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Range-le directement dans ton sac ou dans la poche de ta veste.",
+            "ecran": "Un : Mets-le *hors de vue*",
+            "emoji": "1️⃣",
+            "recherche": "putting phone in bag",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Ne le laisse jamais posé face cachée, cela ne suffit pas à rassurer.",
+            "ecran": "Deux : Laisse la *table vide*",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu verras que la qualité de tes conversations va changer du tout au tout.",
+            "ecran": "Retrouve de *vrais échanges*",
+            "emoji": "🤝",
+            "recherche": "people laughing dining table",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "L'attention réelle commence quand l'écran disparaît.",
+            "ecran": "L'attention réelle commence quand *l'écran* disparaît.",
+            "emoji": "✨",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le téléphone sur la table"
+      },
+      "statut": "programme",
+      "sujet": "telephone_table",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-1230.jpg",
+      "format": "long",
+      "formule": "Démasquer",
+      "id": "20261116-1230",
+      "legende": "Les entreprises utilisent ton coût du changement contre toi chaque jour sans que tu voies rien.\n\nChanger de fournisseur, d'outil ou d'habitude demande du temps et de l'énergie. Les marques l'ont bien compris pour vous garder prisonniers par la fatigue.\n\nNe restez jamais dans une situation inconfortable seulement parce que l'effort de partir vous rebute.\n\nTu es resté combien de temps dans un abonnement ou un travail juste par flemme de changer ?\n\n#psychologie #productivite #carriere #developpementpersonnel",
+      "quand": "2026-11-16T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "DÃ©masquer",
+            "texte": "Les entreprises utilisent ton *coût du changement* contre toi chaque jour."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Rester par habitude te coûte plus cher que tu ne penses."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois être loyal alors que tu as juste la flemme."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "carriere",
+          "developpementpersonnel"
+        ],
+        "legende": "Les entreprises utilisent ton coût du changement contre toi chaque jour sans que tu voies rien.\n\nChanger de fournisseur, d'outil ou d'habitude demande du temps et de l'énergie. Les marques l'ont bien compris pour vous garder prisonniers par la fatigue.\n\nNe restez jamais dans une situation inconfortable seulement parce que l'effort de partir vous rebute.\n\nTu es resté combien de temps dans un abonnement ou un travail juste par flemme de changer ?",
+        "question": "Tu es resté combien de temps dans un abonnement ou un travail juste par flemme de changer ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les entreprises utilisent ton coût du changement contre toi chaque jour sans que tu voies rien.",
+            "ecran": "Les entreprises te *piÃ¨gent* avec ça.",
+            "emoji": "ð",
+            "recherche": "man looking phone frustrated",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que ça fonctionne aussi dans ta vie perso et dans ton travail au bureau.",
+            "ecran": "Et le *pire*, c'est la suite.",
+            "emoji": "â ï¸",
+            "recherche": "stressed office worker",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu gardes ton opérateur internet même quand le prix augmente car changer demande trop d'efforts.",
+            "ecran": "Tu *restes* malgré les hausses.",
+            "emoji": "ð¸",
+            "recherche": "person looking at bill",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Il faut résilier, renvoyer la box, comparer les offres et attendre le technicien des semaines.",
+            "ecran": "Changer de *fournisseur* fatigue.",
+            "emoji": "ð±",
+            "recherche": "typing on laptop frustrated",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au travail, tu gardes ce vieux logiciel lent parce que réapprendre un outil prend un temps fou.",
+            "ecran": "Pareil pour les *logiciels*.",
+            "emoji": "ð§",
+            "recherche": "office software screen",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Changer d'habitude coûte du temps, de l'argent et beaucoup d'énergie mentale à ton cerveau.",
+            "ecran": "Ton cerveau déteste la *rupture*.",
+            "emoji": "ð§ ",
+            "recherche": "thinking brain abstract",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est exactement ce qu'on appelle le coût du changement, et tout le monde se fait avoir.",
+            "ecran": "C'est le coût du *changement*.",
+            "emoji": "ð±",
+            "recherche": "person overwhelmed",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Même constat dans ta carrière, tu restes dans un mauvais poste juste par peur de tout refaire.",
+            "ecran": "Même problème pour ton *job*.",
+            "emoji": "ð¼",
+            "recherche": "person walking in office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour t'en sortir, voici deux étapes simples à appliquer dès aujourd'hui dans tes choix.",
+            "ecran": "Comment *agir* concrètement.",
+            "emoji": "â",
+            "recherche": "checklist on paper",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un, demande-toi si tu restes par choix réel ou juste parce que partir te demande trop d'effort.",
+            "ecran": "1. Évalue la vraie *valeur*.",
+            "emoji": "ð¯",
+            "recherche": "weighing scale balance",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux, si tu entrepreneurs, ne compte pas sur la fidélité, rends ton service indispensable chaque jour.",
+            "ecran": "2. Rends l'utile *quotidien*.",
+            "emoji": "ð¡",
+            "recherche": "idea light bulb",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne reste jamais quelque part seulement parce que partir te fatigue.",
+            "ecran": "Ne reste pas par *flemme*.",
+            "emoji": "ð¥",
+            "recherche": "sunset inspiring view",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le coût du changement"
+      },
+      "statut": "programme",
+      "sujet": "changer_coute",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-1230.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-1830.jpg",
+      "format": "long",
+      "formule": "Contre-pied",
+      "id": "20261116-1830",
+      "legende": "Tu crois que la nouveauté sauvera ta carrière ? C'est l'inverse.\n\nAu travail, l'effet Lindy nous rappelle qu'une méthode qui a fait ses preuves pendant des années survit souvent aux outils de passage. À force de courir après chaque nouveau logiciel miracle, on s'épuise et on perd en efficacité.\n\nAvant de tout changer sur un coup de tête ou sous la pression d'une mode, prends le temps de sécuriser tes bases. Garde tes anciennes routines efficaces et teste le reste prudemment.\n\nQuel est le vieil outil ou réflexe qui te sauve encore au bureau ?\n\n#psychologie #travail #productivite #vieprofessionnelle #conseils",
+      "quand": "2026-11-16T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que la nouveauté sauvera ta carrière ? C'est l'inverse."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Cette manie de tout changer au travail te fait perdre un temps fou."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de jeter tes anciennes méthodes au bureau tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "travail",
+          "productivite",
+          "vieprofessionnelle",
+          "conseils"
+        ],
+        "legende": "Tu crois que la nouveauté sauvera ta carrière ? C'est l'inverse.\n\nAu travail, l'effet Lindy nous rappelle qu'une méthode qui a fait ses preuves pendant des années survit souvent aux outils de passage. À force de courir après chaque nouveau logiciel miracle, on s'épuise et on perd en efficacité.\n\nAvant de tout changer sur un coup de tête ou sous la pression d'une mode, prends le temps de sécuriser tes bases. Garde tes anciennes routines efficaces et teste le reste prudemment.\n\nQuel est le vieil outil ou réflexe qui te sauve encore au bureau ?",
+        "question": "Quel est le vieil outil ou réflexe qui te sauve encore au bureau ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu crois que la nouveauté sauvera ta carrière ? C'est tout l'inverse.",
+            "ecran": "La *nouveauté* sauve ta carrière ?",
+            "emoji": "🚨",
+            "recherche": "stressed office worker laptop",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au bureau, on te pousse toujours à adopter le dernier outil à la mode. Et le pire, c'est ce qui arrive ensuite.",
+            "ecran": "Le *dernier* outil tendance",
+            "emoji": "📱",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau se fait piéger. Ce phénomène mental porte un nom : l'effet Lindy.",
+            "ecran": "L'effet *Lindy*",
+            "emoji": "🧠",
+            "recherche": "thinking man office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "L'idée est simple : plus une méthode existe depuis longtemps, plus elle a de chances d'exister encore longtemps.",
+            "ecran": "Le *temps* valide la valeur",
+            "emoji": "⏳",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Nouveau logiciel",
+            "b": "Cahier et stylo",
+            "dit": "Une nouveauté a de grandes chances d'avoir disparu dans un an. Mais un réflexe vieux de dix ans sera toujours là.",
+            "ecran": "Espérance de *vie* des méthodes",
+            "emoji": "📊",
+            "recherche": "chart animation screen",
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pense à ton entreprise. Combien de fois une nouvelle application miracle a été abandonnée après trois mois ?",
+            "ecran": "Changer d'outil *chaque* mois",
+            "emoji": "💻",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pendant ce temps-là, le simple bloc-note et le coup de téléphone direct continuent de sauver tes projets.",
+            "ecran": "Le bon vieux *papier*",
+            "emoji": "📝",
+            "recherche": "person writing notebook",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu passes des heures à configurer des logiciels complexes, alors qu'une discussion de cinq minutes règle tout.",
+            "ecran": "Parler en *vrai*",
+            "emoji": "☕",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les nouvelles modes nous donnent l'illusion de progresser, mais elles ne font souvent que nous disperser.",
+            "ecran": "Le piège de l'*illusion*",
+            "emoji": "🔄",
+            "recherche": "confused worker desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les vieilles pratiques ont survécu à l'épreuve du temps parce qu'elles fonctionnent réellement sur le terrain.",
+            "ecran": "Les *anciennes* méthodes réelles",
+            "emoji": "🏆",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tes collègues veulent tout changer du jour au lendemain, tu peux facilement te protéger du stress.",
+            "ecran": "Se *protéger* de la cohue",
+            "emoji": "🛡️",
+            "recherche": "calm businessman meeting",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici ton plan d'action en trois étapes très simples pour ton travail au quotidien.",
+            "ecran": "Plan d'action : Garder les bases | Tester sans tout jeter | Observer la durée",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Garde toujours la méthode classique qui te donne déjà des résultats prévisibles et solides.",
+            "ecran": "Un. Garde tes *fondations*",
+            "emoji": "1️⃣",
+            "recherche": "focused man working",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Teste les nouveaux outils uniquement sur des petits projets sans risque avant de généraliser.",
+            "ecran": "Deux. Teste à *petite* dose",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Attends quelques mois pour voir si la nouveauté s'impose vraiment d'elle-même dans ton secteur.",
+            "ecran": "Trois. Laisse *temps* faire",
+            "emoji": "3️⃣",
+            "recherche": "clock time lapse office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La nouveauté attire, le temps confirme.",
+            "ecran": "La *nouveauté* attire, le *temps* confirme.",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet Lindy au travail"
+      },
+      "statut": "programme",
+      "sujet": "lindy",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-2100.jpg",
+      "format": "court",
+      "formule": "Révélation",
+      "id": "20261116-2100",
+      "legende": "Ce petit réflexe te coûte plus cher que tu ne crois.\n\nOn passe souvent beaucoup trop de temps à imaginer le pire avant un événement difficile. Le cerveau anticipe et crée du stress inutilement.\n\nPour calmer cette peur, écris simplement ce qui t'angoisse et prévois ce que tu ferais. Avoir un plan change tout.\n\nQuel est le dernier événement qui t'a fait stresser inutilement ? 🧠📉\n\n#psychologie #stress #developpementpersonnel #confianceensoi",
+      "quand": "2026-11-16T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe te coûte plus cher que tu ne crois."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Imaginer le pire te stresse plus que de le vivre."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu penses que paniquer t'aide à te préparer ?"
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "stress",
+          "developpementpersonnel",
+          "confianceensoi"
+        ],
+        "legende": "Ce petit réflexe te coûte plus cher que tu ne crois.\n\nOn passe souvent beaucoup trop de temps à imaginer le pire avant un événement difficile. Le cerveau anticipe et crée du stress inutilement.\n\nPour calmer cette peur, écris simplement ce qui t'angoisse et prévois ce que tu ferais. Avoir un plan change tout.\n\nQuel est le dernier événement qui t'a fait stresser inutilement ? 🧠📉",
+        "question": "Quel est le dernier événement qui t'a fait stresser inutilement ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce petit réflexe te coûte plus cher que tu ne crois.",
+            "ecran": "Ce *réflexe* te coûte cher",
+            "emoji": "🧠",
+            "recherche": "man stressed phone",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On souffre souvent plus en imaginant un événement difficile qu'en le vivant réellement.",
+            "ecran": "C'est *l'anxiété* d'anticipation",
+            "emoji": "😰",
+            "recherche": "worried person desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La veille d'un entretien important, ton cerveau imagine déjà tous les pires scénarios possibles.",
+            "ecran": "Avant un *rendez-vous*",
+            "emoji": "📄",
+            "recherche": "person looking at papers",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton esprit panique parce qu'il essaie de se protéger contre un danger qui n'existe pas encore.",
+            "ecran": "Le cerveau *anticipe*",
+            "emoji": "⚡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici l'astuce : écris le pire scénario, puis liste ce que tu ferais s'il arrivait vraiment.",
+            "ecran": "Écris le *pire* | Prévois ton plan",
+            "emoji": "✍️",
+            "recherche": "writing notebook",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Avoir un plan réduit la peur et redonne le contrôle à ton cerveau.",
+            "ecran": "Avoir un *plan* réduit la peur",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'anxiété d'anticipation"
+      },
+      "statut": "programme",
+      "sujet": "anxiete_anticipation",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-2100.mp4"
     }
   ],
   "publications": [
