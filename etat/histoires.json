@@ -7,143 +7,154 @@
   "panama",
   "stavisky",
   "krach1929",
-  "spaggiari"
+  "spaggiari",
+  "weimar",
+  "meegeren"
  ],
  "attente_partie2": {
-  "id": "spaggiari",
-  "jour_partie1": "2026-11-08",
+  "id": "meegeren",
+  "jour_partie1": "2026-11-09",
   "script": {
-   "titre": "Le casse du siècle",
+   "titre": "L'homme qui a trompé les nazis",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "50 millions de francs volés sans violence",
+     "ecran": "Il trompe les nazis avec de faux tableaux",
      "grand": null,
-     "dit": "Il vide 371 coffres sans violence et laisse un message énigmatique à la police.",
-     "image": 2,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Un *photographe* calme à Nice",
-     "grand": null,
-     "dit": "Albert Spaggiari mène une vie paisible en 1976. Il tient un magasin de photo et travaille pour la mairie.",
+     "dit": "Ce peintre a vendu de faux chefs-d'œuvre aux nazis, mais ses mensonges vont totalement se retourner contre lui.",
      "image": 1,
-     "recherche": "Nice 1970s street"
-    },
-    {
-     "type": "recit",
-     "ecran": "Lecture d'un *roman* inspirant",
-     "grand": null,
-     "dit": "Il dévore des livres à suspense. L'idée de cambrioler une banque en passant par les égouts germe dans son esprit.",
-     "image": 3,
-     "recherche": "vintage sewer tunnel"
-    },
-    {
-     "type": "recit",
-     "ecran": "La *Société générale* de Nice",
-     "grand": null,
-     "dit": "Un employé municipal lui apprend un détail crucial. La salle des coffres n'a aucun système d'alarme.",
-     "image": 2,
      "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Un *talent* rejeté par les critiques",
+     "grand": null,
+     "dit": "Au début du XXe siècle, aux Pays-Bas, Han van Meegeren veut devenir un grand artiste.",
+     "image": 6,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Ses œuvres jugées comme de simples *imitations*",
+     "grand": null,
+     "dit": "Mais en 1922, les critiques d'art démolissent son travail. Ils disent que ses toiles ne sont que de vieilles imitations.",
+     "image": 5,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "La *vengeance* d'un peintre humilié",
+     "grand": null,
+     "dit": "Blessé, Han décide de se venger. Il va prouver au monde entier qu'il est capable de duper tous les experts.",
+     "image": 11,
+     "recherche": "Han van Meegeren portrait"
     },
     {
      "type": "chiffre",
-     "ecran": "mètres d'épaisseur",
-     "grand": "1,80 m",
-     "dit": "Les murs de béton de la banque sont massifs. Spaggiari sait qu'il devra creuser pour les atteindre.",
-     "image": 3,
-     "recherche": "concrete wall cut"
-    },
-    {
-     "type": "recit",
-     "ecran": "Test d'un *réveil* la nuit",
-     "grand": null,
-     "dit": "Deux ans avant le casse, il loue un coffre et y place un réveil pour tester l'absence de détecteurs sismiques.",
-     "image": 4,
-     "recherche": "old bank vault"
-    },
-    {
-     "type": "recit",
-     "ecran": "Exploration des *égouts* de Nice",
-     "grand": null,
-     "dit": "Il explore minutieusement les boyaux sombres sous la ville pour trouver le trajet exact vers la banque.",
-     "image": 1,
+     "ecran": "Ans de préparation secrète",
+     "grand": "6 ans",
+     "dit": "Pendant six ans, il étudie en secret les techniques des grands maîtres flamands comme Vermeer.",
+     "image": 2,
      "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "La *recette* du parfait faussaire",
+     "grand": null,
+     "dit": "Il achète de vieilles toiles du XVIIe siècle, gratte la peinture et fabrique ses propres pigments d'époque.",
+     "image": 7,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Une *cuisson* pour vieillir la peinture",
+     "grand": null,
+     "dit": "Il passe même ses toiles au four et ajoute de l'encre noire dans les craquelures pour imiter la poussière du temps.",
+     "image": 6,
+     "recherche": "vintage oven 1930s"
     },
     {
      "type": "date",
-     "ecran": "Le premier coup de *burin*",
-     "grand": "7 mai 1976",
-     "dit": "Une quinzaine d'hommes commence à creuser un tunnel de huit mètres depuis les égouts.",
-     "image": 5,
-     "recherche": "construction workers underground"
+     "ecran": "Le premier coup de maître",
+     "grand": "1937",
+     "dit": "En 1937, il sort son chef-d'œuvre : Les Disciples d'Emmaüs, présenté comme un Vermeer perdu.",
+     "image": 1,
+     "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Port de *matériel* lourd",
+     "ecran": "Les *experts* tombent dans le panneau",
      "grand": null,
-     "dit": "Chaque nuit, ils portent jusqu'à 50 kilos de matériel à travers trois kilomètres de boyaux sinueux.",
-     "image": 0,
-     "recherche": "heavy tools underground"
-    },
-    {
-     "type": "recit",
-     "ecran": "Visite du *président*",
-     "grand": null,
-     "dit": "Le 9 juillet 1976, Valéry Giscard d'Estaing visite Nice. Le dispositif policier force Spaggiari à interrompre les travaux.",
-     "image": 2,
-     "recherche": "Valery Giscard dEstaing 1970s"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "heures de percement",
-     "grand": "371 coffres",
-     "dit": "Le week-end des 17 et 18 juillet, le mur tombe. L'équipe ouvre des centaines de coffres en trois jours.",
-     "image": 6,
-     "recherche": "bank safety deposit boxes"
-    },
-    {
-     "type": "recit",
-     "ecran": "Vin et *pâté* sur place",
-     "grand": null,
-     "dit": "Entre deux efforts au chalumeau, les braqueurs boivent du vin et affichent des photos dénudées sur les murs.",
-     "image": 3,
-     "recherche": "vintage wine bottle and food"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "millions de francs",
-     "grand": "50 millions",
-     "dit": "Ils emportent l'or et les devises. Le butin colossal équivaut à 40 millions d'euros actuels.",
-     "image": 7,
-     "recherche": "gold bars stack"
-    },
-    {
-     "type": "recit",
-     "ecran": "Message sur le *mur*",
-     "grand": null,
-     "dit": "Avant de partir dans l'eau jusqu'au cou, Spaggiari laisse une phrase célèbre signée de toute la bande.",
+     "dit": "Le plus grand expert hollandais l'examine et déclare au monde entier que c'est un véritable Vermeer.",
      "image": 8,
-     "recherche": "handwritten note on wall"
+     "recherche": null
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Millions extorqués aux collectionneurs",
+     "grand": "30 millions",
+     "dit": "Han s'enrichit follement. Il va extorquer entre 25 et 30 millions de dollars à ses victimes.",
+     "image": 10,
+     "recherche": "money stack 1940s"
+    },
+    {
+     "type": "recit",
+     "ecran": "La *Guerre* éclate aux Pays-Bas",
+     "grand": null,
+     "dit": "Pendant la Seconde Guerre mondiale, l'occupation allemande facilite la vente de ses fausses toiles.",
+     "image": 4,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Un *nazi* très gourmand",
+     "grand": null,
+     "dit": "Le dirigeant nazi Hermann Göring veut absolument un Vermeer et achète une toile de Van Meegeren.",
+     "image": 12,
+     "recherche": "Hermann Goring"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Tableaux échangés contre un faux",
+     "grand": "200",
+     "dit": "En échange de ce faux tableau, Göring cède 200 véritables œuvres d'art saisies dans les musées hollandais.",
+     "image": 9,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Arrêté pour *haute trahison*",
+     "grand": null,
+     "dit": "Mais après la guerre, les Alliés découvrent la transaction. Han est arrêté pour collaboration avec l'ennemi.",
+     "image": 1,
+     "recherche": "Amsterdam police 1945"
+    },
+    {
+     "type": "recit",
+     "ecran": "La *peine de mort* menace",
+     "grand": null,
+     "dit": "Vendre un trésor national aux nazis est passible de la peine de mort. Il risque sa tête.",
+     "image": 3,
+     "recherche": "courtroom 1940s"
     },
     {
      "type": "suite",
-     "ecran": "Quel était ce message ?",
+     "ecran": "Comment va-t-il sauver sa vie ?",
      "grand": null,
-     "dit": "Quel était ce message mystérieux ? La suite dans la partie 2.",
-     "image": 6,
-     "recherche": "police investigation 1970s"
+     "dit": "Comment va-t-il prouver qu'il est un faussaire et non un traître ? La suite dans la partie 2.",
+     "image": 4,
+     "recherche": "artist painting cell"
     }
    ],
-   "question": "Tu aurais osé creuser sous une banque ?",
-   "legende": "Albert Spaggiari réalise le casse du siècle à Nice en passant par les égouts. Un braquage hors du commun sans violence.\n\nTu aurais osé creuser sous une banque ?",
+   "question": "Tu aurais avoué être un faussaire pour sauver ta tête ?",
+   "legende": "Il trompe les nazis avec de faux tableaux mais risquait la peine capitale.\nDécouvre l'histoire incroyable de Han van Meegeren.\nTu aurais avoué être un faussaire pour sauver ta tête ?",
    "hashtags": [
     "histoire",
-    "braquage",
-    "faitdivers",
-    "france"
-   ]
+    "histoirevraie",
+    "art",
+    "arnaque"
+   ],
+   "_credit_musique": "« freaky news » par Baringo (CC0, Freesound)"
   }
  },
  "journal": [
@@ -224,6 +235,24 @@
    "id": "spaggiari",
    "format": "serie",
    "nom": "hva-spaggiari-p1"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "spaggiari",
+   "format": "serie2",
+   "nom": "hva-spaggiari-p2"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "weimar",
+   "format": "chiffre",
+   "nom": "hva-weimar-c"
+  },
+  {
+   "jour": "2026-11-09",
+   "id": "meegeren",
+   "format": "serie",
+   "nom": "hva-meegeren-p1"
   }
  ],
  "en_chiffre": [
@@ -358,6 +387,48 @@
    "reseau": "youtube",
    "buffer": "6af0178251492b796e1f8187",
    "heure": "2026-11-08T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "hva-spaggiari-p2",
+   "reseau": "tiktok",
+   "buffer": "6af166dfe44ddbb57c37b151",
+   "heure": "2026-11-09T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "hva-spaggiari-p2",
+   "reseau": "youtube",
+   "buffer": "6af166e0cac9d7525f717765",
+   "heure": "2026-11-09T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "hva-weimar-c",
+   "reseau": "tiktok",
+   "buffer": "6af166e0cac9d7525f7177a4",
+   "heure": "2026-11-09T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "hva-weimar-c",
+   "reseau": "youtube",
+   "buffer": "6af166e12f1ff83d451cd17b",
+   "heure": "2026-11-09T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "hva-meegeren-p1",
+   "reseau": "tiktok",
+   "buffer": "6af166e12f1ff83d451cd1ba",
+   "heure": "2026-11-09T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-09",
+   "nom": "hva-meegeren-p1",
+   "reseau": "youtube",
+   "buffer": "6af166e2e44ddbb57c37b1dc",
+   "heure": "2026-11-09T20:30:00+01:00"
   }
  ]
 }
