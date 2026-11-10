@@ -17,9 +17,18 @@
   "pole-public-bancaire-003",
   "plan-sante-003",
   "plan-ruralites-003",
-  "plan-btp-logement-003"
+  "plan-btp-logement-003",
+  "plan-automobile-003",
+  "comptes-publics-004",
+  "pole-public-bancaire-004",
+  "plan-sante-004",
+  "plan-esr-004",
+  "plan-ruralites-004"
  ],
- "ecartes": {},
+ "ecartes": {
+  "plan-automobile-002": "script refusé au contrôle : 9 scènes (10 à 17 attendues) ; ton de campagne interdit (« vote ») : on explique, on ne fait pas campagne",
+  "plan-esr-003": "script refusé au contrôle : 9 scènes (10 à 17 attendues) ; 834 caractères dits, il en faut de 850 à 1250 (question comprise)"
+ },
  "journal": [
   {
    "jour": "2026-11-07",
@@ -110,6 +119,36 @@
    "jour": "2026-11-09",
    "id": "plan-btp-logement-003",
    "nom": "prog-plan-btp-logement-003"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "plan-automobile-003",
+   "nom": "prog-plan-automobile-003"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "comptes-publics-004",
+   "nom": "prog-comptes-publics-004"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "pole-public-bancaire-004",
+   "nom": "prog-pole-public-bancaire-004"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "plan-sante-004",
+   "nom": "prog-plan-sante-004"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "plan-esr-004",
+   "nom": "prog-plan-esr-004"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "plan-ruralites-004",
+   "nom": "prog-plan-ruralites-004"
   }
  ],
  "programmes": [
@@ -325,7 +364,9 @@
    "nom": "prog-pole-public-bancaire-003",
    "reseau": "youtube",
    "buffer": "6af17c742f1ff83d45257953",
-   "heure": "2026-11-09T11:15:00+01:00"
+   "heure": "2026-11-09T11:15:00+01:00",
+   "relances": 1,
+   "heure_relance": "2026-11-10T09:44:00+01:00"
   },
   {
    "jour": "2026-11-09",
@@ -368,6 +409,90 @@
    "reseau": "youtube",
    "buffer": "6af17c78e44ddbb57c3fe7e7",
    "heure": "2026-11-09T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-plan-automobile-003",
+   "reseau": "tiktok",
+   "buffer": "6af2d6bc69951ef15d582edb",
+   "heure": "2026-11-10T09:52:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-plan-automobile-003",
+   "reseau": "youtube",
+   "buffer": "6af2d6bd2224e5e623724e00",
+   "heure": "2026-11-10T09:52:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-comptes-publics-004",
+   "reseau": "tiktok",
+   "buffer": "6af2d6bd6043a21c9f59934e",
+   "heure": "2026-11-10T09:45:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-comptes-publics-004",
+   "reseau": "youtube",
+   "buffer": "6af2d6be1586e43ae33da7d8",
+   "heure": "2026-11-10T09:45:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-pole-public-bancaire-004",
+   "reseau": "tiktok",
+   "buffer": "6af2d6be69951ef15d583179",
+   "heure": "2026-11-10T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-pole-public-bancaire-004",
+   "reseau": "youtube",
+   "buffer": "6af2d6bf2224e5e623724e7e",
+   "heure": "2026-11-10T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-plan-sante-004",
+   "reseau": "tiktok",
+   "buffer": "6af2d6bf1586e43ae33daedf",
+   "heure": "2026-11-10T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-plan-sante-004",
+   "reseau": "youtube",
+   "buffer": "6af2d6c06043a21c9f599a32",
+   "heure": "2026-11-10T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-plan-esr-004",
+   "reseau": "tiktok",
+   "buffer": "6af2d6c11586e43ae33daf7f",
+   "heure": "2026-11-10T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-plan-esr-004",
+   "reseau": "youtube",
+   "buffer": "6af2d6c169951ef15d583207",
+   "heure": "2026-11-10T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-plan-ruralites-004",
+   "reseau": "tiktok",
+   "buffer": "6af2d6c2ce343d8a0183e604",
+   "heure": "2026-11-10T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-10",
+   "nom": "prog-plan-ruralites-004",
+   "reseau": "youtube",
+   "buffer": "6af2d6c22224e5e6237251c0",
+   "heure": "2026-11-10T22:00:00+01:00"
   }
  ],
  "echecs": {
@@ -376,7 +501,7 @@
   "plan-ruralites-001": 1,
   "plan-automobile-001": 1,
   "comptes-publics-002": 1,
-  "plan-automobile-002": 1,
-  "plan-esr-003": 1
+  "plan-automobile-002": 2,
+  "plan-esr-003": 2
  }
 }
