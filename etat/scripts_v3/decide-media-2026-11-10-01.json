@@ -1,0 +1,93 @@
+{
+  "accroches": [
+    "Le Cameroun a signé 3,95 milliards de FCFA de marchés de compteurs de gré à gré.",
+    "Quatre marchés de compteurs ont coûté près de 4,5 milliards de FCFA au Cameroun.",
+    "Trois marchés de compteurs ont été attribués de gré à gré sans mise en concurrence."
+  ],
+  "titre": "Marches de compteurs electriques au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "3,95 milliards *de gré à gré*",
+      "dit": "Le Cameroun a signé 3,95 milliards de FCFA de marchés de compteurs de gré à gré."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2 200 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un contrat de *2,20 milliards*",
+      "dit": "Le plus grand marché s'élève à 2,20 milliards de FCFA pour 4 720 kits de comptage intelligent."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Yaoundé | Douala | Bafoussam",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Éclairage pour *trois villes*",
+      "dit": "Ces kits sont destinés à l'éclairage public de Yaoundé, Douala et Bafoussam."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "6 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Livraison en *6 mois*",
+      "dit": "Les trois marchés publiés le 4 novembre prévoient chacun six mois de livraison."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un journal prévoyait un *appel d'offres*",
+      "dit": "Le journal de programmation prévoyait pourtant un appel d'offres national ouvert pour 45 000 compteurs."
+    }
+  ]
+}

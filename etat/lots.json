@@ -9864,5 +9864,398 @@
       "titre": "La facture de la dette extérieure grossit",
       "url": "https://youtu.be/xKjaEKnueOc"
     }
+  },
+  "decide-media-2026-11-10-01": {
+    "facebook": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:46:04+00:00",
+      "piste": "principale",
+      "post_id": "122120224719499704",
+      "programme_pour": "2026-11-10T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compteur tourne sans concours",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:02:10+00:00",
+      "piste": "principale",
+      "post_id": "1466147698939042",
+      "programme_pour": "2026-11-10T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compteur tourne sans concours",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:29:20+00:00",
+      "piste": "principale",
+      "post_id": "6af2b9c0b59b34913a5e3e52",
+      "programme_pour": "2026-11-10T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compteur tourne sans concours",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:34:37+00:00",
+      "piste": "principale",
+      "post_id": "6af2bafd05af22d7260f8613",
+      "programme_pour": "2026-11-10T08:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compteur tourne sans concours",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:07:30+00:00",
+      "piste": "principale",
+      "post_id": "6af2b4a2223aa16048f1c431",
+      "programme_pour": "2026-11-10T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compteur tourne sans concours",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:48:46+00:00",
+      "piste": "principale",
+      "post_id": "VTGgCn_wVaw",
+      "programme_pour": "2026-11-10T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compteur tourne sans concours",
+      "url": "https://youtu.be/VTGgCn_wVaw"
+    }
+  },
+  "decide-media-2026-11-10-02": {
+    "facebook": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:46:09+00:00",
+      "piste": "principale",
+      "post_id": "122120224779499704",
+      "programme_pour": "2026-11-10T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala remet le tramway sur rails",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:02:14+00:00",
+      "piste": "principale",
+      "post_id": "2355430538621846",
+      "programme_pour": "2026-11-10T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala remet le tramway sur rails",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:29:26+00:00",
+      "piste": "principale",
+      "post_id": "6af2b9c6d35dff5701e300fe",
+      "programme_pour": "2026-11-10T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala remet le tramway sur rails",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:34:38+00:00",
+      "piste": "principale",
+      "post_id": "6af2bafe223aa16048f3a717",
+      "programme_pour": "2026-11-10T11:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala remet le tramway sur rails",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-02.mp4",
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:12:38+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Douala remet le tramway sur rails"
+    },
+    "youtube": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:51:48+00:00",
+      "piste": "principale",
+      "post_id": "QB_lqAwYxhQ",
+      "programme_pour": "2026-11-10T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Douala remet le tramway sur rails",
+      "url": "https://youtu.be/QB_lqAwYxhQ"
+    }
+  },
+  "decide-media-2026-11-10-03": {
+    "facebook": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:46:12+00:00",
+      "piste": "principale",
+      "post_id": "122120224827499704",
+      "programme_pour": "2026-11-10T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coupures : la durée fait débat",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:02:19+00:00",
+      "piste": "principale",
+      "post_id": "2138832743429080",
+      "programme_pour": "2026-11-10T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coupures : la durée fait débat",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:29:27+00:00",
+      "piste": "principale",
+      "post_id": "6af2b9c726f9e6aeeaebba57",
+      "programme_pour": "2026-11-10T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coupures : la durée fait débat",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:34:39+00:00",
+      "piste": "principale",
+      "post_id": "6af2baffe261c09acca4f5ac",
+      "programme_pour": "2026-11-10T14:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coupures : la durée fait débat",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:16:36+00:00",
+      "piste": "principale",
+      "post_id": "6af2b6c4e261c09acca3c2d0",
+      "programme_pour": "2026-11-10T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coupures : la durée fait débat",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:54:16+00:00",
+      "piste": "principale",
+      "post_id": "qKiADy4yvTk",
+      "programme_pour": "2026-11-10T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coupures : la durée fait débat",
+      "url": "https://youtu.be/qKiADy4yvTk"
+    }
+  },
+  "decide-media-2026-11-10-04": {
+    "facebook": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:46:15+00:00",
+      "piste": "principale",
+      "post_id": "122120224887499704",
+      "programme_pour": "2026-11-10T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un coup de pouce pour la débrouille",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:02:25+00:00",
+      "piste": "principale",
+      "post_id": "1683567580072660",
+      "programme_pour": "2026-11-10T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un coup de pouce pour la débrouille",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:29:28+00:00",
+      "piste": "principale",
+      "post_id": "6af2b9c8d35dff5701e30152",
+      "programme_pour": "2026-11-10T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un coup de pouce pour la débrouille",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:34:40+00:00",
+      "piste": "principale",
+      "post_id": "6af2bb00d35dff5701e36f2c",
+      "programme_pour": "2026-11-10T17:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un coup de pouce pour la débrouille",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:20:24+00:00",
+      "piste": "principale",
+      "post_id": "6af2b7a8d35dff5701e29552",
+      "programme_pour": "2026-11-10T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un coup de pouce pour la débrouille",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:56:58+00:00",
+      "piste": "principale",
+      "post_id": "sSZRRHdkP3A",
+      "programme_pour": "2026-11-10T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un coup de pouce pour la débrouille",
+      "url": "https://youtu.be/sSZRRHdkP3A"
+    }
+  },
+  "decide-media-2026-11-10-05": {
+    "facebook": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:46:18+00:00",
+      "piste": "principale",
+      "post_id": "122120224941499704",
+      "programme_pour": "2026-11-10T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mototaxis : cinq jours pour s'identifier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:02:34+00:00",
+      "piste": "principale",
+      "post_id": "1638756311031029",
+      "programme_pour": "2026-11-10T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mototaxis : cinq jours pour s'identifier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:29:29+00:00",
+      "piste": "principale",
+      "post_id": "6af2b9c926f9e6aeeaebbaa4",
+      "programme_pour": "2026-11-10T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mototaxis : cinq jours pour s'identifier",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-05.mp4",
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:39:48+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Mototaxis : cinq jours pour s'identifier"
+    },
+    "x_buffer": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:24:11+00:00",
+      "piste": "principale",
+      "post_id": "6af2b88bd35dff5701e2c30a",
+      "programme_pour": "2026-11-10T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mototaxis : cinq jours pour s'identifier",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:59:26+00:00",
+      "piste": "principale",
+      "post_id": "rVXrae7pYXk",
+      "programme_pour": "2026-11-10T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mototaxis : cinq jours pour s'identifier",
+      "url": "https://youtu.be/rVXrae7pYXk"
+    }
+  },
+  "decide-media-2026-11-10-06": {
+    "facebook": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T05:46:21+00:00",
+      "piste": "principale",
+      "post_id": "122120224989499704",
+      "programme_pour": "2026-11-10T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cacao : la récolte vendue maigrit",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:02:42+00:00",
+      "piste": "principale",
+      "post_id": "1482609463782472",
+      "programme_pour": "2026-11-10T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cacao : la récolte vendue maigrit",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-06.jpg",
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:34:36+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Cacao : la récolte vendue maigrit"
+    },
+    "tiktok_buffer": {
+      "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-06.mp4",
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:44:56+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Cacao : la récolte vendue maigrit"
+    },
+    "x_buffer": {
+      "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-06.jpg",
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:29:18+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Cacao : la récolte vendue maigrit"
+    },
+    "youtube": {
+      "lot": "2026-11-10",
+      "maj": "2026-11-10T06:02:05+00:00",
+      "piste": "principale",
+      "post_id": "hWcUglLhWq8",
+      "programme_pour": "2026-11-10T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cacao : la récolte vendue maigrit",
+      "url": "https://youtu.be/hWcUglLhWq8"
+    }
   }
 }

@@ -1,0 +1,59 @@
+{
+  "accroches": [
+    "La récolte de cacao baisse de 19,9 % au Cameroun.",
+    "Le Cameroun a vendu 247 914 tonnes de cacao en 2025-2026.",
+    "Les exportations de cacao chutent de 34,7 % au Cameroun."
+  ],
+  "titre": "Cacao : la récolte vendue maigrit",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La récolte de cacao *baisse*.",
+      "dit": "La récolte de cacao baisse de 19,9 % au Cameroun pour la campagne 2025-2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "247 914 tonnes *vendues*.",
+      "dit": "Le pays a commercialisé 247 914 tonnes contre 309 518 tonnes l'année précédente."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les exportations *reculent*.",
+      "dit": "Les exportations reculent de 192 012 tonnes à 125 469 tonnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "110 388",
+        "apres": "95 946",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La transformation *baisse* aussi.",
+      "dit": "La transformation locale passe de 110 388 à 95 946 tonnes."
+    }
+  ]
+}

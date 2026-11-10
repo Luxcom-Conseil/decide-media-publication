@@ -1,0 +1,76 @@
+{
+  "accroches": [
+    "Un écart de 80 heures de coupure d'électricité oppose deux institutions au Cameroun.",
+    "Les coupures d'électricité ont augmenté de 29,2 % en 2025 au Cameroun.",
+    "L'Arsel compte 125,77 heures de coupure contre 45,59 heures pour Socadel."
+  ],
+  "titre": "Coupures d'électricité : le débat au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Un *écart* de 80 heures d'interruption",
+      "dit": "Un écart de 80 heures de coupure d'électricité oppose deux institutions au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "125,77 heures",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'Arsel *compte* 125,77 heures",
+      "dit": "Pour 2025, l'Arsel retient 125,77 heures d'interruption par client, contre 45,59 heures pour Socadel."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Kribi",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Aucune *donnée* arrêtée à Kribi",
+      "dit": "Selon DataCameroon, cet écart a été discuté le 24 juillet 2026 à Kribi sans fixer de valeur définitive."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les coupures en *hausse* de 29,2 %",
+      "dit": "Le rapport annuel de l'Arsel indique 147,83 heures d'interruption en 2025, soit 29,2 % de plus qu'en 2024."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Yaoundé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Yaoundé *concentre* 32,9 % des pertes",
+      "dit": "La région de Yaoundé concentre 27,07 gigawattheures d'énergie non distribuée, environ 32,9 % du total."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "accroches": [
+    "Douala relance un projet de tramway de 400 milliards de FCFA.",
+    "La ville de Douala vise 750 000 voyageurs par jour en tramway.",
+    "Les candidats au tramway de Douala doivent apporter 120 milliards de FCFA."
+  ],
+  "titre": "Douala relance son projet de tramway",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un tramway à *400 milliards* de FCFA",
+      "dit": "Douala relance un projet de tramway de 400 milliards de FCFA."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une ligne pilote de *20 km*",
+      "dit": "La Communauté urbaine de Douala a signé un appel à manifestation d'intérêt pour une ligne de 20 km."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 février 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dépôt des offres le *25 février 2027*",
+      "dit": "Les candidats ont jusqu'au 25 février 2027 pour déposer leur dossier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "120 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Apporter *120 milliards* de fonds propres",
+      "dit": "Les entreprises doivent financer au moins 30 % du projet, soit 120 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Objectif de *750 000* voyageurs quotidien",
+      "dit": "Le communiqué promet 750 000 voyageurs par jour avec un ticket sous les 500 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une concession de *30 ans*",
+      "dit": "La concession du tramway durera au minimum 30 ans."
+    }
+  ]
+}

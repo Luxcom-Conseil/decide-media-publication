@@ -1,0 +1,93 @@
+{
+  "accroches": [
+    "20 000 jeunes vulnérables sont visés par un nouveau programme au Cameroun.",
+    "Une enveloppe de 5,5 milliards de FCFA est prévue pour les jeunes.",
+    "Le Cameroun ouvre les inscriptions d'un programme pour 20 000 jeunes."
+  ],
+  "titre": "Aide financière pour 20 000 jeunes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "20 000 jeunes *visés* au Cameroun",
+      "dit": "20 000 jeunes vulnérables sont visés par un nouveau programme au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "9 déc. 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Inscriptions *ouvertes* jusqu'au 9 décembre",
+      "dit": "Les inscriptions se sont ouvertes le 9 novembre et s'achèvent le 9 décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Maroua | Garoua | Douala | Yaoundé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pour les indépendants de *8 villes*",
+      "dit": "Ce projet s'adresse aux travailleurs indépendants de 18 à 35 ans situés dans huit villes du pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "5 500 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une aide de *5,5 milliards* FCFA",
+      "dit": "Une enveloppe de 5,5 milliards de FCFA est prévue pour cette phase du programme."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Inscriptions *uniquement* en ligne",
+      "dit": "Les candidats doivent s'inscrire uniquement sur le portail internet du programme."
+    }
+  ]
+}

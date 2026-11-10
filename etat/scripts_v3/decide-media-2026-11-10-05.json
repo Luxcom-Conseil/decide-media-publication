@@ -1,0 +1,79 @@
+{
+  "accroches": [
+    "Une opération d'identification des mototaxis a débuté à Yaoundé.",
+    "Cinq jours pour identifier les mototaxis à Yaoundé.",
+    "Le Cameroun lance le recensement des mototaxis à Yaoundé."
+  ],
+  "titre": "Recensement des mototaxis à Yaoundé",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une opération cible les *mototaxis* à Yaoundé.",
+      "dit": "Une opération d'identification des mototaxis a débuté à Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "9 au 13 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Du 9 au 13 *novembre*.",
+      "dit": "Du 9 au 13 novembre 2026, cette opération se déroule dans la ville."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Contrôle des *pièces* des engins.",
+      "dit": "Les conducteurs se soumettent au contrôle des pièces de leurs engins."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Interdiction de vendre sans *plaque*.",
+      "dit": "La vente de motos sans plaque d'immatriculation est désormais interdite."
+    }
+  ]
+}
