@@ -3034,6 +3034,211 @@
       "sujet": "anxiete_anticipation",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-10/20261117-1830.jpg",
+      "format": "long",
+      "formule": "Enjeu",
+      "id": "20261117-1830",
+      "legende": "Ignorer le prénom de tes collègues détruit ton réseau professionnel.\n\nQuand tu prononces le prénom de quelqu'un, son cerveau se met immédiatement en alerte. C'est le signal ultime qu'il est reconnu et considéré.\n\nPour retenir facilement les prénoms, répète-le immédiatement à voix haute lors des présentations, associe-le à une image, puis réutilise-le naturellement.\n\nTu retiens facilement le prénom des gens ou tu oublies tout de suite ?\n\n#psychologie #relations #communication #developpementpersonnel",
+      "quand": "2026-11-17T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Enjeu",
+            "texte": "Ignorer le prénom de tes collègues détruit ton réseau professionnel."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de dire 'salut toi' tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit mot oublié vous coûte vos plus belles relations."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "relations",
+          "communication",
+          "developpementpersonnel"
+        ],
+        "legende": "Ignorer le prénom de tes collègues détruit ton réseau professionnel.\n\nQuand tu prononces le prénom de quelqu'un, son cerveau se met immédiatement en alerte. C'est le signal ultime qu'il est reconnu et considéré.\n\nPour retenir facilement les prénoms, répète-le immédiatement à voix haute lors des présentations, associe-le à une image, puis réutilise-le naturellement.\n\nTu retiens facilement le prénom des gens ou tu oublies tout de suite ?",
+        "question": "Tu retiens facilement le prénom des gens ou tu oublies tout de suite ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ignorer le prénom de tes collègues détruit ton réseau professionnel à petit feu.",
+            "ecran": "Ignorer ce *mot* détruit tes relations.",
+            "emoji": "😱",
+            "recherche": "man speaking disappointed office",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est qu'une seule syllabe oubliée peut ruiner une bonne première impression.",
+            "ecran": "Un *détail* change absolument tout.",
+            "emoji": "🔥",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ça repose sur le pouvoir du prénom, un levier puissant en psychologie relationnelle.",
+            "ecran": "Le *pouvoir* caché du prénom",
+            "emoji": "🧠",
+            "recherche": "brain neon glowing visual",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Imagine la scène : tu es au supermarché dans un bruit fou et soudain, quelqu'un prononce ton prénom.",
+            "ecran": "Un son *unique* pour ton cerveau",
+            "emoji": "🛒",
+            "recherche": "supermarket crowded people shopping",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Même de très loin, ton attention est captée immédiatement sans que tu ne puisses l'en empêcher.",
+            "ecran": "Ton cerveau se *réveille* instantanément",
+            "emoji": "👂",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au bureau, dire 'Merci Thomas' au lieu d'un simple 'Merci' transforme la perception de ton collègue.",
+            "ecran": "Au *bureau*, l'effet est colossal",
+            "emoji": "💼",
+            "recherche": "office worker smiling desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Entendre son propre prénom fait qu'on se sent enfin reconnu et considéré par l'autre.",
+            "ecran": "Se sentir *reconnu* et valorisé",
+            "emoji": "🤝",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le problème, c'est qu'on oublie le prénom deux secondes seulement après les présentations.",
+            "ecran": "L'erreur *classique* de la mémoire",
+            "emoji": "❌",
+            "recherche": "confused man thinking hands on head",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Salut neutre",
+            "b": "Avec prénom",
+            "dit": "L'impact émotionnel est bien plus fort quand on s'adresse à toi directement avec ton prénom.",
+            "ecran": "L'impact d'un *mot* personnalisé",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici la méthode simple en trois étapes concrètes pour ne plus jamais oublier un prénom.",
+            "ecran": "Trois *étapes* pour retenir",
+            "emoji": "💡",
+            "recherche": "person writing notebook ideas",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Répète le prénom à voix haute tout de suite après qu'on te l'a donné.",
+            "ecran": "Méthode : Répéter | Associer | Placer",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Associe ce prénom à un visage connu ou une image mentale amusante pour le fixer.",
+            "ecran": "Associe une *image* dans ta tête",
+            "emoji": "2️⃣",
+            "recherche": "thought bubble creative idea",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Réutilise ce prénom au moins une fois de manière naturelle dans la conversation.",
+            "ecran": "Utilise-le de façon *naturelle*",
+            "emoji": "3️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Attention toutefois : si tu répètes son prénom à chaque phrase, cela devient bizarre et artificiel.",
+            "ecran": "Attention à ne pas *en abuser*",
+            "emoji": "⚠️",
+            "recherche": "strange look conversation awkward",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le prénom d'une personne est pour elle le son le plus doux et le plus important.",
+            "ecran": "Le prénom est la plus douce des *musiques*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le pouvoir secret du prénom"
+      },
+      "statut": "programme",
+      "sujet": "prenom",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-10/20261117-1830.mp4"
     }
   ],
   "publications": [
