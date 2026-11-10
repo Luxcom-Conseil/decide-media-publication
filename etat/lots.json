@@ -9981,10 +9981,14 @@
     "x_buffer": {
       "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-02.mp4",
       "lot": "2026-11-10",
-      "maj": "2026-11-10T06:12:38+00:00",
-      "statut": "echec",
+      "maj": "2026-11-10T09:49:04+00:00",
+      "piste": "principale",
+      "post_id": "6af2e89007c5e29b2eab6c20",
+      "programme_pour": "2026-11-10T12:30:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "Douala remet le tramway sur rails"
+      "titre": "Douala remet le tramway sur rails",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
     },
     "youtube": {
       "lot": "2026-11-10",
@@ -10171,10 +10175,14 @@
     "tiktok_buffer": {
       "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-05.mp4",
       "lot": "2026-11-10",
-      "maj": "2026-11-10T06:39:48+00:00",
-      "statut": "echec",
+      "maj": "2026-11-10T09:50:25+00:00",
+      "piste": "principale",
+      "post_id": "6af2e8e107c5e29b2eab9220",
+      "programme_pour": "2026-11-10T20:15:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "Mototaxis : cinq jours pour s'identifier"
+      "titre": "Mototaxis : cinq jours pour s'identifier",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "lot": "2026-11-10",
@@ -10225,26 +10233,38 @@
     "linkedin_buffer": {
       "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-06.jpg",
       "lot": "2026-11-10",
-      "maj": "2026-11-10T06:34:36+00:00",
-      "statut": "echec",
+      "maj": "2026-11-10T09:49:10+00:00",
+      "piste": "principale",
+      "post_id": "6af2e89669951ef15d5ef62e",
+      "programme_pour": "2026-11-10T12:30:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "Cacao : la récolte vendue maigrit"
+      "titre": "Cacao : la récolte vendue maigrit",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
     },
     "tiktok_buffer": {
       "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-06.mp4",
       "lot": "2026-11-10",
-      "maj": "2026-11-10T06:44:56+00:00",
-      "statut": "echec",
+      "maj": "2026-11-10T09:52:15+00:00",
+      "piste": "principale",
+      "post_id": "6af2e94f27db27ce062a89b3",
+      "programme_pour": "2026-11-10T12:45:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "Cacao : la récolte vendue maigrit"
+      "titre": "Cacao : la récolte vendue maigrit",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
     },
     "x_buffer": {
       "erreur": "média pas encore en ligne après 300 s : https://luxcom-conseil.github.io/decide-media-publication/2026-11-10/decide-media-2026-11-10-06.jpg",
       "lot": "2026-11-10",
-      "maj": "2026-11-10T06:29:18+00:00",
-      "statut": "echec",
+      "maj": "2026-11-10T09:49:09+00:00",
+      "piste": "principale",
+      "post_id": "6af2e8956043a21c9f5ff228",
+      "programme_pour": "2026-11-10T15:30:00+01:00",
+      "statut": "programme",
       "tentatives": 1,
-      "titre": "Cacao : la récolte vendue maigrit"
+      "titre": "Cacao : la récolte vendue maigrit",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
     },
     "youtube": {
       "lot": "2026-11-10",
