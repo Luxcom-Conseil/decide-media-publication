@@ -544,115 +544,14 @@
       "formule": "Défi",
       "id": "20261110-1230",
       "legende": "Personne ne m'a expliqué ça, et ça a changé ma vie.\n\nQuand tu te sens vidé par le travail, s'enfermer devant un autre écran ne recharge pas tes batteries. Ton esprit a besoin de calme visuel.\n\nFais une courte pause dehors chaque jour, sans regarder ton téléphone. Quelques minutes au vert suffisent pour relâcher la pression.\n\nTu fais des pauses dehors dans ta journée ?\n\n#psychologie #bienetre #stress #santeMentale",
+      "media_id": "18137785195676167",
+      "publie_le": "2026-11-10T11:31:49+00:00",
       "quand": "2026-11-10T12:30:00+01:00",
       "refait_le": "2026-11-08T11:39:57+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Défi",
-            "texte": "Personne ne m'a expliqué ça, et ça a changé ma vie."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe gratuit te coûte ton énergie tous les jours."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de chercher des solutions complexes tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "bienetre",
-          "stress",
-          "santeMentale"
-        ],
-        "legende": "Personne ne m'a expliqué ça, et ça a changé ma vie.\n\nQuand tu te sens vidé par le travail, s'enfermer devant un autre écran ne recharge pas tes batteries. Ton esprit a besoin de calme visuel.\n\nFais une courte pause dehors chaque jour, sans regarder ton téléphone. Quelques minutes au vert suffisent pour relâcher la pression.\n\nTu fais des pauses dehors dans ta journée ?",
-        "question": "Tu fais des pauses dehors dans ta journée ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Personne ne m'a expliqué ça, et ça a changé ma vie.",
-            "ecran": "Ça a *tout* changé pour moi",
-            "emoji": "🌿",
-            "recherche": "man walking outdoors park",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est simplement le pouvoir de la nature sur ton cerveau.",
-            "ecran": "Le *pouvoir* de la nature",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu passes ta journée assis devant ton écran et tu finis le soir vidé.",
-            "ecran": "Tu finis la journée *épuisé*",
-            "emoji": "😫",
-            "recherche": "tired worker desk computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Passer du temps dehors au vert aide ton esprit à récupérer de la fatigue.",
-            "ecran": "Le calme *recharge* le cerveau",
-            "emoji": "🔋",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour appliquer ça : Un, sors dehors chaque jour. Deux, laisse ton téléphone dans ta poche.",
-            "ecran": "L'astuce : 1. Sors 10min | 2. Pas de téléphone",
-            "emoji": "💡",
-            "recherche": "person walking park no phone",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Dix minutes dehors sans écran valent mieux qu'une heure de pause scrollée.",
-            "ecran": "Dix minutes *dehors* valent une heure de repos",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu fais des pauses dehors dans ta journée ?",
-            "ecran": "Ta *pause* dehors ?",
-            "emoji": "❓",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le pouvoir de la nature"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "nature",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Dfjzdpmj-B7/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-1230-r.mp4"
     },
     {
@@ -3420,6 +3319,13 @@
       "media_id": "18114968549130477",
       "sujet": "emotions_enfant",
       "url": "https://www.instagram.com/reel/DfiJG8igB9k/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-10",
+      "media_id": "18137785195676167",
+      "sujet": "nature",
+      "url": "https://www.instagram.com/reel/Dfjzdpmj-B7/"
     }
   ]
 }
