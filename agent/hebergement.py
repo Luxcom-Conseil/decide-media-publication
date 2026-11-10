@@ -16,7 +16,10 @@ import requests
 
 RACINE = Path(__file__).resolve().parent.parent
 BRANCHE = "medias"
-JOURS_GARDES = 3
+# 1 = la veille et le jour même. Le 10/11/2026, avec 9 vidéos par jour du compte « Histoires vraies d'argent », 4 jours
+# faisaient 1,14 Go : au-delà de la limite de 1 Go de GitHub Pages, le déploiement échouait et rien n'était programmé.
+# Buffer va chercher la vidéo à l'heure de publication, puis n'en a plus besoin (relance des refus : histoires.relancer).
+JOURS_GARDES = 1
 JOURS_GARDES_SEMAINE = 10  # Reels Instagram perso produits le dimanche pour toute la semaine
 
 
