@@ -561,10 +561,13 @@
       "formule": "Enjeu",
       "id": "20261110-1830",
       "legende": "Ton téléphone est en train de détruire ton attention au travail.\n\nNous avons tous cette peur constante de louper une information ou un message. Pourtant, couper les notifications et accepter de rater des choses change tout.\n\nCombien de fois regardes tu ton téléphone par jour sans raison ?\n\n#productivite #psychologie #bienetre #attention",
+      "media_id": "18131299712492399",
+      "publie_le": "2026-11-10T17:32:15+00:00",
       "quand": "2026-11-10T18:30:00+01:00",
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "fomo",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfkcrG_kS3u/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261110-1830.mp4"
     },
     {
@@ -3326,6 +3329,13 @@
       "media_id": "18137785195676167",
       "sujet": "nature",
       "url": "https://www.instagram.com/reel/Dfjzdpmj-B7/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-10",
+      "media_id": "18131299712492399",
+      "sujet": "fomo",
+      "url": "https://www.instagram.com/reel/DfkcrG_kS3u/"
     }
   ]
 }
