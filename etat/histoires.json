@@ -9,152 +9,139 @@
   "krach1929",
   "spaggiari",
   "weimar",
-  "meegeren"
+  "meegeren",
+  "mansa",
+  "macgregor"
  ],
  "attente_partie2": {
-  "id": "meegeren",
-  "jour_partie1": "2026-11-09",
+  "id": "macgregor",
+  "jour_partie1": "2026-11-10",
   "script": {
-   "titre": "L'homme qui a trompé les nazis",
+   "titre": "L'incroyable arnaque du Poyaïs",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "Il trompe les nazis avec de faux tableaux",
+     "ecran": "Il a vendu un pays qui n'existait pas.",
      "grand": null,
-     "dit": "Ce peintre a vendu de faux chefs-d'œuvre aux nazis, mais ses mensonges vont totalement se retourner contre lui.",
-     "image": 1,
+     "dit": "Il a vendu un pays entier qui n'existait pas. Comment cet écossais a-t-il piégé l'Angleterre ?",
+     "image": 7,
      "recherche": null
     },
     {
+     "type": "date",
+     "ecran": "24 décembre 1786",
+     "grand": "1786",
+     "dit": "Gregor MacGregor naît en Écosse en décembre 1786 dans une famille aux origines marquées par l'histoire.",
+     "image": 14,
+     "recherche": "Scottish Highlands landscape"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "450 livres",
+     "grand": "450",
+     "dit": "À seize ans, il entre dans l'armée britannique après que sa famille a acheté sa commission pour 450 livres.",
+     "image": 2,
+     "recherche": "British redcoat 1803"
+    },
+    {
      "type": "recit",
-     "ecran": "Un *talent* rejeté par les critiques",
+     "ecran": "Un mariage *stratégique*",
      "grand": null,
-     "dit": "Au début du XXe siècle, aux Pays-Bas, Han van Meegeren veut devenir un grand artiste.",
+     "dit": "Il épouse Maria Bowater en 1805 et achète le grade de capitaine, mais son obsession pour les uniformes le rend impopulaire.",
+     "image": 15,
+     "recherche": "British officer 1805"
+    },
+    {
+     "type": "date",
+     "ecran": "1810",
+     "grand": "1810",
+     "dit": "En 1810, il quitte l'armée britannique après un désaccord avec un supérieur et récupère l'argent de ses grades.",
+     "image": 4,
+     "recherche": "British military uniform 1810"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le faux *colonel*",
+     "grand": null,
+     "dit": "De retour en Grande-Bretagne, il s'invente des titres de noblesse et roule dans un carrosse aux couleurs extravagantes.",
      "image": 6,
      "recherche": null
     },
     {
-     "type": "recit",
-     "ecran": "Ses œuvres jugées comme de simples *imitations*",
-     "grand": null,
-     "dit": "Mais en 1922, les critiques d'art démolissent son travail. Ils disent que ses toiles ne sont que de vieilles imitations.",
+     "type": "date",
+     "ecran": "1812",
+     "grand": "1812",
+     "dit": "En 1812, après la mort de sa femme, il s'embarque pour l'Amérique du Sud pour participer aux révoltes contre l'Espagne.",
      "image": 5,
      "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "La *vengeance* d'un peintre humilié",
+     "ecran": "Mercenaire *au* Venezuela",
      "grand": null,
-     "dit": "Blessé, Han décide de se venger. Il va prouver au monde entier qu'il est capable de duper tous les experts.",
-     "image": 11,
-     "recherche": "Han van Meegeren portrait"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Ans de préparation secrète",
-     "grand": "6 ans",
-     "dit": "Pendant six ans, il étudie en secret les techniques des grands maîtres flamands comme Vermeer.",
-     "image": 2,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "La *recette* du parfait faussaire",
-     "grand": null,
-     "dit": "Il achète de vieilles toiles du XVIIe siècle, gratte la peinture et fabrique ses propres pigments d'époque.",
-     "image": 7,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Une *cuisson* pour vieillir la peinture",
-     "grand": null,
-     "dit": "Il passe même ses toiles au four et ajoute de l'encre noire dans les craquelures pour imiter la poussière du temps.",
-     "image": 6,
-     "recherche": "vintage oven 1930s"
-    },
-    {
-     "type": "date",
-     "ecran": "Le premier coup de maître",
-     "grand": "1937",
-     "dit": "En 1937, il sort son chef-d'œuvre : Les Disciples d'Emmaüs, présenté comme un Vermeer perdu.",
-     "image": 1,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Les *experts* tombent dans le panneau",
-     "grand": null,
-     "dit": "Le plus grand expert hollandais l'examine et déclare au monde entier que c'est un véritable Vermeer.",
-     "image": 8,
-     "recherche": null
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Millions extorqués aux collectionneurs",
-     "grand": "30 millions",
-     "dit": "Han s'enrichit follement. Il va extorquer entre 25 et 30 millions de dollars à ses victimes.",
+     "dit": "Il combat aux côtés de Simón Bolívar et Francisco de Miranda, gagnant rapidement le grade de général de brigade.",
      "image": 10,
-     "recherche": "money stack 1940s"
-    },
-    {
-     "type": "recit",
-     "ecran": "La *Guerre* éclate aux Pays-Bas",
-     "grand": null,
-     "dit": "Pendant la Seconde Guerre mondiale, l'occupation allemande facilite la vente de ses fausses toiles.",
-     "image": 4,
      "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Un *nazi* très gourmand",
+     "ecran": "Une retraite *militaire*",
      "grand": null,
-     "dit": "Le dirigeant nazi Hermann Göring veut absolument un Vermeer et achète une toile de Van Meegeren.",
-     "image": 12,
-     "recherche": "Hermann Goring"
+     "dit": "Il mène une retraite audacieuse à travers le Venezuela en 1816, échappant de justesse aux troupes royalistes espagnoles.",
+     "image": 8,
+     "recherche": "South American landscape 1810s"
     },
     {
      "type": "chiffre",
-     "ecran": "Tableaux échangés contre un faux",
-     "grand": "200",
-     "dit": "En échange de ce faux tableau, Göring cède 200 véritables œuvres d'art saisies dans les musées hollandais.",
-     "image": 9,
+     "ecran": "1 200 hommes",
+     "grand": "1 200",
+     "dit": "À la tête de ses troupes, il se distingue par des tactiques qui lui valent une réputation de héros en Jamaïque.",
+     "image": 10,
+     "recherche": "Cartagena de Indias 1800s"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le roi *de* la côte",
+     "grand": null,
+     "dit": "En 1820, il achète des terres au roi de la côte des Mosquitos en Amérique centrale pour y fonder un État.",
+     "image": 3,
      "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Arrêté pour *haute trahison*",
+     "ecran": "La naissance *du* Poyaïs",
      "grand": null,
-     "dit": "Mais après la guerre, les Alliés découvrent la transaction. Han est arrêté pour collaboration avec l'ennemi.",
+     "dit": "De retour à Londres, il invente de toutes pièces le Poyaïs, un pays tropical idyllique qu'il prétend diriger.",
      "image": 1,
-     "recherche": "Amsterdam police 1945"
+     "recherche": null
     },
     {
-     "type": "recit",
-     "ecran": "La *peine de mort* menace",
-     "grand": null,
-     "dit": "Vendre un trésor national aux nazis est passible de la peine de mort. Il risque sa tête.",
-     "image": 3,
-     "recherche": "courtroom 1940s"
+     "type": "chiffre",
+     "ecran": "Trois ans *de* vente",
+     "grand": "3",
+     "dit": "Pendant presque trois ans, il vend des titres fonciers et promet une vie de rêve à des investisseurs britanniques.",
+     "image": 0,
+     "recherche": null
     },
     {
      "type": "suite",
-     "ecran": "Comment va-t-il sauver sa vie ?",
+     "ecran": "Comment l'arnaque a-t-elle fini ?",
      "grand": null,
-     "dit": "Comment va-t-il prouver qu'il est un faussaire et non un traître ? La suite dans la partie 2.",
-     "image": 4,
-     "recherche": "artist painting cell"
+     "dit": "Comment l'arnaque a-t-elle fini par éclater ? La suite dans la partie 2.",
+     "image": 16,
+     "recherche": "Old London map 1820"
     }
    ],
-   "question": "Tu aurais avoué être un faussaire pour sauver ta tête ?",
-   "legende": "Il trompe les nazis avec de faux tableaux mais risquait la peine capitale.\nDécouvre l'histoire incroyable de Han van Meegeren.\nTu aurais avoué être un faussaire pour sauver ta tête ?",
+   "question": "Tu aurais acheté des terres dans son faux pays ?",
+   "legende": "Gregor MacGregor est passé de mercenaire en Amérique du Sud à l'un des plus grand escrocs de l'histoire britannique en inventant le Poyaïs. Tu aurais acheté des terres dans son faux pays ?",
    "hashtags": [
     "histoire",
-    "histoirevraie",
-    "art",
-    "arnaque"
+    "arnaque",
+    "finance",
+    "documentaire",
+    "royaumeuni"
    ],
-   "_credit_musique": "« freaky news » par Baringo (CC0, Freesound)"
+   "_credit_musique": "« Street Museum (Dark Ambient BGM) » par ChristmasKrumble666 (CC0, Freesound)"
   }
  },
  "journal": [
@@ -253,10 +240,35 @@
    "id": "meegeren",
    "format": "serie",
    "nom": "hva-meegeren-p1"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "meegeren",
+   "format": "serie2",
+   "nom": "hva-meegeren-p2"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "mansa",
+   "format": "chiffre",
+   "nom": "hva-mansa-c"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "madoff",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 12 scènes (13 à 24 attendues)"
+  },
+  {
+   "jour": "2026-11-10",
+   "id": "macgregor",
+   "format": "serie",
+   "nom": "hva-macgregor-p1"
   }
  ],
  "en_chiffre": [
-  "humbert"
+  "humbert",
+  "madoff"
  ],
  "ecartes": {
   "humbert": "script refusé au contrôle : 643 caractères dits, il en faut de 380 à 600 (question comprise)"
