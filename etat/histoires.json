@@ -11,137 +11,138 @@
   "weimar",
   "meegeren",
   "mansa",
-  "macgregor"
+  "macgregor",
+  "madoff",
+  "collier"
  ],
  "attente_partie2": {
-  "id": "macgregor",
-  "jour_partie1": "2026-11-10",
+  "id": "collier",
+  "jour_partie1": "2026-11-11",
   "script": {
-   "titre": "L'incroyable arnaque du Poyaïs",
+   "titre": "L'affaire du collier",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "Il a vendu un pays qui n'existait pas.",
+     "ecran": "Un collier royal d'une valeur folle",
      "grand": null,
-     "dit": "Il a vendu un pays entier qui n'existait pas. Comment cet écossais a-t-il piégé l'Angleterre ?",
-     "image": 7,
-     "recherche": null
-    },
-    {
-     "type": "date",
-     "ecran": "24 décembre 1786",
-     "grand": "1786",
-     "dit": "Gregor MacGregor naît en Écosse en décembre 1786 dans une famille aux origines marquées par l'histoire.",
-     "image": 14,
-     "recherche": "Scottish Highlands landscape"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "450 livres",
-     "grand": "450",
-     "dit": "À seize ans, il entre dans l'armée britannique après que sa famille a acheté sa commission pour 450 livres.",
+     "dit": "Tout le monde accuse Marie-Antoinette, mais elle n'a jamais touché au collier le plus cher du monde.",
      "image": 2,
-     "recherche": "British redcoat 1803"
-    },
-    {
-     "type": "recit",
-     "ecran": "Un mariage *stratégique*",
-     "grand": null,
-     "dit": "Il épouse Maria Bowater en 1805 et achète le grade de capitaine, mais son obsession pour les uniformes le rend impopulaire.",
-     "image": 15,
-     "recherche": "British officer 1805"
-    },
-    {
-     "type": "date",
-     "ecran": "1810",
-     "grand": "1810",
-     "dit": "En 1810, il quitte l'armée britannique après un désaccord avec un supérieur et récupère l'argent de ses grades.",
-     "image": 4,
-     "recherche": "British military uniform 1810"
-    },
-    {
-     "type": "recit",
-     "ecran": "Le faux *colonel*",
-     "grand": null,
-     "dit": "De retour en Grande-Bretagne, il s'invente des titres de noblesse et roule dans un carrosse aux couleurs extravagantes.",
-     "image": 6,
      "recherche": null
     },
     {
      "type": "date",
-     "ecran": "1812",
-     "grand": "1812",
-     "dit": "En 1812, après la mort de sa femme, il s'embarque pour l'Amérique du Sud pour participer aux révoltes contre l'Espagne.",
-     "image": 5,
+     "ecran": "1772 à Paris",
+     "grand": "1772",
+     "dit": "En 1772, Louis XV commande un bijou exceptionnel pour Madame du Barry, le plus somptueux jamais créé.",
+     "image": 0,
      "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Mercenaire *au* Venezuela",
-     "grand": null,
-     "dit": "Il combat aux côtés de Simón Bolívar et Francisco de Miranda, gagnant rapidement le grade de général de brigade.",
-     "image": 10,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Une retraite *militaire*",
-     "grand": null,
-     "dit": "Il mène une retraite audacieuse à travers le Venezuela en 1816, échappant de justesse aux troupes royalistes espagnoles.",
-     "image": 8,
-     "recherche": "South American landscape 1810s"
     },
     {
      "type": "chiffre",
-     "ecran": "1 200 hommes",
-     "grand": "1 200",
-     "dit": "À la tête de ses troupes, il se distingue par des tactiques qui lui valent une réputation de héros en Jamaïque.",
-     "image": 10,
-     "recherche": "Cartagena de Indias 1800s"
+     "ecran": "674 diamants",
+     "grand": "674",
+     "dit": "Ce chef d'œuvre absolu réunit 674 diamants d'une pureté exceptionnelle pour un total de 2 842 carats.",
+     "image": 2,
+     "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Le roi *de* la côte",
+     "ecran": "La mort de Louis *XV*",
      "grand": null,
-     "dit": "En 1820, il achète des terres au roi de la côte des Mosquitos en Amérique centrale pour y fonder un État.",
+     "dit": "Mais Louis XV meurt en 1774. Le bijou reste inachevé et ses créateurs se retrouvent au bord de la faillite.",
+     "image": 11,
+     "recherche": "diamond necklace 18th century"
+    },
+    {
+     "type": "recit",
+     "ecran": "Marie-Antoinette refuse le *bijou*",
+     "grand": null,
+     "dit": "Les joailliers tentent de le vendre à Marie-Antoinette. Elle refuse net, le comparant à un harnais pour chevaux.",
+     "image": 10,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "L'ascension de Jeanne de *Valois*",
+     "grand": null,
+     "dit": "C'est alors qu'entre en scène Jeanne de Valois, une noble sans le sou mais dotée d'une ambition dévorante.",
+     "image": 1,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Le cardinal de *Rohan*",
+     "grand": null,
+     "dit": "Elle parvient à séduire le cardinal de Rohan, un prélat influent qui rêve de regagner les faveurs de la reine.",
+     "image": 12,
+     "recherche": "cardinal de rohan portrait"
+    },
+    {
+     "type": "recit",
+     "ecran": "De fausses lettres *royales*",
+     "grand": null,
+     "dit": "Grâce à un habile faussaire, Jeanne fabrique de fausses lettres de Marie-Antoinette pour manipuler le cardinal.",
+     "image": 9,
+     "recherche": null
+    },
+    {
+     "type": "date",
+     "ecran": "Nuit du 11 août 1784",
+     "grand": "11 août",
+     "dit": "Elle organise un rendez-vous nocturne dans les jardins de Versailles avec une sosie pour duper le cardinal.",
+     "image": 8,
+     "recherche": "versailles gardens 18th century"
+    },
+    {
+     "type": "recit",
+     "ecran": "La confiance est *totale*",
+     "grand": null,
+     "dit": "Convaincu d'avoir la bienveillance de la reine, le cardinal plonge la tête la première dans le piège de Jeanne.",
+     "image": 13,
+     "recherche": "french court 18th century"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "1,6 million de livres",
+     "grand": "1,6 million",
+     "dit": "Jeanne ourdit son coup final et pousse le cardinal à acheter le fameux collier pour un prix colossal.",
+     "image": 2,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Le collier est *livré*",
+     "grand": null,
+     "dit": "Le cardinal achète le bijou à crédit et le remet à Jeanne, persuadé qu'il est destiné à la reine.",
      "image": 3,
      "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "La naissance *du* Poyaïs",
+     "ecran": "Les diamants sont *vendus*",
      "grand": null,
-     "dit": "De retour à Londres, il invente de toutes pièces le Poyaïs, un pays tropical idyllique qu'il prétend diriger.",
-     "image": 1,
-     "recherche": null
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Trois ans *de* vente",
-     "grand": "3",
-     "dit": "Pendant presque trois ans, il vend des titres fonciers et promet une vie de rêve à des investisseurs britanniques.",
-     "image": 0,
-     "recherche": null
+     "dit": "Aussitôt, les complices de Jeanne désertissent le collier et s'empressent de revendre les diamants en pièces détachées.",
+     "image": 14,
+     "recherche": "cut diamonds 18th century"
     },
     {
      "type": "suite",
-     "ecran": "Comment l'arnaque a-t-elle fini ?",
+     "ecran": "Comment l'arnaque a-t-elle éclaté ?",
      "grand": null,
-     "dit": "Comment l'arnaque a-t-elle fini par éclater ? La suite dans la partie 2.",
-     "image": 16,
-     "recherche": "Old London map 1820"
+     "dit": "Comment l'arnaque a-t-elle éclaté au grand jour ? La suite dans la partie 2.",
+     "image": 13,
+     "recherche": "parliament of paris 18th century"
     }
    ],
-   "question": "Tu aurais acheté des terres dans son faux pays ?",
-   "legende": "Gregor MacGregor est passé de mercenaire en Amérique du Sud à l'un des plus grand escrocs de l'histoire britannique en inventant le Poyaïs. Tu aurais acheté des terres dans son faux pays ?",
+   "question": "Comment le scandale a-t-il éclaté ?",
+   "legende": "Tout le monde accuse Marie-Antoinette, mais elle n'a jamais touché au collier le plus cher du monde. Plongée au cœur de l'une des plus grandes escroqueries de l'Ancien Régime. Comment le scandale a-t-il éclaté ?",
    "hashtags": [
     "histoire",
-    "arnaque",
-    "finance",
-    "documentaire",
-    "royaumeuni"
+    "france",
+    "scandale",
+    "archives"
    ],
-   "_credit_musique": "« Street Museum (Dark Ambient BGM) » par ChristmasKrumble666 (CC0, Freesound)"
+   "_credit_musique": "« Egypt Detective Flute Orcherstra Piano Atmo Dark Thriller Strings Cinematic Music Surround » par szegvari (CC0, Freesound)"
   }
  },
  "journal": [
@@ -264,6 +265,24 @@
    "id": "macgregor",
    "format": "serie",
    "nom": "hva-macgregor-p1"
+  },
+  {
+   "jour": "2026-11-11",
+   "id": "macgregor",
+   "format": "serie2",
+   "nom": "hva-macgregor-p2"
+  },
+  {
+   "jour": "2026-11-11",
+   "id": "madoff",
+   "format": "chiffre",
+   "nom": "hva-madoff-c"
+  },
+  {
+   "jour": "2026-11-11",
+   "id": "collier",
+   "format": "serie",
+   "nom": "hva-collier-p1"
   }
  ],
  "en_chiffre": [
@@ -483,6 +502,48 @@
    "reseau": "youtube",
    "buffer": "6af2d2c505af22d726172298",
    "heure": "2026-11-10T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-11",
+   "nom": "hva-macgregor-p2",
+   "reseau": "tiktok",
+   "buffer": "6af4097ea9d779009b8b0aa5",
+   "heure": "2026-11-11T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-11",
+   "nom": "hva-macgregor-p2",
+   "reseau": "youtube",
+   "buffer": "6af4097fe324ad28736d9f3c",
+   "heure": "2026-11-11T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-11",
+   "nom": "hva-madoff-c",
+   "reseau": "tiktok",
+   "buffer": "6af4097f7ffe799078d74da6",
+   "heure": "2026-11-11T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-11",
+   "nom": "hva-madoff-c",
+   "reseau": "youtube",
+   "buffer": "6af40980095081ea08bcb4bf",
+   "heure": "2026-11-11T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-11",
+   "nom": "hva-collier-p1",
+   "reseau": "tiktok",
+   "buffer": "6af409807ffe799078d74de3",
+   "heure": "2026-11-11T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-11",
+   "nom": "hva-collier-p1",
+   "reseau": "youtube",
+   "buffer": "6af40981095081ea08bcb4f4",
+   "heure": "2026-11-11T20:30:00+01:00"
   }
  ]
 }
