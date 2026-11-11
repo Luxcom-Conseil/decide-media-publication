@@ -609,116 +609,14 @@
       "formule": "Démasquer",
       "id": "20261111-1830",
       "legende": "Tes enfants n'écoutent rien ? On te cache la vraie solution.\n\nLes crises du réveil et du coucher épuisent tout le monde. Pourtant, un cerveau rassuré est un cerveau qui coopère.\n\nEn mettant en place des étapes simples et fixes, tu supprimes le besoin de négocier chaque soir. L'enfant sait exactement ce qui vient après.\n\nQuelle étape bloque souvent dans ta routine du soir ?\n\n#parentalite #education #routine #viedefamille #psychologie",
+      "media_id": "18073447193665542",
+      "publie_le": "2026-11-11T17:31:47+00:00",
       "quand": "2026-11-11T18:30:00+01:00",
       "refait_le": "2026-11-08T11:39:57+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Démasquer",
-            "texte": "Tes enfants n'écoutent rien ? On te cache la vraie solution."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Gérer les crises du soir te fait perdre toute ton énergie."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce mauvais réflexe à la maison te coûte tes soirées."
-          }
-        ],
-        "hashtags": [
-          "parentalite",
-          "education",
-          "routine",
-          "viedefamille",
-          "psychologie"
-        ],
-        "legende": "Tes enfants n'écoutent rien ? On te cache la vraie solution.\n\nLes crises du réveil et du coucher épuisent tout le monde. Pourtant, un cerveau rassuré est un cerveau qui coopère.\n\nEn mettant en place des étapes simples et fixes, tu supprimes le besoin de négocier chaque soir. L'enfant sait exactement ce qui vient après.\n\nQuelle étape bloque souvent dans ta routine du soir ?",
-        "question": "Quelle étape bloque souvent dans ta routine du soir ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tes enfants n'écoutent rien ? On te cache la vraie solution.",
-            "ecran": "On te *cache* la vraie solution",
-            "emoji": "😱",
-            "recherche": "angry child parents home",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour stopper les crises, utilise la force des routines.",
-            "ecran": "La *force* des routines",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Chaque soir, c'est la négociation interminable pour aller au lit.",
-            "ecran": "La *bataille* du coucher",
-            "emoji": "🛏️",
-            "recherche": "tired parent kids bed",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Des routines prévisibles rassurent l'enfant et réduisent la fatigue.",
-            "ecran": "Le cerveau aime la *prévisibilité*",
-            "emoji": "🛡️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Installe deux règles : les mêmes étapes, toujours dans le même ordre.",
-            "ecran": "Routines : Mêmes étapes | Même ordre",
-            "emoji": "💡",
-            "recherche": "family morning routine",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Applique cet enchaînement exact au réveil et avant de dormir.",
-            "ecran": "Au *réveil* comme au coucher",
-            "emoji": "⏳",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "La routine remplace la négociation.",
-            "ecran": "La *routine* remplace la négociation",
-            "emoji": "🎯",
-            "recherche": "happy family evening",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La force des routines"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "routine",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfnBdRKjMWb/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-1830-r.mp4"
     },
     {
@@ -3561,6 +3459,13 @@
       "media_id": "18114938810270631",
       "sujet": "reconnaissance_travail",
       "url": "https://www.instagram.com/reel/DfmYQXCgR6s/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-11",
+      "media_id": "18073447193665542",
+      "sujet": "routine",
+      "url": "https://www.instagram.com/reel/DfnBdRKjMWb/"
     }
   ]
 }
