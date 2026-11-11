@@ -626,214 +626,14 @@
       "formule": "Contre-pied",
       "id": "20261111-2100",
       "legende": "Tu crois que ne rien faire te fait perdre ton temps ? C'est l'inverse.\n\nQuand tu remplis chaque temps mort avec un écran ou du son, tu empêches ton cerveau de se reposer. Résultat : tu tues ta propre créativité sans t'en rendre compte.\n\nPour retrouver tes meilleures idées, crée volontairement des moments de vide. Pas de téléphone, pas de musique. Laisse simplement ton esprit vagabonder pendant quelques minutes.\n\nQuelle est la dernière bonne idée que tu as eue sans utiliser ton téléphone ?\n\n#psychologie #creativite #productivite #developpementpersonnel",
+      "media_id": "18137425591646864",
+      "publie_le": "2026-11-11T20:02:23+00:00",
       "quand": "2026-11-11T21:00:00+01:00",
       "refait_le": "2026-11-08T11:39:57+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que ne rien faire te fait perdre ton temps ? C'est l'inverse."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce réflexe de sortir ton téléphone te coûte tes meilleures idées."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de remplir chaque minute vide tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "creativite",
-          "productivite",
-          "developpementpersonnel"
-        ],
-        "legende": "Tu crois que ne rien faire te fait perdre ton temps ? C'est l'inverse.\n\nQuand tu remplis chaque temps mort avec un écran ou du son, tu empêches ton cerveau de se reposer. Résultat : tu tues ta propre créativité sans t'en rendre compte.\n\nPour retrouver tes meilleures idées, crée volontairement des moments de vide. Pas de téléphone, pas de musique. Laisse simplement ton esprit vagabonder pendant quelques minutes.\n\nQuelle est la dernière bonne idée que tu as eue sans utiliser ton téléphone ?",
-        "question": "Quelle est la dernière bonne idée que tu as eue sans utiliser ton téléphone ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu crois que ne rien faire te fait perdre ton temps ? C'est l'inverse.",
-            "ecran": "Tu *perds* ton temps ?",
-            "emoji": "🤯",
-            "recherche": "bored man looking smartphone",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Dès qu'il y a une pause, dans les transports ou une file d'attente, tu sors ton écran.",
-            "ecran": "Toujours *occupé*",
-            "emoji": "📱",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et sans le savoir, tu bloques ce qui pourrait débloquer toute ta journée.",
-            "ecran": "Une grave *erreur*",
-            "emoji": "⚡",
-            "recherche": "waiting line bus stop",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce phénomène tout simple, c'est le pouvoir de l'ennui.",
-            "ecran": "Le *pouvoir* de l'ennui",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand tu ne lui donnes aucune stimulation, ton cerveau cherche tout seul à s'occuper.",
-            "ecran": "Ton cerveau *cherche*",
-            "emoji": "💡",
-            "recherche": "thoughtful person looking window",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Il laisse l'esprit vagabonder librement, loin du stress du travail.",
-            "ecran": "L'esprit *vagabonde*",
-            "emoji": "🕊️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est exactement dans ces moments vides que naissent tes meilleures idées et ta créativité.",
-            "ecran": "Les *meilleures* idées",
-            "emoji": "✨",
-            "recherche": "creative spark idea happy",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Si tu remplis chaque seconde avec de la musique ou des vidéos, tu coupes ce processus.",
-            "ecran": "Tu *bloques* tout",
-            "emoji": "🔕",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu as déjà remarqué comme tes meilleures idées arrivent sous la douche ou en marchant ?",
-            "ecran": "L'effet *douche*",
-            "emoji": "🚿",
-            "recherche": "man walking peaceful park",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce n'est pas un hasard, c'est juste que ton cerveau a enfin de l'espace pour respirer.",
-            "ecran": "Ce n'est pas un *hasard*",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Écran continu",
-            "b": "Temps vide",
-            "dit": "Plus tu acceptes les temps morts, plus ton esprit devient créatif et efficace.",
-            "ecran": "Créativité et *temps vide*",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour en profiter, applique cette méthode simple au quotidien.",
-            "ecran": "La méthode : 0 écran | 0 musique | Laisser faire",
-            "emoji": "🛠️",
-            "recherche": "putting phone down desk",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Accorde-toi chaque jour des moments courts sans aucun écran.",
-            "ecran": "Un. *Zéro* écran",
-            "emoji": "1️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Marche ou attends sans mettre de casque ni de musique.",
-            "ecran": "Deux. *Zéro* musique",
-            "emoji": "2️⃣",
-            "recherche": "person walking city side view",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Laisse ton esprit vagabonder sans forcer, ton cerveau fera tout le reste.",
-            "ecran": "Trois. *Laisser* faire",
-            "emoji": "3️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Laisse ton esprit respirer pour débloquer tes meilleures idées.",
-            "ecran": "Laisse ton esprit *respirer* pour débloquer tes meilleures idées.",
-            "emoji": "💎",
-            "recherche": "mindful relaxed person breathing",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le pouvoir de l'ennui"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "ennui",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfnSpY7kk-V/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261111-2100-r.mp4"
     },
     {
@@ -4124,6 +3924,13 @@
       "media_id": "18073447193665542",
       "sujet": "routine",
       "url": "https://www.instagram.com/reel/DfnBdRKjMWb/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-11",
+      "media_id": "18137425591646864",
+      "sujet": "ennui",
+      "url": "https://www.instagram.com/reel/DfnSpY7kk-V/"
     }
   ]
 }
