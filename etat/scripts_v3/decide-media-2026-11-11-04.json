@@ -1,0 +1,73 @@
+{
+  "accroches": [
+    "L'inscription au Certificat d'études primaires coûte 6 000 francs CFA.",
+    "Des directeurs réclament jusqu'à 25 000 francs au lieu des 6 000 officiels.",
+    "L'inscription au CEP reste fixée à 6 000 francs CFA."
+  ],
+  "titre": "CEP : 6 000 francs CFA maximum",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "L'inscription au CEP coûte *6 000 FCFA*",
+      "dit": "L'inscription au Certificat d'études primaires coûte 6 000 francs CFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le même prix pour le *FSLC*",
+      "dit": "Le ministre de l'Éducation de base a rappelé ce tarif officiel pour la session 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2 500",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "2 500 francs de *frais d'examen*",
+      "dit": "La somme comprend 2 500 francs d'examen, 1 500 francs de timbre fiscal et 1 400 francs d'appui."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des abus jusqu'à *25 000 FCFA*",
+      "dit": "Des parents affirment que certains chefs d'établissement réclament entre 16 000 et 25 000 francs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les fraudeurs risquent des *sanctions*",
+      "dit": "Le ministre prévient que percevoir plus expose à des sanctions et à des poursuites."
+    }
+  ]
+}

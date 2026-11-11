@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "Le projet de budget 2027 tarde au Parlement camerounais.",
+    "Cabral Libii dénonce un retard de dépôt du budget 2027.",
+    "Le budget 2027 du Cameroun arrive avec deux semaines de retard."
+  ],
+  "titre": "Cameroun : le budget 2027 tarde",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le budget *2027* arrive en retard",
+      "dit": "Le projet de budget 2027 tarde au Parlement camerounais."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "10 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ouverture le *10 novembre* 2026",
+      "dit": "Le Parlement a ouvert sa session de novembre le 10 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un retard de *quinze jours*",
+      "dit": "Le texte aurait dû être remis deux semaines plus tôt selon Cabral Libii."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Trente pourcent pour *l'investissement*",
+      "dit": "La circulaire présidentielle fixe à trente pour cent la part minimale de l'investissement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 février 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Élections le *7 février* 2027",
+      "dit": "Les législatives et les municipales sont fixées au 7 février 2027."
+    }
+  ]
+}

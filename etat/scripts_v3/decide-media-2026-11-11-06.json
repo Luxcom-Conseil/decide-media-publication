@@ -1,0 +1,69 @@
+{
+  "accroches": [
+    "Les législatives et les municipales sont fixées au 7 février 2027.",
+    "L'État a versé 49,9 milliards de FCFA de dotation en 2020.",
+    "Trois cent soixante communes ont reçu chacune 100 millions de FCFA."
+  ],
+  "titre": "Mairies au Cameroun : dotation de l'État",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Élections fixées au *7 février 2027*",
+      "dit": "Les législatives et les municipales sont fixées au 7 février 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "49 900 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une dotation de *49,9 milliards* de FCFA",
+      "dit": "En 2020, la dotation totale de l'État s'est élevée à 49,9 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Trente-six milliards pour *l'investissement*",
+      "dit": "Trente-six milliards ont été attribués pour l'investissement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "100 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chaque commune a reçu *100 millions*",
+      "dit": "Trois cent soixante communes ont reçu chacune 100 millions de FCFA."
+    }
+  ]
+}

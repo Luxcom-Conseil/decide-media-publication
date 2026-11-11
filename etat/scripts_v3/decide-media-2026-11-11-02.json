@@ -1,0 +1,110 @@
+{
+  "accroches": [
+    "5 milliards de FCFA sont débloqués pour les PME camerounaises.",
+    "Les PME peuvent obtenir jusqu'à 75 millions de FCFA de crédit.",
+    "Les banques doivent traiter les dossiers de prêt en 7 à 14 jours."
+  ],
+  "titre": "5 milliards de FCFA pour les PME",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Caisse des dépôts et consignations",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "5 milliards de FCFA pour les *PME*",
+      "dit": "5 milliards de FCFA sont débloqués pour les PME camerounaises."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "AFG Bank",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "3 milliards de FCFA pour *AFG Bank*",
+      "dit": "La Caisse des dépôts a signé des conventions de crédit le 4 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "75 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *75 millions* de FCFA",
+      "dit": "Une entreprise peut obtenir jusqu'à 75 millions de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 à 48 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Remboursement sur *12 à 48 mois*",
+      "dit": "Le remboursement s'étale sur 12 à 48 mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Financement d'*équipements* et de *machines*",
+      "dit": "Ce crédit finance des machines, de l'irrigation ou des installations productives."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 à 14 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Traitement du dossier en *7 à 14 jours*",
+      "dit": "Les banques annoncent un traitement des dossiers complets en 7 à 14 jours."
+    }
+  ]
+}

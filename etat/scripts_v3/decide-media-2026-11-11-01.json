@@ -1,0 +1,100 @@
+{
+  "accroches": [
+    "L'ART a relevé 93 manquements chez les opérateurs mobiles.",
+    "Orange, MTN et Camtel sont mis en demeure de 15 jours.",
+    "Camtel cumule 41 manquements sur le réseau télécom."
+  ],
+  "titre": "Télécoms : 93 manquements relevés",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Agence de régulation des télécommunications",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "93 *manquements* chez les opérateurs",
+      "dit": "L'Agence de régulation des télécommunications a relevé 93 manquements chez les opérateurs mobiles."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Mise en *demeure* de 15 jours",
+      "dit": "Orange, MTN et Camtel ont 15 jours pour corriger leurs défaillances."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des *contrôles* dans trois villes",
+      "dit": "Les contrôles ont eu lieu cet été à Yaoundé, Douala et Bafoussam."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "8,2 milliards pour *Camtel*",
+      "dit": "L'ART évalue les manquements à 8,2 milliards de FCFA pour Camtel et 5,8 milliards pour Orange."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Service et *fibre* dégradés",
+      "dit": "Les reproches portent sur la qualité du service, l'usage des fréquences et la fibre optique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Février 2023",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Déjà des *mises en demeure*",
+      "dit": "En février 2023, le régulateur avait déjà envoyé 13 mises en demeure."
+    }
+  ]
+}

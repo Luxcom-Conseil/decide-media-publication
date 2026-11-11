@@ -1,0 +1,69 @@
+{
+  "accroches": [
+    "Le Cameroun a exporté 218 901 tonnes de bananes en dix mois.",
+    "Les exportations de bananes ont augmenté de 21,6 % au Cameroun.",
+    "Deux filiales captent 87,4 % des exportations de bananes d'octobre."
+  ],
+  "titre": "Cameroun : bond des exportations de bananes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "218 901 tonnes de *bananes* exportées",
+      "dit": "Le Cameroun a exporté 218 901 tonnes de bananes entre janvier et octobre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse de *21,6 %*",
+      "dit": "Selon l'Assobacam, ces exportations progressent de 21,6 % par rapport à la même période en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les PHP *dominent* la hausse",
+      "dit": "Les Plantations du Haut Penja représentent 91 % de la hausse nationale enregistrée en octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La CDC en *baisse* en octobre",
+      "dit": "La Cameroon Development Corporation a exporté 3 102 tonnes en octobre, soit 9,2 % de moins en un an."
+    }
+  ]
+}
