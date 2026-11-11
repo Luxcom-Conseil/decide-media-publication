@@ -2941,6 +2941,124 @@
     },
     {
       "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261117-1230.jpg",
+      "format": "court",
+      "formule": "Défi",
+      "id": "20261117-1230",
+      "legende": "Personne ne m'a expliqué ça, et ça a sauvé mes journées.\n\nLe plus dur n'est jamais de faire tout le travail, mais de démarrer. Si la première étape demande trop d'effort, ton cerveau préfère procrastiner.\n\nPour débloquer ton action, réduis l'effort d'entrée au strict minimum : enfile tes baskets, ouvre le fichier, ou écris un seul mot.\n\nQuelle tâche tu repousses depuis ce matin ?\n\n#productivite #psychologie #action #efficacite #conseils",
+      "quand": "2026-11-17T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Défi",
+            "texte": "Personne ne m'a expliqué ça, et ça a sauvé mes journées."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit blocage au démarrage te coûte des heures chaque jour."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de forcer tant que tu n'as pas changé ça."
+          }
+        ],
+        "hashtags": [
+          "productivite",
+          "psychologie",
+          "action",
+          "efficacite",
+          "conseils"
+        ],
+        "legende": "Personne ne m'a expliqué ça, et ça a sauvé mes journées.\n\nLe plus dur n'est jamais de faire tout le travail, mais de démarrer. Si la première étape demande trop d'effort, ton cerveau préfère procrastiner.\n\nPour débloquer ton action, réduis l'effort d'entrée au strict minimum : enfile tes baskets, ouvre le fichier, ou écris un seul mot.\n\nQuelle tâche tu repousses depuis ce matin ?",
+        "question": "Quelle tâche tu repousses depuis ce matin ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Personne ne m'a expliqué ça, et ça a sauvé mes journées.",
+            "ecran": "Personne ne m'a *expliqué* ça",
+            "emoji": "🔥",
+            "recherche": "man sitting thoughtful desk",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le vrai problème, c'est l'énergie d'activation.",
+            "ecran": "Le blocage du *démarrage*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu dois écrire un rapport, mais tu repousses et tu fixes l'écran vide.",
+            "ecran": "Regarder l'écran *vide*",
+            "emoji": "💻",
+            "recherche": "person looking laptop screen",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau bloque juste parce que le premier pas semble trop lourd.",
+            "ecran": "La première marche *trop haute*",
+            "emoji": "🛑",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici la solution. Un. Rends le départ ridiculement simple.",
+            "ecran": "Méthode : Étape minuscule | Action immédiate",
+            "emoji": "💡",
+            "recherche": "writing notes notebook",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Ne cherche pas à tout finir. Ouvre le fichier et écris une seule phrase.",
+            "ecran": "Écris *une seule* phrase",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Réduis l'effort pour commencer, le reste suivra tout seul.",
+            "ecran": "Réduis l'effort pour *commencer*",
+            "emoji": "✅",
+            "recherche": "person smiling standing",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'énergie d'activation"
+      },
+      "statut": "programme",
+      "sujet": "activation",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261117-1230.mp4"
+    },
+    {
+      "angle": "",
       "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-10/20261117-1830.jpg",
       "format": "long",
       "formule": "Enjeu",
@@ -3143,6 +3261,546 @@
       "sujet": "prenom",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-10/20261117-1830.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261117-2100.jpg",
+      "format": "long",
+      "formule": "Liste",
+      "id": "20261117-2100",
+      "legende": "3 phrases au travail qui bloquent discrètement ta carrière.\n\nQuand tu te dis que tu n'es pas doué pour une tâche, ton cerveau bloque et tu évites le défi. Croire que tes compétences sont figées t'empêche de progresser au travail.\n\nPour transformer ta carrière, change tes phrases. Ajoute simplement « pas encore » à tes limites. Dire « je ne sais pas encore faire ça » active la persévérance et t'aide à apprendre.\n\nQuelle phrase as-tu tendance à répéter au bureau ?\n\n#travail #carriereprofessionnelle #confianceensoi #psychologie",
+      "quand": "2026-11-17T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Liste",
+            "texte": "3 phrases au travail qui bloquent discrètement ta carrière."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe face à un collègue te coûte ta carrière."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois manquer de talent ? Ton cerveau te piège."
+          }
+        ],
+        "hashtags": [
+          "travail",
+          "carriereprofessionnelle",
+          "confianceensoi",
+          "psychologie"
+        ],
+        "legende": "3 phrases au travail qui bloquent discrètement ta carrière.\n\nQuand tu te dis que tu n'es pas doué pour une tâche, ton cerveau bloque et tu évites le défi. Croire que tes compétences sont figées t'empêche de progresser au travail.\n\nPour transformer ta carrière, change tes phrases. Ajoute simplement « pas encore » à tes limites. Dire « je ne sais pas encore faire ça » active la persévérance et t'aide à apprendre.\n\nQuelle phrase as-tu tendance à répéter au bureau ?",
+        "question": "Quelle phrase as-tu tendance à répéter au bureau ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici 3 phrases au travail qui bloquent discrètement ta carrière. Et la dernière est la pire !",
+            "ecran": "3 phrases qui *bloquent* ta carrière",
+            "emoji": "🚨",
+            "recherche": "office worker worried laptop",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Derrière ce blocage, un mécanisme très simple : l'état d'esprit fixe.",
+            "ecran": "Le piège de ton *cerveau*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Quand un projet difficile arrive, tu te dis : Je ne suis pas doué pour ça.",
+            "ecran": "Première *erreur* au bureau",
+            "emoji": "🏢",
+            "recherche": "employee stressed desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Résultat ? Tu laisses le projet à un collègue par peur d'échouer.",
+            "ecran": "Tu *évites* les défis",
+            "emoji": "❌",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Ton chef te donne une critique et tu réponds : De toute façon je suis mauvais.",
+            "ecran": "Deuxième *blocage* critique",
+            "emoji": "🤐",
+            "recherche": "boss talking to employee",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu penses que tes compétences sont figées pour toujours. C'est faux.",
+            "ecran": "Tu crois que c'est *impasse*",
+            "emoji": "🔒",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Tu vois un collègue réussir et tu te dis : Lui il a du talent, pas moi.",
+            "ecran": "La *pire* des réactions",
+            "emoji": "👀",
+            "recherche": "jealous colleague watching screen",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Croire que les capacités ne changent pas te pousse à fuir tous les efforts.",
+            "ecran": "L'illusion des *capacités*",
+            "emoji": "🛑",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Esprit fixe",
+            "b": "Esprit de progression",
+            "dit": "Croire qu'on progresse par l'effort multiplie tes chances de réussir.",
+            "ecran": "L'impact sur ta *progression*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une astuce magique de deux mots pour tout changer.",
+            "ecran": "Bascule vers le *succès*",
+            "emoji": "💡",
+            "recherche": "confident businessman smiling",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ajoute systématiquement deux mots à tes phrases : pas encore.",
+            "ecran": "Méthode : Ajoute 'Pas encore' | Vise l'effort | Accepte le défi",
+            "emoji": "⚡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne dis plus : Je ne sais pas gérer ce dossier. Mais : Je ne sais pas ENCORE faire ça.",
+            "ecran": "Change ton *discours*",
+            "emoji": "🗣️",
+            "recherche": "business person speaking meeting",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce petit mot rappelle à ton cerveau que l'effort crée la compétence.",
+            "ecran": "Entraîne ton *cerveau*",
+            "emoji": "📈",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand un collègue réussit, demande-lui comment il a appris au lieu de te comparer.",
+            "ecran": "Face aux *collègues*",
+            "emoji": "🤝",
+            "recherche": "colleagues talking office handshake",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu ne manques pas de talent, tu n'as juste pas encore appris.",
+            "ecran": "Tu ne manques pas de talent, tu n'as juste pas encore appris.",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'état d'esprit de progression"
+      },
+      "statut": "programme",
+      "sujet": "etat_esprit",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261117-2100.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261118-1230.jpg",
+      "format": "long",
+      "formule": "Ordre",
+      "id": "20261118-1230",
+      "legende": "Arrête de planifier tes objectifs tant que tu n'as pas vu ça.\n\nAu lieu de te demander comment réussir une présentation ou un projet avec tes collègues, demande-toi ce qui garantirait un désastre total.\n\nC'est le principe de l'inversion : notre cerveau repère plus facilement les obstacles et les risques. En faisant la liste de tout ce qui ferait échouer ton travail, tu n'as plus qu'à régler chaque problème un par un.\n\nTu préfères planifier ton succès ou lister ce qui pourrait tout rater ?\n\n#psychologie #productivite #travail #organisation #succes",
+      "quand": "2026-11-18T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de planifier tes objectifs tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Vouloir absolument réussir tes projets au travail peut ruiner ta carrière."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu cherches comment réussir au bureau ? Fais exactement l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "travail",
+          "organisation",
+          "succes"
+        ],
+        "legende": "Arrête de planifier tes objectifs tant que tu n'as pas vu ça.\n\nAu lieu de te demander comment réussir une présentation ou un projet avec tes collègues, demande-toi ce qui garantirait un désastre total.\n\nC'est le principe de l'inversion : notre cerveau repère plus facilement les obstacles et les risques. En faisant la liste de tout ce qui ferait échouer ton travail, tu n'as plus qu'à régler chaque problème un par un.\n\nTu préfères planifier ton succès ou lister ce qui pourrait tout rater ?",
+        "question": "Tu préfères planifier ton succès ou lister ce qui pourrait tout rater ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Arrête de planifier tes objectifs tant que tu n'as pas vu ça.",
+            "ecran": "Arrête de planifier tes *objectifs*",
+            "emoji": "🛑",
+            "recherche": "man stressed office notebook",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est qu'on commet tous cette erreur le lundi matin.",
+            "ecran": "Une *erreur* très classique",
+            "emoji": "💣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, cet outil puissant s'appelle tout simplement l'inversion.",
+            "ecran": "Le principe de *l'inversion*",
+            "emoji": "🧠",
+            "recherche": "thinking man desk strategy",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tu attaques un gros dossier, tu te demandes : comment tout réussir parfait ?",
+            "ecran": "Comment *réussir* ?",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau bloque. Alors pose la question inverse : comment tout rater à coup sûr ?",
+            "ecran": "Pose-toi la *question* inverse",
+            "emoji": "🔄",
+            "recherche": "confused person computer",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Imagine ta prochaine réunion d'équipe ou ton projet important du mois.",
+            "ecran": "En réunion d'équipe",
+            "emoji": "💼",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour foirer une présentation, c'est simple : arrive en retard sans avoir testé le micro.",
+            "ecran": "Arriver en *retard*",
+            "emoji": "⏰",
+            "recherche": "man running late office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ignore les messages importants de tes collègues et ne fixe aucune échéance.",
+            "ecran": "Ignorer les *messages*",
+            "emoji": "📧",
+            "recherche": "stressing inbox emails office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voilà. Tu viens d'identifier exactement tout ce qui garantirait un échec total.",
+            "ecran": "Le *piège* parfait",
+            "emoji": "☕",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Notre cerveau est bien meilleur pour repérer les dangers que pour inventer le succès.",
+            "ecran": "Pourquoi ça *marche* ?",
+            "emoji": "💡",
+            "recherche": "light bulb creative idea",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Succès",
+            "b": "Éliminer erreurs",
+            "dit": "C'est beaucoup plus facile d'éliminer des erreurs que d'être un génie.",
+            "ecran": "Chercher le *succès* vs Éviter le *danger*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour ton prochain projet au travail, applique cette astuce en deux étapes clés.",
+            "ecran": "La *méthode* pratique",
+            "emoji": "📝",
+            "recherche": "writing notepad pen desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Liste tout ce qui ferait échouer le projet. Deux. Règle chaque point un par un.",
+            "ecran": "Méthode : Lister le pire | Éliminer un par un",
+            "emoji": "✅",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand un collègue propose une idée floue, demande-lui : quel est le pire risque ici ?",
+            "ecran": "Se *protéger* au travail",
+            "emoji": "🛡️",
+            "recherche": "team meeting discussion",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au lieu de chercher comment réussir, évite d'abord ce qui fait échouer.",
+            "ecran": "Au lieu de chercher comment *réussir*, évite d'abord ce qui fait *échouer*.",
+            "emoji": "📌",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'inversion"
+      },
+      "statut": "programme",
+      "sujet": "inversion",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261118-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261118-1830.jpg",
+      "format": "court",
+      "formule": "Démasquer",
+      "id": "20261118-1830",
+      "legende": "Ton cerveau te fait croire que tu as compris ta leçon.\n\nRelire un cours crée une illusion de maîtrise : tout te semble évident parce que tu le reconnais, mais cela ne veut pas dire que tu sais le restituer.\n\nPour vraiment apprendre, explique le sujet à voix haute avec des mots simples. Dès que tu hésites, tu sais exactement quelle partie tu dois retravailler.\n\nTu révises en relisant ou en expliquant ?\n\n#apprentissage #memorisation #etudes #psychologie #productivite",
+      "quand": "2026-11-18T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Démasquer",
+            "texte": "Ton cerveau te fait croire que tu as compris ta leçon."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce reflexe de révision te coûte ton examen sans le savoir."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de relire tes cours tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "apprentissage",
+          "memorisation",
+          "etudes",
+          "psychologie",
+          "productivite"
+        ],
+        "legende": "Ton cerveau te fait croire que tu as compris ta leçon.\n\nRelire un cours crée une illusion de maîtrise : tout te semble évident parce que tu le reconnais, mais cela ne veut pas dire que tu sais le restituer.\n\nPour vraiment apprendre, explique le sujet à voix haute avec des mots simples. Dès que tu hésites, tu sais exactement quelle partie tu dois retravailler.\n\nTu révises en relisant ou en expliquant ?",
+        "question": "Tu révises en relisant ou en expliquant ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau te fait croire que tu as compris ta leçon.",
+            "ecran": "Ton cerveau te *trompe* sur tes révisions",
+            "emoji": "🤯",
+            "recherche": "student confused desk book",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, c'est le principe d'expliquer pour comprendre.",
+            "ecran": "Mécanisme : *Expliquer* pour comprendre",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu relis tes notes dix fois, tout paraît clair et fluide.",
+            "ecran": "Relire en boucle *ne* suffit *pas*",
+            "emoji": "📖",
+            "recherche": "person reading notebook slow",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais devant la feuille d'examen, tu restes totalement bloqué.",
+            "ecran": "Le jour J, c'est le *blocage*",
+            "emoji": "📝",
+            "recherche": "stressed student writing test",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est parce que reconnaître une information n'est pas la maîtriser.",
+            "ecran": "Reconnaître l'illusion de *maîtrise*",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "L'astuce : Un, explique le sujet à voix haute avec des mots très simples, comme à un enfant.",
+            "ecran": "Méthode : Expliquer à un enfant | Corriger ses manques",
+            "emoji": "🎯",
+            "recherche": "person speaking explaining hands",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux, dès que tu bloques, retourne réviser ce point précis.",
+            "ecran": "Repérer où tu *hésites*",
+            "emoji": "🔍",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si tu ne peux pas l'expliquer simplement, tu ne l'as pas compris.",
+            "ecran": "Si tu ne peux pas *l'expliquer* simplement, tu ne l'as pas *compris*.",
+            "emoji": "✨",
+            "recherche": "light bulb creative idea",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Expliquer pour comprendre"
+      },
+      "statut": "programme",
+      "sujet": "feynman",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261118-1830.mp4"
     }
   ],
   "publications": [
