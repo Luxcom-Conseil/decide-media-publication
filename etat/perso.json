@@ -677,115 +677,14 @@
       "formule": "Enjeu",
       "id": "20261112-2100",
       "legende": "Ton cerveau te ment pour te donner toujours raison.\n\nNous cherchons tous à valider nos idées au lieu de vérifier les faits. C'est le biais de confirmation.\n\nAvant un choix important, force-toi à chercher trois preuves que tu as tort. Pour persuader quelqu'un, ne l'attaque pas : commence par valider son point de vue.\n\nAs-tu déjà ignoré un défaut juste pour acheter un objet qui te plaisait ?\n\n#psychologie #biaiscognitif #decisions #developpementpersonnel",
+      "media_id": "18110962136365510",
+      "publie_le": "2026-11-12T20:02:17+00:00",
       "quand": "2026-11-12T21:00:00+01:00",
       "refait_le": "2026-11-09T20:58:36+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Enjeu",
-            "texte": "Ton cerveau te ment pour te donner toujours raison."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de chercher à avoir raison avant de voir ça."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois être objectif quand tu décides ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "biaiscognitif",
-          "decisions",
-          "developpementpersonnel"
-        ],
-        "legende": "Ton cerveau te ment pour te donner toujours raison.\n\nNous cherchons tous à valider nos idées au lieu de vérifier les faits. C'est le biais de confirmation.\n\nAvant un choix important, force-toi à chercher trois preuves que tu as tort. Pour persuader quelqu'un, ne l'attaque pas : commence par valider son point de vue.\n\nAs-tu déjà ignoré un défaut juste pour acheter un objet qui te plaisait ?",
-        "question": "As-tu déjà ignoré un défaut juste pour acheter un objet qui te plaisait ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau te ment pour te donner toujours raison.",
-            "ecran": "Ton cerveau te *ment* toujours",
-            "emoji": "🧠",
-            "recherche": "man thinking phone stressed",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est le biais de confirmation.",
-            "ecran": "Le *biais* de confirmation",
-            "emoji": "🏷️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand tu achètes un téléphone, tu ne lis que les avis positifs et tu ignores les pannes signalées.",
-            "ecran": "Tu *ignores* le reste",
-            "emoji": "📱",
-            "recherche": "woman checking smartphone reviews",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau cherche la facilité et protège tes certitudes pour éviter le doute.",
-            "ecran": "Protéger tes *crooyances*",
-            "emoji": "🛡️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour éviter ce piège, cherche 3 arguments contre ton choix. Et pour convaincre, pars de la croyance de l'autre.",
-            "ecran": "L'astuce : 3 contre-arguments | Partir de son avis",
-            "emoji": "💡",
-            "recherche": "man writing notebook decision",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Cherche la vérité, pas à avoir raison.",
-            "ecran": "Chercher la *vérité*, pas avoir raison",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "As-tu déjà ignoré un défaut juste pour acheter un objet qui te plaisait ?",
-            "ecran": "As-tu déjà fait ce *choix* ?",
-            "emoji": "❓",
-            "recherche": "person shopping thinking",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le biais de confirmation"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "confirmation",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Dfp3fOKiekP/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261112-2100-r.mp4"
     },
     {
@@ -4171,6 +4070,13 @@
       "media_id": "18115631585334176",
       "sujet": "volant",
       "url": "https://www.instagram.com/reel/DfpmU-UFPKI/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-12",
+      "media_id": "18110962136365510",
+      "sujet": "confirmation",
+      "url": "https://www.instagram.com/reel/Dfp3fOKiekP/"
     }
   ]
 }
