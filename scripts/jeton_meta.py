@@ -33,6 +33,25 @@ def ecrire_env(valeurs: dict) -> None:
 
 import sys
 
+
+def secrets_github(valeurs: dict) -> None:
+    """Copie META_PAGE_ID et META_PAGE_TOKEN dans les secrets du dépôt, sans les afficher."""
+    gh = shutil.which("gh") or shutil.which("gh.exe") or next(
+        (str(p) for p in (Path(r"C:\Program Files\GitHub CLI\gh.exe"),) if p.exists()), None)
+    if not gh:
+        print("✗ Commande gh introuvable : secrets GitHub non mis à jour.")
+        return
+    for nom in ("META_PAGE_ID", "META_PAGE_TOKEN"):
+        r = subprocess.run([gh, "secret", "set", nom, "-R", DEPOT], input=valeurs[nom], text=True,
+                           capture_output=True)
+        print(f"    {'✓' if r.returncode == 0 else '✗'} {nom} dans GitHub" + ("" if r.returncode == 0 else " : refusé"))
+
+
+if "--secrets" in sys.argv:  # recopier dans GitHub le jeton déjà écrit dans .env
+    lu = dict(l.split("=", 1) for l in ENV.read_text(encoding="utf-8").splitlines() if "=" in l)
+    secrets_github({k: lu[k].strip() for k in ("META_PAGE_ID", "META_PAGE_TOKEN")})
+    raise SystemExit
+
 app_id = sys.argv[1] if len(sys.argv) > 1 else input("ID de l'application Meta : ").strip()
 court = getpass.getpass("Collez le jeton de l'Explorateur (Ctrl+V ou clic droit), puis Entrée — rien ne s'affiche, c'est normal : ").strip()
 print(f"→ {len(court)} caractères reçus" + (" (un jeton Meta en compte en général plus de 150)" if len(court) < 100 else ""))
@@ -88,8 +107,5 @@ print("Droits accordés : " + ", ".join(sorted(accordes)))
 if manquants:
     print("⚠ Manquent : " + ", ".join(manquants) + " — relancez l'Explorateur en les cochant.")
 
-if shutil.which("gh") and input("Enregistrer aussi dans les secrets GitHub ? (o/N) ").strip().lower().startswith("o"):
-    for nom in ("META_PAGE_ID", "META_PAGE_TOKEN"):
-        r = subprocess.run(["gh", "secret", "set", nom, "-R", DEPOT], input=valeurs[nom], text=True,
-                           capture_output=True)
-        print(f"    {'✓' if r.returncode == 0 else '✗'} {nom} dans GitHub" + ("" if r.returncode == 0 else " : refusé"))
+if input("Enregistrer aussi dans les secrets GitHub ? (o/N) ").strip().lower().startswith("o"):
+    secrets_github(valeurs)
