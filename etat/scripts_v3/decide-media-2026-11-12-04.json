@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "Le blé représente 99 % des exportations russes vers le Cameroun.",
+    "Le Cameroun a importé 1,14 million de tonnes de blé en 2025.",
+    "La Russie affirme avoir exporté 93 000 tonnes de produits au Cameroun."
+  ],
+  "titre": "Blé russe au Cameroun : des chiffres à vérifier",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le blé *représente* 99 % des ventes russes",
+      "dit": "Le blé représente 99 % de la valeur des exportations russes vers le Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "11 600 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Exportations de *11,6 milliards* FCFA",
+      "dit": "La Russie affirme avoir exporté près de 11,6 milliards FCFA de produits agricoles au début de 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "1,14 million de *tonnes* de blé",
+      "dit": "En 2025, le Cameroun a importé 1,14 million de tonnes de blé tous pays confondus."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une valeur *en baisse* de 12,3 %",
+      "dit": "La valeur totale de ces achats de blé par le Cameroun a baissé de 12,3 % en un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les meuniers *doutent* des données russes",
+      "dit": "Les meuniers camerounais n'ont pas d'éléments pour confirmer la réalité des chiffres russes."
+    }
+  ]
+}

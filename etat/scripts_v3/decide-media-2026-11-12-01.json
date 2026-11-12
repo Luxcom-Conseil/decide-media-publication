@@ -1,0 +1,76 @@
+{
+  "accroches": [
+    "MTN a gagné 367,2 milliards FCFA au Cameroun.",
+    "Les revenus internet de MTN augmentent de 24,4 %.",
+    "L'internet représente la moitié des revenus de MTN."
+  ],
+  "titre": "MTN : les revenus internet en hausse",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "MTN *gagne* 367,2 milliards FCFA",
+      "dit": "MTN Cameroon a réalisé 367,2 milliards FCFA de revenus sur les neuf premiers mois de 2026."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "MTN",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Revenus en *hausse* de 11,4 %",
+      "dit": "Selon Financial Afrik, c'est 11,4 % de plus que sur la même période en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'internet *progresse* de 24,4 %",
+      "dit": "Les revenus des services internet ont progressé de 24,4 % sur un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les appels *stagnent* à 1,5 %",
+      "dit": "Les revenus des appels téléphoniques n'ont augmenté que de 1,5 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "44,2 %",
+        "apres": "43 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La marge *recule* à 43 %",
+      "dit": "La marge opérationnelle de l'entreprise est passée de 44,2 % à 43 % en un an."
+    }
+  ]
+}

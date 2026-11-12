@@ -1,0 +1,66 @@
+{
+  "accroches": [
+    "Le Cameroun a encaissé 70,2 milliards de dividendes en 2025.",
+    "La BEAC a fourni 55,3 % des dividendes encaissés par le Cameroun.",
+    "Trois entités ont versé 89,6 % des dividendes du Cameroun."
+  ],
+  "titre": "Dividendes : la BEAC porte la caisse",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le Cameroun encaisse *70,2 milliards* FCFA",
+      "dit": "L'État du Cameroun a encaissé 70,2 milliards FCFA de dividendes en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Revenus en hausse de *24,9 %*",
+      "dit": "Ces revenus ont progressé de 24,9 % sur un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "38 800 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La BEAC verse *38,8 milliards*",
+      "dit": "La BEAC a versé 38,8 milliards FCFA, soit 55,3 % du total."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "BEAC",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Contribution *presque doublée*",
+      "dit": "La BEAC avait versé 20,6 milliards FCFA en 2024 et a presque doublé sa contribution."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Trois entreprises fournissent *89,6 %*",
+      "dit": "Avec la SNH et SCB Cameroun, trois entités apportent 89,6 % des dividendes."
+    }
+  ]
+}

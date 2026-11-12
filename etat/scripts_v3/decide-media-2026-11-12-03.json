@@ -1,0 +1,73 @@
+{
+  "accroches": [
+    "Les primes d'assurance automobile baissent de 0,3 % au Cameroun.",
+    "La garantie automobile obligatoire a perdu 1,9 milliard de FCFA.",
+    "Les indemnités automobile ont augmenté de 13,2 % au premier semestre."
+  ],
+  "titre": "Assurance auto au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "La garantie obligatoire a perdu *1,9 milliard*",
+      "dit": "La garantie automobile obligatoire a perdu 1,9 milliard de FCFA au premier semestre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Ses primes reculent de *7,4 %*",
+      "dit": "Ses primes sont passées de 25,75 à 23,86 milliards de FCFA, selon l'ASAC."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les autres garanties gagnent *22,9 %*",
+      "dit": "Dans le même temps, les autres garanties automobiles ont augmenté de 22,9 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "12 450 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*12,45 milliards* de FCFA payés",
+      "dit": "Les prestations payées en automobile ont atteint 12,45 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "32,7 %",
+        "apres": "37,1 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le ratio passe à *37,1 %*",
+      "dit": "Le rapport entre prestations payées et primes émises est passé de 32,7 % à 37,1 %."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "accroches": [
+    "Le budget 2027 prévoit 5 000 milliards FCFA d'engagements non décaissés.",
+    "Le projet de loi de finances n'a pas respecté le délai de dépôt.",
+    "La croissance du PIB réel est estimée à 3,6 % pour 2027."
+  ],
+  "titre": "Budget 2027 au Cameroun : les retards",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Budget *2027* : 5 000 milliards bloqués",
+      "dit": "Le budget 2027 compte 5 000 milliards FCFA d'engagements de financement restés non décaissés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "10 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Session ouverte *le 10 novembre 2026*",
+      "dit": "Le Parlement a ouvert sa session le 10 novembre 2026 sans le dépôt dans les délais du projet de loi."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Objectif de *croissance* à 3,6 %",
+      "dit": "La circulaire du 12 octobre prévoit une croissance du PIB de 3,6 % et un déficit de 2,7 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "30 %",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Au moins *30 %* pour l'investissement",
+      "dit": "La part minimale des dépenses d'investissement est fixée à 30 % du budget général."
+    }
+  ]
+}

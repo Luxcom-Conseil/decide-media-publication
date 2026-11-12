@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "141,6 milliards FCFA financent la filière cacao au Cameroun.",
+    "Le projet RACINE vise 600 000 tonnes de cacao au Cameroun.",
+    "La production de cacao a chuté de 19,9 % au Cameroun."
+  ],
+  "titre": "Cacao : 141 milliards FCFA de financement",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "141,6 milliards FCFA *pour* le cacao",
+      "dit": "Un projet de 141,6 milliards FCFA vise 600 000 tonnes de cacao au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Financement *approuvé* le 27 octobre",
+      "dit": "Le Fonds vert pour le climat a approuvé le financement le 27 octobre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "350 kg",
+        "apres": "750 kg",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Rendement de 350 *à* 750 kg",
+      "dit": "Le projet veut faire passer le rendement de 350 à 750 kilos par hectare."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "18 %",
+        "apres": "4 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pertes réduites de 18 % *à* 4 %",
+      "dit": "Il vise aussi une baisse des pertes après récolte de 18 % à 4 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Production en *baisse* de 19,9 %",
+      "dit": "La production enregistrée a baissé de 19,9 % lors de la dernière campagne."
+    }
+  ]
+}
