@@ -300,3 +300,39 @@ def test_simulation_ne_programme_rien(tmp_path):
     traiter_lots(CFG, drive, {"facebook": fb}, Journal(tmp_path / "l.json"), print, simulation=True,
                  maintenant=MATIN)
     assert not fb.programmes and drive.telechargements == 0
+
+
+def reponse(i, plateformes=("tiktok",)):
+    return article(i, editorial_type="reponse", reponse={"question": "C'est pour chacun ?", "plateformes": list(plateformes)})
+
+
+def test_protocole_2_2_reponses_en_plus_du_lot():
+    """2.2 (12/11/2026) : 5 actualités + dossiers + 1 à 3 réponses, 10 articles au plus."""
+    arts = [article(i) for i in range(1, 9)] + [reponse(9), reponse(10)]
+    m = manifeste(protocol_version="2.2", article_count=10, required_article_count=10, articles=arts)
+    assert len(controler_manifeste(m, "2026-10-21")) == 10
+    trop = manifeste(protocol_version="2.2", article_count=11, required_article_count=11, articles=arts + [reponse(11)])
+    with pytest.raises(LotInvalide, match="de 6 à 10 articles"):
+        controler_manifeste(trop, "2026-10-21")
+    sans = [article(i) for i in range(1, 6)] + [reponse(6, plateformes=("youtube",))]
+    with pytest.raises(LotInvalide, match="reponse.plateformes"):
+        controler_manifeste(manifeste(protocol_version="2.2", article_count=6, required_article_count=6, articles=sans),
+                            "2026-10-21")
+
+
+def test_une_reponse_part_seulement_sur_sa_plateforme(tmp_path):
+    arts = [article(i) for i in range(1, 7)] + [reponse(7)]
+    m = manifeste(protocol_version="2.2", article_count=7, required_article_count=7, articles=arts)
+    fb, tiktok = FauxFacebook(), FauxFacebook()
+    cfg = {**CFG, "lots": {**CFG["lots"], "reseaux": ["facebook", "tiktok_buffer"]}}
+    traiter_lots(cfg, FauxDrive(m), {"facebook": fb, "tiktok_buffer": tiktok}, Journal(tmp_path / "lots.json"), print,
+                 maintenant=MATIN)
+    assert len(fb.programmes) == 6 and "Texte FB 7" not in [t for t, _ in fb.programmes]
+    assert len(tiktok.programmes) == 7
+
+
+def test_creneaux_des_reponses_le_meme_jour():
+    cfg = charger_config(Path(__file__).resolve().parent.parent / "config.yaml")
+    for reseau in ("facebook_shorts", "tiktok_buffer"):
+        h = creneaux(cfg, datetime(2026, 10, 21).date(), 10, MATIN, [], reseau)
+        assert len({x.date() for x in h}) == 1

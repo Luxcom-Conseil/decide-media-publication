@@ -148,6 +148,9 @@ class BufferTikTok(_Buffer):
         return {"tiktok": {"isAiGenerated": True}}
 
     def texte(self, article: dict, texte: str) -> str:
+        question = (article.get("reponse") or {}).get("question") if article.get("editorial_type") == "reponse" else None
+        if question:  # réponse à une question du public (protocole 2.2) : la question en tête de la légende
+            return f"Vous avez demandé : {question}\n\n" + legende_courte(article, limite=250)
         return legende_courte(article)
 
 

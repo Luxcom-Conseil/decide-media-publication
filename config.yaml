@@ -92,7 +92,7 @@ lots:
   reseaux: [facebook, youtube, facebook_shorts, x_buffer, linkedin_buffer, tiktok_buffer]   # sans accès : ignoré
   max_par_lot:
     youtube: 10                # limite d'envoi constatée le 21/10 : 10 vidéos/jour ; au-delà, réessai le lendemain
-    facebook_shorts: 8         # 5 actualités + 3 dossiers au plus (protocole 2.1)
+    facebook_shorts: 10        # 5 actualités + 3 dossiers + réponses, 10 au plus (protocole 2.2)
     tiktok_buffer: 10          # TikTok : 10 Shorts/jour (demande de Stéphane le 21/10)
     x_buffer: 10               # Buffer gratuit : 10 posts en file d'attente par chaîne
     linkedin_buffer: 10
@@ -114,9 +114,11 @@ lots:
   # Les 3 derniers (dans l'ordre de la liste, pas de l'heure) servent aux « dossiers » 06 à 08 du protocole 2.1
   # (décision de Stéphane du 07/11/2026) : les 5 articles d'actualité gardent leurs heures.
   creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30"]
+  # 2.2 : les réponses aux questions du public prennent les créneaux restants, en fin de liste (2 de plus pour TikTok
+  # et les Shorts Facebook, seuls réseaux des réponses)
   creneaux_par_reseau:         # Shorts Facebook : 45 min après le visuel du même article
-    facebook_shorts: ["08:45", "11:45", "14:45", "17:45", "20:45", "13:15", "16:15", "19:15"]
-    tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15", "12:45", "15:45", "18:45"]
+    facebook_shorts: ["08:45", "11:45", "14:45", "17:45", "20:45", "13:15", "16:15", "19:15", "10:15", "21:45"]
+    tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15", "12:45", "15:45", "18:45", "09:45", "21:30"]
     # visuels du lot de rattrapage : 20 min après chaque visuel du lot du jour
     facebook_rattrapage: ["07:20", "08:50", "10:20", "11:50", "13:20", "14:50", "16:20", "17:50", "19:20", "20:50"]
   marge_minutes: 20

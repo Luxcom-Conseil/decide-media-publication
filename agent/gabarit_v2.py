@@ -108,7 +108,9 @@ def construire(article: dict, image: str) -> tuple[dict, list[dict]]:
 
 
 def _insecables(t: str) -> str:
-    """« 80 000 FCFA », « 10,99 % » : jamais coupés entre deux blocs de sous-titres."""
+    """« 80 000 FCFA », « 10,99 % » : jamais coupés entre deux blocs de sous-titres. Le « ? » d'une
+    question du public (réponses, 12/11/2026) ne part pas seul à la ligne."""
+    t = re.sub(r" ([?!:;»])", lambda x: " " + x.group(1), t)
     return re.sub(r"(\d)[  ](?=\d{3}\b)|(\d)[  ](?=%|FCFA|€)", lambda x: (x.group(1) or x.group(2)) + " ", t)
 
 

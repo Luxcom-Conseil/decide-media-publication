@@ -150,15 +150,38 @@ def _reparer(script: dict) -> dict:
     return script
 
 
+def question_du_public(article: dict) -> str | None:
+    """La question à laquelle répond l'article (protocole 2.2), sinon None."""
+    if article.get("editorial_type") != "reponse":
+        return None
+    return str((article.get("reponse") or {}).get("question") or "").strip() or None
+
+
+def consignes_reponse(article: dict) -> str:
+    """Une réponse ouvre sur la question du public, telle quelle, puis donne la réponse tout de suite (12/11/2026)."""
+    q = question_du_public(article)
+    if not q:
+        return ""
+    appui = (article.get("reponse") or {}).get("reponse") or ""
+    return (f"\n\nCETTE VIDÉO RÉPOND À UNE QUESTION DU PUBLIC : « {q} ». Ici seulement, la première scène (type « accroche ») "
+            f"est cette question, mot pour mot : « ecran » = « dit » = la question, avec son point d'interrogation. Les "
+            f"accroches du champ « accroches » sont trois fois cette question. La deuxième scène donne la réponse tout de "
+            f"suite, en reprenant cette phrase de l'article : « {appui} ». Puis les faits qui l'appuient. Les autres règles "
+            f"restent : aucune autre question, pas de « tu » ni de « vous » hors de la question.")
+
+
 def controler_v3(script: dict, article: dict) -> list[str]:
     scenes = script.get("scenes") or []
-    source = " ".join(str(article.get(k) or "") for k in ("title", "body", "post_text"))
+    question = question_du_public(article)
+    source = " ".join(str(article.get(k) or "") for k in ("title", "body", "post_text")) + " " + (question or "")
     problemes = []
+    if question and scenes and _sans_etoiles(scenes[0].get("dit")).strip() != question:
+        problemes.append(f"la première scène doit être la question du public, mot pour mot : « {question} »")
     if not 4 <= len(scenes) <= 7:
         problemes.append(f"{len(scenes)} scènes (4 à 7 attendues : le hook, puis 3 à 6 faits)")
     if not scenes or scenes[0].get("type") != "accroche":
         problemes.append("la première scène doit être le hook (type « accroche »)")
-    elif len(_sans_etoiles(scenes[0].get("ecran")).split()) > 13:
+    elif not question and len(_sans_etoiles(scenes[0].get("ecran")).split()) > 13:
         problemes.append("hook trop long (12 mots au plus)")
     if len(script.get("accroches") or []) < 3:
         problemes.append("il faut trois accroches de formes différentes")
@@ -171,6 +194,8 @@ def controler_v3(script: dict, article: dict) -> list[str]:
                          "par exemple une date, un lieu, une démarche ou un montant par personne")
     textes = [script.get("titre", "")]
     for k, sc in enumerate(scenes):
+        if question and k == 0:  # la question du public : seule phrase permise avec « ? » ou « vous »
+            continue
         ecran, dit = _sans_etoiles(sc.get("ecran")), sc.get("dit", "")
         il = (sc.get("illustration") or {}) if sc.get("type") == "explication" else {}
         textes += [ecran, dit] + [str(v) for c, v in il.items() if c != "type" and v]
@@ -212,6 +237,12 @@ def script_secours(article: dict) -> dict | None:
     if not gardees:
         return None
     hook = (article.get("etiquette_chiffre") or {}).get("texte") or article.get("title", "")
+    question = question_du_public(article)
+    if question:  # une réponse : la question, puis les phrases de l'article
+        scenes = [{"type": "accroche", "fond": None, "ecran": question, "dit": question}]
+        scenes += [{"type": "explication", "illustration": {"type": "photo"}, "fond": None, "ecran": "", "dit": p}
+                   for p in gardees[:4]]
+        return {"titre": article.get("title", ""), "scenes": scenes}
     scenes = [{"type": "accroche", "fond": None, "ecran": hook, "dit": gardees[0]}]
     scenes += [{"type": "explication", "illustration": {"type": "photo"}, "fond": None, "ecran": "", "dit": p} for p in gardees[1:]]
     return {"titre": article.get("title", ""), "scenes": scenes}
@@ -228,7 +259,7 @@ def script_v3(article: dict, cfg: dict, journal=print, cache: Path | None = None
         return None
     systeme, schema = sv.SYSTEME, sv.SCHEMA
     # même appel Gemini (modèles de secours, pauses), autres consignes ; la date du jour pour ne pas écrire au présent un fait ancien
-    sv.SYSTEME = SYSTEME + f"\n\nDate du jour : {date.today().isoformat()}. Un fait daté de plus de 7 jours s'écrit au passé, hook compris."
+    sv.SYSTEME = SYSTEME + f"\n\nDate du jour : {date.today().isoformat()}. Un fait daté de plus de 7 jours s'écrit au passé, hook compris." + consignes_reponse(article)
     sv.SCHEMA = SCHEMA
     remarques: list[str] = []
     try:
@@ -404,7 +435,7 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
     if avant < DUREE_MIN:
         journal(f"      ⏱ {avant:.1f} s → {etirer(scenes):.1f} s (30 s au moins)")
     editeurs = list(dict.fromkeys((s or {}).get("publisher") for s in article.get("sources") or [] if (s or {}).get("publisher")))
-    props = {"rubrique": "INFO",
+    props = {"rubrique": "VOUS AVEZ DEMANDÉ" if question_du_public(article) else "INFO",
              "lieu": article.get("country"), "date": _date_fr(article.get("event_date")), "titre": ecrit.get("titre") or article.get("title", ""),
              "image": f"_v3/{nom_image}", "source": ("Source : " + ", ".join(editeurs[:3])) if editeurs else None,
              "scenes": scenes, "musique": "melodie.wav", "volume_musique": 0.10}

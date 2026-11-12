@@ -24,7 +24,18 @@ RE_LOT = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 DATE_CONTRAT_12 = date(2026, 10, 12)
 # 1.3 = 1.2 + champs de rattrapage ; 2.0 = 5 articles par jour ;
 # 2.1 = les 5 articles d'actualité + 1 à 3 « dossiers » (suivi ou explication), décision de Stéphane du 07/11/2026
-ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": 5, "2.1": (6, 8)}
+# 2.2 = 2.1 + 1 à 3 « réponses » aux questions du public, en fin de lot, 10 articles au plus (décision du 12/11/2026)
+ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": 5, "2.1": (6, 8), "2.2": (6, 10)}
+# une réponse ne part qu'en vidéo, et seulement sur la plateforme où la question a été posée
+RESEAUX_REPONSE = {"tiktok": "tiktok_buffer", "facebook": "facebook_shorts"}
+
+
+def reseaux_reponse(article: dict) -> set[str] | None:
+    """Réseaux autorisés pour une réponse ; None pour un article ordinaire (tous les réseaux du lot)."""
+    if article.get("editorial_type") != "reponse":
+        return None
+    plateformes = (article.get("reponse") or {}).get("plateformes") or []
+    return {RESEAUX_REPONSE[p] for p in plateformes if p in RESEAUX_REPONSE}
 
 
 class LotInvalide(ValueError):
@@ -66,8 +77,12 @@ def controler_manifeste(m: dict, nom_dossier: str) -> list[dict]:
             manque.append("platform_texts.facebook")
         if not (a.get("image_file") or {}).get("id"):
             manque.append("image_file.id")
+        if a.get("editorial_type") == "reponse" and not reseaux_reponse(a):
+            manque.append("reponse.plateformes (tiktok ou facebook)")
         if manque:
             raise LotInvalide(f"article {a.get('id')} incomplet : {', '.join(manque)}")
+    if sum(a.get("editorial_type") == "reponse" for a in articles) > 3:
+        raise LotInvalide("plus de 3 réponses dans le lot")
     return articles
 
 
@@ -241,8 +256,11 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
         else:
             log("• rattrapage : plus aucun lot en attente pour " + ", ".join(portee))
 
-    for dossier, articles, portee, piste in travaux:
+    for dossier, tous, portee, piste in travaux:
         for reseau in portee:
+            articles = [a for a in tous if reseaux_reponse(a) is None or reseau in reseaux_reponse(a)]
+            if not articles:
+                continue
             pub = publieurs[reseau]
             if reseau == "youtube" and not cfg.get("youtube", {}).get("modele_valide"):
                 log(f"• {dossier.nom} → youtube : en attente de validation du modèle de Short (config.yaml)")
