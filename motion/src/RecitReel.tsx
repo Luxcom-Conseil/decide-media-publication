@@ -234,13 +234,27 @@ const SousTitres: React.FC<{ sc: SceneRecit }> = ({ sc }) => {
   );
 };
 
+// en-tête : le titre de l'épisode reste visible tout le film, en haut à gauche (demande de Stéphane du 09/11/2026 :
+// on sait toujours de quoi parle la vidéo, même en arrivant au milieu), sans toucher aux zones des textes animés (≥ 420)
 const Entete: React.FC<{ s: ScriptRecit }> = ({ s }) => (
-  <div style={{ position: "absolute", top: 240, left: G, right: D, display: "flex", justifyContent: "center", gap: 14 }}>
-    <div style={{ background: "rgba(18,14,11,0.7)", border: `2px solid ${OR}`, color: OR, fontFamily: elite, fontSize: 30,
-      letterSpacing: 2, padding: "6px 18px", borderRadius: 6 }}>{s.serie.toUpperCase()}</div>
-    {s.partie && <div style={{ background: ROUGE, color: PAPIER, fontFamily, fontWeight: 900, fontSize: 28, padding: "8px 16px", borderRadius: 6 }}>{s.partie.toUpperCase()}</div>}
+  <div style={{ position: "absolute", top: 236, left: G, right: D, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 10 }}>
+    <div style={{ display: "flex", gap: 12 }}>
+      <div style={{ background: "rgba(18,14,11,0.7)", border: `2px solid ${OR}`, color: OR, fontFamily: elite, fontSize: 26,
+        letterSpacing: 2, padding: "4px 14px", borderRadius: 6 }}>{s.serie.toUpperCase()}</div>
+      {s.partie && <div style={{ background: ROUGE, color: PAPIER, fontFamily, fontWeight: 900, fontSize: 24, padding: "6px 14px", borderRadius: 6 }}>{s.partie.toUpperCase()}</div>}
+    </div>
+    {s.titre && <div style={{ maxWidth: 760, background: "rgba(18,14,11,0.62)", borderLeft: `6px solid ${OR}`, color: PAPIER, fontFamily: playfair,
+      fontWeight: 700, fontStyle: "italic", fontSize: s.titre.length > 32 ? 32 : 38, lineHeight: 1.15, padding: "6px 16px", borderRadius: 4,
+      textShadow: "0 2px 10px rgba(0,0,0,0.7)" }}>{fr(s.titre)}</div>}
   </div>
 );
+
+// ouverture : coup de zoom sur l'image des 10 premières images (rupture visuelle qui arrête le défilement)
+const Choc: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const f = useCurrentFrame();
+  const z = interpolate(f, [0, 10], [1.18, 1], { extrapolateRight: "clamp" });
+  return <AbsoluteFill style={{ transform: `scale(${z})` }}>{children}</AbsoluteFill>;
+};
 
 const Entree: React.FC<{ children: React.ReactNode; long: number; immediate?: boolean }> = ({ children, long, immediate }) => {
   const f = useCurrentFrame();
@@ -272,7 +286,8 @@ export const RecitReel: React.FC<ScriptRecit> = (s) => {
       <FondPapier />
       {scenes.map((p) => (
         <Sequence key={p.i} from={p.debut} durationInFrames={p.longueur}>
-          {p.sc.image && <Archive im={p.sc.image} long={p.longueur} i={p.i} />}
+          {p.sc.image && (p.i === 0 ? <Choc><Archive im={p.sc.image} long={p.longueur} i={p.i} /></Choc>
+            : <Archive im={p.sc.image} long={p.longueur} i={p.i} />)}
           <Entree long={p.longueur} immediate={p.i === 0}>
             {p.sc.type === "accroche" && <Accroche sc={p.sc} />}
             {p.sc.type === "recit" && <Bloc top={620}><Mots texte={p.sc.ecran ?? ""} taille={(p.sc.ecran ?? "").length > 34 ? 72 : 86} /></Bloc>}

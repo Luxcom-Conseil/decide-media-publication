@@ -165,10 +165,10 @@ def _ordre(fiches: list[dict]) -> list[dict]:
 # --------------------------------------------------------------------------- script
 
 FORMULES = {
-    "Chiffre": "un chiffre réel de l'extrait qui étonne, posé sans contexte (« 1 337 euros. C'est le seuil que LFI veut garantir à chaque jeune. »)",
-    "Question": "une question directe sur la vie du spectateur (« Et si ton livret A rapportait enfin plus que l'inflation ? »)",
-    "Contre-pied": "ce que tout le monde croit, puis ce que dit le document (« On croit que l'État n'a plus d'argent. LFI dit qu'il en a laissé filer. »)",
-    "Toi": "qui est concerné, en le désignant (« Si tu as un livret A, cette mesure te concerne directement. »)",
+    "Chiffre": "le chiffre de l'extrait qui fait le plus réagir, lâché sans contexte (« *1 337 euros* par mois. Pour chaque jeune. C'est le plan de LFI. »)",
+    "Question": "une question ouverte qui touche la vie du spectateur, impossible à balayer d'un « non » (« Qui paie vraiment ton *livret A* ? Selon LFI, pas toi. »)",
+    "Contre-pied": "ce que tout le monde croit, retourné avec le document (« L'État n'a plus d'argent ? Mélenchon dit l'inverse. *Chiffres* à l'appui. »)",
+    "Toi": "le spectateur visé directement, avec ce qu'il perd ou gagne (« Tu es étudiant ? Ce chiffre va te *révolter*. Ou te rassurer. »)",
 }
 
 SYSTEME = """Tu écris le script d'une vidéo TikTok verticale d'environ 60 secondes pour le compte « Histoires vraies \
@@ -191,8 +191,8 @@ candidat de LFI à la présidentielle 2027 (« Jean-Luc Mélenchon veut… », �
 que ce que dit le document. Ne nomme pas d'autre personne que celles que l'extrait nomme.
 
 STORYTELLING (la vidéo se raconte comme une histoire, pas comme une fiche) :
-- Un point de départ concret et vécu : une situation que connaît le spectateur (« Imagine : fin du mois, ton compte est \
-à découvert le 20. »), sans inventer de personne réelle, de chiffre ni de fait.
+- Un point de départ concret et vécu, en scène 3, juste après l'accroche et la relance : une situation que connaît le \
+spectateur (« Fin du mois, ton compte est à découvert le 20. »), sans inventer de personne réelle, de chiffre ni de fait.
 - La tension : le problème, tel que le décrit LFI ; fais monter l'enjeu.
 - Le tournant : la mesure, posée comme une révélation.
 - La suite : comment elle marcherait, qui paierait, ce qui l'accompagne, avec des enchaînements qui donnent envie \
@@ -203,8 +203,13 @@ STORYTELLING (la vidéo se raconte comme une histoire, pas comme une fiche) :
 EXACTITUDE : ta seule source est l'extrait fourni. N'invente aucun fait, aucune date, aucun montant. Garde les unités \
 (milliards, % du PIB, euros net). Si l'extrait dit « environ » ou « jusqu'à », garde-le.
 
-ACCROCHE (première scène, type « accroche ») : 12 mots au plus dans « ecran », selon la formule demandée ; « dit » = la \
-même accroche à l'oral, 140 caractères au plus.
+ACCROCHE (première scène, type « accroche ») : selon la formule demandée ; « dit » = la même idée à l'oral.
+
+""" + h.OUVERTURE + """
+
+PROVOQUER SANS PRENDRE PARTI : la provocation passe par les faits, les chiffres et les questions posées au spectateur \
+(« Tu trouves ça normal ? », « Qui paie, à ton avis ? »), jamais par un jugement à ton compte. Une phrase qui choque est \
+toujours attribuée (« Pour Mélenchon, c'est un *scandale*. »). Le TON EXPLICATIF prime sur tout le reste.
 
 RÉTENTION (le plus important après l'exactitude) :
 - Dès la 2e scène, ouvre une boucle que tu fermeras plus loin (« Et le plus surprenant, c'est qui paierait. »).
@@ -233,8 +238,8 @@ réponse (« Tu serais pour ou contre ? », « Ça changerait quoi pour toi ? »
 lien, pas d'émoji. « hashtags » : 3 à 5 hashtags en français sans le #, dont presidentielle2027."""
 
 CONSIGNE_FORMAT = """FORMAT PROGRAMME (60 secondes) : entre 12 et 16 scènes, de 950 à 1 100 caractères dits en tout, \
-question comprise (vise 1 000). La scène 1 est TOUJOURS de type « accroche » ; le point de départ vécu (« Imagine… ») \
-vient en scène 2. Puis : la tension (le problème selon LFI) ; le tournant (la mesure) ; \
+question comprise (vise 1 000). La scène 1 est TOUJOURS de type « accroche » ; la scène 2 est la relance (enjeu pour le \
+spectateur et promesse) ; le point de départ vécu vient en scène 3. Puis : la tension (le problème selon LFI) ; le tournant (la mesure) ; \
 comment elle marcherait et combien elle coûterait ou rapporterait, si l'extrait le dit ; ce qui l'accompagne ; ce que \
 ça changerait concrètement ; la scène « lecon »."""
 

@@ -33,6 +33,43 @@ class PriseImpossible(RuntimeError):
     pass
 
 
+def _mots(t: str) -> list[str]:
+    import re
+    import unicodedata
+
+    t = unicodedata.normalize("NFKD", t.lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return re.findall(r"[a-z0-9]+", t)
+
+
+def lit_le_texte(cfg: dict, pcm: bytes, texte: str) -> bool | None:
+    """La prise commence-t-elle bien par le texte ? Le 10/11/2026, gemini-3.8-flash-tts a lu la consigne de style à voix
+    haute en tête de vidéo (signalé par Stéphane). On fait transcrire les 8 premières secondes par Gemini et on cherche
+    les premiers mots du texte au début de la transcription. None = vérification impossible (quota, réseau)."""
+    import io
+
+    b = io.BytesIO()
+    with wave.open(b, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(TAUX)
+        w.writeframes(pcm[:8 * OCTETS_PAR_SECONDE])
+    donnees = base64.b64encode(b.getvalue()).decode()
+    attendus = _mots(texte)[:6]
+    for modele in ((cfg.get("video") or {}).get("modeles_gemini") or ["gemini-3.6-flash", "gemini-3.5-flash"]):
+        try:
+            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modele}:generateContent",
+                              headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, timeout=120, json={
+                                  "contents": [{"parts": [{"inlineData": {"mimeType": "audio/wav", "data": donnees}},
+                                                          {"text": "Transcris mot pour mot cet audio en français, sans rien ajouter."}]}],
+                                  "generationConfig": {"thinkingConfig": {"thinkingLevel": "low"}}})
+            entendu = _mots("".join(p.get("text", "") for p in r.json()["candidates"][0]["content"]["parts"]))[:14]
+        except (requests.RequestException, KeyError, IndexError, ValueError):
+            continue
+        return sum(m in entendu for m in attendus) >= max(2, len(attendus) - 2)
+    return None
+
+
 def silences(pcm: bytes) -> list[tuple[float, float]]:
     """(début, fin) en secondes des silences d'au moins SILENCE_MIN, repérés par rapport au volume le plus fort."""
     ech = array("h")
@@ -114,14 +151,72 @@ STYLE_RECIT_CHALEUREUX = (
     "consigne.\n\nTexte :\n")
 
 
-def resserrer(pcm: bytes, plafond: float = 0.28, voulu: float = 0.7) -> bytes:
-    """Raccourcit chaque silence à `plafond` secondes, sauf le plus long (le silence voulu avant la révélation), gardé
-    jusqu'à `voulu`. Le début et la fin de la prise sont ramenés à 0,1 s. La coupe se fait au milieu du silence."""
+# Demande de Stéphane du 09/11/2026 : « la lecture est linéaire voire monotone ; mets des accents, des montées et des
+# descentes comme un vrai conteur, avec du suspense réel dans la voix ». Mesure sur le début de Van Meegeren (7 phrases,
+# même voix Algenib) : écart de hauteur p10-p90 de 4,4 demi-tons avec gemini-2.5-flash-tts et STYLE_RECIT_CONTINU,
+# 11,9 avec gemini-3.8-flash-tts et cette consigne, pour la même durée (40 s). Les indications entre crochets dans le
+# texte rallongent la prise du double (le modèle les lit) : jamais de balise dans le texte.
+# Format « notes du réalisateur » (profil, notes, puis la transcription seule sous son titre) : le 10/11/2026, la consigne
+# en phrases suivie de « Texte : » a été LUE à voix haute par gemini-3.8-flash-tts. lit_le_texte() contrôle chaque prise.
+_FIN_NOTES = ("\n\n### RÈGLE\nAucun mot de ces notes ne doit être prononcé. Dis uniquement la transcription ci-dessous, "
+              "mot pour mot, en commençant par son premier mot.\n\n#### TRANSCRIPTION\n")
+STYLE_CONTEUR = (
+    "# PROFIL DE VOIX\nUn grand conteur d'histoires vraies, en français de France, comme dans un podcast de faits "
+    "divers à succès.\n\n## NOTES DU RÉALISATEUR\n- Voix en montagne russe : jamais deux phrases sur la même note.\n"
+    "- Monter vers l'aigu sur l'étonnement et les questions.\n- Descendre très bas, lentement, presque chuchoté, sur "
+    "les secrets et juste avant chaque révélation.\n- Un très court silence avant un chiffre ou un nom, puis le frapper "
+    "avec force.\n- Accélérer quand l'action s'emballe, ralentir pour faire durer le suspense.\n- Faire entendre "
+    "l'ironie, l'indignation, la stupeur, la tension qui monte.\n- Les phrases s'enchaînent d'un seul souffle, sans "
+    "pause à chaque retour à la ligne. Naturel, jamais publicitaire, pas de cri." + _FIN_NOTES)
+
+# Rubrique Présidentielle 2027 : les mêmes montées et descentes, avec la chaleur demandée le 07/11/2026.
+STYLE_CONTEUR_CHALEUREUX = (
+    "# PROFIL DE VOIX\nUn conteur chaleureux et captivant, en français de France, comme un ami passionné qui raconte "
+    "une histoire qui touche la vie de celui qui l'écoute. Voix chaude, ronde, proche.\n\n## NOTES DU RÉALISATEUR\n"
+    "- Voix en montagne russe : jamais deux phrases sur la même note.\n- Monter vers l'aigu sur l'étonnement et les "
+    "questions.\n- Descendre bas, lentement, en confidence, juste avant une révélation.\n- Un très court silence avant "
+    "un chiffre, puis le faire sonner.\n- Accélérer quand ça s'emballe, ralentir pour faire durer le suspense.\n- Faire "
+    "entendre la surprise, la curiosité, l'ironie légère, la gravité.\n- Les phrases s'enchaînent d'un seul souffle. "
+    "Jamais publicitaire, jamais militant, pas de cri." + _FIN_NOTES)
+
+
+DEBIT_VISE = 16.0  # caractères par seconde après resserrage (rythme TikTok ; les prises du 07/11 étaient à ~17)
+
+
+def tempo(pcm: bytes, facteur: float) -> bytes:
+    """Accélère la voix de `facteur` sans changer sa hauteur (ffmpeg atempo)."""
+    import subprocess
+
+    import imageio_ffmpeg
+
+    r = subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-v", "error", "-f", "s16le", "-ar", str(TAUX), "-ac", "1", "-i", "-",
+                        "-af", f"atempo={facteur:.4f}", "-f", "s16le", "-ar", str(TAUX), "-ac", "1", "-"],
+                       input=pcm, capture_output=True, check=True)
+    return r.stdout
+
+
+def queue_propre(pcm: bytes) -> bytes:
+    """Coupe le craquement saturé que gemini-3.8-flash-tts laisse parfois dans les 0,3 dernières secondes (mesuré le
+    10/11/2026 : 9 échantillons écrêtés entre 40,32 et 40,44 s sur une prise de 40,45 s)."""
+    import numpy as np
+
+    x = np.frombuffer(pcm, dtype=np.int16)
+    fin = int(0.3 * TAUX)
+    sature = np.where(np.abs(x[-fin:].astype(np.int32)) >= 32000)[0]
+    if len(sature):
+        x = x[:max(0, len(x) - fin + int(sature[0]) - int(0.01 * TAUX))]
+    return x.tobytes()
+
+
+def resserrer(pcm: bytes, plafond: float = 0.28, voulu: float = 0.6, nb_voulus: int = 2) -> bytes:
+    """Raccourcit chaque silence à `plafond` secondes, sauf les `nb_voulus` plus longs (les silences de suspense avant
+    les révélations), gardés jusqu'à `voulu`. Le début et la fin de la prise sont ramenés à 0,1 s. La coupe se fait au
+    milieu du silence."""
     trouves = silences(pcm)
     if not trouves:
         return pcm
     duree = len(pcm) / OCTETS_PAR_SECONDE
-    plus_long = max(trouves, key=lambda s: s[1] - s[0])
+    longs = sorted(trouves, key=lambda s: s[1] - s[0], reverse=True)[:nb_voulus]
     retraits = []  # (début, fin) en secondes des passages à retirer
     for a, b in trouves:
         if a <= 0.01:
@@ -129,7 +224,7 @@ def resserrer(pcm: bytes, plafond: float = 0.28, voulu: float = 0.7) -> bytes:
         elif b >= duree - 0.01:
             retraits.append((a + 0.1, b))
         else:
-            garde = voulu if (a, b) == plus_long else plafond
+            garde = voulu if (a, b) in longs else plafond
             retraits.append((a + garde / 2, b - garde / 2))
     morceaux, position = [], 0.0
     for a, b in retraits:
@@ -155,10 +250,11 @@ def grave(pcm: bytes, demi_tons: float) -> bytes:
     return r.stdout
 
 
-def _prise(cfg: dict, texte: str, journal, style: str = STYLE, voix: str | None = None) -> bytes:
+def _prise(cfg: dict, texte: str, journal, style: str = STYLE, voix: str | None = None,
+           modeles: list[str] | None = None) -> bytes:
     reglages = (cfg.get("perso") or {}).get("voix_gemini") or {}
     erreur = ""
-    for modele in reglages.get("modeles", ["gemini-2.5-flash-preview-tts"]):
+    for modele in modeles or reglages.get("modeles", ["gemini-2.5-flash-preview-tts"]):
         for pause in (0, 65):  # la limite par minute se libère vite ; les rendus tournent en parallèle
             time.sleep(pause)
             try:
@@ -180,24 +276,39 @@ def _prise(cfg: dict, texte: str, journal, style: str = STYLE, voix: str | None 
                 continue
             vitesse = len(texte) / max(len(pcm) / OCTETS_PAR_SECONDE, 0.1)
             if VITESSE[0] <= vitesse <= VITESSE[1]:
-                return pcm
+                lu = lit_le_texte(cfg, pcm, texte)
+                if lu is False or (lu is None and vitesse < 12.5):  # sans vérification : seulement une prise vive
+                    erreur = f"{modele} : la prise ne commence pas par le texte (consigne lue à voix haute ?)"
+                    journal(f"    ↺ voix : {erreur}")
+                    continue
+                if modele != (modeles or [modele])[0]:
+                    journal(f"    ↺ voix : relais sur {modele}")
+                return queue_propre(pcm)
             erreur = f"{modele} : {vitesse:.1f} caractères par seconde, prise écartée"
             journal(f"    ↺ voix : {erreur}")
     raise PriseImpossible(erreur)
 
 
 def narration(cfg: dict, dits: list[dict], dossier: Path, prefixe: str, journal=print, style: str = STYLE,
-              voix: str | None = None, demi_tons: float = 0, continu: bool = False) -> list[dict]:
+              voix: str | None = None, demi_tons: float = 0, continu: bool = False,
+              modeles: list[str] | None = None) -> list[dict]:
     """Même résultat que Voix.narration : [{"cle", "src", "duree"}] pour les scènes qui ont un texte. `style` : la consigne
     de lecture (conseil par défaut, STYLE_BANDE_ANNONCE pour les histoires) ; `voix` remplace la voix de la config ;
     `demi_tons` rend la voix plus grave (découpage en scènes fait après, sur la voix finale)."""
     textes = [(d["cle"], preparer(d["texte"], coller=False)) for d in dits if d.get("texte")]
     textes = [(c, t) for c, t in textes if t]
-    pcm = grave(_prise(cfg, "\n".join(t for _, t in textes), journal, style, voix=voix), demi_tons)
+    pcm = grave(_prise(cfg, "\n".join(t for _, t in textes), journal, style, voix=voix, modeles=modeles), demi_tons)
     if continu:  # récit d'un seul souffle : les silences sont raccourcis avant le découpage en scènes
         avant = len(pcm)
         pcm = resserrer(pcm)
         journal(f"    ✂️ silences resserrés : {(avant - len(pcm)) / OCTETS_PAR_SECONDE:.1f} s retirées")
+        # le conteur expressif (gemini-3.8-flash-tts) ralentit beaucoup : 104 s pour 1 361 caractères le 10/11/2026,
+        # contre 79 s avant. On ramène le débit à DEBIT_VISE sans changer la hauteur (atempo), 25 % au plus.
+        debit = sum(len(t) for _, t in textes) / max(len(pcm) / OCTETS_PAR_SECONDE, 0.1)
+        if debit < DEBIT_VISE:
+            facteur = min(1.25, DEBIT_VISE / debit)
+            pcm = tempo(pcm, facteur)
+            journal(f"    ⏩ débit {debit:.1f} → {debit * facteur:.1f} caractères/s (×{facteur:.2f})")
     morceaux = decouper(pcm, [len(t) for _, t in textes])
     pistes = []
     for (cle, _), morceau in zip(textes, morceaux):

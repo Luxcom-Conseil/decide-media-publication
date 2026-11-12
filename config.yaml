@@ -132,6 +132,9 @@ histoires:
   voix:                                 # essai C choisi par Stéphane le 06/11/2026 : ton bande-annonce de thriller
     nom: Algenib
     demi_tons: 1                        # un peu plus grave
+    # conteur expressif (demande de Stéphane du 09/11/2026 : « voix monotone ») ; les suivants servent de relais
+    # (quota épuisé, surcharge). Vaut aussi pour la rubrique programme.
+    modeles: [gemini-3.8-flash-tts, gemini-3.1-flash-tts-preview, gemini-2.5-flash-preview-tts]
   # Charte sonore « thriller d'archives » (08/11/2026). Les bruitages sont rendus UNE fois en local par
   # scripts/banque_sons.py (Earshot : sons fabriqués par du code, aucun risque Content ID) dans
   # motion/public/sons/histoires/ ; les musiques sont choisies à l'oreille, CC0 ou domaine public seulement
@@ -148,7 +151,10 @@ histoires:
       signature:  {son: impact/metal,     caler: attaque, a: 0.07, gain_db: -8}   # le tampon « VRAI »
     transition_ecart_s: 6               # pas deux whooshs à moins de 6 s : un son par rebondissement, pas par plan
     musique_volume: 0.10                # sous la voix, ramené à 35 % pendant la parole (RecitReel)
-    volume_final_lufs: -14              # TikTok et YouTube ; pic vrai au plus -1.5 dBTP
+    # -11 LUFS (09/11/2026, Stéphane trouvait le son « très bas » à -14) : niveau des vidéos courtes les plus
+    # écoutées sur téléphone ; une compression douce passe avant le nivellement pour tenir le pic vrai à -1.5 dBTP
+    volume_final_lufs: -11
+    compression: true
     formats:                            # la rubrique Présidentielle 2027 garde l'habillage, sans effets de thriller
       programme: {sans: [accroche, suite], gain_db: -3}
 

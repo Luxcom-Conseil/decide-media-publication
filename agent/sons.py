@@ -94,6 +94,53 @@ def mesurer(fichier: Path) -> dict:
     return {"lufs": float(i.group(1)), "pic": float(p.group(1))}
 
 
+def _chaine_forte(gain_db: float, surechantillonne: bool = True) -> str:
+    """Compresseur, limiteur, gain, second limiteur (sur-échantillonné à 192 kHz ou non).
+    Le 10/11/2026, à -11 LUFS : loudnorm linéaire laissait -0.4 dBTP, son mode dynamique plafonnait à -13.5 LUFS ;
+    cette chaîne avec +6 dB a donné -11.1 LUFS et -2.0 dBTP après AAC. Le 12/11, sur un autre rendu, la variante
+    à 192 kHz est montée à +0.3 dBTP et celle sans sur-échantillonnage a tenu -1.6 dBTP : les deux sont essayées."""
+    haut, bas = (",aresample=192000", ",aresample=48000") if surechantillonne else ("", "")
+    return (f"acompressor=threshold=-24dB:ratio=4:attack=5:release=120:makeup=4{haut},"
+            f"alimiter=limit=0.45:attack=1:release=60:level=0,volume={gain_db:.1f}dB,"
+            f"alimiter=limit=0.7:attack=1:release=60:level=0{bas}")
+
+
+def _niveler_fort(mp4: Path, cible: float, avant: dict, journal) -> dict:
+    """Cible haute (-11 LUFS) : la chaîne forte, en deux variantes, le gain du milieu corrigé d'après la mesure
+    (baissé d'1 dB quand aucune variante ne tient le pic). Garde le meilleur rendu dans la charte."""
+    tmp = mp4.with_name(mp4.stem + ".niveau.mp4")
+    gain, apres, bon = 6.0, None, None
+    for _ in range(4):
+        for sur in (True, False):
+            subprocess.run([_ffmpeg(), "-v", "error", "-y", "-i", str(mp4), "-map", "0", "-c:v", "copy",
+                            "-af", _chaine_forte(gain, sur), "-ar", "48000", "-c:a", "aac", "-b:a", "192k",
+                            "-movflags", "+faststart", str(tmp)], check=True, capture_output=True, timeout=600)
+            apres = mesurer(tmp)
+            if apres["pic"] <= -1.0:
+                break
+        if apres["pic"] > -1.0:
+            gain = max(0.0, gain - 1.0)
+            continue
+        if abs(apres["lufs"] - cible) <= 1.0 and (bon is None or abs(apres["lufs"] - cible) < abs(bon["lufs"] - cible)):
+            bon = dict(apres)
+            tmp.replace(mp4.with_name(mp4.stem + ".niveau-bon.mp4"))
+        if abs(apres["lufs"] - cible) <= 0.5:
+            break
+        gain = min(12.0, max(0.0, gain + (cible - apres["lufs"])))
+    garde = mp4.with_name(mp4.stem + ".niveau-bon.mp4")
+    if bon is not None:
+        tmp.unlink(missing_ok=True)
+        garde.replace(tmp)
+        apres = bon
+    if abs(apres["lufs"] - cible) > 1.0 or apres["pic"] > -1.0:
+        tmp.unlink(missing_ok=True)
+        journal(f"    ⚠️ nivellement hors charte ({apres['lufs']:.1f} LUFS, {apres['pic']:.1f} dBTP) : vidéo gardée telle quelle")
+        return avant
+    tmp.replace(mp4)
+    journal(f"    🎚️ volume {avant['lufs']:.1f} → {apres['lufs']:.1f} LUFS, pic {apres['pic']:.1f} dBTP (chaîne forte, +{gain:.1f} dB)")
+    return apres
+
+
 def niveler(cfg: dict, production: str, mp4: Path, journal=print) -> dict | None:
     """Ramène le MP4 au volume de la charte (loudnorm en deux passes, image copiée telle quelle), puis le re-mesure.
     Renvoie la mesure finale, ou None si la production n'a pas de cible ou si le nivellement échoue."""
@@ -106,8 +153,10 @@ def niveler(cfg: dict, production: str, mp4: Path, journal=print) -> dict | None
         if abs(avant["lufs"] - cible) <= 0.7 and avant["pic"] <= -1.5:
             journal(f"    🎚️ volume {avant['lufs']:.1f} LUFS, pic {avant['pic']:.1f} dBTP : déjà dans la charte")
             return avant
+        if ch.get("compression"):
+            return _niveler_fort(mp4, cible, avant, journal)
         filtre = f"loudnorm=I={cible}:TP=-1.5:LRA=11"
-        r = subprocess.run([_ffmpeg(), "-hide_banner", "-nostats", "-i", str(mp4), "-vn", "-af", filtre + ":print_format=json",
+        r =subprocess.run([_ffmpeg(), "-hide_banner", "-nostats", "-i", str(mp4), "-vn", "-af", filtre + ":print_format=json",
                             "-f", "null", "-"], capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=600)
         m = json.loads(r.stderr[r.stderr.rfind("{"):r.stderr.rfind("}") + 1])
         filtre += (f":measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"

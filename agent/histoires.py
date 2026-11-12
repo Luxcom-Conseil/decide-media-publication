@@ -43,10 +43,39 @@ from .histoires_sujets import CATALOGUE  # noqa: E402
 PAR_ID = {s["id"]: s for s in CATALOGUE}
 
 FORMULES = {
-    "Énigme": "une situation impossible, sans donner la réponse (« Le jour où l'on a ouvert son coffre-fort, Paris a découvert l'impensable. »)",
-    "Chiffre": "un fait ou un chiffre réel de l'article qui choque (« Cet homme a vendu la tour Eiffel. Deux fois. »)",
-    "Contre-pied": "ce que tout le monde croit, puis l'inverse (« Le faussaire qui a trompé les nazis a été sauvé par ses faux. »)",
+    "Énigme": "on démarre au pire moment, sans dire comment on en est arrivé là (« On ouvre son coffre-fort. Il n'y a qu'une *brique* dedans. »)",
+    "Chiffre": "le fait ou le chiffre le plus absurde de l'article, lâché sans contexte (« Il a vendu la *tour Eiffel*. Deux fois. »)",
+    "Contre-pied": "ce que tout le monde croit, retourné en une phrase (« Il a trompé les nazis. Ses *faux* lui ont sauvé la vie. »)",
 }
+
+# Les 3 à 5 premières secondes (demande de Stéphane du 09/11/2026) : au 09/11, les vidéos que TikTok mettait en avant
+# étaient regardées 3 à 8 s en moyenne sur 60. Bloc commun aux histoires et à la rubrique programme (agent/programme.py).
+OUVERTURE = """LES 3 À 5 PREMIÈRES SECONDES (ce qui décide de tout) : la plupart des gens partent avant la 5e seconde. \
+Les deux premières scènes n'ont qu'un rôle : arrêter le pouce.
+- Scène 1 (type « accroche ») : « dit » de 25 à 75 caractères, prononcé en 2 à 4 secondes ; « ecran » = 4 à 10 mots, \
+le mot qui choque entre astérisques. Aucune mise en place : on démarre au milieu de l'action, au pire moment, sur le \
+chiffre le plus fou ou sur une phrase qui contredit ce que le spectateur croit.
+- Elle crée un manque : une question s'allume dans la tête du spectateur (qui ? comment ? combien ? pourquoi personne \
+n'a rien vu ?) et tu n'y réponds pas tout de suite.
+- Interdit en scène 1 : commencer par une date ou « En 1920 », « Aujourd'hui », « On va parler de », « Imagine », \
+« Voici », « Savais-tu » ; un nom inconnu du public sans ce qui le rend fascinant ; une question fermée à laquelle on \
+peut répondre « non » et partir.
+- Scène 2 (type « recit » ou « chiffre », pas « date ») : la relance, « dit » de 40 à 100 caractères. Elle fait monter \
+l'enjeu ou dit pourquoi ça le concerne, LUI, et promet une récompense plus loin (« Et attends de voir comment il s'est \
+fait prendre. », « Le pire arrive à la fin. »). Elle ne répond pas encore à l'accroche.
+
+LEVIERS D'ÉCRITURE (copywriting et storytelling) :
+- Interpelle : « tu », « toi », « ton argent », dans l'accroche ou la relance, puis de temps en temps.
+- Provoque et titille avec les faits : le contraste, l'interdit, le scandale, l'injustice, le chiffre absurde, le \
+« tout le monde s'est fait avoir », la question qui dérange. Jamais en inventant ou en exagérant un fait.
+- Boucles ouvertes : ouvre une question, ne la ferme que plus loin, et ouvre la suivante avant de fermer la précédente.
+- Une relance toutes les 2 ou 3 scènes (environ toutes les 6 secondes) : un chiffre, un retournement, un « mais », un \
+« sauf que », un « et ce n'est pas le pire ».
+- Concret et visuel : un geste, un objet, un lieu, une valise de billets, plutôt qu'une idée abstraite.
+- Verbes d'action, phrases de 6 à 14 mots, une idée par phrase ; alterne phrases courtes et très courtes.
+- La fin tient la promesse de la relance, puis une dernière phrase qui donne envie de commenter ou de revoir."""
+
+_DEBUT_INTERDIT = re.compile(r"^\s*(en \d{3,4}\b|\d{3,4}\b|aujourd'hui|on va parler|imagine|voici|savais-tu|saviez-vous)", re.I)
 FORMATS = {
     # (scènes min, max), (caractères dits min, max) : Schedar en conteur lit environ 15 caractères par seconde
     "serie": ((13, 24), (1150, 1700)),
@@ -87,8 +116,9 @@ EXACTITUDE (impératif) :
 - Ne nomme que le personnage principal et les personnages historiques que l'article nomme. Aucune autre personne privée.
 - Reste neutre : on raconte, on n'accuse pas au-delà de ce que l'article établit (condamnations, aveux).
 
-ACCROCHE (première scène, type « accroche ») : 12 mots au plus dans « ecran », qui suit la formule demandée. Elle pose \
-l'énigme ou le choc sans donner la fin. « dit » = la même accroche, à l'oral, au plus 140 caractères.
+ACCROCHE : elle suit la formule demandée et pose l'énigme ou le choc sans donner la fin. « dit » = la même idée à l'oral.
+
+""" + OUVERTURE + """
 
 Le reste :
 - des scènes courtes, une idée chacune, dans l'ordre de l'histoire ;
@@ -125,8 +155,8 @@ puis la dernière scène de type « lecon » : la leçon d'argent ou de psycholo
 (« ecran » = cette phrase, 90 caractères au plus ; « dit » = la même phrase).""",
     "serie2": """FORMAT SÉRIE, PARTIE 2 SUR 2 : entre 13 et 22 scènes, de 1 150 à 1 600 caractères dits en tout. La partie 1 \
 (fournie entre les balises <partie1>) s'est arrêtée sur une question en suspens. La première scène (type « accroche ») \
-relance en une phrase là où l'histoire s'était arrêtée (« ecran » de 12 mots au plus, par exemple « Le coffre-fort \
-s'ouvre enfin. Il est vide. »). Raconte ensuite la suite et la fin, sans répéter la partie 1, jusqu'au dénouement \
+relance en une phrase là où l'histoire s'était arrêtée (« ecran » de 10 mots au plus, par exemple « Le coffre-fort \
+s'ouvre enfin. Il est *vide*. »), sans « Dans la partie 1 » ni résumé. Raconte ensuite la suite et la fin, sans répéter la partie 1, jusqu'au dénouement \
 (procès, chute, fuite, mort, ce qu'il reste de l'argent). La dernière scène est de type « lecon » : la leçon d'argent ou \
 de psychologie que l'histoire enseigne, en une phrase (« ecran » = cette phrase, 90 caractères au plus ; « dit » = la même \
 phrase).""",
@@ -207,8 +237,16 @@ def controler(script: dict, source: str, format_: str, nb_images: int) -> list[s
         problemes.append(f"{len(scenes)} scènes ({smin} à {smax} attendues)")
     if not scenes or scenes[0].get("type") != "accroche":
         problemes.append("la première scène doit être l'accroche")
-    elif len(re.sub(r"\*", "", scenes[0].get("ecran", "")).split()) > 13:
-        problemes.append("accroche trop longue (12 mots au plus à l'écran)")
+    else:
+        if len(re.sub(r"\*", "", scenes[0].get("ecran", "")).split()) > 11:
+            problemes.append("accroche trop longue (10 mots au plus à l'écran)")
+        if len(scenes[0].get("dit", "")) > 80:
+            problemes.append(f"accroche dite trop longue ({len(scenes[0]['dit'])} caractères, 75 au plus : 2 à 4 secondes)")
+        if _DEBUT_INTERDIT.match(scenes[0].get("dit", "")):
+            problemes.append("l'accroche commence par une mise en place (date, « Imagine », « Aujourd'hui »…) : "
+                             "démarre au milieu de l'action")
+        if len(scenes) > 1 and (scenes[1].get("type") == "date" or len(scenes[1].get("dit", "")) > 110):
+            problemes.append("la scène 2 doit être une relance courte (40 à 100 caractères, pas une scène « date »)")
     fin = "suite" if format_ == "serie" else "lecon"
     if scenes and scenes[-1].get("type") != fin:
         problemes.append(f"la dernière scène doit être de type « {fin} »")
@@ -352,7 +390,7 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
            journal=print, format_: str | None = None) -> set[int]:
     """MP4 et miniature ; renvoie les numéros d'images utilisées (pour les crédits)."""
     from .voix import Voix
-    from .voix_conseil import STYLE_RECIT_CHALEUREUX, STYLE_RECIT_CONTINU, narration
+    from .voix_conseil import STYLE_CONTEUR, STYLE_CONTEUR_CHALEUREUX, narration
 
     scenes, dits, utilisees = [], [], set()
     for sc in script["scenes"]:
@@ -374,13 +412,14 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
     if (cfg.get("perso") or {}).get("voix_gemini"):
         try:
             v = (cfg.get("histoires") or {}).get("voix") or {}
-            style = STYLE_RECIT_CONTINU
+            modeles = v.get("modeles")  # conteur expressif (09/11/2026) : gemini-3.8-flash-tts d'abord
+            style = STYLE_CONTEUR
             if format_ == "programme":  # voix plus chaude, plus de rythme (demande de Stéphane du 07/11/2026)
                 v = (cfg.get("programme") or {}).get("voix") or v
-                style = STYLE_RECIT_CHALEUREUX
+                style = STYLE_CONTEUR_CHALEUREUX
             pistes = {x["cle"]: x for x in narration(cfg, textes, dossier, "voix", journal, style=style,
                                                      voix=v.get("nom", "Algenib"), demi_tons=v.get("demi_tons", 1),
-                                                     continu=True)}
+                                                     continu=True, modeles=v.get("modeles") or modeles)}
         except Exception as e:
             journal(f"⚠️ Voix Schedar indisponible, relais sur la voix Chirp : {e}")
     if not pistes:
