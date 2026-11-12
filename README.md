@@ -124,7 +124,8 @@ Les scripts s'exécutent **une fois, sur votre ordinateur** (`pip install -r req
 1. Le compte Instagram doit être **professionnel** et **relié à la Page Facebook** (Paramètres de la Page → Comptes liés).
 2. developers.facebook.com → **Créer une app** (type « Entreprise ») → ajoutez les cas d'usage *Gérer une Page* et *Instagram (API avec connexion Facebook)*.
 3. Ouvrez l'**Explorateur de l'API Graph**, choisissez l'app, générez un jeton avec : `pages_show_list`,
-   `pages_read_engagement`, `pages_manage_posts`, `instagram_basic`, `instagram_content_publish`, `business_management`.
+   `pages_read_engagement`, `pages_manage_posts`, `pages_read_user_content`, `pages_manage_engagement`, `read_insights`,
+   `instagram_basic`, `instagram_content_publish`, `business_management`.
 4. `python scripts/jeton_meta.py` → collez l'ID de l'app, sa clé secrète et ce jeton : le script affiche
    `META_PAGE_ID`, un `META_PAGE_TOKEN` **sans expiration** et `INSTAGRAM_USER_ID`.
 

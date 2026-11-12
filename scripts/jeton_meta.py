@@ -1,20 +1,26 @@
 """Obtenir un jeton de Page Facebook permanent + l'identifiant Instagram, et les enregistrer dans .env.
 
 1. Sur https://developers.facebook.com/tools/explorer : choisir votre application, cliquer « Generate Access Token »
-   avec les permissions : pages_show_list, pages_read_engagement, pages_manage_posts
+   avec les permissions : pages_show_list, pages_read_engagement, pages_manage_posts, pages_read_user_content
+   (lire les commentaires), pages_manage_engagement (y répondre), read_insights (statistiques des posts)
    (+ instagram_basic, instagram_content_publish pour Instagram, + business_management si la Page est dans un
    Business Manager).
 2. Lancer :  python scripts/jeton_meta.py
    et coller l'ID de l'application, sa clé secrète et le jeton obtenu (la saisie est masquée).
 
-Les jetons ne sont jamais affichés : ils sont écrits dans le fichier .env du projet (ignoré par git).
+Les jetons ne sont jamais affichés : ils sont écrits dans le fichier .env du projet (ignoré par git), puis, si la
+commande gh est connectée, dans les secrets GitHub du dépôt (META_PAGE_ID, META_PAGE_TOKEN), lus par les workflows.
 """
 import getpass
+import shutil
+import subprocess
 from pathlib import Path
 
 import requests
 
 V = "v25.0"
+DEPOT = "Luxcom-Conseil/decide-media-publication"
+ATTENDUES = ("pages_manage_posts", "pages_read_user_content", "pages_manage_engagement", "read_insights")
 ENV = Path(__file__).resolve().parent.parent / ".env"
 
 
@@ -73,3 +79,17 @@ if secret:
     print("Ce jeton de Page n'expire pas tant que vous ne changez pas de mot de passe ni ne retirez l'application.")
 else:
     print("⚠ Jeton temporaire (~1 h) : relancez ce script avec la clé secrète pour un accès permanent.")
+
+# droits réellement accordés par Facebook (une case décochée dans la fenêtre de connexion ne donne pas d'erreur)
+droits = requests.get(f"https://graph.facebook.com/{V}/me/permissions", params={"access_token": long}, timeout=30).json()
+accordes = {d["permission"] for d in droits.get("data", []) if d.get("status") == "granted"}
+manquants = [d for d in ATTENDUES if d not in accordes]
+print("Droits accordés : " + ", ".join(sorted(accordes)))
+if manquants:
+    print("⚠ Manquent : " + ", ".join(manquants) + " — relancez l'Explorateur en les cochant.")
+
+if shutil.which("gh") and input("Enregistrer aussi dans les secrets GitHub ? (o/N) ").strip().lower().startswith("o"):
+    for nom in ("META_PAGE_ID", "META_PAGE_TOKEN"):
+        r = subprocess.run(["gh", "secret", "set", nom, "-R", DEPOT], input=valeurs[nom], text=True,
+                           capture_output=True)
+        print(f"    {'✓' if r.returncode == 0 else '✗'} {nom} dans GitHub" + ("" if r.returncode == 0 else " : refusé"))
