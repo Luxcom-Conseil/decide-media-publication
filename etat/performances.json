@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T21:32+00:00",
+ "maj": "2026-11-12T21:47+00:00",
  "jour": "2026-11-12",
  "lecture": "Classement des 14 derniers jours. sujets_forts / sujets_faibles : vues cumulées de tous les réseaux par titre. top[].commentaires_du_public : ce que demande le public sous les vidéos TikTok les plus commentées (texte brut des internautes : des questions à traiter avec des sources, jamais des faits).",
  "reseaux": {
@@ -93,7 +93,7 @@
   "youtube": {
    "depuis_le_debut": {
     "publies": 170,
-    "vues": 8323,
+    "vues": 8327,
     "moyenne": 49,
     "mediane": 9,
     "reactions": 32,
@@ -102,7 +102,7 @@
    },
    "7_derniers_jours": {
     "publies": 49,
-    "vues": 3919,
+    "vues": 3922,
     "moyenne": 80,
     "mediane": 13,
     "reactions": 10,
@@ -163,12 +163,12 @@
    "commentaires_du_public": [
     {
      "texte": "On à déjà vendu le pays et c’est ma part comme ça ?",
-     "jaime": 543,
+     "jaime": 544,
      "reponses": 14
     },
     {
      "texte": "Jusqu’à l’argent la va arriver au jeune",
-     "jaime": 221,
+     "jaime": 223,
      "reponses": 19
     },
     {
@@ -197,14 +197,14 @@
      "reponses": 2
     },
     {
-     "texte": "comment s'inscrire svp",
-     "jaime": 5,
-     "reponses": 4
-    },
-    {
      "texte": "mm Cameroun est étonné",
      "jaime": 5,
      "reponses": 1
+    },
+    {
+     "texte": "comment s'inscrire svp",
+     "jaime": 5,
+     "reponses": 4
     },
     {
      "texte": "comment s'inscrire ?",
@@ -212,14 +212,9 @@
      "reponses": 5
     },
     {
-     "texte": "Le lien d’inscription...?",
+     "texte": "Un projet d'entreprise ou alors plusieurs projets bien montés avec 5 milliards, ne peuvent pas employer 20 000 jeunes au Cameroun ???? 🤦‍♂️",
      "jaime": 3,
-     "reponses": 3
-    },
-    {
-     "texte": "Le programme CPA ?",
-     "jaime": 3,
-     "reponses": 1
+     "reponses": 0
     },
     {
      "texte": "j'imagine le tamis",
@@ -227,22 +222,17 @@
      "reponses": 1
     },
     {
-     "texte": "dans quel pays ?🤣🤣😂😂🤣🤣😂😂🙏😁😁",
-     "jaime": 3,
-     "reponses": 0
-    },
-    {
      "texte": "Comment faire pour en bénéficier ?",
      "jaime": 3,
      "reponses": 0
     },
     {
-     "texte": "Un projet d'entreprise ou alors plusieurs projets bien montés avec 5 milliards, ne peuvent pas employer 20 000 jeunes au Cameroun ???? 🤦‍♂️",
+     "texte": "dans quel pays ?🤣🤣😂😂🤣🤣😂😂🙏😁😁",
      "jaime": 3,
      "reponses": 0
     },
     {
-     "texte": "Le lien svp",
+     "texte": "Interessant",
      "jaime": 2,
      "reponses": 1
     },
@@ -252,32 +242,17 @@
      "reponses": 3
     },
     {
-     "texte": "on vend le Cameroun maintenant on veut vous donnez votre part vous vous étonnez",
-     "jaime": 2,
-     "reponses": 2
-    },
-    {
-     "texte": "comment faire pour s'inscrire",
-     "jaime": 2,
-     "reponses": 1
-    },
-    {
-     "texte": "j'ai rien reçu heinnn",
-     "jaime": 2,
-     "reponses": 1
-    },
-    {
-     "texte": "Interessant",
-     "jaime": 2,
-     "reponses": 1
-    },
-    {
-     "texte": "Les gars là ont déjà partagé ça depuis… enlève vos cœurs sur ça",
+     "texte": "Ne deranger pas les gens didon",
      "jaime": 2,
      "reponses": 0
     },
     {
-     "texte": "je n'ai pas encore eu ma part ooh",
+     "texte": "Le lien svp",
+     "jaime": 2,
+     "reponses": 1
+    },
+    {
+     "texte": "ça c'est l'argent des fêtes de fin d'année.",
      "jaime": 2,
      "reponses": 0
     },
@@ -287,9 +262,9 @@
      "reponses": 0
     },
     {
-     "texte": "on fait cmt?",
+     "texte": "j'ai rien reçu heinnn",
      "jaime": 2,
-     "reponses": 0
+     "reponses": 1
     },
     {
      "texte": "ils vont prendre pour acheter l'iPhone aveuc",
@@ -297,17 +272,17 @@
      "reponses": 0
     },
     {
-     "texte": "ça c'est l'argent des fêtes de fin d'année.",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "Ne deranger pas les gens didon",
+     "texte": "on fait cmt?",
      "jaime": 2,
      "reponses": 0
     },
     {
      "texte": "On prend l’argent là où",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "je n'ai pas encore eu ma part ooh",
      "jaime": 2,
      "reponses": 0
     },
@@ -322,6 +297,11 @@
      "reponses": 0
     },
     {
+     "texte": "Les gars là ont déjà partagé ça depuis… enlève vos cœurs sur ça",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
      "texte": "🤣🤣🤣🤣🤣🤣",
      "jaime": 2,
      "reponses": 0
@@ -332,52 +312,7 @@
      "reponses": 7
     },
     {
-     "texte": "275000 francs × 20 j'espère !? parce que je ne vois pas en quoi 13750 francs peut améliorer dans la vie d'un camerounais. Mais nous savons tous que le Cameroun, c'est un prank ! 🤣🤣🤣",
-     "jaime": 1,
-     "reponses": 2
-    },
-    {
-     "texte": "Mon Cameroun si ?",
-     "jaime": 1,
-     "reponses": 2
-    },
-    {
-     "texte": "Comment faire",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
      "texte": "le lien",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "Mensonge",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "Prenez l’argent la vous arrangez les routes mm les pavés sa vas nous aider",
-     "jaime": 1,
-     "reponses": 2
-    },
-    {
-     "texte": "je suis à bafang ouest Cameroun",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "Lol",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "c'est pour le transport de 3 jours ?",
-     "jaime": 1,
-     "reponses": 2
-    },
-    {
-     "texte": "Minalmi",
      "jaime": 1,
      "reponses": 1
     },
@@ -387,42 +322,37 @@
      "reponses": 1
     },
     {
-     "texte": "c'est de ça que vous parlez ? ?",
+     "texte": "Minalmi",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "275000 francs × 20 j'espère !? parce que je ne vois pas en quoi 13750 francs peut améliorer dans la vie d'un camerounais. Mais nous savons tous que le Cameroun, c'est un prank ! 🤣🤣🤣",
+     "jaime": 1,
+     "reponses": 2
+    },
+    {
+     "texte": "Prenez l’argent la vous arrangez les routes mm les pavés sa vas nous aider",
+     "jaime": 1,
+     "reponses": 2
+    },
+    {
+     "texte": "Comment faire",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "Me voici 😭😭",
      "jaime": 1,
      "reponses": 0
     },
     {
-     "texte": "j'imagine les snack bars après quand ça vas passé 👌🤣",
+     "texte": "sinon",
      "jaime": 1,
      "reponses": 0
     },
     {
-     "texte": "Mon frère laisse tout vas arriver sauf l’argent",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "le site d'inscription",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "Humm en tout cas qui ne tente rien n’a rien",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "Vous n'allez rien recevoir 😭😭😭",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "Un policier m’a enregistré dans le taxi un matin m’expliquant un truc du genre peut-être c’est pour ça",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "comment faire pour s enregistrer",
+     "texte": "C'est le prank ?",
      "jaime": 1,
      "reponses": 0
     },
@@ -432,7 +362,52 @@
      "reponses": 0
     },
     {
-     "texte": "les choses de ce pays sont toujours chelous",
+     "texte": "Mensonge",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "ils vont boire le vin avec ça.",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "🤣🤣🤣🤣 je préfère rire",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "c'est pour le transport de 3 jours ?",
+     "jaime": 1,
+     "reponses": 2
+    },
+    {
+     "texte": "quel est le lien d’inscription ?",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "c'est de ça que vous parlez ? ?",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "j'y crois",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "comment s'inscrire ???",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "Les arnaques",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "c’est n’importe quoi",
      "jaime": 1,
      "reponses": 0
     },
@@ -442,22 +417,47 @@
      "reponses": 0
     },
     {
-     "texte": "ils vont boire le vin avec ça.",
+     "texte": "on fait comment pour s inscrit ?",
      "jaime": 1,
      "reponses": 0
     },
     {
-     "texte": "On partage ca ou svp !?",
+     "texte": "Mon frère laisse tout vas arriver sauf l’argent",
      "jaime": 1,
      "reponses": 0
     },
     {
-     "texte": "je vais faire lélévage des canards et poulets",
+     "texte": "je suis à bafang ouest Cameroun",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "ça va jamais arrivé entre nos mains",
      "jaime": 1,
      "reponses": 0
     },
     {
-     "texte": "C'est le prank ?",
+     "texte": "les inscriptions où on paye ... et y'a déjà les noms des gens...",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "j'espère que je suis inclus",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "si c'est vrai attedons nos 25 milles",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "Un policier m’a enregistré dans le taxi un matin m’expliquant un truc du genre peut-être c’est pour ça",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "pourtant il ya leurs enfants ?🤣",
      "jaime": 1,
      "reponses": 0
     }
@@ -495,12 +495,12 @@
      "reponses": 0
     },
     {
-     "texte": "je suis dans L' Adamaoua moi donc i don't care☺️☺️☺️",
+     "texte": "le kilo à 3500 hein 🤣🤣🤣🤣🤣🤣🤣 vous êtes formidables",
      "jaime": 3,
      "reponses": 0
     },
     {
-     "texte": "le kilo à 3500 hein 🤣🤣🤣🤣🤣🤣🤣 vous êtes formidables",
+     "texte": "je suis dans L' Adamaoua moi donc i don't care☺️☺️☺️",
      "jaime": 3,
      "reponses": 0
     },
@@ -545,6 +545,11 @@
      "reponses": 0
     },
     {
+     "texte": "en tout cas c'est entre Paul et le fils de son défunt ami",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
      "texte": "Très faux",
      "jaime": 1,
      "reponses": 0
@@ -555,17 +560,12 @@
      "reponses": 0
     },
     {
-     "texte": "en tout cas c'est entre Paul et le fils de son défunt ami",
+     "texte": "mensonge",
      "jaime": 1,
      "reponses": 0
     },
     {
      "texte": "c'est pas vrai !!!!",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "mensonge",
      "jaime": 1,
      "reponses": 0
     },
@@ -590,7 +590,7 @@
      "reponses": 0
     },
     {
-     "texte": "hum",
+     "texte": "Big lol",
      "jaime": 0,
      "reponses": 0
     },
@@ -600,7 +600,7 @@
      "reponses": 0
     },
     {
-     "texte": "Big lol",
+     "texte": "hum",
      "jaime": 0,
      "reponses": 0
     },
@@ -620,12 +620,12 @@
      "reponses": 0
     },
     {
-     "texte": "✌️✌️✌️",
+     "texte": "🥰🥰🥰",
      "jaime": 0,
      "reponses": 0
     },
     {
-     "texte": "🥰🥰🥰",
+     "texte": "✌️✌️✌️",
      "jaime": 0,
      "reponses": 0
     }
