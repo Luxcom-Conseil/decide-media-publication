@@ -19,6 +19,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from .publieurs.base import ErreurLimite
+from .reponses_facebook import a_suivre
 
 RE_LOT = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 DATE_CONTRAT_12 = date(2026, 10, 12)
@@ -318,6 +319,8 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                         journal.noter(article["id"], reseau, statut="programme", post_id=res.id,
                                       programme_pour=quand.isoformat(), titre=article["title"], lot=dossier.nom,
                                       url=res.url, piste=piste)
+                        if reseau == "facebook_shorts" and (suivi := a_suivre(article)):
+                            journal.noter(article["id"], reseau, reponse_fb=suivi)  # réponse sous les commentaires
                         log(f"    ✅ {heure} — {article['title']}")
                     except Exception as e:
                         if isinstance(e, ErreurLimite):  # YouTube : on réessaie au passage suivant, sans compter d'essai

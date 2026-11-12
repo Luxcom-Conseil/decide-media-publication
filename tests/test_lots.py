@@ -336,3 +336,18 @@ def test_creneaux_des_reponses_le_meme_jour():
     for reseau in ("facebook_shorts", "tiktok_buffer"):
         h = creneaux(cfg, datetime(2026, 10, 21).date(), 10, MATIN, [], reseau)
         assert len({x.date() for x in h}) == 1
+
+
+def test_une_reponse_facebook_est_suivie_pour_repondre_sous_les_commentaires(tmp_path):
+    arts = [article(i) for i in range(1, 7)] + [reponse(7, plateformes=("facebook",))]
+    arts[-1]["reponse"].update(video_origine="https://www.facebook.com/1/videos/123456789",
+                               commentaires=["Pour qui ?", "pour qui"], reponse="Phrase du corps.")
+    m = manifeste(protocol_version="2.2", article_count=7, required_article_count=7, articles=arts)
+    shorts = FauxFacebook()
+    cfg = {**CFG, "lots": {**CFG["lots"], "reseaux": ["facebook_shorts"]}}
+    j = Journal(tmp_path / "lots.json")
+    traiter_lots(cfg, FauxDrive(m), {"facebook_shorts": shorts}, j, print, maintenant=MATIN)
+    suivis = {a: r["facebook_shorts"].get("reponse_fb") for a, r in j.d.items() if "facebook_shorts" in r}
+    assert [s for s in suivis.values() if s] == [{"origine": "https://www.facebook.com/1/videos/123456789",
+                                                  "commentaires": ["Pour qui ?", "pour qui"],
+                                                  "phrase": "Phrase du corps.", "faits": []}]

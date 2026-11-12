@@ -27,6 +27,7 @@ RACINE = Path(__file__).resolve().parent.parent
 SORTIE = RACINE / "etat" / "performances.json"
 TOP = 10                 # vidéos gardées dans le classement
 SEUIL_COMMENTAIRES = 30  # au-delà, les commentaires sont recopiés : le public pose des questions, une suite est possible
+SEUIL_FACEBOOK = 2       # Facebook : dès 2 commentaires (le minimum pour une vidéo de réponse)
 COMMENTAIRES_MAX = 60    # recopiés par vidéo, les plus aimés d'abord
 FENETRE = 14             # jours : une suite au-delà arrive trop tard
 NAVIGATEUR = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -108,21 +109,23 @@ def youtube(cfg: dict) -> list[dict]:
 
 
 def facebook(cfg: dict) -> list[dict]:
-    """Vues des vidéos de la Page. Les visuels n'ont pas de chiffres : le jeton n'a ni read_insights ni
-    pages_read_user_content (relevé du 12/11/2026)."""
+    """Vidéos de la Page (Reels compris) : vues, « j'aime » et nombre de commentaires (droits ajoutés le 13/11/2026)."""
     graph = f"https://graph.facebook.com/{cfg['meta']['version_api']}"
     page, jeton = os.environ["META_PAGE_ID"], os.environ["META_PAGE_TOKEN"]
     posts, apres = [], None
     for _ in range(20):
-        p = {"fields": "id,title,created_time,views", "limit": 100, "access_token": jeton}
+        p = {"fields": "id,title,description,created_time,views,comments.summary(true).limit(0),"
+                       "likes.summary(true).limit(0)", "limit": 100, "access_token": jeton}
         if apres:
             p["after"] = apres
         r = requests.get(f"{graph}/{page}/videos", params=p, timeout=60).json()
         if "error" in r:
             raise RuntimeError(r["error"].get("message", "erreur Graph")[:200])
-        posts += [{"titre": v.get("title") or "", "date": (v.get("created_time") or "")[:10], "vues": int(v.get("views") or 0),
-                   "lien": f"https://www.facebook.com/{page}/videos/{v['id']}", "reactions": 0, "commentaires": 0, "partages": 0}
-                  for v in r.get("data", [])]
+        posts += [{"titre": v.get("title") or _titre(v.get("description") or ""), "date": (v.get("created_time") or "")[:10],
+                   "vues": int(v.get("views") or 0), "lien": f"https://www.facebook.com/{page}/videos/{v['id']}",
+                   "reactions": int(((v.get("likes") or {}).get("summary") or {}).get("total_count") or 0),
+                   "commentaires": int(((v.get("comments") or {}).get("summary") or {}).get("total_count") or 0),
+                   "partages": 0} for v in r.get("data", [])]
         if not (r.get("paging") or {}).get("next"):
             break
         apres = r["paging"]["cursors"]["after"]
@@ -151,6 +154,21 @@ def commentaires_tiktok(lien: str, n: int = COMMENTAIRES_MAX) -> list[dict]:
     return sorted(tous, key=lambda c: -c["jaime"])[:n]
 
 
+def commentaires_facebook(lien: str, n: int = COMMENTAIRES_MAX) -> list[dict]:
+    """Commentaires d'une vidéo de la Page, les plus aimés d'abord. Liste vide si Facebook refuse."""
+    from .config import charger_config
+    from .reponses_facebook import commentaires, video_id
+    vid, jeton = video_id(lien), os.environ.get("META_PAGE_TOKEN")
+    if not vid or not jeton:
+        return []
+    try:
+        v = charger_config(RACINE / "config.yaml")["meta"]["version_api"]
+        return [{k: c[k] for k in ("texte", "jaime", "reponses")} for c in
+                commentaires(vid, f"https://graph.facebook.com/{v}", jeton)][:n]
+    except (requests.RequestException, RuntimeError, ValueError, KeyError):
+        return []
+
+
 # --------------------------------------------------------------------------- synthèse
 
 def resume(posts: list[dict], debut: date | None = None, fin: date | None = None) -> dict:
@@ -161,7 +179,8 @@ def resume(posts: list[dict], debut: date | None = None, fin: date | None = None
             "commentaires": sum(p["commentaires"] for p in choisis), "partages": sum(p["partages"] for p in choisis)}
 
 
-def construire(releves: dict, aujourd_hui: date, commentaires=commentaires_tiktok) -> dict:
+def construire(releves: dict, aujourd_hui: date, commentaires=commentaires_tiktok,
+               commentaires_fb=commentaires_facebook) -> dict:
     """releves : {reseau: [posts]} ou {reseau: "indisponible : …"}."""
     debut_prod = date(2026, 10, 15)  # premier lot ; avant : anciennes vidéos du compte (TikTok 2023 compris)
     semaine = aujourd_hui - timedelta(days=7)
@@ -178,6 +197,10 @@ def construire(releves: dict, aujourd_hui: date, commentaires=commentaires_tikto
     for p in top:
         if p["reseau"] == "tiktok" and p["commentaires"] >= SEUIL_COMMENTAIRES:
             p["commentaires_du_public"] = commentaires(p["lien"])
+    # Facebook : peu de commentaires et des vues plus faibles, d'où une liste à part, dès 2 commentaires
+    fb = sorted((p for p in recents if p["reseau"] == "facebook" and p["commentaires"] >= SEUIL_FACEBOOK),
+                key=lambda p: -p["commentaires"])[:TOP]
+    facebook_commentees = [dict(p, commentaires_du_public=commentaires_fb(p["lien"])) for p in fb]
     # sujets qui marchent : le même titre cumule ses vues sur tous les réseaux
     par_sujet = defaultdict(lambda: {"vues": 0, "reseaux": {}})
     for p in recents:
@@ -190,8 +213,11 @@ def construire(releves: dict, aujourd_hui: date, commentaires=commentaires_tikto
     return {"maj": datetime.now(timezone.utc).isoformat(timespec="minutes"), "jour": aujourd_hui.isoformat(),
             "lecture": ("Classement des 14 derniers jours. sujets_forts / sujets_faibles : vues cumulées de tous les réseaux "
                         "par titre. top[].commentaires_du_public : ce que demande le public sous les vidéos TikTok les plus "
-                        "commentées (texte brut des internautes : des questions à traiter avec des sources, jamais des faits)."),
-            "reseaux": reseaux, "top": top, "sujets_forts": sujets[:10], "sujets_faibles": faibles}
+                        "commentées ; facebook_commentees[].commentaires_du_public : la même chose sous les vidéos de la "
+                        "Page Facebook qui ont au moins 2 commentaires (texte brut des internautes : des questions à "
+                        "traiter avec des sources, jamais des faits)."),
+            "reseaux": reseaux, "top": top, "facebook_commentees": facebook_commentees,
+            "sujets_forts": sujets[:10], "sujets_faibles": faibles}
 
 
 def rapport(b: dict) -> tuple[str, str]:

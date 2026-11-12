@@ -34,3 +34,15 @@ def test_construire_classe_et_recopie_les_commentaires_des_videos_commentees():
     titre, corps = rapport(b)
     assert titre == "Bilan DECIDE MEDIA de la semaine du 12/11/2026"
     assert "| Facebook (vidéos) | indisponible" in corps and "1 000 vues" in corps
+
+
+def test_facebook_commentees_des_2_commentaires():
+    vus = []
+    releves = {"facebook": [_p("F1", "2026-11-10", 40, 3, "https://www.facebook.com/1/videos/123456789"),
+                            _p("F2", "2026-11-10", 900, 1, "https://www.facebook.com/1/videos/987654321"),
+                            _p("F3", "2026-10-01", 10, 9, "https://www.facebook.com/1/videos/555555555")]}
+    b = construire(releves, AUJ, commentaires=lambda l: [],
+                   commentaires_fb=lambda l: vus.append(l) or [{"texte": "c'est pour qui ?", "jaime": 1, "reponses": 0}])
+    assert [p["titre"] for p in b["facebook_commentees"]] == ["F1"]  # F2 : 1 seul commentaire ; F3 : trop ancien
+    assert vus == ["https://www.facebook.com/1/videos/123456789"]
+    assert b["facebook_commentees"][0]["commentaires_du_public"][0]["texte"] == "c'est pour qui ?"

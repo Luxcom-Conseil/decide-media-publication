@@ -195,7 +195,11 @@ def main(argv: list[str] | None = None) -> int:
         from .lots import Journal as JournalLots, traiter_lots
 
         os.environ.setdefault("DRIVE_FOLDER_ID", cfg["lots"]["dossier_drive"])
-        traiter_lots(cfg, SourceDrive.depuis_env(), publieurs, JournalLots(), log, simulation=simulation)
+        journal_lots = JournalLots()
+        traiter_lots(cfg, SourceDrive.depuis_env(), publieurs, journal_lots, log, simulation=simulation)
+        if "facebook_shorts" in cfg["lots"]["reseaux"]:  # réponses écrites sous les commentaires des vidéos d'origine
+            from .reponses_facebook import repondre
+            repondre(cfg, journal_lots, log, simulation=simulation)
         _resume_github(log)
         # point de contrôle : un vrai échec rend le passage « rouge » sur GitHub, qui prévient alors par e-mail
         return 1 if any("❌" in ligne for ligne in log.lignes) else 0
