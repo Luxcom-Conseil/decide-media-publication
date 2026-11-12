@@ -96,8 +96,12 @@ class Facebook(_Meta):
 
 
 class FacebookShorts(Facebook):
-    """Les Shorts du lot, en plus des visuels : vidéo programmée sur la Page, avec une légende courte
-    (le texte complet est déjà sur le post visuel du même article)."""
+    """Les Shorts du lot, en plus des visuels : Reel programmé sur la Page, avec une légende courte (le texte complet
+    est déjà sur le post visuel du même article). Jusqu'au 12/11/2026 ils partaient en vidéo simple (/videos) et
+    faisaient environ 1 vue chacun : un Reel entre dans le fil Reels de Facebook.
+    API Reels de Page (developers.facebook.com/docs/video-api/guides/reels-publishing, lu le 12/11/2026) : start sur
+    /{page}/video_reels, envoi du fichier sur rupload.facebook.com, puis finish avec video_state=SCHEDULED et
+    scheduled_publish_time (10 min à 29 jours). 3 à 90 s, 9:16, 30 Reels publiés par l'API par 24 h au plus."""
     nom = "facebook_shorts"
 
     def programmer(self, texte: str, image: Path, quand, article: dict | None = None) -> Resultat:
@@ -112,11 +116,19 @@ class FacebookShorts(Facebook):
             accroche = f"{accroche} {p}".strip()
         tags = " ".join(h if h.startswith("#") else f"#{h}" for h in article.get("hashtags") or [])
         legende = "\n\n".join(x for x in (article.get("title", ""), accroche, tags) if x)
-        with video.open("rb") as f:
-            r = self._post(f"{self.page}/videos", "programmation vidéo", base=f"https://graph-video.facebook.com/{self.v}",
-                           files={"source": (video.name, f, "video/mp4")}, title=article.get("title", "")[:250],
-                           description=legende, published="false", scheduled_publish_time=str(int(quand.timestamp())))
-        return Resultat(f"https://business.facebook.com/latest/posts/scheduled_posts?asset_id={self.page}", r["id"])
+        debut = self._post(f"{self.page}/video_reels", "Reel (début)", upload_phase="start")
+        vid = debut["video_id"]
+        adresse = debut.get("upload_url") or f"https://rupload.facebook.com/video-upload/{self.v}/{vid}"
+        r = requests.post(adresse, data=video.read_bytes(), timeout=600,
+                          headers={"Authorization": f"OAuth {self.jeton}", "offset": "0",
+                                   "file_size": str(video.stat().st_size), "Content-Type": "application/octet-stream"})
+        controler(r, f"{self.nom} Reel (envoi)")
+        fin = self._post(f"{self.page}/video_reels", "Reel (programmation)", video_id=vid, upload_phase="finish",
+                         video_state="SCHEDULED", scheduled_publish_time=str(int(quand.timestamp())),
+                         title=article.get("title", "")[:250], description=legende)
+        if not fin.get("success"):
+            raise ErreurPublication(f"{self.nom} : Reel non programmé ({str(fin)[:200]})")
+        return Resultat(f"https://business.facebook.com/latest/posts/scheduled_posts?asset_id={self.page}", vid)
 
     def trouver_programme(self, texte: str) -> dict | None:
         return None  # même texte que le post visuel : le journal (etat/lots.json) évite les doublons

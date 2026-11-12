@@ -30,7 +30,13 @@ _TXT_NUL = {"anyOf":[{"type": "string"}, {"type": "null"}]}
 DESSINS = ("photo", "carte", "pourcent", "pile", "frais", "calendrier")  # le visuel du lot, ou un fait : lieu, chiffre, somme, date
 _ILLUSTRATION = copy.deepcopy(SCHEMA_V2["properties"]["scenes"]["items"]["properties"]["illustration"])
 _ILLUSTRATION["anyOf"][1]["properties"]["type"]["enum"] = list(DESSINS)
-VOIX_MAX = 500  # caractères, soit environ 30 secondes
+VOIX_MAX = 560  # caractères
+# Un Short dure 30 s au moins (demande du 12/11/2026 : « une information a besoin de respirer »). Les lots du 11 et du
+# 12/11 lisaient 270 à 486 caractères pour des vidéos de 18 à 29 s : le script vise donc 450 caractères au moins, et
+# etirer() garde l'image un peu plus longtemps après chaque phrase si la voix reste courte.
+VOIX_MIN = 450
+DUREE_MIN = 30.0  # secondes, générique compris
+TENUE_MAX = 1.5   # secondes d'image ajoutées au plus après une phrase
 PHRASE_MAX = 110
 INTERDIT = re.compile(r"\b(prenons un exemple|voici|voilà|ce que ça change|la leçon|il faut|en clair|autrement dit|"
                       r"(cela|ça) (signifie|veut dire)|attention|pourquoi|imagine|à retenir|concrètement)\b", re.I)
@@ -67,16 +73,19 @@ SCHEMA = {
 
 SYSTEME = f"""Tu écris le script d'un flash d'information en vidéo verticale (Short) de DECIDE média. La voix lit l'information \
 comme au journal, d'un seul tenant, sans parties ni rubriques. Les gens regardent en faisant défiler : la première phrase \
-doit les arrêter, et elle doit déjà donner l'information.
+doit les arrêter, et elle doit déjà donner l'information : les 3 premières secondes portent l'information la plus forte.
 
 1. LE HOOK. Écris trois accroches (champ « accroches ») : le chiffre le plus fort de l'article, l'information clé, le fait \
 le plus inattendu. Chacune énonce le fait, en phrase affirmative de 12 mots au plus : \
 « 7 ménages sur 10 n'ont pas de compteur. » Pas de question, pas de promesse de la suite, pas de chiffre sans intérêt \
-(« 1 budget rejeté »). Garde la plus forte : elle devient la première scène (type « accroche »), écran = dit = l'accroche.
+(« 1 budget rejeté »). Le plus fort est ce qui touche le porte-monnaie ou la vie du spectateur : quand l'article donne \
+une somme par personne, par ménage ou par mois, c'est elle (« 275 000 FCFA par jeune »). Garde la plus forte : elle \
+devient la première scène (type « accroche »), écran = dit = l'accroche.
 
-2. LES FAITS. Entre 3 et 6 scènes de plus, une phrase par scène, du plus important au moins important : qui, quoi, combien, \
+2. LES FAITS. Entre 4 et 6 scènes de plus, une phrase par scène, du plus important au moins important : qui, quoi, combien, \
 où, quand, ce qui est prévu ensuite. Chaque phrase apporte un fait nouveau et suit la précédente comme dans une dépêche. \
-La vidéo s'arrête sur le dernier fait : pas de conclusion.
+La dernière scène donne un détail concret de l'article : une date, un lieu, une démarche, un délai, un montant par \
+personne. Si l'article n'en donne aucun, le dernier fait le plus utile. La vidéo s'arrête là : pas de conclusion.
 
 Donne juste l'information. Sont interdits : analyse, avis, explication de mot, exemple, personnage, conséquence supposée, \
 leçon, conseil, question, annonce de la suite (« voici », « voilà »), appel au spectateur. Ne t'adresse jamais au spectateur : \
@@ -98,7 +107,8 @@ Exactitude (impératif) :
 - Ne nomme aucune personne qui n'est pas nommée dans l'article.
 
 Format de chaque scène :
-- « dit » : la voix, {PHRASE_MAX} caractères au plus ; le total des « dit » ne dépasse pas {VOIX_MAX} caractères (30 secondes).
+- « dit » : la voix, {PHRASE_MAX} caractères au plus ; le total des « dit » fait entre {VOIX_MIN} et {VOIX_MAX} caractères (30 à 35 secondes) : une information \
+complète, lue sans se presser.
 - « ecran » : le texte affiché en grand, 6 mots au plus (sauf l'accroche), avec le mot clé entre astérisques \
 (« Le crédit *coûte* plus cher »). Les chiffres s'affichent en orange d'eux-mêmes.
 - « illustration » (scènes « explication » seulement, sinon null) : remplis seulement les paramètres utiles, les autres à null.
@@ -152,8 +162,13 @@ def controler_v3(script: dict, article: dict) -> list[str]:
         problemes.append("hook trop long (12 mots au plus)")
     if len(script.get("accroches") or []) < 3:
         problemes.append("il faut trois accroches de formes différentes")
-    if sum(len(sc.get("dit", "")) for sc in scenes) > VOIX_MAX + 50:  # tolérance : 505 caractères ne valent pas un refus
-        problemes.append(f"voix trop longue ({sum(len(sc.get('dit', '')) for sc in scenes)} caractères, {VOIX_MAX} au plus)")
+    voix = sum(len(sc.get("dit", "")) for sc in scenes)
+    if voix > VOIX_MAX + 50:  # tolérance : 565 caractères ne valent pas un refus
+        problemes.append(f"voix trop longue ({voix} caractères, {VOIX_MAX} au plus)")
+    # trop court : refusé seulement si l'article a de quoi dire plus ; sinon etirer() tient les 30 s
+    if voix < VOIX_MIN - 50 and len(article.get("body") or "") >= 2 * VOIX_MIN:
+        problemes.append(f"voix trop courte ({voix} caractères, {VOIX_MIN} au moins) : ajoute un fait de l'article, "
+                         "par exemple une date, un lieu, une démarche ou un montant par personne")
     textes = [script.get("titre", "")]
     for k, sc in enumerate(scenes):
         ecran, dit = _sans_etoiles(sc.get("ecran")), sc.get("dit", "")
@@ -229,6 +244,27 @@ def script_v3(article: dict, cfg: dict, journal=print, cache: Path | None = None
     finally:
         sv.SYSTEME, sv.SCHEMA = systeme, schema
     return None
+
+
+def duree_scene(sc: dict) -> float:
+    """Même calcul que longueur() dans GabaritV3.tsx (3 + 5 images autour de la voix)."""
+    base = (sc["voix"]["duree"] + 8 / 30) if sc.get("voix") else float(sc.get("duree") or 3)
+    return base + float(sc.get("tenue") or 0)
+
+
+def etirer(scenes: list[dict], minimum: float = DUREE_MIN) -> float:
+    """Porte le Short à `minimum` secondes : l'image reste un peu après chaque phrase (TENUE_MAX au plus), le reste va
+    au générique. Rien ne change si la vidéo est déjà assez longue. Rend la durée finale."""
+    manque = minimum - sum(map(duree_scene, scenes))
+    faits = [sc for sc in scenes if sc.get("type") != "outro"]
+    if manque > 0 and faits:
+        tenue = round(min(TENUE_MAX, manque / len(faits)), 2)
+        for sc in faits:
+            sc["tenue"] = tenue
+        manque -= tenue * len(faits)
+    if manque > 0 and scenes:
+        scenes[-1]["tenue"] = round(float(scenes[-1].get("tenue") or 0) + manque + 0.05, 2)
+    return sum(map(duree_scene, scenes))
 
 
 def _fond(fond: dict, dossier: Path, nom: str, pris: set[str], journal) -> dict | None:
@@ -364,6 +400,9 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
             sc.pop("duree", None)
         elif "duree" not in sc:
             sc["duree"] = max(2.5, len(sc.get("soustitre") or "") / 15)
+    avant = sum(map(duree_scene, scenes))
+    if avant < DUREE_MIN:
+        journal(f"      ⏱ {avant:.1f} s → {etirer(scenes):.1f} s (30 s au moins)")
     editeurs = list(dict.fromkeys((s or {}).get("publisher") for s in article.get("sources") or [] if (s or {}).get("publisher")))
     props = {"rubrique": "INFO",
              "lieu": article.get("country"), "date": _date_fr(article.get("event_date")), "titre": ecrit.get("titre") or article.get("title", ""),
@@ -374,7 +413,7 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
     cfg = charger_config(MOTION.parent / "config.yaml")
     try:  # charte sonore « flash info » : un son manquant n'empêche jamais le Short
         props.update(sons.habiller(cfg, "video", scenes, cle=str(article.get("id") or props["titre"]), journal=journal,
-                                   duree_scene=lambda sc: (sc["voix"]["duree"] + 8 / 30) if sc.get("voix") else float(sc.get("duree") or 3)))
+                                   duree_scene=duree_scene))
         props.pop("credit_musique", None)
     except Exception as e:
         journal(f"    ⚠️ charte sonore non appliquée : {e}")

@@ -29,6 +29,7 @@ export type SceneV3 = {
   soustitre?: string;
   voix?: { src: string; duree: number };
   duree?: number;
+  tenue?: number; // secondes d'image gardées après la voix : un Short dure 30 s au moins (agent/gabarit_v3.py, etirer)
   // bruitages de la charte sonore (agent/sons.py) : joués à `a` s du début de la scène, avancés de `avance` s
   sons?: { src: string; a: number; avance: number; gain: number }[];
 };
@@ -45,7 +46,8 @@ export type ScriptV3 = {
   volume_musique?: number;
 };
 
-const longueur = (sc: SceneV3) => sc.voix ? VOIX_DEBUT + Math.ceil(sc.voix.duree * FPS) + VOIX_FIN : Math.round((sc.duree ?? 3) * FPS);
+const longueur = (sc: SceneV3) => (sc.voix ? VOIX_DEBUT + Math.ceil(sc.voix.duree * FPS) + VOIX_FIN : Math.round((sc.duree ?? 3) * FPS))
+  + Math.round((sc.tenue ?? 0) * FPS);
 
 function plan(s: ScriptV3) {
   let t = 0;
