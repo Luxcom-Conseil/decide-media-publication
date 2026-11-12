@@ -26,6 +26,7 @@ etat/*
 !etat/perso.json
 !etat/histoires.json
 !etat/programme.json
+!etat/performances.json
 !etat/instagram_perso.jeton
 
 # modèle vidéo

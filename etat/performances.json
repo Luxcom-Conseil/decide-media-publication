@@ -1,0 +1,904 @@
+{
+ "maj": "2026-11-12T21:32+00:00",
+ "jour": "2026-11-12",
+ "lecture": "Classement des 14 derniers jours. sujets_forts / sujets_faibles : vues cumulées de tous les réseaux par titre. top[].commentaires_du_public : ce que demande le public sous les vidéos TikTok les plus commentées (texte brut des internautes : des questions à traiter avec des sources, jamais des faits).",
+ "reseaux": {
+  "x": {
+   "depuis_le_debut": {
+    "publies": 161,
+    "vues": 671,
+    "moyenne": 4,
+    "mediane": 3,
+    "reactions": 29,
+    "commentaires": 1,
+    "partages": 1
+   },
+   "7_derniers_jours": {
+    "publies": 48,
+    "vues": 125,
+    "moyenne": 3,
+    "mediane": 2,
+    "reactions": 3,
+    "commentaires": 1,
+    "partages": 1
+   },
+   "7_jours_avant": {
+    "publies": 46,
+    "vues": 248,
+    "moyenne": 5,
+    "mediane": 3,
+    "reactions": 3,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  "linkedin": {
+   "depuis_le_debut": {
+    "publies": 168,
+    "vues": 986,
+    "moyenne": 6,
+    "mediane": 1,
+    "reactions": 26,
+    "commentaires": 0,
+    "partages": 0
+   },
+   "7_derniers_jours": {
+    "publies": 49,
+    "vues": 517,
+    "moyenne": 11,
+    "mediane": 2,
+    "reactions": 0,
+    "commentaires": 0,
+    "partages": 0
+   },
+   "7_jours_avant": {
+    "publies": 46,
+    "vues": 191,
+    "moyenne": 4,
+    "mediane": 2,
+    "reactions": 9,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  "tiktok": {
+   "depuis_le_debut": {
+    "publies": 164,
+    "vues": 176875,
+    "moyenne": 1079,
+    "mediane": 8,
+    "reactions": 7672,
+    "commentaires": 385,
+    "partages": 1063
+   },
+   "7_derniers_jours": {
+    "publies": 50,
+    "vues": 170047,
+    "moyenne": 3401,
+    "mediane": 492,
+    "reactions": 7422,
+    "commentaires": 379,
+    "partages": 1054
+   },
+   "7_jours_avant": {
+    "publies": 46,
+    "vues": 5615,
+    "moyenne": 122,
+    "mediane": 7,
+    "reactions": 188,
+    "commentaires": 5,
+    "partages": 6
+   }
+  },
+  "youtube": {
+   "depuis_le_debut": {
+    "publies": 170,
+    "vues": 8323,
+    "moyenne": 49,
+    "mediane": 9,
+    "reactions": 32,
+    "commentaires": 10,
+    "partages": 0
+   },
+   "7_derniers_jours": {
+    "publies": 49,
+    "vues": 3919,
+    "moyenne": 80,
+    "mediane": 13,
+    "reactions": 10,
+    "commentaires": 0,
+    "partages": 0
+   },
+   "7_jours_avant": {
+    "publies": 46,
+    "vues": 3615,
+    "moyenne": 79,
+    "mediane": 38,
+    "reactions": 9,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  "facebook": {
+   "depuis_le_debut": {
+    "publies": 121,
+    "vues": 212,
+    "moyenne": 2,
+    "mediane": 1,
+    "reactions": 0,
+    "commentaires": 0,
+    "partages": 0
+   },
+   "7_derniers_jours": {
+    "publies": 50,
+    "vues": 135,
+    "moyenne": 3,
+    "mediane": 2,
+    "reactions": 0,
+    "commentaires": 0,
+    "partages": 0
+   },
+   "7_jours_avant": {
+    "publies": 29,
+    "vues": 32,
+    "moyenne": 1,
+    "mediane": 1,
+    "reactions": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  }
+ },
+ "top": [
+  {
+   "titre": "Coup de pouce à 275 000 francs",
+   "date": "2026-11-06",
+   "lien": "https://www.tiktok.com/@decide_media/video/7704953630893296902?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 104708,
+   "reactions": 5008,
+   "commentaires": 306,
+   "partages": 865,
+   "visionnage_s": 15.14,
+   "reseau": "tiktok",
+   "commentaires_du_public": [
+    {
+     "texte": "On à déjà vendu le pays et c’est ma part comme ça ?",
+     "jaime": 543,
+     "reponses": 14
+    },
+    {
+     "texte": "Jusqu’à l’argent la va arriver au jeune",
+     "jaime": 221,
+     "reponses": 19
+    },
+    {
+     "texte": "c est pour boir le vin",
+     "jaime": 67,
+     "reponses": 2
+    },
+    {
+     "texte": "donner le lien si vous voulez qu'on l'es ai",
+     "jaime": 34,
+     "reponses": 11
+    },
+    {
+     "texte": "😂😂 ils vont go buy les lasse avec l’argent la",
+     "jaime": 33,
+     "reponses": 3
+    },
+    {
+     "texte": "Si vous même alliez venir nous partager ça marche! Mais si et seulement si un seul membre du gouvernement touche 1fcfa dedans c’est mort! Ils ont les enfants et les animaux domestiques…💁🏽‍♂️🤗",
+     "jaime": 21,
+     "reponses": 6
+    },
+    {
+     "texte": "C'est pour chacun ou bien c'est la somme qu'ils vont se partager ?",
+     "jaime": 12,
+     "reponses": 2
+    },
+    {
+     "texte": "comment s'inscrire svp",
+     "jaime": 5,
+     "reponses": 4
+    },
+    {
+     "texte": "mm Cameroun est étonné",
+     "jaime": 5,
+     "reponses": 1
+    },
+    {
+     "texte": "comment s'inscrire ?",
+     "jaime": 4,
+     "reponses": 5
+    },
+    {
+     "texte": "Le lien d’inscription...?",
+     "jaime": 3,
+     "reponses": 3
+    },
+    {
+     "texte": "Le programme CPA ?",
+     "jaime": 3,
+     "reponses": 1
+    },
+    {
+     "texte": "j'imagine le tamis",
+     "jaime": 3,
+     "reponses": 1
+    },
+    {
+     "texte": "dans quel pays ?🤣🤣😂😂🤣🤣😂😂🙏😁😁",
+     "jaime": 3,
+     "reponses": 0
+    },
+    {
+     "texte": "Comment faire pour en bénéficier ?",
+     "jaime": 3,
+     "reponses": 0
+    },
+    {
+     "texte": "Un projet d'entreprise ou alors plusieurs projets bien montés avec 5 milliards, ne peuvent pas employer 20 000 jeunes au Cameroun ???? 🤦‍♂️",
+     "jaime": 3,
+     "reponses": 0
+    },
+    {
+     "texte": "Le lien svp",
+     "jaime": 2,
+     "reponses": 1
+    },
+    {
+     "texte": "Pourquoi le secteur informel ? Il veulent que vous avoir des statistiques sur le secteur informel et par la suite vous allez devoir faire des déclarations et payer les impôts ce qui entraînerait la chute de plusieurs petits business et augmenterait le taux de chômage",
+     "jaime": 2,
+     "reponses": 3
+    },
+    {
+     "texte": "on vend le Cameroun maintenant on veut vous donnez votre part vous vous étonnez",
+     "jaime": 2,
+     "reponses": 2
+    },
+    {
+     "texte": "comment faire pour s'inscrire",
+     "jaime": 2,
+     "reponses": 1
+    },
+    {
+     "texte": "j'ai rien reçu heinnn",
+     "jaime": 2,
+     "reponses": 1
+    },
+    {
+     "texte": "Interessant",
+     "jaime": 2,
+     "reponses": 1
+    },
+    {
+     "texte": "Les gars là ont déjà partagé ça depuis… enlève vos cœurs sur ça",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "je n'ai pas encore eu ma part ooh",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "20 000 jeunes du concours Ekang?",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "on fait cmt?",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "ils vont prendre pour acheter l'iPhone aveuc",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "ça c'est l'argent des fêtes de fin d'année.",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "Ne deranger pas les gens didon",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "On prend l’argent là où",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "je suis intéressée",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "Comment s’inscrire",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "🤣🤣🤣🤣🤣🤣",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "j'ai déjà bénéficié il y'a un an",
+     "jaime": 1,
+     "reponses": 7
+    },
+    {
+     "texte": "275000 francs × 20 j'espère !? parce que je ne vois pas en quoi 13750 francs peut améliorer dans la vie d'un camerounais. Mais nous savons tous que le Cameroun, c'est un prank ! 🤣🤣🤣",
+     "jaime": 1,
+     "reponses": 2
+    },
+    {
+     "texte": "Mon Cameroun si ?",
+     "jaime": 1,
+     "reponses": 2
+    },
+    {
+     "texte": "Comment faire",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "le lien",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "Mensonge",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "Prenez l’argent la vous arrangez les routes mm les pavés sa vas nous aider",
+     "jaime": 1,
+     "reponses": 2
+    },
+    {
+     "texte": "je suis à bafang ouest Cameroun",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "Lol",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "c'est pour le transport de 3 jours ?",
+     "jaime": 1,
+     "reponses": 2
+    },
+    {
+     "texte": "Minalmi",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "merci infiniment 🙏",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "c'est de ça que vous parlez ? ?",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "j'imagine les snack bars après quand ça vas passé 👌🤣",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "Mon frère laisse tout vas arriver sauf l’argent",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "le site d'inscription",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "Humm en tout cas qui ne tente rien n’a rien",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "Vous n'allez rien recevoir 😭😭😭",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "Un policier m’a enregistré dans le taxi un matin m’expliquant un truc du genre peut-être c’est pour ça",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "comment faire pour s enregistrer",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "Le plus important c'est de voir d'abord l'argent pardon comment faire",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "les choses de ce pays sont toujours chelous",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "De toute façon c'est pour leurs enfants 🥺🥺",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "ils vont boire le vin avec ça.",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "On partage ca ou svp !?",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "je vais faire lélévage des canards et poulets",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "C'est le prank ?",
+     "jaime": 1,
+     "reponses": 0
+    }
+   ]
+  },
+  {
+   "titre": "Le bœuf camerounais dépend du Tchad",
+   "date": "2026-11-09",
+   "lien": "https://www.tiktok.com/@decide_media/video/7706206146213907732?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 16851,
+   "reactions": 734,
+   "commentaires": 43,
+   "partages": 87,
+   "visionnage_s": 19.45,
+   "reseau": "tiktok",
+   "commentaires_du_public": [
+    {
+     "texte": "Aucune crainte ! ça fait plusieurs années que ça se raconte mais,ils sont incapables de gérer la logistique, croyez -moi.",
+     "jaime": 17,
+     "reponses": 1
+    },
+    {
+     "texte": "je suis à Yaoundé et le bœuf il y en a vivant juste à côté😅",
+     "jaime": 8,
+     "reponses": 1
+    },
+    {
+     "texte": "Un pays qui importe tout alorquon a tout",
+     "jaime": 6,
+     "reponses": 2
+    },
+    {
+     "texte": "Il va appauvrir ses éleveurs nous quoi dedans😆",
+     "jaime": 3,
+     "reponses": 0
+    },
+    {
+     "texte": "je suis dans L' Adamaoua moi donc i don't care☺️☺️☺️",
+     "jaime": 3,
+     "reponses": 0
+    },
+    {
+     "texte": "le kilo à 3500 hein 🤣🤣🤣🤣🤣🤣🤣 vous êtes formidables",
+     "jaime": 3,
+     "reponses": 0
+    },
+    {
+     "texte": "même le Tchad nous refuse déjà la viande",
+     "jaime": 3,
+     "reponses": 2
+    },
+    {
+     "texte": "fake news ,c’est la region de l’ Adamaoua et de l’ extrême nord qui ravitaille le Cameroun en viande bovine ,le Cameroun ne dépend pas du tchad ,",
+     "jaime": 3,
+     "reponses": 4
+    },
+    {
+     "texte": "Il y’a le Nigeria",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "ce faux",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "On est fini",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "fake new, j achete le.kg de viande a 2500.",
+     "jaime": 2,
+     "reponses": 3
+    },
+    {
+     "texte": "C'est à cause des mensonges comme ça que je ne m'abonne pas 😏",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "c'est très faux",
+     "jaime": 2,
+     "reponses": 0
+    },
+    {
+     "texte": "Très faux",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "en réalité c'est nous même qui voulons s'offrir\nil suffit de laisser entrer le bovin brésilien pour que le kg soit divisé en 2",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "en tout cas c'est entre Paul et le fils de son défunt ami",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "c'est pas vrai !!!!",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "mensonge",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "alors on ferais la réciproque🤣",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "fake news...",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "Vos calculs sont à revoir. Totalement faux",
+     "jaime": 1,
+     "reponses": 1
+    },
+    {
+     "texte": "faux n'importe quoi !",
+     "jaime": 1,
+     "reponses": 0
+    },
+    {
+     "texte": "hum",
+     "jaime": 0,
+     "reponses": 0
+    },
+    {
+     "texte": "Non c’est le moutonnier",
+     "jaime": 0,
+     "reponses": 0
+    },
+    {
+     "texte": "Big lol",
+     "jaime": 0,
+     "reponses": 0
+    },
+    {
+     "texte": "Faux. On a des meilleurs bœufs dans l'Adamawa. Le Goudaali. 🇨🇲 Les vaches tchadiennes sont interdits de séjour chez nous... 🇨🇲",
+     "jaime": 0,
+     "reponses": 0
+    },
+    {
+     "texte": "Le mensonge ci est stratosphérique 🤣",
+     "jaime": 0,
+     "reponses": 1
+    },
+    {
+     "texte": "😳😳😳",
+     "jaime": 0,
+     "reponses": 0
+    },
+    {
+     "texte": "✌️✌️✌️",
+     "jaime": 0,
+     "reponses": 0
+    },
+    {
+     "texte": "🥰🥰🥰",
+     "jaime": 0,
+     "reponses": 0
+    }
+   ]
+  },
+  {
+   "titre": "Les quotas de poisson changent de mains",
+   "date": "2026-11-06",
+   "lien": "https://www.tiktok.com/@decide_media/video/7704999999536385300?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 7619,
+   "reactions": 238,
+   "commentaires": 0,
+   "partages": 21,
+   "visionnage_s": 17.95,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Starlink dans le viseur de la douane",
+   "date": "2026-11-05",
+   "lien": "https://www.tiktok.com/@decide_media/video/7704768061978463509?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 6798,
+   "reactions": 203,
+   "commentaires": 4,
+   "partages": 22,
+   "visionnage_s": 13.94,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Le tramway de Douala reste en gare",
+   "date": "2026-11-06",
+   "lien": "https://www.tiktok.com/@decide_media/video/7705092973628804372?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 3088,
+   "reactions": 102,
+   "commentaires": 2,
+   "partages": 8,
+   "visionnage_s": 12.19,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Rocade de Yaoundé : le chantier patiente",
+   "date": "2026-11-07",
+   "lien": "https://www.tiktok.com/@decide_media/video/7705509291184098566?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 2547,
+   "reactions": 70,
+   "commentaires": 1,
+   "partages": 2,
+   "visionnage_s": 13.45,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Le compteur tourne sans concours",
+   "date": "2026-11-10",
+   "lien": "https://tiktok.com/@decide_media/video/7706437925927472405",
+   "vues": 2334,
+   "reactions": 60,
+   "commentaires": 1,
+   "partages": 2,
+   "visionnage_s": 13.3,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Afriland puise dans ses réserves Afriland First Bank a porté son capital de 50 à 110 milliards de…",
+   "date": "2026-11-08",
+   "lien": "https://www.tiktok.com/@decide_media/video/7705881289504673045?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 2188,
+   "reactions": 80,
+   "commentaires": 2,
+   "partages": 0,
+   "visionnage_s": 12.99,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Le solaire, un soleil à crédit",
+   "date": "2026-11-04",
+   "lien": "https://www.tiktok.com/@decide_media/video/7704350746459868468?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 1924,
+   "reactions": 39,
+   "commentaires": 4,
+   "partages": 4,
+   "visionnage_s": 18.89,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "À la douane, l'addition est salée",
+   "date": "2026-11-06",
+   "lien": "https://www.tiktok.com/@decide_media/video/7705139166316743956?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 1884,
+   "reactions": 70,
+   "commentaires": 1,
+   "partages": 4,
+   "visionnage_s": 11.33,
+   "reseau": "tiktok"
+  }
+ ],
+ "sujets_forts": [
+  {
+   "titre": "Coup de pouce à 275 000 francs",
+   "vues": 104742,
+   "reseaux": {
+    "x": 7,
+    "linkedin": 2,
+    "tiktok": 104708,
+    "youtube": 17,
+    "facebook": 8
+   }
+  },
+  {
+   "titre": "Le bœuf camerounais dépend du Tchad",
+   "vues": 16899,
+   "reseaux": {
+    "x": 1,
+    "linkedin": 21,
+    "tiktok": 16851,
+    "youtube": 24,
+    "facebook": 2
+   }
+  },
+  {
+   "titre": "Starlink dans le viseur de la douane",
+   "vues": 7687,
+   "reseaux": {
+    "x": 1,
+    "linkedin": 9,
+    "tiktok": 6798,
+    "youtube": 869,
+    "facebook": 10
+   }
+  },
+  {
+   "titre": "Les quotas de poisson changent de mains",
+   "vues": 7636,
+   "reseaux": {
+    "x": 1,
+    "linkedin": 0,
+    "tiktok": 7619,
+    "youtube": 13,
+    "facebook": 3
+   }
+  },
+  {
+   "titre": "Le tramway de Douala reste en gare",
+   "vues": 3116,
+   "reseaux": {
+    "x": 6,
+    "linkedin": 2,
+    "tiktok": 3088,
+    "youtube": 10,
+    "facebook": 10
+   }
+  },
+  {
+   "titre": "Rocade de Yaoundé : le chantier patiente",
+   "vues": 2880,
+   "reseaux": {
+    "x": 8,
+    "linkedin": 0,
+    "tiktok": 2547,
+    "youtube": 319,
+    "facebook": 6
+   }
+  },
+  {
+   "titre": "Le compteur tourne sans concours",
+   "vues": 2360,
+   "reseaux": {
+    "x": 2,
+    "linkedin": 18,
+    "tiktok": 2334,
+    "youtube": 4,
+    "facebook": 2
+   }
+  },
+  {
+   "titre": "Afriland puise dans ses réserves Afriland First Bank a porté son capital de 50 à 110 milliards de…",
+   "vues": 2188,
+   "reseaux": {
+    "tiktok": 2188
+   }
+  },
+  {
+   "titre": "Le solaire, un soleil à crédit",
+   "vues": 1980,
+   "reseaux": {
+    "x": 11,
+    "linkedin": 2,
+    "tiktok": 1924,
+    "youtube": 43,
+    "facebook": 0
+   }
+  },
+  {
+   "titre": "À la douane, l'addition est salée",
+   "vues": 1937,
+   "reseaux": {
+    "x": 2,
+    "linkedin": 0,
+    "tiktok": 1884,
+    "youtube": 37,
+    "facebook": 14
+   }
+  }
+ ],
+ "sujets_faibles": [
+  {
+   "titre": "Le Sénégal veut accélérer le paiement de sa dette intérieure. Pour une PME, la relance commence à l’encaissement.",
+   "vues": 0,
+   "reseaux": {
+    "facebook": 0
+   }
+  },
+  {
+   "titre": "Le Togo prépare des normes pour ses produits locaux. Une belle bouteille doit aussi tenir sa promesse.",
+   "vues": 0,
+   "reseaux": {
+    "facebook": 0
+   }
+  },
+  {
+   "titre": "À Minim-Martap, 36,5 milliards de FCFA restent bloqués. Le crédit signé n’est pas tout l’argent disponible.",
+   "vues": 0,
+   "reseaux": {
+    "facebook": 0
+   }
+  },
+  {
+   "titre": "Au Gabon, la médiation financière devient opérationnelle. Un recours gratuit ne garantit pas un rem…",
+   "vues": 0,
+   "reseaux": {
+    "youtube": 0
+   }
+  },
+  {
+   "titre": "Le FIGPME béninois franchit une étape, selon le ministre. Garantir un crédit ne revient pas à offrir l’argent.",
+   "vues": 1,
+   "reseaux": {
+    "facebook": 1
+   }
+  },
+  {
+   "titre": "Sécurité sociale au Cameroun : 17 millions de FCFA prévus pour le diagnostic. Une étude ne crée pas de nouveaux droits.",
+   "vues": 1,
+   "reseaux": {
+    "facebook": 1
+   }
+  },
+  {
+   "titre": "Camair-Co : des crédits proposés pour 2028. La flotte doit d’abord sortir du flou.",
+   "vues": 1,
+   "reseaux": {
+    "youtube": 1,
+    "facebook": 0
+   }
+  },
+  {
+   "titre": "Au Gabon, la médiation financière devient opérationnelle. Un recours gratuit ne garantit pas un remboursement.",
+   "vues": 2,
+   "reseaux": {
+    "facebook": 2
+   }
+  },
+  {
+   "titre": "À Tsévié, 125 artisans formés ont une vitrine. La foire se poursuit jusqu’au 31 octobre.",
+   "vues": 2,
+   "reseaux": {
+    "youtube": 2
+   }
+  },
+  {
+   "titre": "Le Cameroun obtient l’approbation d’un don de 29,7 millions de dollars pour ses forêts.",
+   "vues": 2,
+   "reseaux": {
+    "youtube": 2
+   }
+  }
+ ]
+}
