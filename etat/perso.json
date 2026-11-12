@@ -660,193 +660,14 @@
       "formule": "Défi",
       "id": "20261112-1830",
       "legende": "Personne ne m'a expliqué ce secret, et ça a sauvé ma carrière.\n\nQuand tu lances un nouveau projet ou que tu arrives dans une équipe, chaque action demande une énergie immense. Tu as l'impression de pousser un bloc de pierre immobile.\n\nC'est l'effet volant d'inertie. Le démarrage est la phase la plus lourde, mais une fois la dynamique enclenchée, le mouvement se maintient avec beaucoup moins d'effort.\n\nL'astuce au travail ? Ne renonce pas pendant la phase de démarrage. Pousse régulièrement, la fluidité arrive juste après.\n\nAs-tu déjà ressenti ce moment où un projet pro devient soudainement plus facile ?\n\n#psychologie #travail #carriere #productivite #conseil",
+      "media_id": "18115631585334176",
+      "publie_le": "2026-11-12T17:32:48+00:00",
       "quand": "2026-11-12T18:30:00+01:00",
       "refait_le": "2026-11-09T20:58:36+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Défi",
-            "texte": "Personne ne m'a expliqué ce secret, et ça a sauvé ma carrière."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Travailler dur au début peut transformer toute ta carrière sans effort."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois qu'avancer demande toujours d'efforts ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "travail",
-          "carriere",
-          "productivite",
-          "conseil"
-        ],
-        "legende": "Personne ne m'a expliqué ce secret, et ça a sauvé ma carrière.\n\nQuand tu lances un nouveau projet ou que tu arrives dans une équipe, chaque action demande une énergie immense. Tu as l'impression de pousser un bloc de pierre immobile.\n\nC'est l'effet volant d'inertie. Le démarrage est la phase la plus lourde, mais une fois la dynamique enclenchée, le mouvement se maintient avec beaucoup moins d'effort.\n\nL'astuce au travail ? Ne renonce pas pendant la phase de démarrage. Pousse régulièrement, la fluidité arrive juste après.\n\nAs-tu déjà ressenti ce moment où un projet pro devient soudainement plus facile ?",
-        "question": "As-tu déjà ressenti ce moment où un projet pro devient soudainement plus facile ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Personne ne m'a expliqué ce secret au travail, et ça a tout changé pour moi.",
-            "ecran": "Ce *secret* a sauvé ma carrière",
-            "emoji": "🚀",
-            "recherche": "man working office computer",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est ce qui se passe quand tu abandonnes juste avant le déclic.",
-            "ecran": "Le plus *dur* arrive maintenant",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie du travail, on appelle ça l'effet volant d'inertie.",
-            "ecran": "L'effet *volant* d'inertie",
-            "emoji": "🧠",
-            "recherche": "heavy wheel spinning slow",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu arrives dans une nouvelle équipe. Tu donnes tout, mais rien ne semble avancer.",
-            "ecran": "Nouveau *poste* difficile",
-            "emoji": "💼",
-            "recherche": "tired employee office desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu relances tes collègues, tu organises les projets, mais la lourdeur reste énorme.",
-            "ecran": "Des *efforts* sans retour",
-            "emoji": "📧",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Départ",
-            "b": "Élan",
-            "dit": "Au début, il faut pousser très fort. Mais ensuite, l'élan prend le relais tout seul.",
-            "ecran": "L'énergie selon la *phase*",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 3,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau épuisé veut abandonner. Pourtant, la roue commence enfin à tourner.",
-            "ecran": "La *confiance* s'installe",
-            "emoji": "🤝",
-            "recherche": "business people handshake meeting",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les collègues te font confiance, les dossiers s'enchaînent et la vitesse augmente.",
-            "ecran": "Tout devient *fluide*",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce qui te demandait une énergie folle au début se fait maintenant presque sans effort.",
-            "ecran": "Moins d'*effort*, plus d'impact",
-            "emoji": "🎯",
-            "recherche": "happy professional worker laptop",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici les trois étapes pour utiliser cet élan à ton avantage au bureau.",
-            "ecran": "Méthode : Accepter le début | Viser la régularité | Garder l'élan",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Accepte que les premières semaines sur un projet soient toujours les plus lourdes.",
-            "ecran": "Un. Le *début* est lourd",
-            "emoji": "1️⃣",
-            "recherche": "focused employee writing whiteboard",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Ne cherche pas la vitesse immédiate, pousse un tout petit peu chaque jour.",
-            "ecran": "Deux. Pousse *chaque* jour",
-            "emoji": "2️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Une fois l'inertie lancée, entretiens le rythme sans couper l'effort brusquement.",
-            "ecran": "Trois. Laisse *l'élan* agir",
-            "emoji": "3️⃣",
-            "recherche": "team success high five office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les débuts sont toujours les plus lourds : tiens bon, l'élan vient après.",
-            "ecran": "Les débuts sont *lourds*, l'élan vient après",
-            "emoji": "🏆",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'effet volant d'inertie au travail"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "volant",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfpmU-UFPKI/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261112-1830-r.mp4"
     },
     {
@@ -3748,6 +3569,13 @@
       "media_id": "18139206484662740",
       "sujet": "chambre_echo",
       "url": "https://www.instagram.com/reel/Dfo9DWHHJIw/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-12",
+      "media_id": "18115631585334176",
+      "sujet": "volant",
+      "url": "https://www.instagram.com/reel/DfpmU-UFPKI/"
     }
   ]
 }
