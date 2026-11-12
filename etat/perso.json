@@ -3232,6 +3232,601 @@
       "sujet": "feynman",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261118-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261118-2100.jpg",
+      "format": "long",
+      "formule": "Contre-pied",
+      "id": "20261118-2100",
+      "legende": "Tu crois économiser sur cet abonnement ? C'est l'inverse.\n\nNotre cerveau adore classer l'argent dans des catégories mentales. Une somme découpée en un euro par jour nous semble indolore, alors que trente euros par mois nous font hésiter. Pourtant, c'est la même dépense.\n\nDe la même façon, on dépense une prime ou un cadeau en argent bien plus légèrement que son salaire mensuel.\n\nPour reprendre le contrôle, convertis systématiquement toutes tes dépenses sur la même durée et traite chaque euro de la même manière.\n\nAs-tu déjà dépensé une prime plus vite que ton salaire ?\n\n#psychologie #argent #budget #conseils #gestion",
+      "quand": "2026-11-18T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois économiser sur cet abonnement ? C'est l'inverse."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe quotidien te coûte plus cher que tu ne crois."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de dépenser ta prime tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "argent",
+          "budget",
+          "conseils",
+          "gestion"
+        ],
+        "legende": "Tu crois économiser sur cet abonnement ? C'est l'inverse.\n\nNotre cerveau adore classer l'argent dans des catégories mentales. Une somme découpée en un euro par jour nous semble indolore, alors que trente euros par mois nous font hésiter. Pourtant, c'est la même dépense.\n\nDe la même façon, on dépense une prime ou un cadeau en argent bien plus légèrement que son salaire mensuel.\n\nPour reprendre le contrôle, convertis systématiquement toutes tes dépenses sur la même durée et traite chaque euro de la même manière.\n\nAs-tu déjà dépensé une prime plus vite que ton salaire ?",
+        "question": "As-tu déjà dépensé une prime plus vite que ton salaire ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu crois économiser sur cet abonnement ? C'est l'inverse.",
+            "ecran": "Tu *crois* économiser ? C'est l'inverse.",
+            "emoji": "💸",
+            "recherche": "person looking at phone wallet",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce que tu fais quand tu reçois un cadeau en argent.",
+            "ecran": "Et le *pire* arrive à la fin.",
+            "emoji": "🚨",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce piège psychologique porte un nom : la comptabilité mentale.",
+            "ecran": "La *comptabilité mentale*",
+            "emoji": "🧠",
+            "recherche": "brain illustration thinking",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au supermarché ou en ligne, une offre à un euro par jour te paraît dérisoire.",
+            "ecran": "« 1 euro *par jour* »",
+            "emoji": "🛒",
+            "recherche": "shopping online credit card",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourtant, si on te demande trente euros par mois immédiatement, tu hésites.",
+            "ecran": "« 30 euros *par mois* »",
+            "emoji": "📅",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Par jour",
+            "b": "Par mois",
+            "dit": "Ton cerveau sépare ces sommes alors que la dépense reste identique.",
+            "ecran": "C'est la *même* somme",
+            "emoji": "⚖️",
+            "recherche": "coins balance scale",
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu classes l'argent dans des cases différentes selon son origine ou sa destination.",
+            "ecran": "Des *cases* séparées dans ta tête",
+            "emoji": "📱",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Une prime ou un cadeau en argent est dépensé bien plus facilement que ton salaire.",
+            "ecran": "L'argent *trouvé* ou offert",
+            "emoji": "🎁",
+            "recherche": "gift box opening money",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le problème, c'est que ton cerveau oublie qu'un euro reste toujours un euro.",
+            "ecran": "Erreur : *changer* la valeur",
+            "emoji": "❌",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les vendeurs découpent les prix en petites unités pour te faire craquer.",
+            "ecran": "Les offres *jouent* là-dessus",
+            "emoji": "🛍️",
+            "recherche": "store price tag sale",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, tu peux déjouer ce réflexe avec une méthode très simple.",
+            "ecran": "Voici l'*astuce* pour contrer ça",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Ramène toujours tous les prix à la même unité, par mois ou par an, avant d'acheter.",
+            "ecran": "Méthode : 1. Tout ramener au mois | 2. Traiter chaque euro pareil",
+            "emoji": "✅",
+            "recherche": "calculator budget planning",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Rappelle-toi qu'une prime ou un cadeau en argent reste exactement de l'argent.",
+            "ecran": "Deux. *Même* valeur partout",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un euro gagné, trouvé ou offert a exactement la même valeur.",
+            "ecran": "Un *euro* gagné, trouvé ou offert a exactement la *même* valeur.",
+            "emoji": "📌",
+            "recherche": "person smiling thinking coin",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La comptabilité mentale"
+      },
+      "statut": "programme",
+      "sujet": "compte_mental",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261118-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261119-1230.jpg",
+      "format": "long",
+      "formule": "Révélation",
+      "id": "20261119-1230",
+      "legende": "Ce petit réflexe de routine te coûte ton avenir sans que tu ne le sashes.\n\nQuand on trouve une méthode ou une habitude qui marche, le réflexe est de ne plus jamais en changer. Mais s'enfermer dans ce qui fonctionne empêche de découvrir ce qui pourrait faire la différence demain.\n\nLe secret des projets qui durent est de garder une base solide tout en se réservant des moments pour tester de nouvelles pistes sans pression.\n\nTu as plutôt tendance à trop explorer ou à trop exploiter ?\n\n#psychologie #productivite #conseils #developpementpersonnel",
+      "quand": "2026-11-19T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe de routine te coûte ton avenir sans que tu ne le saches."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Refuser de changer tes habitudes peut détruire ton projet à long terme."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de tout changer chaque semaine tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "conseils",
+          "developpementpersonnel"
+        ],
+        "legende": "Ce petit réflexe de routine te coûte ton avenir sans que tu ne le sashes.\n\nQuand on trouve une méthode ou une habitude qui marche, le réflexe est de ne plus jamais en changer. Mais s'enfermer dans ce qui fonctionne empêche de découvrir ce qui pourrait faire la différence demain.\n\nLe secret des projets qui durent est de garder une base solide tout en se réservant des moments pour tester de nouvelles pistes sans pression.\n\nTu as plutôt tendance à trop explorer ou à trop exploiter ?",
+        "question": "Tu as plutôt tendance à trop explorer ou à trop exploiter ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce petit réflexe de routine te coûte ton avenir sans que tu ne le saches.",
+            "ecran": "Ce *réflexe* te coûte ton avenir",
+            "emoji": "⚠️",
+            "recherche": "bored man at office desk",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que la plupart des gens font l'erreur inverse sans s'en rendre compte.",
+            "ecran": "Et le *pire* arrive bientôt",
+            "emoji": "⚡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, c'est le dilemme entre explorer et exploiter.",
+            "ecran": "Explorer ou *exploiter*",
+            "emoji": "🧠",
+            "recherche": "thoughtful person looking out window",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu vas toujours dans le même restaurant du quartier parce que tu sais que c'est bon.",
+            "ecran": "Le *même* restaurant",
+            "emoji": "📱",
+            "recherche": "person ordering food restaurant",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au travail, tu utilises la même méthode depuis trois ans parce qu'elle donne des résultats.",
+            "ecran": "La *même* méthode",
+            "emoji": "💼",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Là, tu es en train d'exploiter ce qui marche déjà.",
+            "ecran": "Tu *exploites* ton confort",
+            "emoji": "🎯",
+            "recherche": "happy professional working computer",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais à force de ne faire que ça, tu périclites dès que le monde autour de toi évolue.",
+            "ecran": "Mais le monde *change*",
+            "emoji": "🌀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "À l'inverse, tester une nouvelle idée chaque lundi sans rien terminer te stresse et t'épuise.",
+            "ecran": "L'autre *extrême*",
+            "emoji": "💥",
+            "recherche": "stressed person multiple screens",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Exploiter",
+            "b": "Explorer",
+            "dit": "Ton cerveau cherche la sécurité mais il a aussi besoin d'apprentissage pour progresser.",
+            "ecran": "L'équilibre *nécessaire*",
+            "emoji": "⚖️",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La solution repose sur un équilibre simple à mettre en place dans ton quotidien.",
+            "ecran": "L'équilibre parfait",
+            "emoji": "💡",
+            "recherche": "person smiling thinking idea",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici les étapes. Un. Conserve tes bases solides. Deux. Garde de la place pour tester.",
+            "ecran": "Équilibre : Sécuriser les acquis | Réserver une part d'essai | Ajuster régulièrement",
+            "emoji": "📋",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "N'abandonne surtout pas ce qui fonctionne très bien aujourd'hui pour la dernière nouveauté.",
+            "ecran": "Sécurise ton *existant*",
+            "emoji": "🛠️",
+            "recherche": "man holding coffee mug working",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais bloque-toi un petit moment chaque semaine pour essayer un nouvel outil ou une nouvelle idée.",
+            "ecran": "Garde de l'*espace*",
+            "emoji": "🌱",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Cette petite part d'essai protège ton avenir sans mettre en danger tes acquis actuels.",
+            "ecran": "Protection contre l'*ennui*",
+            "emoji": "🛡️",
+            "recherche": "person walking in park relaxed",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Capitalise sur tes acquis et garde une fenêtre pour l'inconnu.",
+            "ecran": "Capitalise sur tes acquis et garde une fenêtre pour l'inconnu.",
+            "emoji": "✨",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Explorer ou exploiter"
+      },
+      "statut": "programme",
+      "sujet": "explorer",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261119-1230.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261119-1830.jpg",
+      "format": "long",
+      "formule": "Défi",
+      "id": "20261119-1830",
+      "legende": "Personne ne m'a expliqué ça, et ça a tout changé.\n\nAu bureau, on croit souvent faire des choix rationnels. Pourtant, nous sommes tous influencés par le désir mimétique : l'envie se transmet comme une vraie contagion.\n\nQuand un poste ou une mission devient populaire, notre cerveau veut spontanément l'obtenir. Une simple file d'attente ou un engouement collectif suffit à rendre n'importe quel projet attrayant.\n\nAvant de foncer tête baissée dans une compétition, demande-toi toujours si c'est ton besoin réel ou une simple imitation.\n\nAs-tu déjà désiré un projet juste parce que tes collègues le voulaient ?\n\n#psychologie #travail #carriereprofessionnelle #conseilbureau #développementpersonnel",
+      "quand": "2026-11-19T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Défi",
+            "texte": "Personne ne m'a expliqué ça, et ça a changé ma carrière."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe au bureau te coûte plus cher que tu ne crois."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois choisir tes projets ? C'est tout le contraire."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "travail",
+          "carriereprofessionnelle",
+          "conseilbureau",
+          "développementpersonnel"
+        ],
+        "legende": "Personne ne m'a expliqué ça, et ça a tout changé.\n\nAu bureau, on croit souvent faire des choix rationnels. Pourtant, nous sommes tous influencés par le désir mimétique : l'envie se transmet comme une vraie contagion.\n\nQuand un poste ou une mission devient populaire, notre cerveau veut spontanément l'obtenir. Une simple file d'attente ou un engouement collectif suffit à rendre n'importe quel projet attrayant.\n\nAvant de foncer tête baissée dans une compétition, demande-toi toujours si c'est ton besoin réel ou une simple imitation.\n\nAs-tu déjà désiré un projet juste parce que tes collègues le voulaient ?",
+        "question": "As-tu déjà désiré un projet juste parce que tes collègues le voulaient ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Personne ne m'a jamais expliqué ça, et ça a absolument tout changé dans ma carrière.",
+            "ecran": "Ça a *tout changé* dans ma carrière",
+            "emoji": "🔥",
+            "recherche": "office worker thoughtful window",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est qu'on tombe tous dans ce piège sans s'en rendre compte.",
+            "ecran": "Le *piège* invisible du bureau",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce mécanisme psychologique a un nom : le désir mimétique.",
+            "ecran": "Le *désir mimétique*",
+            "emoji": "🧠",
+            "recherche": "brain animation concept",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu veux absolument ce nouveau projet ? Ou tu le veux parce que ton collègue est dessus ?",
+            "ecran": "Tu veux ce *projet* ?",
+            "emoji": "💼",
+            "recherche": "colleagues meeting room conflict",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Notre cerveau est fait ainsi : le désir des autres se transmet comme une vraie contagion.",
+            "ecran": "L'envie est une *contagion*",
+            "emoji": "🦠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si tout le monde vise le même poste au bureau, il te paraît tout de suite 10 fois plus attirant.",
+            "ecran": "La *promotion* tant convoitée",
+            "emoji": "📈",
+            "recherche": "business people talking office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Regarde à la pause café : une file d'attente sur un sujet ou un projet donne envie d'y entrer.",
+            "ecran": "Même à la *pause café*",
+            "emoji": "☕",
+            "recherche": "coffee machine office queue",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Vrai besoin",
+            "b": "Imitation",
+            "dit": "On confond souvent ce qu'on veut vraiment avec ce que les autres recherchent.",
+            "ecran": "Ton *vrai* désir vs envie d'imitation",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Alors comment éviter de gâcher ton énergie sur des objectifs qui ne sont pas les tiens ?",
+            "ecran": "Reprends le *contrôle*",
+            "emoji": "🎯",
+            "recherche": "focused worker computer",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici l'astuce en trois étapes simples pour te protéger au quotidien.",
+            "ecran": "L'astuce : 1. Pause | 2. Question | 3. Choix",
+            "emoji": "📋",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Avant d'accepter une mission, fais une pause et prends du recul.",
+            "ecran": "Un. Fais une *pause*",
+            "emoji": "1️⃣",
+            "recherche": "man taking deep breath office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Demande-toi : est-ce que je veux vraiment cet objectif, ou ce que les autres ont ?",
+            "ecran": "Deux. Pose la *question*",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Sache qu'une file d'attente ou un engouement collectif crée une envie artificielle.",
+            "ecran": "Trois. Analyse l'*effet de masse*",
+            "emoji": "3️⃣",
+            "recherche": "people crowd office walking",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne poursuis pas le désir des autres, choisis tes propres batailles.",
+            "ecran": "Ne poursuis pas le *désir des autres*",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le désir mimétique au travail"
+      },
+      "statut": "programme",
+      "sujet": "mimetique",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261119-1830.mp4"
     }
   ],
   "publications": [
