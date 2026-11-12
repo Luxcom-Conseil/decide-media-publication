@@ -643,204 +643,14 @@
       "formule": "Révélation",
       "id": "20261112-1230",
       "legende": "Ce petit réflexe sur ton téléphone te rend plus têtu chaque jour.\n\nLes réseaux sociaux ont tendance à nous enfermer dans une chambre d'écho. Les algorithmes sélectionnent en priorité les contenus qui confirment nos avis préexistants. Résultat : on finit par croire que tout le monde pense comme nous.\n\nPour garder un esprit critique, force-toi à suivre quelques sources sérieuses avec lesquelles tu n'es pas d'accord au départ. Cela enrichit ta réflexion et t'évite de tomber dans le piège.\n\nAs-tu déjà remarqué que tes réseaux te montrent toujours la même chose ?\n\n#psychologie #reseauxsociaux #biaiscognitif #développementpersonnel #espritcritique",
+      "media_id": "18139206484662740",
+      "publie_le": "2026-11-12T11:32:07+00:00",
       "quand": "2026-11-12T12:30:00+01:00",
       "refait_le": "2026-11-08T11:39:57+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe sur ton téléphone te rend plus têtu chaque jour."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Regarder ton fil d'actualité détruit ta capacité à débattre calmement."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de scroller tant que tu n'as pas compris ce piège."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "reseauxsociaux",
-          "biaiscognitif",
-          "développementpersonnel",
-          "espritcritique"
-        ],
-        "legende": "Ce petit réflexe sur ton téléphone te rend plus têtu chaque jour.\n\nLes réseaux sociaux ont tendance à nous enfermer dans une chambre d'écho. Les algorithmes sélectionnent en priorité les contenus qui confirment nos avis préexistants. Résultat : on finit par croire que tout le monde pense comme nous.\n\nPour garder un esprit critique, force-toi à suivre quelques sources sérieuses avec lesquelles tu n'es pas d'accord au départ. Cela enrichit ta réflexion et t'évite de tomber dans le piège.\n\nAs-tu déjà remarqué que tes réseaux te montrent toujours la même chose ?",
-        "question": "As-tu déjà remarqué que tes réseaux te montrent toujours la même chose ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce petit réflexe sur ton téléphone te rend plus têtu chaque jour sans que tu le saches.",
-            "ecran": "Ce *réflexe* te rend plus têtu",
-            "emoji": "📱",
-            "recherche": "person scrolling phone couch",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que tu as l'impression d'avoir toujours raison sur tout le monde.",
-            "ecran": "Et le pire *arrive* après",
-            "emoji": "🔥",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce phénomène a un nom bien précis. C'est le principe de la chambre d'écho.",
-            "ecran": "La *chambre* d'écho",
-            "emoji": "🧠",
-            "recherche": "brain neon lights digital",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand tu es dans le métro ou au bureau et que tu regardes ton fil d'actualité...",
-            "ecran": "Ton fil te *ressemble*",
-            "emoji": "👇",
-            "recherche": "person train phone commuting",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les réseaux sociaux te montrent uniquement des contenus proches de ce que tu penses déjà.",
-            "ecran": "L'algorithme *t'observe*",
-            "emoji": "🤖",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Chaque vidéo et chaque article vienne confirmer tes opinions au lieu de les questionner.",
-            "ecran": "Tu valides tes *idées*",
-            "emoji": "🎯",
-            "recherche": "happy woman checking phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Ton avis",
-            "b": "Autres avis",
-            "dit": "Résultat : ton cerveau voit tout le temps la même idée et ignore les autres perspectives.",
-            "ecran": "Ce que tu *vois* vraiment",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 3,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "À la pause café ou en famille, tu ne comprends plus ceux qui ne sont pas d'accord.",
-            "ecran": "La pause *café*",
-            "emoji": "🗣️",
-            "recherche": "office coffee break discussion",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu te dis qu'ils n'ont rien compris, alors que ton fil a juste filtré la réalité.",
-            "ecran": "Tu les penses *fous*",
-            "emoji": "🤯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il existe une méthode très simple pour sortir de cette bulle virtuelle.",
-            "ecran": "Comment *casser* la bulle",
-            "emoji": "🛡️",
-            "recherche": "man thinking thoughtful outdoor",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici le plan d'action immédiat à appliquer aujourd'hui sur tes comptes.",
-            "ecran": "Sortir de la bulle : Chercher | S'abonner | Analyser",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Suis volontairement trois ou quatre comptes sérieux qui ne pensent pas comme toi.",
-            "ecran": "Un : *Varie* tes abonnements",
-            "emoji": "1️⃣",
-            "recherche": "person choosing social media follow",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Prends le temps de lire leurs explications sans réagir tout de suite sous le coup de l'émotion.",
-            "ecran": "Deux : *Lis* leurs arguments",
-            "emoji": "2️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En faisant ça, tu entraînes ton cerveau à comprendre la complexité du monde.",
-            "ecran": "Un esprit plus *ouvert*",
-            "emoji": "💪",
-            "recherche": "walking in city confident",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour mieux penser, écoute ce qui te dérange.",
-            "ecran": "Pour mieux *penser*, écoute ce qui te dérange.",
-            "emoji": "💎",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La chambre d'écho"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "chambre_echo",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Dfo9DWHHJIw/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261112-1230-r.mp4"
     },
     {
@@ -3931,6 +3741,13 @@
       "media_id": "18137425591646864",
       "sujet": "ennui",
       "url": "https://www.instagram.com/reel/DfnSpY7kk-V/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-12",
+      "media_id": "18139206484662740",
+      "sujet": "chambre_echo",
+      "url": "https://www.instagram.com/reel/Dfo9DWHHJIw/"
     }
   ]
 }
