@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "L'EPAB cherche 25 projets d'entreprise dans l'agriculture.",
+    "L'École pratique d'agriculture de Binguela cherche 25 projets.",
+    "L'EPAB propose cinq mois d'accompagnement technique et financier."
+  ],
+  "titre": "L'EPAB cherche 25 projets",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Binguela",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'EPAB cherche 25 *projets*",
+      "dit": "L'École pratique d'agriculture de Binguela cherche 25 projets d'entreprise pour sa 14e promotion d'incubateur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Candidatures ouvertes jusqu'au 27 *novembre*",
+      "dit": "L'appel est ouvert dans tout le pays jusqu'au 27 novembre 2026 selon Business in Cameroon."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pour les 18 à 45 *ans*",
+      "dit": "Peuvent candidater les Camerounais âgés de 18 à 45 ans dans l'agriculture et l'élevage."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cinq mois *d'accompagnement*",
+      "dit": "Les projets retenus reçoivent cinq mois d'accompagnement technique et une aide financière."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "3 970 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "3 970 *milliards*",
+      "dit": "L'agriculture a généré 3 970 milliards de FCFA de valeur ajoutée en 2025."
+    }
+  ]
+}

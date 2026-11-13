@@ -1,0 +1,105 @@
+{
+  "accroches": [
+    "Les frais d'inscription aux examens sont fixés à 6 000 FCFA.",
+    "Le ministère rappelle que les frais d'examen coûtent 6 000 FCFA.",
+    "Des écoles demandent jusqu'à 22 000 FCFA pour les examens."
+  ],
+  "titre": "Examens au Cameroun : les frais officiels",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Les frais d'examen sont *6 000 FCFA*",
+      "dit": "Les frais d'inscription aux examens et concours sont fixés à 6 000 FCFA au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "8 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un rapport exigé sous *8 jours*",
+      "dit": "Le 9 novembre 2026, le ministère de l'Éducation de base a demandé un compte-rendu sous 8 jours."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des frais perçus à *Douala 1er*",
+      "dit": "Selon DataCameroon, des responsables d'écoles à Douala 1er réclament des sommes plus élevées."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "18 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *18 000 FCFA* demandés",
+      "dit": "Un directeur indique que la procédure de dépôt du dossier peut coûter environ 18 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 20 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des parents réclament *20 000 FCFA*",
+      "dit": "Une fondatrice d'école affirme demander 20 000 FCFA pour couvrir le transport et l'inspection."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3 mois après",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Rappel *3 mois* après la rentrée",
+      "dit": "Cette note du ministère intervient trois mois après la reprise des classes."
+    }
+  ]
+}

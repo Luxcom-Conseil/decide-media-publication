@@ -1,0 +1,91 @@
+{
+  "accroches": [
+    "240 recrues rejoignent les douanes du Cameroun.",
+    "La douane forme 240 futurs douaniers à Koutaba.",
+    "Le Cameroun forme 240 douaniers en soixante jours."
+  ],
+  "titre": "240 nouveaux douaniers au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Koutaba",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "240 recrues *rejoignent* la douane",
+      "dit": "240 recrues rejoignent les services des douanes du Cameroun."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère des Finances",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Le *ministère* l'a annoncé",
+      "dit": "Le 4 novembre 2026, la préparation militaire s'est terminée à Koutaba, annonce le ministère des Finances."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "60 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une formation de *60 jours*",
+      "dit": "Ce contingent a suivi soixante jours d'instruction au Bataillon des troupes aéroportées."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Déploiement sur le *territoire*",
+      "dit": "Les nouveaux agents vont travailler dans les services douaniers sur tout le territoire national."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des chantiers prévus pour *2027*",
+      "dit": "Pour 2027, la douane annonce la modernisation des contrôles et la facilitation du commerce extérieur."
+    }
+  ]
+}

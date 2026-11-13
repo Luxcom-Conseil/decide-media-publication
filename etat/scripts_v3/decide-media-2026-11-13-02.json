@@ -1,0 +1,78 @@
+{
+  "accroches": [
+    "Les importations du Cameroun ont progressé de 22,8 % au premier trimestre 2026.",
+    "Le déficit des échanges de biens et services atteint 5,7 % du PIB.",
+    "La facture des céréales importées a baissé à 466,9 milliards de FCFA."
+  ],
+  "titre": "Importations en hausse au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les importations *progressent* de 22,8 %",
+      "dit": "Les importations ont progressé de 22,8 % au premier trimestre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les biens *augmentent* de 25,8 %",
+      "dit": "Les importations de biens augmentent de 25,8 % alors que les exportations ne progressent que de 3,8 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le *déficit* atteint 5,7 %",
+      "dit": "Le déficit des échanges atteint 5,7 % du PIB selon l'Institut national de la statistique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "466900000000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La facture des *céréales* baisse",
+      "dit": "La facture des céréales importées a baissé à 466,9 milliards de FCFA en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "788400000000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les *carburants* coûtent moins",
+      "dit": "Celle des carburants et lubrifiants a reculé à 788,4 milliards de FCFA."
+    }
+  ]
+}

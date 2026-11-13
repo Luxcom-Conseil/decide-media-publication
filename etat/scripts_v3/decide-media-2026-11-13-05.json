@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "Un déficit de production de 125 MW est prévu dès 2027.",
+    "Le Cameroun risque une aggravation des délestages d'électricité dès 2027.",
+    "Le déficit de production pourrait atteindre 450 MW en 2028."
+  ],
+  "titre": "Délestages : l'alerte de 2027 au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un déficit de 125 MW en *2027*",
+      "dit": "Un déficit de production de 125 MW est prévu dès 2027 au Cameroun selon un rapport."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le manque d'électricité peut atteindre *450 MW*",
+      "dit": "Ce manque d'électricité pourrait même atteindre 450 MW en 2028 selon les projections budgétaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "10 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'alerte lancée le *10 novembre*",
+      "dit": "Le président de l'Assemblée nationale a lancé l'alerte le 10 novembre 2026 sur ce risque."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des coupures d'eau aussi *annoncées*",
+      "dit": "Aux coupures d'électricité vont s'ajouter les coupures d'eau car les stations ont besoin d'énergie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "5000 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "5 000 milliards de FCFA non *versés*",
+      "dit": "Cinq mille milliards de francs CFA de financements sont engagés mais pas encore versés."
+    }
+  ]
+}
