@@ -711,203 +711,13 @@
       "formule": "Ordre",
       "id": "20261113-1830",
       "legende": "Arrête de retourner en réunion tant que tu n'as pas vu ça.\n\nQuand une réunion n'a pas de but clair, elle s'étire indéfiniment et personne ne tranche. On brasse de l'air, on perd de l'énergie et on finit par replanifier un point la semaine suivante.\n\nPour reprendre le contrôle, pose cette question dès le début : « Qu'est-ce qu'on doit avoir décidé en sortant ? ». Cela force tout le monde à se concentrer sur l'essentiel.\n\nTu passes combien d'heures par semaine en réunion inutile ?\n\n#productivite #travail #reunion #efficacite #organisation",
+      "media_id": "17913520953664610",
+      "publie_le": "2026-11-13T17:32:17+00:00",
       "quand": "2026-11-13T18:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de retourner en réunion tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Accepter toutes les réunions sans filtre peut détruire ton travail."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe en réunion te coûte des heures chaque semaine."
-          }
-        ],
-        "hashtags": [
-          "productivite",
-          "travail",
-          "reunion",
-          "efficacite",
-          "organisation"
-        ],
-        "legende": "Arrête de retourner en réunion tant que tu n'as pas vu ça.\n\nQuand une réunion n'a pas de but clair, elle s'étire indéfiniment et personne ne tranche. On brasse de l'air, on perd de l'énergie et on finit par replanifier un point la semaine suivante.\n\nPour reprendre le contrôle, pose cette question dès le début : « Qu'est-ce qu'on doit avoir décidé en sortant ? ». Cela force tout le monde à se concentrer sur l'essentiel.\n\nTu passes combien d'heures par semaine en réunion inutile ?",
-        "question": "Tu passes combien d'heures par semaine en réunion inutile ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Arrête de retourner en réunion tant que tu n'as pas vu ça.",
-            "ecran": "Arrête d'aller en *réunion*",
-            "emoji": "🛑",
-            "recherche": "tired man office meeting",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu as déjà passé une heure à écouter des gens parler sans rien conclure ?",
-            "ecran": "Tu *perds* ton temps",
-            "emoji": "⏳",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est ce qui se passe juste à la fin de la séance.",
-            "ecran": "Et le pire *arrive*",
-            "emoji": "🔥",
-            "recherche": "frustrated worker desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce problème a un mécanisme bien connu : les réunions sans fin.",
-            "ecran": "Les *réunions* sans fin",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu t'assieds dans la salle ou tu te connectes sur ton écran à dix heures.",
-            "ecran": "Se retrouver à *l'amphi*",
-            "emoji": "💻",
-            "recherche": "business team meeting room",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tout le monde parle de ses sujets, mais personne ne sait pourquoi on est là.",
-            "ecran": "Chacun donne son *avis*",
-            "emoji": "🗣️",
-            "recherche": "people talking office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "La discussion déborde, on ouvre trois autres sujets et les minutes passent.",
-            "ecran": "Le temps *s'allonge*",
-            "emoji": "📉",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "À la fin de l'heure, vous reprogrammez une autre séance pour décider.",
-            "ecran": "L'heure est *écoulée*",
-            "emoji": "⏰",
-            "recherche": "clock ticking fast",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Temps perdu",
-            "b": "Décisions",
-            "dit": "Sans objectif clair, une réunion s'allonge toujours et ne décide rien du tout.",
-            "ecran": "Réunion sans but vs avec but",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 3,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pourquoi ? Parce que sans cadre précis, le cerveau humain remplit tout l'espace.",
-            "ecran": "Le cerveau *s'éparpille*",
-            "emoji": "🤯",
-            "recherche": "thinking overwhelmed worker",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il existe une astuce magique pour stopper ce gâchis immédiatement.",
-            "ecran": "La *solution* simple",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Dès les premières secondes de la rencontre, pose une seule et unique question.",
-            "ecran": "La méthode : poser la question | fixer le livrable | trancher",
-            "emoji": "🎯",
-            "recherche": "man speaking meeting point",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Demande à haute voix : qu'est-ce qu'on doit avoir décidé en sortant d'ici ?",
-            "ecran": "La question *clef*",
-            "emoji": "❓",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Dès que quelqu'un s'égare, tu rappelles la question initiale pour avancer.",
-            "ecran": "Recadrer la *discussion*",
-            "emoji": "⚙️",
-            "recherche": "team working together desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pas de décision fixée, pas de réunion lancée.",
-            "ecran": "Pas de *décision* fixée, pas de réunion lancée.",
-            "emoji": "📌",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Les réunions sans fin"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "reunion",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfsLDHsglad/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-08/20261113-1830.mp4"
     },
     {
@@ -3994,6 +3804,13 @@
       "media_id": "18053154860619762",
       "sujet": "colere",
       "url": "https://www.instagram.com/reel/Dfrh3LZFSNK/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-13",
+      "media_id": "17913520953664610",
+      "sujet": "reunion",
+      "url": "https://www.instagram.com/reel/DfsLDHsglad/"
     }
   ]
 }
