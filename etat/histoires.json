@@ -15,130 +15,10 @@
   "madoff",
   "collier",
   "hetty",
-  "abagnale"
+  "abagnale",
+  "kreuger"
  ],
- "attente_partie2": {
-  "id": "abagnale",
-  "jour_partie1": "2026-11-12",
-  "script": {
-   "titre": "Frank Abagnale, Jr.",
-   "scenes": [
-    {
-     "type": "accroche",
-     "ecran": "Un adolescent pilote de ligne",
-     "grand": null,
-     "dit": "Comment un gamin de seize ans a-t-il pu voyager à travers le monde sans jamais payer un seul billet ?",
-     "image": 1,
-     "recherche": null
-    },
-    {
-     "type": "date",
-     "ecran": "1964 à New York",
-     "grand": "1964",
-     "dit": "En 1964, Frank Abagnale commence sa vie d'imposteur dans le quartier du Bronx à New York.",
-     "image": 2,
-     "recherche": "Bronx New York 1960s"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Une fraude de 3 400 dollars",
-     "grand": "3 400",
-     "dit": "Sa toute première escroquerie rapporte rapidement trois mille quatre cents dollars grâce à un complice dans une station.",
-     "image": 2,
-     "recherche": "gas station 1960s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Un *pilote* de la Pan Am",
-     "grand": null,
-     "dit": "Il réussit à se faire passer pour un pilote de la compagnie Pan American World Airways.",
-     "image": 3,
-     "recherche": "Pan Am Boeing 707"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Près de 250 vols illégaux",
-     "grand": "250",
-     "dit": "Il vole ainsi sur près de deux cent cinquante vols à travers vingt-six pays différents.",
-     "image": 5,
-     "recherche": "vintage airline pilot"
-    },
-    {
-     "type": "recit",
-     "ecran": "Des *hôtels* payés par la compagnie",
-     "grand": null,
-     "dit": "Tout est mis sur le compte de la compagnie aérienne, y compris ses chambres d'hôtel.",
-     "image": 4,
-     "recherche": "hotel lobby 1960s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Faux *médecin* en Géorgie",
-     "grand": null,
-     "dit": "Pour échapper à la police, il change de vie et devient pédiatre dans un hôpital de Géorgie.",
-     "image": 7,
-     "recherche": "hospital 1960s doctor"
-    },
-    {
-     "type": "recit",
-     "ecran": "Le piège du bébé bleu",
-     "grand": null,
-     "dit": "Il passe tout près d'être découvert en ne comprenant pas le terme infirmer du syndrome du bébé bleu.",
-     "image": 5,
-     "recherche": "nurse 1960s medical"
-    },
-    {
-     "type": "recit",
-     "ecran": "Un *avocat* de dix-neuf ans",
-     "grand": null,
-     "dit": "Après la médecine, il falsifie un diplôme de Harvard et entre au barreau de Louisiane.",
-     "image": 1,
-     "recherche": "lawyer 1960s office"
-    },
-    {
-     "type": "recit",
-     "ecran": "La fin du *mensonge* juridique",
-     "grand": null,
-     "dit": "Un véritable diplômé de Harvard commence à lui poser des questions trop précises.",
-     "image": 6,
-     "recherche": "courthouse 1960s"
-    },
-    {
-     "type": "date",
-     "ecran": "Arrestation à Montpellier en 1969",
-     "grand": "1969",
-     "dit": "En 1969, un employé d'Air France le reconnaît sur une affiche à Montpellier en France.",
-     "image": 0,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Douze pays réclament son *extradition*",
-     "grand": null,
-     "dit": "Sitôt arrêté, douze des pays où il a commis ses fraudes demandent son extradition immédiate.",
-     "image": 7,
-     "recherche": "police station 1960s"
-    },
-    {
-     "type": "suite",
-     "ecran": "Comment va-t-il s'évader ?",
-     "grand": null,
-     "dit": "Comment va-t-il s'évader des prisons internationales ? La suite dans la partie 2.",
-     "image": 5,
-     "recherche": "prison cell 1960s"
-    }
-   ],
-   "question": "Tu aurais cru à son faux diplôme de Harvard ?",
-   "legende": "Comment un gamin de seize ans a-t-il pu voyager à travers le monde sans jamais payer de billet ?\nDécouvre la première partie de la folle histoire de Frank Abagnale.\nTu aurais cru à son faux diplôme de Harvard ?",
-   "hashtags": [
-    "histoire",
-    "france",
-    "affaires",
-    "documentaire"
-   ],
-   "_credit_musique": "« Street Museum (Dark Ambient BGM) » par ChristmasKrumble666 (CC0, Freesound)"
-  }
- },
+ "attente_partie2": null,
  "journal": [
   {
    "jour": "2026-11-06",
@@ -307,11 +187,44 @@
    "id": "abagnale",
    "format": "serie",
    "nom": "hva-abagnale-p1"
+  },
+  {
+   "jour": "2026-11-13",
+   "id": "abagnale",
+   "format": "serie2",
+   "nom": "hva-abagnale-p2"
+  },
+  {
+   "jour": "2026-11-13",
+   "id": "kreuger",
+   "format": "chiffre",
+   "nom": "hva-kreuger-c"
+  },
+  {
+   "jour": "2026-11-13",
+   "id": "renifleurs",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 938 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-13",
+   "id": "hanau",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : accroche dite trop longue (82 caractères, 75 au plus : 2 à 4 secondes)"
+  },
+  {
+   "jour": "2026-11-13",
+   "id": "bernhard",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 12 scènes (13 à 24 attendues) ; accroche dite trop longue (87 caractères, 75 au plus : 2 à 4 secondes) ; 964 caractères dits, il en faut de 1150 à 1700 (question comprise)"
   }
  ],
  "en_chiffre": [
   "humbert",
-  "madoff"
+  "madoff",
+  "renifleurs",
+  "hanau",
+  "bernhard"
  ],
  "ecartes": {
   "humbert": "script refusé au contrôle : 643 caractères dits, il en faut de 380 à 600 (question comprise)",
@@ -612,6 +525,34 @@
    "reseau": "youtube",
    "buffer": "6af56daddf70eccdaabdbbfa",
    "heure": "2026-11-12T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-13",
+   "nom": "hva-abagnale-p2",
+   "reseau": "tiktok",
+   "buffer": "6af6b3b4c1a0010a5b03ac70",
+   "heure": "2026-11-13T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-13",
+   "nom": "hva-abagnale-p2",
+   "reseau": "youtube",
+   "buffer": "6af6b3b4e1d8eff610a72059",
+   "heure": "2026-11-13T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-13",
+   "nom": "hva-kreuger-c",
+   "reseau": "tiktok",
+   "buffer": "6af6b3b5fb90ccefdd240cd8",
+   "heure": "2026-11-13T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-13",
+   "nom": "hva-kreuger-c",
+   "reseau": "youtube",
+   "buffer": "6af6b3b5e1d8eff610a72088",
+   "heure": "2026-11-13T18:30:00+01:00"
   }
  ]
 }
