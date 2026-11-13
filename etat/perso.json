@@ -3446,6 +3446,435 @@
       "sujet": "mimetique",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261119-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-13/20261119-2100.jpg",
+      "format": "court",
+      "formule": "Enjeu",
+      "id": "20261119-2100",
+      "legende": "Ignorer ce réflexe le soir peut ruiner ton bien-être quotidien.\n\nNotre cerveau a tendance à se focaliser sur ce qui va mal avant de dormir. En prenant l'habitude de noter ce qui a été positif, tu réentraînes ton attention.\n\nEssaie ce soir : pense à un bon moment et partage-le si possible.\n\nAs-tu un bon moment à partager aujourd'hui ?\n\n#psychologie #gratitude #bienetre #devperso",
+      "quand": "2026-11-19T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Enjeu",
+            "texte": "Ignorer ce réflexe le soir peut ruiner ton bien-être quotidien."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de te coucher stressé tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe gratuit peut changer toutes tes journées."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "gratitude",
+          "bienetre",
+          "devperso"
+        ],
+        "legende": "Ignorer ce réflexe le soir peut ruiner ton bien-être quotidien.\n\nNotre cerveau a tendance à se focaliser sur ce qui va mal avant de dormir. En prenant l'habitude de noter ce qui a été positif, tu réentraînes ton attention.\n\nEssaie ce soir : pense à un bon moment et partage-le si possible.\n\nAs-tu un bon moment à partager aujourd'hui ?",
+        "question": "As-tu un bon moment à partager aujourd'hui ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ignorer ce réflexe le soir peut ruiner ton bien-être quotidien.",
+            "ecran": "Ignorer ce réflexe *ruine* ton bien-être",
+            "emoji": "😱",
+            "recherche": "stressed person bedroom night",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On parle de la gratitude.",
+            "ecran": "C'est la *gratitude*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le soir au lit, tu rumines le seul souci de ta journée.",
+            "ecran": "Tu rumines au *lit*",
+            "emoji": "📱",
+            "recherche": "person thinking in bed phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau retient le négatif et oublie tout ce qui va bien.",
+            "ecran": "Ton cerveau *filtre* le négatif",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Chaque soir, note un bon moment. Et dis-le parfois à la personne concernée.",
+            "ecran": "L'astuce : 1 pensée positive | 2 dis-le",
+            "emoji": "✅",
+            "recherche": "writing journal happy",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Remarquer le positif dans ta vie suffit pour te sentir mieux.",
+            "ecran": "Remarque le *positif* pour le multiplier",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La gratitude"
+      },
+      "statut": "programme",
+      "sujet": "gratitude",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-13/20261119-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-13/20261120-1230.jpg",
+      "format": "court",
+      "formule": "Liste",
+      "id": "20261120-1230",
+      "legende": "3 signes que tu te fais avoir faute de créer un vrai lien.\n\nLe principe d'unité montre que nous faisons spontanément confiance à ceux qui partagent notre culture, nos valeurs ou nos codes. C'est le sentiment d'appartenir à la même tribu qui crée une connexion immédiate.\n\nPour réussir tes échanges, parle le langage de ta communauté et montre tes vraies valeurs. Fuis le jeu d'acteur, la fausse proximité se repère rapidement.\n\nAs-tu déjà accordé ta confiance juste par esprit de tribu ?\n\n#psychologie #persuasion #relations #influence #communication",
+      "quand": "2026-11-20T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Liste",
+            "texte": "3 signes que tu te fais avoir faute de créer un vrai lien."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe d'appartenance te coûte plus cher que tu ne crois."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois convaincre avec des arguments ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "persuasion",
+          "relations",
+          "influence",
+          "communication"
+        ],
+        "legende": "3 signes que tu te fais avoir faute de créer un vrai lien.\n\nLe principe d'unité montre que nous faisons spontanément confiance à ceux qui partagent notre culture, nos valeurs ou nos codes. C'est le sentiment d'appartenir à la même tribu qui crée une connexion immédiate.\n\nPour réussir tes échanges, parle le langage de ta communauté et montre tes vraies valeurs. Fuis le jeu d'acteur, la fausse proximité se repère rapidement.\n\nAs-tu déjà accordé ta confiance juste par esprit de tribu ?",
+        "question": "As-tu déjà accordé ta confiance juste par esprit de tribu ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "3 signes que tu te fais avoir faute de créer un vrai lien.",
+            "ecran": "3 signes que tu *perds* gros",
+            "emoji": "🚨",
+            "recherche": "stressed person talking",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, on appelle ça le principe d'unité.",
+            "ecran": "Le principe d'*unité*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au bureau, tu t'entends direct avec quelqu'un qui partage ta culture.",
+            "ecran": "Au *bureau* ou en projet",
+            "emoji": "☕",
+            "recherche": "office colleagues chatting coffee",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau fait confiance à ceux qui te ressemblent.",
+            "ecran": "Le cerveau cherche la *tribu*",
+            "emoji": "🤝",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un, parle le langage de ton groupe. Deux, partage des valeurs sincères.",
+            "ecran": "L'astuce : 1. Parle leur langage | 2. Partage tes valeurs",
+            "emoji": "💡",
+            "recherche": "group people smiling unity",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Attention, si tu joues un rôle, les gens le sentent tout de suite.",
+            "ecran": "Ne *joue* pas un rôle",
+            "emoji": "🎭",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "L'appartenance sincère ouvre toutes les portes.",
+            "ecran": "L'appartenance *sincère* ouvre toutes les portes.",
+            "emoji": "🎯",
+            "recherche": "person opening door light",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le principe d'unité"
+      },
+      "statut": "programme",
+      "sujet": "unite",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-13/20261120-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-13/20261120-1830.jpg",
+      "format": "long",
+      "formule": "Ordre",
+      "id": "20261120-1830",
+      "legende": "Arrête de chercher de grand cadeau tant que tu n'as pas vu ça.\n\nOn pense souvent qu'il faut faire de grands gestes pour prouver son amour. Pourtant, ce sont les petites attentions du quotidien qui entretiennent vraiment la flamme.\n\nLe piège est de laisser ces gestes devenir habituels et invisibles. Pour préserver ton couple, prends le réflexe de remarquer et de remercier chaque petit effort.\n\nQuelle est la dernière petite attention reçue aujourd'hui ?\n\n#psychologie #relationdecouple #vieadeux #conseilcouple",
+      "quand": "2026-11-20T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de chercher de grand cadeau tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Ignorer ce petit détail quotidien peut détruire ton couple sans bruit."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe gratuit vaut plus que tous tes cadeaux de Saint-Valentin."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "relationdecouple",
+          "vieadeux",
+          "conseilcouple"
+        ],
+        "legende": "Arrête de chercher de grand cadeau tant que tu n'as pas vu ça.\n\nOn pense souvent qu'il faut faire de grands gestes pour prouver son amour. Pourtant, ce sont les petites attentions du quotidien qui entretiennent vraiment la flamme.\n\nLe piège est de laisser ces gestes devenir habituels et invisibles. Pour préserver ton couple, prends le réflexe de remarquer et de remercier chaque petit effort.\n\nQuelle est la dernière petite attention reçue aujourd'hui ?",
+        "question": "Quelle est la dernière petite attention reçue aujourd'hui ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Arrête de chercher de grand cadeau tant que tu n'as pas vu ça.",
+            "ecran": "Arrête les *grands* cadeaux d'abord",
+            "emoji": "🛑",
+            "recherche": "couple argumenting room",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On attend la Saint-Valentin ou les anniversaires pour sortir le grand jeu.",
+            "ecran": "Les *grands* moments ne suffisent pas",
+            "emoji": "🎁",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais offrir un gros cadeau ne sauve pas une relation qui s'éteint chaque jour.",
+            "ecran": "Le *piège* des grands gestes",
+            "emoji": "📉",
+            "recherche": "sad woman looking phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie du couple, ce sont les petites attentions répétées qui tout font.",
+            "ecran": "La *puissance* des micro-gestes",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Gros cadeau",
+            "b": "Petits gestes",
+            "dit": "Un grand geste isolé ne pèse rien face au quotidien accumulé.",
+            "ecran": "Ce qui *nourrit* ton couple",
+            "emoji": "⚖️",
+            "recherche": "scale balance concept",
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Préparer un café le matin, faire une commission sans qu'on le demande.",
+            "ecran": "Des *exemples* de tous les jours",
+            "emoji": "☕",
+            "recherche": "morning coffee couple",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le danger, c'est de finir par trouver ces petits services totalement normaux.",
+            "ecran": "L'habitude qui *tue* le lien",
+            "emoji": "🛋️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "L'autre fait des efforts, mais ils deviennent invisibles avec le temps.",
+            "ecran": "Ne deviens pas *aveugle*",
+            "emoji": "👁️",
+            "recherche": "man sitting couch thought",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand on ne se sent plus vu ni apprécié, le lien s'effrite doucement.",
+            "ecran": "C'est la *fin* du sentiment",
+            "emoji": "🥀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une méthode très simple pour raviver cette flamme.",
+            "ecran": "Comment *inverser* la tendance",
+            "emoji": "💡",
+            "recherche": "happy couple talking smiling",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "L'astuce se fait en deux étapes faciles à mettre en place dès ce soir.",
+            "ecran": "L'astuce : Remarquer | Remercier | Répéter",
+            "emoji": "✅",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Porte une attention active à tout ce que ton partenaire fait pour toi.",
+            "ecran": "Un. *Remarque* le quotidien",
+            "emoji": "1️⃣",
+            "recherche": "man looking with smile",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Dis merci à voix haute, même pour la vaisselle ou un simple rangement.",
+            "ecran": "Deux. *Dis* un vrai merci",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Valoriser les gestes habituels transforme complètement l'ambiance à la maison.",
+            "ecran": "Exprime ta *reconnaissance*",
+            "emoji": "🗣️",
+            "recherche": "couple hugging kitchen",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les petites attentions font les grands couples.",
+            "ecran": "Les *petites* attentions font les grands couples",
+            "emoji": "💎",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La magie des petites attentions"
+      },
+      "statut": "programme",
+      "sujet": "reconnaissance_couple",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-13/20261120-1830.mp4"
     }
   ],
   "publications": [
