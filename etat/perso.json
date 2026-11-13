@@ -694,104 +694,14 @@
       "formule": "Liste",
       "id": "20261113-1230",
       "legende": "3 choses que tu fais sans t'en rendre compte quand tu t'énerves.\n\nLa colère nous pousse souvent à agir et à répondre trop vite, ce qu'on finit par regretter. La prochaine fois, fais une pause.\n\nQuelle est ta technique pour garder ton calme face à quelqu'un d'énervé ?\n\n#psychologie #gestiondeseress #emotions #developpementpersonnel",
+      "media_id": "18053154860619762",
+      "publie_le": "2026-11-13T11:31:56+00:00",
       "quand": "2026-11-13T12:30:00+01:00",
       "refait_le": "2026-11-09T20:58:36+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Liste",
-            "texte": "3 choses que tu fais sans t'en rendre compte quand tu t'énerves."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Une seule crise de colère peut détruire tes efforts."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de répondre tout de suite tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "gestiondeseress",
-          "emotions",
-          "developpementpersonnel"
-        ],
-        "legende": "3 choses que tu fais sans t'en rendre compte quand tu t'énerves.\n\nLa colère nous pousse souvent à agir et à répondre trop vite, ce qu'on finit par regretter. La prochaine fois, fais une pause.\n\nQuelle est ta technique pour garder ton calme face à quelqu'un d'énervé ?",
-        "question": "Quelle est ta technique pour garder ton calme face à quelqu'un d'énervé ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "3 choses que tu fais sans t'en rendre compte quand tu t'énerves.",
-            "ecran": "3 *erreurs* quand tu t'énerves",
-            "emoji": "🔥",
-            "recherche": "angry man office",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "La colère pousse à agir tout de suite, souvent d'une façon qu'on regrette ensuite.",
-            "ecran": "La *colère* te pousse à agir",
-            "emoji": "🧠",
-            "recherche": "stressed person shouting",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu reçois un message agaçant au bureau et tu réponds du tac au lit sans réfléchir.",
-            "ecran": "Un *message* envoyé trop vite",
-            "emoji": "📱",
-            "recherche": "person typing phone angrily",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau émotionnel prend le dessus pour te pousser à te défendre immédiatement.",
-            "ecran": "Le *cerveau* prend le contrôle",
-            "emoji": "⚡",
-            "recherche": "brain neon glowing",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici l'astuce. Un : éloigne toi. Deux : respire et reviens calme.",
-            "ecran": "L'*astuce* en deux étapes",
-            "emoji": "💡",
-            "recherche": "deep breath calm",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand tu sens la colère monter, ne réponds pas tout de suite.",
-            "ecran": "*Agis* calmement",
-            "emoji": "✅",
-            "recherche": "zen person smiling",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La colère qui monte"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "colere",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Dfrh3LZFSNK/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261113-1230-r.mp4"
     },
     {
@@ -4077,6 +3987,13 @@
       "media_id": "18110962136365510",
       "sujet": "confirmation",
       "url": "https://www.instagram.com/reel/Dfp3fOKiekP/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-13",
+      "media_id": "18053154860619762",
+      "sujet": "colere",
+      "url": "https://www.instagram.com/reel/Dfrh3LZFSNK/"
     }
   ]
 }
