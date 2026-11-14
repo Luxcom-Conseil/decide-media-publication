@@ -1,0 +1,107 @@
+{
+  "accroches": [
+    "Le déficit du Cameroun atteint 535,2 milliards FCFA.",
+    "Les dépenses publiques ont dépassé les prévisions de 83,4 milliards.",
+    "Deux rapports officiels affichent 160 milliards d'écart de déficit."
+  ],
+  "titre": "Cameroun : 535,2 milliards de déficit",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Assemblée nationale du Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Déficit de *535,2 milliards* FCFA",
+      "dit": "Le Cameroun a clos l'année avec un déficit de 535,2 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un dépassement de *72,7 %*",
+      "dit": "Ce montant dépasse de 72,7 % la prévision initiale inscrite dans le budget."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "5 174 800 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des recettes à *5 174,8 milliards*",
+      "dit": "Les recettes ont rapporté 5 174,8 milliards FCFA, soit 176 milliards de moins que prévu."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 83 400 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dépenses : *+ 83,4 milliards*",
+      "dit": "De leur côté, les dépenses ont atteint 5 729,7 milliards FCFA, dépassant les calculs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un autre rapport à *695,4 milliards*",
+      "dit": "Un rapport de la Direction générale du budget annonce un déficit de 695,4 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Examen à *l'Assemblée nationale*",
+      "dit": "Le texte officiel est examiné depuis le 12 novembre à l'Assemblée nationale."
+    }
+  ]
+}

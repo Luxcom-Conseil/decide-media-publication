@@ -1,0 +1,73 @@
+{
+  "accroches": [
+    "Le litre de contrebande s'est vendu 900 FCFA.",
+    "L'essence de contrebande a coûté 900 FCFA le litre.",
+    "Le carburant informel a coûté plus cher que l'officiel."
+  ],
+  "titre": "Prix du carburant de contrebande",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "La *contrebande* à 900 FCFA",
+      "dit": "En juin 2026, le litre de carburant de contrebande s'est vendu environ 900 FCFA au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le super officiel à *840 FCFA*",
+      "dit": "Au même moment, le prix du super dans le circuit officiel s'élevait à 840 FCFA le litre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des *prix* très différents",
+      "dit": "Le litre atteignait 1 250 FCFA dans le Nord-Ouest, et environ 800 FCFA dans le Sud-Ouest."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "octobre 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "En 2025 le litre était *moins cher*",
+      "dit": "En octobre 2025, le carburant venu du Nigeria coûtait 750 FCFA le litre à Kousseri."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le gasoil fixé à *828 FCFA*",
+      "dit": "Selon Ecomatin, le tarif officiel du gasoil s'affichait alors à 828 FCFA le litre en station."
+    }
+  ]
+}

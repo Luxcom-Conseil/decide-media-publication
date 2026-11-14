@@ -1,0 +1,81 @@
+{
+  "accroches": [
+    "L'ART exige 18,6 milliards FCFA de corrections aux trois grands opérateurs.",
+    "Les télécoms accumulent 93 manquements de réseau signalés au Cameroun.",
+    "Camtel cumule 8,2 milliards FCFA de manquements sur le réseau."
+  ],
+  "titre": "Quinze jours pour réparer le réseau",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "ART",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "18,6 milliards FCFA *exigés* des opérateurs",
+      "dit": "L'ART exige 18,6 milliards FCFA de corrections aux trois grands opérateurs de réseau."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "*15 jours* pour régler 93 manquements",
+      "dit": "Selon Ecomatin, l'agence donne 15 jours à Camtel, Orange et MTN pour régler 93 manquements."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Camtel accumule *8,2 milliards* de défauts",
+      "dit": "Camtel compte 8,2 milliards FCFA de défauts, Orange 5,8 milliards et MTN 4,6 milliards."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Yaoundé | Douala | Bafoussam",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Problèmes de réseau à *Douala* et Yaoundé",
+      "dit": "Les problèmes touchent la couverture du réseau et la qualité de la voix à Yaoundé, Douala et Bafoussam."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *sanctions* prévues après le contrôle",
+      "dit": "Un contrôle de suivi est prévu pour appliquer de nouvelles sanctions aux entreprises concernées."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "Les importations alimentaires ont chuté de 67 % en juin 2026.",
+    "La facture des importations de blé baisse de 21 % en 2026.",
+    "La production nationale de riz couvre un quart de la demande."
+  ],
+  "titre": "Chute des importations alimentaires",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Importations alimentaires *chutent* de 67 %",
+      "dit": "Les importations des principaux produits alimentaires au Cameroun ont chuté de près de 67 % en juin 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "81,5 milliards",
+        "apres": "26,9 milliards",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Facture passée à *26,9 milliards*",
+      "dit": "Selon Ecomatin, la facture est passée de 81,5 milliards FCFA en avril 2025 à 26,9 milliards en juin 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "50,6 milliards",
+        "apres": "40,2 milliards",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Achats de blé *en baisse*",
+      "dit": "Au deuxième trimestre 2026, les achats de blé tombent à 40,2 milliards FCFA contre 50,6 milliards un an plus tôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 20 %",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Douanes sur le riz *jusqu'à 20 %*",
+      "dit": "Les droits de douane atteignent 5 % sur le riz ordinaire et 20 % sur le riz de luxe."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "140 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Riz local: *140 000 tonnes* par an",
+      "dit": "La production nationale de riz s'élève à 140 000 tonnes par an, soit un quart de la demande du pays."
+    }
+  ]
+}

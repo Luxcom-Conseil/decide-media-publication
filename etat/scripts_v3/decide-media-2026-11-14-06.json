@@ -1,0 +1,81 @@
+{
+  "accroches": [
+    "Le budget d'investissement public atteint 39,12 % au Cameroun.",
+    "L'exécution des chantiers publics chute de 5,28 points en un an.",
+    "Les projets d'investissement public accusent un fort retard en 2026."
+  ],
+  "titre": "Chute de l'investissement public",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le budget exécuté à *39,12 %*",
+      "dit": "Le budget d'investissement public atteint 39,12 % au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une baisse de *5,28 points*",
+      "dit": "Ce taux d'exécution physique enregistre un recul de 5,28 points par rapport à la même période en 2025."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Assemblée nationale du Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une session tenue à *Yaoundé*",
+      "dit": "Le Comité national de suivi a présenté ces chiffres lors de sa première session organisée à Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *difficultés* de réalisation",
+      "dit": "Selon la présidence du comité, des blocages dans la réalisation des projets expliquent ce retard."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 septembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le plan jeunes parmi les *freins*",
+      "dit": "Le faible niveau du plan triennal spécial jeunes a pesé sur les chiffres arrêtés au 30 septembre 2026."
+    }
+  ]
+}

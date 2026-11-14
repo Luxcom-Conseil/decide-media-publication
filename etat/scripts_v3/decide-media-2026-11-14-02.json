@@ -1,0 +1,86 @@
+{
+  "accroches": [
+    "Les examens scolaires coûtent 6 000 FCFA au Cameroun.",
+    "Le ministre interdit les frais d'examen supérieurs à 6 000 FCFA.",
+    "Des écoles réclament jusqu'à 25 000 FCFA pour un examen."
+  ],
+  "titre": "Examens primaires : 6 000 FCFA au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Les examens *coûtent* 6 000 FCFA",
+      "dit": "Les frais d'inscription aux examens du primaire sont fixés à 6 000 FCFA au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 25 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des écoles *réclament* 25 000 FCFA",
+      "dit": "Selon le média Koaci, des écoles réclament jusqu'à 25 000 FCFA par candidat à Yaoundé."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère de l'Éducation de base",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Le ministre *ordonne* l'arrêt immédiat",
+      "dit": "Le 9 novembre, le ministre de l'Éducation de base a ordonné de faire cesser ces dépassements."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "12 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "12 000 FCFA pour *deux* examens",
+      "dit": "Pour deux examens, le total officiel s'élève à 12 000 FCFA selon Beninwebtv."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "8 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un rapport *exigé* sous 8 jours",
+      "dit": "Le ministre demande aux délégués régionaux de lui rendre compte sous huit jours."
+    }
+  ]
+}
