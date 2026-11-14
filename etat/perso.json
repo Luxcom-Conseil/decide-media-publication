@@ -775,170 +775,14 @@
       "formule": "Défi",
       "id": "20261114-2100",
       "legende": "Personne ne m'a jamais expliqué ça, et ça a tout changé.\n\nVouloir tout faire soi même est le meilleur moyen de s'épuiser. En identifiant clairement tes points forts et en acceptant de déléguer le reste, tu gagnes en efficacité et en sérénité au travail comme dans ta vie personnelle.\n\nDans quel domaine as-tu le plus de mal à déléguer aujourd'hui ?\n\n#psychologie #productivite #developpementpersonnel #travail",
+      "media_id": "18184707754383718",
+      "publie_le": "2026-11-14T20:02:14+00:00",
       "quand": "2026-11-14T21:00:00+01:00",
       "refait_le": "2026-11-09T20:58:36+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Défi",
-            "texte": "Personne ne m'a jamais expliqué ça, et ça a tout changé pour moi."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Vouloir tout faire soi même peut détruire ton entreprise et ta santé."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que tu dois être bon partout ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "productivite",
-          "developpementpersonnel",
-          "travail"
-        ],
-        "legende": "Personne ne m'a jamais expliqué ça, et ça a tout changé.\n\nVouloir tout faire soi même est le meilleur moyen de s'épuiser. En identifiant clairement tes points forts et en acceptant de déléguer le reste, tu gagnes en efficacité et en sérénité au travail comme dans ta vie personnelle.\n\nDans quel domaine as-tu le plus de mal à déléguer aujourd'hui ?",
-        "question": "Dans quel domaine as-tu le plus de mal à déléguer aujourd'hui ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Personne ne m'a jamais expliqué ça, et ça a tout changé.",
-            "ecran": "Personne ne m'a *jamais* expliqué ça",
-            "emoji": "🔥",
-            "recherche": "man stressed phone",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que tu perds un temps fou chaque jour en faisant l'inverse.",
-            "ecran": "Et le pire, c'est la *suite*.",
-            "emoji": "🧠",
-            "recherche": "person working late desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le mécanisme en question s'appelle le cercle de compétence.",
-            "ecran": "Le cercle de *compétence*",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au bureau, tu passes des heures à régler la comptabilité alors que ce n'est pas ton point fort.",
-            "ecran": "Tu veux tout *gérer* au bureau",
-            "emoji": "💼",
-            "recherche": "office worker overwhelmed",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu t'épuises sur des tâches compliquées pour toi au lieu d'avancer sur ce que tu maîtrises vraiment.",
-            "ecran": "Tu perds ton *énergie*",
-            "emoji": "📉",
-            "recherche": "tired businessman",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est pareil dans ta vie personnelle quand tu refuses de déléguer ou de demander de l'aide pour des bricoles.",
-            "ecran": "Même chose dans ta *vie*",
-            "emoji": "🛒",
-            "recherche": "woman shopping market",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le cerveau humain veut tout contrôler par peur du regard des autres, mais cela mène tout droit à l'épuisement.",
-            "ecran": "Connais tes *limites*",
-            "emoji": "💡",
-            "recherche": "thinking person close up",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici comment corriger ça dès aujourd'hui en trois étapes simples et rapides.",
-            "ecran": "La méthode en *trois* étapes",
-            "emoji": "✅",
-            "recherche": "person writing notes",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un, liste clairement ce que tu sais faire mieux que personne et qui te prend peu d'efforts.",
-            "ecran": "Étape un : *identifier*",
-            "emoji": "1️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux, concentre ton énergie uniquement là où tu es vraiment fort pour maximiser tes résultats.",
-            "ecran": "Étape deux : *rester*",
-            "emoji": "2️⃣",
-            "recherche": "focused worker",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois, apprends à déléguer le reste ou à te faire aider par des personnes plus compétentes que toi.",
-            "ecran": "Étape trois : *s'entourer*",
-            "emoji": "3️⃣",
-            "recherche": "team meeting collaboration",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Concentre ton énergie là où tu es vraiment fort, et entoure-toi pour le reste.",
-            "ecran": "Concentre ton énergie là où tu es *fort*",
-            "emoji": "✨",
-            "recherche": "smiling person confident",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le cercle de compétence"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "competence",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfvBBX3pQb-/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261114-2100-r.mp4"
     },
     {
@@ -4682,6 +4526,13 @@
       "media_id": "18640622866012632",
       "sujet": "discours_interieur",
       "url": "https://www.instagram.com/reel/Dfuv17-lAx_/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-14",
+      "media_id": "18184707754383718",
+      "sujet": "competence",
+      "url": "https://www.instagram.com/reel/DfvBBX3pQb-/"
     }
   ]
 }
