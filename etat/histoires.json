@@ -16,7 +16,8 @@
   "collier",
   "hetty",
   "abagnale",
-  "kreuger"
+  "kreuger",
+  "renifleurs"
  ],
  "attente_partie2": null,
  "journal": [
@@ -217,6 +218,30 @@
    "id": "bernhard",
    "format": "serie",
    "erreur": "script refusé au contrôle : 12 scènes (13 à 24 attendues) ; accroche dite trop longue (87 caractères, 75 au plus : 2 à 4 secondes) ; 964 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-14",
+   "id": "renifleurs",
+   "format": "chiffre",
+   "nom": "hva-renifleurs-c"
+  },
+  {
+   "jour": "2026-11-14",
+   "id": "joconde",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 1017 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-14",
+   "id": "fyre",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 938 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-14",
+   "id": "delvey",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 1059 caractères dits, il en faut de 1150 à 1700 (question comprise) ; chiffres absents de l'article : 50"
   }
  ],
  "en_chiffre": [
@@ -224,7 +249,10 @@
   "madoff",
   "renifleurs",
   "hanau",
-  "bernhard"
+  "bernhard",
+  "joconde",
+  "fyre",
+  "delvey"
  ],
  "ecartes": {
   "humbert": "script refusé au contrôle : 643 caractères dits, il en faut de 380 à 600 (question comprise)",
@@ -553,6 +581,20 @@
    "reseau": "youtube",
    "buffer": "6af6b3b5e1d8eff610a72088",
    "heure": "2026-11-13T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-14",
+   "nom": "hva-renifleurs-c",
+   "reseau": "tiktok",
+   "buffer": "6af7fe8e81e1228421e9e0fa",
+   "heure": "2026-11-14T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-14",
+   "nom": "hva-renifleurs-c",
+   "reseau": "youtube",
+   "buffer": "6af7fe8e81e1228421e9e129",
+   "heure": "2026-11-14T18:30:00+01:00"
   }
  ]
 }
