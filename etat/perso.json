@@ -3881,6 +3881,418 @@
       "sujet": "reconnaissance_couple",
       "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-13/20261120-1830.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-14/20261120-2100.jpg",
+      "format": "long",
+      "formule": "Démasquer",
+      "id": "20261120-2100",
+      "legende": "Ton entreprise utilise ce piège invisible pour te faire travailler plus.\n\nOn pense souvent que nos choix au bureau dépendent uniquement de notre volonté. En réalité, la façon dont notre environnement est aménagé oriente la majorité de nos décisions sans qu'on s'en rende compte.\n\nPour réussir à te concentrer, n'essaie pas d'avoir plus de discipline. Rends simplement le bon choix plus facile à faire en modifiant l'espace autour de toi.\n\nQuel petit changement vas-tu tester sur ton bureau demain ?\n\n#psychologie #productivite #travail #conseilbureau #organisation",
+      "quand": "2026-11-20T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Démasquer",
+            "texte": "Ton entreprise utilise ce piège invisible pour te faire travailler plus."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Cette simple habitude au bureau peut gâcher toute ta productivité."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois manquer de volonté au bureau ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "travail",
+          "conseilbureau",
+          "organisation"
+        ],
+        "legende": "Ton entreprise utilise ce piège invisible pour te faire travailler plus.\n\nOn pense souvent que nos choix au bureau dépendent uniquement de notre volonté. En réalité, la façon dont notre environnement est aménagé oriente la majorité de nos décisions sans qu'on s'en rende compte.\n\nPour réussir à te concentrer, n'essaie pas d'avoir plus de discipline. Rends simplement le bon choix plus facile à faire en modifiant l'espace autour de toi.\n\nQuel petit changement vas-tu tester sur ton bureau demain ?",
+        "question": "Quel petit changement vas-tu tester sur ton bureau demain ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton entreprise utilise ce piège invisible pour te faire travailler plus sans que tu le saches.",
+            "ecran": "Ce *piège invisible* au travail",
+            "emoji": "😱",
+            "recherche": "office worker overwhelmed desk",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que tu penses prendre toutes tes décisions librement au bureau.",
+            "ecran": "Regarde autour de *toi*",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, cette méthode subtile s'appelle le coup de pouce.",
+            "ecran": "Le *coup de pouce*",
+            "emoji": "🧠",
+            "recherche": "brain illusion concept",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On ne t'interdit rien, mais on arrange le décor pour guider ton choix.",
+            "ecran": "Un *choix* orienté",
+            "emoji": "🏢",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Regarde la salle de pause : les croissants sont posés en plein milieu sur la table.",
+            "ecran": "La *salle de pause*",
+            "emoji": "🥐",
+            "recherche": "office breakroom pastries table",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tes applications de messagerie s'ouvrent au démarrage par défaut pour te faire sauter dessus.",
+            "ecran": "Les *notifications* ouvertes",
+            "emoji": "📱",
+            "recherche": "computer screen notifications popup",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Même la machine à café place le sucre ou l'option payante juste sous ton doigt.",
+            "ecran": "La *machine à café*",
+            "emoji": "☕",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau choisit toujours l'option qui demande le moins d'effort immédiat.",
+            "ecran": "La *facilité* l'emporte",
+            "emoji": "🤖",
+            "recherche": "tired man at laptop",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Environnement",
+            "b": "Volonté",
+            "dit": "La disposition des objets compte deux fois plus que ta simple volonté.",
+            "ecran": "Ce qui *oriente* ta journée",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 2,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais tu peux utiliser cette même technique à ton avantage dès aujourd'hui.",
+            "ecran": "Reprends le *contrôle*",
+            "emoji": "💡",
+            "recherche": "determined businessman focus",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici les trois étapes pour transformer ton bureau en piège à productivité.",
+            "ecran": "Action : bureau clair | téléphone loin | bouteille en vue",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Pose ton téléphone portable dans ton sac ou dans une autre pièce.",
+            "ecran": "Un : le *téléphone*",
+            "emoji": "1️⃣",
+            "recherche": "putting smartphone in bag",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Mets une grande bouteille d'eau bien en vue juste à côté de ton écran.",
+            "ecran": "Deux : l'*eau*",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Laisse uniquement le dossier du moment ouvert sur ton ordinateur.",
+            "ecran": "Trois : le *bureau*",
+            "emoji": "3️⃣",
+            "recherche": "clean computer desktop desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En modifiant ton espace, le bon choix devient enfin le plus facile.",
+            "ecran": "Protège tes *objectifs*",
+            "emoji": "🛡️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Change ton environnement, pas ta volonté.",
+            "ecran": "Change ton *environnement*, pas ta volonté.",
+            "emoji": "💬",
+            "recherche": "thoughtful professional creative",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le coup de pouce"
+      },
+      "statut": "programme",
+      "sujet": "nudge",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-14/20261120-2100.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-14/20261121-1230.jpg",
+      "format": "long",
+      "formule": "Contre-pied",
+      "id": "20261121-1230",
+      "legende": "Tu crois que ton discours convainc tes collègues ? C'est l'inverse.\n\nAu travail, ton corps parle bien avant tes mots. Une posture voûtée et un débit de parole trop rapide envoient un signal de doute à tes interlocuteurs, mais aussi à ton propre cerveau.\n\nAvant un rendez-vous ou une réunion importante, ajuste ton physique : redresse-toi, baisse tes épaules et pose ta voix en prenant ton temps.\n\nAs-tu tendance à parler trop vite en réunion quand tu es stressé ?\n\n#confianceensoi #vieautravail #communication #posture #développementpersonnel",
+      "quand": "2026-11-21T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que ton discours convainc tes collègues ? C'est l'inverse."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe en réunion te coûte ta crédibilité au bureau."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Être très fort dans ton travail peut détruire ton autorité."
+          }
+        ],
+        "hashtags": [
+          "confianceensoi",
+          "vieautravail",
+          "communication",
+          "posture",
+          "développementpersonnel"
+        ],
+        "legende": "Tu crois que ton discours convainc tes collègues ? C'est l'inverse.\n\nAu travail, ton corps parle bien avant tes mots. Une posture voûtée et un débit de parole trop rapide envoient un signal de doute à tes interlocuteurs, mais aussi à ton propre cerveau.\n\nAvant un rendez-vous ou une réunion importante, ajuste ton physique : redresse-toi, baisse tes épaules et pose ta voix en prenant ton temps.\n\nAs-tu tendance à parler trop vite en réunion quand tu es stressé ?",
+        "question": "As-tu tendance à parler trop vite en réunion quand tu es stressé ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu crois que ton discours convainc tes collègues ? C'est l'inverse.",
+            "ecran": "Tu *crois* que ton discours convainc ?",
+            "emoji": "😱",
+            "recherche": "office meeting stressed man",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Avant même que tu n'ouvres la bouche, tes collègues t'ont déjà jugé.",
+            "ecran": "Ton *corps* parle avant toi",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton corps et ton assurance influencent leur perception et ton propre ressenti.",
+            "ecran": "L'impact du *physique*",
+            "emoji": "🧠",
+            "recherche": "business presentation confidence",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Regarde ce que tu fais en réunion sans t'en rendre compte.",
+            "ecran": "En *réunion* au bureau",
+            "emoji": "📱",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu te tasses sur ta chaise, le dos voûté, le regard vers le sol.",
+            "ecran": "Tu te *réduis* sur ta chaise",
+            "emoji": "🪑",
+            "recherche": "slouching office employee",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu parles très vite pour ne pas déranger ou monopoliser la parole.",
+            "ecran": "Tu *parles* trop vite",
+            "emoji": "🗣️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Résultat ? Ton cerveau enregistre que tu stresses, et les autres doutent.",
+            "ecran": "Le *signal* de doute envoyé",
+            "emoji": "❌",
+            "recherche": "worried man office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Tes mots",
+            "b": "Ta posture",
+            "dit": "La posture compte bien plus que tes mots pour véhiculer la confiance.",
+            "ecran": "L'impact du *non-verbal*",
+            "emoji": "⚖️",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour inverser la tendance avant ton prochain entretien, applique ceci.",
+            "ecran": "Change ta *posture* d'abord",
+            "emoji": "💡",
+            "recherche": "confident businessman smiling",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici les trois règles à suivre absolument avant d'entrer en salle.",
+            "ecran": "Astuce : Redresse-toi | Détends les épaules | Prends ton temps",
+            "emoji": "✅",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Redresse-toi pour occuper pleinement ton espace physique.",
+            "ecran": "Un : *Redresse-toi* bien droit",
+            "emoji": "1️⃣",
+            "recherche": "man standing proud",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Détends tes épaules pour relâcher immédiatement la tension.",
+            "ecran": "Deux : *Détends* tes épaules",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Prends ton temps pour parler. Le silence montre ta maîtrise.",
+            "ecran": "Trois : *Prends* ton temps",
+            "emoji": "3️⃣",
+            "recherche": "man speaking calm video",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton corps dicte ton assurance : redresse-toi et prends ta place.",
+            "ecran": "Impose ton *assurance* par ton corps",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le corps et l'assurance au travail"
+      },
+      "statut": "programme",
+      "sujet": "posture",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-14/20261121-1230.mp4"
     }
   ],
   "publications": [
