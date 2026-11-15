@@ -808,114 +808,13 @@
       "formule": "Liste",
       "id": "20261115-1830",
       "legende": "3 pièges que ton cerveau adore quand tu fais tes achats.\n\nFace à trois choix, nous avons naturellement tendance à éliminer l'extrême le plus cher et le plus basique pour choisir la sécurité au milieu. Les commerçants l'utilisent très souvent pour guider tes achats.\n\nSi tu vends un produit, place ton offre principale au centre. Si tu achètes, demande-toi si la version de base ne suffit pas à ton besoin réel.\n\nTu prends souvent l'option du milieu au restaurant ?\n\n#psychologie #argent #conseils #negociation",
+      "media_id": "18237995137322543",
+      "publie_le": "2026-11-15T17:32:08+00:00",
       "quand": "2026-11-15T18:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Liste",
-            "texte": "3 pièges que ton cerveau adore quand tu fais tes achats."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe au restaurant te coûte plus cher que prévu."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois choisir librement ? On t'oriente vers le milieu."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "argent",
-          "conseils",
-          "negociation"
-        ],
-        "legende": "3 pièges que ton cerveau adore quand tu fais tes achats.\n\nFace à trois choix, nous avons naturellement tendance à éliminer l'extrême le plus cher et le plus basique pour choisir la sécurité au milieu. Les commerçants l'utilisent très souvent pour guider tes achats.\n\nSi tu vends un produit, place ton offre principale au centre. Si tu achètes, demande-toi si la version de base ne suffit pas à ton besoin réel.\n\nTu prends souvent l'option du milieu au restaurant ?",
-        "question": "Tu prends souvent l'option du milieu au restaurant ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici 3 pièges que ton cerveau adore quand tu fais tes achats.",
-            "ecran": "3 *pièges* quand tu achètes",
-            "emoji": "🛒",
-            "recherche": "person shopping supermarket",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce phénomène s'explique par la psychologie des trois offres.",
-            "ecran": "L'effet *de trois* offres",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au café, tu hésites entre le petit à deux euros et le grand à six euros.",
-            "ecran": "Menu : *Petit*, Moyen, Grand",
-            "emoji": "☕",
-            "recherche": "coffee shop menu board",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu prends le moyen à quatre euros, persuadé de faire une bonne affaire.",
-            "ecran": "Le *moyen* semble parfait",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau ne juge pas un prix absolu, il le compare aux autres options.",
-            "ecran": "On *compare* au lieu d'évaluer",
-            "emoji": "⚖️",
-            "recherche": "brain comparison balance concept",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Si tu vends, mets ton offre cible au milieu. Si tu achètes, vérifie ton besoin.",
-            "ecran": "besoin",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Compare ton besoin réel, pas seulement les options affichées.",
-            "ecran": "Compare le *besoin*, pas les options.",
-            "emoji": "📌",
-            "recherche": "thinking carefully decision",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le piège des trois offres"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "trois_offres",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfxUrk3gFnA/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-1830.mp4"
     },
     {
@@ -4868,6 +4767,13 @@
       "media_id": "18177712075458858",
       "sujet": "rappel_actif",
       "url": "https://www.instagram.com/reel/DfwrjaQkoID/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-15",
+      "media_id": "18237995137322543",
+      "sujet": "trois_offres",
+      "url": "https://www.instagram.com/reel/DfxUrk3gFnA/"
     }
   ]
 }
