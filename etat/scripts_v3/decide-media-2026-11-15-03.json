@@ -1,0 +1,105 @@
+{
+  "accroches": [
+    "Un lycée de 600 places accueille 1 500 élèves.",
+    "125 élèves s'entassent dans une seule classe à Garoua-Boulaï.",
+    "Seulement 14 salles de classe sur 24 sont définitives."
+  ],
+  "titre": "Surpopulation au lycée de Garoua-Boulaï",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Un lycée de 600 places pour *1 500 élèves*",
+      "dit": "Un lycée construit pour 600 places accueille aujourd'hui près de 1 500 élèves."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Garoua-Boulaï",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le lycée bilingue de *Garoua-Boulaï*",
+      "dit": "Selon Data Cameroon, le lycée bilingue de Garoua-Boulaï manque cruellement d'infrastructures."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Seulement *14 salles* définitives sur 24",
+      "dit": "Sur 24 salles de classe, 10 sont des constructions provisoires réalisées par les parents d'élèves."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*125 élèves* dans une classe",
+      "dit": "Dans une classe de Form 1A, 125 élèves s'entassent, assis pour la plupart à quatre par table-banc."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Seulement *32 enseignants* sur 41",
+      "dit": "L'établissement compte 32 enseignants au lieu des 41 attendus, dont 9 personnels vacataires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Créé en 2013",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Créé en *2013* comme collège",
+      "dit": "Créé en 2013 comme collège, cet établissement a été officielment converti en lycée en 2020."
+    }
+  ]
+}

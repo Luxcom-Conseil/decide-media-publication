@@ -1,0 +1,95 @@
+{
+  "accroches": [
+    "Le Trésor public a perdu 17,225 milliards de FCFA de péages.",
+    "Les péages ont laissé filer 17,225 milliards de FCFA au Cameroun.",
+    "28 % des recettes de péage n'arrivent pas au Trésor public."
+  ],
+  "titre": "17,225 milliards de péages perdus",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "17,225 milliards de FCFA *perdus*",
+      "dit": "Entre 2018 et 2023, 17,225 milliards de FCFA de recettes de péage ont échappé au Trésor public."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "45 421 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Seuls 45,421 milliards *encaissés*",
+      "dit": "Le Fonds routier attendait 62,646 milliards de FCFA mais n'a capté que 45,421 milliards."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "3 430 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "3,43 milliards *perdus* en 2023",
+      "dit": "Pour la seule année 2023, la perte s'élève à 3,43 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Entretien: 31,7 % des *besoins*",
+      "dit": "En 2026, l'enveloppe de 47,784 milliards de FCFA couvre 31,7 % des besoins d'entretien."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque islamique de développement",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "139,2 milliards d'*emprunt*",
+      "dit": "Le 2 octobre 2026, un accord d'emprunt de 139,2 milliards de FCFA a été signé avec la BID."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala | Bafoussam",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Axe Douala-Bafoussam: 219 *kilomètres*",
+      "dit": " Ce crédit finance la réhabilitation de l'axe Douala-Bafoussam long de 219 kilomètres."
+    }
+  ]
+}

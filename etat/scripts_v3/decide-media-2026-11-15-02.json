@@ -1,0 +1,72 @@
+{
+  "accroches": [
+    "Le Cameroun a importé 32,8 milliards de FCFA de lait en 2025.",
+    "Les importations de lait en poudre ont atteint 17 880 tonnes.",
+    "Le Cameroun a dépensé 32,8 milliards de FCFA pour importer du lait."
+  ],
+  "titre": "Le marché du lait au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le Cameroun *importe* 32,8 milliards de lait",
+      "dit": "Le Cameroun a importé 32,8 milliards de FCFA de lait en poudre et concentré en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "+8 % de *volume* importé",
+      "dit": "Selon l'Institut national de la statistique, les volumes importés ont augmenté de 8 % en un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La *facture* en léger recul",
+      "dit": "La valeur globale a légèrement baissé par rapport aux 33,2 milliards de FCFA dépensés en 2024."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "630 000 tonnes de *besoins*",
+      "dit": "Le ministère de l'Élevage estime les besoins annuels du pays à 630 000 tonnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "183 286 tonnes *produites*",
+      "dit": "La production nationale a atteint 183 286 tonnes en 2025, soit une hausse de 1,5 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Du *matériel* livré à Garoua",
+      "dit": "Du matériel laitier a été remis le 4 novembre à Garoua avant des échanges avec des experts allemands."
+    }
+  ]
+}

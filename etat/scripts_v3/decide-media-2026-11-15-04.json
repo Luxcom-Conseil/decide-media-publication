@@ -1,0 +1,110 @@
+{
+  "accroches": [
+    "300 hectares de terrain sont touchés par l'annulation de titres fonciers.",
+    "Des titres fonciers ont été annulés à Japoma-Bakoko par la justice.",
+    "Les propriétaires touchés ne peuvent prétendre à aucune indemnisation selon un avocat."
+  ],
+  "titre": "Japoma : annulation de titres fonciers",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "300 *hectares* touchés par l'annulation",
+      "dit": "300 hectares de terrain sont touchés par une annulation de titres fonciers."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Décision à *Japoma-Bakoko* à Douala",
+      "dit": "L'avis de la conservation foncière concerne le secteur de Japoma-Bakoko à Douala."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 octobre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des titres déclarés *nuls*",
+      "dit": "La note signée le 27 octobre annule un jugement de 2020 et un titre établi en 2005."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Titres *sans* valeur légale",
+      "dit": "Selon Data Cameroon, les copies des documents sont désormais sans effet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Retour au domaine de *l'État*",
+      "dit": "Selon un avocat au barreau, ces terrains réintègrent directement le domaine public."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucune *indemnisation* prévue",
+      "dit": "Les acheteurs concernés ne peuvent prétendre à aucune indemnisation financière."
+    }
+  ]
+}

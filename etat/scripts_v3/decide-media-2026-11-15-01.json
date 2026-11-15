@@ -1,0 +1,92 @@
+{
+  "accroches": [
+    "Le Cameroun a versé 319,8 milliards de FCFA à la Chine.",
+    "Le Cameroun a payé 28 milliards de FCFA de plus en 2025.",
+    "Les intérêts versés à la Chine ont chuté de 14,8 %."
+  ],
+  "titre": "Dette : versée à la Chine",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le Cameroun verse *319,8 milliards*",
+      "dit": "Le Cameroun a versé 319,8 milliards de FCFA à Eximbank Chine en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les versements ont augmenté de *9,6 %*",
+      "dit": "C'est 28 milliards de plus qu'en 2024, soit 9,6 % de hausse sur un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "258 200 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le principal *remboursé* monte",
+      "dit": "Le remboursement du capital est passé à 258,2 milliards de FCFA en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les intérêts ont baissé de *14,8 %*",
+      "dit": "Les intérêts ont reculé de 72,3 à 61,6 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Eximbank Chine prend *30,2 %*",
+      "dit": "Eximbank Chine a capté 30,2 % des remboursements extérieurs du pays en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "31 mars 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Encours de *1 560 milliards*",
+      "dit": "Au 31 mars 2026, l'encours dû à cette banque atteignait 1 560 milliards de FCFA."
+    }
+  ]
+}
