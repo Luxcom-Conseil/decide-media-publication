@@ -824,214 +824,13 @@
       "formule": "Ordre",
       "id": "20261115-2100",
       "legende": "Arrête de poser ton téléphone sur la table tant que tu n'as pas vu ça.\n\nMême éteint ou face cachée, un téléphone posé sur la table nuit à la qualité de tes échanges. Ton cerveau reste en alerte et ton interlocuteur se sent inconsciemment moins écouté.\n\nLa solution est simple : range ton téléphone dans ta poche ou ton sac pendant les repas et les discussions importantes. Hors de vue, hors de portée.\n\nTu poses souvent ton téléphone sur la table au restaurant ?\n\n#psychologie #relations #ecrans #communication #bienetre",
+      "media_id": "18095680136495873",
+      "publie_le": "2026-11-15T20:02:53+00:00",
       "quand": "2026-11-15T21:00:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de poser ton téléphone sur la table tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe sur ton bureau te coûte tes plus belles amitiés."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que ton écran éteint ne dérange personne ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "relations",
-          "ecrans",
-          "communication",
-          "bienetre"
-        ],
-        "legende": "Arrête de poser ton téléphone sur la table tant que tu n'as pas vu ça.\n\nMême éteint ou face cachée, un téléphone posé sur la table nuit à la qualité de tes échanges. Ton cerveau reste en alerte et ton interlocuteur se sent inconsciemment moins écouté.\n\nLa solution est simple : range ton téléphone dans ta poche ou ton sac pendant les repas et les discussions importantes. Hors de vue, hors de portée.\n\nTu poses souvent ton téléphone sur la table au restaurant ?",
-        "question": "Tu poses souvent ton téléphone sur la table au restaurant ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Arrête de poser ton téléphone sur la table tant que tu n'as pas vu cette vidéo.",
-            "ecran": "Arrête de *poser* ton téléphone sur la table",
-            "emoji": "📱",
-            "recherche": "smartphone on restaurant table",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu penses que c'est inoffensif s'il est éteint ? Et le pire arrive juste après.",
-            "ecran": "Un simple *détail* change tout",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce phénomène a un impact direct sur la qualité de tes conversations quotidiennes.",
-            "ecran": "L'effet *téléphone* sur la table",
-            "emoji": "🧠",
-            "recherche": "friends talking café",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Imagine un déjeuner avec un ami. Tu poses ton smartphone juste à côté de ton assiette.",
-            "ecran": "Tu es au *restaurant* ensemble",
-            "emoji": "☕",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "L'écran reste noir. Pas de vibreur, pas de sonnerie, pas de notification.",
-            "ecran": "Même s'il ne *sonne* pas",
-            "emoji": "🔇",
-            "recherche": "black smartphone screen table",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pourtant, la discussion devient tout de suite moins profonde et plus superficielle.",
-            "ecran": "La discussion devient *superficielle*",
-            "emoji": "📉",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au bureau, c'est pareil. Posé à côté de ton bloc-notes, il crée une distance invisible.",
-            "ecran": "Même chose en *réunion*",
-            "emoji": "💼",
-            "recherche": "office meeting table phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Visible",
-            "b": "Caché",
-            "dit": "La simple vue de l'écran bloque l'attention et réduit la confiance mutuelle.",
-            "ecran": "Profondeur des *échanges*",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pourquoi ? Parce que ton cerveau sait qu'une interruption peut arriver à tout moment.",
-            "ecran": "Ton cerveau reste *en alerte*",
-            "emoji": "💭",
-            "recherche": "thoughtful person looking away",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton interlocuteur le sent aussi. Il s'investit moins et garde ses émotions pour lui.",
-            "ecran": "L'autre se sent *moins écouté*",
-            "emoji": "💔",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il existe une astuce très simple pour corriger ça immédiatement.",
-            "ecran": "Une habitude à *changer*",
-            "emoji": "🛑",
-            "recherche": "putting phone in jacket pocket",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pendant un repas ou un rendez-vous important, applique ces règles simples.",
-            "ecran": "Méthode : Dans le sac | Hors de vue | Pleine présence",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Range-le directement dans ton sac ou dans la poche de ta veste.",
-            "ecran": "Un : Mets-le *hors de vue*",
-            "emoji": "1️⃣",
-            "recherche": "putting phone in bag",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Ne le laisse jamais posé face cachée, cela ne suffit pas à rassurer.",
-            "ecran": "Deux : Laisse la *table vide*",
-            "emoji": "2️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu verras que la qualité de tes conversations va changer du tout au tout.",
-            "ecran": "Retrouve de *vrais échanges*",
-            "emoji": "🤝",
-            "recherche": "people laughing dining table",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "L'attention réelle commence quand l'écran disparaît.",
-            "ecran": "L'attention réelle commence quand *l'écran* disparaît.",
-            "emoji": "✨",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le téléphone sur la table"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "telephone_table",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Dfxl6d1EcOS/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-2100.mp4"
     },
     {
@@ -4774,6 +4573,13 @@
       "media_id": "18237995137322543",
       "sujet": "trois_offres",
       "url": "https://www.instagram.com/reel/DfxUrk3gFnA/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-15",
+      "media_id": "18095680136495873",
+      "sujet": "telephone_table",
+      "url": "https://www.instagram.com/reel/Dfxl6d1EcOS/"
     }
   ]
 }
