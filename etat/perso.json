@@ -3928,6 +3928,546 @@
       "sujet": "posture",
       "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-14/20261121-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-15/20261121-1830.jpg",
+      "format": "court",
+      "formule": "Révélation",
+      "id": "20261121-1830",
+      "legende": "Ce réflexe mental te fait perdre un temps précieux au quotidien.\n\nOn a tous tendance à imaginer des scénarios compliqués dès que quelque chose bloque. C'est ce qu'on cherche à éviter avec le rasoir d'Ockham : l'explication la plus simple est presque toujours la bonne.\n\nLa prochaine fois, teste d'abord la cause la plus évidente avant de chercher plus loin.\n\nTu as déjà imaginé le pire pour un problème tout simple ?\n\n#psychologie #productivite #conseil #mindset",
+      "quand": "2026-11-21T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe mental te fait perdre un temps précieux au quotidien."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Chercher trop loin bousille ton efficacité tous les jours."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête d'inventer des problèmes complexes tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "conseil",
+          "mindset"
+        ],
+        "legende": "Ce réflexe mental te fait perdre un temps précieux au quotidien.\n\nOn a tous tendance à imaginer des scénarios compliqués dès que quelque chose bloque. C'est ce qu'on cherche à éviter avec le rasoir d'Ockham : l'explication la plus simple est presque toujours la bonne.\n\nLa prochaine fois, teste d'abord la cause la plus évidente avant de chercher plus loin.\n\nTu as déjà imaginé le pire pour un problème tout simple ?",
+        "question": "Tu as déjà imaginé le pire pour un problème tout simple ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce réflexe mental te fait perdre un temps précieux au quotidien.",
+            "ecran": "Ce *réflexe* te fait perdre du temps",
+            "emoji": "⏳",
+            "recherche": "stressed man laptop",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, on utilise une règle clé : le rasoir d'Ockham.",
+            "ecran": "Le *rasoir* d'Ockham",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton téléphone ne charge plus. Tu penses direct à un virus ou la batterie morte.",
+            "ecran": "Le *téléphone* ne charge plus",
+            "emoji": "📱",
+            "recherche": "person holding phone cable",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Alors que la prise est juste débranchée. L'explication la plus simple est souvent la bonne.",
+            "ecran": "L'explication la plus *simple*",
+            "emoji": "🔌",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Notre cerveau adore imaginer des scénarios complexes pour se rassurer.",
+            "ecran": "Le cerveau *adore* la complexité",
+            "emoji": "🔍",
+            "recherche": "thinking person office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Vérifie toujours l'évidence d'abord. Deux. Cherche plus loin seulement si besoin.",
+            "ecran": "Méthode : 1. Tester l'évidence | 2. Chercher plus loin",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Avant de tout compliquer, teste l'évidence.",
+            "ecran": "Avant de tout *compliquer*, teste l'évidence",
+            "emoji": "🎯",
+            "recherche": "simple solution sign",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le rasoir d'Ockham"
+      },
+      "statut": "programme",
+      "sujet": "ockham",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-15/20261121-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-15/20261121-2100.jpg",
+      "format": "long",
+      "formule": "Défi",
+      "id": "20261121-2100",
+      "legende": "Personne ne m'a expliqué ça, et ça a totalement sauvé mes journées de travail.\n\nOn pense souvent gagner du temps en passant du téléphone au dossier en cours. En réalité, le cerveau ne gère pas deux actions complexes simultanément : il bascule de l'une à l'autre et s'épuise.\n\nPour retrouver ton efficacité, travaille par blocs de temps dédiés à un seul sujet, en coupant les alertes.\n\nTu as plutôt tendance à faire trois choses en même temps ou à tout couper ?\n\n#psychologie #productivite #organisation #cerveau #travail",
+      "quand": "2026-11-21T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Défi",
+            "texte": "Personne ne m'a expliqué ça, et ça a sauvé mes journées."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe sur ton téléphone te coûte 2 heures par jour."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois être efficace en faisant deux choses à la fois ?"
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "organisation",
+          "cerveau",
+          "travail"
+        ],
+        "legende": "Personne ne m'a expliqué ça, et ça a totalement sauvé mes journées de travail.\n\nOn pense souvent gagner du temps en passant du téléphone au dossier en cours. En réalité, le cerveau ne gère pas deux actions complexes simultanément : il bascule de l'une à l'autre et s'épuise.\n\nPour retrouver ton efficacité, travaille par blocs de temps dédiés à un seul sujet, en coupant les alertes.\n\nTu as plutôt tendance à faire trois choses en même temps ou à tout couper ?",
+        "question": "Tu as plutôt tendance à faire trois choses en même temps ou à tout couper ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Personne ne m'a expliqué ça, et ça a totalement sauvé mes journées de travail.",
+            "ecran": "Personne ne m'a *expliqué* ça !",
+            "emoji": "😱",
+            "recherche": "man stressed office desk",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est la deuxième habitude qu'on a tous sans le savoir.",
+            "ecran": "La suite va te *surprendre*",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On pense tous gagner du temps, mais c'est le mythe du multitâche.",
+            "ecran": "Le mythe du *multitâche*",
+            "emoji": "🧠",
+            "recherche": "woman multitasking laptop phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu écris un dossier important au bureau, et tu réponds vite à un message.",
+            "ecran": "Répondre au *message*",
+            "emoji": "📱",
+            "recherche": "person typing smartphone text",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ou tu écoutes une note vocale tout en lisant un document dans le bus.",
+            "ecran": "Téléphone dans les *transports*",
+            "emoji": "🚗",
+            "recherche": "man commuting bus phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En réalité, ton cerveau ne fait jamais deux choses en même temps.",
+            "ecran": "Ton cerveau *zappe*",
+            "emoji": "⚙️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Il saute d'une tâche à l'autre ultra rapidement, sans que tu le sentes.",
+            "ecran": "Il passe de l'une à *l'autre*",
+            "emoji": "⏳",
+            "recherche": "clock ticking fast focus",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Une tâche",
+            "b": "Multitâche",
+            "dit": "À chaque aller-retour, ton cerveau perd un temps précieux pour se recadrer.",
+            "ecran": "Temps perdu à chaque *aller-retour*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Résultat : tu te fatigues deux fois plus et tu commets des erreurs bêtes.",
+            "ecran": "Tu te *fatigues* inutilement",
+            "emoji": "🔋",
+            "recherche": "tired worker coffee desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une méthode très simple pour corriger ça aujourd'hui.",
+            "ecran": "Comment s'en *sortir* ?",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici le plan d'action en trois étapes concrètes à tester dès ce soir.",
+            "ecran": "Astuces : Une tâche | Blocs de temps | Zero alerte",
+            "emoji": "🎯",
+            "recherche": "planning writing notepad",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Fais une seule chose à la fois, du début jusqu'à la fin.",
+            "ecran": "Un : *Une* seule tâche",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Travaille par blocs de temps bien définis sans rien faire d'autre.",
+            "ecran": "Deux : *Blocs* de temps",
+            "emoji": "2️⃣",
+            "recherche": "timer clock focus work",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Coupe absolument toutes tes notifications pendant ces moments ciblés.",
+            "ecran": "Trois : Coupe les *notifications*",
+            "emoji": "3️⃣",
+            "recherche": "turning off phone silent mode",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Une seule tâche à la fois pour retrouver ton temps et ton énergie.",
+            "ecran": "Une seule tâche à la fois pour retrouver ton temps et ton énergie.",
+            "emoji": "📌",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le mythe du multitâche"
+      },
+      "statut": "programme",
+      "sujet": "multitache",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-15/20261121-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-15/20261122-1230.jpg",
+      "format": "long",
+      "formule": "Enjeu",
+      "id": "20261122-1230",
+      "legende": "Vouloir toucher tout le monde peut détruire tes projets.\n\nPour réussir durablement, il faut comprendre le principe de la masse critique. Il existe un seuil précis où les résultats s'auto-alimentent.\n\nAu lieu d'éparpiller ton énergie, focalise-toi sur une seule cible. Deviens solide sur ce créneau avant de chercher à grandir.\n\nAs-tu tendance à trop éparpiller tes projets au début ?\n\n#psychologie #entrepreneuriat #conseils #productivite #succes",
+      "quand": "2026-11-22T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Enjeu",
+            "texte": "Vouloir toucher tout le monde peut détruire tes projets."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois qu'il faut chercher plus de clients ? C'est l'inverse."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce reflexe d'éparpiller tes efforts te coûte très cher."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "entrepreneuriat",
+          "conseils",
+          "productivite",
+          "succes"
+        ],
+        "legende": "Vouloir toucher tout le monde peut détruire tes projets.\n\nPour réussir durablement, il faut comprendre le principe de la masse critique. Il existe un seuil précis où les résultats s'auto-alimentent.\n\nAu lieu d'éparpiller ton énergie, focalise-toi sur une seule cible. Deviens solide sur ce créneau avant de chercher à grandir.\n\nAs-tu tendance à trop éparpiller tes projets au début ?",
+        "question": "As-tu tendance à trop éparpiller tes projets au début ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Vouloir toucher tout le monde tout de suite peut ruiner tes projets.",
+            "ecran": "Toucher *tout le monde* détruit tes projets",
+            "emoji": "🚨",
+            "recherche": "stressed man working laptop",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce qui se passe quand tu t'éparpilles trop vite.",
+            "ecran": "Et le *pire* arrive après",
+            "emoji": "⚡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie et en business, on parle de la masse critique.",
+            "ecran": "La *masse critique*",
+            "emoji": "🧠",
+            "recherche": "brain network connection",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est ce seuil exact où ta croissance commence à se nourrir toute seule.",
+            "ecran": "Le seuil d'envol *autonome*",
+            "emoji": "🚀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Imagine que tu lances une offre, un projet ou un nouveau produit.",
+            "ecran": "Au *bureau* ou sur le web",
+            "emoji": "🏢",
+            "recherche": "modern office teamwork",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu essaies de plaire aux étudiants, aux cadres et aux retraités en même temps.",
+            "ecran": "Trop d'objectifs *différents*",
+            "emoji": "💸",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Éparpillé",
+            "b": "Concentré",
+            "dit": "Résultat : ton énergie s'épuise au lieu d'accumuler de la force.",
+            "ecran": "Éparpillé vs *Concentré*",
+            "emoji": "📊",
+            "recherche": "chart graph growth",
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau et ton marché ont besoin d'une densité forte pour réagir.",
+            "ecran": "Le *cerveau* aime la clarté",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Sans cette densité initiale, le bouche-à-oreille ne s'active jamais.",
+            "ecran": "Le bouche-à-oreille *s'allume*",
+            "emoji": "🔥",
+            "recherche": "people chatting coffee shop",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Alors, comment faire pour déclencher cet effet domino chez toi ?",
+            "ecran": "Comment atteindre cette *masse* ?",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici les trois étapes pour réussir sur la durée sans te brûler.",
+            "ecran": "Méthode : 1. Cibler petit | 2. Dominer | 3. Élargir",
+            "emoji": "📋",
+            "recherche": "writing list notebook",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Concentre-toi sur un groupe très précis de personnes au départ.",
+            "ecran": "Un : *Un seul groupement*",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Devenez la référence incontournable pour ce petit groupe.",
+            "ecran": "Deux : *Installe-toi* fermement",
+            "emoji": "2️⃣",
+            "recherche": "confident businessman smiling",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Seulement une fois bien implanté, ouvre-toi à d'autres cibles.",
+            "ecran": "Trois : *Élargis* ensuite",
+            "emoji": "3️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne laisse pas la peur de rater des opportunités disperser tes forces.",
+            "ecran": "Ne cède pas au *vertige*",
+            "emoji": "🛡️",
+            "recherche": "focused athlete starting line",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deviens indispensable quelque part avant de vouloir être partout.",
+            "ecran": "Deviens indispensable *quelque part* avant de vouloir être *partout*.",
+            "emoji": "📌",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La masse critique"
+      },
+      "statut": "programme",
+      "sujet": "masse_critique",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-15/20261122-1230.mp4"
     }
   ],
   "publications": [
