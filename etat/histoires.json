@@ -17,9 +17,157 @@
   "hetty",
   "abagnale",
   "kreuger",
-  "renifleurs"
+  "renifleurs",
+  "hanau",
+  "carbone"
  ],
- "attente_partie2": null,
+ "attente_partie2": {
+  "id": "carbone",
+  "jour_partie1": "2026-11-15",
+  "script": {
+   "titre": "Le casse du siècle sur le CO2 - Partie 1",
+   "scenes": [
+    {
+     "type": "accroche",
+     "ecran": "Ils ont volé *1,6 milliard* en 8 mois.",
+     "grand": null,
+     "dit": "Ils ont volé un virgule six milliard d'euros à l'État en huit mois.",
+     "image": 1,
+     "recherche": "Banque de France Paris"
+    },
+    {
+     "type": "recit",
+     "ecran": "L'arnaque *parfaite* sans marchandise",
+     "grand": null,
+     "dit": "Pas de conteneurs de jeans ni d'ordinateurs. Juste du vent et des clics.",
+     "image": 2,
+     "recherche": "Carbon trading exchange"
+    },
+    {
+     "type": "date",
+     "ecran": "Création du marché du carbone",
+     "grand": "2005",
+     "dit": "En 2005, l'Union européenne crée la bourse du carbone pour l'environnement.",
+     "image": 2,
+     "recherche": "European Union flag"
+    },
+    {
+     "type": "recit",
+     "ecran": "Une *faille* de sécurité béante",
+     "grand": null,
+     "dit": "Pour ouvrir un compte, il suffit d'une carte d'identité et d'une adresse.",
+     "image": 3,
+     "recherche": "Caisse des Depots Paris"
+    },
+    {
+     "type": "recit",
+     "ecran": "Aucun *contrôle* physique au départ",
+     "grand": null,
+     "dit": "La Caisse des dépôts ne vérifie rien sur le terrain. C'est la porte ouverte.",
+     "image": 5,
+     "recherche": "Computer screen trading"
+    },
+    {
+     "type": "recit",
+     "ecran": "La méthode du *carrousel* TVA",
+     "grand": null,
+     "dit": "Grégory Zaoui comprend le truc en premier. Il lance la machine.",
+     "image": 6,
+     "recherche": "Paris Belleville district"
+    },
+    {
+     "type": "recit",
+     "ecran": "Acheter *sans TVA* à l'étranger",
+     "grand": null,
+     "dit": "Tu achètes des quotas hors taxe dans un pays voisin via une coquille vide.",
+     "image": 4,
+     "recherche": "European map vector"
+    },
+    {
+     "type": "recit",
+     "ecran": "Revendre avec *19,6 %* de taxe",
+     "grand": null,
+     "dit": "Tu revends les quotas en France avec dix-neuf,six pour cent de TVA.",
+     "image": 5,
+     "recherche": "Eiffel Tower Paris"
+    },
+    {
+     "type": "recit",
+     "ecran": "Poche la *TVA* et disparais",
+     "grand": null,
+     "dit": "Tu encaisses la taxe, tu ne la reversois jamais à l'État et tu disparais.",
+     "image": 6,
+     "recherche": "US dollars cash money"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "La TVA détournée à chaque tour",
+     "grand": "19,6 %",
+     "dit": "Dix-neuf,six pour cent de profit net immédiat sur chaque opération.",
+     "image": 10,
+     "recherche": "Calculator money stock"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le milieu s'en *empare*",
+     "grand": null,
+     "dit": "L'astuce circule à Belleville. Tout le monde veut sa part du gâteau.",
+     "image": 7,
+     "recherche": "Casino poker chips"
+    },
+    {
+     "type": "recit",
+     "ecran": "Arnaud Mimran rentre dans le *jeu*",
+     "grand": null,
+     "dit": "De riches personnalités comme Arnaud Mimran injectent des millions.",
+     "image": 8,
+     "recherche": "Luxury sports car"
+    },
+    {
+     "type": "recit",
+     "ecran": "Des *milliards* échangés par jour",
+     "grand": null,
+     "dit": "Sur la bourse Bluenext, les millions tournent en boucle en quelques clics.",
+     "image": 1,
+     "recherche": "Stock market ticker screen"
+    },
+    {
+     "type": "recit",
+     "ecran": "Des comptes vers *Hong Kong*",
+     "grand": null,
+     "dit": "L'argent part instantanément vers Hong Kong, Singapour ou la Géorgie.",
+     "image": 9,
+     "recherche": "Hong Kong skyline night"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Dégâts au niveau *européen*",
+     "grand": "6 milliards",
+     "dit": "En Europe, près de six milliards d'euros s'évaporent au total.",
+     "image": 10,
+     "recherche": "European Central Bank"
+    },
+    {
+     "type": "suite",
+     "ecran": "Comment l'État a-t-il *réagi* ?",
+     "grand": null,
+     "dit": "Mais comment l'État s'en est-il rendu compte ? La suite dans la partie 2.",
+     "image": 11,
+     "recherche": "Police flashing lights"
+    }
+   ],
+   "question": "Tu connaissais cette faille sur le carbone ?",
+   "legende": "Ils ont volé 1,6 milliard d'euros à l'État en 8 mois sans bouger de leur fauteuil. Découvrez le plus grand casse du siècle sur le CO2.\nTu connaissais cette faille sur le carbone ?",
+   "hashtags": [
+    "histoire",
+    "arnaque",
+    "argent",
+    "escroquerie",
+    "documentaire"
+   ],
+   "_credit_musique": "« freaky news » par Baringo (CC0, Freesound)"
+  }
+ },
  "journal": [
   {
    "jour": "2026-11-06",
@@ -242,6 +390,18 @@
    "id": "delvey",
    "format": "serie",
    "erreur": "script refusé au contrôle : 1059 caractères dits, il en faut de 1150 à 1700 (question comprise) ; chiffres absents de l'article : 50"
+  },
+  {
+   "jour": "2026-11-15",
+   "id": "hanau",
+   "format": "chiffre",
+   "nom": "hva-hanau-c"
+  },
+  {
+   "jour": "2026-11-15",
+   "id": "carbone",
+   "format": "serie",
+   "nom": "hva-carbone-p1"
   }
  ],
  "en_chiffre": [
@@ -595,6 +755,34 @@
    "reseau": "youtube",
    "buffer": "6af7fe8e81e1228421e9e129",
    "heure": "2026-11-14T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-15",
+   "nom": "hva-hanau-c",
+   "reseau": "tiktok",
+   "buffer": "6af950fd918fe79d2ec73b8d",
+   "heure": "2026-11-15T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-15",
+   "nom": "hva-hanau-c",
+   "reseau": "youtube",
+   "buffer": "6af950fe76c23bf1c76164c1",
+   "heure": "2026-11-15T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-15",
+   "nom": "hva-carbone-p1",
+   "reseau": "tiktok",
+   "buffer": "6af950fec5b364e0623acbeb",
+   "heure": "2026-11-15T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-15",
+   "nom": "hva-carbone-p1",
+   "reseau": "youtube",
+   "buffer": "6af950ffe86a5789a6f32293",
+   "heure": "2026-11-15T20:30:00+01:00"
   }
  ]
 }
