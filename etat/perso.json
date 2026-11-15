@@ -792,225 +792,13 @@
       "formule": "Enjeu",
       "id": "20261115-1230",
       "legende": "Relire tes dossiers en boucle peut ruiner ton efficacité au travail.\n\nQuand tu relis tes notes plusieurs fois, ton cerveau reconnait les mots. Tu as l'impression de maîtriser le sujet. Pourtant, le jour où tu dois prendre la parole en réunion, c'est le trou noir.\n\nPour ancrer une information, ton cerveau doit faire l'effort de aller la chercher dans ta mémoire. C'est cet effort de rappel qui construit un souvenir solide.\n\nLa méthode est simple : lis ton document une fois, ferme-le, puis réexplique de mémoire ce que tu viens de lire.\n\nQuelle est ta méthode actuelle pour préparer tes réunions importantes ?\n\n#productivite #travail #apprentissage #conseilsentreprises #organisation",
+      "media_id": "18177712075458858",
+      "publie_le": "2026-11-15T11:33:02+00:00",
       "quand": "2026-11-15T12:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Enjeu",
-            "texte": "Relire tes dossiers en boucle peut ruiner ton efficacité au travail."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de relire tes notes de réunion tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que relire tes dossiers te fait mémoriser ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "productivite",
-          "travail",
-          "apprentissage",
-          "conseilsentreprises",
-          "organisation"
-        ],
-        "legende": "Relire tes dossiers en boucle peut ruiner ton efficacité au travail.\n\nQuand tu relis tes notes plusieurs fois, ton cerveau reconnait les mots. Tu as l'impression de maîtriser le sujet. Pourtant, le jour où tu dois prendre la parole en réunion, c'est le trou noir.\n\nPour ancrer une information, ton cerveau doit faire l'effort de aller la chercher dans ta mémoire. C'est cet effort de rappel qui construit un souvenir solide.\n\nLa méthode est simple : lis ton document une fois, ferme-le, puis réexplique de mémoire ce que tu viens de lire.\n\nQuelle est ta méthode actuelle pour préparer tes réunions importantes ?",
-        "question": "Quelle est ta méthode actuelle pour préparer tes réunions importantes ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Relire tes dossiers en boucle peut ruiner ton efficacité au travail.",
-            "ecran": "Relire tes dossiers *ruine* ton efficacité",
-            "emoji": "⚠️",
-            "recherche": "man stressed office notes",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est ce qui se passe quand ton patron te pose une question.",
-            "ecran": "Et le *pire* arrive en réunion",
-            "emoji": "😱",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu as passé toute ta soirée à relire la présentation du nouveau projet.",
-            "ecran": "Tu passes des *heures* à relire",
-            "emoji": "📑",
-            "recherche": "person reading documents late",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand tu relis tes fiches, ton cerveau reconnait le texte et te dit que tu sais.",
-            "ecran": "L'illusion de la *maîtrise*",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mais devant tes collègues en réunion, impossible de retrouver l'argument précis.",
-            "ecran": "Mais le jour J, c'est le *trou*",
-            "emoji": "📉",
-            "recherche": "business meeting confused person",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Essayer de se rappeler une information la grave beaucoup mieux que la relire.",
-            "ecran": "L'effet de *recherche* en mémoire",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Relire",
-            "b": "Se tester",
-            "dit": "Reconnaître une note donne l'impression de savoir, mais l'effort de mémoire crée l'ancrage.",
-            "ecran": "L'effort de *mémoire* gagne",
-            "emoji": "📊",
-            "recherche": "brain glowing animation",
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu dois défendre ton budget de dix mille euros face à l'équipe direction.",
-            "ecran": "Exemple 1 : Présenter un *projet*",
-            "emoji": "💬",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au lieu d'ouvrir le fichier Excel dix fois de suite avant d'entrer en salle...",
-            "ecran": "Au lieu d'ouvrir le *fichier*...",
-            "emoji": "❌",
-            "recherche": "laptop screens text analytics",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Cache l'écran et tente d'expliquer les trois chiffres clés à voix haute.",
-            "ecran": "Ferme tout et *répète*",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Avant d'appeler un client important, ne parcours pas ses mails une fois de plus.",
-            "ecran": "Exemple 2 : Appel *client*",
-            "emoji": "📞",
-            "recherche": "person calling office phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Prends une feuille vierge et note ses deux attentes principales de tête.",
-            "ecran": "Écris de *mémoire*",
-            "emoji": "📝",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici la méthode exacte en trois étapes pour retenir n'importe quel dossier.",
-            "ecran": "Méthode : 1. Lis une fois | 2. Cache la note | 3. Réexplique de mémoire",
-            "emoji": "✅",
-            "recherche": "hand writing notebook checklist",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Lis ton document une seule fois avec une attention maximale et concentrée.",
-            "ecran": "Un. *Lis* une seule fois",
-            "emoji": "1️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Ferme ton cahier ou l'onglet de ton écran pour ne plus rien voir.",
-            "ecran": "Deux. *Ferme* le dossier",
-            "emoji": "2️⃣",
-            "recherche": "closing laptop screen hand",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Essaie de réexpliquer de mémoire ce que tu viens de lire comme à un collègue.",
-            "ecran": "Trois. *Explique* à voix haute",
-            "emoji": "3️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Relire donne l'illusion, se tester crée le savoir.",
-            "ecran": "Relire donne l'illusion, *se tester* crée le savoir.",
-            "emoji": "📌",
-            "recherche": "man talking to camera smiling",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Se tester plutôt que relire"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "rappel_actif",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfwrjaQkoID/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261115-1230.mp4"
     },
     {
@@ -4533,6 +4321,13 @@
       "media_id": "18184707754383718",
       "sujet": "competence",
       "url": "https://www.instagram.com/reel/DfvBBX3pQb-/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-15",
+      "media_id": "18177712075458858",
+      "sujet": "rappel_actif",
+      "url": "https://www.instagram.com/reel/DfwrjaQkoID/"
     }
   ]
 }
