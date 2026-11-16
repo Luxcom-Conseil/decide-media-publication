@@ -856,214 +856,13 @@
       "formule": "Contre-pied",
       "id": "20261116-1830",
       "legende": "Tu crois que la nouveauté sauvera ta carrière ? C'est l'inverse.\n\nAu travail, l'effet Lindy nous rappelle qu'une méthode qui a fait ses preuves pendant des années survit souvent aux outils de passage. À force de courir après chaque nouveau logiciel miracle, on s'épuise et on perd en efficacité.\n\nAvant de tout changer sur un coup de tête ou sous la pression d'une mode, prends le temps de sécuriser tes bases. Garde tes anciennes routines efficaces et teste le reste prudemment.\n\nQuel est le vieil outil ou réflexe qui te sauve encore au bureau ?\n\n#psychologie #travail #productivite #vieprofessionnelle #conseils",
+      "media_id": "18221891464350453",
+      "publie_le": "2026-11-16T17:32:34+00:00",
       "quand": "2026-11-16T18:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que la nouveauté sauvera ta carrière ? C'est l'inverse."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Cette manie de tout changer au travail te fait perdre un temps fou."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de jeter tes anciennes méthodes au bureau tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "travail",
-          "productivite",
-          "vieprofessionnelle",
-          "conseils"
-        ],
-        "legende": "Tu crois que la nouveauté sauvera ta carrière ? C'est l'inverse.\n\nAu travail, l'effet Lindy nous rappelle qu'une méthode qui a fait ses preuves pendant des années survit souvent aux outils de passage. À force de courir après chaque nouveau logiciel miracle, on s'épuise et on perd en efficacité.\n\nAvant de tout changer sur un coup de tête ou sous la pression d'une mode, prends le temps de sécuriser tes bases. Garde tes anciennes routines efficaces et teste le reste prudemment.\n\nQuel est le vieil outil ou réflexe qui te sauve encore au bureau ?",
-        "question": "Quel est le vieil outil ou réflexe qui te sauve encore au bureau ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu crois que la nouveauté sauvera ta carrière ? C'est tout l'inverse.",
-            "ecran": "La *nouveauté* sauve ta carrière ?",
-            "emoji": "🚨",
-            "recherche": "stressed office worker laptop",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au bureau, on te pousse toujours à adopter le dernier outil à la mode. Et le pire, c'est ce qui arrive ensuite.",
-            "ecran": "Le *dernier* outil tendance",
-            "emoji": "📱",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau se fait piéger. Ce phénomène mental porte un nom : l'effet Lindy.",
-            "ecran": "L'effet *Lindy*",
-            "emoji": "🧠",
-            "recherche": "thinking man office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "L'idée est simple : plus une méthode existe depuis longtemps, plus elle a de chances d'exister encore longtemps.",
-            "ecran": "Le *temps* valide la valeur",
-            "emoji": "⏳",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Nouveau logiciel",
-            "b": "Cahier et stylo",
-            "dit": "Une nouveauté a de grandes chances d'avoir disparu dans un an. Mais un réflexe vieux de dix ans sera toujours là.",
-            "ecran": "Espérance de *vie* des méthodes",
-            "emoji": "📊",
-            "recherche": "chart animation screen",
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pense à ton entreprise. Combien de fois une nouvelle application miracle a été abandonnée après trois mois ?",
-            "ecran": "Changer d'outil *chaque* mois",
-            "emoji": "💻",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pendant ce temps-là, le simple bloc-note et le coup de téléphone direct continuent de sauver tes projets.",
-            "ecran": "Le bon vieux *papier*",
-            "emoji": "📝",
-            "recherche": "person writing notebook",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu passes des heures à configurer des logiciels complexes, alors qu'une discussion de cinq minutes règle tout.",
-            "ecran": "Parler en *vrai*",
-            "emoji": "☕",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les nouvelles modes nous donnent l'illusion de progresser, mais elles ne font souvent que nous disperser.",
-            "ecran": "Le piège de l'*illusion*",
-            "emoji": "🔄",
-            "recherche": "confused worker desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les vieilles pratiques ont survécu à l'épreuve du temps parce qu'elles fonctionnent réellement sur le terrain.",
-            "ecran": "Les *anciennes* méthodes réelles",
-            "emoji": "🏆",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand tes collègues veulent tout changer du jour au lendemain, tu peux facilement te protéger du stress.",
-            "ecran": "Se *protéger* de la cohue",
-            "emoji": "🛡️",
-            "recherche": "calm businessman meeting",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici ton plan d'action en trois étapes très simples pour ton travail au quotidien.",
-            "ecran": "Plan d'action : Garder les bases | Tester sans tout jeter | Observer la durée",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Garde toujours la méthode classique qui te donne déjà des résultats prévisibles et solides.",
-            "ecran": "Un. Garde tes *fondations*",
-            "emoji": "1️⃣",
-            "recherche": "focused man working",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Teste les nouveaux outils uniquement sur des petits projets sans risque avant de généraliser.",
-            "ecran": "Deux. Teste à *petite* dose",
-            "emoji": "2️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Attends quelques mois pour voir si la nouveauté s'impose vraiment d'elle-même dans ton secteur.",
-            "ecran": "Trois. Laisse *temps* faire",
-            "emoji": "3️⃣",
-            "recherche": "clock time lapse office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "La nouveauté attire, le temps confirme.",
-            "ecran": "La *nouveauté* attire, le *temps* confirme.",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'effet Lindy au travail"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "lindy",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Dfz5b0Hk19Z/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-1830.mp4"
     },
     {
@@ -4431,6 +4230,13 @@
       "media_id": "18177792421454416",
       "sujet": "changer_coute",
       "url": "https://www.instagram.com/reel/DfzQPGziH50/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-16",
+      "media_id": "18221891464350453",
+      "sujet": "lindy",
+      "url": "https://www.instagram.com/reel/Dfz5b0Hk19Z/"
     }
   ]
 }
