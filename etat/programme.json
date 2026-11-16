@@ -53,12 +53,19 @@
   "plan-btp-logement-008",
   "plan-automobile-008",
   "comptes-publics-009",
-  "pole-public-bancaire-009"
+  "pole-public-bancaire-009",
+  "plan-sante-009",
+  "plan-esr-009",
+  "plan-ruralites-009",
+  "comptes-publics-010",
+  "pole-public-bancaire-010",
+  "plan-sante-010"
  ],
  "ecartes": {
   "plan-automobile-002": "script refusé au contrôle : 9 scènes (10 à 17 attendues) ; ton de campagne interdit (« vote ») : on explique, on ne fait pas campagne",
   "plan-esr-003": "script refusé au contrôle : 9 scènes (10 à 17 attendues) ; 834 caractères dits, il en faut de 850 à 1250 (question comprise)",
-  "plan-ruralites-007": "script refusé au contrôle : accroche dite trop longue (83 caractères, 75 au plus : 2 à 4 secondes) ; chiffres absents de l'article : 100"
+  "plan-ruralites-007": "script refusé au contrôle : accroche dite trop longue (83 caractères, 75 au plus : 2 à 4 secondes) ; chiffres absents de l'article : 100",
+  "plan-ruralites-008": "script refusé au contrôle : l'accroche commence par une mise en place (date, « Imagine », « Aujourd'hui »…) : démarre au milieu de l'action"
  },
  "journal": [
   {
@@ -330,6 +337,36 @@
    "jour": "2026-11-15",
    "id": "pole-public-bancaire-009",
    "nom": "prog-pole-public-bancaire-009"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "plan-sante-009",
+   "nom": "prog-plan-sante-009"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "plan-esr-009",
+   "nom": "prog-plan-esr-009"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "plan-ruralites-009",
+   "nom": "prog-plan-ruralites-009"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "comptes-publics-010",
+   "nom": "prog-comptes-publics-010"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "pole-public-bancaire-010",
+   "nom": "prog-pole-public-bancaire-010"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "plan-sante-010",
+   "nom": "prog-plan-sante-010"
   }
  ],
  "programmes": [
@@ -1089,6 +1126,90 @@
    "reseau": "youtube",
    "buffer": "6af96259918fe79d2ecc1e31",
    "heure": "2026-11-15T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-plan-sante-009",
+   "reseau": "tiktok",
+   "buffer": "6afab9fa8e87c256a3c146a9",
+   "heure": "2026-11-16T09:28:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-plan-sante-009",
+   "reseau": "youtube",
+   "buffer": "6afab9fbd7e5fee638ae91c5",
+   "heure": "2026-11-16T09:28:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-plan-esr-009",
+   "reseau": "tiktok",
+   "buffer": "6afab9fbd7e5fee638ae9222",
+   "heure": "2026-11-16T09:45:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-plan-esr-009",
+   "reseau": "youtube",
+   "buffer": "6afab9fca869c35e5bca3d7a",
+   "heure": "2026-11-16T09:45:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-plan-ruralites-009",
+   "reseau": "tiktok",
+   "buffer": "6afab9fc06e1675856d7d6d1",
+   "heure": "2026-11-16T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-plan-ruralites-009",
+   "reseau": "youtube",
+   "buffer": "6afab9fc8e87c256a3c14713",
+   "heure": "2026-11-16T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-comptes-publics-010",
+   "reseau": "tiktok",
+   "buffer": "6afab9fda869c35e5bca3deb",
+   "heure": "2026-11-16T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-comptes-publics-010",
+   "reseau": "youtube",
+   "buffer": "6afab9fdff465c57dae237a4",
+   "heure": "2026-11-16T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-pole-public-bancaire-010",
+   "reseau": "tiktok",
+   "buffer": "6afab9fe06e1675856d7d784",
+   "heure": "2026-11-16T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-pole-public-bancaire-010",
+   "reseau": "youtube",
+   "buffer": "6afab9fe60a910801c7b6556",
+   "heure": "2026-11-16T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-plan-sante-010",
+   "reseau": "tiktok",
+   "buffer": "6afab9ffd7e5fee638ae929f",
+   "heure": "2026-11-16T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "prog-plan-sante-010",
+   "reseau": "youtube",
+   "buffer": "6afab9ffff465c57dae237f0",
+   "heure": "2026-11-16T22:00:00+01:00"
   }
  ],
  "echecs": {
@@ -1103,6 +1224,8 @@
   "plan-esr-005": 1,
   "plan-ruralites-007": 2,
   "plan-btp-logement-007": 1,
-  "plan-ruralites-008": 1
+  "plan-ruralites-008": 2,
+  "plan-btp-logement-009": 1,
+  "plan-automobile-009": 1
  }
 }
