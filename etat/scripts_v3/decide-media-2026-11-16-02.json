@@ -1,0 +1,85 @@
+{
+  "accroches": [
+    "Le Cameroun annule un achat de fioul de 36,7 milliards FCFA.",
+    "Une commande de 70 653 tonnes de fioul lourd est annulée.",
+    "La Socadel annule l'urgence d'un marché de 36,7 milliards FCFA."
+  ],
+  "titre": "36,7 milliards de fioul annulés",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Un marché de *36,7 milliards* annulé",
+      "dit": "Le Cameroun annule un achat de fioul lourd de 36,7 milliards de FCFA pour ses centrales thermiques."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Socadel",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "La *Socadel* stoppe l'urgence",
+      "dit": "Selon EcoMatin, la Société camerounaise d'électricité avait ouvert ce marché d'urgence à la mi-octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*70 653 tonnes* de fioul visées",
+      "dit": "La commande portait sur 70 653 tonnes de fioul pour alimenter quatre centrales thermiques en 2026 et 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "17 380 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*17,38 milliards* pour Limbé",
+      "dit": "Le premier lot prévoyait 17,38 milliards de FCFA pour approvisionner la seule centrale de Limbé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*19,33 milliards* pour trois centrales",
+      "dit": "Le second lot de 19,33 milliards de FCFA couvrait les centrales de Dibamba, Oyomabang et Logbaba."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "4 000 tonnes",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Stock obligatoire de *4 000 tonnes*",
+      "dit": "Le cahier des charges imposait aux fournisseurs de garder un stock permanent d'au moins 4 000 tonnes."
+    }
+  ]
+}

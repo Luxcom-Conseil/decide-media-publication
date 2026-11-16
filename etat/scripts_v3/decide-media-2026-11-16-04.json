@@ -1,0 +1,79 @@
+{
+  "accroches": [
+    "Les réserves de change atteignent 7 125 milliards de FCFA.",
+    "La BEAC modernise la gestion de ses réserves de change.",
+    "Un dossier de candidature coûte 1 million de FCFA. "
+  ],
+  "titre": "BEAC : nouveau système pour les réserves",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "7 125 milliards de FCFA de *réserves*",
+      "dit": "Les réserves de change de la CEMAC ont atteint 7 125 milliards de FCFA à la fin d'août 2026."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque des États de l'Afrique centrale",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Un nouveau *système* informatique",
+      "dit": "Selon Investir au Cameroun, la BEAC cherche un nouveau système informatique pour gérer ces réserves."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 1 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*Frais* de 1 million de FCFA",
+      "dit": "Chaque candidat doit payer 1 million de FCFA de frais non remboursables pour postuler."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "200 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Capacité de *200 millions* requise",
+      "dit": "Les entreprises doivent prouver une capacité financière d'au moins 200 millions de FCFA."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Dépôt à *Yaoundé* le 17 décembre",
+      "dit": "Les dossiers sont reçus à Yaoundé jusqu'au 17 décembre 2026 à 13 heures."
+    }
+  ]
+}

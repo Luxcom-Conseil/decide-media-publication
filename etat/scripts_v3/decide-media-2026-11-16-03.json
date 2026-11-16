@@ -1,0 +1,92 @@
+{
+  "accroches": [
+    "Le Cameroun vend du cacao à la Chine pour 1,07 milliard FCFA.",
+    "La Chine a reçu 7 946 tonnes de cacao du Cameroun.",
+    "Le cacao représente seulement 0,4 % des ventes camerounaises vers la Chine."
+  ],
+  "titre": "Cacao camerounais vers la Chine",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le Cameroun vend du *cacao*",
+      "dit": "Le Cameroun a exporté du cacao vers la Chine pour 1,07 milliard de FCFA sur neuf mois en 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Ventes en *hausse* de 400 000 $",
+      "dit": "C'est 400 000 dollars de plus que pour toute l'année 2025 selon les douanes chinoises."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "7 946 tonnes de *fèves*",
+      "dit": "L'Office national du cacao et du café indique que la Chine a reçu 7 946 tonnes de fèves."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Seulement 4,1 % du *total*",
+      "dit": "Cela représente 4,1 % des 193 407 tonnes exportées par le Cameroun pendant la campagne."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "1er mai 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Franchise de *douane* en mai",
+      "dit": "Depuis le 1er mai 2026, la Chine applique une franchise de droits de douane à 53 pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 880 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Déficit de *1 880 milliards* FCFA",
+      "dit": "Le déficit commercial du Cameroun face à la Chine atteint 1 880 milliards de FCFA fin septembre 2026."
+    }
+  ]
+}

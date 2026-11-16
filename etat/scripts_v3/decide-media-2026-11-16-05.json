@@ -1,0 +1,75 @@
+{
+  "accroches": [
+    "Le Cameroun confie quatre blocs pétroliers au groupe Murphy.",
+    "Murphy engage 1,34 milliard de FCFA pour du pétrole.",
+    "98,8 % des investissements pétroliers restent optionnels pour Murphy."
+  ],
+  "titre": "Cameroun : contrats pétroliers Murphy",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "1,34 milliard engagés pour du *pétrole*",
+      "dit": "Murphy engage 1,34 milliard de FCFA pour le pétrole au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La production de brut *chute*",
+      "dit": "La production nationale de brut a chuté de 9,4 % en 2025."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "SNH",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Quatre contrats *signés* par la SNH",
+      "dit": "Selon le Journal du Cameroun, la SNH a signé quatre contrats de partage de production."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "10 578,13 km² en *mer*",
+      "dit": "Ces zones couvrent 10 578,13 km² en mer dans le bassin de Douala-Kribi-Campo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "98,8 % de la somme restent *optionnels*",
+      "dit": "Selon camer.be, 98,8 % de la somme dépend de prolongations optionnelles."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un programme sur *sept ans* max",
+      "dit": "Le programme minimal de travaux s'étend sur sept ans au plus."
+    }
+  ]
+}
