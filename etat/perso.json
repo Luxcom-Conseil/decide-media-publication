@@ -3809,6 +3809,860 @@
       "sujet": "masse_critique",
       "timbre": "habituelle",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-15/20261122-1230.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261122-1830.jpg",
+      "format": "long",
+      "formule": "Liste",
+      "id": "20261122-1830",
+      "legende": "3 signes que tu gâches ton temps au travail sans t'en rendre compte.\n\nAu bureau, on a tous déjà insisté sur un dossier stérile simplement parce qu'on y avait passé des semaines. C'est le piège des coûts irrécupérables.\n\nPour sortir de ce cercle vicieux, pose-toi une seule question : si tu devais démarrer aujourd'hui en partant de zéro, ferais-tu encore ce choix ? Si la réponse est non, stoppe le massacre. Ce que tu as investi dans le passé est perdu, protège ton futur.\n\nAs-tu déjà insisté sur un projet pro juste parce que tu y avais mis trop d'énergie ?\n\n#psychologie #travail #productivité #gestiondutemps #vieprofessionnelle",
+      "quand": "2026-11-22T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Liste",
+            "texte": "3 signes que tu gâches ton temps au travail sans t'en rendre compte."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Continuer ce projet au bureau va ruiner ton énergie et ta carrière."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu penses sauver ce projet ? Tu es en train de te piéger."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "travail",
+          "productivité",
+          "gestiondutemps",
+          "vieprofessionnelle"
+        ],
+        "legende": "3 signes que tu gâches ton temps au travail sans t'en rendre compte.\n\nAu bureau, on a tous déjà insisté sur un dossier stérile simplement parce qu'on y avait passé des semaines. C'est le piège des coûts irrécupérables.\n\nPour sortir de ce cercle vicieux, pose-toi une seule question : si tu devais démarrer aujourd'hui en partant de zéro, ferais-tu encore ce choix ? Si la réponse est non, stoppe le massacre. Ce que tu as investi dans le passé est perdu, protège ton futur.\n\nAs-tu déjà insisté sur un projet pro juste parce que tu y avais mis trop d'énergie ?",
+        "question": "As-tu déjà insisté sur un projet pro juste parce que tu y avais mis trop d'énergie ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "3 signes que tu gâches ton temps au travail sans t'en rendre compte.",
+            "ecran": "3 signes que tu *gâches* ton temps",
+            "emoji": "🚨",
+            "recherche": "stressed office worker phone",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et crois-moi, le troisième signe est celui qui te coûte le plus cher !",
+            "ecran": "Le 3ème piège est *le pire*",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce réflexe toxique s'appelle le piège des coûts irrécupérables.",
+            "ecran": "Le piège des *coûts irrécupérables*",
+            "emoji": "🧠",
+            "recherche": "thinking laptop corporate worker",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Tu penses : j'ai déjà passé 6 mois sur ce dossier, je ne peux pas abandonner !",
+            "ecran": "Signe 1 : Projet *voué à l'échec*",
+            "emoji": "📋",
+            "recherche": "frustrated worker desk papers",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Tu restes dans une réunion inutile juste parce que tu as préparé 10 diapos.",
+            "ecran": "Signe 2 : Réunions *interminables*",
+            "emoji": "🗣️",
+            "recherche": "boring office meeting group",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Tu acceptes d'aider un collègue qui ne fait aucun effort, sous prétexte que tu l'aides depuis un an.",
+            "ecran": "Signe 3 : Mission *épuisante*",
+            "emoji": "🤝",
+            "recherche": "tired employee computer monitor",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Passé investi",
+            "b": "Gain futur",
+            "dit": "Pourquoi ton cerveau fait ça ? Parce qu'il hait l'impression d'avoir gâché ses efforts.",
+            "ecran": "Ce que tu *regardes* vs la *réalité*",
+            "emoji": "⚖️",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Résultat : tu remets de l'énergie et du temps dans un trou noir sans fond.",
+            "ecran": "Continuer *coûte plus cher*",
+            "emoji": "💸",
+            "recherche": "clock ticking deadline work",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce que tu as déjà dépensé ne reviendra jamais. Ne le laisse pas décider.",
+            "ecran": "Le passé ne *reviendra pas*",
+            "emoji": "🛑",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour te libérer de ce piège au travail, voici l'astuce en deux étapes très simples.",
+            "ecran": "Solution : Repartir de zéro | Évaluer aujourd'hui | Trancher net",
+            "emoji": "💡",
+            "recherche": "confident businessman decision writing",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Première étape. Pose-toi cette question : si je partais de zéro aujourd'hui, est-ce que je choisirais encore ce projet ?",
+            "ecran": "Étape 1 : La *question magique*",
+            "emoji": "❓",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deuxième étape. Si la réponse est non, arrête tout de suite, sans éprouver la moindre culpabilité.",
+            "ecran": "Étape 2 : Acter la *décision*",
+            "emoji": "✂️",
+            "recherche": "closing laptop finishing work",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En coupant tes pertes tôt, tu libères du temps pour ce qui compte vraiment.",
+            "ecran": "Économise *ton énergie*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce que tu as déjà dépensé ne doit jamais décider à ta place.",
+            "ecran": "Ce que tu as déjà dépensé ne doit jamais décider à ta place.",
+            "emoji": "📌",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le piège des coûts irrécupérables"
+      },
+      "statut": "programme",
+      "sujet": "sunk_cost",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261122-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261122-2100.jpg",
+      "format": "court",
+      "formule": "Ordre",
+      "id": "20261122-2100",
+      "legende": "Arrête de refouler tes émotions tant que tu n'as pas vu ça.\n\nQuand une émotion inconfortable arrive, notre premier réflexe est de la combattre. Pourtant, plus tu luttes contre ton stress ou ta colère, plus tu l'alimentes.\n\nLa prochaine fois, valide ce que tu ressens au lieu de le juger. Laisse le nuage passer.\n\nQuelle émotion essaies-tu de cacher en ce moment ?\n\n#psychologie #gestiondustress #emotions #bienetre #developpementpersonnel",
+      "quand": "2026-11-22T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de refouler tes émotions tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe quand tu es stressé te gâche la vie."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que lutter contre le stress t'aide ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "gestiondu stress",
+          "emotions",
+          "bienetre",
+          "developpementpersonnel"
+        ],
+        "legende": "Arrête de refouler tes émotions tant que tu n'as pas vu ça.\n\nQuand une émotion inconfortable arrive, notre premier réflexe est de la combattre. Pourtant, plus tu luttes contre ton stress ou ta colère, plus tu l'alimentes.\n\nLa prochaine fois, valide ce que tu ressens au lieu de le juger. Laisse le nuage passer.\n\nQuelle émotion essaies-tu de cacher en ce moment ?",
+        "question": "Quelle émotion essaies-tu de cacher en ce moment ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Arrête de refouler tes émotions tant que tu n'as pas vu ça.",
+            "ecran": "Arrête de *refouler* tes émotions",
+            "emoji": "🛑",
+            "recherche": "stressed man office",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce principe s'appelle l'acceptation émotionnelle.",
+            "ecran": "L'*acceptation* émotionnelle",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au travail, tu sens la panique monter et tu te forces à être calme.",
+            "ecran": "Tu *bloques* ton stress",
+            "emoji": "📱",
+            "recherche": "person looking phone anxious",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Problème : lutter contre une émotion ne fait que l'amplifier.",
+            "ecran": "Lutter *renforce* la douleur",
+            "emoji": "🔥",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Dis-toi : c'est normal de ressentir ça. Deux. Laisse couler.",
+            "ecran": "L'astuce : 1. Valide | 2. Patiente",
+            "emoji": "💡",
+            "recherche": "deep breathing relaxed",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Accueillir l'émotion la fait disparaître.",
+            "ecran": "Accueillir l'émotion la fait *disparaître*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quelle émotion essaies-tu de cacher en ce moment ?",
+            "ecran": "Et *toi* ?",
+            "emoji": "🤔",
+            "recherche": "thinking person face",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'acceptation émotionnelle"
+      },
+      "statut": "programme",
+      "sujet": "acceptation",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261122-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261123-1230.jpg",
+      "format": "court",
+      "formule": "Démasquer",
+      "id": "20261123-1230",
+      "legende": "Les vendeurs utilisent ce piège sur toi tous les jours.\n\nFace aux messages comme 'plus que 2 articles en stock' ou 'fin des soldes ce soir', notre cerveau panique et surévalue le produit.\n\nAvant de valider ton panier sous la pression, impose-toi une pause d'une minute pour réfléchir à ton besoin réel. Et si tu l'utilises dans ton business, veille à ce que cette rareté soit authentique.\n\nAs-tu déjà acheté un objet juste parce qu'il n'en restait presque plus ?\n\n#psychologie #persuasion #achats #entrepreneuriat #conseil",
+      "quand": "2026-11-23T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Démasquer",
+            "texte": "Les vendeurs utilisent ce piège sur toi tous les jours."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Ce petit stress au supermarché te fait perdre beaucoup d'argent."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête d'acheter en urgence tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "persuasion",
+          "achats",
+          "entrepreneuriat",
+          "conseil"
+        ],
+        "legende": "Les vendeurs utilisent ce piège sur toi tous les jours.\n\nFace aux messages comme 'plus que 2 articles en stock' ou 'fin des soldes ce soir', notre cerveau panique et surévalue le produit.\n\nAvant de valider ton panier sous la pression, impose-toi une pause d'une minute pour réfléchir à ton besoin réel. Et si tu l'utilises dans ton business, veille à ce que cette rareté soit authentique.\n\nAs-tu déjà acheté un objet juste parce qu'il n'en restait presque plus ?",
+        "question": "As-tu déjà acheté un objet juste parce qu'il n'en restait presque plus ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les vendeurs utilisent ce piège sur toi tous les jours.",
+            "ecran": "Ce *piège* sur toi tous les jours",
+            "emoji": "🛍️",
+            "recherche": "woman shopping store",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est le mécanisme de la rareté et de l'urgence.",
+            "ecran": "Le principe de *rareté*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu vois 'plus que deux articles en stock' ou 'offre valable aujourd'hui seulement'.",
+            "ecran": "Plus que *2* en stock !",
+            "emoji": "📱",
+            "recherche": "phone online shopping stress",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau associe immédiatement la limite de temps à une valeur supérieure.",
+            "ecran": "Ce qui est *rare* paraît précieux",
+            "emoji": "⚡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Prends une minute avant d'acheter. Deux. Si tu l'utilises, sois honnête.",
+            "ecran": "Astuce : 1. Pause d'un minute | 2. Vraie rareté",
+            "emoji": "💡",
+            "recherche": "person thinking clock",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "L'urgence pousse à l'achat, la pause redonne le contrôle.",
+            "ecran": "Prends une *pause* avant de payer",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "As-tu déjà acheté un objet juste parce qu'il n'en restait presque plus ?",
+            "ecran": "As-tu déjà *craqué* ?",
+            "emoji": "🤔",
+            "recherche": "man confused phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La rareté et l'urgence"
+      },
+      "statut": "programme",
+      "sujet": "rarete",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261123-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261123-1830.jpg",
+      "format": "long",
+      "formule": "Contre-pied",
+      "id": "20261123-1830",
+      "legende": "Tu crois qu'il ne t'aime plus ? C'est peut-être l'inverse.\n\nNous n'exprimons pas tous notre affection de la même manière. Mots doux, services rendus, cadeaux, moments partagés ou gestes d'affection : chaque personne a sa propre langue.\n\nLe piège est d'attendre de l'autre qu'il aime comme nous. Pour mieux se comprendre, il suffit d'observer comment tes proches expriment leur attention : c'est très souvent ainsi qu'ils aiment la recevoir.\n\nQuelle est ta façon préférée de recevoir de l'amour au quotidien ?\n\n#relations #couple #psychologie #communication #viequotidienne",
+      "quand": "2026-11-23T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois qu'il ne t'aime plus ? C'est peut-être l'inverse."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit détail dans ton couple te coûte ton bonheur."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Ta façon d'aimer est en train de détruire ton couple."
+          }
+        ],
+        "hashtags": [
+          "relations",
+          "couple",
+          "psychologie",
+          "communication",
+          "viequotidienne"
+        ],
+        "legende": "Tu crois qu'il ne t'aime plus ? C'est peut-être l'inverse.\n\nNous n'exprimons pas tous notre affection de la même manière. Mots doux, services rendus, cadeaux, moments partagés ou gestes d'affection : chaque personne a sa propre langue.\n\nLe piège est d'attendre de l'autre qu'il aime comme nous. Pour mieux se comprendre, il suffit d'observer comment tes proches expriment leur attention : c'est très souvent ainsi qu'ils aiment la recevoir.\n\nQuelle est ta façon préférée de recevoir de l'amour au quotidien ?",
+        "question": "Quelle est ta façon préférée de recevoir de l'amour au quotidien ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu crois qu'il ne t'aime plus ? C'est peut-être tout simplement l'inverse.",
+            "ecran": "Tu crois qu'il *ne t'aime plus* ?",
+            "emoji": "💔",
+            "recherche": "sad couple home conflict",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est qu'on tombe tous dans ce piège sans s'en rendre compte au quotidien.",
+            "ecran": "Un piège *très courant*",
+            "emoji": "🔥",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce phénomène a une explication très simple : chacun a sa propre façon d'aimer.",
+            "ecran": "Chacun sa *façon d'aimer*",
+            "emoji": "🧠",
+            "recherche": "couple talking couch",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour certains, aimer c'est dire des mots doux et faire des compliments tous les jours.",
+            "ecran": "Les *mots doux*",
+            "emoji": "🗣️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour d'autres, c'est passer du temps ensemble, sans aucune distraction, posé sur le canapé.",
+            "ecran": "Le *temps précieux*",
+            "emoji": "⏳",
+            "recherche": "couple walking park",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "D'autres vont te faire le plein de la voiture ou préparer le repas après ta journée au bureau.",
+            "ecran": "Les *rendre service*",
+            "emoji": "🧹",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Certains t'offrent des cadeaux, ou alors ils cherchent le contact physique et les câlins.",
+            "ecran": "Les *petites attentions*",
+            "emoji": "🎁",
+            "recherche": "hands holding gift",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau attend de recevoir de l'amour exactement de la même manière qu'il le donne.",
+            "ecran": "Le *malentendu*",
+            "emoji": "❌",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si tu attends un mot doux mais qu'il te lave ta voiture, tu te sens négligé à tort.",
+            "ecran": "Tu *ne vois pas*",
+            "emoji": "🚗",
+            "recherche": "man washing car",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourtant, cette personne te montre son affection avec toute son énergie chaque jour.",
+            "ecran": "Il *t'aime déjà*",
+            "emoji": "🤯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici les trois étapes pour ne plus jamais passer à côté de son amour au quotidien.",
+            "ecran": "La solution : 1. Observe ses actes | 2. Comprends ses besoins | 3. Donne la bonne fréquence",
+            "emoji": "💡",
+            "recherche": "happy couple smiling",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Regarde comment cette personne exprime naturellement son affection autour d'elle.",
+            "ecran": "Un. *Observe*",
+            "emoji": "🔍",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Sache que c'est très souvent de cette manière précise qu'elle aimerait en recevoir.",
+            "ecran": "Deux. *Comprends*",
+            "emoji": "🎯",
+            "recherche": "thoughtful person looking",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Donne-lui de l'amour dans sa propre langue, pas uniquement dans la tienne.",
+            "ecran": "Trois. *Adapte-toi*",
+            "emoji": "🔄",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On n'aime pas tous de la même manière.",
+            "ecran": "On n'aime pas tous de la *même manière*.",
+            "emoji": "✨",
+            "recherche": "couple hugging outdoors",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Chacun sa façon d'aimer"
+      },
+      "statut": "programme",
+      "sujet": "langages",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261123-1830.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261123-2100.jpg",
+      "format": "long",
+      "formule": "Révélation",
+      "id": "20261123-2100",
+      "legende": "Cette prime au travail te coûte plus cher que tu ne le crois.\n\nC'est ce qu'on appelle l'effet cobra. Lorsqu'on fixe une récompense ou un objectif mal pensé, les gens cherchent naturellement à maximiser leur gain au détriment de l'intérêt général.\n\nPour éviter cela, prends l'habitude d'anticiper le contournement avant de valider une règle. Demande-toi comment elle pourrait être détournée.\n\nAs-tu déjà vu une règle absurde créer l'effet inverse au travail ?\n\n#psychologie #management #entreprise #travail #productivite",
+      "quand": "2026-11-23T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Cette prime au travail te coûte plus cher que tu ne crois."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de fixer des objectifs avant d'avoir vu ça."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que récompenser tes équipes aide ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "management",
+          "entreprise",
+          "travail",
+          "productivite"
+        ],
+        "legende": "Cette prime au travail te coûte plus cher que tu ne le crois.\n\nC'est ce qu'on appelle l'effet cobra. Lorsqu'on fixe une récompense ou un objectif mal pensé, les gens cherchent naturellement à maximiser leur gain au détriment de l'intérêt général.\n\nPour éviter cela, prends l'habitude d'anticiper le contournement avant de valider une règle. Demande-toi comment elle pourrait être détournée.\n\nAs-tu déjà vu une règle absurde créer l'effet inverse au travail ?",
+        "question": "As-tu déjà vu une règle absurde créer l'effet inverse au travail ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Cette prime au travail te coûte plus cher que tu ne le crois.",
+            "ecran": "Cette *prime* te coûte très cher",
+            "emoji": "😱",
+            "recherche": "stressed manager office desk",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce qui se passe quand tu penses bien faire.",
+            "ecran": "Un *piège* bien caché",
+            "emoji": "🔥",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie et en management, on appelle ça l'effet cobra.",
+            "ecran": "L'*effet cobra*",
+            "emoji": "🐍",
+            "recherche": "snake dangerous animal",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est quand une récompense mal pensée produit exactement l'inverse du résultat voulu.",
+            "ecran": "Une *mauvaise* incitation",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu vois ça au bureau tous les jours sans même t'en rendre compte.",
+            "ecran": "Au *bureau* chaque jour",
+            "emoji": "🏢",
+            "recherche": "corporate office employees meeting",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Imagine une entreprise qui donne une prime aux développeurs pour chaque bug corrigé.",
+            "ecran": "Prime aux *bugs* résolus",
+            "emoji": "💻",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Résultat ? Certains vont créer des bugs exprès juste pour les réparer et toucher l'argent.",
+            "ecran": "Créer des *problèmes*",
+            "emoji": "😈",
+            "recherche": "typing fast computer keyboard",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ou une prime aux appels courts au service client : les employés raccrochent au nez des gens.",
+            "ecran": "Appels *expédiés*",
+            "emoji": "📞",
+            "recherche": "call center operator stressed",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Intention",
+            "b": "Résultat",
+            "dit": "Le cerveau cherche toujours le chemin le plus court vers la récompense prometteuse.",
+            "ecran": "L'effet des *primes*",
+            "emoji": "⚖️",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Il n'obéit pas à l'esprit de ta règle, il obéit strictement à la métrique exacte.",
+            "ecran": "Le *cerveau* va au plus simple",
+            "emoji": "🤖",
+            "recherche": "man thinking thoughtful office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, tu peux très facilement te protéger de cet effet vicieux.",
+            "ecran": "Comment *éviter* le piège ?",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici les trois étapes pour ne plus te faire piéger par tes propres règles.",
+            "ecran": "Éviter le piège : 1. Tester | 2. Tester les failles | 3. Aligner",
+            "emoji": "📋",
+            "recherche": "writing notebook plan",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Avant de lancer une règle, demande-toi : comment quelqu'un pourrait en abuser ?",
+            "ecran": "Un. *Anticiper* les abus",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Mets-toi dans la peau d'un tricheur qui cherche le gain facile sans effort.",
+            "ecran": "Deux. Tester *en secret*",
+            "emoji": "2️⃣",
+            "recherche": "person smiling evil sneaky",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Recompense le résultat global réel, pas une simple action isolée et mécanique.",
+            "ecran": "Trois. Mesurer la *qualité*",
+            "emoji": "3️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mesure le vrai résultat, pas l'effort.",
+            "ecran": "Mesure le *vrai* résultat, pas l'effort.",
+            "emoji": "🎯",
+            "recherche": "successful target goal clear",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet cobra"
+      },
+      "statut": "programme",
+      "sujet": "cobra",
+      "timbre": "habituelle",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-16/20261123-2100.mp4"
     }
   ],
   "publications": [
