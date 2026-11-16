@@ -840,169 +840,13 @@
       "formule": "Démasquer",
       "id": "20261116-1230",
       "legende": "Les entreprises utilisent ton coût du changement contre toi chaque jour sans que tu voies rien.\n\nChanger de fournisseur, d'outil ou d'habitude demande du temps et de l'énergie. Les marques l'ont bien compris pour vous garder prisonniers par la fatigue.\n\nNe restez jamais dans une situation inconfortable seulement parce que l'effort de partir vous rebute.\n\nTu es resté combien de temps dans un abonnement ou un travail juste par flemme de changer ?\n\n#psychologie #productivite #carriere #developpementpersonnel",
+      "media_id": "18177792421454416",
+      "publie_le": "2026-11-16T11:32:06+00:00",
       "quand": "2026-11-16T12:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "DÃ©masquer",
-            "texte": "Les entreprises utilisent ton *coût du changement* contre toi chaque jour."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Rester par habitude te coûte plus cher que tu ne penses."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois être loyal alors que tu as juste la flemme."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "productivite",
-          "carriere",
-          "developpementpersonnel"
-        ],
-        "legende": "Les entreprises utilisent ton coût du changement contre toi chaque jour sans que tu voies rien.\n\nChanger de fournisseur, d'outil ou d'habitude demande du temps et de l'énergie. Les marques l'ont bien compris pour vous garder prisonniers par la fatigue.\n\nNe restez jamais dans une situation inconfortable seulement parce que l'effort de partir vous rebute.\n\nTu es resté combien de temps dans un abonnement ou un travail juste par flemme de changer ?",
-        "question": "Tu es resté combien de temps dans un abonnement ou un travail juste par flemme de changer ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les entreprises utilisent ton coût du changement contre toi chaque jour sans que tu voies rien.",
-            "ecran": "Les entreprises te *piÃ¨gent* avec ça.",
-            "emoji": "ð",
-            "recherche": "man looking phone frustrated",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que ça fonctionne aussi dans ta vie perso et dans ton travail au bureau.",
-            "ecran": "Et le *pire*, c'est la suite.",
-            "emoji": "â ï¸",
-            "recherche": "stressed office worker",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu gardes ton opérateur internet même quand le prix augmente car changer demande trop d'efforts.",
-            "ecran": "Tu *restes* malgré les hausses.",
-            "emoji": "ð¸",
-            "recherche": "person looking at bill",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Il faut résilier, renvoyer la box, comparer les offres et attendre le technicien des semaines.",
-            "ecran": "Changer de *fournisseur* fatigue.",
-            "emoji": "ð±",
-            "recherche": "typing on laptop frustrated",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au travail, tu gardes ce vieux logiciel lent parce que réapprendre un outil prend un temps fou.",
-            "ecran": "Pareil pour les *logiciels*.",
-            "emoji": "ð§",
-            "recherche": "office software screen",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Changer d'habitude coûte du temps, de l'argent et beaucoup d'énergie mentale à ton cerveau.",
-            "ecran": "Ton cerveau déteste la *rupture*.",
-            "emoji": "ð§ ",
-            "recherche": "thinking brain abstract",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est exactement ce qu'on appelle le coût du changement, et tout le monde se fait avoir.",
-            "ecran": "C'est le coût du *changement*.",
-            "emoji": "ð±",
-            "recherche": "person overwhelmed",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Même constat dans ta carrière, tu restes dans un mauvais poste juste par peur de tout refaire.",
-            "ecran": "Même problème pour ton *job*.",
-            "emoji": "ð¼",
-            "recherche": "person walking in office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour t'en sortir, voici deux étapes simples à appliquer dès aujourd'hui dans tes choix.",
-            "ecran": "Comment *agir* concrètement.",
-            "emoji": "â",
-            "recherche": "checklist on paper",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un, demande-toi si tu restes par choix réel ou juste parce que partir te demande trop d'effort.",
-            "ecran": "1. Évalue la vraie *valeur*.",
-            "emoji": "ð¯",
-            "recherche": "weighing scale balance",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux, si tu entrepreneurs, ne compte pas sur la fidélité, rends ton service indispensable chaque jour.",
-            "ecran": "2. Rends l'utile *quotidien*.",
-            "emoji": "ð¡",
-            "recherche": "idea light bulb",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ne reste jamais quelque part seulement parce que partir te fatigue.",
-            "ecran": "Ne reste pas par *flemme*.",
-            "emoji": "ð¥",
-            "recherche": "sunset inspiring view",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le coût du changement"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "changer_coute",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DfzQPGziH50/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-1230.mp4"
     },
     {
@@ -4580,6 +4424,13 @@
       "media_id": "18095680136495873",
       "sujet": "telephone_table",
       "url": "https://www.instagram.com/reel/Dfxl6d1EcOS/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-16",
+      "media_id": "18177792421454416",
+      "sujet": "changer_coute",
+      "url": "https://www.instagram.com/reel/DfzQPGziH50/"
     }
   ]
 }
