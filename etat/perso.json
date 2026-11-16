@@ -872,103 +872,13 @@
       "formule": "Révélation",
       "id": "20261116-2100",
       "legende": "Ce petit réflexe te coûte plus cher que tu ne crois.\n\nOn passe souvent beaucoup trop de temps à imaginer le pire avant un événement difficile. Le cerveau anticipe et crée du stress inutilement.\n\nPour calmer cette peur, écris simplement ce qui t'angoisse et prévois ce que tu ferais. Avoir un plan change tout.\n\nQuel est le dernier événement qui t'a fait stresser inutilement ? 🧠📉\n\n#psychologie #stress #developpementpersonnel #confianceensoi",
+      "media_id": "17929895157441204",
+      "publie_le": "2026-11-16T20:38:41+00:00",
       "quand": "2026-11-16T21:00:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe te coûte plus cher que tu ne crois."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Imaginer le pire te stresse plus que de le vivre."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu penses que paniquer t'aide à te préparer ?"
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "stress",
-          "developpementpersonnel",
-          "confianceensoi"
-        ],
-        "legende": "Ce petit réflexe te coûte plus cher que tu ne crois.\n\nOn passe souvent beaucoup trop de temps à imaginer le pire avant un événement difficile. Le cerveau anticipe et crée du stress inutilement.\n\nPour calmer cette peur, écris simplement ce qui t'angoisse et prévois ce que tu ferais. Avoir un plan change tout.\n\nQuel est le dernier événement qui t'a fait stresser inutilement ? 🧠📉",
-        "question": "Quel est le dernier événement qui t'a fait stresser inutilement ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce petit réflexe te coûte plus cher que tu ne crois.",
-            "ecran": "Ce *réflexe* te coûte cher",
-            "emoji": "🧠",
-            "recherche": "man stressed phone",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "On souffre souvent plus en imaginant un événement difficile qu'en le vivant réellement.",
-            "ecran": "C'est *l'anxiété* d'anticipation",
-            "emoji": "😰",
-            "recherche": "worried person desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "La veille d'un entretien important, ton cerveau imagine déjà tous les pires scénarios possibles.",
-            "ecran": "Avant un *rendez-vous*",
-            "emoji": "📄",
-            "recherche": "person looking at papers",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton esprit panique parce qu'il essaie de se protéger contre un danger qui n'existe pas encore.",
-            "ecran": "Le cerveau *anticipe*",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici l'astuce : écris le pire scénario, puis liste ce que tu ferais s'il arrivait vraiment.",
-            "ecran": "Écris le *pire* | Prévois ton plan",
-            "emoji": "✍️",
-            "recherche": "writing notebook",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Avoir un plan réduit la peur et redonne le contrôle à ton cerveau.",
-            "ecran": "Avoir un *plan* réduit la peur",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'anxiété d'anticipation"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "anxiete_anticipation",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df0OyC8D_iL/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-09/20261116-2100.mp4"
     },
     {
@@ -5091,6 +5001,13 @@
       "media_id": "18221891464350453",
       "sujet": "lindy",
       "url": "https://www.instagram.com/reel/Dfz5b0Hk19Z/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-16",
+      "media_id": "17929895157441204",
+      "sujet": "anxiete_anticipation",
+      "url": "https://www.instagram.com/reel/Df0OyC8D_iL/"
     }
   ]
 }
