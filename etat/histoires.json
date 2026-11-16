@@ -19,151 +19,145 @@
   "kreuger",
   "renifleurs",
   "hanau",
-  "carbone"
+  "carbone",
+  "bernhard",
+  "trainpostal"
  ],
  "attente_partie2": {
-  "id": "carbone",
-  "jour_partie1": "2026-11-15",
+  "id": "trainpostal",
+  "jour_partie1": "2026-11-16",
   "script": {
-   "titre": "Le casse du siècle sur le CO2 - Partie 1",
+   "titre": "Le casse du siècle du train postal",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "Ils ont volé *1,6 milliard* en 8 mois.",
+     "ecran": "Un *train postal* en pleine nuit",
      "grand": null,
-     "dit": "Ils ont volé un virgule six milliard d'euros à l'État en huit mois.",
-     "image": 1,
-     "recherche": "Banque de France Paris"
+     "dit": "Tu penses que les plus gros braquages se font dans les banques ? Tu te trompes.",
+     "image": 0,
+     "recherche": "mail train night 1960s"
     },
     {
      "type": "recit",
-     "ecran": "L'arnaque *parfaite* sans marchandise",
+     "ecran": "La *voie ferrée* dans la nuit",
      "grand": null,
-     "dit": "Pas de conteneurs de jeans ni d'ordinateurs. Juste du vent et des clics.",
+     "dit": "Le 8 août 1963 en Angleterre, une bande attaque un convoi lancé à pleine vitesse.",
      "image": 2,
-     "recherche": "Carbon trading exchange"
+     "recherche": null
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Plus de *2,6 millions* de livres",
+     "grand": "2,6 millions",
+     "dit": "À bord, un magot exceptionnel attend en petites coupures destinées à la destruction.",
+     "image": 3,
+     "recherche": "British railway money bags 1960s"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le *pont* de Bridego",
+     "grand": null,
+     "dit": "Le plan est minutieusement préparé par des criminels qui n'ont pourtant aucune expérience des trains.",
+     "image": 4,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "La *ferme isolée* des braqueurs",
+     "grand": null,
+     "dit": "Ils s'installent dans une ferme isolée pour planifier le coup pendant de longs mois.",
+     "image": 5,
+     "recherche": "isolated english farmhouse 1960s"
     },
     {
      "type": "date",
-     "ecran": "Création du marché du carbone",
-     "grand": "2005",
-     "dit": "En 2005, l'Union européenne crée la bourse du carbone pour l'environnement.",
+     "ecran": "Le *7 août 1963*",
+     "grand": "1963",
+     "dit": "Le train quitte Glasgow à destination de Londres avec soixante-douze employés à bord.",
+     "image": 6,
+     "recherche": "Glasgow Central station 1960s"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le *wagon* de valeurs",
+     "grand": null,
+     "dit": "Le second wagon transporte les fonds, mais il est dépourvu de radio et de système de sécurité.",
+     "image": 0,
+     "recherche": "railway mail sorting car interior"
+    },
+    {
+     "type": "recit",
+     "ecran": "La *signalisation* piratée",
+     "grand": null,
+     "dit": "Vers trois heures du matin, les braqueurs trafiquent les signaux ferroviaires pour stopper net le convoi.",
      "image": 2,
-     "recherche": "European Union flag"
+     "recherche": "railway signals night uk"
     },
     {
      "type": "recit",
-     "ecran": "Une *faille* de sécurité béante",
+     "ecran": "La *locomotive* décrochée",
      "grand": null,
-     "dit": "Pour ouvrir un compte, il suffit d'une carte d'identité et d'une adresse.",
+     "dit": "Un conducteur de train retraité s'empare de la locomotive et conduit le convoi jusqu'au pont choisi.",
      "image": 3,
-     "recherche": "Caisse des Depots Paris"
+     "recherche": "british diesel locomotive 1960s"
     },
     {
      "type": "recit",
-     "ecran": "Aucun *contrôle* physique au départ",
+     "ecran": "Les *postiers* neutralisés",
      "grand": null,
-     "dit": "La Caisse des dépôts ne vérifie rien sur le terrain. C'est la porte ouverte.",
-     "image": 5,
-     "recherche": "Computer screen trading"
-    },
-    {
-     "type": "recit",
-     "ecran": "La méthode du *carrousel* TVA",
-     "grand": null,
-     "dit": "Grégory Zaoui comprend le truc en premier. Il lance la machine.",
-     "image": 6,
-     "recherche": "Paris Belleville district"
-    },
-    {
-     "type": "recit",
-     "ecran": "Acheter *sans TVA* à l'étranger",
-     "grand": null,
-     "dit": "Tu achètes des quotas hors taxe dans un pays voisin via une coquille vide.",
-     "image": 4,
-     "recherche": "European map vector"
-    },
-    {
-     "type": "recit",
-     "ecran": "Revendre avec *19,6 %* de taxe",
-     "grand": null,
-     "dit": "Tu revends les quotas en France avec dix-neuf,six pour cent de TVA.",
-     "image": 5,
-     "recherche": "Eiffel Tower Paris"
-    },
-    {
-     "type": "recit",
-     "ecran": "Poche la *TVA* et disparais",
-     "grand": null,
-     "dit": "Tu encaisses la taxe, tu ne la reversois jamais à l'État et tu disparais.",
-     "image": 6,
-     "recherche": "US dollars cash money"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "La TVA détournée à chaque tour",
-     "grand": "19,6 %",
-     "dit": "Dix-neuf,six pour cent de profit net immédiat sur chaque opération.",
-     "image": 10,
-     "recherche": "Calculator money stock"
-    },
-    {
-     "type": "recit",
-     "ecran": "Le milieu s'en *empare*",
-     "grand": null,
-     "dit": "L'astuce circule à Belleville. Tout le monde veut sa part du gâteau.",
-     "image": 7,
-     "recherche": "Casino poker chips"
-    },
-    {
-     "type": "recit",
-     "ecran": "Arnaud Mimran rentre dans le *jeu*",
-     "grand": null,
-     "dit": "De riches personnalités comme Arnaud Mimran injectent des millions.",
-     "image": 8,
-     "recherche": "Luxury sports car"
-    },
-    {
-     "type": "recit",
-     "ecran": "Des *milliards* échangés par jour",
-     "grand": null,
-     "dit": "Sur la bourse Bluenext, les millions tournent en boucle en quelques clics.",
+     "dit": "Sans tirer le moindre coup de feu, ils neutralisent les postiers à coups de matraque.",
      "image": 1,
-     "recherche": "Stock market ticker screen"
-    },
-    {
-     "type": "recit",
-     "ecran": "Des comptes vers *Hong Kong*",
-     "grand": null,
-     "dit": "L'argent part instantanément vers Hong Kong, Singapour ou la Géorgie.",
-     "image": 9,
-     "recherche": "Hong Kong skyline night"
+     "recherche": null
     },
     {
      "type": "chiffre",
-     "ecran": "Dégâts au niveau *européen*",
-     "grand": "6 milliards",
-     "dit": "En Europe, près de six milliards d'euros s'évaporent au total.",
-     "image": 10,
-     "recherche": "European Central Bank"
+     "ecran": "128 sacs de *billets*",
+     "grand": "128",
+     "dit": "Ils s'emparent de cent vingt-huit sacs remplis de billets en un temps record.",
+     "image": 6,
+     "recherche": "sacks of mail bags post office"
+    },
+    {
+     "type": "recit",
+     "ecran": "La *fuite* du gang",
+     "grand": null,
+     "dit": "Avant de fuir, un homme ordonne aux gardes de rester tranquilles pendant trente minutes.",
+     "image": 5,
+     "recherche": "police investigation 1960s uk"
+    },
+    {
+     "type": "date",
+     "ecran": "Le *12 août 1963*",
+     "grand": "12 août",
+     "dit": "Cinq jours plus tard, la police locale le labyrinthe de la ferme abandonnée.",
+     "image": 0,
+     "recherche": "police tape crime scene 1960s"
+    },
+    {
+     "type": "recit",
+     "ecran": "Un jeu de *Monopoly*",
+     "grand": null,
+     "dit": "Les criminels ont oublié d'effacer leurs empreintes sur un jeu de Monopoly utilisé sur place.",
+     "image": 2,
+     "recherche": "vintage monopoly board game 1960s"
     },
     {
      "type": "suite",
-     "ecran": "Comment l'État a-t-il *réagi* ?",
+     "ecran": "Comment ont-ils été *retrouvés* ?",
      "grand": null,
-     "dit": "Mais comment l'État s'en est-il rendu compte ? La suite dans la partie 2.",
-     "image": 11,
-     "recherche": "Police flashing lights"
+     "dit": "Comment la police a-t-elle piégé les coupables ? La suite dans la partie 2.",
+     "image": 3,
+     "recherche": null
     }
    ],
-   "question": "Tu connaissais cette faille sur le carbone ?",
-   "legende": "Ils ont volé 1,6 milliard d'euros à l'État en 8 mois sans bouger de leur fauteuil. Découvrez le plus grand casse du siècle sur le CO2.\nTu connaissais cette faille sur le carbone ?",
+   "question": "Tu aurais pensé à utiliser un jeu de Monopoly pour laisser des empreintes ?",
+   "legende": "En août 1963, un train postal transportant une fortune est attaqué en pleine nuit en Angleterre sans un seul coup de feu. Un casse légendaire qui va basculer à cause d'un simple détail oublié dans une ferme. Comment la police a-t-elle remonté la piste des braqueurs ? Tu aurais pensé à utiliser un jeu de Monopoly pour laisser des empreintes ?",
    "hashtags": [
     "histoire",
-    "arnaque",
-    "argent",
-    "escroquerie",
-    "documentaire"
+    "braquage",
+    "faitdivers",
+    "archive",
+    "angleterre"
    ],
    "_credit_musique": "« freaky news » par Baringo (CC0, Freesound)"
   }
@@ -402,6 +396,24 @@
    "id": "carbone",
    "format": "serie",
    "nom": "hva-carbone-p1"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "carbone",
+   "format": "serie2",
+   "nom": "hva-carbone-p2"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "bernhard",
+   "format": "chiffre",
+   "nom": "hva-bernhard-c"
+  },
+  {
+   "jour": "2026-11-16",
+   "id": "trainpostal",
+   "format": "serie",
+   "nom": "hva-trainpostal-p1"
   }
  ],
  "en_chiffre": [
@@ -783,6 +795,48 @@
    "reseau": "youtube",
    "buffer": "6af950ffe86a5789a6f32293",
    "heure": "2026-11-15T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "hva-carbone-p2",
+   "reseau": "tiktok",
+   "buffer": "6afaa293a869c35e5bc1a573",
+   "heure": "2026-11-16T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "hva-carbone-p2",
+   "reseau": "youtube",
+   "buffer": "6afaa29306e1675856cfa7a6",
+   "heure": "2026-11-16T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "hva-bernhard-c",
+   "reseau": "tiktok",
+   "buffer": "6afaa29406e1675856cfa7d0",
+   "heure": "2026-11-16T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "hva-bernhard-c",
+   "reseau": "youtube",
+   "buffer": "6afaa294d7e5fee638a69ba2",
+   "heure": "2026-11-16T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "hva-trainpostal-p1",
+   "reseau": "tiktok",
+   "buffer": "6afaa295ff465c57dad9f850",
+   "heure": "2026-11-16T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-16",
+   "nom": "hva-trainpostal-p1",
+   "reseau": "youtube",
+   "buffer": "6afaa29506e1675856cfa7f8",
+   "heure": "2026-11-16T20:30:00+01:00"
   }
  ]
 }
