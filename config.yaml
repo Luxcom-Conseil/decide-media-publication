@@ -159,12 +159,21 @@ histoires:
     compression: true
     formats:                            # la rubrique Présidentielle 2027 garde l'habillage, sans effets de thriller
       programme: {sans: [accroche, suite], gain_db: -3}
+  # Recentrage du 17/11/2026 (bilan des deux premières semaines, validé par Stéphane) : le « chiffre fou » de 18 h 30
+  # faisait 4,5 vues en moyenne sur 11 vidéos ; restent la partie 2 à 12 h 30 et la partie 1 à 20 h 30.
+  formats: [serie2, serie]
 
 # Rubrique « Présidentielle 2027 » sur le même compte (agent/programme.py, workflow programme.yml) : programme de LFI
 # expliqué, en plus des histoires. 6/jour jusqu'au 07/01/2027, puis 2 en semaine et 4 le week-end jusqu'au 16/04 ;
 # rien les 17-18/04 et 01-02/05. Entre les deux tours : 6/jour seulement si LFI est qualifiée.
 programme:
   second_tour: null           # à passer à true (LFI qualifiée) ou false au soir du 18/04/2027
+  # Recentrage du 17/11/2026 (bilan des deux premières semaines, validé par Stéphane) : 3 vidéos par jour à 9 h,
+  # 16 h 30 et 22 h au lieu de 6 (11 h 15 et 14 h 30 faisaient 1 vue en moyenne). Moyennes de vues TikTok par thème :
+  # ruralités 40, enseignement supérieur 31, logement 21, comptes publics 16 ; automobile 4, santé 4, pôle bancaire 2.
+  par_jour: 3
+  themes_prioritaires: [plan-ruralites, plan-esr, plan-btp-logement, comptes-publics]
+  themes_en_pause: [pole-public-bancaire, plan-sante, plan-automobile]   # repris seulement quand les autres sont épuisés
   voix:                       # voix plus chaude que celle des histoires (demande de Stéphane du 07/11/2026)
     nom: Algieba
     demi_tons: 1

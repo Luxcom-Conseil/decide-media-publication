@@ -139,7 +139,9 @@ et visible (« Eiffel Tower 1920s », « Hotel de Crillon », « Al Capone », �
 « Amsterdam 17th century »), jamais une idée abstraite ; sinon null. L'accroche a toujours une image ou une recherche.
 
 « titre » : le nom de l'affaire, 40 caractères au plus.
-« question » : une question courte qui fait réagir (« Tu aurais cru à son héritage ? »). Ne la mets pas dans les scènes.
+« question » : une question courte à laquelle on répond en UN mot en commentaire, et qui invite à le faire (« Toi, \
+tu lui aurais donné ton argent ? Oui ou non, en commentaire. », « Escroc ou génie ? Dis-le en commentaire. »). Pas de \
+question qui demande un long avis. Ne la mets pas dans les scènes.
 « legende » : la légende TikTok, 2 à 4 lignes : l'accroche, puis une phrase qui donne envie, puis la question. Pas de \
 hashtag ni de lien dans le texte, pas d'émoji.
 « hashtags » : 3 à 5 hashtags en français, sans le #."""
@@ -551,7 +553,10 @@ def produire(cfg: dict, log, jour: str) -> list[dict]:
     faites = []
     attente = etat.get("attente_partie2")
     deja: set = set()  # sujets déjà essayés aujourd'hui
-    for format_ in ("serie2", "chiffre", "serie"):
+    # « chiffre fou » retiré le 17/11/2026 (4,5 vues en moyenne sur 11 vidéos, contre 33 pour les parties 2) ;
+    # config.yaml histoires.formats le remet si besoin
+    formats = (cfg.get("histoires") or {}).get("formats") or ["serie2", "chiffre", "serie"]
+    for format_ in [f for f in ("serie2", "chiffre", "serie") if f in formats]:
         if format_ == "serie2" and not attente:
             continue
         for _ in range(1 if format_ == "serie2" else ESSAIS_PAR_CRENEAU):

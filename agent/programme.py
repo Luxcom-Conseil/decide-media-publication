@@ -44,10 +44,11 @@ DOCS = {  # nom du fichier → titre du document, tel que publié par la campagn
 # --------------------------------------------------------------------------- calendrier
 
 PREMIER_TOUR, SECOND_TOUR = date(2027, 4, 18), date(2027, 5, 2)
-CRENEAUX = {  # heure de Paris ; les histoires gardent 12 h 30, 18 h 30 et 20 h 30
+CRENEAUX = {  # heure de Paris ; les histoires gardent 12 h 30 et 20 h 30
     6: ["07:30", "09:45", "11:15", "14:30", "16:30", "22:00"],
-    4: ["09:45", "14:30", "16:30", "22:00"],
-    2: ["11:15", "22:00"],
+    4: ["09:00", "16:30", "18:30", "22:00"],
+    3: ["09:00", "16:30", "22:00"],   # 17/11/2026 : les créneaux qui marchent (9 h, 16 h 30) ; 11 h 15 et 14 h 30 à 1 vue
+    2: ["09:00", "16:30"],
 }
 
 
@@ -56,7 +57,8 @@ def quota(jour: date, cfg: dict) -> int:
     if jour in (PREMIER_TOUR - timedelta(1), PREMIER_TOUR, SECOND_TOUR - timedelta(1), SECOND_TOUR):
         return 0  # veille et jour de scrutin : aucune propagande électorale (Code électoral, L49)
     if jour <= date(2027, 1, 7):
-        return 6
+        # 6/jour à l'origine ; config.yaml programme.par_jour le baisse (17/11/2026 : 3, moins mais mieux)
+        return int((cfg.get("programme") or {}).get("par_jour") or 6)
     if jour < PREMIER_TOUR:
         return 4 if jour.weekday() >= 5 else 2
     if jour < SECOND_TOUR:
@@ -150,16 +152,25 @@ def extraire_fiches(cfg: dict, log=print, seulement: str | None = None) -> list[
     return fiches
 
 
-def _ordre(fiches: list[dict]) -> list[dict]:
-    """Les documents en alternance (un sujet de chaque à tour de rôle), pour varier d'une vidéo à l'autre."""
+def _ordre(fiches: list[dict], cfg: dict | None = None) -> list[dict]:
+    """Les documents en alternance (un sujet de chaque à tour de rôle), pour varier d'une vidéo à l'autre.
+    config.yaml programme.themes_prioritaires passe d'abord (dans cet ordre), programme.themes_en_pause en dernier
+    (seulement quand les autres sont épuisés)."""
+    p = (cfg or {}).get("programme") or {}
+    prio, pause = list(p.get("themes_prioritaires") or []), set(p.get("themes_en_pause") or [])
     par_doc: dict[str, list[dict]] = {}
     for f in fiches:
         par_doc.setdefault(f["doc"], []).append(f)
-    files = list(par_doc.values())
-    sortie = []
-    for k in range(max((len(x) for x in files), default=0)):
-        sortie += [x[k] for x in files if k < len(x)]
-    return sortie
+    docs = sorted(par_doc, key=lambda d: (d in pause, prio.index(d) if d in prio else len(prio)))
+
+    def alterner(liste):
+        files = [par_doc[d] for d in liste]
+        sortie = []
+        for k in range(max((len(x) for x in files), default=0)):
+            sortie += [x[k] for x in files if k < len(x)]
+        return sortie
+
+    return alterner([d for d in docs if d not in pause]) + alterner([d for d in docs if d in pause])
 
 
 # --------------------------------------------------------------------------- script
@@ -232,8 +243,9 @@ trouver une photo libre sur Wikimedia Commons d'une chose réelle et visible li�
 hemicycle », « Banque de France », « euro banknotes », « French hospital », « Paris Bourse », « La Poste France », \
 « Jean-Luc Melenchon »), jamais une idée abstraite ; deux scènes qui se suivent n'ont pas la même recherche.
 
-« titre » : le sujet, 40 caractères au plus. « question » : une question courte qui fait réagir sans orienter la \
-réponse (« Tu serais pour ou contre ? », « Ça changerait quoi pour toi ? »). Ne la mets pas dans les scènes.
+« titre » : le sujet, 40 caractères au plus. « question » : une question courte, sans orienter la réponse, à \
+laquelle on répond en UN mot en commentaire, et qui invite à le faire (« Pour ou contre ? Dis-le en commentaire. », \
+« Ça te concerne ? Oui ou non, en commentaire. »). Ne la mets pas dans les scènes.
 « legende » : la légende, 2 à 4 lignes : l'accroche, une phrase qui donne envie, la question. Pas de hashtag ni de \
 lien, pas d'émoji. « hashtags » : 3 à 5 hashtags en français sans le #, dont presidentielle2027."""
 
@@ -354,7 +366,7 @@ def produire(cfg: dict, log, jour: str) -> list[dict]:
         log(f"ℹ️ aucune vidéo programme prévue le {jour} (calendrier électoral)")
     else:
         etat = lire_etat()
-        fiches = [f for f in _ordre(json.loads(FICHES.read_text(encoding="utf-8")))
+        fiches = [f for f in _ordre(json.loads(FICHES.read_text(encoding="utf-8")), cfg)
                   if f["id"] not in etat["faits"] and f["id"] not in etat["ecartes"]]
         heures = CRENEAUX[n]
         deja = sum(1 for j in etat["journal"] if j["jour"] == jour)  # relance dans la journée : seulement le manque
