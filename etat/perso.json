@@ -920,202 +920,13 @@
       "formule": "Liste",
       "id": "20261117-2100",
       "legende": "3 phrases au travail qui bloquent discrètement ta carrière.\n\nQuand tu te dis que tu n'es pas doué pour une tâche, ton cerveau bloque et tu évites le défi. Croire que tes compétences sont figées t'empêche de progresser au travail.\n\nPour transformer ta carrière, change tes phrases. Ajoute simplement « pas encore » à tes limites. Dire « je ne sais pas encore faire ça » active la persévérance et t'aide à apprendre.\n\nQuelle phrase as-tu tendance à répéter au bureau ?\n\n#travail #carriereprofessionnelle #confianceensoi #psychologie",
+      "media_id": "18110549147206059",
+      "publie_le": "2026-11-17T20:01:05+00:00",
       "quand": "2026-11-17T21:00:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Liste",
-            "texte": "3 phrases au travail qui bloquent discrètement ta carrière."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce réflexe face à un collègue te coûte ta carrière."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois manquer de talent ? Ton cerveau te piège."
-          }
-        ],
-        "hashtags": [
-          "travail",
-          "carriereprofessionnelle",
-          "confianceensoi",
-          "psychologie"
-        ],
-        "legende": "3 phrases au travail qui bloquent discrètement ta carrière.\n\nQuand tu te dis que tu n'es pas doué pour une tâche, ton cerveau bloque et tu évites le défi. Croire que tes compétences sont figées t'empêche de progresser au travail.\n\nPour transformer ta carrière, change tes phrases. Ajoute simplement « pas encore » à tes limites. Dire « je ne sais pas encore faire ça » active la persévérance et t'aide à apprendre.\n\nQuelle phrase as-tu tendance à répéter au bureau ?",
-        "question": "Quelle phrase as-tu tendance à répéter au bureau ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici 3 phrases au travail qui bloquent discrètement ta carrière. Et la dernière est la pire !",
-            "ecran": "3 phrases qui *bloquent* ta carrière",
-            "emoji": "🚨",
-            "recherche": "office worker worried laptop",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Derrière ce blocage, un mécanisme très simple : l'état d'esprit fixe.",
-            "ecran": "Le piège de ton *cerveau*",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Quand un projet difficile arrive, tu te dis : Je ne suis pas doué pour ça.",
-            "ecran": "Première *erreur* au bureau",
-            "emoji": "🏢",
-            "recherche": "employee stressed desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Résultat ? Tu laisses le projet à un collègue par peur d'échouer.",
-            "ecran": "Tu *évites* les défis",
-            "emoji": "❌",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Ton chef te donne une critique et tu réponds : De toute façon je suis mauvais.",
-            "ecran": "Deuxième *blocage* critique",
-            "emoji": "🤐",
-            "recherche": "boss talking to employee",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu penses que tes compétences sont figées pour toujours. C'est faux.",
-            "ecran": "Tu crois que c'est *impasse*",
-            "emoji": "🔒",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Tu vois un collègue réussir et tu te dis : Lui il a du talent, pas moi.",
-            "ecran": "La *pire* des réactions",
-            "emoji": "👀",
-            "recherche": "jealous colleague watching screen",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Croire que les capacités ne changent pas te pousse à fuir tous les efforts.",
-            "ecran": "L'illusion des *capacités*",
-            "emoji": "🛑",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Esprit fixe",
-            "b": "Esprit de progression",
-            "dit": "Croire qu'on progresse par l'effort multiplie tes chances de réussir.",
-            "ecran": "L'impact sur ta *progression*",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il existe une astuce magique de deux mots pour tout changer.",
-            "ecran": "Bascule vers le *succès*",
-            "emoji": "💡",
-            "recherche": "confident businessman smiling",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ajoute systématiquement deux mots à tes phrases : pas encore.",
-            "ecran": "Méthode : Ajoute 'Pas encore' | Vise l'effort | Accepte le défi",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ne dis plus : Je ne sais pas gérer ce dossier. Mais : Je ne sais pas ENCORE faire ça.",
-            "ecran": "Change ton *discours*",
-            "emoji": "🗣️",
-            "recherche": "business person speaking meeting",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce petit mot rappelle à ton cerveau que l'effort crée la compétence.",
-            "ecran": "Entraîne ton *cerveau*",
-            "emoji": "📈",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand un collègue réussit, demande-lui comment il a appris au lieu de te comparer.",
-            "ecran": "Face aux *collègues*",
-            "emoji": "🤝",
-            "recherche": "colleagues talking office handshake",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu ne manques pas de talent, tu n'as juste pas encore appris.",
-            "ecran": "Tu ne manques pas de talent, tu n'as juste pas encore appris.",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'état d'esprit de progression"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "etat_esprit",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df2vRPglX4h/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261117-2100.mp4"
     },
     {
@@ -5043,6 +4854,13 @@
       "media_id": "18044771627840348",
       "sujet": "prenom",
       "url": "https://www.instagram.com/reel/Df2eQSImLAh/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-17",
+      "media_id": "18110549147206059",
+      "sujet": "etat_esprit",
+      "url": "https://www.instagram.com/reel/Df2vRPglX4h/"
     }
   ]
 }
