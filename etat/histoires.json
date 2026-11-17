@@ -21,7 +21,8 @@
   "hanau",
   "carbone",
   "bernhard",
-  "trainpostal"
+  "trainpostal",
+  "joconde"
  ],
  "attente_partie2": {
   "id": "trainpostal",
@@ -160,7 +161,8 @@
     "angleterre"
    ],
    "_credit_musique": "« freaky news » par Baringo (CC0, Freesound)"
-  }
+  },
+  "echecs": 1
  },
  "journal": [
   {
@@ -414,6 +416,36 @@
    "id": "trainpostal",
    "format": "serie",
    "nom": "hva-trainpostal-p1"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "trainpostal",
+   "format": "serie2",
+   "erreur": "script refusé au contrôle : accroche dite trop longue (88 caractères, 75 au plus : 2 à 4 secondes)"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "joconde",
+   "format": "chiffre",
+   "nom": "hva-joconde-c"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "postiches",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : accroche dite trop longue (90 caractères, 75 au plus : 2 à 4 secondes)"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "rennes",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 888 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "fouquet",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 10 scènes (13 à 24 attendues) ; 749 caractères dits, il en faut de 1150 à 1700 (question comprise)"
   }
  ],
  "en_chiffre": [
@@ -424,7 +456,10 @@
   "bernhard",
   "joconde",
   "fyre",
-  "delvey"
+  "delvey",
+  "postiches",
+  "rennes",
+  "fouquet"
  ],
  "ecartes": {
   "humbert": "script refusé au contrôle : 643 caractères dits, il en faut de 380 à 600 (question comprise)",
@@ -837,6 +872,20 @@
    "reseau": "youtube",
    "buffer": "6afaa29506e1675856cfa7f8",
    "heure": "2026-11-16T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "hva-joconde-c",
+   "reseau": "tiktok",
+   "buffer": "6afc0d73765d8cbc422cefde",
+   "heure": "2026-11-17T18:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "hva-joconde-c",
+   "reseau": "youtube",
+   "buffer": "6afc0d73765d8cbc422cf006",
+   "heure": "2026-11-17T18:30:00+01:00"
   }
  ]
 }
