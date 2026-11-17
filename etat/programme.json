@@ -59,13 +59,21 @@
   "plan-ruralites-009",
   "comptes-publics-010",
   "pole-public-bancaire-010",
-  "plan-sante-010"
+  "plan-sante-010",
+  "plan-esr-010",
+  "plan-btp-logement-010",
+  "plan-automobile-010",
+  "comptes-publics-011",
+  "pole-public-bancaire-011",
+  "plan-sante-011"
  ],
  "ecartes": {
   "plan-automobile-002": "script refusé au contrôle : 9 scènes (10 à 17 attendues) ; ton de campagne interdit (« vote ») : on explique, on ne fait pas campagne",
   "plan-esr-003": "script refusé au contrôle : 9 scènes (10 à 17 attendues) ; 834 caractères dits, il en faut de 850 à 1250 (question comprise)",
   "plan-ruralites-007": "script refusé au contrôle : accroche dite trop longue (83 caractères, 75 au plus : 2 à 4 secondes) ; chiffres absents de l'article : 100",
-  "plan-ruralites-008": "script refusé au contrôle : l'accroche commence par une mise en place (date, « Imagine », « Aujourd'hui »…) : démarre au milieu de l'action"
+  "plan-ruralites-008": "script refusé au contrôle : l'accroche commence par une mise en place (date, « Imagine », « Aujourd'hui »…) : démarre au milieu de l'action",
+  "plan-btp-logement-009": "script refusé au contrôle : accroche dite trop longue (85 caractères, 75 au plus : 2 à 4 secondes) ; l'accroche commence par une mise en place (date, « Imagine », « Aujourd'hui »…) : démarre au milieu",
+  "plan-automobile-009": "script refusé au contrôle : accroche dite trop longue (99 caractères, 75 au plus : 2 à 4 secondes) ; l'accroche commence par une mise en place (date, « Imagine », « Aujourd'hui »…) : démarre au milieu"
  },
  "journal": [
   {
@@ -367,6 +375,36 @@
    "jour": "2026-11-16",
    "id": "plan-sante-010",
    "nom": "prog-plan-sante-010"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "plan-esr-010",
+   "nom": "prog-plan-esr-010"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "plan-btp-logement-010",
+   "nom": "prog-plan-btp-logement-010"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "plan-automobile-010",
+   "nom": "prog-plan-automobile-010"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "comptes-publics-011",
+   "nom": "prog-comptes-publics-011"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "pole-public-bancaire-011",
+   "nom": "prog-pole-public-bancaire-011"
+  },
+  {
+   "jour": "2026-11-17",
+   "id": "plan-sante-011",
+   "nom": "prog-plan-sante-011"
   }
  ],
  "programmes": [
@@ -1210,6 +1248,90 @@
    "reseau": "youtube",
    "buffer": "6afab9ffff465c57dae237f0",
    "heure": "2026-11-16T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-plan-esr-010",
+   "reseau": "tiktok",
+   "buffer": "6afc1ded05a7e8ecf84fc28b",
+   "heure": "2026-11-17T10:47:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-plan-esr-010",
+   "reseau": "youtube",
+   "buffer": "6afc1dedd62bd5b486382515",
+   "heure": "2026-11-17T10:47:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-plan-btp-logement-010",
+   "reseau": "tiktok",
+   "buffer": "6afc1deee5d943745ede5c06",
+   "heure": "2026-11-17T10:47:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-plan-btp-logement-010",
+   "reseau": "youtube",
+   "buffer": "6afc1def3825971990f097c4",
+   "heure": "2026-11-17T10:47:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-plan-automobile-010",
+   "reseau": "tiktok",
+   "buffer": "6afc1defe5d943745ede5c67",
+   "heure": "2026-11-17T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-plan-automobile-010",
+   "reseau": "youtube",
+   "buffer": "6afc1df0f1430c135f7ae866",
+   "heure": "2026-11-17T11:15:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-comptes-publics-011",
+   "reseau": "tiktok",
+   "buffer": "6afc1df0e5d943745ede5ca4",
+   "heure": "2026-11-17T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-comptes-publics-011",
+   "reseau": "youtube",
+   "buffer": "6afc1df164f1073d81d2e637",
+   "heure": "2026-11-17T14:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-pole-public-bancaire-011",
+   "reseau": "tiktok",
+   "buffer": "6afc1df1d62bd5b4863826c9",
+   "heure": "2026-11-17T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-pole-public-bancaire-011",
+   "reseau": "youtube",
+   "buffer": "6afc1df205a7e8ecf84fc340",
+   "heure": "2026-11-17T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-plan-sante-011",
+   "reseau": "tiktok",
+   "buffer": "6afc1df2f1430c135f7ae8e5",
+   "heure": "2026-11-17T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-17",
+   "nom": "prog-plan-sante-011",
+   "reseau": "youtube",
+   "buffer": "6afc1df3d62bd5b4863826ff",
+   "heure": "2026-11-17T22:00:00+01:00"
   }
  ],
  "echecs": {
@@ -1225,7 +1347,8 @@
   "plan-ruralites-007": 2,
   "plan-btp-logement-007": 1,
   "plan-ruralites-008": 2,
-  "plan-btp-logement-009": 1,
-  "plan-automobile-009": 1
+  "plan-btp-logement-009": 2,
+  "plan-automobile-009": 2,
+  "plan-ruralites-010": 1
  }
 }
