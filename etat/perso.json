@@ -888,115 +888,13 @@
       "formule": "Défi",
       "id": "20261117-1230",
       "legende": "Personne ne m'a expliqué ça, et ça a sauvé mes journées.\n\nLe plus dur n'est jamais de faire tout le travail, mais de démarrer. Si la première étape demande trop d'effort, ton cerveau préfère procrastiner.\n\nPour débloquer ton action, réduis l'effort d'entrée au strict minimum : enfile tes baskets, ouvre le fichier, ou écris un seul mot.\n\nQuelle tâche tu repousses depuis ce matin ?\n\n#productivite #psychologie #action #efficacite #conseils",
+      "media_id": "17941448064123403",
+      "publie_le": "2026-11-17T11:31:50+00:00",
       "quand": "2026-11-17T12:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Défi",
-            "texte": "Personne ne m'a expliqué ça, et ça a sauvé mes journées."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit blocage au démarrage te coûte des heures chaque jour."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de forcer tant que tu n'as pas changé ça."
-          }
-        ],
-        "hashtags": [
-          "productivite",
-          "psychologie",
-          "action",
-          "efficacite",
-          "conseils"
-        ],
-        "legende": "Personne ne m'a expliqué ça, et ça a sauvé mes journées.\n\nLe plus dur n'est jamais de faire tout le travail, mais de démarrer. Si la première étape demande trop d'effort, ton cerveau préfère procrastiner.\n\nPour débloquer ton action, réduis l'effort d'entrée au strict minimum : enfile tes baskets, ouvre le fichier, ou écris un seul mot.\n\nQuelle tâche tu repousses depuis ce matin ?",
-        "question": "Quelle tâche tu repousses depuis ce matin ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Personne ne m'a expliqué ça, et ça a sauvé mes journées.",
-            "ecran": "Personne ne m'a *expliqué* ça",
-            "emoji": "🔥",
-            "recherche": "man sitting thoughtful desk",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le vrai problème, c'est l'énergie d'activation.",
-            "ecran": "Le blocage du *démarrage*",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu dois écrire un rapport, mais tu repousses et tu fixes l'écran vide.",
-            "ecran": "Regarder l'écran *vide*",
-            "emoji": "💻",
-            "recherche": "person looking laptop screen",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau bloque juste parce que le premier pas semble trop lourd.",
-            "ecran": "La première marche *trop haute*",
-            "emoji": "🛑",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici la solution. Un. Rends le départ ridiculement simple.",
-            "ecran": "Méthode : Étape minuscule | Action immédiate",
-            "emoji": "💡",
-            "recherche": "writing notes notebook",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Ne cherche pas à tout finir. Ouvre le fichier et écris une seule phrase.",
-            "ecran": "Écris *une seule* phrase",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Réduis l'effort pour commencer, le reste suivra tout seul.",
-            "ecran": "Réduis l'effort pour *commencer*",
-            "emoji": "✅",
-            "recherche": "person smiling standing",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'énergie d'activation"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "activation",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df11B7HjjjQ/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261117-1230.mp4"
     },
     {
@@ -5008,6 +4906,13 @@
       "media_id": "17929895157441204",
       "sujet": "anxiete_anticipation",
       "url": "https://www.instagram.com/reel/Df0OyC8D_iL/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-17",
+      "media_id": "17941448064123403",
+      "sujet": "activation",
+      "url": "https://www.instagram.com/reel/Df11B7HjjjQ/"
     }
   ]
 }
