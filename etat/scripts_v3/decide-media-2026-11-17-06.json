@@ -1,0 +1,92 @@
+{
+  "accroches": [
+    "Le Cameroun a remboursé 42,6 milliards FCFA en 2025.",
+    "La dette du Cameroun envers le C2D diminue fortement.",
+    "Seuls 8,5 milliards FCFA restent à payer en 2026."
+  ],
+  "titre": "La dette C2D du Cameroun diminue",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le Cameroun a *remboursé* 42,6 milliards FCFA",
+      "dit": "En 2025, le Cameroun a remboursé 42,6 milliards FCFA sur ses créances C2D suivies par la France."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'encours *chute* à 20,3 milliards FCFA",
+      "dit": "L'encours des créances est ainsi tombé à 20,3 milliards FCFA à la fin de l'année 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les remboursements *augmentent* de 48 %",
+      "dit": "Un an plus tôt, le pays avait remboursé 28,9 milliards FCFA, soit une hausse de près de 48 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "8,5 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus que 8,5 milliards en *2026*",
+      "dit": "Pour l'année 2026, le document français indique encore 8,5 milliards FCFA d'échéances à recevoir."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "871 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "871 milliards FCFA déjà *décaissés*",
+      "dit": "Le bilan camerounais affiche 871 milliards FCFA déjà décaissés pour financer des projets."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "juin 2016",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dernier contrat signé en *juin 2016*",
+      "dit": "Aucun nouveau C2D n'a été signé en 2025, le dernier des trois contrats datant de juin 2016."
+    }
+  ]
+}

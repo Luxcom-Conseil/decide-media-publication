@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "Les primes de responsabilité civile ont chuté de 39,8 % au premier semestre 2026.",
+    "Les primes nettes de responsabilité civile sont tombées à 3,55 milliards FCFA.",
+    "SanlamAllianz n'a déclaré aucune prime dans cette catégorie à fin juin 2026."
+  ],
+  "titre": "Responsabilité civile : les primes dégringolent",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Les primes *chutent* de 39,8 %",
+      "dit": "Les primes émises nettes de la responsabilité civile générale ont chuté de 39,8 % au premier semestre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "3 550 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Elles tombent à *3,55* milliards FCFA",
+      "dit": "Elles sont tombées à 3,55 milliards FCFA, contre 5,90 milliards un an plus tôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "5,3 %",
+        "apres": "3,3 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un poids qui *baisse* à 3,3 %",
+      "dit": "Cette branche ne pèse plus que 3,3 % des primes non-vie, contre 5,3 % un an plus tôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "908 millions",
+        "apres": "589 millions",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chanas Assurances à *589* millions FCFA",
+      "dit": "Chanas Assurances a vu ses primes diminuer de 35 %, à 589 millions FCFA contre 908 millions."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "SUNU *perd* près de 75 %",
+      "dit": "SUNU a perdu près de 75 %, de 370 à 94 millions FCFA."
+    }
+  ]
+}

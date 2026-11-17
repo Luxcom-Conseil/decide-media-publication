@@ -1,0 +1,105 @@
+{
+  "accroches": [
+    "La production de gaz de Bipaga s'est effondrée de 29,5 %.",
+    "La bouteille de gaz s'est vendue jusqu'à 15 000 FCFA.",
+    "La production de gaz à Bipaga a chuté à 200 tonnes."
+  ],
+  "titre": "Chute de la production de gaz au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Gaz: la production *chute* de 29,5 %",
+      "dit": "La production de gaz de Bipaga s'est effondrée de 29,5 % sur les dix premiers mois de l'année."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "24 100 t",
+        "apres": "17 000 t",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Seulement 17 000 tonnes *produites*",
+      "dit": "Elle atteint 17 000 tonnes sur cette période, contre 24 100 tonnes un an plus tôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "200 tonnes",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *volume* de 200 tonnes",
+      "dit": "En octobre 2026, la production sur le site de Bipaga a chuté à seulement 200 tonnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "15 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La bouteille *grimpe* au marché noir",
+      "dit": "Le prix officiel de la bouteille est de 6 500 FCFA, mais il est monté à 15 000 FCFA à Douala."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Jusqu'à 13 000 FCFA à *Yaoundé*",
+      "dit": "À Yaoundé, les vendeurs demandaient jusqu'à 13 000 FCFA en septembre durant la pénurie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "56 100 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le pays dépend des *importations*",
+      "dit": "En 2025, le Cameroun avait importé 150 420 tonnes de butane pour 56,1 milliards FCFA."
+    }
+  ]
+}

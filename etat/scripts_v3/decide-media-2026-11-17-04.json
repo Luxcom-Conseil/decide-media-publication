@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "22 000 FCFA réclamés pour une inscription au FSLC à Douala.",
+    "La CONAC menace les responsables de fraudes sur les examens 2027.",
+    "Des frais d'examens excessifs dénoncés dans les écoles du Cameroun."
+  ],
+  "titre": "Frais d'examens : la CONAC menace",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "22 000 FCFA *réclamés* à Douala",
+      "dit": "Une mère d'élève conteste le paiement de 22 000 francs CFA pour l'inscription au FSLC à Douala."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "6 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le tarif *officiel* est fixé",
+      "dit": "Le tarif officiel est de 6 000 francs CFA par examen pour la session 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des sommes *plus* élevées",
+      "dit": "À Yaoundé 6e, les sommes réclamées atteignent 19 000 francs CFA pour un examen."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le ministère *demande* des comptes",
+      "dit": "Le ministère a publié un rappel à l'ordre demandant des comptes sous huit jours."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La CONAC *met* en garde",
+      "dit": "Le président de la CONAC a indiqué que ces faits relèvent du délit de concussion."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "accroches": [
+    "Les anciennes pièces de monnaie perdent leur pouvoir libératoire.",
+    "L'échange des anciennes pièces est gratuit et sans montant limite.",
+    "L'échange des anciennes pièces finit le 31 octobre 2027."
+  ],
+  "titre": "Fin de validité des anciennes pièces",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Les vieilles pièces *perdent* leur valeur",
+      "dit": "Les anciennes pièces de monnaie de la zone Cemac perdent leur cours légal selon Les Afriques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "31 juillet 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Échange possible *jusqu'au* 31 juillet 2027",
+      "dit": "L'échange s'effectue dans les banques et microfinances jusqu'au 31 juillet 2027."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "BEAC",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Guichets de la *BEAC* ouverts",
+      "dit": "Les guichets de la banque centrale reçoivent les pièces jusqu'au 31 octobre 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Opération *gratuite* et sans limite",
+      "dit": "Selon Cameroon Tribune, l'opération reste gratuite et sans aucun plafond de montant."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *pièce d'identité* suffit",
+      "dit": "Aucune ouverture de compte n'est demandée, la présentation d'une pièce d'identité suffit."
+    }
+  ]
+}

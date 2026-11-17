@@ -1,0 +1,95 @@
+{
+  "accroches": [
+    "Les télécoms risquent 18,6 milliards FCFA de sanctions au Cameroun.",
+    "Trois opérateurs télécoms sont mis en demeure au Cameroun.",
+    "Camtel cumule 8,2 milliards FCFA de manquements dans les télécoms."
+  ],
+  "titre": "Télécoms : 18,6 milliards de sanctions visées",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "*18,6 milliards* de sanctions visées",
+      "dit": "Les opérateurs télécoms risquent 18,6 milliards FCFA de sanctions au Cameroun."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Agence de régulation des télécommunications",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Une mise en demeure de *15 jours*",
+      "dit": "Le régulateur a mis en demeure Camtel, Orange et MTN de corriger leurs manquements sous 15 jours."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Camtel cumule *8,2 milliards* FCFA",
+      "dit": "Camtel enregistre 41 manquements pour un montant de 8,2 milliards FCFA selon Ecomatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Yaoundé | Douala | Bafoussam",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des contrôles dans *trois villes*",
+      "dit": "Les contrôles ont eu lieu cet été à Yaoundé, Douala, Bafoussam et sur trois axes routiers."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des défauts sur la *voix* et *internet*",
+      "dit": "Les reproches portent sur l'usage des fréquences et la qualité des réseaux voix et internet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "112 sections",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un audit sur *112 sections* de fibre",
+      "dit": "Un audit sur 112 sections du réseau de fibre optique de Camtel reste en cours d'achèvement."
+    }
+  ]
+}
