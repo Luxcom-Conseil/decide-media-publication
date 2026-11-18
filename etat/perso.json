@@ -968,192 +968,13 @@
       "formule": "Contre-pied",
       "id": "20261118-2100",
       "legende": "Tu crois économiser sur cet abonnement ? C'est l'inverse.\n\nNotre cerveau adore classer l'argent dans des catégories mentales. Une somme découpée en un euro par jour nous semble indolore, alors que trente euros par mois nous font hésiter. Pourtant, c'est la même dépense.\n\nDe la même façon, on dépense une prime ou un cadeau en argent bien plus légèrement que son salaire mensuel.\n\nPour reprendre le contrôle, convertis systématiquement toutes tes dépenses sur la même durée et traite chaque euro de la même manière.\n\nAs-tu déjà dépensé une prime plus vite que ton salaire ?\n\n#psychologie #argent #budget #conseils #gestion",
+      "media_id": "17979129129156165",
+      "publie_le": "2026-11-18T20:02:27+00:00",
       "quand": "2026-11-18T21:00:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois économiser sur cet abonnement ? C'est l'inverse."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe quotidien te coûte plus cher que tu ne crois."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de dépenser ta prime tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "argent",
-          "budget",
-          "conseils",
-          "gestion"
-        ],
-        "legende": "Tu crois économiser sur cet abonnement ? C'est l'inverse.\n\nNotre cerveau adore classer l'argent dans des catégories mentales. Une somme découpée en un euro par jour nous semble indolore, alors que trente euros par mois nous font hésiter. Pourtant, c'est la même dépense.\n\nDe la même façon, on dépense une prime ou un cadeau en argent bien plus légèrement que son salaire mensuel.\n\nPour reprendre le contrôle, convertis systématiquement toutes tes dépenses sur la même durée et traite chaque euro de la même manière.\n\nAs-tu déjà dépensé une prime plus vite que ton salaire ?",
-        "question": "As-tu déjà dépensé une prime plus vite que ton salaire ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu crois économiser sur cet abonnement ? C'est l'inverse.",
-            "ecran": "Tu *crois* économiser ? C'est l'inverse.",
-            "emoji": "💸",
-            "recherche": "person looking at phone wallet",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est ce que tu fais quand tu reçois un cadeau en argent.",
-            "ecran": "Et le *pire* arrive à la fin.",
-            "emoji": "🚨",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce piège psychologique porte un nom : la comptabilité mentale.",
-            "ecran": "La *comptabilité mentale*",
-            "emoji": "🧠",
-            "recherche": "brain illustration thinking",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au supermarché ou en ligne, une offre à un euro par jour te paraît dérisoire.",
-            "ecran": "« 1 euro *par jour* »",
-            "emoji": "🛒",
-            "recherche": "shopping online credit card",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pourtant, si on te demande trente euros par mois immédiatement, tu hésites.",
-            "ecran": "« 30 euros *par mois* »",
-            "emoji": "📅",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Par jour",
-            "b": "Par mois",
-            "dit": "Ton cerveau sépare ces sommes alors que la dépense reste identique.",
-            "ecran": "C'est la *même* somme",
-            "emoji": "⚖️",
-            "recherche": "coins balance scale",
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu classes l'argent dans des cases différentes selon son origine ou sa destination.",
-            "ecran": "Des *cases* séparées dans ta tête",
-            "emoji": "📱",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Une prime ou un cadeau en argent est dépensé bien plus facilement que ton salaire.",
-            "ecran": "L'argent *trouvé* ou offert",
-            "emoji": "🎁",
-            "recherche": "gift box opening money",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le problème, c'est que ton cerveau oublie qu'un euro reste toujours un euro.",
-            "ecran": "Erreur : *changer* la valeur",
-            "emoji": "❌",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les vendeurs découpent les prix en petites unités pour te faire craquer.",
-            "ecran": "Les offres *jouent* là-dessus",
-            "emoji": "🛍️",
-            "recherche": "store price tag sale",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, tu peux déjouer ce réflexe avec une méthode très simple.",
-            "ecran": "Voici l'*astuce* pour contrer ça",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Ramène toujours tous les prix à la même unité, par mois ou par an, avant d'acheter.",
-            "ecran": "Méthode : 1. Tout ramener au mois | 2. Traiter chaque euro pareil",
-            "emoji": "✅",
-            "recherche": "calculator budget planning",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Rappelle-toi qu'une prime ou un cadeau en argent reste exactement de l'argent.",
-            "ecran": "Deux. *Même* valeur partout",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un euro gagné, trouvé ou offert a exactement la même valeur.",
-            "ecran": "Un *euro* gagné, trouvé ou offert a exactement la *même* valeur.",
-            "emoji": "📌",
-            "recherche": "person smiling thinking coin",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La comptabilité mentale"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "compte_mental",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df5UN9zjJdF/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261118-2100.mp4"
     },
     {
@@ -5156,6 +4977,13 @@
       "media_id": "17968818366228074",
       "sujet": "feynman",
       "url": "https://www.instagram.com/reel/Df5DCBKDspp/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-18",
+      "media_id": "17979129129156165",
+      "sujet": "compte_mental",
+      "url": "https://www.instagram.com/reel/Df5UN9zjJdF/"
     }
   ]
 }
