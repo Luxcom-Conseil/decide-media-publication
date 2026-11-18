@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "Seulement 4,1 pour cent des financements ont été décaissés pour le BRT de Douala.",
+    "Dix milliards de francs CFA ont été décaissés pour le projet de BRT à Douala.",
+    "La Banque mondiale maintient un jugement insatisfaisant sur l'avancement du BRT de Douala."
+  ],
+  "titre": "BRT de Douala : le compteur bloqué",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Seulement *4,1 pour cent* décaissés",
+      "dit": "Seulement 4,1 pour cent des financements ont été décaissés pour le BRT de Douala au 29 octobre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "10 400 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dix milliards de *francs CFA*",
+      "dit": "Cela représente 17,4 millions de dollars, soit environ 10,4 milliards de francs CFA sur 420 millions prévus."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "5",
+        "apres": "5",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Exécution budgétaire *inférieure à 5 pour cent*",
+      "dit": "Le taux d'exécution du budget annuel du projet était inférieur à 5 pour cent au 31 août 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "60 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Soixante millions de *dollars requis*",
+      "dit": "La Banque mondiale demande un seuil d'au moins 60 millions de dollars décaissés avant les grands contrats."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "16 juin 2028",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Clôture fixée au *16 juin 2028*",
+      "dit": "La clôture du projet est actuellement fixée au 16 juin 2028, et une prolongation pourrait être examinée."
+    }
+  ]
+}

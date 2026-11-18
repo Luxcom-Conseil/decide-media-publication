@@ -1,0 +1,76 @@
+{
+  "accroches": [
+    "La surtaxe sur les conteneurs venant de Chine atteint 417 000 FCFA.",
+    "Un conteneur venant de Chine subit 417 000 FCFA de surtaxe.",
+    "La surtaxe de fret depuis la Chine passe à 700 dollars."
+  ],
+  "titre": "Fret Chine-Cameroun : hausse des surtaxes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Surtaxe Chine : *417 000 FCFA*",
+      "dit": "La surtaxe sur les conteneurs de marchandises venant de Chine atteint désormais près de 417 000 FCFA par unité."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "CMA CGM",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Tarifs CMA CGM à *700 dollars*",
+      "dit": "L'armateur CMA CGM applique ce nouveau montant de 700 dollars pour tous les chargements faits dès le 15 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 238 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Mi-octobre : *238 000 FCFA*",
+      "dit": "Selon Investir au Cameroun, ce frais supplémentaire ne dépassait pas 238 000 FCFA au milieu du mois d'octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Sommet à *536 000 FCFA*",
+      "dit": "Le montant avait grimpé de 125 % en dix-sept jours pour s'élever à environ 536 000 FCFA au début du mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "834 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Grand conteneur : *834 000 FCFA*",
+      "dit": "Pour un grand conteneur de 40 pieds, la surtaxe théorique calculée atteint aujourd'hui environ 834 000 FCFA."
+    }
+  ]
+}
