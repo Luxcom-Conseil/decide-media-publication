@@ -936,203 +936,13 @@
       "formule": "Ordre",
       "id": "20261118-1230",
       "legende": "Arrête de planifier tes objectifs tant que tu n'as pas vu ça.\n\nAu lieu de te demander comment réussir une présentation ou un projet avec tes collègues, demande-toi ce qui garantirait un désastre total.\n\nC'est le principe de l'inversion : notre cerveau repère plus facilement les obstacles et les risques. En faisant la liste de tout ce qui ferait échouer ton travail, tu n'as plus qu'à régler chaque problème un par un.\n\nTu préfères planifier ton succès ou lister ce qui pourrait tout rater ?\n\n#psychologie #productivite #travail #organisation #succes",
+      "media_id": "18074864792786444",
+      "publie_le": "2026-11-18T11:32:24+00:00",
       "quand": "2026-11-18T12:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de planifier tes objectifs tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Vouloir absolument réussir tes projets au travail peut ruiner ta carrière."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu cherches comment réussir au bureau ? Fais exactement l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "productivite",
-          "travail",
-          "organisation",
-          "succes"
-        ],
-        "legende": "Arrête de planifier tes objectifs tant que tu n'as pas vu ça.\n\nAu lieu de te demander comment réussir une présentation ou un projet avec tes collègues, demande-toi ce qui garantirait un désastre total.\n\nC'est le principe de l'inversion : notre cerveau repère plus facilement les obstacles et les risques. En faisant la liste de tout ce qui ferait échouer ton travail, tu n'as plus qu'à régler chaque problème un par un.\n\nTu préfères planifier ton succès ou lister ce qui pourrait tout rater ?",
-        "question": "Tu préfères planifier ton succès ou lister ce qui pourrait tout rater ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Arrête de planifier tes objectifs tant que tu n'as pas vu ça.",
-            "ecran": "Arrête de planifier tes *objectifs*",
-            "emoji": "🛑",
-            "recherche": "man stressed office notebook",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est qu'on commet tous cette erreur le lundi matin.",
-            "ecran": "Une *erreur* très classique",
-            "emoji": "💣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie, cet outil puissant s'appelle tout simplement l'inversion.",
-            "ecran": "Le principe de *l'inversion*",
-            "emoji": "🧠",
-            "recherche": "thinking man desk strategy",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand tu attaques un gros dossier, tu te demandes : comment tout réussir parfait ?",
-            "ecran": "Comment *réussir* ?",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau bloque. Alors pose la question inverse : comment tout rater à coup sûr ?",
-            "ecran": "Pose-toi la *question* inverse",
-            "emoji": "🔄",
-            "recherche": "confused person computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Imagine ta prochaine réunion d'équipe ou ton projet important du mois.",
-            "ecran": "En réunion d'équipe",
-            "emoji": "💼",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour foirer une présentation, c'est simple : arrive en retard sans avoir testé le micro.",
-            "ecran": "Arriver en *retard*",
-            "emoji": "⏰",
-            "recherche": "man running late office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ignore les messages importants de tes collègues et ne fixe aucune échéance.",
-            "ecran": "Ignorer les *messages*",
-            "emoji": "📧",
-            "recherche": "stressing inbox emails office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voilà. Tu viens d'identifier exactement tout ce qui garantirait un échec total.",
-            "ecran": "Le *piège* parfait",
-            "emoji": "☕",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Notre cerveau est bien meilleur pour repérer les dangers que pour inventer le succès.",
-            "ecran": "Pourquoi ça *marche* ?",
-            "emoji": "💡",
-            "recherche": "light bulb creative idea",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Succès",
-            "b": "Éliminer erreurs",
-            "dit": "C'est beaucoup plus facile d'éliminer des erreurs que d'être un génie.",
-            "ecran": "Chercher le *succès* vs Éviter le *danger*",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour ton prochain projet au travail, applique cette astuce en deux étapes clés.",
-            "ecran": "La *méthode* pratique",
-            "emoji": "📝",
-            "recherche": "writing notepad pen desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Liste tout ce qui ferait échouer le projet. Deux. Règle chaque point un par un.",
-            "ecran": "Méthode : Lister le pire | Éliminer un par un",
-            "emoji": "✅",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand un collègue propose une idée floue, demande-lui : quel est le pire risque ici ?",
-            "ecran": "Se *protéger* au travail",
-            "emoji": "🛡️",
-            "recherche": "team meeting discussion",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au lieu de chercher comment réussir, évite d'abord ce qui fait échouer.",
-            "ecran": "Au lieu de chercher comment *réussir*, évite d'abord ce qui fait *échouer*.",
-            "emoji": "📌",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'inversion"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "inversion",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df4Z4a7FOlq/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261118-1230.mp4"
     },
     {
@@ -4861,6 +4671,13 @@
       "media_id": "18110549147206059",
       "sujet": "etat_esprit",
       "url": "https://www.instagram.com/reel/Df2vRPglX4h/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-18",
+      "media_id": "18074864792786444",
+      "sujet": "inversion",
+      "url": "https://www.instagram.com/reel/Df4Z4a7FOlq/"
     }
   ]
 }
