@@ -65,7 +65,10 @@
   "plan-automobile-010",
   "comptes-publics-011",
   "pole-public-bancaire-011",
-  "plan-sante-011"
+  "plan-sante-011",
+  "plan-ruralites-010",
+  "plan-ruralites-011",
+  "plan-esr-011"
  ],
  "ecartes": {
   "plan-automobile-002": "script refusé au contrôle : 9 scènes (10 à 17 attendues) ; ton de campagne interdit (« vote ») : on explique, on ne fait pas campagne",
@@ -405,6 +408,21 @@
    "jour": "2026-11-17",
    "id": "plan-sante-011",
    "nom": "prog-plan-sante-011"
+  },
+  {
+   "jour": "2026-11-18",
+   "id": "plan-ruralites-010",
+   "nom": "prog-plan-ruralites-010"
+  },
+  {
+   "jour": "2026-11-18",
+   "id": "plan-ruralites-011",
+   "nom": "prog-plan-ruralites-011"
+  },
+  {
+   "jour": "2026-11-18",
+   "id": "plan-esr-011",
+   "nom": "prog-plan-esr-011"
   }
  ],
  "programmes": [
@@ -1332,6 +1350,48 @@
    "reseau": "youtube",
    "buffer": "6afc1df3d62bd5b4863826ff",
    "heure": "2026-11-17T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-18",
+   "nom": "prog-plan-ruralites-010",
+   "reseau": "tiktok",
+   "buffer": "6afd6054805b2f3bff3f77e2",
+   "heure": "2026-11-18T09:42:00+01:00"
+  },
+  {
+   "jour": "2026-11-18",
+   "nom": "prog-plan-ruralites-010",
+   "reseau": "youtube",
+   "buffer": "6afd605545783105f437fb0b",
+   "heure": "2026-11-18T09:42:00+01:00"
+  },
+  {
+   "jour": "2026-11-18",
+   "nom": "prog-plan-ruralites-011",
+   "reseau": "tiktok",
+   "buffer": "6afd60560a3b49974201860a",
+   "heure": "2026-11-18T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-18",
+   "nom": "prog-plan-ruralites-011",
+   "reseau": "youtube",
+   "buffer": "6afd605645783105f437fb6c",
+   "heure": "2026-11-18T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-18",
+   "nom": "prog-plan-esr-011",
+   "reseau": "tiktok",
+   "buffer": "6afd60571da11ba01798aa2a",
+   "heure": "2026-11-18T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-18",
+   "nom": "prog-plan-esr-011",
+   "reseau": "youtube",
+   "buffer": "6afd60570a3b499742018642",
+   "heure": "2026-11-18T22:00:00+01:00"
   }
  ],
  "echecs": {
