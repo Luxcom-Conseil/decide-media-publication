@@ -24,146 +24,7 @@
   "trainpostal",
   "joconde"
  ],
- "attente_partie2": {
-  "id": "trainpostal",
-  "jour_partie1": "2026-11-16",
-  "script": {
-   "titre": "Le casse du siècle du train postal",
-   "scenes": [
-    {
-     "type": "accroche",
-     "ecran": "Un *train postal* en pleine nuit",
-     "grand": null,
-     "dit": "Tu penses que les plus gros braquages se font dans les banques ? Tu te trompes.",
-     "image": 0,
-     "recherche": "mail train night 1960s"
-    },
-    {
-     "type": "recit",
-     "ecran": "La *voie ferrée* dans la nuit",
-     "grand": null,
-     "dit": "Le 8 août 1963 en Angleterre, une bande attaque un convoi lancé à pleine vitesse.",
-     "image": 2,
-     "recherche": null
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Plus de *2,6 millions* de livres",
-     "grand": "2,6 millions",
-     "dit": "À bord, un magot exceptionnel attend en petites coupures destinées à la destruction.",
-     "image": 3,
-     "recherche": "British railway money bags 1960s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Le *pont* de Bridego",
-     "grand": null,
-     "dit": "Le plan est minutieusement préparé par des criminels qui n'ont pourtant aucune expérience des trains.",
-     "image": 4,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "La *ferme isolée* des braqueurs",
-     "grand": null,
-     "dit": "Ils s'installent dans une ferme isolée pour planifier le coup pendant de longs mois.",
-     "image": 5,
-     "recherche": "isolated english farmhouse 1960s"
-    },
-    {
-     "type": "date",
-     "ecran": "Le *7 août 1963*",
-     "grand": "1963",
-     "dit": "Le train quitte Glasgow à destination de Londres avec soixante-douze employés à bord.",
-     "image": 6,
-     "recherche": "Glasgow Central station 1960s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Le *wagon* de valeurs",
-     "grand": null,
-     "dit": "Le second wagon transporte les fonds, mais il est dépourvu de radio et de système de sécurité.",
-     "image": 0,
-     "recherche": "railway mail sorting car interior"
-    },
-    {
-     "type": "recit",
-     "ecran": "La *signalisation* piratée",
-     "grand": null,
-     "dit": "Vers trois heures du matin, les braqueurs trafiquent les signaux ferroviaires pour stopper net le convoi.",
-     "image": 2,
-     "recherche": "railway signals night uk"
-    },
-    {
-     "type": "recit",
-     "ecran": "La *locomotive* décrochée",
-     "grand": null,
-     "dit": "Un conducteur de train retraité s'empare de la locomotive et conduit le convoi jusqu'au pont choisi.",
-     "image": 3,
-     "recherche": "british diesel locomotive 1960s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Les *postiers* neutralisés",
-     "grand": null,
-     "dit": "Sans tirer le moindre coup de feu, ils neutralisent les postiers à coups de matraque.",
-     "image": 1,
-     "recherche": null
-    },
-    {
-     "type": "chiffre",
-     "ecran": "128 sacs de *billets*",
-     "grand": "128",
-     "dit": "Ils s'emparent de cent vingt-huit sacs remplis de billets en un temps record.",
-     "image": 6,
-     "recherche": "sacks of mail bags post office"
-    },
-    {
-     "type": "recit",
-     "ecran": "La *fuite* du gang",
-     "grand": null,
-     "dit": "Avant de fuir, un homme ordonne aux gardes de rester tranquilles pendant trente minutes.",
-     "image": 5,
-     "recherche": "police investigation 1960s uk"
-    },
-    {
-     "type": "date",
-     "ecran": "Le *12 août 1963*",
-     "grand": "12 août",
-     "dit": "Cinq jours plus tard, la police locale le labyrinthe de la ferme abandonnée.",
-     "image": 0,
-     "recherche": "police tape crime scene 1960s"
-    },
-    {
-     "type": "recit",
-     "ecran": "Un jeu de *Monopoly*",
-     "grand": null,
-     "dit": "Les criminels ont oublié d'effacer leurs empreintes sur un jeu de Monopoly utilisé sur place.",
-     "image": 2,
-     "recherche": "vintage monopoly board game 1960s"
-    },
-    {
-     "type": "suite",
-     "ecran": "Comment ont-ils été *retrouvés* ?",
-     "grand": null,
-     "dit": "Comment la police a-t-elle piégé les coupables ? La suite dans la partie 2.",
-     "image": 3,
-     "recherche": null
-    }
-   ],
-   "question": "Tu aurais pensé à utiliser un jeu de Monopoly pour laisser des empreintes ?",
-   "legende": "En août 1963, un train postal transportant une fortune est attaqué en pleine nuit en Angleterre sans un seul coup de feu. Un casse légendaire qui va basculer à cause d'un simple détail oublié dans une ferme. Comment la police a-t-elle remonté la piste des braqueurs ? Tu aurais pensé à utiliser un jeu de Monopoly pour laisser des empreintes ?",
-   "hashtags": [
-    "histoire",
-    "braquage",
-    "faitdivers",
-    "archive",
-    "angleterre"
-   ],
-   "_credit_musique": "« freaky news » par Baringo (CC0, Freesound)"
-  },
-  "echecs": 1
- },
+ "attente_partie2": null,
  "journal": [
   {
    "jour": "2026-11-06",
@@ -446,6 +307,30 @@
    "id": "fouquet",
    "format": "serie",
    "erreur": "script refusé au contrôle : 10 scènes (13 à 24 attendues) ; 749 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-18",
+   "id": "trainpostal",
+   "format": "serie2",
+   "erreur": "script refusé au contrôle : 8 scènes (12 à 24 attendues) ; 625 caractères dits, il en faut de 1100 à 1700 (question comprise) ; chiffres absents de l'article : 30"
+  },
+  {
+   "jour": "2026-11-18",
+   "id": "coeur",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 9 scènes (13 à 24 attendues) ; 539 caractères dits, il en faut de 1150 à 1700 (question comprise) ; chiffres absents de l'article : 200000"
+  },
+  {
+   "jour": "2026-11-18",
+   "id": "holmes",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 954 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-18",
+   "id": "onecoin",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 970 caractères dits, il en faut de 1150 à 1700 (question comprise)"
   }
  ],
  "en_chiffre": [
@@ -459,7 +344,10 @@
   "delvey",
   "postiches",
   "rennes",
-  "fouquet"
+  "fouquet",
+  "coeur",
+  "holmes",
+  "onecoin"
  ],
  "ecartes": {
   "humbert": "script refusé au contrôle : 643 caractères dits, il en faut de 380 à 600 (question comprise)",
