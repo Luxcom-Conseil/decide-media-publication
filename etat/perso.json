@@ -952,126 +952,13 @@
       "formule": "Démasquer",
       "id": "20261118-1830",
       "legende": "Ton cerveau te fait croire que tu as compris ta leçon.\n\nRelire un cours crée une illusion de maîtrise : tout te semble évident parce que tu le reconnais, mais cela ne veut pas dire que tu sais le restituer.\n\nPour vraiment apprendre, explique le sujet à voix haute avec des mots simples. Dès que tu hésites, tu sais exactement quelle partie tu dois retravailler.\n\nTu révises en relisant ou en expliquant ?\n\n#apprentissage #memorisation #etudes #psychologie #productivite",
+      "media_id": "17968818366228074",
+      "publie_le": "2026-11-18T17:31:58+00:00",
       "quand": "2026-11-18T18:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Démasquer",
-            "texte": "Ton cerveau te fait croire que tu as compris ta leçon."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce reflexe de révision te coûte ton examen sans le savoir."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de relire tes cours tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "apprentissage",
-          "memorisation",
-          "etudes",
-          "psychologie",
-          "productivite"
-        ],
-        "legende": "Ton cerveau te fait croire que tu as compris ta leçon.\n\nRelire un cours crée une illusion de maîtrise : tout te semble évident parce que tu le reconnais, mais cela ne veut pas dire que tu sais le restituer.\n\nPour vraiment apprendre, explique le sujet à voix haute avec des mots simples. Dès que tu hésites, tu sais exactement quelle partie tu dois retravailler.\n\nTu révises en relisant ou en expliquant ?",
-        "question": "Tu révises en relisant ou en expliquant ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau te fait croire que tu as compris ta leçon.",
-            "ecran": "Ton cerveau te *trompe* sur tes révisions",
-            "emoji": "🤯",
-            "recherche": "student confused desk book",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie, c'est le principe d'expliquer pour comprendre.",
-            "ecran": "Mécanisme : *Expliquer* pour comprendre",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu relis tes notes dix fois, tout paraît clair et fluide.",
-            "ecran": "Relire en boucle *ne* suffit *pas*",
-            "emoji": "📖",
-            "recherche": "person reading notebook slow",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mais devant la feuille d'examen, tu restes totalement bloqué.",
-            "ecran": "Le jour J, c'est le *blocage*",
-            "emoji": "📝",
-            "recherche": "stressed student writing test",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est parce que reconnaître une information n'est pas la maîtriser.",
-            "ecran": "Reconnaître l'illusion de *maîtrise*",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "L'astuce : Un, explique le sujet à voix haute avec des mots très simples, comme à un enfant.",
-            "ecran": "Méthode : Expliquer à un enfant | Corriger ses manques",
-            "emoji": "🎯",
-            "recherche": "person speaking explaining hands",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux, dès que tu bloques, retourne réviser ce point précis.",
-            "ecran": "Repérer où tu *hésites*",
-            "emoji": "🔍",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Si tu ne peux pas l'expliquer simplement, tu ne l'as pas compris.",
-            "ecran": "Si tu ne peux pas *l'expliquer* simplement, tu ne l'as pas *compris*.",
-            "emoji": "✨",
-            "recherche": "light bulb creative idea",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Expliquer pour comprendre"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "feynman",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df5DCBKDspp/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-11/20261118-1830.mp4"
     },
     {
@@ -4678,6 +4565,13 @@
       "media_id": "18074864792786444",
       "sujet": "inversion",
       "url": "https://www.instagram.com/reel/Df4Z4a7FOlq/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-18",
+      "media_id": "17968818366228074",
+      "sujet": "feynman",
+      "url": "https://www.instagram.com/reel/Df5DCBKDspp/"
     }
   ]
 }
