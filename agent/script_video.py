@@ -14,6 +14,16 @@ from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
 SCRIPTS = RACINE / "etat" / "scripts"
+QUESTION_MAX = 140
+
+
+def question_finale(article: dict) -> str | None:
+    """Dernière phrase du corps si c'est une question courte (débat, demande du 19/11/2026) : elle clôt la vidéo."""
+    corps = re.sub(r"\s+", " ", article.get("body") or "").strip()
+    derniere = re.split(r"(?<=[.!?])\s", corps)[-1].strip() if corps else ""
+    return derniere if derniere.endswith("?") and 10 <= len(derniere) <= QUESTION_MAX else None
+
+
 _IA_HORS_SERVICE = False  # passe à True pour la fin du passage si Gemini est saturé sur tous ses modèles
 
 ILLUSTRATIONS = {
@@ -279,7 +289,8 @@ def script_pour(article: dict, cfg: dict, journal=print) -> dict | None:
             return None
         remarques = controler(ecrit, article)
         if not remarques:
-            script = _en_scenes(ecrit)
+            q = question_finale(article)  # la question de l'article passe avant celle de l'IA
+            script = _en_scenes({**ecrit, "question": q} if q else ecrit)
             SCRIPTS.mkdir(parents=True, exist_ok=True)
             modele = "gemini" if ia == "gemini" else cfg["ia"]["modele"]
             fichier.write_text(json.dumps({**script, "_article": article.get("id"), "_modele": modele},

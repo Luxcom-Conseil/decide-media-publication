@@ -16,6 +16,7 @@ import requests
 from ..models import Post
 from .base import TIMEOUT, ErreurDefinitive, ErreurLimite, ErreurPublication, Publieur, Resultat, controler
 from .x import couper_pour_x, longueur_x
+from ..script_video import question_finale
 
 API = "https://api.buffer.com"
 _HEBERGES: dict[Path, str] = {}  # même média pour X et LinkedIn : mis en ligne une seule fois par passage
@@ -134,7 +135,9 @@ def legende_courte(article: dict, limite: int = 300) -> str:
             break
         accroche = f"{accroche} {phrase}".strip()
     tags = " ".join(h if h.startswith("#") else f"#{h}" for h in article.get("hashtags") or [])
-    return "\n\n".join(x for x in (article.get("title", "").strip(), accroche, tags) if x)
+    question = question_finale(article)  # débat : la question finale du corps, pour lancer les commentaires
+    question = f"{question} Dis-le en commentaire." if question and question not in accroche else None
+    return "\n\n".join(x for x in (article.get("title", "").strip(), accroche, question, tags) if x)
 
 
 class BufferTikTok(_Buffer):

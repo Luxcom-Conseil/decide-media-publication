@@ -29,3 +29,12 @@ def test_texte_coupe_tient_dans_280_pour_x():
 
 def test_texte_du_producteur_garde_s_il_tient():
     assert texte({**ARTICLE, "platform_texts": {"x": "Texte court #DECIDE"}}) == "Texte court #DECIDE"
+
+
+def test_legende_tiktok_finit_sur_la_question_du_debat():
+    from agent.publieurs.buffer import legende_courte
+    corps = "Le forum vise 400 à 800 milliards FCFA d'intentions. " * 8 + "Promesse ou réalité ?"
+    texte = legende_courte({"title": "Forum", "body": corps, "hashtags": ["Cameroun"]})
+    assert "Promesse ou réalité ? Dis-le en commentaire." in texte
+    assert texte.endswith("#Cameroun")
+    assert "commentaire" not in legende_courte({"title": "T", "body": "Un fait. Un autre fait."})

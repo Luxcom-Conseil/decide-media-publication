@@ -60,3 +60,11 @@ def test_fin_en_question_et_outro():
     assert [sc["type"] for sc in s["scenes"]] == ["explication", "question", "outro"]
     assert s["scenes"][0]["illustration"] == {"type": "banque"}
     assert s["scenes"][1]["dit"] == "Et toi ? Dis-le en commentaire."
+
+
+def test_question_finale_de_l_article_reprise():
+    from agent.script_video import question_finale
+    debat = {"body": "Le forum vise 800 milliards FCFA. L'agence n'a pas publié le bilan de 2024. Promesse ou réalité ?"}
+    assert question_finale(debat) == "Promesse ou réalité ?"
+    assert question_finale({"body": "Le forum vise 800 milliards FCFA."}) is None
+    assert question_finale({"body": "Pourquoi ? " + "Un texte long. " * 3}) is None
