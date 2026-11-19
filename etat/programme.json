@@ -68,7 +68,10 @@
   "plan-sante-011",
   "plan-ruralites-010",
   "plan-ruralites-011",
-  "plan-esr-011"
+  "plan-esr-011",
+  "plan-ruralites-012",
+  "plan-esr-012",
+  "comptes-publics-012"
  ],
  "ecartes": {
   "plan-automobile-002": "script refusé au contrôle : 9 scènes (10 à 17 attendues) ; ton de campagne interdit (« vote ») : on explique, on ne fait pas campagne",
@@ -423,6 +426,21 @@
    "jour": "2026-11-18",
    "id": "plan-esr-011",
    "nom": "prog-plan-esr-011"
+  },
+  {
+   "jour": "2026-11-19",
+   "id": "plan-ruralites-012",
+   "nom": "prog-plan-ruralites-012"
+  },
+  {
+   "jour": "2026-11-19",
+   "id": "plan-esr-012",
+   "nom": "prog-plan-esr-012"
+  },
+  {
+   "jour": "2026-11-19",
+   "id": "comptes-publics-012",
+   "nom": "prog-comptes-publics-012"
   }
  ],
  "programmes": [
@@ -1392,6 +1410,48 @@
    "reseau": "youtube",
    "buffer": "6afd60570a3b499742018642",
    "heure": "2026-11-18T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-19",
+   "nom": "prog-plan-ruralites-012",
+   "reseau": "tiktok",
+   "buffer": "6afeb39fb7fe0c41ddac618f",
+   "heure": "2026-11-19T09:50:00+01:00"
+  },
+  {
+   "jour": "2026-11-19",
+   "nom": "prog-plan-ruralites-012",
+   "reseau": "youtube",
+   "buffer": "6afeb39f9af0a73f71292ae3",
+   "heure": "2026-11-19T09:50:00+01:00"
+  },
+  {
+   "jour": "2026-11-19",
+   "nom": "prog-plan-esr-012",
+   "reseau": "tiktok",
+   "buffer": "6afeb3a0b7fe0c41ddac6332",
+   "heure": "2026-11-19T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-19",
+   "nom": "prog-plan-esr-012",
+   "reseau": "youtube",
+   "buffer": "6afeb3a09af0a73f71292d3f",
+   "heure": "2026-11-19T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-19",
+   "nom": "prog-comptes-publics-012",
+   "reseau": "tiktok",
+   "buffer": "6afeb3a1b7fe0c41ddac661c",
+   "heure": "2026-11-19T22:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-19",
+   "nom": "prog-comptes-publics-012",
+   "reseau": "youtube",
+   "buffer": "6afeb3a19af0a73f71292daa",
+   "heure": "2026-11-19T22:00:00+01:00"
   }
  ],
  "echecs": {
@@ -1409,6 +1469,8 @@
   "plan-ruralites-008": 2,
   "plan-btp-logement-009": 2,
   "plan-automobile-009": 2,
-  "plan-ruralites-010": 1
+  "plan-ruralites-010": 1,
+  "plan-btp-logement-011": 1,
+  "plan-btp-logement-012": 1
  }
 }
