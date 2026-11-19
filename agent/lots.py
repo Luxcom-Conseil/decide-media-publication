@@ -26,7 +26,8 @@ DATE_CONTRAT_12 = date(2026, 10, 12)
 # 1.3 = 1.2 + champs de rattrapage ; 2.0 = 5 articles par jour ;
 # 2.1 = les 5 articles d'actualité + 1 à 3 « dossiers » (suivi ou explication), décision de Stéphane du 07/11/2026
 # 2.2 = 2.1 + 1 à 3 « réponses » aux questions du public, en fin de lot, 10 articles au plus (décision du 12/11/2026)
-ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": 5, "2.1": (6, 8), "2.2": (6, 10)}
+# 10 vidéos par jour (décision du 19/11/2026) : des actualités de complément comblent le lot jusqu'à 10
+ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": (5, 10), "2.1": (6, 10), "2.2": (6, 10)}
 # une réponse ne part qu'en vidéo, et seulement sur la plateforme où la question a été posée
 RESEAUX_REPONSE = {"tiktok": "tiktok_buffer", "facebook": "facebook_shorts"}
 

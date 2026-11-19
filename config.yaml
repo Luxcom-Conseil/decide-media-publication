@@ -113,7 +113,8 @@ lots:
   # 5 créneaux étalés sur la journée ; premier à 08:00 pour laisser au passage de 06:45 le temps de rendre les Shorts.
   # Les 3 derniers (dans l'ordre de la liste, pas de l'heure) servent aux « dossiers » 06 à 08 du protocole 2.1
   # (décision de Stéphane du 07/11/2026) : les 5 articles d'actualité gardent leurs heures.
-  creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30"]
+  # 09:30 et 21:15 : actualités de complément, pour 10 vidéos par jour (décision de Stéphane du 19/11/2026)
+  creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30", "09:30", "21:15"]
   # 2.2 : les réponses aux questions du public prennent les créneaux restants, en fin de liste (2 de plus pour TikTok
   # et les Shorts Facebook, seuls réseaux des réponses)
   creneaux_par_reseau:         # Shorts Facebook : 45 min après le visuel du même article

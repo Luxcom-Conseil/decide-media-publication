@@ -45,28 +45,38 @@ def test_controle_manifeste():
 def test_controle_manifeste_protocole_2_0():
     cinq = {"protocol_version": "2.0", "article_count": 5, "required_article_count": 5}
     assert len(controler_manifeste(manifeste(**cinq, articles=[article(i) for i in range(1, 6)]), "2026-10-21")) == 5
-    with pytest.raises(LotInvalide, match="exactement 5 articles"):
-        controler_manifeste(manifeste(protocol_version="2.0"), "2026-10-21")  # 10 articles en 2.0
+    assert len(controler_manifeste(manifeste(protocol_version="2.0"), "2026-10-21")) == 10  # 10 vidéos/jour (19/11)
+    with pytest.raises(LotInvalide, match="de 5 à 10 articles"):
+        controler_manifeste(manifeste(protocol_version="2.0", article_count=4, required_article_count=4,
+                                      articles=[article(i) for i in range(1, 5)]), "2026-10-21")
     with pytest.raises(LotInvalide, match="exactement 10 articles"):  # 5 articles en 1.3
         controler_manifeste(manifeste(**{**cinq, "protocol_version": "1.3"},
                                       articles=[article(i) for i in range(1, 6)]), "2026-10-21")
 
 
 def test_controle_manifeste_protocole_2_1():
-    """5 actualités + 1 à 3 dossiers : 6 à 8 articles ; 5 ou 9 refusés."""
-    for n in (6, 7, 8):
+    """5 actualités + 1 à 3 dossiers + actualités de complément : 6 à 10 articles ; 5 ou 11 refusés."""
+    for n in (6, 8, 10):
         m = manifeste(protocol_version="2.1", article_count=n, required_article_count=n,
                       articles=[article(i) for i in range(1, n + 1)])
         assert len(controler_manifeste(m, "2026-10-21")) == n
-    for n in (5, 9):
+    for n in (5, 11):
         m = manifeste(protocol_version="2.1", article_count=n, required_article_count=n,
                       articles=[article(i) for i in range(1, n + 1)])
-        with pytest.raises(LotInvalide, match="de 6 à 8 articles"):
+        with pytest.raises(LotInvalide, match="de 6 à 10 articles"):
             controler_manifeste(m, "2026-10-21")
     m = manifeste(protocol_version="2.1", article_count=7, required_article_count=8,
                   articles=[article(i) for i in range(1, 8)])
-    with pytest.raises(LotInvalide, match="de 6 à 8 articles"):
+    with pytest.raises(LotInvalide, match="de 6 à 10 articles"):
         controler_manifeste(m, "2026-10-21")
+
+
+def test_dix_videos_le_meme_jour():
+    """10 vidéos par jour (19/11/2026) : 10 créneaux le même jour sur chaque réseau, aucun la nuit."""
+    cfg = charger_config(Path(__file__).resolve().parent.parent / "config.yaml")
+    for reseau in (None, "facebook_shorts", "tiktok_buffer"):
+        h = creneaux(cfg, datetime(2026, 10, 21).date(), 10, MATIN, [], reseau)
+        assert len(h) == 10 and len({x.date() for x in h}) == 1, reseau
 
 
 def test_creneaux_dossiers_apres_les_actualites():
