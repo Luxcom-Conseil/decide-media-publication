@@ -984,202 +984,13 @@
       "formule": "Révélation",
       "id": "20261119-1230",
       "legende": "Ce petit réflexe de routine te coûte ton avenir sans que tu ne le sashes.\n\nQuand on trouve une méthode ou une habitude qui marche, le réflexe est de ne plus jamais en changer. Mais s'enfermer dans ce qui fonctionne empêche de découvrir ce qui pourrait faire la différence demain.\n\nLe secret des projets qui durent est de garder une base solide tout en se réservant des moments pour tester de nouvelles pistes sans pression.\n\nTu as plutôt tendance à trop explorer ou à trop exploiter ?\n\n#psychologie #productivite #conseils #developpementpersonnel",
+      "media_id": "18380308939208529",
+      "publie_le": "2026-11-19T11:32:30+00:00",
       "quand": "2026-11-19T12:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe de routine te coûte ton avenir sans que tu ne le saches."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Refuser de changer tes habitudes peut détruire ton projet à long terme."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de tout changer chaque semaine tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "productivite",
-          "conseils",
-          "developpementpersonnel"
-        ],
-        "legende": "Ce petit réflexe de routine te coûte ton avenir sans que tu ne le sashes.\n\nQuand on trouve une méthode ou une habitude qui marche, le réflexe est de ne plus jamais en changer. Mais s'enfermer dans ce qui fonctionne empêche de découvrir ce qui pourrait faire la différence demain.\n\nLe secret des projets qui durent est de garder une base solide tout en se réservant des moments pour tester de nouvelles pistes sans pression.\n\nTu as plutôt tendance à trop explorer ou à trop exploiter ?",
-        "question": "Tu as plutôt tendance à trop explorer ou à trop exploiter ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce petit réflexe de routine te coûte ton avenir sans que tu ne le saches.",
-            "ecran": "Ce *réflexe* te coûte ton avenir",
-            "emoji": "⚠️",
-            "recherche": "bored man at office desk",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que la plupart des gens font l'erreur inverse sans s'en rendre compte.",
-            "ecran": "Et le *pire* arrive bientôt",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie, c'est le dilemme entre explorer et exploiter.",
-            "ecran": "Explorer ou *exploiter*",
-            "emoji": "🧠",
-            "recherche": "thoughtful person looking out window",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu vas toujours dans le même restaurant du quartier parce que tu sais que c'est bon.",
-            "ecran": "Le *même* restaurant",
-            "emoji": "📱",
-            "recherche": "person ordering food restaurant",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au travail, tu utilises la même méthode depuis trois ans parce qu'elle donne des résultats.",
-            "ecran": "La *même* méthode",
-            "emoji": "💼",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Là, tu es en train d'exploiter ce qui marche déjà.",
-            "ecran": "Tu *exploites* ton confort",
-            "emoji": "🎯",
-            "recherche": "happy professional working computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mais à force de ne faire que ça, tu périclites dès que le monde autour de toi évolue.",
-            "ecran": "Mais le monde *change*",
-            "emoji": "🌀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "À l'inverse, tester une nouvelle idée chaque lundi sans rien terminer te stresse et t'épuise.",
-            "ecran": "L'autre *extrême*",
-            "emoji": "💥",
-            "recherche": "stressed person multiple screens",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Exploiter",
-            "b": "Explorer",
-            "dit": "Ton cerveau cherche la sécurité mais il a aussi besoin d'apprentissage pour progresser.",
-            "ecran": "L'équilibre *nécessaire*",
-            "emoji": "⚖️",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 3,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "La solution repose sur un équilibre simple à mettre en place dans ton quotidien.",
-            "ecran": "L'équilibre parfait",
-            "emoji": "💡",
-            "recherche": "person smiling thinking idea",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici les étapes. Un. Conserve tes bases solides. Deux. Garde de la place pour tester.",
-            "ecran": "Équilibre : Sécuriser les acquis | Réserver une part d'essai | Ajuster régulièrement",
-            "emoji": "📋",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "N'abandonne surtout pas ce qui fonctionne très bien aujourd'hui pour la dernière nouveauté.",
-            "ecran": "Sécurise ton *existant*",
-            "emoji": "🛠️",
-            "recherche": "man holding coffee mug working",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mais bloque-toi un petit moment chaque semaine pour essayer un nouvel outil ou une nouvelle idée.",
-            "ecran": "Garde de l'*espace*",
-            "emoji": "🌱",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Cette petite part d'essai protège ton avenir sans mettre en danger tes acquis actuels.",
-            "ecran": "Protection contre l'*ennui*",
-            "emoji": "🛡️",
-            "recherche": "person walking in park relaxed",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Capitalise sur tes acquis et garde une fenêtre pour l'inconnu.",
-            "ecran": "Capitalise sur tes acquis et garde une fenêtre pour l'inconnu.",
-            "emoji": "✨",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Explorer ou exploiter"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "explorer",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df6-rnNnGln/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261119-1230.mp4"
     },
     {
@@ -4984,6 +4795,13 @@
       "media_id": "17979129129156165",
       "sujet": "compte_mental",
       "url": "https://www.instagram.com/reel/Df5UN9zjJdF/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-19",
+      "media_id": "18380308939208529",
+      "sujet": "explorer",
+      "url": "https://www.instagram.com/reel/Df6-rnNnGln/"
     }
   ]
 }
