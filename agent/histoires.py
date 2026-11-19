@@ -81,6 +81,7 @@ FORMATS = {
     "serie": ((13, 24), (1150, 1700)),
     "serie2": ((12, 24), (1100, 1700)),
     "chiffre": ((6, 11), (380, 600)),
+    "actu": ((8, 17), (650, 1250)),  # rubrique actu (agent/actu.py) : un article de presse court donne 45 à 60 s
     "programme": ((10, 17), (850, 1250)),  # 60 s (demande de Stéphane du 07/11/2026)  # rubrique Présidentielle 2027 (agent/programme.py)
 }
 TYPES = ["accroche", "recit", "date", "chiffre", "suite", "lecon"]
@@ -389,14 +390,18 @@ def legende_finale(script: dict, source: dict, images: list[dict], utilisees: se
 # --------------------------------------------------------------------------- vidéo
 
 def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Path, sortie: Path, couverture: Path,
-           journal=print, format_: str | None = None) -> set[int]:
-    """MP4 et miniature ; renvoie les numéros d'images utilisées (pour les crédits)."""
+           journal=print, format_: str | None = None, partie: str | None = None, slogan: str | None = None,
+           composition: str = "RecitReel", extra: dict | None = None) -> set[int]:
+    """MP4 et miniature ; renvoie les numéros d'images utilisées (pour les crédits). `partie` (étiquette rouge) et
+    `slogan` (carte de fin) : pour la rubrique actu (agent/actu.py), qui rend au format « programme »."""
     from .voix import Voix
     from .voix_conseil import STYLE_CONTEUR, STYLE_CONTEUR_CHALEUREUX, narration
 
     scenes, dits, utilisees = [], [], set()
     for sc in script["scenes"]:
         s = {"type": sc["type"], "ecran": sc.get("ecran") or None, "grand": sc.get("grand") or None, "soustitre": sc["dit"]}
+        if composition == "ActuReel":  # cartes de l'habillage « décryptage » (agent/actu.py)
+            s.update({k: sc[k] for k in ("carte", "label", "detail", "items", "accent", "source", "indice") if sc.get(k) is not None})
         k = int(sc.get("image", -1))
         if 0 <= k < len(images):
             s["image"] = {"src": images[k]["src"], "credit": images[k]["credit"]}
@@ -443,13 +448,17 @@ def rendre(cfg: dict, sujet: dict, script: dict, images: list[dict], dossier: Pa
         journal(f"    ⚠️ charte sonore non appliquée : {e}")
     script["_credit_musique"] = son.pop("credit_musique", None)
     props = {"serie": NOM_SERIE, "titre": script["titre"], "compte": COMPTE, "scenes": scenes,
-             "partie": {"serie": "Partie 1", "serie2": "Partie 2", "programme": "Présidentielle 2027"}.get(format_),
-             "format": format_, **son}
-    _remotion("RecitReel", props, sortie)
+             "partie": partie or {"serie": "Partie 1", "serie2": "Partie 2", "programme": "Présidentielle 2027"}.get(format_),
+             "format": format_, **({"slogan": slogan} if slogan else {}), **son}
+    props.update(extra or {})
+    _remotion(composition, props, sortie)
     sons.niveler(cfg, "histoires", sortie, journal)
     premiere = scenes[0]
-    _remotion("RecitCouverture", {"serie": NOM_SERIE, "accroche": premiere.get("ecran") or script["titre"],
-                                  "image": premiere.get("image"), "partie": props["partie"], "compte": COMPTE}, couverture, still=True)
+    couv = {"serie": NOM_SERIE, "accroche": premiere.get("ecran") or script["titre"], "image": premiere.get("image"),
+            "partie": props["partie"], "compte": COMPTE}
+    if composition == "ActuReel":
+        couv["label"] = premiere.get("label") or props["partie"]
+    _remotion(composition.replace("Reel", "Couverture"), couv, couverture, still=True)
     return utilisees
 
 

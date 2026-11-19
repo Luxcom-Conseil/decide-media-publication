@@ -53,7 +53,8 @@ def main(argv: list[str] | None = None) -> int:
                    choices=["publier", "verifier", "lots", "essai-video", "perso", "perso-essai", "perso-planifier",
                             "perso-rendre", "perso-heberger", "perso-publier", "histoires-essai",
                             "histoires-produire", "histoires-programmer", "histoires-relancer","programme-fiches", "programme-essai",
-                            "programme-produire", "programme-programmer"],
+                            "programme-produire", "programme-programmer", "actu-essai", "actu-produire",
+                            "actu-programmer"],
                    help="publier = dossiers « post » ; lots = lots quotidiens DECIDE MEDIA ; verifier = tester les accès ; "
                         "essai-video = fabriquer un Short d'essai dans sortie/, sans publier ; perso-essai = fabriquer un "
                         "Reel Instagram perso dans sortie/, sans publier ; perso-planifier / perso-rendre / "
@@ -126,7 +127,10 @@ def main(argv: list[str] | None = None) -> int:
     if a.commande == "histoires-relancer":  # reprogramme les posts Buffer refusés (histoires + Présidentielle 2027)
         from . import histoires, programme
 
-        n = histoires.relancer(log) + histoires.relancer(log, programme.lire_etat, programme.ecrire_etat)
+        from . import actu
+
+        n = (histoires.relancer(log) + histoires.relancer(log, programme.lire_etat, programme.ecrire_etat)
+             + histoires.relancer(log, actu.lire_etat, actu.ecrire_etat))
         log(f"🔁 {n} post(s) reprogrammé(s)")
         _resume_github(log)
         return 0
@@ -166,6 +170,22 @@ def main(argv: list[str] | None = None) -> int:
             ok = len(programme.produire(cfg, log, jour)) > 0 or prevu == 0
         else:
             ok = programme.programmer(cfg, log, jour)
+        _resume_github(log)
+        return 0 if ok else 1
+
+    if a.commande.startswith("actu-"):  # rubrique actu, test des 7 pistes (workflow actu.yml)
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+
+        from . import actu
+
+        jour = datetime.now(ZoneInfo("Europe/Paris")).date().isoformat()
+        if a.commande == "actu-essai":  # --sujet = code du format (1a, 4b…) ; rien n'est publié
+            ok = actu.essai(cfg, log, a.sujet or "1a")
+        elif a.commande == "actu-produire":
+            ok = len(actu.produire(cfg, log, jour)) > 0 or not (cfg.get("actu") or {}).get("actif", True)
+        else:
+            ok = actu.programmer(cfg, log, jour)
         _resume_github(log)
         return 0 if ok else 1
 

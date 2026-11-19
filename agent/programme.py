@@ -58,7 +58,9 @@ def quota(jour: date, cfg: dict) -> int:
         return 0  # veille et jour de scrutin : aucune propagande électorale (Code électoral, L49)
     if jour <= date(2027, 1, 7):
         # 6/jour à l'origine ; config.yaml programme.par_jour le baisse (17/11/2026 : 3, moins mais mieux)
-        return int((cfg.get("programme") or {}).get("par_jour") or 6)
+        # 19/11/2026 : 0, la rubrique passe dans le test actu (agent/actu.py, pistes 2a à 2c)
+        n = (cfg.get("programme") or {}).get("par_jour")
+        return 6 if n is None else int(n)
     if jour < PREMIER_TOUR:
         return 4 if jour.weekday() >= 5 else 2
     if jour < SECOND_TOUR:

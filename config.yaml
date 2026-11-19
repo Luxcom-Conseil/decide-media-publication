@@ -171,12 +171,20 @@ programme:
   # Recentrage du 17/11/2026 (bilan des deux premières semaines, validé par Stéphane) : 3 vidéos par jour à 9 h,
   # 16 h 30 et 22 h au lieu de 6 (11 h 15 et 14 h 30 faisaient 1 vue en moyenne). Moyennes de vues TikTok par thème :
   # ruralités 40, enseignement supérieur 31, logement 21, comptes publics 16 ; automobile 4, santé 4, pôle bancaire 2.
-  par_jour: 3
+  # 19/11/2026 : 0. Les thèmes fixes ne marchent pas ; la Présidentielle passe dans le test actu (pistes 2a à 2c,
+  # accrochées à l'actu du jour). La voix ci-dessous reste celle des vidéos actu.
+  par_jour: 0
   themes_prioritaires: [plan-ruralites, plan-esr, plan-btp-logement, comptes-publics]
   themes_en_pause: [pole-public-bancaire, plan-sante, plan-automobile]   # repris seulement quand les autres sont épuisés
   voix:                       # voix plus chaude que celle des histoires (demande de Stéphane du 07/11/2026)
     nom: Algieba
     demi_tons: 1
+
+# Rubrique actu (agent/actu.py, workflow actu.yml), décidée par Stéphane le 19/11/2026 : 8 vidéos par jour tirées de
+# l'actualité du jour (7 pistes, 19 formats, grille tournante sur 7 jours à partir du 20/11), plus les 2 parties de
+# série des histoires : 10 vidéos par jour. Évaluation : vues à 48 h par format, on garde ceux à 2 fois la médiane.
+actu:
+  actif: true
 
 # Compte Instagram de Stéphane : Reels « conseils et astuces psychologiques » de 60 s et plus, sans visage filmé, un
 # sujet du catalogue agent/perso_sujets.py par Reel ; connexion Instagram directe ; public européen.

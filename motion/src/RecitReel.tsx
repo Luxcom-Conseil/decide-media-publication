@@ -43,6 +43,7 @@ export type ScriptRecit = {
   compte: string;
   partie?: string | null;
   format: "serie" | "serie2" | "chiffre" | "programme";
+  slogan?: string | null; // texte de la carte de fin (rubrique actu : remplace celui du format)
   scenes: SceneRecit[];
   musique?: string;
   volume_musique?: number;
@@ -204,7 +205,7 @@ const Signature: React.FC<{ s: ScriptRecit }> = ({ s }) => (
     <Tampon texte={s.format === "programme" ? "DÉCRYPTÉ" : "VRAI"} couleur={OR} police={elite} taille={s.format === "programme" ? 96 : 120} />
     <div style={{ fontFamily: playfair, fontWeight: 900, fontSize: 84, color: PAPIER, marginTop: 50, lineHeight: 1.1 }}>{s.serie}</div>
     <div style={{ fontFamily, fontWeight: 800, fontSize: 44, color: OR, marginTop: 30 }}>
-      {s.format === "serie" ? "La partie 2 arrive : abonne-toi" : s.format === "programme" ? "Présidentielle 2027 : un programme décrypté chaque jour" : "Une histoire vraie chaque jour"}
+      {s.slogan ? s.slogan : s.format === "serie" ? "La partie 2 arrive : abonne-toi" : s.format === "programme" ? "Présidentielle 2027 : un programme décrypté chaque jour" : "Une histoire vraie chaque jour"}
     </div>
     <div style={{ fontFamily, fontWeight: 700, fontSize: 36, color: PAPIER, marginTop: 16, opacity: 0.85 }}>{s.compte}</div>
   </AbsoluteFill>
