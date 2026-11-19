@@ -101,6 +101,17 @@ class InstagramPerso:
     def verifier(self) -> str:
         return "@" + self._get("me", fields="username")["username"]
 
+    def deja_publie(self, legende: str, depuis: timedelta = timedelta(days=2)) -> Resultat | None:
+        """Le Reel de même légende publié récemment, s'il existe. Garde-fou contre les doublons : le 16/11/2026, deux
+        déclenchements ont publié le même Reel à 6 minutes d'écart, l'état du dépôt n'ayant pas suivi."""
+        tete = legende.strip()[:120]
+        limite = datetime.now(timezone.utc) - depuis
+        for m in self._get(f"{self.ig}/media", fields="id,caption,timestamp,permalink", limit=15).get("data", []):
+            quand = datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")
+            if quand >= limite and (m.get("caption") or "").strip()[:120] == tete:
+                return Resultat(m.get("permalink") or f"instagram media {m['id']}", m["id"])
+        return None
+
     def publier_reel(self, video_url: str, legende: str, couverture: str | None = None) -> Resultat:
         """`couverture` : adresse publique de la miniature JPEG (sinon Instagram prend une image de la vidéo)."""
         options = {"cover_url": couverture} if couverture else {}

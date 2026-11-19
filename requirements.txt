@@ -10,4 +10,5 @@ tzdata>=2024.1
 pytest>=8.0
 imageio-ffmpeg>=0.5
 num2words>=0.5.13
+numpy>=2.0  # voix_conseil.py (découpage de la prise aux silences) depuis le 12/11/2026
 cryptography>=43

@@ -203,3 +203,24 @@ def test_heberger_remplace_un_reel_refait(tmp_path, monkeypatch):
     assert perso.heberger(CFG, lambda _: None, tmp_path / "sortie", datetime(2026, 11, 9, 10, tzinfo=timezone.utc)) == 1
     planning = json.loads(etat.read_text(encoding="utf-8"))["planning"]
     assert len(planning) == 1 and planning[0]["video_url"] == "nouveau/20261113-1830-r.mp4" and planning[0]["timbre"] == "conseil"
+
+
+def test_publication_sans_doublon(tmp_path, monkeypatch):
+    import json
+
+    import agent.perso as perso
+    from agent.publieurs import instagram_perso
+    from agent.publieurs.base import Resultat
+    etat = tmp_path / "etat.json"
+    monkeypatch.setattr(perso.EtatPerso.__init__, "__defaults__", (etat,))
+    etat.write_text(json.dumps({"planning": [{"id": "a", "quand": "2026-11-16T21:00:00+01:00", "sujet": "pareto", "statut": "programme",
+                                              "video_url": "v", "legende": "L", "script": {}}], "publications": []}), encoding="utf-8")
+    envois = []
+    monkeypatch.setattr(instagram_perso.InstagramPerso, "__init__", lambda self, *a: None)
+    monkeypatch.setattr(instagram_perso.InstagramPerso, "deja_publie", lambda self, l: Resultat("https://ig/x", "42"))
+    monkeypatch.setattr(instagram_perso.InstagramPerso, "publier_reel", lambda self, *a, **k: envois.append(1))
+    monkeypatch.setattr(instagram_perso.InstagramPerso, "renouveler", lambda self: None)
+    assert perso.publier_dus({**CFG, "perso": {**CFG["perso"], "publication": True}}, lambda _: None,
+                             datetime(2026, 11, 16, 20, 5, tzinfo=timezone.utc))
+    x = json.loads(etat.read_text(encoding="utf-8"))["planning"][0]
+    assert envois == [] and x["statut"] == "publie" and x["media_id"] == "42" and "script" not in x

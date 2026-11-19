@@ -577,7 +577,11 @@ def publier_dus(cfg: dict, log, maintenant: datetime | None = None) -> bool:
             etat.sauver()
             continue
         try:
-            res = pub.publier_reel(x["video_url"], x["legende"], couverture=x.get("cover_url"))
+            res = pub.deja_publie(x["legende"])
+            if res:
+                log(f"    ⚠️ {nom} : déjà en ligne ({res.url}), pas de second envoi")
+            else:
+                res = pub.publier_reel(x["video_url"], x["legende"], couverture=x.get("cover_url"))
             x.update(statut="publie", url=res.url, media_id=res.id, publie_le=datetime.now(timezone.utc).isoformat(timespec="seconds"))
             x.pop("script", None)  # gardé seulement pour refaire la voix avant publication
             etat.d["publications"].append({"jour": x["quand"][:10], "sujet": x["sujet"], "angle": x.get("angle", ""),
