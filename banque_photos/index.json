@@ -2145,5 +2145,613 @@
       1667,
       1250
     ]
+  },
+  {
+    "theme": "banque",
+    "fichier": "banque/bank-of-central-african-states-2014-front.jpg",
+    "montre": "siège de la BEAC, façade principale de la tour",
+    "lieu": "Yaoundé",
+    "date": "2014-11-13",
+    "annee": "2014",
+    "personnes": "loin",
+    "marque": null,
+    "auteur": "Bdx",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Central_African_States_2014_front.JPG",
+    "credit": "Yaoundé, 2014 · Photo : Bdx / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      2448,
+      3264
+    ]
+  },
+  {
+    "theme": "telephone_argent_mobile",
+    "fichier": "telephone_argent_mobile/camtel-bepanda-douala.jpg",
+    "montre": "immeuble Camtel de Bépanda vu de la route, motos devant",
+    "lieu": "Bépanda, Douala",
+    "date": "inconnue",
+    "annee": null,
+    "personnes": "visibles",
+    "marque": "Camtel",
+    "auteur": "Kondah",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Camtel,_B%C3%A9panda,_Douala.jpg",
+    "credit": "Bépanda, Douala · Photo : Kondah / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      2588,
+      1456
+    ]
+  },
+  {
+    "theme": "telephone_argent_mobile",
+    "fichier": "telephone_argent_mobile/immeuble-camtel-poste-centrale-yaounde.jpg",
+    "montre": "immeuble Camtel de la poste centrale, avenue et voitures",
+    "lieu": "Yaoundé",
+    "date": "2015-10-22",
+    "annee": "2015",
+    "personnes": "loin",
+    "marque": "Camtel",
+    "auteur": "ADAMBITA",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Immeuble_Camtel_poste_centrale_Yaound%C3%A9.jpg",
+    "credit": "Yaoundé, 2015 · Photo : ADAMBITA / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      4608,
+      2592
+    ]
+  },
+  {
+    "theme": "port_aeroport",
+    "fichier": "port_aeroport/port-autonome-de-kribi.jpg",
+    "montre": "porte-conteneurs à quai sous les grues du port de Kribi",
+    "lieu": "Kribi, Sud",
+    "date": "2022-11-22",
+    "annee": "2022",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "BACHELOR45",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Port_autonome_de_Kribi.jpg",
+    "credit": "Kribi, Sud, 2022 · Photo : BACHELOR45 / Wikimedia Commons · CC BY 4.0 · recadrée",
+    "taille": [
+      3812,
+      2144
+    ]
+  },
+  {
+    "theme": "port_aeroport",
+    "fichier": "port_aeroport/port-de-kribi.jpg",
+    "montre": "vue aérienne du terminal à conteneurs du port de Kribi",
+    "lieu": "Kribi, Sud",
+    "date": "2022-11-22",
+    "annee": "2022",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "BACHELOR45",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Port_de_kribi.jpg",
+    "credit": "Kribi, Sud, 2022 · Photo : BACHELOR45 / Wikimedia Commons · CC BY 4.0 · recadrée",
+    "taille": [
+      4000,
+      2250
+    ]
+  },
+  {
+    "theme": "agriculture",
+    "fichier": "agriculture/cabosses-de-cacao-tayap-2.jpg",
+    "montre": "cabosses de cacao sur les branches d'un cacaoyer",
+    "lieu": "Tayap, Centre",
+    "date": "2016-08-04",
+    "annee": "2016",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Eric Freyssinge",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cabosses_de_cacao-Tayap_(2).jpg",
+    "credit": "Tayap, Centre, 2016 · Photo : Eric Freyssinge / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      1984,
+      1488
+    ]
+  },
+  {
+    "theme": "agriculture",
+    "fichier": "agriculture/cacaoyere-cameroun.jpg",
+    "montre": "cacaoyère, jeunes cacaoyers sous les grands arbres",
+    "lieu": "Tayap, Centre",
+    "date": "2016-08-04",
+    "annee": "2016",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Eric Freyssinge",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cacaoy%C3%A8re_(Cameroun).jpg",
+    "credit": "Tayap, Centre, 2016 · Photo : Eric Freyssinge / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      1984,
+      1488
+    ]
+  },
+  {
+    "theme": "agriculture",
+    "fichier": "agriculture/cocoa-in-bekondo.jpg",
+    "montre": "grappe de cabosses vertes sur un tronc de cacaoyer",
+    "lieu": "Bekondo, Sud-Ouest",
+    "date": "2025-06-05",
+    "annee": "2025",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Bokwe Experiment",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cocoa_in_Bekondo.jpg",
+    "credit": "Bekondo, Sud-Ouest, 2025 · Photo : Bokwe Experiment / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      3048,
+      4064
+    ]
+  },
+  {
+    "theme": "agriculture",
+    "fichier": "agriculture/plan-de-cacaos-a-mboue.jpg",
+    "montre": "cabosses de cacao sur un cacaoyer en plantation",
+    "lieu": "Mboué",
+    "date": "2016-08-13",
+    "annee": "2016",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Florettesokeng",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plan_de_cacaos_%C3%A0_Mbou%C3%A9.jpg",
+    "credit": "Mboué, 2016 · Photo : Florettesokeng / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      2592,
+      3872
+    ]
+  },
+  {
+    "theme": "marche",
+    "fichier": "marche/messa-04.jpg",
+    "montre": "le marché Mokolo vu d'en haut, foule et taxis jaunes",
+    "lieu": "Mokolo, Yaoundé",
+    "date": "2018-05-11",
+    "annee": "2018",
+    "personnes": "loin",
+    "marque": null,
+    "auteur": "gtankam",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Messa_04.jpg",
+    "credit": "Mokolo, Yaoundé, 2018 · Photo : gtankam / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      3088,
+      2056
+    ]
+  },
+  {
+    "theme": "marche",
+    "fichier": "marche/produits-marche-bafang.jpg",
+    "montre": "étal de tomates, piments, oignons et ail",
+    "lieu": "Bafang, Ouest",
+    "date": "inconnue",
+    "annee": "2007",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "sjludwig",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Produits_Marche_Bafang.jpg",
+    "credit": "Bafang, Ouest, 2007 · Photo : sjludwig / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+    "taille": [
+      1351,
+      899
+    ]
+  },
+  {
+    "theme": "sante",
+    "fichier": "sante/hopital-de-district-de-logbaba.jpg",
+    "montre": "hôpital de district de Logbaba, façade et parking",
+    "lieu": "Logbaba, Douala",
+    "date": "2020-04-21",
+    "annee": "2020",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Costawood",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HOPITAL_DE_DISTRICT_DE_LOGBABA.jpg",
+    "credit": "Logbaba, Douala, 2020 · Photo : Costawood / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      3385,
+      2257
+    ]
+  },
+  {
+    "theme": "sante",
+    "fichier": "sante/hrm-by-night.jpg",
+    "montre": "enseigne lumineuse de l'hôpital régional de Maroua, la nuit",
+    "lieu": "Maroua, Extrême-Nord",
+    "date": "2022-02-10",
+    "annee": "2022",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Bile rene",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HRM_by_night.jpg",
+    "credit": "Maroua, Extrême-Nord, 2022 · Photo : Bile rene / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      4000,
+      2992
+    ]
+  },
+  {
+    "theme": "sante",
+    "fichier": "sante/n-gaoundere-hospital3.jpg",
+    "montre": "cour du pavillon de pédiatrie de l'hôpital de Ngaoundéré",
+    "lieu": "Ngaoundéré, Adamaoua",
+    "date": "2007-02-20",
+    "annee": "2007",
+    "personnes": "loin",
+    "marque": null,
+    "auteur": "Elin Beckmann",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:N%27Gaoundere_hospital3.jpg",
+    "credit": "Ngaoundéré, Adamaoua, 2007 · Photo : Elin Beckmann / Wikimedia Commons · CC BY 2.0 · recadrée",
+    "taille": [
+      1280,
+      960
+    ]
+  },
+  {
+    "theme": "education",
+    "fichier": "education/esstic-universite-de-yaounde-i.jpg",
+    "montre": "bâtiment de l'ESSTIC, université de Yaoundé I",
+    "lieu": "Yaoundé",
+    "date": "2021-08-29",
+    "annee": "2021",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Serieminou",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ESSTIC_Universit%C3%A9_de_Yaound%C3%A9_I.jpg",
+    "credit": "Yaoundé, 2021 · Photo : Serieminou / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      4032,
+      3024
+    ]
+  },
+  {
+    "theme": "education",
+    "fichier": "education/face-avant-du-centre-universitaire-joseph-ndi-samba.jpg",
+    "montre": "Centre universitaire Joseph Ndi Samba, façade de briques",
+    "lieu": "Yaoundé",
+    "date": "2018-01-16",
+    "annee": "2018",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Sugarsamba",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Face_avant_du_Centre_Universitaire_Joseph_Ndi_samba.jpg",
+    "credit": "Yaoundé, 2018 · Photo : Sugarsamba / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      1279,
+      621
+    ]
+  },
+  {
+    "theme": "education",
+    "fichier": "education/ict-university-campus-yaounde.jpg",
+    "montre": "campus de l'ICT University, immeuble orange et bleu",
+    "lieu": "Yaoundé",
+    "date": "2021-08-07",
+    "annee": "2021",
+    "personnes": "aucune",
+    "marque": "ICT University",
+    "auteur": "The ICT University",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ICT-University-campus-yaounde.jpg",
+    "credit": "Yaoundé, 2021 · Photo : The ICT University / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      1200,
+      630
+    ]
+  },
+  {
+    "theme": "institutions",
+    "fichier": "institutions/hotel-de-ville-yaounde-cameroun.jpg",
+    "montre": "hôtel de ville de Yaoundé",
+    "lieu": "Yaoundé",
+    "date": "2015-12-04",
+    "annee": "2015",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Frederic PAPY",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_de_ville_Yaound%C3%A9_Cameroun.jpg",
+    "credit": "Yaoundé, 2015 · Photo : Frederic PAPY / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      1456,
+      2592
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/barrage-hydroelectrique-de-memve-ele.jpg",
+    "montre": "route goudronnée neuve près du barrage de Memve'ele",
+    "lieu": "Memve'ele, Sud",
+    "date": "2018-05-26",
+    "annee": "2018",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Asitchoma",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barrage_hydro%C3%A9lectrique_de_Memve%27ele.jpg",
+    "credit": "Memve'ele, Sud, 2018 · Photo : Asitchoma / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      3264,
+      2448
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/cameroun-route-nationale-3-a-la-saison-des-pluies-2.jpg",
+    "montre": "route nationale 3 en terre à la saison des pluies, camion et piétons",
+    "lieu": "Route nationale 3, près d'Eséka",
+    "date": "2016-08-03",
+    "annee": "2016",
+    "personnes": "visibles",
+    "marque": null,
+    "auteur": "Eric Freyssinge",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cameroun-Route_nationale_3_%C3%A0_la_saison_des_pluies_(2).jpg",
+    "credit": "Route nationale 3, près d'Eséka, 2016 · Photo : Eric Freyssinge / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      3264,
+      2448
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/pluie-sur-la-route-douala-yaounde.jpg",
+    "montre": "route Douala-Yaoundé sous la pluie, vue depuis une voiture",
+    "lieu": "Route Douala-Yaoundé",
+    "date": "2019-08-25",
+    "annee": "2019",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Basile Cédric ETOUNDI",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pluie_sur_la_route_Douala_-_Yaound%C3%A9.jpg",
+    "credit": "Route Douala-Yaoundé, 2019 · Photo : Basile Cédric ETOUNDI / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      1024,
+      768
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/ville-d-edea-route-nationale-n3.jpg",
+    "montre": "camion sur la route nationale 3 en ville",
+    "lieu": "Édéa, Littoral",
+    "date": "2020-07-01",
+    "annee": "2020",
+    "personnes": "loin",
+    "marque": null,
+    "auteur": "Simbanematick",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ville_d%27%C3%A9d%C3%A9a_route_nationale_N%C2%B03.jpg",
+    "credit": "Édéa, Littoral, 2020 · Photo : Simbanematick / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      6000,
+      4000
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/pont-wouri-1.jpg",
+    "montre": "pont sur le Wouri vu depuis la rive",
+    "lieu": "Douala",
+    "date": "2013-09-24",
+    "annee": "2013",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Steve Mvondo",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pont_Wouri_1.jpg",
+    "credit": "Douala, 2013 · Photo : Steve Mvondo / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+    "taille": [
+      4482,
+      2357
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/nouveau-pont-sur-le-wouri-01.jpg",
+    "montre": "nouveau pont sur le Wouri, voie ferrée et fleuve",
+    "lieu": "Douala",
+    "date": "2019-06-21",
+    "annee": "2019",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Johnkekam",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nouveau_pont_sur_le_Wouri_01.jpg",
+    "credit": "Douala, 2019 · Photo : Johnkekam / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      6000,
+      4000
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/travaux-de-terrassement-et-versant-rocheux-de-la-falaise-de-.jpg",
+    "montre": "terrassement et enrochement sur le flanc de la falaise",
+    "lieu": "Falaise de Dschang, Ouest",
+    "date": "2025-08-30",
+    "annee": "2025",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Baker landry",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Travaux_de_terrassement_et_versant_rocheux_de_la_falaise_de_Dschang.jpg",
+    "credit": "Falaise de Dschang, Ouest, 2025 · Photo : Baker landry / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      3072,
+      3224
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/le-mont-makabaye-a-maroua-01.jpg",
+    "montre": "route goudronnée au pied du mont Makabaye",
+    "lieu": "Maroua, Extrême-Nord",
+    "date": "2023-06-17",
+    "annee": "2023",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "OUMAROU OB",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Mont_Makabaye_%C3%A0_Maroua_01.jpg",
+    "credit": "Maroua, Extrême-Nord, 2023 · Photo : OUMAROU OB / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      5184,
+      3456
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/ndongo-bridge.jpg",
+    "montre": "chantier du pont de Ndongo, piles en béton et route de terre",
+    "lieu": "Ndongo, Buea",
+    "date": "2025-04-28",
+    "annee": "2025",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Senator BNB",
+    "licence": "CC0",
+    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_Bridge.jpg",
+    "credit": "Ndongo, Buea, 2025 · Photo : Senator BNB / Wikimedia Commons · CC0 · recadrée",
+    "taille": [
+      4032,
+      2268
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/carrefour-ndokoti-a-douala.jpg",
+    "montre": "embouteillage de motos-taxis au carrefour Ndokoti",
+    "lieu": "Ndokoti, Douala",
+    "date": "2017-10-27",
+    "annee": "2017",
+    "personnes": "visibles",
+    "marque": null,
+    "auteur": "Minette Lontsie",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carrefour_Ndokoti_%C3%A0_Douala.jpg",
+    "credit": "Ndokoti, Douala, 2017 · Photo : Minette Lontsie / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      4608,
+      3072
+    ]
+  },
+  {
+    "theme": "transport",
+    "fichier": "transport/transport-a-moto-a-douala.jpg",
+    "montre": "motos-taxis chargées dans une rue de Douala",
+    "lieu": "Douala",
+    "date": "2020-04-09",
+    "annee": "2020",
+    "personnes": "visibles",
+    "marque": null,
+    "auteur": "Johnkekam",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Transport_%C3%A0_moto_%C3%A0_Douala.jpg",
+    "credit": "Douala, 2020 · Photo : Johnkekam / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      5184,
+      3456
+    ]
+  },
+  {
+    "theme": "agriculture",
+    "fichier": "agriculture/bananeraie-cameroun.jpg",
+    "montre": "bananeraie",
+    "lieu": "Tayap, Centre",
+    "date": "2016-09-01",
+    "annee": "2016",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Eric Freyssinge",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bananeraie_(Cameroun).jpg",
+    "credit": "Tayap, Centre, 2016 · Photo : Eric Freyssinge / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      3264,
+      2448
+    ]
+  },
+  {
+    "theme": "agriculture",
+    "fichier": "agriculture/bananier-bana-cameroun.jpg",
+    "montre": "bananier avec un régime de bananes",
+    "lieu": "Bana, Ouest",
+    "date": "inconnue",
+    "annee": "2007",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "sjludwig",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bananier_Bana_Cameroun.jpg",
+    "credit": "Bana, Ouest, 2007 · Photo : sjludwig / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+    "taille": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "theme": "ville_habitat",
+    "fichier": "ville_habitat/drain-routier-douala-2.jpg",
+    "montre": "drain d'eaux de pluie le long d'une route",
+    "lieu": "Douala",
+    "date": "2019-11-20",
+    "annee": "2019",
+    "personnes": "aucune",
+    "marque": null,
+    "auteur": "Minette Lontsie",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Drain_routier_Douala_2.jpg",
+    "credit": "Douala, 2019 · Photo : Minette Lontsie / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+    "taille": [
+      5312,
+      2988
+    ]
   }
 ]
