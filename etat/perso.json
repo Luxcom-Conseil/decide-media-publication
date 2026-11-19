@@ -1016,103 +1016,13 @@
       "formule": "Enjeu",
       "id": "20261119-2100",
       "legende": "Ignorer ce réflexe le soir peut ruiner ton bien-être quotidien.\n\nNotre cerveau a tendance à se focaliser sur ce qui va mal avant de dormir. En prenant l'habitude de noter ce qui a été positif, tu réentraînes ton attention.\n\nEssaie ce soir : pense à un bon moment et partage-le si possible.\n\nAs-tu un bon moment à partager aujourd'hui ?\n\n#psychologie #gratitude #bienetre #devperso",
+      "media_id": "18161001871566546",
+      "publie_le": "2026-11-19T20:02:01+00:00",
       "quand": "2026-11-19T21:00:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Enjeu",
-            "texte": "Ignorer ce réflexe le soir peut ruiner ton bien-être quotidien."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de te coucher stressé tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe gratuit peut changer toutes tes journées."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "gratitude",
-          "bienetre",
-          "devperso"
-        ],
-        "legende": "Ignorer ce réflexe le soir peut ruiner ton bien-être quotidien.\n\nNotre cerveau a tendance à se focaliser sur ce qui va mal avant de dormir. En prenant l'habitude de noter ce qui a été positif, tu réentraînes ton attention.\n\nEssaie ce soir : pense à un bon moment et partage-le si possible.\n\nAs-tu un bon moment à partager aujourd'hui ?",
-        "question": "As-tu un bon moment à partager aujourd'hui ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ignorer ce réflexe le soir peut ruiner ton bien-être quotidien.",
-            "ecran": "Ignorer ce réflexe *ruine* ton bien-être",
-            "emoji": "😱",
-            "recherche": "stressed person bedroom night",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "On parle de la gratitude.",
-            "ecran": "C'est la *gratitude*",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le soir au lit, tu rumines le seul souci de ta journée.",
-            "ecran": "Tu rumines au *lit*",
-            "emoji": "📱",
-            "recherche": "person thinking in bed phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau retient le négatif et oublie tout ce qui va bien.",
-            "ecran": "Ton cerveau *filtre* le négatif",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Chaque soir, note un bon moment. Et dis-le parfois à la personne concernée.",
-            "ecran": "L'astuce : 1 pensée positive | 2 dis-le",
-            "emoji": "✅",
-            "recherche": "writing journal happy",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Remarquer le positif dans ta vie suffit pour te sentir mieux.",
-            "ecran": "Remarque le *positif* pour le multiplier",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La gratitude"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "gratitude",
       "timbre": "habituelle",
+      "url": "https://www.instagram.com/reel/Df75AW_DxXY/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-13/20261119-2100.mp4"
     },
     {
@@ -5037,6 +4947,13 @@
       "media_id": "18126715570916252",
       "sujet": "mimetique",
       "url": "https://www.instagram.com/reel/Df7n2D2j2po/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-19",
+      "media_id": "18161001871566546",
+      "sujet": "gratitude",
+      "url": "https://www.instagram.com/reel/Df75AW_DxXY/"
     }
   ]
 }
