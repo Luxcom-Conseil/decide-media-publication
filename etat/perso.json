@@ -1000,192 +1000,13 @@
       "formule": "Défi",
       "id": "20261119-1830",
       "legende": "Personne ne m'a expliqué ça, et ça a tout changé.\n\nAu bureau, on croit souvent faire des choix rationnels. Pourtant, nous sommes tous influencés par le désir mimétique : l'envie se transmet comme une vraie contagion.\n\nQuand un poste ou une mission devient populaire, notre cerveau veut spontanément l'obtenir. Une simple file d'attente ou un engouement collectif suffit à rendre n'importe quel projet attrayant.\n\nAvant de foncer tête baissée dans une compétition, demande-toi toujours si c'est ton besoin réel ou une simple imitation.\n\nAs-tu déjà désiré un projet juste parce que tes collègues le voulaient ?\n\n#psychologie #travail #carriereprofessionnelle #conseilbureau #développementpersonnel",
+      "media_id": "18126715570916252",
+      "publie_le": "2026-11-19T17:32:21+00:00",
       "quand": "2026-11-19T18:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Défi",
-            "texte": "Personne ne m'a expliqué ça, et ça a changé ma carrière."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce réflexe au bureau te coûte plus cher que tu ne crois."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois choisir tes projets ? C'est tout le contraire."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "travail",
-          "carriereprofessionnelle",
-          "conseilbureau",
-          "développementpersonnel"
-        ],
-        "legende": "Personne ne m'a expliqué ça, et ça a tout changé.\n\nAu bureau, on croit souvent faire des choix rationnels. Pourtant, nous sommes tous influencés par le désir mimétique : l'envie se transmet comme une vraie contagion.\n\nQuand un poste ou une mission devient populaire, notre cerveau veut spontanément l'obtenir. Une simple file d'attente ou un engouement collectif suffit à rendre n'importe quel projet attrayant.\n\nAvant de foncer tête baissée dans une compétition, demande-toi toujours si c'est ton besoin réel ou une simple imitation.\n\nAs-tu déjà désiré un projet juste parce que tes collègues le voulaient ?",
-        "question": "As-tu déjà désiré un projet juste parce que tes collègues le voulaient ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Personne ne m'a jamais expliqué ça, et ça a absolument tout changé dans ma carrière.",
-            "ecran": "Ça a *tout changé* dans ma carrière",
-            "emoji": "🔥",
-            "recherche": "office worker thoughtful window",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est qu'on tombe tous dans ce piège sans s'en rendre compte.",
-            "ecran": "Le *piège* invisible du bureau",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce mécanisme psychologique a un nom : le désir mimétique.",
-            "ecran": "Le *désir mimétique*",
-            "emoji": "🧠",
-            "recherche": "brain animation concept",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu veux absolument ce nouveau projet ? Ou tu le veux parce que ton collègue est dessus ?",
-            "ecran": "Tu veux ce *projet* ?",
-            "emoji": "💼",
-            "recherche": "colleagues meeting room conflict",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Notre cerveau est fait ainsi : le désir des autres se transmet comme une vraie contagion.",
-            "ecran": "L'envie est une *contagion*",
-            "emoji": "🦠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Si tout le monde vise le même poste au bureau, il te paraît tout de suite 10 fois plus attirant.",
-            "ecran": "La *promotion* tant convoitée",
-            "emoji": "📈",
-            "recherche": "business people talking office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Regarde à la pause café : une file d'attente sur un sujet ou un projet donne envie d'y entrer.",
-            "ecran": "Même à la *pause café*",
-            "emoji": "☕",
-            "recherche": "coffee machine office queue",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Vrai besoin",
-            "b": "Imitation",
-            "dit": "On confond souvent ce qu'on veut vraiment avec ce que les autres recherchent.",
-            "ecran": "Ton *vrai* désir vs envie d'imitation",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Alors comment éviter de gâcher ton énergie sur des objectifs qui ne sont pas les tiens ?",
-            "ecran": "Reprends le *contrôle*",
-            "emoji": "🎯",
-            "recherche": "focused worker computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici l'astuce en trois étapes simples pour te protéger au quotidien.",
-            "ecran": "L'astuce : 1. Pause | 2. Question | 3. Choix",
-            "emoji": "📋",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Avant d'accepter une mission, fais une pause et prends du recul.",
-            "ecran": "Un. Fais une *pause*",
-            "emoji": "1️⃣",
-            "recherche": "man taking deep breath office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Demande-toi : est-ce que je veux vraiment cet objectif, ou ce que les autres ont ?",
-            "ecran": "Deux. Pose la *question*",
-            "emoji": "2️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Sache qu'une file d'attente ou un engouement collectif crée une envie artificielle.",
-            "ecran": "Trois. Analyse l'*effet de masse*",
-            "emoji": "3️⃣",
-            "recherche": "people crowd office walking",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ne poursuis pas le désir des autres, choisis tes propres batailles.",
-            "ecran": "Ne poursuis pas le *désir des autres*",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le désir mimétique au travail"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "mimetique",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df7n2D2j2po/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-12/20261119-1830.mp4"
     },
     {
@@ -5032,6 +4853,13 @@
       "media_id": "18380308939208529",
       "sujet": "explorer",
       "url": "https://www.instagram.com/reel/Df6-rnNnGln/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-19",
+      "media_id": "18126715570916252",
+      "sujet": "mimetique",
+      "url": "https://www.instagram.com/reel/Df7n2D2j2po/"
     }
   ]
 }
