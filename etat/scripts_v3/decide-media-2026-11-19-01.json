@@ -1,0 +1,85 @@
+{
+  "accroches": [
+    "Le sac d'oignons atteint 165 000 FCFA au Cameroun.",
+    "Les producteurs d'oignons perdent 40 % de leur récolte.",
+    "Une portion d'oignon coûte désormais 100 FCFA à Douala."
+  ],
+  "titre": "Le prix de l'oignon explose au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le sac d'oignons *à 165 000 FCFA*",
+      "dit": "Le sac d'oignons coûte actuellement jusqu'à 165 000 FCFA au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 45 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'engrais adapté *coûte 45 000 FCFA*",
+      "dit": "L'engrais adapté coûte 45 000 FCFA le sac, un prix trop élevé pour beaucoup de producteurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*40 % de pertes* après la récolte",
+      "dit": "Dans le Nord, les pertes après la récolte atteignent 40 % de la production totale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le stockage *limité à 3 mois*",
+      "dit": "Le stockage est limité à 3 mois, ce qui provoque des flambées de prix régulières."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La portion *passe à 100 FCFA*",
+      "dit": "Sur les marchés de Douala, le prix d'une petite portion est passé de 25 à 100 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*13 600 producteurs* dans le Nord",
+      "dit": "La région du Nord compte 13 600 producteurs d'oignons répartis sur 9 000 hectares."
+    }
+  ]
+}

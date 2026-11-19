@@ -1,0 +1,78 @@
+{
+  "accroches": [
+    "147,83 heures d'interruption d'électricité en 2025 au Cameroun.",
+    "29,2 % de coupures d'électricité en plus en un an.",
+    "41,2 % de fiabilité pour la moyenne tension en 2025."
+  ],
+  "titre": "Coupures d'électricité au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "147,83 heures de *coupures* en 2025",
+      "dit": "Les consommateurs camerounais ont subi 147,83 heures d'interruption d'électricité en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse de *29,2 %* en un an",
+      "dit": "C'est 29,2 % de plus qu'en 2024 selon le rapport d'activité de l'ARSEL."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "249,42 heures dans les *zones* rurales",
+      "dit": "L'organisme cite 249,42 heures en zones rurales et 125,95 heures dans les grandes agglomérations urbaines."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La *fiabilité* tombe à 41,2 %",
+      "dit": "La fiabilité des départs moyenne tension est tombée à 41,2 % en 2025 pour un objectif contractuel de 89 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "24 juillet 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un désaccord lors d'un *atelier*",
+      "dit": "Un atelier technique s'est tenu à Kribi le 24 juillet 2026 pour aborder ces données."
+    }
+  ]
+}

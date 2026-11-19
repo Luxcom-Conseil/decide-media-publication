@@ -1,0 +1,110 @@
+{
+  "accroches": [
+    "L'identification des motos-taxis coûte 10 000 F dans certaines mairies.",
+    "L'enrôlement des motos-taxis est gratuit à Yaoundé III.",
+    "Les conducteurs de motos-taxis dépensent 65 000 F pour leur dossier."
+  ],
+  "titre": "Motos-taxis : gratuit ici, payant là",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'identification *gratuite* à Yaoundé III",
+      "dit": "L'enrôlement des motos-taxis est gratuit à la mairie de Yaoundé III."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une *procédure* obligatoire en cours",
+      "dit": "L'opération s'est poursuivie lundi 16 novembre dans plusieurs mairies de la capitale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": "hausse",
+        "avant": null,
+        "apres": null,
+        "montant": "10 000",
+        "a": null,
+        "b": null,
+        "texte": "Frais de plateforme à Yaoundé VI",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "10 000 F *payants* à Yaoundé VI",
+      "dit": "À Yaoundé VI, la prestation passe par une plateforme privée et coûte 10 000 francs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *justificatifs* nécessaires pour l'opération",
+      "dit": "La procédure exige la carte d'identité, le permis, la carte grise et l'assurance."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "65 000",
+        "a": null,
+        "b": null,
+        "texte": "Coût global du dossier",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "65 000 F *dépensés* pour le dossier",
+      "dit": "Selon un conducteur, la constitution complète du dossier a coûté 65 000 francs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Mercredi",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *délai* prévu ce mercredi",
+      "dit": "Le journal Cameroon Tribune précise qu'un délai est fixé pour ce mercredi."
+    }
+  ]
+}

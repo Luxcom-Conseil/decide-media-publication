@@ -1,0 +1,73 @@
+{
+  "accroches": [
+    "51,8 milliards FCFA de créances d'assurance au Cameroun en 2025.",
+    "La prime d'assurance doit être payée avant toute garantie.",
+    "Les arriérés de primes atteignent 137 milliards en 2025."
+  ],
+  "titre": "Assurance au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "51,8 milliards de créances en *2025*",
+      "dit": "51,8 milliards FCFA de créances d'assurance ont été enregistrés au Cameroun en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Application stricte de *l'article* 13",
+      "dit": "La FANAF et l'ASAC ont annoncé une application plus stricte de l'article 13 du Code CIMA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Paiement *préalable* des primes exigé",
+      "dit": "Aucune attestation ne doit être délivrée avant l'encaissement intégral de la prime."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "8 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Résiliation en *huit* jours ouvrés",
+      "dit": "Pour un chèque impayé, la résiliation intervient après huit jours ouvrés suite à une mise en demeure."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "31 mars 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Charte commune avant le *31* mars",
+      "dit": "Compagnies et courtiers doivent signer une charte commune au plus tard le 31 mars 2027."
+    }
+  ]
+}

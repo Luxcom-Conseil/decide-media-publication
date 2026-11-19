@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "2,325 milliards FCFA par mois peuvent être économisés sur les allocations.",
+    "Supprimer les faux paiements d'allocations rapporterait 27,9 milliards par an.",
+    "Le nombre d'enfants déclarés par les agents publics a bondi de 55 %."
+  ],
+  "titre": "Allocations familiales : le grand tri",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "2,325 milliards FCFA d'*économies* possibles",
+      "dit": "Supprimer les paiements liés aux enfants non recensés pourrait permettre d'économiser 2,325 milliards FCFA par mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "27 900 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "27,9 milliards sur *un an*",
+      "dit": "Cela représente 27,9 milliards sur un an parmi les personnels en activité au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "55 % de *hausse* en 21 mois",
+      "dit": "Le nombre d'enfants déclarés est passé de 594 728 en juin 2024 à 923 307 en mars 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "38 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'enveloppe atteint *38 milliards*",
+      "dit": "L'enveloppe des allocations est passée de 21 milliards FCFA à 38 milliards en moins de cinq ans."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 juillet 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Fin de la première *phase*",
+      "dit": "L'audit lancé en juin 2026 a achevé sa première phase le 15 juillet avec 580 856 actes collectés."
+    }
+  ]
+}
