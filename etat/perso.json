@@ -1049,203 +1049,14 @@
       "formule": "Ordre",
       "id": "20261120-1830",
       "legende": "Arrête de chercher de grand cadeau tant que tu n'as pas vu ça.\n\nOn pense souvent qu'il faut faire de grands gestes pour prouver son amour. Pourtant, ce sont les petites attentions du quotidien qui entretiennent vraiment la flamme.\n\nLe piège est de laisser ces gestes devenir habituels et invisibles. Pour préserver ton couple, prends le réflexe de remarquer et de remercier chaque petit effort.\n\nQuelle est la dernière petite attention reçue aujourd'hui ?\n\n#psychologie #relationdecouple #vieadeux #conseilcouple",
+      "media_id": "18130321060856808",
+      "publie_le": "2026-11-20T17:31:51+00:00",
       "quand": "2026-11-20T18:30:00+01:00",
       "refait_le": "2026-11-19T16:25:07+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de chercher de grand cadeau tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Ignorer ce petit détail quotidien peut détruire ton couple sans bruit."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe gratuit vaut plus que tous tes cadeaux de Saint-Valentin."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "relationdecouple",
-          "vieadeux",
-          "conseilcouple"
-        ],
-        "legende": "Arrête de chercher de grand cadeau tant que tu n'as pas vu ça.\n\nOn pense souvent qu'il faut faire de grands gestes pour prouver son amour. Pourtant, ce sont les petites attentions du quotidien qui entretiennent vraiment la flamme.\n\nLe piège est de laisser ces gestes devenir habituels et invisibles. Pour préserver ton couple, prends le réflexe de remarquer et de remercier chaque petit effort.\n\nQuelle est la dernière petite attention reçue aujourd'hui ?",
-        "question": "Quelle est la dernière petite attention reçue aujourd'hui ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Arrête de chercher de grand cadeau tant que tu n'as pas vu ça.",
-            "ecran": "Arrête les *grands* cadeaux d'abord",
-            "emoji": "🛑",
-            "recherche": "couple argumenting room",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "On attend la Saint-Valentin ou les anniversaires pour sortir le grand jeu.",
-            "ecran": "Les *grands* moments ne suffisent pas",
-            "emoji": "🎁",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mais offrir un gros cadeau ne sauve pas une relation qui s'éteint chaque jour.",
-            "ecran": "Le *piège* des grands gestes",
-            "emoji": "📉",
-            "recherche": "sad woman looking phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie du couple, ce sont les petites attentions répétées qui tout font.",
-            "ecran": "La *puissance* des micro-gestes",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Gros cadeau",
-            "b": "Petits gestes",
-            "dit": "Un grand geste isolé ne pèse rien face au quotidien accumulé.",
-            "ecran": "Ce qui *nourrit* ton couple",
-            "emoji": "⚖️",
-            "recherche": "scale balance concept",
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Préparer un café le matin, faire une commission sans qu'on le demande.",
-            "ecran": "Des *exemples* de tous les jours",
-            "emoji": "☕",
-            "recherche": "morning coffee couple",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le danger, c'est de finir par trouver ces petits services totalement normaux.",
-            "ecran": "L'habitude qui *tue* le lien",
-            "emoji": "🛋️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "L'autre fait des efforts, mais ils deviennent invisibles avec le temps.",
-            "ecran": "Ne deviens pas *aveugle*",
-            "emoji": "👁️",
-            "recherche": "man sitting couch thought",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quand on ne se sent plus vu ni apprécié, le lien s'effrite doucement.",
-            "ecran": "C'est la *fin* du sentiment",
-            "emoji": "🥀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il existe une méthode très simple pour raviver cette flamme.",
-            "ecran": "Comment *inverser* la tendance",
-            "emoji": "💡",
-            "recherche": "happy couple talking smiling",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "L'astuce se fait en deux étapes faciles à mettre en place dès ce soir.",
-            "ecran": "L'astuce : Remarquer | Remercier | Répéter",
-            "emoji": "✅",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Porte une attention active à tout ce que ton partenaire fait pour toi.",
-            "ecran": "Un. *Remarque* le quotidien",
-            "emoji": "1️⃣",
-            "recherche": "man looking with smile",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Dis merci à voix haute, même pour la vaisselle ou un simple rangement.",
-            "ecran": "Deux. *Dis* un vrai merci",
-            "emoji": "2️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Valoriser les gestes habituels transforme complètement l'ambiance à la maison.",
-            "ecran": "Exprime ta *reconnaissance*",
-            "emoji": "🗣️",
-            "recherche": "couple hugging kitchen",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les petites attentions font les grands couples.",
-            "ecran": "Les *petites* attentions font les grands couples",
-            "emoji": "💎",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La magie des petites attentions"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "reconnaissance_couple",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df-MoA4AMbk/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261120-1830-r.mp4"
     },
     {
@@ -4859,6 +4670,13 @@
       "media_id": "17871686406661931",
       "sujet": "unite",
       "url": "https://www.instagram.com/reel/Df9jbiwD6S0/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-20",
+      "media_id": "18130321060856808",
+      "sujet": "reconnaissance_couple",
+      "url": "https://www.instagram.com/reel/Df-MoA4AMbk/"
     }
   ]
 }
