@@ -23,153 +23,154 @@
   "bernhard",
   "trainpostal",
   "joconde",
-  "wirecard"
+  "wirecard",
+  "kerviel"
  ],
  "attente_partie2": {
-  "id": "wirecard",
-  "jour_partie1": "2026-11-19",
+  "id": "kerviel",
+  "jour_partie1": "2026-11-20",
   "script": {
-   "titre": "Scandale Wirecard : la grande illusion",
+   "titre": "La fraude à 50 milliards de Kerviel",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "Un milliard a *disparu*",
+     "ecran": "Un homme a engagé *50 milliards* en secret.",
      "grand": null,
-     "dit": "Un géant de la finance cherche un milliard. Il n'y a *rien* sur le compte.",
+     "dit": "Un seul trader a misé 50 milliards d'euros en secret.",
      "image": 0,
-     "recherche": null
+     "recherche": "Banque de France"
     },
     {
      "type": "recit",
-     "ecran": "Le pire *arrive*",
+     "ecran": "La plus grande *fraude* de l'histoire.",
      "grand": null,
-     "dit": "Et attends de voir ce que l'Allemagne a fait à ceux qui ont tenté de donner l'alerte.",
-     "image": 2,
-     "recherche": "Frankfurt Securities Exchange"
-    },
-    {
-     "type": "date",
-     "ecran": "Création de la *société*",
-     "grand": "1999",
-     "dit": "Tout commence en 1999. Une petite société allemande se lance dans les services de paiement en ligne.",
-     "image": 2,
-     "recherche": "German bank building"
-    },
-    {
-     "type": "recit",
-     "ecran": "L'arrivée du *nouveau* boss",
-     "grand": null,
-     "dit": "En 2002, alors que la bulle Internet menace de tout couler, Markus Braun injecte du capital.",
-     "image": 4,
-     "recherche": "Markus Braun Wirecard"
-    },
-    {
-     "type": "recit",
-     "ecran": "Un secteur *douteux*",
-     "grand": null,
-     "dit": "Il devient le PDG et axe le business sur les jeux d'argent et les sites pornographiques.",
-     "image": 5,
-     "recherche": "Online casino 2000s"
-    },
-    {
-     "type": "date",
-     "ecran": "Entrée en *bourse*",
-     "grand": "2006",
-     "dit": "En septembre 2006, la société entre à l'indice TecDAX de la Deutsche Börse.",
-     "image": 3,
-     "recherche": "Deutsche Boerse Frankfurt"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Une croissance *folle*",
-     "grand": "300 000",
-     "dit": "L'entreprise grandit très vite et revendiquera jusqu'à 300 000 entreprises clientes.",
+     "dit": "C'est plus que tous les fonds propres de sa propre banque. Et attends de voir la suite.",
      "image": 1,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Rival de *PayPal*",
-     "grand": null,
-     "dit": "Elle rivalise avec les géants PayPal et Western Union et possède sa propre licence bancaire.",
-     "image": 4,
-     "recherche": "Mastercard logo payment"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Première *anomalie*",
-     "grand": "4 millions",
-     "dit": "Mais dès 2004, la cour des comptes de Coblence repère une anomalie de 4 millions d'euros.",
-     "image": 5,
-     "recherche": "Koblenz Germany"
+     "recherche": "Trading floor 2000s"
     },
     {
      "type": "date",
-     "ecran": "La première *alerte*",
-     "grand": "2016",
-     "dit": "En février 2016, un analyste financier, Matthew Earl, lance une alerte sérieuse de fraude.",
+     "ecran": "24 janvier 2008",
+     "grand": "24 janvier 2008",
+     "dit": "24 janvier 2008. Le président de la Société générale annonce un gouffre financier.",
      "image": 2,
-     "recherche": "Financial analyst stock market"
+     "recherche": "Paris stock exchange"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Montant de la perte initiale",
+     "grand": "4,82 milliards",
+     "dit": "Une fraude inédite de 4,82 milliards d'euros, causée par un seul employé.",
+     "image": 3,
+     "recherche": "Calculator money"
     },
     {
      "type": "recit",
-     "ecran": "Enquête du *FT*",
+     "ecran": "Le visage de l'*escroquerie*",
      "grand": null,
-     "dit": "Puis en janvier 2019, le Financial Times publie une enquête explosive sur de fausses pièces.",
-     "image": 6,
-     "recherche": "Financial Times newspaper"
-    },
-    {
-     "type": "recit",
-     "ecran": "Attaque en *bourse*",
-     "grand": null,
-     "dit": "Des spéculateurs parient alors sur la baisse de l'action en bourse.",
+     "dit": "Son nom circule rapidement. Il s'appelle Jérôme Kerviel.",
      "image": 4,
-     "recherche": "Stock market crash trading screen"
+     "recherche": "Paris courthouse"
     },
     {
      "type": "recit",
-     "ecran": "Une réaction *incroyable*",
+     "ecran": "Des *opérations* normalement sans risque",
      "grand": null,
-     "dit": "Mais le régulateur financier allemand, la BaFin, prend une décision hallucinante.",
+     "dit": "En théorie, son métier consiste à faire de l'arbitrage sans prendre de risques.",
      "image": 6,
-     "recherche": "Bafin Bonn Germany"
+     "recherche": "Financial charts computer"
     },
     {
      "type": "recit",
-     "ecran": "Interdiction de *vendre*",
+     "ecran": "Le piège des *ordres fictifs*",
      "grand": null,
-     "dit": "Elle interdit les ventes à découvert pour soutenir Wirecard au lieu d'enquêter ouvertement.",
+     "dit": "Il achète des portefeuilles réels, mais simule des ventes fictives en couverture.",
+     "image": 5,
+     "recherche": "Computer code display"
+    },
+    {
+     "type": "recit",
+     "ecran": "Des *mises* totalement hors de contrôle",
+     "grand": null,
+     "dit": "Résultat : il se retrouve avec des positions géantes, totalement exposées au marché.",
+     "image": 6,
+     "recherche": "Euro banknotes"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Bénéfice dissimulé en 2007",
+     "grand": "1,4 milliard",
+     "dit": "En 2007, il gagne 1,4 milliard d'euros et parvient à le cacher.",
+     "image": 9,
+     "recherche": "Financial ledger"
+    },
+    {
+     "type": "recit",
+     "ecran": "Une hiérarchie aveugle ou *complice* ?",
+     "grand": null,
+     "dit": "Il affirme que sa hiérarchie fermait les yeux tant qu'il générait du cash.",
      "image": 7,
-     "recherche": "Stock exchange floor"
+     "recherche": "Modern office building"
+    },
+    {
+     "type": "date",
+     "ecran": "18 janvier 2008",
+     "grand": "18 janvier 2008",
+     "dit": "Vendredi 18 janvier 2008. Les services de contrôle découvrent enfin l'anomalie.",
+     "image": 8,
+     "recherche": "Security office"
+    },
+    {
+     "type": "date",
+     "ecran": "20 janvier 2008",
+     "grand": "20 janvier 2008",
+     "dit": "Dimanche 20 janvier. L'exposition totale est enfin connue de la direction.",
+     "image": 0,
+     "recherche": "Banque de France"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Position totale découverte",
+     "grand": "50 milliards",
+     "dit": "Le montant astronomique fait froid dans le dos : 50 milliards d'euros en jeu.",
+     "image": 9,
+     "recherche": "Vault door open"
     },
     {
      "type": "recit",
-     "ecran": "Attaque contre la *presse*",
+     "ecran": "Liquidation en *urgence absolue*",
      "grand": null,
-     "dit": "Pire encore : la BaFin met en examen les journalistes du Financial Times !",
-     "image": 0,
-     "recherche": "Journalist writing notebook press"
+     "dit": "Daniel Bouton décide de liquider toutes ces positions dans le secret le plus total.",
+     "image": 10,
+     "recherche": "Press conference microphone"
+    },
+    {
+     "type": "date",
+     "ecran": "21 au 23 janvier",
+     "grand": "21 au 23 janvier",
+     "dit": "Pendant trois jours, un trader unique vend tout en urgence sur les marchés.",
+     "image": 11,
+     "recherche": "Stock market panic"
     },
     {
      "type": "suite",
-     "ecran": "Où sont les *milliards* ?",
+     "ecran": "La banque va-t-elle survivre ?",
      "grand": null,
-     "dit": "Comment un empire de milliards a-t-il pu tromper le monde entier ? La suite dans la partie 2.",
-     "image": 2,
-     "recherche": "Vault empty bank"
+     "dit": "La banque peut-elle survivre à ce massacre financier ? La suite dans la partie 2.",
+     "image": 12,
+     "recherche": "Societe Generale building"
     }
    ],
-   "question": "Tu aurais fait confiance à cette entreprise ? Oui ou non en commentaire.",
-   "legende": "Un géant allemand de la finance cache une bombe à retardement comptable.\nQuand les journalistes tirent la sonnette d'alarme, les autorités attaquent... la presse !\nTu aurais fait confiance à cette entreprise ? Oui ou non en commentaire.",
+   "question": "Kerviel est-il le seul coupable ? Dis-le en commentaire.",
+   "legende": "Un trader engage 50 milliards en secret et fait trembler la Société générale. Découvrez la pire fraude bancaire de l'histoire. Kerviel est-il le seul coupable ? Dis-le en commentaire.",
    "hashtags": [
-    "wirecard",
-    "arnaque",
+    "kerviel",
+    "societegenerale",
     "finance",
-    "histoirevraie",
-    "scandale"
+    "arnaque",
+    "histoirevraie"
    ],
-   "_credit_musique": "« Curious Ambience » par Reg1n0ld (CC0, Freesound)"
+   "_credit_musique": "« Drama Strings » par younoise (CC0, Freesound)"
   }
  },
  "journal": [
@@ -484,6 +485,18 @@
    "id": "wirecard",
    "format": "serie",
    "nom": "hva-wirecard-p1"
+  },
+  {
+   "jour": "2026-11-20",
+   "id": "wirecard",
+   "format": "serie2",
+   "nom": "hva-wirecard-p2"
+  },
+  {
+   "jour": "2026-11-20",
+   "id": "kerviel",
+   "format": "serie",
+   "nom": "hva-kerviel-p1"
   }
  ],
  "en_chiffre": [
@@ -941,6 +954,34 @@
    "reseau": "youtube",
    "buffer": "6afea28f749099bdc71b5ba1",
    "heure": "2026-11-19T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-20",
+   "nom": "hva-wirecard-p2",
+   "reseau": "tiktok",
+   "buffer": "6afff3ba4c1afd05defe1e6c",
+   "heure": "2026-11-20T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-20",
+   "nom": "hva-wirecard-p2",
+   "reseau": "youtube",
+   "buffer": "6afff3bb7b0a126cebb6d5ca",
+   "heure": "2026-11-20T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-20",
+   "nom": "hva-kerviel-p1",
+   "reseau": "tiktok",
+   "buffer": "6afff3bb7b0a126cebb6d61d",
+   "heure": "2026-11-20T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-20",
+   "nom": "hva-kerviel-p1",
+   "reseau": "youtube",
+   "buffer": "6afff3bc0f5eda1a57cd40b8",
+   "heure": "2026-11-20T20:30:00+01:00"
   }
  ]
 }
