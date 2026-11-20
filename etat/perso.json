@@ -1032,116 +1032,14 @@
       "formule": "Liste",
       "id": "20261120-1230",
       "legende": "3 signes que tu te fais avoir faute de créer un vrai lien.\n\nLe principe d'unité montre que nous faisons spontanément confiance à ceux qui partagent notre culture, nos valeurs ou nos codes. C'est le sentiment d'appartenir à la même tribu qui crée une connexion immédiate.\n\nPour réussir tes échanges, parle le langage de ta communauté et montre tes vraies valeurs. Fuis le jeu d'acteur, la fausse proximité se repère rapidement.\n\nAs-tu déjà accordé ta confiance juste par esprit de tribu ?\n\n#psychologie #persuasion #relations #influence #communication",
+      "media_id": "17871686406661931",
+      "publie_le": "2026-11-20T11:32:17+00:00",
       "quand": "2026-11-20T12:30:00+01:00",
       "refait_le": "2026-11-19T16:25:07+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Liste",
-            "texte": "3 signes que tu te fais avoir faute de créer un vrai lien."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe d'appartenance te coûte plus cher que tu ne crois."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois convaincre avec des arguments ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "persuasion",
-          "relations",
-          "influence",
-          "communication"
-        ],
-        "legende": "3 signes que tu te fais avoir faute de créer un vrai lien.\n\nLe principe d'unité montre que nous faisons spontanément confiance à ceux qui partagent notre culture, nos valeurs ou nos codes. C'est le sentiment d'appartenir à la même tribu qui crée une connexion immédiate.\n\nPour réussir tes échanges, parle le langage de ta communauté et montre tes vraies valeurs. Fuis le jeu d'acteur, la fausse proximité se repère rapidement.\n\nAs-tu déjà accordé ta confiance juste par esprit de tribu ?",
-        "question": "As-tu déjà accordé ta confiance juste par esprit de tribu ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "3 signes que tu te fais avoir faute de créer un vrai lien.",
-            "ecran": "3 signes que tu *perds* gros",
-            "emoji": "🚨",
-            "recherche": "stressed person talking",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie, on appelle ça le principe d'unité.",
-            "ecran": "Le principe d'*unité*",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au bureau, tu t'entends direct avec quelqu'un qui partage ta culture.",
-            "ecran": "Au *bureau* ou en projet",
-            "emoji": "☕",
-            "recherche": "office colleagues chatting coffee",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau fait confiance à ceux qui te ressemblent.",
-            "ecran": "Le cerveau cherche la *tribu*",
-            "emoji": "🤝",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un, parle le langage de ton groupe. Deux, partage des valeurs sincères.",
-            "ecran": "L'astuce : 1. Parle leur langage | 2. Partage tes valeurs",
-            "emoji": "💡",
-            "recherche": "group people smiling unity",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Attention, si tu joues un rôle, les gens le sentent tout de suite.",
-            "ecran": "Ne *joue* pas un rôle",
-            "emoji": "🎭",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "L'appartenance sincère ouvre toutes les portes.",
-            "ecran": "L'appartenance *sincère* ouvre toutes les portes.",
-            "emoji": "🎯",
-            "recherche": "person opening door light",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le principe d'unité"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "unite",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/Df9jbiwD6S0/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261120-1230-r.mp4"
     },
     {
@@ -4954,6 +4852,13 @@
       "media_id": "18161001871566546",
       "sujet": "gratitude",
       "url": "https://www.instagram.com/reel/Df75AW_DxXY/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-20",
+      "media_id": "17871686406661931",
+      "sujet": "unite",
+      "url": "https://www.instagram.com/reel/Df9jbiwD6S0/"
     }
   ]
 }
