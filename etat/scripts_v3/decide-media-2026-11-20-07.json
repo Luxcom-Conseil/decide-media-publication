@@ -1,0 +1,76 @@
+{
+  "accroches": [
+    "La CDEC réclame 39,25 milliards de FCFA à Afriland First Bank.",
+    "Afriland contesté un montant de 39,25 milliards réclamé par la CDEC.",
+    "Afriland saisit la justice face à une contrainte de 39,25 milliards."
+  ],
+  "titre": "CDEC et Afriland : litige financier",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "La CDEC réclame *39,25 milliards* FCFA",
+      "dit": "La Caisse des dépôts réclame 39,25 milliards de FCFA à Afriland First Bank."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Afriland First Bank",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "La banque *conteste* le montant",
+      "dit": "Afriland conteste la justification financière de cette somme réclamée par la CDEC."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "16 octobre 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une réclamation *depuis* 2025",
+      "dit": "Une première mise en demeure du 16 octobre 2025 réclamait 36,5 milliards de fonds et des pénalités."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Saisie du *tribunal* administratif",
+      "dit": "La banque a déposé un recours contentieux le 4 mai 2026 devant le Tribunal administratif du Centre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un délai de *15 jours* pour répondre",
+      "dit": "Un courrier du greffe reçu le 9 novembre 2026 donnait 15 jours à la CDEC pour répondre."
+    }
+  ]
+}

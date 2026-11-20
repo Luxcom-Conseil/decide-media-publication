@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "La COBAC a retire l'agrement d'African Development Credit.",
+    "La liquidation de la microfinance ADeC a ete prononcee.",
+    "Les depots des clients d'ADeC n'ont pas de garantie automatique."
+  ],
+  "titre": "Liquidation d'ADeC au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La COBAC *retire* l'agrement d'ADeC",
+      "dit": "La COBAC a retire l'agrement d'African Development Credit, une microfinance de Yaounde."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "1er juillet 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une sanction *disciplinaire* prononcee en juillet",
+      "dit": "La sanction a ete prononcee a titre disciplinaire, par decision du 1er juillet 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "6 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un liquidateur *nomme* pour six mois",
+      "dit": "Un liquidateur a ete designe pour conduire la liquidation pendant six mois renouvelables."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucune *garantie* automatique pour les epargnants",
+      "dit": "Le reglement du Fogadac ne prevoit pas de garantie automatique pour les depots de cette microfinance."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un tiers des *bons* du Fodecc",
+      "dit": "L'etablissement etait associe a 12 683 bons d'achat en decembre 2023, soit 37,3 pourcent du total."
+    }
+  ]
+}

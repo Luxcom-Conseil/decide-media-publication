@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "Le Cameroun envisage de porter la centrale de Kribi à 600 MW.",
+    "Une hausse d'environ 178 % est prévue pour la centrale.",
+    "Un déficit de puissance de 140 MW est attendu en 2027."
+  ],
+  "titre": "Centrale de Kribi",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Kribi",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La centrale de Kribi *vise* 600 MW",
+      "dit": "Le Cameroun envisage de faire passer la centrale à gaz de Kribi de 216 MW à 600 MW."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une *hausse* de 178 %",
+      "dit": "L'extension porterait sur 384 MW supplémentaires, soit une hausse d'environ 178 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *déficit* de 140 MW",
+      "dit": "Le ministère a présenté des projections de déficit de puissance de 140 MW en 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2030",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Objectif de *3 000* MW",
+      "dit": "L'objectif est de porter la capacité totale de production à 3 000 MW d'ici 2030."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "80 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *valorisation* de 80 milliards",
+      "dit": "Une valorisation indicative d'environ 80 milliards de francs CFA a été évoquée en août."
+    }
+  ]
+}

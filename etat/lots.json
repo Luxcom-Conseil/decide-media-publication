@@ -13622,5 +13622,481 @@
       "titre": "Coupures de courant : le compteur s'emballe",
       "url": "https://youtu.be/NzxoU1jDt7s"
     }
+  },
+  "decide-media-2026-11-20-01": {
+    "facebook": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:46:02+00:00",
+      "piste": "principale",
+      "post_id": "122123505891499704",
+      "programme_pour": "2026-11-20T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi mise tout sur le fer",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:10:38+00:00",
+      "piste": "principale",
+      "post_id": "1135170675823633",
+      "programme_pour": "2026-11-20T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi mise tout sur le fer",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:35+00:00",
+      "piste": "principale",
+      "post_id": "6affe767738ce4635f909a71",
+      "programme_pour": "2026-11-20T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi mise tout sur le fer",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:39+00:00",
+      "piste": "principale",
+      "post_id": "6affe76b7b0a126cebb24a63",
+      "programme_pour": "2026-11-20T08:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi mise tout sur le fer",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:13:50+00:00",
+      "piste": "principale",
+      "post_id": "6affe51eca85ebefb0ff0e20",
+      "programme_pour": "2026-11-20T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi mise tout sur le fer",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:50:59+00:00",
+      "piste": "principale",
+      "post_id": "nldIp5-qB8U",
+      "programme_pour": "2026-11-20T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi mise tout sur le fer",
+      "url": "https://youtu.be/nldIp5-qB8U"
+    }
+  },
+  "decide-media-2026-11-20-02": {
+    "facebook": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:46:06+00:00",
+      "piste": "principale",
+      "post_id": "122123505939499704",
+      "programme_pour": "2026-11-20T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le groupe électrogène fait la loi",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:10:45+00:00",
+      "piste": "principale",
+      "post_id": "1085859384497029",
+      "programme_pour": "2026-11-20T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le groupe électrogène fait la loi",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:35+00:00",
+      "piste": "principale",
+      "post_id": "6affe7677b0a126cebb248b4",
+      "programme_pour": "2026-11-20T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le groupe électrogène fait la loi",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:40+00:00",
+      "piste": "principale",
+      "post_id": "6affe76c0f5eda1a57c8a4d3",
+      "programme_pour": "2026-11-20T11:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le groupe électrogène fait la loi",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:15:26+00:00",
+      "piste": "principale",
+      "post_id": "6affe57e0f5eda1a57c801f0",
+      "programme_pour": "2026-11-20T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le groupe électrogène fait la loi",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:53:34+00:00",
+      "piste": "principale",
+      "post_id": "dre86mvSJpk",
+      "programme_pour": "2026-11-20T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le groupe électrogène fait la loi",
+      "url": "https://youtu.be/dre86mvSJpk"
+    }
+  },
+  "decide-media-2026-11-20-03": {
+    "facebook": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:46:10+00:00",
+      "piste": "principale",
+      "post_id": "122123505987499704",
+      "programme_pour": "2026-11-20T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "ADeC : les déposants dans l'attente",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:10:52+00:00",
+      "piste": "principale",
+      "post_id": "979921838110295",
+      "programme_pour": "2026-11-20T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "ADeC : les déposants dans l'attente",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:36+00:00",
+      "piste": "principale",
+      "post_id": "6affe7684c1afd05def9a799",
+      "programme_pour": "2026-11-20T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "ADeC : les déposants dans l'attente",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:40+00:00",
+      "piste": "principale",
+      "post_id": "6affe76cd5f8acdd0d7862e7",
+      "programme_pour": "2026-11-20T14:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "ADeC : les déposants dans l'attente",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:17:03+00:00",
+      "piste": "principale",
+      "post_id": "6affe5dfd5f8acdd0d77e15b",
+      "programme_pour": "2026-11-20T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "ADeC : les déposants dans l'attente",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:56:05+00:00",
+      "piste": "principale",
+      "post_id": "DPXXx6pbJn8",
+      "programme_pour": "2026-11-20T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "ADeC : les déposants dans l'attente",
+      "url": "https://youtu.be/DPXXx6pbJn8"
+    }
+  },
+  "decide-media-2026-11-20-04": {
+    "facebook": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:46:13+00:00",
+      "piste": "principale",
+      "post_id": "122123506047499704",
+      "programme_pour": "2026-11-20T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi veut sa centrale à 600 MW",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:11:00+00:00",
+      "piste": "principale",
+      "post_id": "1685373293242472",
+      "programme_pour": "2026-11-20T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi veut sa centrale à 600 MW",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:37+00:00",
+      "piste": "principale",
+      "post_id": "6affe769ca85ebefb0ffe2f3",
+      "programme_pour": "2026-11-20T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi veut sa centrale à 600 MW",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:41+00:00",
+      "piste": "principale",
+      "post_id": "6affe76d738ce4635f909bd8",
+      "programme_pour": "2026-11-20T17:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi veut sa centrale à 600 MW",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:18:39+00:00",
+      "piste": "principale",
+      "post_id": "6affe63f738ce4635f902ca7",
+      "programme_pour": "2026-11-20T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi veut sa centrale à 600 MW",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:59:29+00:00",
+      "piste": "principale",
+      "post_id": "9Dcdz9aQTrU",
+      "programme_pour": "2026-11-20T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kribi veut sa centrale à 600 MW",
+      "url": "https://youtu.be/9Dcdz9aQTrU"
+    }
+  },
+  "decide-media-2026-11-20-05": {
+    "facebook": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:46:17+00:00",
+      "piste": "principale",
+      "post_id": "122123506113499704",
+      "programme_pour": "2026-11-20T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mille jeunes entreprises en ligne de mire",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:11:06+00:00",
+      "piste": "principale",
+      "post_id": "1784998352573870",
+      "programme_pour": "2026-11-20T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mille jeunes entreprises en ligne de mire",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:37+00:00",
+      "piste": "principale",
+      "post_id": "6affe769738ce4635f909b15",
+      "programme_pour": "2026-11-20T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mille jeunes entreprises en ligne de mire",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:25:37+00:00",
+      "piste": "principale",
+      "post_id": "6affe7e1d5f8acdd0d78839c",
+      "programme_pour": "2026-11-20T20:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mille jeunes entreprises en ligne de mire",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:20:34+00:00",
+      "piste": "principale",
+      "post_id": "6affe6b27b0a126cebb21501",
+      "programme_pour": "2026-11-20T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mille jeunes entreprises en ligne de mire",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:02:45+00:00",
+      "piste": "principale",
+      "post_id": "t_FKF-UxGRE",
+      "programme_pour": "2026-11-20T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mille jeunes entreprises en ligne de mire",
+      "url": "https://youtu.be/t_FKF-UxGRE"
+    }
+  },
+  "decide-media-2026-11-20-06": {
+    "facebook": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:46:21+00:00",
+      "piste": "principale",
+      "post_id": "122123506257499704",
+      "programme_pour": "2026-11-20T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2025 : le déficit s'élargit",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:11:14+00:00",
+      "piste": "principale",
+      "post_id": "1168018735750326",
+      "programme_pour": "2026-11-20T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2025 : le déficit s'élargit",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:38+00:00",
+      "piste": "principale",
+      "post_id": "6affe76aca85ebefb0ffe356",
+      "programme_pour": "2026-11-20T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2025 : le déficit s'élargit",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:27:44+00:00",
+      "piste": "principale",
+      "post_id": "6affe860d5f8acdd0d78a1ce",
+      "programme_pour": "2026-11-20T12:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2025 : le déficit s'élargit",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:21:59+00:00",
+      "piste": "principale",
+      "post_id": "6affe7077b0a126cebb22b46",
+      "programme_pour": "2026-11-20T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2025 : le déficit s'élargit",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:06:26+00:00",
+      "piste": "principale",
+      "post_id": "bTY3ny-epAY",
+      "programme_pour": "2026-11-20T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2025 : le déficit s'élargit",
+      "url": "https://youtu.be/bTY3ny-epAY"
+    }
+  },
+  "decide-media-2026-11-20-07": {
+    "facebook": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T05:46:24+00:00",
+      "piste": "principale",
+      "post_id": "122123506305499704",
+      "programme_pour": "2026-11-20T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "CDEC et Afriland : bras de fer",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:11:21+00:00",
+      "piste": "principale",
+      "post_id": "1698930988573161",
+      "programme_pour": "2026-11-20T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "CDEC et Afriland : bras de fer",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:38+00:00",
+      "piste": "principale",
+      "post_id": "6affe76a4c1afd05def9a806",
+      "programme_pour": "2026-11-20T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "CDEC et Afriland : bras de fer",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:29:40+00:00",
+      "piste": "principale",
+      "post_id": "6affe8d4ca85ebefb0004158",
+      "programme_pour": "2026-11-20T15:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "CDEC et Afriland : bras de fer",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:23:34+00:00",
+      "piste": "principale",
+      "post_id": "6affe7667b0a126cebb24831",
+      "programme_pour": "2026-11-20T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "CDEC et Afriland : bras de fer",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-20",
+      "maj": "2026-11-20T06:10:30+00:00",
+      "piste": "principale",
+      "post_id": "DhVAxDxMp2s",
+      "programme_pour": "2026-11-20T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "CDEC et Afriland : bras de fer",
+      "url": "https://youtu.be/DhVAxDxMp2s"
+    }
   }
 }

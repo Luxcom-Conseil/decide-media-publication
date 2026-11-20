@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "Le déficit budgétaire 2025 atteint 535,2 milliards de FCFA au Cameroun.",
+    "Le déficit du budget 2025 s'établit à 535,2 milliards de FCFA.",
+    "Le déficit budgétaire 2025 passe à 535,2 milliards de FCFA."
+  ],
+  "titre": "Cameroun : le déficit budgétaire 2025",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Un *déficit* de 535,2 milliards",
+      "dit": "Le déficit du budget 2025 atteint 535,2 milliards de FCFA au lieu des 309,9 milliards prévus."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "0,9",
+        "apres": "1,6",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le déficit *oscille* à 1,6 %",
+      "dit": "En part du PIB, le déficit passe de 0,9 % à 1,6 %, soit une hausse de 225,3 milliards."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "7 735,9",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un budget *révisé* à 7 735,9 milliards",
+      "dit": "Le montant global du budget a été révisé à la hausse pour atteindre 7 735,9 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les recettes *atteignent* 96,7 %",
+      "dit": "Les recettes mobilisées atteignent 96,7 % de leur prévision et les dépenses exécutées 101,4 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Validation le *12 novembre* 2026",
+      "dit": "Le projet de loi de règlement a passé l'étape de la validation procédurale le 12 novembre 2026."
+    }
+  ]
+}

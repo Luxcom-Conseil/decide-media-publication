@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "1 000 jeunes entreprises ciblées par le gouvernement au Cameroun.",
+    "Le gouvernement veut accompagner 1 000 entreprises de jeunes.",
+    "1 000 entreprises de jeunes visées par le gouvernement."
+  ],
+  "titre": "Mille jeunes entreprises",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "1 000 jeunes *entreprises* ciblées",
+      "dit": "Le gouvernement veut accompagner 1 000 entreprises portées par des jeunes au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "16 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Lancement le *16 novembre*",
+      "dit": "Le ministre des PME a lancé le 16 novembre 2026 à Yaoundé la Semaine mondiale de l'entrepreneuriat."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dix régions *mobilisées*",
+      "dit": "Du 16 au 22 novembre 2026, les dix régions accueillent des conférences et des formations."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "21132",
+        "apres": "16845",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Baisse des *immatriculations*",
+      "dit": "Les nouvelles immatriculations ont baissé de 21 132 en 2024 à 16 845 en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Taux de *crédit* de 11,85 %",
+      "dit": "Le taux moyen des nouveaux crédits aux PME était de 11,85 % au premier trimestre 2026."
+    }
+  ]
+}

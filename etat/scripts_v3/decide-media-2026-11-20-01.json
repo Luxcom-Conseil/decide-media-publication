@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "Kribi vise 2 millions de tonnes de fer en 2027.",
+    "Le port de Kribi table sur le fer.",
+    "Le trafic du port de Kribi va exploser."
+  ],
+  "titre": "Kribi vise 2 millions de tonnes de fer",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Kribi",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Kribi vise *2 millions* de tonnes",
+      "dit": "Kribi table sur deux millions de tonnes de minerai de fer expédiées dès 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "1,28 million",
+        "apres": "3,4 millions",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un trafic en *forte hausse*",
+      "dit": "Le Port autonome de Kribi attend un trafic de 3,4 millions de tonnes en 2027, contre 1,28 million en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "155 061",
+        "apres": "1,02 million",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le trafic *multiplié* par huit",
+      "dit": "Son trafic était de 155 061 tonnes en 2021, et a atteint 1,02 million de tonnes de janvier à septembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "juillet 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Démarrage *visé* en juillet 2027",
+      "dit": "Le projet Kribi-Lobé annonçait une capacité initiale de deux millions de tonnes par an, avec un démarrage en juillet 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "22 septembre 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Première *pierre* en septembre 2025",
+      "dit": "Le gouvernement a posé la première pierre d'un terminal lié à Kribi-Lobé le 22 septembre 2025."
+    }
+  ]
+}

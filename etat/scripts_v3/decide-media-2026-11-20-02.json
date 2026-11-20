@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "58,6 % des abonnés moyenne et haute tension utilisent une source d'énergie complémentaire.",
+    "92,4 % des abonnés moyenne et haute tension ont subi des coupures d'électricité.",
+    "32,6 % des abonnés moyenne et haute tension font face à des coupures quotidiennes."
+  ],
+  "titre": "Électricité au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "58,6 % ont une *source* complémentaire",
+      "dit": "58,6 % des abonnés moyenne et haute tension utilisent une source d'énergie complémentaire."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "90,4 % utilisent des *groupes* électrogènes",
+      "dit": "Parmi eux, 90,4 % citent les groupes électrogènes et autres générateurs selon le rapport de l'ARSEL."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "92,4 % ont subi des *coupures*",
+      "dit": "92,4 % des abonnés moyenne et haute tension déclarent avoir subi au moins une coupure en trente jours."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un tiers subit des *interruptions* quotidiennes",
+      "dit": "Près d'un tiers de ces abonnés font état d'interruptions quotidiennes de l'alimentation électrique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Seuls 13,8 % des abonnés basse *tension* s'équipent",
+      "dit": "Seuls 13,8 % des abonnés basse tension déclarent utiliser une source d'énergie alternative."
+    }
+  ]
+}
