@@ -1100,115 +1100,14 @@
       "formule": "Révélation",
       "id": "20261121-1830",
       "legende": "Ce réflexe mental te fait perdre un temps précieux au quotidien.\n\nOn a tous tendance à imaginer des scénarios compliqués dès que quelque chose bloque. C'est ce qu'on cherche à éviter avec le rasoir d'Ockham : l'explication la plus simple est presque toujours la bonne.\n\nLa prochaine fois, teste d'abord la cause la plus évidente avant de chercher plus loin.\n\nTu as déjà imaginé le pire pour un problème tout simple ?\n\n#psychologie #productivite #conseil #mindset",
+      "media_id": "18657887800046042",
+      "publie_le": "2026-11-21T17:31:57+00:00",
       "quand": "2026-11-21T18:30:00+01:00",
       "refait_le": "2026-11-19T16:25:07+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Révélation",
-            "texte": "Ce réflexe mental te fait perdre un temps précieux au quotidien."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Chercher trop loin bousille ton efficacité tous les jours."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête d'inventer des problèmes complexes tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "productivite",
-          "conseil",
-          "mindset"
-        ],
-        "legende": "Ce réflexe mental te fait perdre un temps précieux au quotidien.\n\nOn a tous tendance à imaginer des scénarios compliqués dès que quelque chose bloque. C'est ce qu'on cherche à éviter avec le rasoir d'Ockham : l'explication la plus simple est presque toujours la bonne.\n\nLa prochaine fois, teste d'abord la cause la plus évidente avant de chercher plus loin.\n\nTu as déjà imaginé le pire pour un problème tout simple ?",
-        "question": "Tu as déjà imaginé le pire pour un problème tout simple ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce réflexe mental te fait perdre un temps précieux au quotidien.",
-            "ecran": "Ce *réflexe* te fait perdre du temps",
-            "emoji": "⏳",
-            "recherche": "stressed man laptop",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie, on utilise une règle clé : le rasoir d'Ockham.",
-            "ecran": "Le *rasoir* d'Ockham",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton téléphone ne charge plus. Tu penses direct à un virus ou la batterie morte.",
-            "ecran": "Le *téléphone* ne charge plus",
-            "emoji": "📱",
-            "recherche": "person holding phone cable",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Alors que la prise est juste débranchée. L'explication la plus simple est souvent la bonne.",
-            "ecran": "L'explication la plus *simple*",
-            "emoji": "🔌",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Notre cerveau adore imaginer des scénarios complexes pour se rassurer.",
-            "ecran": "Le cerveau *adore* la complexité",
-            "emoji": "🔍",
-            "recherche": "thinking person office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Vérifie toujours l'évidence d'abord. Deux. Cherche plus loin seulement si besoin.",
-            "ecran": "Méthode : 1. Tester l'évidence | 2. Chercher plus loin",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Avant de tout compliquer, teste l'évidence.",
-            "ecran": "Avant de tout *compliquer*, teste l'évidence",
-            "emoji": "🎯",
-            "recherche": "simple solution sign",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le rasoir d'Ockham"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "ockham",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgAxa4UEeQX/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261121-1830-r.mp4"
     },
     {
@@ -5267,6 +5166,13 @@
       "media_id": "18135177241688048",
       "sujet": "posture",
       "url": "https://www.instagram.com/reel/DgAINeMDbAi/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-21",
+      "media_id": "18657887800046042",
+      "sujet": "ockham",
+      "url": "https://www.instagram.com/reel/DgAxa4UEeQX/"
     }
   ]
 }
