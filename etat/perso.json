@@ -1117,204 +1117,14 @@
       "formule": "Défi",
       "id": "20261121-2100",
       "legende": "Personne ne m'a expliqué ça, et ça a totalement sauvé mes journées de travail.\n\nOn pense souvent gagner du temps en passant du téléphone au dossier en cours. En réalité, le cerveau ne gère pas deux actions complexes simultanément : il bascule de l'une à l'autre et s'épuise.\n\nPour retrouver ton efficacité, travaille par blocs de temps dédiés à un seul sujet, en coupant les alertes.\n\nTu as plutôt tendance à faire trois choses en même temps ou à tout couper ?\n\n#psychologie #productivite #organisation #cerveau #travail",
+      "media_id": "17943184560393408",
+      "publie_le": "2026-11-21T20:02:07+00:00",
       "quand": "2026-11-21T21:00:00+01:00",
       "refait_le": "2026-11-19T16:25:07+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Défi",
-            "texte": "Personne ne m'a expliqué ça, et ça a sauvé mes journées."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe sur ton téléphone te coûte 2 heures par jour."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois être efficace en faisant deux choses à la fois ?"
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "productivite",
-          "organisation",
-          "cerveau",
-          "travail"
-        ],
-        "legende": "Personne ne m'a expliqué ça, et ça a totalement sauvé mes journées de travail.\n\nOn pense souvent gagner du temps en passant du téléphone au dossier en cours. En réalité, le cerveau ne gère pas deux actions complexes simultanément : il bascule de l'une à l'autre et s'épuise.\n\nPour retrouver ton efficacité, travaille par blocs de temps dédiés à un seul sujet, en coupant les alertes.\n\nTu as plutôt tendance à faire trois choses en même temps ou à tout couper ?",
-        "question": "Tu as plutôt tendance à faire trois choses en même temps ou à tout couper ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Personne ne m'a expliqué ça, et ça a totalement sauvé mes journées de travail.",
-            "ecran": "Personne ne m'a *expliqué* ça !",
-            "emoji": "😱",
-            "recherche": "man stressed office desk",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est la deuxième habitude qu'on a tous sans le savoir.",
-            "ecran": "La suite va te *surprendre*",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "On pense tous gagner du temps, mais c'est le mythe du multitâche.",
-            "ecran": "Le mythe du *multitâche*",
-            "emoji": "🧠",
-            "recherche": "woman multitasking laptop phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu écris un dossier important au bureau, et tu réponds vite à un message.",
-            "ecran": "Répondre au *message*",
-            "emoji": "📱",
-            "recherche": "person typing smartphone text",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ou tu écoutes une note vocale tout en lisant un document dans le bus.",
-            "ecran": "Téléphone dans les *transports*",
-            "emoji": "🚗",
-            "recherche": "man commuting bus phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En réalité, ton cerveau ne fait jamais deux choses en même temps.",
-            "ecran": "Ton cerveau *zappe*",
-            "emoji": "⚙️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Il saute d'une tâche à l'autre ultra rapidement, sans que tu le sentes.",
-            "ecran": "Il passe de l'une à *l'autre*",
-            "emoji": "⏳",
-            "recherche": "clock ticking fast focus",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Une tâche",
-            "b": "Multitâche",
-            "dit": "À chaque aller-retour, ton cerveau perd un temps précieux pour se recadrer.",
-            "ecran": "Temps perdu à chaque *aller-retour*",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Résultat : tu te fatigues deux fois plus et tu commets des erreurs bêtes.",
-            "ecran": "Tu te *fatigues* inutilement",
-            "emoji": "🔋",
-            "recherche": "tired worker coffee desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il existe une méthode très simple pour corriger ça aujourd'hui.",
-            "ecran": "Comment s'en *sortir* ?",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici le plan d'action en trois étapes concrètes à tester dès ce soir.",
-            "ecran": "Astuces : Une tâche | Blocs de temps | Zero alerte",
-            "emoji": "🎯",
-            "recherche": "planning writing notepad",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Fais une seule chose à la fois, du début jusqu'à la fin.",
-            "ecran": "Un : *Une* seule tâche",
-            "emoji": "1️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Travaille par blocs de temps bien définis sans rien faire d'autre.",
-            "ecran": "Deux : *Blocs* de temps",
-            "emoji": "2️⃣",
-            "recherche": "timer clock focus work",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Coupe absolument toutes tes notifications pendant ces moments ciblés.",
-            "ecran": "Trois : Coupe les *notifications*",
-            "emoji": "3️⃣",
-            "recherche": "turning off phone silent mode",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Une seule tâche à la fois pour retrouver ton temps et ton énergie.",
-            "ecran": "Une seule tâche à la fois pour retrouver ton temps et ton énergie.",
-            "emoji": "📌",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le mythe du multitâche"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "multitache",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgBCmcaDLOf/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261121-2100-r.mp4"
     },
     {
@@ -5173,6 +4983,13 @@
       "media_id": "18657887800046042",
       "sujet": "ockham",
       "url": "https://www.instagram.com/reel/DgAxa4UEeQX/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-21",
+      "media_id": "17943184560393408",
+      "sujet": "multitache",
+      "url": "https://www.instagram.com/reel/DgBCmcaDLOf/"
     }
   ]
 }
