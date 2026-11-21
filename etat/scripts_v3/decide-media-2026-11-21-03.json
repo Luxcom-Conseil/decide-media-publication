@@ -1,0 +1,76 @@
+{
+  "accroches": [
+    "Plus de 70 % du budget 2027 iront aux routes.",
+    "75 % des routes camerounaises sont en mauvais état.",
+    "Il reste 1 158 km de routes à bitumer."
+  ],
+  "titre": "Budget 2027 : priorité aux routes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Plus de *70 %* pour les routes",
+      "dit": "Plus de 70 % de l'enveloppe budgétaire sollicitée pour 2027 devraient être consacrés aux routes."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère des Finances",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Présentation à *Yaoundé*",
+      "dit": "Selon DataCameroon, cette orientation a été présentée le 11 novembre 2026 au ministère des Finances."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*75 %* du réseau abîmé",
+      "dit": "En septembre 2025, 75 % du réseau routier national était jugé en mauvais ou en médiocre état."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "1 158 km",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*1 158 km* encore à bitumer",
+      "dit": "Fin 2025, il restait encore 1 158 km de nouvelles routes à bitumer pour atteindre les objectifs de 2030."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala | Yaoundé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*8 heures* pour 240 km",
+      "dit": "En janvier 2026, un trajet de 240 km entre Douala et Yaoundé a nécessité huit heures et demie de voyage."
+    }
+  ]
+}

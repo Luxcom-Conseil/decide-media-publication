@@ -1,0 +1,105 @@
+{
+  "accroches": [
+    "Un groupe ivoirien entre au capital du raffineur SCR Maya.",
+    "SCR Maya occupe la première place de l'huile alimentaire au Cameroun.",
+    "Les importations d'huile de palme ont progressé de 87,3 %."
+  ],
+  "titre": "SCR Maya ouvre son capital",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Un groupe ivoirien au *capital*",
+      "dit": "Un groupe industriel ivoirien entre au capital du raffineur camerounais SCR Maya."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le *numéro 1* de l'huile",
+      "dit": "Créée en 1994 à Douala, cette entreprise est le premier vendeur d'huile alimentaire du pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Montant et parts *inconnus*",
+      "dit": "Le montant de la transaction et la part cédée ne sont pas dévoilés par l'entreprise."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Six unités de *raffinage*",
+      "dit": "Son usine de Bojongo comprend six unités de raffinage et six unités de savonnerie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*750 tonnes* par jour",
+      "dit": "En 2025, elle a ajouté une unité capable de produire 750 tonnes par jour."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "69 700 tonnes",
+        "apres": "130 600 tonnes",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*130 600 tonnes* d'huile importées",
+      "dit": "Sur l'année, le pays a importé 130 600 tonnes d'huile de palme contre 69 700 tonnes en 2024."
+    }
+  ]
+}

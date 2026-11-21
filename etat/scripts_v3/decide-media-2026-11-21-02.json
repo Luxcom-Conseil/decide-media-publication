@@ -1,0 +1,74 @@
+{
+  "accroches": [
+    "Le Cameroun vise 800 milliards de FCFA d'intentions d'investissement.",
+    "Seuls 22 % des emplois projetés ont été créés en dix ans.",
+    "Sur 180 000 emplois annoncés, 40 000 existent vraiment."
+  ],
+  "titre": "Investissements et emplois au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "800 milliards de FCFA d'*intentions*",
+      "dit": "Le Cameroun vise jusqu'à 800 milliards de FCFA d'intentions d'investissement."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Forum des *investissements* à Yaoundé",
+      "dit": "Le 5e Cameroon Investment Forum s'est ouvert le 18 novembre à Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 900 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*1 900 milliards* captés en dix ans",
+      "dit": "Selon l'API, 453 projets agréés ont généré 1 900 milliards de FCFA entre 2014 et 2024."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Seulement *22 %* d'emplois créés",
+      "dit": "Sur 180 000 emplois projetés en dix ans, 40 000 ont été créés, soit un taux de 22 %."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Bilan présenté à *Douala*",
+      "dit": "Ce bilan officiel a été présenté à Douala le 26 mai 2026 par l'antenne régionale de l'API."
+    }
+  ]
+}

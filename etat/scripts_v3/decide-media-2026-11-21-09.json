@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "Les Eaux Minérales du Cameroun changent de nom commercial.",
+    "Le bénéfice de la SEMC a progressé de 9 % sur un an.",
+    "La SEMC réalise 10,43 milliards de FCFA de chiffre d'affaires."
+  ],
+  "titre": "Les Eaux Minérales du Cameroun changent de nom",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Les eaux minérales *changent* de nom",
+      "dit": "Les Eaux Minérales du Cameroun changent de nom commercial depuis le 20 novembre 2026 selon EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Deux marques *réunies* sous une identité",
+      "dit": "Cette décision réunit les marques Source Tangui et Eau Vitale sous une seule identité commune."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "10,10 milliards",
+        "apres": "10,43 milliards",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chiffre d'affaires à *10,43 milliards* FCFA",
+      "dit": "En 2025, le chiffre d'affaires s'est établi à 10,43 milliards de FCFA contre 10,10 milliards en 2024."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "841 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le bénéfice net *augmente* de 9 %",
+      "dit": "Le bénéfice net de la société atteint environ 841 millions de FCFA, en hausse de 9 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Eau captée à *165 mètres* à Mombo",
+      "dit": "Les eaux minérales naturelles restent captées à 165 mètres de profondeur à Mombo, dans le Moungo."
+    }
+  ]
+}

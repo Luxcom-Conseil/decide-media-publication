@@ -1,0 +1,98 @@
+{
+  "accroches": [
+    "Les investissements étrangers au Cameroun ont chuté de 35,2 % en 2025.",
+    "Le Cameroun a attiré 599 millions de dollars d'investissements étrangers en 2025.",
+    "Les investissements étrangers ont baissé de 35,2 % selon la CNUCED."
+  ],
+  "titre": "Investissements étrangers : baisse de 35,2 %",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Investissements : *chute* de 35,2 %",
+      "dit": "Les investissements directs étrangers au Cameroun ont reculé de 35,2 % en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "925 millions $",
+        "apres": "599 millions $",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Seulement *599 millions* de dollars",
+      "dit": "Le pays n'a attiré que 599 millions de dollars, contre 925 millions l'année précédente."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "CNUCED",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "D'après un rapport de la *CNUCED*",
+      "dit": "Cette baisse est révélée par la CNUCED et relayée par DataCameroon."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "529 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "529 milliards de *FCFA* en 2024",
+      "dit": "En 2024, ces flux avaient atteint 529 milliards de FCFA, en hausse de 10,8 %."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque africaine de developpement",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "La *BAD* compte d'autres chiffres",
+      "dit": "La Banque africaine de développement indique de son côté 587,4 milliards de FCFA pour 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "595 milliards en 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*595 milliards* prévus en 2026",
+      "dit": "La BAD projette un montant de 595 milliards de FCFA pour l'année 2026."
+    }
+  ]
+}

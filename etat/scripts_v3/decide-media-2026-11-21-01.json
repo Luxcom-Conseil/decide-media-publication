@@ -1,0 +1,92 @@
+{
+  "accroches": [
+    "Le Cameroun perd 6,8 points de PIB en recettes fiscales.",
+    "Les grandes entreprises paient 73 % des impôts non pétroliers.",
+    "Les recettes fiscales du Cameroun atteignent 12,8 % du PIB."
+  ],
+  "titre": "Le Cameroun manque de recettes fiscales",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "12,8 % du PIB en *recettes*",
+      "dit": "Les recettes fiscales du Cameroun ne représentaient que 12,8 % du PIB en 2024."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un potentiel de *18,8 %*",
+      "dit": "Selon la Banque mondiale, le potentiel fiscal du pays atteint pourtant 18,8 % du PIB."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Côte d'Ivoire | Ghana | Kenya",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Moins que la *Côte d'Ivoire*",
+      "dit": "Ce niveau reste inférieur à ceux de la Côte d'Ivoire, du Ghana ou du Kenya."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Chute des recettes *hors pétrole*",
+      "dit": "Hors pétrole, les recettes sont tombées à 11,9 % du PIB en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *TVA* pèse lourd",
+      "dit": "Les impôts indirects comme la TVA ont fourni près de 71 % des recettes en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "0,5 % d'entreprises *paient tout*",
+      "dit": "Seulement 0,5 % des entreprises ont versé 73 % des impôts non pétroliers."
+    }
+  ]
+}

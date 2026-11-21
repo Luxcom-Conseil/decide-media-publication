@@ -1,0 +1,83 @@
+{
+  "accroches": [
+    "Chevron prendra en 2027 une décision sur le gaz de Yoyo–Yolanda.",
+    "Le gisement de Yoyo–Yolanda contient 70,5 milliards de mètres cubes de gaz.",
+    "Le Cameroun et la Guinée équatoriale unissent leurs efforts pour exploiter Yoyo–Yolanda."
+  ],
+  "titre": "Gaz de Yoyo-Yolanda : décision en 2027",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Chevron statuera en *2027* sur Yoyo-Yolanda",
+      "dit": "Chevron prendra en 2027 une décision finale d'investissement sur le gisement de gaz de Yoyo–Yolanda."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le gisement *contient* 70,5 milliards de mètres cubes",
+      "dit": "Le ministère camerounais des Mines estime les ressources totales à 70,5 milliards de mètres cubes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le bloc Yoyo détient *84%* des ressources",
+      "dit": "Les études attribuent 84 pour cent de ces ressources au bloc Yoyo, du côté camerounais."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3 février 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un accord *conclu* le 3 février 2026",
+      "dit": "Le Cameroun et la Guinée équatoriale ont conclu le 3 février 2026 un accord d'unitisation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le projet est en *études* préliminaires",
+      "dit": "L'entreprise classe toujours le projet au stade des études préliminaires d'ingénierie."
+    }
+  ]
+}

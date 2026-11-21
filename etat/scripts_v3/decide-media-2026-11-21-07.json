@@ -1,0 +1,88 @@
+{
+  "accroches": [
+    "288,34 milliards de FCFA de préjudices liés à la corruption au Cameroun.",
+    "Le Cameroun a récupéré seulement 22,813 milliards de FCFA de corruption.",
+    "Seulement 7,9 pour cent des préjudices de corruption récupérés au Cameroun."
+  ],
+  "titre": "Corruption au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "288,34 milliards de *FCFA* perdus",
+      "dit": "Les préjudices financiers liés à la corruption s'élèvent à 288,34 milliards de FCFA entre 2016 et 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "22 813 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "22,813 milliards récupérés",
+      "dit": "Le pays a récupéré seulement 22,813 milliards de FCFA, selon les données publiées le 18 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "7,9 pour cent *récupérés*",
+      "dit": "Cela représente environ 7,9 pour cent des préjudices recensés par les rapports officiels."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "7 430 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "7,43 milliards exigés",
+      "dit": "Le Conseil de discipline budgétaire et financière a ordonné un débet de 7,43 milliards entre 2020 et 2023."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 760 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "1,76 milliard en 2024",
+      "dit": "Un montant supplémentaire de 1,76 milliard de FCFA a également été exigé en 2024."
+    }
+  ]
+}

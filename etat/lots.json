@@ -14098,5 +14098,617 @@
       "titre": "CDEC et Afriland : bras de fer",
       "url": "https://youtu.be/DhVAxDxMp2s"
     }
+  },
+  "decide-media-2026-11-21-01": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:23+00:00",
+      "piste": "principale",
+      "post_id": "122123785395499704",
+      "programme_pour": "2026-11-21T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compte des impôts n'y est pas",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:08:52+00:00",
+      "piste": "principale",
+      "post_id": "999091312693055",
+      "programme_pour": "2026-11-21T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compte des impôts n'y est pas",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:22+00:00",
+      "piste": "principale",
+      "post_id": "6b0139529ffbc8503c026823",
+      "programme_pour": "2026-11-21T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compte des impôts n'y est pas",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:29+00:00",
+      "piste": "principale",
+      "post_id": "6b013959d9cbb430a124b3b2",
+      "programme_pour": "2026-11-21T08:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compte des impôts n'y est pas",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:12:09+00:00",
+      "piste": "principale",
+      "post_id": "6b0136395e993799d8572cf1",
+      "programme_pour": "2026-11-21T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compte des impôts n'y est pas",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:48:51+00:00",
+      "piste": "principale",
+      "post_id": "HsAN30GmNRo",
+      "programme_pour": "2026-11-21T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le compte des impôts n'y est pas",
+      "url": "https://youtu.be/HsAN30GmNRo"
+    }
+  },
+  "decide-media-2026-11-21-02": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:26+00:00",
+      "piste": "principale",
+      "post_id": "122123785449499704",
+      "programme_pour": "2026-11-21T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investir : l'intention ne suffit pas",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:09:03+00:00",
+      "piste": "principale",
+      "post_id": "1644156994075860",
+      "programme_pour": "2026-11-21T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investir : l'intention ne suffit pas",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:23+00:00",
+      "piste": "principale",
+      "post_id": "6b0139535e993799d8582d4a",
+      "programme_pour": "2026-11-21T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investir : l'intention ne suffit pas",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:30+00:00",
+      "piste": "principale",
+      "post_id": "6b01395ad9cbb430a124b41a",
+      "programme_pour": "2026-11-21T11:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investir : l'intention ne suffit pas",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:13:55+00:00",
+      "piste": "principale",
+      "post_id": "6b0136a35102766245fe36ff",
+      "programme_pour": "2026-11-21T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investir : l'intention ne suffit pas",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:50:28+00:00",
+      "piste": "principale",
+      "post_id": "YWmTTLhlgyI",
+      "programme_pour": "2026-11-21T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investir : l'intention ne suffit pas",
+      "url": "https://youtu.be/YWmTTLhlgyI"
+    }
+  },
+  "decide-media-2026-11-21-03": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:29+00:00",
+      "piste": "principale",
+      "post_id": "122123785503499704",
+      "programme_pour": "2026-11-21T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2027 : la route d'abord",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:09:14+00:00",
+      "piste": "principale",
+      "post_id": "40008191895495106",
+      "programme_pour": "2026-11-21T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2027 : la route d'abord",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:24+00:00",
+      "piste": "principale",
+      "post_id": "6b013954d9cbb430a124b153",
+      "programme_pour": "2026-11-21T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2027 : la route d'abord",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:30+00:00",
+      "piste": "principale",
+      "post_id": "6b01395a5e993799d8582ef9",
+      "programme_pour": "2026-11-21T14:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2027 : la route d'abord",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:15:31+00:00",
+      "piste": "principale",
+      "post_id": "6b013703d9cbb430a123d98a",
+      "programme_pour": "2026-11-21T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2027 : la route d'abord",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:52:53+00:00",
+      "piste": "principale",
+      "post_id": "AMtq2y2Y4tc",
+      "programme_pour": "2026-11-21T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Budget 2027 : la route d'abord",
+      "url": "https://youtu.be/AMtq2y2Y4tc"
+    }
+  },
+  "decide-media-2026-11-21-04": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:32+00:00",
+      "piste": "principale",
+      "post_id": "122123785551499704",
+      "programme_pour": "2026-11-21T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Courtage à moitié prix en décembre",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:09:25+00:00",
+      "piste": "principale",
+      "post_id": "1758140292547319",
+      "programme_pour": "2026-11-21T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Courtage à moitié prix en décembre",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:25+00:00",
+      "piste": "principale",
+      "post_id": "6b01395520a2d09a0adabe02",
+      "programme_pour": "2026-11-21T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Courtage à moitié prix en décembre",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:31+00:00",
+      "piste": "principale",
+      "post_id": "6b01395bdd205ed779c3b25b",
+      "programme_pour": "2026-11-21T17:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Courtage à moitié prix en décembre",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:17:08+00:00",
+      "piste": "principale",
+      "post_id": "6b013763dd205ed779c30d41",
+      "programme_pour": "2026-11-21T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Courtage à moitié prix en décembre",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:55:47+00:00",
+      "piste": "principale",
+      "post_id": "ByBArWWTIJk",
+      "programme_pour": "2026-11-21T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Courtage à moitié prix en décembre",
+      "url": "https://youtu.be/ByBArWWTIJk"
+    }
+  },
+  "decide-media-2026-11-21-05": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:34+00:00",
+      "piste": "principale",
+      "post_id": "122123785593499704",
+      "programme_pour": "2026-11-21T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "SCR Maya ouvre son capital",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:09:34+00:00",
+      "piste": "principale",
+      "post_id": "2383434865564196",
+      "programme_pour": "2026-11-21T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "SCR Maya ouvre son capital",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:26+00:00",
+      "piste": "principale",
+      "post_id": "6b0139559ffbc8503c0268c9",
+      "programme_pour": "2026-11-21T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "SCR Maya ouvre son capital",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:27:17+00:00",
+      "piste": "principale",
+      "post_id": "6b0139c55102766245ff220d",
+      "programme_pour": "2026-11-21T20:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "SCR Maya ouvre son capital",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:18:42+00:00",
+      "piste": "principale",
+      "post_id": "6b0137c29ffbc8503c01e6b4",
+      "programme_pour": "2026-11-21T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "SCR Maya ouvre son capital",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:57:40+00:00",
+      "piste": "principale",
+      "post_id": "6n3Y4iXn9aw",
+      "programme_pour": "2026-11-21T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "SCR Maya ouvre son capital",
+      "url": "https://youtu.be/6n3Y4iXn9aw"
+    }
+  },
+  "decide-media-2026-11-21-06": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:38+00:00",
+      "piste": "principale",
+      "post_id": "122123785647499704",
+      "programme_pour": "2026-11-21T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investissements étrangers : le coup de frein",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:09:48+00:00",
+      "piste": "principale",
+      "post_id": "1646398500286512",
+      "programme_pour": "2026-11-21T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investissements étrangers : le coup de frein",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:26+00:00",
+      "piste": "principale",
+      "post_id": "6b0139565102766245ff07f3",
+      "programme_pour": "2026-11-21T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investissements étrangers : le coup de frein",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:29:04+00:00",
+      "piste": "principale",
+      "post_id": "6b013a30d9cbb430a124e639",
+      "programme_pour": "2026-11-21T12:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investissements étrangers : le coup de frein",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:20:17+00:00",
+      "piste": "principale",
+      "post_id": "6b0138215e993799d857dab5",
+      "programme_pour": "2026-11-21T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investissements étrangers : le coup de frein",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:00:18+00:00",
+      "piste": "principale",
+      "post_id": "urtlsMnNjb4",
+      "programme_pour": "2026-11-21T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Investissements étrangers : le coup de frein",
+      "url": "https://youtu.be/urtlsMnNjb4"
+    }
+  },
+  "decide-media-2026-11-21-07": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:41+00:00",
+      "piste": "principale",
+      "post_id": "122123785701499704",
+      "programme_pour": "2026-11-21T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Corruption : l'argent revient peu",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:09:58+00:00",
+      "piste": "principale",
+      "post_id": "1755757588825444",
+      "programme_pour": "2026-11-21T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Corruption : l'argent revient peu",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:27+00:00",
+      "piste": "principale",
+      "post_id": "6b0139579ffbc8503c026949",
+      "programme_pour": "2026-11-21T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Corruption : l'argent revient peu",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:31:00+00:00",
+      "piste": "principale",
+      "post_id": "6b013aa4d9cbb430a1252119",
+      "programme_pour": "2026-11-21T15:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Corruption : l'argent revient peu",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:21:52+00:00",
+      "piste": "principale",
+      "post_id": "6b01388020a2d09a0ada8e78",
+      "programme_pour": "2026-11-21T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Corruption : l'argent revient peu",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:03:26+00:00",
+      "piste": "principale",
+      "post_id": "QikQOuONdVw",
+      "programme_pour": "2026-11-21T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Corruption : l'argent revient peu",
+      "url": "https://youtu.be/QikQOuONdVw"
+    }
+  },
+  "decide-media-2026-11-21-08": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:43+00:00",
+      "piste": "principale",
+      "post_id": "122123785791499704",
+      "programme_pour": "2026-11-21T18:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gaz de Yoyo-Yolanda : décision en 2027",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:10:08+00:00",
+      "piste": "principale",
+      "post_id": "2576220582886643",
+      "programme_pour": "2026-11-21T19:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gaz de Yoyo-Yolanda : décision en 2027",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:28+00:00",
+      "piste": "principale",
+      "post_id": "6b0139585102766245ff0833",
+      "programme_pour": "2026-11-21T18:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gaz de Yoyo-Yolanda : décision en 2027",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:32:36+00:00",
+      "piste": "principale",
+      "post_id": "6b013b04d9cbb430a1253a15",
+      "programme_pour": "2026-11-21T18:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gaz de Yoyo-Yolanda : décision en 2027",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:23:37+00:00",
+      "piste": "principale",
+      "post_id": "6b0138e99ffbc8503c024fd4",
+      "programme_pour": "2026-11-21T18:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gaz de Yoyo-Yolanda : décision en 2027",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:05:34+00:00",
+      "piste": "principale",
+      "post_id": "Ir3xgSAFk7w",
+      "programme_pour": "2026-11-21T18:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gaz de Yoyo-Yolanda : décision en 2027",
+      "url": "https://youtu.be/Ir3xgSAFk7w"
+    }
+  },
+  "decide-media-2026-11-21-09": {
+    "facebook": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T05:46:46+00:00",
+      "piste": "principale",
+      "post_id": "122123785845499704",
+      "programme_pour": "2026-11-21T09:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les eaux minérales changent de nom",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:10:20+00:00",
+      "piste": "principale",
+      "post_id": "3275468205973483",
+      "programme_pour": "2026-11-21T10:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les eaux minérales changent de nom",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:28+00:00",
+      "piste": "principale",
+      "post_id": "6b0139585102766245ff0861",
+      "programme_pour": "2026-11-21T09:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les eaux minérales changent de nom",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:34:32+00:00",
+      "piste": "principale",
+      "post_id": "6b013b789ffbc8503c03185e",
+      "programme_pour": "2026-11-21T09:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les eaux minérales changent de nom",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:25:21+00:00",
+      "piste": "principale",
+      "post_id": "6b013951dd205ed779c3b122",
+      "programme_pour": "2026-11-21T09:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les eaux minérales changent de nom",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-21",
+      "maj": "2026-11-21T06:08:42+00:00",
+      "piste": "principale",
+      "post_id": "ui_IOxTZKZU",
+      "programme_pour": "2026-11-21T09:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les eaux minérales changent de nom",
+      "url": "https://youtu.be/ui_IOxTZKZU"
+    }
   }
 }
