@@ -26,153 +26,7 @@
   "wirecard",
   "kerviel"
  ],
- "attente_partie2": {
-  "id": "kerviel",
-  "jour_partie1": "2026-11-20",
-  "script": {
-   "titre": "La fraude à 50 milliards de Kerviel",
-   "scenes": [
-    {
-     "type": "accroche",
-     "ecran": "Un homme a engagé *50 milliards* en secret.",
-     "grand": null,
-     "dit": "Un seul trader a misé 50 milliards d'euros en secret.",
-     "image": 0,
-     "recherche": "Banque de France"
-    },
-    {
-     "type": "recit",
-     "ecran": "La plus grande *fraude* de l'histoire.",
-     "grand": null,
-     "dit": "C'est plus que tous les fonds propres de sa propre banque. Et attends de voir la suite.",
-     "image": 1,
-     "recherche": "Trading floor 2000s"
-    },
-    {
-     "type": "date",
-     "ecran": "24 janvier 2008",
-     "grand": "24 janvier 2008",
-     "dit": "24 janvier 2008. Le président de la Société générale annonce un gouffre financier.",
-     "image": 2,
-     "recherche": "Paris stock exchange"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Montant de la perte initiale",
-     "grand": "4,82 milliards",
-     "dit": "Une fraude inédite de 4,82 milliards d'euros, causée par un seul employé.",
-     "image": 3,
-     "recherche": "Calculator money"
-    },
-    {
-     "type": "recit",
-     "ecran": "Le visage de l'*escroquerie*",
-     "grand": null,
-     "dit": "Son nom circule rapidement. Il s'appelle Jérôme Kerviel.",
-     "image": 4,
-     "recherche": "Paris courthouse"
-    },
-    {
-     "type": "recit",
-     "ecran": "Des *opérations* normalement sans risque",
-     "grand": null,
-     "dit": "En théorie, son métier consiste à faire de l'arbitrage sans prendre de risques.",
-     "image": 6,
-     "recherche": "Financial charts computer"
-    },
-    {
-     "type": "recit",
-     "ecran": "Le piège des *ordres fictifs*",
-     "grand": null,
-     "dit": "Il achète des portefeuilles réels, mais simule des ventes fictives en couverture.",
-     "image": 5,
-     "recherche": "Computer code display"
-    },
-    {
-     "type": "recit",
-     "ecran": "Des *mises* totalement hors de contrôle",
-     "grand": null,
-     "dit": "Résultat : il se retrouve avec des positions géantes, totalement exposées au marché.",
-     "image": 6,
-     "recherche": "Euro banknotes"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Bénéfice dissimulé en 2007",
-     "grand": "1,4 milliard",
-     "dit": "En 2007, il gagne 1,4 milliard d'euros et parvient à le cacher.",
-     "image": 9,
-     "recherche": "Financial ledger"
-    },
-    {
-     "type": "recit",
-     "ecran": "Une hiérarchie aveugle ou *complice* ?",
-     "grand": null,
-     "dit": "Il affirme que sa hiérarchie fermait les yeux tant qu'il générait du cash.",
-     "image": 7,
-     "recherche": "Modern office building"
-    },
-    {
-     "type": "date",
-     "ecran": "18 janvier 2008",
-     "grand": "18 janvier 2008",
-     "dit": "Vendredi 18 janvier 2008. Les services de contrôle découvrent enfin l'anomalie.",
-     "image": 8,
-     "recherche": "Security office"
-    },
-    {
-     "type": "date",
-     "ecran": "20 janvier 2008",
-     "grand": "20 janvier 2008",
-     "dit": "Dimanche 20 janvier. L'exposition totale est enfin connue de la direction.",
-     "image": 0,
-     "recherche": "Banque de France"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Position totale découverte",
-     "grand": "50 milliards",
-     "dit": "Le montant astronomique fait froid dans le dos : 50 milliards d'euros en jeu.",
-     "image": 9,
-     "recherche": "Vault door open"
-    },
-    {
-     "type": "recit",
-     "ecran": "Liquidation en *urgence absolue*",
-     "grand": null,
-     "dit": "Daniel Bouton décide de liquider toutes ces positions dans le secret le plus total.",
-     "image": 10,
-     "recherche": "Press conference microphone"
-    },
-    {
-     "type": "date",
-     "ecran": "21 au 23 janvier",
-     "grand": "21 au 23 janvier",
-     "dit": "Pendant trois jours, un trader unique vend tout en urgence sur les marchés.",
-     "image": 11,
-     "recherche": "Stock market panic"
-    },
-    {
-     "type": "suite",
-     "ecran": "La banque va-t-elle survivre ?",
-     "grand": null,
-     "dit": "La banque peut-elle survivre à ce massacre financier ? La suite dans la partie 2.",
-     "image": 12,
-     "recherche": "Societe Generale building"
-    }
-   ],
-   "question": "Kerviel est-il le seul coupable ? Dis-le en commentaire.",
-   "legende": "Un trader engage 50 milliards en secret et fait trembler la Société générale. Découvrez la pire fraude bancaire de l'histoire. Kerviel est-il le seul coupable ? Dis-le en commentaire.",
-   "hashtags": [
-    "kerviel",
-    "societegenerale",
-    "finance",
-    "arnaque",
-    "histoirevraie"
-   ],
-   "_credit_musique": "« Drama Strings » par younoise (CC0, Freesound)"
-  }
- },
+ "attente_partie2": null,
  "journal": [
   {
    "jour": "2026-11-06",
@@ -497,6 +351,30 @@
    "id": "kerviel",
    "format": "serie",
    "nom": "hva-kerviel-p1"
+  },
+  {
+   "jour": "2026-11-21",
+   "id": "kerviel",
+   "format": "serie2",
+   "nom": "hva-kerviel-p2"
+  },
+  {
+   "jour": "2026-11-21",
+   "id": "rocancourt",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 7 scènes (13 à 24 attendues) ; 497 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-21",
+   "id": "oustric",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 1009 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-21",
+   "id": "creditlyonnais",
+   "format": "serie",
+   "erreur": "script refusé au contrôle : 12 scènes (13 à 24 attendues) ; la première scène doit être l'accroche ; 1054 caractères dits, il en faut de 1150 à 1700 (question comprise)"
   }
  ],
  "en_chiffre": [
@@ -513,7 +391,10 @@
   "fouquet",
   "coeur",
   "holmes",
-  "onecoin"
+  "onecoin",
+  "rocancourt",
+  "oustric",
+  "creditlyonnais"
  ],
  "ecartes": {
   "humbert": "script refusé au contrôle : 643 caractères dits, il en faut de 380 à 600 (question comprise)",
@@ -981,7 +862,23 @@
    "nom": "hva-kerviel-p1",
    "reseau": "youtube",
    "buffer": "6afff3bc0f5eda1a57cd40b8",
-   "heure": "2026-11-20T20:30:00+01:00"
+   "heure": "2026-11-20T20:30:00+01:00",
+   "relances": 1,
+   "heure_relance": "2026-11-21T08:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-21",
+   "nom": "hva-kerviel-p2",
+   "reseau": "tiktok",
+   "buffer": "6b0145b15e993799d85caaab",
+   "heure": "2026-11-21T12:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-21",
+   "nom": "hva-kerviel-p2",
+   "reseau": "youtube",
+   "buffer": "6b0145b15e993799d85caad6",
+   "heure": "2026-11-21T12:30:00+01:00"
   }
  ]
 }
