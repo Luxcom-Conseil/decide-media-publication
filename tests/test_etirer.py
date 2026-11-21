@@ -1,4 +1,4 @@
-from agent.gabarit_v3 import DUREE_MIN, TENUE_MAX, controler_v3, duree_scene, etirer
+from agent.gabarit_v3 import DUREE_MIN, GENERIQUE_MAX, TENUE_MAX, controler_v3, duree_scene, etirer
 
 
 def _sc(duree, type_="explication"):
@@ -36,10 +36,10 @@ def test_voix_trop_courte_refusee_seulement_si_l_article_a_de_la_matiere():
 
 
 def test_voix_d_une_seule_prise_sans_blanc_entre_les_phrases():
-    # ton du 20 h (21/11/2026) : la lecture reste continue, le manque va au générique
+    # ton du 20 h (21/11/2026) : la lecture reste continue, le générique prend GENERIQUE_MAX au plus
     scenes = [_sc(4.0, "accroche"), _sc(20.0), _sc(20.0), {"type": "outro", "duree": 3.5}]
     for sc in scenes[:-1]:
         sc["voix"]["colle"] = True
     assert duree_scene(scenes[1]) == 20.0
-    assert etirer(scenes) >= DUREE_MIN
-    assert all("tenue" not in sc for sc in scenes[:-1]) and scenes[-1]["tenue"] > 10
+    assert etirer(scenes) <= 44.0 + 3.5 + GENERIQUE_MAX + 0.1
+    assert all("tenue" not in sc for sc in scenes[:-1]) and scenes[-1]["tenue"] <= GENERIQUE_MAX + 0.1

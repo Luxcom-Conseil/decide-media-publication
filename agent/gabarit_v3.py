@@ -37,6 +37,7 @@ VOIX_MAX = 1050  # caractères (essai du 21/11 : 763 caractères lus en 52 s, so
 VOIX_MIN = 950
 DUREE_MIN = 62.0  # secondes, générique compris : 65 s environ avec la voix
 TENUE_MAX = 2.0   # secondes d'image ajoutées au plus après une phrase
+GENERIQUE_MAX = 3.0  # secondes ajoutées au générique au plus, en lecture continue (lot test du 21/11/2026)
 PHRASE_MAX = 110
 INTERDIT = re.compile(r"\b(prenons un exemple|voici|voilà|ce que ça change|la leçon|il faut|en clair|autrement dit|"
                       r"(cela|ça) (signifie|veut dire)|attention|pourquoi|imagine|à retenir|concrètement)\b", re.I)
@@ -195,7 +196,7 @@ def controler_v3(script: dict, article: dict) -> list[str]:
     if voix > VOIX_MAX + 50:  # tolérance : 50 caractères de plus ne valent pas un refus
         problemes.append(f"voix trop longue ({voix} caractères, {VOIX_MAX} au plus)")
     # trop court : refusé seulement si l'article a de quoi dire plus ; sinon etirer() tient la durée
-    if voix < VOIX_MIN - 50 and len(article.get("body") or "") >= 2 * VOIX_MIN:
+    if voix < VOIX_MIN - 50 and len(article.get("body") or "") >= 1.4 * VOIX_MIN:  # 2 × avant le 21/11 : 650 caractères lus pour 2 000
         problemes.append(f"voix trop courte ({voix} caractères, {VOIX_MIN} au moins) : ajoute un fait de l'article, "
                          "par exemple une date, un lieu, une démarche ou un montant par personne")
     textes = [script.get("titre", "")]
@@ -268,19 +269,31 @@ def script_v3(article: dict, cfg: dict, journal=print, cache: Path | None = None
     sv.SYSTEME = SYSTEME + f"\n\nDate du jour : {date.today().isoformat()}. Un fait daté de plus de 7 jours s'écrit au passé, hook compris." + consignes_reponse(article)
     sv.SCHEMA = SCHEMA
     remarques: list[str] = []
+    court = None  # meilleur script dont le seul défaut est une voix un peu courte
     try:
         for essai in range(3):
             ecrit = _reparer(_demander_gemini(article, cfg, remarques))
             remarques = controler_v3(ecrit, article)
+            if remarques and all(r.startswith("voix trop courte") for r in remarques):
+                voix = sum(len(sc.get("dit", "")) for sc in ecrit.get("scenes") or [])
+                if court is None or voix > court[0]:
+                    court = (voix, ecrit)
             if not remarques:
-                if fichier:
-                    fichier.parent.mkdir(parents=True, exist_ok=True)
-                    fichier.write_text(json.dumps(ecrit, ensure_ascii=False, indent=2), encoding="utf-8")
-                return ecrit
+                break
             journal(f"    ↺ script V3 refusé ({essai + 1}/3) : " + " ; ".join(remarques)[:300])
+        else:
+            # lot test du 21/11/2026 : 830 à 875 caractères refusés trois fois, puis le script de secours en lisait 450.
+            # Un script juste mais un peu court vaut mieux que le secours.
+            if not court:
+                return None
+            journal(f"    ↪ script V3 gardé malgré une voix courte ({court[0]} caractères)")
+            ecrit = court[1]
+        if fichier:
+            fichier.parent.mkdir(parents=True, exist_ok=True)
+            fichier.write_text(json.dumps(ecrit, ensure_ascii=False, indent=2), encoding="utf-8")
+        return ecrit
     finally:
         sv.SYSTEME, sv.SCHEMA = systeme, schema
-    return None
 
 
 def duree_scene(sc: dict) -> float:
@@ -293,10 +306,13 @@ def duree_scene(sc: dict) -> float:
 def etirer(scenes: list[dict], minimum: float = DUREE_MIN) -> float:
     """Porte le Short à `minimum` secondes : l'image reste un peu après chaque phrase (TENUE_MAX au plus), le reste va
     au générique. Rien ne change si la vidéo est déjà assez longue. Rend la durée finale. Voix d'une seule prise
-    (« colle ») : aucun blanc entre les phrases, tout va au générique (lecture en continu, demande du 21/11/2026)."""
+    (« colle ») : aucun blanc entre les phrases, le générique prend GENERIQUE_MAX secondes de plus au plus et la vidéo
+    garde sa durée naturelle (lot test du 21/11/2026 : jusqu'à 30 s de générique figé quand la voix durait 31 s)."""
     manque = minimum - sum(map(duree_scene, scenes))
     faits = [sc for sc in scenes if sc.get("type") != "outro"]
     continu = any((sc.get("voix") or {}).get("colle") for sc in scenes)
+    if continu:
+        manque = min(manque, GENERIQUE_MAX)
     if manque > 0 and faits and not continu:
         tenue = round(min(TENUE_MAX, manque / len(faits)), 2)
         for sc in faits:
