@@ -16,6 +16,9 @@ const BLANC = "#FFFFFF";
 const ORANGE = "#F26A1B";
 const GRIS = "#B4B4BC";
 const VOIX_DEBUT = 3, VOIX_FIN = 5; // images : rythme serré
+// voix d'une seule prise (« colle », 21/11/2026) : les morceaux se suivent sans blanc, la lecture reste continue
+const avant = (sc: SceneV3) => (sc.voix?.colle ? 0 : VOIX_DEBUT);
+const apres = (sc: SceneV3) => (sc.voix?.colle ? 0 : VOIX_FIN);
 const G = 60, D = 150; // marges gauche / droite
 
 // voile : photo de fond très assombrie derrière un dessin (une image de plus, sans gêner la lecture du dessin)
@@ -27,7 +30,7 @@ export type SceneV3 = {
   illustration?: Illustration;
   media?: MediaV3;
   soustitre?: string;
-  voix?: { src: string; duree: number };
+  voix?: { src: string; duree: number; colle?: boolean }; // colle : morceau d'une seule prise, sans blanc ajouté
   duree?: number;
   tenue?: number; // secondes d'image gardées après la voix : un Short dure 30 s au moins (agent/gabarit_v3.py, etirer)
   // bruitages de la charte sonore (agent/sons.py) : joués à `a` s du début de la scène, avancés de `avance` s
@@ -46,7 +49,7 @@ export type ScriptV3 = {
   volume_musique?: number;
 };
 
-const longueur = (sc: SceneV3) => (sc.voix ? VOIX_DEBUT + Math.ceil(sc.voix.duree * FPS) + VOIX_FIN : Math.round((sc.duree ?? 3) * FPS))
+const longueur = (sc: SceneV3) => (sc.voix ? avant(sc) + Math.ceil(sc.voix.duree * FPS) + apres(sc) : Math.round((sc.duree ?? 3) * FPS))
   + Math.round((sc.tenue ?? 0) * FPS);
 
 function plan(s: ScriptV3) {
@@ -196,9 +199,9 @@ const SousTitres: React.FC<{ sc: SceneV3 }> = ({ sc }) => {
   const mots = fr(sc.soustitre).split(/ +/).filter(Boolean); // l'espace insécable lie un nombre à son unité
   const total = mots.reduce((n, m) => n + m.length + 1, 0);
   const images = sc.voix.duree * FPS;
-  let t = VOIX_DEBUT, actuel = mots.length - 1;
+  let t = avant(sc), actuel = mots.length - 1;
   for (let k = 0; k < mots.length; k++) { t += images * (mots[k].length + 1) / total; if (f < t) { actuel = k; break; } }
-  if (f < VOIX_DEBUT) return null;
+  if (f < avant(sc)) return null;
   const debut = Math.floor(actuel / 4) * 4;
   return (
     <div style={{ position: "absolute", top: 1270, left: G, right: D - 40, display: "flex", justifyContent: "center", flexWrap: "wrap",
@@ -251,7 +254,7 @@ const Punch: React.FC<{ children: React.ReactNode; long: number; premiere?: bool
 export const GabaritV3: React.FC<ScriptV3> = (s) => {
   const { scenes, total } = plan(s);
   const f = useCurrentFrame();
-  const parole = scenes.filter((p) => p.sc.voix).map((p) => [p.debut + VOIX_DEBUT, p.debut + VOIX_DEBUT + Math.ceil(p.sc.voix!.duree * FPS)]);
+  const parole = scenes.filter((p) => p.sc.voix).map((p) => [p.debut + avant(p.sc), p.debut + avant(p.sc) + Math.ceil(p.sc.voix!.duree * FPS)]);
   const attenuation = (x: number) => Math.min(1, ...parole.map(([a, b]) =>
     interpolate(x, [a - 8, a, b, b + 8], [1, 0.35, 0.35, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })));
   return (
@@ -268,7 +271,7 @@ export const GabaritV3: React.FC<ScriptV3> = (s) => {
           </Punch>
           <SousTitres sc={p.sc} />
           <Credit texte={p.sc.media?.credit} />
-          {p.sc.voix && <Sequence from={VOIX_DEBUT}><Audio src={staticFile(p.sc.voix.src)} /></Sequence>}
+          {p.sc.voix && <Sequence from={avant(p.sc)}><Audio src={staticFile(p.sc.voix.src)} /></Sequence>}
         </Sequence>
       ))}
       {scenes.flatMap((p) => (p.sc.sons ?? []).map((b, k) => {

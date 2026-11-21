@@ -41,7 +41,9 @@ def _script(*dits):
 
 def test_script_information_accepte():
     from agent.gabarit_v3 import controler_v3
-    s = _script("La taxe passe à 30 % à Douala.", "Elle était de 15 %.", "Le changement date du 3 mars.", "La mairie a publié le texte.")
+    s = _script("La taxe passe à 30 % à Douala.", "Elle était de 15 %.", "Le changement date du 3 mars.", "La mairie a publié le texte.",
+                "Le texte vaut pour Douala.", "La mairie l'a publié lundi.", "Le montant total reste inconnu.",
+                "La taxe passe de 15 % à 30 %.", "Le texte date de lundi.")  # 65 s environ (21/11/2026) : 9 scènes
     assert controler_v3(s, ARTICLE) == []
 
 
@@ -56,7 +58,7 @@ def test_refuse_question_adresse_analyse_et_chiffre_invente():
 def test_refuse_trop_de_parties_et_personnage():
     from agent.gabarit_v3 import controler_v3
     fait = "La mairie a publié le texte."
-    assert any("scènes" in p for p in controler_v3(_script(*[fait] * 9), ARTICLE))
+    assert any("scènes" in p for p in controler_v3(_script(*[fait] * 14), ARTICLE))
     s = _script("La taxe passe à 30 % à Douala.", fait, fait, fait)
     s["scenes"][1].update(type="explication", fond=None, illustration={"type": "personnage"})
     assert any("dessin" in p for p in controler_v3(s, ARTICLE))

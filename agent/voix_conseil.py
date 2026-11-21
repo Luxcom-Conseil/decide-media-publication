@@ -182,6 +182,15 @@ STYLE_CONTEUR_CHALEUREUX = (
 
 DEBIT_VISE = 16.0  # caractères par seconde après resserrage (rythme TikTok ; les prises du 07/11 étaient à ~17)
 
+# Shorts DECIDE MEDIA, demande de Stéphane du 21/11/2026 : « le style reportage au 20h, un article lu au journal
+# télévisé, une lecture en continu, pas coupée en tableaux ». Même voix (Schedar), une seule prise (agent/gabarit_v3.py).
+STYLE_JT = (
+    "# PROFIL DE VOIX\nLe journaliste qui lit son sujet au journal télévisé de 20 heures, en français de France. Voix "
+    "posée, claire et ferme, ton sérieux et neutre de présentateur.\n\n## NOTES DU RÉALISATEUR\n- Un seul souffle, "
+    "comme un reportage : les phrases s'enchaînent, seulement une courte respiration entre elles.\n- Débit régulier et "
+    "soutenu, sans traîner.\n- Appuyer légèrement sur les chiffres, les noms et les dates.\n- Pas d'émotion jouée, pas "
+    "de suspense, pas de ton publicitaire.\n- Les retours à la ligne ne sont pas des pauses." + _FIN_NOTES)
+
 
 def tempo(pcm: bytes, facteur: float) -> bytes:
     """Accélère la voix de `facteur` sans changer sa hauteur (ffmpeg atempo)."""

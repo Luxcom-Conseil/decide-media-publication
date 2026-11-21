@@ -19,7 +19,7 @@ def test_le_reste_va_au_generique_quand_les_phrases_ne_suffisent_pas():
 
 
 def test_un_short_deja_long_ne_change_pas():
-    scenes = [_sc(8.0, "accroche"), _sc(9.0), _sc(9.0), _sc(4.0, "outro")]
+    scenes = [_sc(18.0, "accroche"), _sc(20.0), _sc(22.0), _sc(4.0, "outro")]
     avant = sum(map(duree_scene, scenes))
     assert etirer(scenes) == avant and not any("tenue" in sc for sc in scenes)
 
@@ -29,7 +29,17 @@ def test_voix_trop_courte_refusee_seulement_si_l_article_a_de_la_matiere():
               "scenes": [{"type": "accroche", "ecran": "Hook court", "dit": "Phrase une."}] +
                         [{"type": "explication", "illustration": {"type": "photo"}, "fond": None, "ecran": "Fait",
                           "dit": "Une phrase de fait."} for _ in range(4)]}
-    long = {"title": "T", "body": "Une phrase de fait. " * 60}
+    long = {"title": "T", "body": "Une phrase de fait. " * 120}
     court = {"title": "T", "body": "Une phrase de fait. Phrase une."}
     assert any("trop courte" in p for p in controler_v3(script, long))
     assert not any("trop courte" in p for p in controler_v3(script, court))
+
+
+def test_voix_d_une_seule_prise_sans_blanc_entre_les_phrases():
+    # ton du 20 h (21/11/2026) : la lecture reste continue, le manque va au générique
+    scenes = [_sc(4.0, "accroche"), _sc(20.0), _sc(20.0), {"type": "outro", "duree": 3.5}]
+    for sc in scenes[:-1]:
+        sc["voix"]["colle"] = True
+    assert duree_scene(scenes[1]) == 20.0
+    assert etirer(scenes) >= DUREE_MIN
+    assert all("tenue" not in sc for sc in scenes[:-1]) and scenes[-1]["tenue"] > 10

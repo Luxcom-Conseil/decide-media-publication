@@ -1,7 +1,7 @@
 """Gabarit V3 des Shorts (composition Remotion DecideShortV3), en production depuis le 27/10/2026 (config video.gabarit).
 
 Mode information depuis le 02/11/2026 (demande de Stéphane) : un hook qui donne le fait, puis les faits, lus d'un seul
-tenant comme un flash, en 30 secondes environ. Plus de parties, d'étiquettes, d'exemple, de leçon, de conseil, de
+tenant comme un flash, en 65 secondes environ depuis le 21/11/2026 (30 avant). Plus de parties, d'étiquettes, d'exemple, de leçon, de conseil, de
 personnages ni de question finale. Images : banque_photos pour ce que l'article nomme (ville, bâtiment, institution), logo
 officiel sur Wikimedia Commons, crédit affiché, sinon le visuel du lot. Plus de Pixabay : à l'essai du 02/11, « permis
 moto » a donné un moteur de bateau, et la règle est aucune image hors contexte.
@@ -30,13 +30,13 @@ _TXT_NUL = {"anyOf":[{"type": "string"}, {"type": "null"}]}
 DESSINS = ("photo", "carte", "pourcent", "pile", "frais", "calendrier")  # le visuel du lot, ou un fait : lieu, chiffre, somme, date
 _ILLUSTRATION = copy.deepcopy(SCHEMA_V2["properties"]["scenes"]["items"]["properties"]["illustration"])
 _ILLUSTRATION["anyOf"][1]["properties"]["type"]["enum"] = list(DESSINS)
-VOIX_MAX = 560  # caractères
+VOIX_MAX = 1050  # caractères (essai du 21/11 : 763 caractères lus en 52 s, soit 14,7 par seconde) ; 65 s environ (demande de Stéphane du 21/11/2026), 30 s avant
 # Un Short dure 30 s au moins (demande du 12/11/2026 : « une information a besoin de respirer »). Les lots du 11 et du
 # 12/11 lisaient 270 à 486 caractères pour des vidéos de 18 à 29 s : le script vise donc 450 caractères au moins, et
 # etirer() garde l'image un peu plus longtemps après chaque phrase si la voix reste courte.
-VOIX_MIN = 450
-DUREE_MIN = 30.0  # secondes, générique compris
-TENUE_MAX = 1.5   # secondes d'image ajoutées au plus après une phrase
+VOIX_MIN = 950
+DUREE_MIN = 62.0  # secondes, générique compris : 65 s environ avec la voix
+TENUE_MAX = 2.0   # secondes d'image ajoutées au plus après une phrase
 PHRASE_MAX = 110
 INTERDIT = re.compile(r"\b(prenons un exemple|voici|voilà|ce que ça change|la leçon|il faut|en clair|autrement dit|"
                       r"(cela|ça) (signifie|veut dire)|attention|pourquoi|imagine|à retenir|concrètement)\b", re.I)
@@ -80,14 +80,20 @@ le plus inattendu. Chacune énonce le fait, en phrase affirmative de 12 mots au 
 « 7 ménages sur 10 n'ont pas de compteur. » Pas de question, pas de promesse de la suite, pas de chiffre sans intérêt \
 (« 1 budget rejeté »). Le plus fort est ce qui touche le porte-monnaie ou la vie du spectateur : quand l'article donne \
 une somme par personne, par ménage ou par mois, c'est elle (« 275 000 FCFA par jeune »). Garde la plus forte : elle \
-devient la première scène (type « accroche »), écran = dit = l'accroche.
+devient la première scène (type « accroche »), écran = dit = l'accroche. L'accroche garde le périmètre du chiffre : \
+de qui il parle, sur quelle période, selon qui. À l'essai du 21/11/2026, « Seulement 22 % des emplois promis ont été \
+créés au Cameroun » généralisait un bilan des seuls projets agréés par l'API de 2014 à 2024 : il fallait « 22 % des \
+emplois prévus par les projets agréés depuis 2014 ». Pas de « seulement » ni de « enfin » qui jugent à la place du public.
 
-2. LES FAITS. Entre 4 et 6 scènes de plus, une phrase par scène, du plus important au moins important : qui, quoi, combien, \
-où, quand, ce qui est prévu ensuite. Chaque phrase apporte un fait nouveau et suit la précédente comme dans une dépêche. \
+2. LES FAITS. Entre 8 et 12 scènes de plus, une phrase par scène, du plus important au moins important : qui, quoi, combien, \
+où, quand, d'où ça vient (le contexte que l'article donne), qui dit quoi, ce que ça change pour le public quand l'article \nle dit, ce qui est prévu ensuite. Chaque phrase apporte un fait nouveau et suit la précédente comme dans une dépêche. \
+Mis bout à bout, les « dit » forment le texte d'un reportage du journal de 20 heures, lu d'un seul tenant : les phrases \
+s'enchaînent, avec un mot de liaison simple quand l'article le permet (« ce jeudi », « à Douala », « de son côté », \
+« selon le ministère »), jamais une liste de constats. \
 La dernière scène donne un détail concret de l'article : une date, un lieu, une démarche, un délai, un montant par \
 personne. Si l'article n'en donne aucun, le dernier fait le plus utile. La vidéo s'arrête là : pas de conclusion.
 
-Donne juste l'information. Sont interdits : analyse, avis, explication de mot, exemple, personnage, conséquence supposée, \
+Règles de journaliste : seulement les faits de l'article, attribués à leur source ; quand l'article donne deux points de vue, \ndonne les deux. Règles de communication : un seul sujet, l'essentiel d'abord, une idée par phrase, des mots de tous les \njours ; un mot technique s'explique en une phrase simple tirée de l'article. Sont interdits : avis, exemple inventé, \npersonnage, conséquence supposée, \
 leçon, conseil, question, annonce de la suite (« voici », « voilà »), appel au spectateur. Ne t'adresse jamais au spectateur : \
 ni « tu » ni « vous ».
 
@@ -107,7 +113,7 @@ Exactitude (impératif) :
 - Ne nomme aucune personne qui n'est pas nommée dans l'article.
 
 Format de chaque scène :
-- « dit » : la voix, {PHRASE_MAX} caractères au plus ; le total des « dit » fait entre {VOIX_MIN} et {VOIX_MAX} caractères (30 à 35 secondes) : une information \
+- « dit » : la voix, {PHRASE_MAX} caractères au plus ; le total des « dit » fait entre {VOIX_MIN} et {VOIX_MAX} caractères (environ 65 secondes) : une information \
 complète, lue sans se presser.
 - « ecran » : le texte affiché en grand, 6 mots au plus (sauf l'accroche), avec le mot clé entre astérisques \
 (« Le crédit *coûte* plus cher »). Les chiffres s'affichent en orange d'eux-mêmes.
@@ -177,8 +183,8 @@ def controler_v3(script: dict, article: dict) -> list[str]:
     problemes = []
     if question and scenes and _sans_etoiles(scenes[0].get("dit")).strip() != question:
         problemes.append(f"la première scène doit être la question du public, mot pour mot : « {question} »")
-    if not 4 <= len(scenes) <= 7:
-        problemes.append(f"{len(scenes)} scènes (4 à 7 attendues : le hook, puis 3 à 6 faits)")
+    if not 9 <= len(scenes) <= 13:
+        problemes.append(f"{len(scenes)} scènes (9 à 13 attendues : l'accroche, puis 8 à 12 faits)")
     if not scenes or scenes[0].get("type") != "accroche":
         problemes.append("la première scène doit être le hook (type « accroche »)")
     elif not question and len(_sans_etoiles(scenes[0].get("ecran")).split()) > 13:
@@ -186,9 +192,9 @@ def controler_v3(script: dict, article: dict) -> list[str]:
     if len(script.get("accroches") or []) < 3:
         problemes.append("il faut trois accroches de formes différentes")
     voix = sum(len(sc.get("dit", "")) for sc in scenes)
-    if voix > VOIX_MAX + 50:  # tolérance : 565 caractères ne valent pas un refus
+    if voix > VOIX_MAX + 50:  # tolérance : 50 caractères de plus ne valent pas un refus
         problemes.append(f"voix trop longue ({voix} caractères, {VOIX_MAX} au plus)")
-    # trop court : refusé seulement si l'article a de quoi dire plus ; sinon etirer() tient les 30 s
+    # trop court : refusé seulement si l'article a de quoi dire plus ; sinon etirer() tient la durée
     if voix < VOIX_MIN - 50 and len(article.get("body") or "") >= 2 * VOIX_MIN:
         problemes.append(f"voix trop courte ({voix} caractères, {VOIX_MIN} au moins) : ajoute un fait de l'article, "
                          "par exemple une date, un lieu, une démarche ou un montant par personne")
@@ -232,7 +238,7 @@ def script_secours(article: dict) -> dict | None:
     gardees: list[str] = []
     for p in phrases:
         lisible = 20 <= len(p) <= PHRASE_MAX + 20 and "?" not in p and not (INTERDIT.search(p) or ADRESSE.search(p) or HORS_FAIT.search(p))
-        if lisible and len(gardees) < 5 and sum(map(len, gardees)) + len(p) <= VOIX_MAX:
+        if lisible and len(gardees) < 12 and sum(map(len, gardees)) + len(p) <= VOIX_MAX:
             gardees.append(p)
     if not gardees:
         return None
@@ -279,16 +285,19 @@ def script_v3(article: dict, cfg: dict, journal=print, cache: Path | None = None
 
 def duree_scene(sc: dict) -> float:
     """Même calcul que longueur() dans GabaritV3.tsx (3 + 5 images autour de la voix)."""
-    base = (sc["voix"]["duree"] + 8 / 30) if sc.get("voix") else float(sc.get("duree") or 3)
+    v = sc.get("voix")
+    base = (v["duree"] + (0 if v.get("colle") else 8 / 30)) if v else float(sc.get("duree") or 3)
     return base + float(sc.get("tenue") or 0)
 
 
 def etirer(scenes: list[dict], minimum: float = DUREE_MIN) -> float:
     """Porte le Short à `minimum` secondes : l'image reste un peu après chaque phrase (TENUE_MAX au plus), le reste va
-    au générique. Rien ne change si la vidéo est déjà assez longue. Rend la durée finale."""
+    au générique. Rien ne change si la vidéo est déjà assez longue. Rend la durée finale. Voix d'une seule prise
+    (« colle ») : aucun blanc entre les phrases, tout va au générique (lecture en continu, demande du 21/11/2026)."""
     manque = minimum - sum(map(duree_scene, scenes))
     faits = [sc for sc in scenes if sc.get("type") != "outro"]
-    if manque > 0 and faits:
+    continu = any((sc.get("voix") or {}).get("colle") for sc in scenes)
+    if manque > 0 and faits and not continu:
         tenue = round(min(TENUE_MAX, manque / len(faits)), 2)
         for sc in faits:
             sc["tenue"] = tenue
@@ -418,22 +427,43 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
             s["media"] = {**photo, "voile": True}
     if photos:
         journal(f"      🖼 {len(photos)} photo(s) du thème, {tour} scène(s) illustrée(s)")
+    from .script_video import question_finale
+    q = None if question_du_public(article) else question_finale(article)
+    if q:  # débat (19/11/2026) : la question de l'article, avant le générique, pour lancer les commentaires
+        scenes.append({"type": "explication", "ecran": _insecables(q), "soustitre": _insecables(f"{q} Dis-le en commentaire."),
+                       "illustration": {"type": "photo"}})
+        dits.append({"cle": f"s{len(scenes) - 1}", "texte": f"{q} Dis-le en commentaire."})
     scenes.append({"type": "outro", "duree": 3.5})
     dits.append({"cle": f"s{len(scenes) - 1}", "texte": "Décide média. Abonne-toi."})
-    try:
-        pistes = {p["cle"]: p for p in Voix(journal).narration(dits, dossier, "voix", forcer=essai) or []}
-    except Exception as e:  # la voix ne bloque jamais la vidéo
-        journal(f"⚠️ Voix off indisponible, Short sans voix : {e}")
-        pistes = {}
+    pistes, colle = {}, False
+    from .config import charger_config
+    from .voix import _reglages
+    cfg_voix = _reglages()
+    if cfg_voix.get("journal_tv") and (cfg_voix.get("active") or essai):
+        # ton du 20 h, d'un seul tenant (demande du 21/11/2026) : une prise Gemini, même voix Schedar, découpée aux silences
+        from .voix_conseil import STYLE_JT, narration as narration_jt
+        try:
+            pistes = {p["cle"]: p for p in narration_jt(charger_config(MOTION.parent / "config.yaml"), dits, dossier, "voix",
+                                                        journal, style=STYLE_JT, continu=True,
+                                                        modeles=cfg_voix.get("modeles_jt"))}
+            colle = True
+        except Exception as e:
+            journal(f"    ↺ voix du 20 h indisponible ({str(e)[:120]}), voix phrase par phrase")
+    if not pistes:
+        try:
+            pistes = {p["cle"]: p for p in Voix(journal).narration(dits, dossier, "voix", forcer=essai) or []}
+        except Exception as e:  # la voix ne bloque jamais la vidéo
+            journal(f"⚠️ Voix off indisponible, Short sans voix : {e}")
+            pistes = {}
     for k, sc in enumerate(scenes):
         if f"s{k}" in pistes:
-            sc["voix"] = {"src": pistes[f"s{k}"]["src"], "duree": pistes[f"s{k}"]["duree"]}
+            sc["voix"] = {"src": pistes[f"s{k}"]["src"], "duree": pistes[f"s{k}"]["duree"], **({"colle": True} if colle else {})}
             sc.pop("duree", None)
         elif "duree" not in sc:
             sc["duree"] = max(2.5, len(sc.get("soustitre") or "") / 15)
     avant = sum(map(duree_scene, scenes))
     if avant < DUREE_MIN:
-        journal(f"      ⏱ {avant:.1f} s → {etirer(scenes):.1f} s (30 s au moins)")
+        journal(f"      ⏱ {avant:.1f} s → {etirer(scenes):.1f} s ({DUREE_MIN:.0f} s au moins)")
     editeurs = list(dict.fromkeys((s or {}).get("publisher") for s in article.get("sources") or [] if (s or {}).get("publisher")))
     props = {"rubrique": "VOUS AVEZ DEMANDÉ" if question_du_public(article) else "INFO",
              "lieu": article.get("country"), "date": _date_fr(article.get("event_date")), "titre": ecrit.get("titre") or article.get("title", ""),
