@@ -4330,6 +4330,417 @@
       "sujet": "goulot",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261127-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-21/20261127-2100.jpg",
+      "format": "long",
+      "formule": "Démasquer",
+      "id": "20261127-2100",
+      "legende": "Les profs et formateurs utilisent ça sur toi sans même le savoir.\n\nTon cerveau est conçu pour faire le tri. Une information plate et neutre est rapidement oubliée, alors qu'un souvenir chargé d'émotion reste gravé.\n\nPour mieux retenir un cours ou une présentation, ne te contente pas de relire des notes. Raconte une histoire ou connecte cette idée à quelque chose d'important pour toi.\n\nQuelle est la dernière info que tu as retenue grâce à une émotion ?\n\n#psychologie #apprentissage #memoire #conseilsvie #developpementpersonnel",
+      "quand": "2026-11-27T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Démasquer",
+            "texte": "Les profs et formateurs utilisent ça sur toi sans le savoir."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Réviser sans émocher tes émotions détruit tes chances de retenir."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que relire tes cours aide ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "apprentissage",
+          "memoire",
+          "conseilsvie",
+          "developpementpersonnel"
+        ],
+        "legende": "Les profs et formateurs utilisent ça sur toi sans même le savoir.\n\nTon cerveau est conçu pour faire le tri. Une information plate et neutre est rapidement oubliée, alors qu'un souvenir chargé d'émotion reste gravé.\n\nPour mieux retenir un cours ou une présentation, ne te contente pas de relire des notes. Raconte une histoire ou connecte cette idée à quelque chose d'important pour toi.\n\nQuelle est la dernière info que tu as retenue grâce à une émotion ?",
+        "question": "Quelle est la dernière info que tu as retenue grâce à une émotion ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les profs et formateurs utilisent ça sur toi sans même le savoir.",
+            "ecran": "Les profs *utilisent* ça sur toi",
+            "emoji": "🎭",
+            "recherche": "teacher classroom speaking students",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que tu fais la même erreur tous les jours.",
+            "ecran": "Et la suite est *pire*",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce mécanisme lie directement tes émotions à ta capacité de mémoire.",
+            "ecran": "Émotions et *mémoire*",
+            "emoji": "🧠",
+            "recherche": "human brain hologram glowing",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu passes du temps à relire une fiche de révision bien neutre au bureau.",
+            "ecran": "Des heures de *lecture*",
+            "emoji": "📚",
+            "recherche": "person studying library bored",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le lendemain matin dans les transports, tu as déjà presque tout oublié.",
+            "ecran": "Tout est *oublié*",
+            "emoji": "😴",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourtant, tu te souviens en détail d'une dispute ou d'un film marquant.",
+            "ecran": "Un film *marquant*",
+            "emoji": "🎬",
+            "recherche": "person watching movie emotional",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "C'est simple : on retient mieux ce qui nous a fait ressentir quelque chose.",
+            "ecran": "Le cerveau *tri*",
+            "emoji": "⚡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Sans émotion, ton cerveau classe l'information comme inutile et l'efface.",
+            "ecran": "L'information est *ancrée*",
+            "emoji": "🔒",
+            "recherche": "delete file computer screen",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici deux étapes concrètes pour fixer n'importe quelle information.",
+            "ecran": "L'astuce : Raconter une histoire | Relier à soi",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Raconte une histoire autour du sujet au lieu d'apprendre par cœur.",
+            "ecran": "Un. *Raconte* une histoire",
+            "emoji": "1️⃣",
+            "recherche": "person telling story friends",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Relie directement l'information à quelque chose qui compte pour toi.",
+            "ecran": "Deux. *Relie* à toi",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si tu dois présenter un projet, mets-y une touche d'humour ou de surprise.",
+            "ecran": "Pour *faire* retenir",
+            "emoji": "🗣️",
+            "recherche": "business presentation speech office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tes collègues vont écouter et retenir ton message sans aucun effort.",
+            "ecran": "Attrape leur *attention*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On retient mieux ce qui nous a fait ressentir quelque chose.",
+            "ecran": "On *retient* ce qui nous touche",
+            "emoji": "📌",
+            "recherche": "notebook writing light bulb",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Les émotions et la mémoire"
+      },
+      "statut": "programme",
+      "sujet": "emotion_memoire",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-21/20261127-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-21/20261128-1230.jpg",
+      "format": "long",
+      "formule": "Contre-pied",
+      "id": "20261128-1230",
+      "legende": "Tu crois que ton idée est géniale ? C'est peut-être tout l'inverse.\n\nNotre cerveau nous piège avec l'effet IKEA : on donne beaucoup plus de valeur à ce qu'on a construit soi-même, même si c'est imparfait.\n\nPour réussir tes projets, utilise ce réflexe à ton avantage :\n- Fais co-créer tes clients ou tes collègues pour qu'ils s'approprient tes idées.\n- Prends du recul sur tes propres créations pour accepter les remarques.\n\nAs-tu déjà gardé une idée ou un objet juste parce que tu l'avais fait toi-même ?\n\n#psychologie #entrepreneuriat #productivite #conseil",
+      "quand": "2026-11-28T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que ton idée est géniale ? C'est l'inverse."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe au travail te coûte plus cher que tu ne crois."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Trop aimer tes projets peut détruire ta carrière sans que tu le saches."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "entrepreneuriat",
+          "productivite",
+          "conseil"
+        ],
+        "legende": "Tu crois que ton idée est géniale ? C'est peut-être tout l'inverse.\n\nNotre cerveau nous piège avec l'effet IKEA : on donne beaucoup plus de valeur à ce qu'on a construit soi-même, même si c'est imparfait.\n\nPour réussir tes projets, utilise ce réflexe à ton avantage :\n- Fais co-créer tes clients ou tes collègues pour qu'ils s'approprient tes idées.\n- Prends du recul sur tes propres créations pour accepter les remarques.\n\nAs-tu déjà gardé une idée ou un objet juste parce que tu l'avais fait toi-même ?",
+        "question": "As-tu déjà gardé une idée ou un objet juste parce que tu l'avais fait toi-même ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu crois que ton idée est géniale ? C'est peut-être tout l'inverse.",
+            "ecran": "Tu *crois* que ton idée est géniale ?",
+            "emoji": "😱",
+            "recherche": "man thinking looking at laptop",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que tu défends ce projet même s'il ne marche pas du tout.",
+            "ecran": "Le piège de tes *propres* créations",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Psychologiquement, ce phénomène a un nom très précis. Ça s'appelle l'effet IKEA.",
+            "ecran": "Bienvenue dans *l'effet IKEA*",
+            "emoji": "🧠",
+            "recherche": "assembling wooden furniture hands",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Fait soi-même",
+            "b": "Acheté tout fait",
+            "dit": "On accorde spontanément beaucoup plus de valeur à ce qu'on a construit soi-même.",
+            "ecran": "La *valeur* perçue selon l'effort",
+            "emoji": "⚖️",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Même si le résultat final est bancal ou imparfait, ton cerveau l'adore.",
+            "ecran": "Même si c'est *imparfait*",
+            "emoji": "🛠️",
+            "recherche": "crooked table furniture close up",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Regarde ce meuble monté en deux heures chez toi. Tu y tiens énormément.",
+            "ecran": "Ce meuble monté *avec peine*",
+            "emoji": "📦",
+            "recherche": "man looking proud at shelf",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourtant, un spécialiste te dirait qu'il est mal vissé et qu'il penche.",
+            "ecran": "Pourtant il est *de travers*",
+            "emoji": "🛋️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au travail, c'est exactement la même chose avec tes propositions et tes présentations.",
+            "ecran": "C'est pareil au *bureau*",
+            "emoji": "🏢",
+            "recherche": "office worker writing whiteboard",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Comme tu as passé des nuits dessus, tu refuses de voir ses défauts évidents.",
+            "ecran": "Ton *projet* devient ton bébé",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu deviens aveugle aux remarques constructives de tes collègues ou de tes proches.",
+            "ecran": "Tu rejettes les *critiques*",
+            "emoji": "🚫",
+            "recherche": "business meeting disagreement",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais tu peux retourner ce biais à ton avantage dès aujourd'hui.",
+            "ecran": "Comment utiliser ce *mécanisme* ?",
+            "emoji": "⚡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici les deux étapes indispensables pour faire avancer tes projets rapidement.",
+            "ecran": "2 étapes : Impliquer | Prendre du recul",
+            "emoji": "🎯",
+            "recherche": "teamwork joining puzzle pieces",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Pour qu'un client s'attache à ton idée, fais-le participer à sa création.",
+            "ecran": "Un : Fais *co-créer* ton client",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Demande-lui son avis sur les détails, laisse-le construire le projet avec toi.",
+            "ecran": "Laisse-lui des *choix*",
+            "emoji": "🤝",
+            "recherche": "people collaborating laptop office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Garde en tête que ton attachement personnel peut totalement te rendre aveugle.",
+            "ecran": "Deux : *Méfie-toi* de tes idées",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Fais participer les autres pour qu'ils aiment tes projets.",
+            "ecran": "Fais participer les autres pour qu'ils aiment tes projets.",
+            "emoji": "💡",
+            "recherche": "man smiling confidently camera",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet IKEA"
+      },
+      "statut": "programme",
+      "sujet": "ikea",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-21/20261128-1230.mp4"
     }
   ],
   "publications": [
