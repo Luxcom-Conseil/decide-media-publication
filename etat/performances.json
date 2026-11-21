@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-20T09:42+00:00",
- "jour": "2026-11-20",
+ "maj": "2026-11-21T09:14+00:00",
+ "jour": "2026-11-21",
  "lecture": "Classement des 14 derniers jours. sujets_forts / sujets_faibles : vues cumulées de tous les réseaux par titre. top[].commentaires_du_public : ce que demande le public sous les vidéos TikTok les plus commentées ; facebook_commentees[].commentaires_du_public : la même chose sous les vidéos de la Page Facebook qui ont au moins 2 commentaires (texte brut des internautes : des questions à traiter avec des sources, jamais des faits).",
  "reseaux": {
   "x": {
    "depuis_le_debut": {
-    "publies": 199,
-    "vues": 857,
+    "publies": 207,
+    "vues": 887,
     "moyenne": 4,
     "mediane": 3,
     "reactions": 29,
@@ -14,9 +14,9 @@
     "partages": 1
    },
    "7_derniers_jours": {
-    "publies": 38,
-    "vues": 131,
-    "moyenne": 3,
+    "publies": 41,
+    "vues": 145,
+    "moyenne": 4,
     "mediane": 2,
     "reactions": 0,
     "commentaires": 0,
@@ -24,36 +24,36 @@
    },
    "7_jours_avant": {
     "publies": 43,
-    "vues": 162,
+    "vues": 155,
     "moyenne": 4,
     "mediane": 3,
-    "reactions": 2,
+    "reactions": 1,
     "commentaires": 1,
     "partages": 0
    }
   },
   "linkedin": {
    "depuis_le_debut": {
-    "publies": 206,
-    "vues": 1027,
+    "publies": 214,
+    "vues": 1129,
     "moyenne": 5,
     "mediane": 1,
-    "reactions": 27,
+    "reactions": 28,
     "commentaires": 1,
     "partages": 0
    },
    "7_derniers_jours": {
-    "publies": 38,
-    "vues": 13,
-    "moyenne": 0,
+    "publies": 41,
+    "vues": 114,
+    "moyenne": 3,
     "mediane": 0,
-    "reactions": 0,
+    "reactions": 1,
     "commentaires": 0,
     "partages": 0
    },
    "7_jours_avant": {
     "publies": 44,
-    "vues": 514,
+    "vues": 506,
     "moyenne": 12,
     "mediane": 2,
     "reactions": 1,
@@ -63,65 +63,65 @@
   },
   "tiktok": {
    "depuis_le_debut": {
-    "publies": 203,
-    "vues": 210176,
-    "moyenne": 1035,
-    "mediane": 81,
-    "reactions": 8949,
-    "commentaires": 415,
-    "partages": 1134
+    "publies": 211,
+    "vues": 212579,
+    "moyenne": 1007,
+    "mediane": 89,
+    "reactions": 9077,
+    "commentaires": 419,
+    "partages": 1140
    },
    "7_derniers_jours": {
-    "publies": 39,
-    "vues": 22688,
-    "moyenne": 582,
-    "mediane": 405,
-    "reactions": 875,
+    "publies": 41,
+    "vues": 22255,
+    "moyenne": 543,
+    "mediane": 379,
+    "reactions": 906,
     "commentaires": 14,
-    "partages": 32
+    "partages": 34
    },
    "7_jours_avant": {
     "publies": 45,
-    "vues": 171548,
-    "moyenne": 3812,
-    "mediane": 553,
-    "reactions": 7547,
-    "commentaires": 391,
-    "partages": 1071
+    "vues": 53347,
+    "moyenne": 1185,
+    "mediane": 489,
+    "reactions": 2100,
+    "commentaires": 80,
+    "partages": 157
    }
   },
   "youtube": {
    "depuis_le_debut": {
-    "publies": 208,
-    "vues": 11749,
+    "publies": 216,
+    "vues": 12124,
     "moyenne": 56,
-    "mediane": 17,
+    "mediane": 18,
     "reactions": 44,
     "commentaires": 10,
     "partages": 0
    },
    "7_derniers_jours": {
-    "publies": 38,
-    "vues": 2987,
-    "moyenne": 79,
-    "mediane": 50,
-    "reactions": 9,
+    "publies": 41,
+    "vues": 2945,
+    "moyenne": 72,
+    "mediane": 49,
+    "reactions": 8,
     "commentaires": 0,
     "partages": 0
    },
    "7_jours_avant": {
     "publies": 44,
-    "vues": 2682,
-    "moyenne": 61,
-    "mediane": 12,
-    "reactions": 10,
+    "vues": 2954,
+    "moyenne": 67,
+    "mediane": 14,
+    "reactions": 9,
     "commentaires": 0,
     "partages": 0
    }
   },
   "facebook": {
    "depuis_le_debut": {
-    "publies": 159,
+    "publies": 166,
     "vues": 237,
     "moyenne": 1,
     "mediane": 1,
@@ -130,20 +130,20 @@
     "partages": 0
    },
    "7_derniers_jours": {
-    "publies": 38,
-    "vues": 19,
+    "publies": 40,
+    "vues": 16,
     "moyenne": 0,
     "mediane": 0,
-    "reactions": 11,
+    "reactions": 9,
     "commentaires": 0,
     "partages": 0
    },
    "7_jours_avant": {
     "publies": 44,
-    "vues": 114,
-    "moyenne": 3,
-    "mediane": 2,
-    "reactions": 18,
+    "vues": 78,
+    "moyenne": 2,
+    "mediane": 1,
+    "reactions": 17,
     "commentaires": 0,
     "partages": 0
    }
@@ -151,327 +151,14 @@
  },
  "top": [
   {
-   "titre": "Coup de pouce à 275 000 francs",
-   "date": "2026-11-06",
-   "lien": "https://www.tiktok.com/@decide_media/video/7704953630893296902?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 106883,
-   "reactions": 5093,
-   "commentaires": 312,
-   "partages": 885,
-   "visionnage_s": 11.79,
-   "reseau": "tiktok",
-   "commentaires_du_public": [
-    {
-     "texte": "On à déjà vendu le pays et c’est ma part comme ça ?",
-     "jaime": 547,
-     "reponses": 14
-    },
-    {
-     "texte": "Jusqu’à l’argent la va arriver au jeune",
-     "jaime": 226,
-     "reponses": 22
-    },
-    {
-     "texte": "c est pour boir le vin",
-     "jaime": 68,
-     "reponses": 2
-    },
-    {
-     "texte": "donner le lien si vous voulez qu'on l'es ai",
-     "jaime": 35,
-     "reponses": 11
-    },
-    {
-     "texte": "😂😂 ils vont go buy les lasse avec l’argent la",
-     "jaime": 35,
-     "reponses": 3
-    },
-    {
-     "texte": "Si vous même alliez venir nous partager ça marche! Mais si et seulement si un seul membre du gouvernement touche 1fcfa dedans c’est mort! Ils ont les enfants et les animaux domestiques…💁🏽‍♂️🤗",
-     "jaime": 22,
-     "reponses": 6
-    },
-    {
-     "texte": "C'est pour chacun ou bien c'est la somme qu'ils vont se partager ?",
-     "jaime": 13,
-     "reponses": 2
-    },
-    {
-     "texte": "comment s'inscrire svp",
-     "jaime": 6,
-     "reponses": 4
-    },
-    {
-     "texte": "mm Cameroun est étonné",
-     "jaime": 5,
-     "reponses": 1
-    },
-    {
-     "texte": "Le lien d’inscription...?",
-     "jaime": 4,
-     "reponses": 3
-    },
-    {
-     "texte": "comment s'inscrire ?",
-     "jaime": 4,
-     "reponses": 5
-    },
-    {
-     "texte": "Pourquoi le secteur informel ? Il veulent que vous avoir des statistiques sur le secteur informel et par la suite vous allez devoir faire des déclarations et payer les impôts ce qui entraînerait la chute de plusieurs petits business et augmenterait le taux de chômage",
-     "jaime": 3,
-     "reponses": 3
-    },
-    {
-     "texte": "Un projet d'entreprise ou alors plusieurs projets bien montés avec 5 milliards, ne peuvent pas employer 20 000 jeunes au Cameroun ???? 🤦‍♂️",
-     "jaime": 3,
-     "reponses": 0
-    },
-    {
-     "texte": "j'imagine le tamis",
-     "jaime": 3,
-     "reponses": 1
-    },
-    {
-     "texte": "Comment faire pour en bénéficier ?",
-     "jaime": 3,
-     "reponses": 0
-    },
-    {
-     "texte": "j'ai rien reçu heinnn",
-     "jaime": 3,
-     "reponses": 1
-    },
-    {
-     "texte": "Le programme CPA ?",
-     "jaime": 3,
-     "reponses": 1
-    },
-    {
-     "texte": "dans quel pays ?🤣🤣😂😂🤣🤣😂😂🙏😁😁",
-     "jaime": 3,
-     "reponses": 0
-    },
-    {
-     "texte": "j'ai déjà bénéficié il y'a un an",
-     "jaime": 2,
-     "reponses": 8
-    },
-    {
-     "texte": "275 mil c’est pour financer les beignets haricot 😒",
-     "jaime": 2,
-     "reponses": 2
-    },
-    {
-     "texte": "Interessant",
-     "jaime": 2,
-     "reponses": 1
-    },
-    {
-     "texte": "Ne deranger pas les gens didon",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "on vend le Cameroun maintenant on veut vous donnez votre part vous vous étonnez",
-     "jaime": 2,
-     "reponses": 2
-    },
-    {
-     "texte": "Le lien svp",
-     "jaime": 2,
-     "reponses": 1
-    },
-    {
-     "texte": "ça c'est l'argent des fêtes de fin d'année.",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "20 000 jeunes du concours Ekang?",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "je n'ai pas encore eu ma part ooh",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "ils vont prendre pour acheter l'iPhone aveuc",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "comment faire pour s'inscrire",
-     "jaime": 2,
-     "reponses": 1
-    },
-    {
-     "texte": "on fait cmt?",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "On prend l’argent là où",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "je suis intéressée",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "Comment s’inscrire",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "Les gars là ont déjà partagé ça depuis… enlève vos cœurs sur ça",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "🤣🤣🤣🤣🤣🤣",
-     "jaime": 2,
-     "reponses": 0
-    },
-    {
-     "texte": "On achète pas le ciment avec l’argent de bière 🍺",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "merci infiniment 🙏",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "le lien",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "Minalmi",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "Prenez l’argent la vous arrangez les routes mm les pavés sa vas nous aider",
-     "jaime": 1,
-     "reponses": 2
-    },
-    {
-     "texte": "Comment faire",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "Me voici 😭😭",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "sinon",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "Le plus important c'est de voir d'abord l'argent pardon comment faire",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "C'est le prank ?",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "comment faire pour s enregistrer",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "ils vont boire le vin avec ça.",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "275000 francs × 20 j'espère !? parce que je ne vois pas en quoi 13750 francs peut améliorer dans la vie d'un camerounais. Mais nous savons tous que le Cameroun, c'est un prank ! 🤣🤣🤣",
-     "jaime": 1,
-     "reponses": 2
-    },
-    {
-     "texte": "c'est d'abord pour faire quoi avec ? si c'est pour boire le vin là je peux comprendre 😁😁",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "Mensonge",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "🤣🤣🤣🤣 je préfère rire",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "c'est pour le transport de 3 jours ?",
-     "jaime": 1,
-     "reponses": 2
-    },
-    {
-     "texte": "Mon Cameroun si ?",
-     "jaime": 1,
-     "reponses": 2
-    },
-    {
-     "texte": "quel est le lien d’inscription ?",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "Mieux vous laisser hein",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "j'y crois",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "les choses de ce pays sont toujours chelous",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "Personne ne va rien recevoir Rdv en Décembre 😘",
-     "jaime": 1,
-     "reponses": 1
-    },
-    {
-     "texte": "comment s'inscrire ???",
-     "jaime": 1,
-     "reponses": 0
-    },
-    {
-     "texte": "c'est de ça que vous parlez ? ?",
-     "jaime": 1,
-     "reponses": 0
-    }
-   ]
-  },
-  {
    "titre": "Le bœuf camerounais dépend du Tchad",
    "date": "2026-11-09",
    "lien": "https://www.tiktok.com/@decide_media/video/7706206146213907732?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 18422,
-   "reactions": 807,
+   "vues": 18459,
+   "reactions": 810,
    "commentaires": 51,
    "partages": 92,
-   "visionnage_s": 15.04,
+   "visionnage_s": 15.01,
    "reseau": "tiktok",
    "commentaires_du_public": [
     {
@@ -590,12 +277,12 @@
      "reponses": 0
     },
     {
-     "texte": "Non c’est le moutonnier",
+     "texte": "il faut industrialisés cette chaîne alimentaire, faire descendre la viande dans les camions frigorifiques.",
      "jaime": 0,
      "reponses": 0
     },
     {
-     "texte": "il faut industrialisés cette chaîne alimentaire, faire descendre la viande dans les camions frigorifiques.",
+     "texte": "Non c’est le moutonnier",
      "jaime": 0,
      "reponses": 0
     },
@@ -652,44 +339,22 @@
    ]
   },
   {
-   "titre": "Les quotas de poisson changent de mains",
-   "date": "2026-11-06",
-   "lien": "https://www.tiktok.com/@decide_media/video/7704999999536385300?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 7704,
-   "reactions": 240,
-   "commentaires": 0,
-   "partages": 21,
-   "visionnage_s": 14.24,
-   "reseau": "tiktok"
-  },
-  {
    "titre": "La Chine encaisse plus qu'avant L'administration centrale du Cameroun a versé 319,8 milliards de…",
    "date": "2026-11-15",
    "lien": "https://www.tiktok.com/@decide_media/video/7708293350842993938?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 3920,
-   "reactions": 86,
+   "vues": 3954,
+   "reactions": 88,
    "commentaires": 1,
    "partages": 3,
-   "visionnage_s": 13.22,
-   "reseau": "tiktok"
-  },
-  {
-   "titre": "Le tramway de Douala reste en gare",
-   "date": "2026-11-06",
-   "lien": "https://www.tiktok.com/@decide_media/video/7705092973628804372?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 3153,
-   "reactions": 104,
-   "commentaires": 2,
-   "partages": 8,
-   "visionnage_s": 8.95,
+   "visionnage_s": 13.21,
    "reseau": "tiktok"
   },
   {
    "titre": "L'internet tire la caisse de MTN MTN Cameroon a réalisé 367,2 milliards FCFA de revenus sur les…",
    "date": "2026-11-12",
    "lien": "https://www.tiktok.com/@decide_media/video/7707180099086372117?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 3144,
-   "reactions": 105,
+   "vues": 3151,
+   "reactions": 106,
    "commentaires": 3,
    "partages": 3,
    "visionnage_s": 11.91,
@@ -699,145 +364,169 @@
    "titre": "Le fioul des centrales repart à zéro",
    "date": "2026-11-16",
    "lien": "https://www.tiktok.com/@decide_media/video/7708710896733916434?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 2724,
-   "reactions": 75,
+   "vues": 2766,
+   "reactions": 76,
    "commentaires": 0,
    "partages": 1,
-   "visionnage_s": 16.52,
+   "visionnage_s": 16.38,
    "reseau": "tiktok"
   },
   {
    "titre": "Un coup de pouce pour la débrouille",
    "date": "2026-11-10",
    "lien": "https://www.tiktok.com/@decide_media/video/7706577182079847687?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 2723,
+   "vues": 2740,
    "reactions": 71,
    "commentaires": 4,
-   "partages": 20,
-   "visionnage_s": 8.92,
+   "partages": 21,
+   "visionnage_s": 8.91,
    "reseau": "tiktok"
   },
   {
    "titre": "Rocade de Yaoundé : le chantier patiente",
    "date": "2026-11-07",
    "lien": "https://www.tiktok.com/@decide_media/video/7705509291184098566?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 2579,
+   "vues": 2580,
    "reactions": 71,
    "commentaires": 1,
    "partages": 2,
-   "visionnage_s": 9.55,
+   "visionnage_s": 9.54,
    "reseau": "tiktok"
   },
   {
    "titre": "Le compteur tourne sans concours Investir au Cameroun a identifié dans le registre de l'Agence de…",
    "date": "2026-11-10",
    "lien": "https://www.tiktok.com/@decide_media/video/7706437925927472405?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 2390,
+   "vues": 2394,
    "reactions": 64,
    "commentaires": 1,
    "partages": 2,
-   "visionnage_s": 8.63,
+   "visionnage_s": 8.57,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Afriland puise dans ses réserves Afriland First Bank a porté son capital de 50 à 110 milliards de…",
+   "date": "2026-11-08",
+   "lien": "https://www.tiktok.com/@decide_media/video/7705881289504673045?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 2243,
+   "reactions": 81,
+   "commentaires": 2,
+   "partages": 0,
+   "visionnage_s": 9.48,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Mototaxis : cinq jours pour s'identifier Du 9 au 13 novembre 2026, une opération d'identification…",
+   "date": "2026-11-10",
+   "lien": "https://www.tiktok.com/@decide_media/video/7706622932377783553?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 1624,
+   "reactions": 69,
+   "commentaires": 0,
+   "partages": 0,
+   "visionnage_s": 6.46,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "La note grimpe, le ratio recule",
+   "date": "2026-11-08",
+   "lien": "https://www.tiktok.com/@decide_media/video/7705694749188951302?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 1504,
+   "reactions": 58,
+   "commentaires": 1,
+   "partages": 15,
+   "visionnage_s": 9.96,
    "reseau": "tiktok"
   }
  ],
  "facebook_commentees": [],
  "sujets_forts": [
   {
-   "titre": "Coup de pouce à 275 000 francs",
-   "vues": 106945,
-   "reseaux": {
-    "x": 7,
-    "linkedin": 3,
-    "tiktok": 106883,
-    "youtube": 44,
-    "facebook": 8
-   }
-  },
-  {
    "titre": "Le bœuf camerounais dépend du Tchad",
-   "vues": 18479,
+   "vues": 18516,
    "reseaux": {
     "x": 2,
     "linkedin": 20,
-    "tiktok": 18422,
+    "tiktok": 18459,
     "youtube": 33,
     "facebook": 2
    }
   },
   {
-   "titre": "Les quotas de poisson changent de mains",
-   "vues": 7721,
-   "reseaux": {
-    "x": 1,
-    "linkedin": 0,
-    "tiktok": 7704,
-    "youtube": 13,
-    "facebook": 3
-   }
-  },
-  {
    "titre": "La Chine encaisse plus qu'avant L'administration centrale du Cameroun a versé 319,8 milliards de…",
-   "vues": 3920,
+   "vues": 3954,
    "reseaux": {
-    "tiktok": 3920
-   }
-  },
-  {
-   "titre": "Le tramway de Douala reste en gare",
-   "vues": 3183,
-   "reseaux": {
-    "x": 7,
-    "linkedin": 3,
-    "tiktok": 3153,
-    "youtube": 10,
-    "facebook": 10
+    "tiktok": 3954
    }
   },
   {
    "titre": "L'internet tire la caisse de MTN MTN Cameroon a réalisé 367,2 milliards FCFA de revenus sur les…",
-   "vues": 3144,
+   "vues": 3151,
    "reseaux": {
-    "tiktok": 3144
+    "tiktok": 3151
    }
   },
   {
    "titre": "Rocade de Yaoundé : le chantier patiente",
-   "vues": 2918,
+   "vues": 2919,
    "reseaux": {
     "x": 9,
     "linkedin": 0,
-    "tiktok": 2579,
+    "tiktok": 2580,
     "youtube": 324,
     "facebook": 6
    }
   },
   {
    "titre": "Le fioul des centrales repart à zéro",
-   "vues": 2820,
+   "vues": 2864,
    "reseaux": {
     "x": 2,
     "linkedin": 0,
-    "tiktok": 2724,
-    "youtube": 93,
+    "tiktok": 2766,
+    "youtube": 95,
     "facebook": 1
    }
   },
   {
    "titre": "Un coup de pouce pour la débrouille",
-   "vues": 2766,
+   "vues": 2786,
    "reseaux": {
     "x": 8,
     "linkedin": 15,
-    "tiktok": 2723,
-    "youtube": 20,
+    "tiktok": 2740,
+    "youtube": 23,
     "facebook": 0
    }
   },
   {
    "titre": "Le compteur tourne sans concours Investir au Cameroun a identifié dans le registre de l'Agence de…",
-   "vues": 2390,
+   "vues": 2394,
    "reseaux": {
-    "tiktok": 2390
+    "tiktok": 2394
+   }
+  },
+  {
+   "titre": "Afriland puise dans ses réserves Afriland First Bank a porté son capital de 50 à 110 milliards de…",
+   "vues": 2243,
+   "reseaux": {
+    "tiktok": 2243
+   }
+  },
+  {
+   "titre": "Mototaxis : cinq jours pour s'identifier Du 9 au 13 novembre 2026, une opération d'identification…",
+   "vues": 1624,
+   "reseaux": {
+    "tiktok": 1624
+   }
+  },
+  {
+   "titre": "La note grimpe, le ratio recule",
+   "vues": 1542,
+   "reseaux": {
+    "linkedin": 22,
+    "tiktok": 1504,
+    "youtube": 14,
+    "facebook": 2
    }
   }
  ],
@@ -890,11 +579,11 @@
   },
   {
    "titre": "Bini à Warak : le barrage patiente",
-   "vues": 18,
+   "vues": 19,
    "reseaux": {
     "x": 1,
     "linkedin": 10,
-    "youtube": 7,
+    "youtube": 8,
     "facebook": 0
    }
   },
@@ -929,12 +618,12 @@
    }
   },
   {
-   "titre": "La facture de la dette extérieure grossit",
-   "vues": 33,
+   "titre": "Le compteur tourne sans concours",
+   "vues": 34,
    "reseaux": {
-    "x": 1,
-    "linkedin": 27,
-    "youtube": 3,
+    "x": 6,
+    "linkedin": 20,
+    "youtube": 6,
     "facebook": 2
    }
   }
