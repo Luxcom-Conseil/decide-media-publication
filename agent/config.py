@@ -48,3 +48,14 @@ def charger_config(chemin: str | Path = "config.yaml") -> dict:
         return copy.deepcopy(DEFAUTS)
     with p.open(encoding="utf-8") as f:
         return _fusion(DEFAUTS, yaml.safe_load(f) or {})
+
+
+def appliquer_antenne(cfg: dict, nom: str) -> dict:
+    """Antenne DECIDE (ex. « burkina ») : la section antennes.<nom> de config.yaml remplace, clé par clé, les réglages
+    des lots et de Buffer. Le Cameroun (sans --antenne) ne change pas. Lève KeyError si l'antenne n'existe pas."""
+    a = (cfg.get("antennes") or {})[nom]
+    out = _fusion(cfg, {k: v for k, v in a.items() if k in ("lots", "buffer", "youtube")})
+    if (a.get("buffer") or {}).get("canaux"):  # seulement les chaînes de l'antenne (pas le X ni le LinkedIn du Cameroun)
+        out["buffer"]["canaux"] = dict(a["buffer"]["canaux"])
+    out["antenne"] = {"nom": nom, **{k: v for k, v in a.items() if k not in ("lots", "buffer", "youtube")}}
+    return out

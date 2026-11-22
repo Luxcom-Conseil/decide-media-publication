@@ -1,0 +1,62 @@
+"""Antenne DECIDE MEDIA Burkina : réglages superposés, identifiants séparés, créneaux à l'heure de Ouagadougou,
+YouTube par Buffer. Le Cameroun (sans antenne) ne doit pas changer."""
+from datetime import date, datetime, timezone
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+import pytest
+
+from agent.config import appliquer_antenne, charger_config
+from agent.lots import creneaux
+from agent.publieurs.buffer import BufferYouTube
+
+RACINE = Path(__file__).parent.parent
+
+
+@pytest.fixture
+def cfg():
+    return charger_config(RACINE / "config.yaml")
+
+
+def test_le_cameroun_ne_change_pas(cfg):
+    assert cfg["lots"]["dossier_drive"] == "1T_1QBeDbS1GIgHY2UsZsNnN3wJu5Cmwa"
+    assert cfg["lots"]["fuseau_creneaux"] == "Africa/Douala"
+    assert "youtube" in cfg["lots"]["reseaux"] and "youtube_buffer" not in cfg["lots"]["reseaux"]
+    assert "antenne" not in cfg
+
+
+def test_burkina_remplace_drive_reseaux_fuseau_et_chaines(cfg):
+    b = appliquer_antenne(cfg, "burkina")
+    assert b["lots"]["dossier_drive"] != cfg["lots"]["dossier_drive"]
+    assert b["lots"]["reseaux"] == ["youtube_buffer", "tiktok_buffer"]
+    assert b["lots"]["fuseau_creneaux"] == "Africa/Ouagadougou"
+    assert set(b["buffer"]["canaux"]) == {"youtube_buffer", "tiktok_buffer"}  # ni X ni LinkedIn du Cameroun
+    assert b["buffer"]["canaux"]["tiktok_buffer"] != cfg["buffer"]["canaux"]["tiktok_buffer"]
+    assert b["antenne"]["nom"] == "burkina" and b["antenne"]["prefixe_id"] == "decide-bf-"
+    assert b["antenne"]["journal"] != "etat/lots.json"
+    assert (RACINE / b["antenne"]["banque_photos"] / "index.json").exists()
+    assert cfg["lots"]["fuseau_creneaux"] == "Africa/Douala"  # la config d'origine n'est pas modifiée
+
+
+def test_antenne_inconnue(cfg):
+    with pytest.raises(KeyError):
+        appliquer_antenne(cfg, "gabon")
+
+
+def test_creneaux_a_l_heure_de_ouagadougou(cfg):
+    b = appliquer_antenne(cfg, "burkina")
+    tot = datetime(2026, 11, 23, 0, 0, tzinfo=timezone.utc)
+    h = creneaux(b, date(2026, 11, 23), 2, tot, [], "youtube_buffer")
+    assert [x.astimezone(ZoneInfo("UTC")).strftime("%H:%M") for x in h] == ["08:00", "11:00"]  # UTC+0
+    t = creneaux(b, date(2026, 11, 23), 1, tot, [], "tiktok_buffer")
+    assert t[0].astimezone(ZoneInfo("UTC")).strftime("%H:%M") == "08:15"
+
+
+def test_youtube_par_buffer_titre_categorie_et_shorts(cfg):
+    pub = BufferYouTube(appliquer_antenne(cfg, "burkina"))
+    article = {"title": "Le prix du sac de riz baisse à Ouagadougou", "platform_texts": {"youtube": "Texte YouTube"}}
+    texte = pub.texte(article, "texte commun")
+    assert texte.startswith("Texte YouTube") and texte.endswith("#Shorts")
+    meta = pub.metadonnees()["youtube"]
+    assert meta["title"] == article["title"] and meta["categoryId"] == "25" and meta["privacy"] == "public"
+    assert pub.en_video({"_rang": 99})

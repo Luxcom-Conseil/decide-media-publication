@@ -210,7 +210,10 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
             if bavard:
                 log(f"• {dossier.nom} : lot non publiable — {e}")
             return None, None
+        prefixe = (cfg.get("antenne") or {}).get("prefixe_id")
         for rang, a in enumerate(articles, 1):  # Buffer : les premiers articles partent en Short
+            if prefixe and not str(a["id"]).startswith(prefixe):  # antenne : jamais l'identifiant d'un article Cameroun
+                a["id"] = prefixe + str(a["id"])
             a.setdefault("_rang", rang)
             a.setdefault("_lot", dossier.nom)
         return manifeste, articles
@@ -225,7 +228,8 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                 travaux.append((d, articles, reseaux, "principale"))
                 du_jour = du_jour or d.nom == aujourdhui.isoformat()
                 if not simulation:
-                    noter_photos(articles, d.nom, Path(journal.chemin).parent / "photos_utilisees.json")
+                    noter_photos(articles, d.nom, (cfg.get("antenne") or {}).get("photos_utilisees")
+                                 or Path(journal.chemin).parent / "photos_utilisees.json")
 
     # 2. un lot de rattrapage par jour (lots marqués « backfill » par le producteur), du plus ancien au plus récent :
     #    s'il y a un lot du jour, le rattrapage ne passe que sur Facebook (visuels, créneaux intercalés) ;

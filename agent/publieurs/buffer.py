@@ -58,6 +58,8 @@ class _Buffer(Publieur):
         return str(self.cfg["buffer"]["canaux"][self.canal])
 
     def verifier(self) -> str:
+        if self.canal not in (self.cfg.get("buffer") or {}).get("canaux", {}):
+            return "pas de chaîne pour ce réseau dans cette configuration (non utilisé)"
         d = requete("query($id: ChannelId!) { channel(input: {id: $id}) { name service } }", {"id": self._canal()})
         return f"Buffer → {d['channel']['service']} « {d['channel']['name']} »"
 
@@ -155,6 +157,28 @@ class BufferTikTok(_Buffer):
         if question:  # réponse à une question du public (protocole 2.2) : la question en tête de la légende
             return f"Vous avez demandé : {question}\n\n" + legende_courte(article, limite=250)
         return legende_courte(article)
+
+
+class BufferYouTube(_Buffer):
+    """YouTube par Buffer (antenne Burkina, comme le compte Histoires) : uniquement les Shorts, publics à l'heure dite.
+    Le Cameroun garde l'API YouTube directe (publieur « youtube »)."""
+    nom = canal = "youtube_buffer"
+    _titre = ""
+
+    def en_video(self, article: dict) -> bool:
+        return True
+
+    def metadonnees(self) -> dict:
+        return {"youtube": {"title": self._titre or "DECIDE MEDIA",
+                            "categoryId": str(self.cfg["youtube"].get("categorie_lots", "25")),
+                            "privacy": "public", "madeForKids": False, "notifySubscribers": True,
+                            "embeddable": True, "license": "youtube"}}
+
+    def texte(self, article: dict, texte: str) -> str:
+        from .youtube import _titre_youtube
+        self._titre = _titre_youtube(article.get("title") or texte.split("\n")[0])  # lu ensuite par metadonnees()
+        propre = (article.get("platform_texts") or {}).get("youtube") or texte
+        return (propre + "\n\n#Shorts").replace("<", "").replace(">", "")[:5000]
 
 
 class BufferLinkedIn(_Buffer):

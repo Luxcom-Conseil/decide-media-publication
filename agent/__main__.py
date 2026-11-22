@@ -69,11 +69,25 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--sans-ia", action="store_true", help="ne pas appeler Claude (texte d'origine)")
     p.add_argument("--jours", type=int, help="lots : examiner aussi les N jours précédents (sinon config.yaml)")
     p.add_argument("--config", default="config.yaml")
+    p.add_argument("--antenne", help="lots : antenne DECIDE de config.yaml (ex. burkina) ; sans : le Cameroun")
     p.add_argument("--etat", default="etat/etat.json")
     a = p.parse_args(argv)
 
     simulation = a.simulation or os.environ.get("SIMULATION", "").lower() in ("1", "true", "oui")
     cfg = charger_config(a.config)
+    if a.antenne:  # antenne DECIDE (Burkina…) : son Drive, sa clé Buffer, sa banque de photos, son journal
+        from pathlib import Path
+
+        from . import medias_commons
+        from .config import appliquer_antenne
+
+        cfg = appliquer_antenne(cfg, a.antenne)
+        os.environ["DRIVE_FOLDER_ID"] = cfg["lots"]["dossier_drive"]
+        cle = cfg["antenne"].get("cle_buffer")
+        if cle:  # les publieurs Buffer lisent BUFFER_API_KEY : celle de l'antenne la remplace pour ce passage
+            os.environ["BUFFER_API_KEY"] = os.environ.get(cle, "")
+        if cfg["antenne"].get("banque_photos"):
+            medias_commons.BANQUE = Path(__file__).parent.parent / cfg["antenne"]["banque_photos"]
     os.environ.setdefault("DRIVE_FOLDER_ID", cfg["lots"]["dossier_drive"])
     if a.jours is not None:
         cfg["lots"]["jours_max"] = a.jours
@@ -215,7 +229,13 @@ def main(argv: list[str] | None = None) -> int:
         from .lots import Journal as JournalLots, traiter_lots
 
         os.environ.setdefault("DRIVE_FOLDER_ID", cfg["lots"]["dossier_drive"])
-        journal_lots = JournalLots()
+        antenne = cfg.get("antenne") or {}
+        if antenne and not antenne.get("actif") and not simulation:
+            log(f"➖ antenne {antenne['nom']} pas encore active (config.yaml, antennes.{antenne['nom']}.actif) : "
+                "rien n'est publié")
+            _resume_github(log)
+            return 0
+        journal_lots = JournalLots(antenne.get("journal") or "etat/lots.json")
         traiter_lots(cfg, SourceDrive.depuis_env(), publieurs, journal_lots, log, simulation=simulation)
         if "facebook_shorts" in cfg["lots"]["reseaux"]:  # réponses écrites sous les commentaires des vidéos d'origine
             from .reponses_facebook import repondre
