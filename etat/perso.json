@@ -1151,193 +1151,14 @@
       "formule": "Liste",
       "id": "20261122-1830",
       "legende": "3 signes que tu gâches ton temps au travail sans t'en rendre compte.\n\nAu bureau, on a tous déjà insisté sur un dossier stérile simplement parce qu'on y avait passé des semaines. C'est le piège des coûts irrécupérables.\n\nPour sortir de ce cercle vicieux, pose-toi une seule question : si tu devais démarrer aujourd'hui en partant de zéro, ferais-tu encore ce choix ? Si la réponse est non, stoppe le massacre. Ce que tu as investi dans le passé est perdu, protège ton futur.\n\nAs-tu déjà insisté sur un projet pro juste parce que tu y avais mis trop d'énergie ?\n\n#psychologie #travail #productivité #gestiondutemps #vieprofessionnelle",
+      "media_id": "18172917580470425",
+      "publie_le": "2026-11-22T17:31:48+00:00",
       "quand": "2026-11-22T18:30:00+01:00",
       "refait_le": "2026-11-19T19:13:44+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Liste",
-            "texte": "3 signes que tu gâches ton temps au travail sans t'en rendre compte."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Continuer ce projet au bureau va ruiner ton énergie et ta carrière."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu penses sauver ce projet ? Tu es en train de te piéger."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "travail",
-          "productivité",
-          "gestiondutemps",
-          "vieprofessionnelle"
-        ],
-        "legende": "3 signes que tu gâches ton temps au travail sans t'en rendre compte.\n\nAu bureau, on a tous déjà insisté sur un dossier stérile simplement parce qu'on y avait passé des semaines. C'est le piège des coûts irrécupérables.\n\nPour sortir de ce cercle vicieux, pose-toi une seule question : si tu devais démarrer aujourd'hui en partant de zéro, ferais-tu encore ce choix ? Si la réponse est non, stoppe le massacre. Ce que tu as investi dans le passé est perdu, protège ton futur.\n\nAs-tu déjà insisté sur un projet pro juste parce que tu y avais mis trop d'énergie ?",
-        "question": "As-tu déjà insisté sur un projet pro juste parce que tu y avais mis trop d'énergie ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "3 signes que tu gâches ton temps au travail sans t'en rendre compte.",
-            "ecran": "3 signes que tu *gâches* ton temps",
-            "emoji": "🚨",
-            "recherche": "stressed office worker phone",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et crois-moi, le troisième signe est celui qui te coûte le plus cher !",
-            "ecran": "Le 3ème piège est *le pire*",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce réflexe toxique s'appelle le piège des coûts irrécupérables.",
-            "ecran": "Le piège des *coûts irrécupérables*",
-            "emoji": "🧠",
-            "recherche": "thinking laptop corporate worker",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Tu penses : j'ai déjà passé 6 mois sur ce dossier, je ne peux pas abandonner !",
-            "ecran": "Signe 1 : Projet *voué à l'échec*",
-            "emoji": "📋",
-            "recherche": "frustrated worker desk papers",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Tu restes dans une réunion inutile juste parce que tu as préparé 10 diapos.",
-            "ecran": "Signe 2 : Réunions *interminables*",
-            "emoji": "🗣️",
-            "recherche": "boring office meeting group",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Tu acceptes d'aider un collègue qui ne fait aucun effort, sous prétexte que tu l'aides depuis un an.",
-            "ecran": "Signe 3 : Mission *épuisante*",
-            "emoji": "🤝",
-            "recherche": "tired employee computer monitor",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Passé investi",
-            "b": "Gain futur",
-            "dit": "Pourquoi ton cerveau fait ça ? Parce qu'il hait l'impression d'avoir gâché ses efforts.",
-            "ecran": "Ce que tu *regardes* vs la *réalité*",
-            "emoji": "⚖️",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 3,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Résultat : tu remets de l'énergie et du temps dans un trou noir sans fond.",
-            "ecran": "Continuer *coûte plus cher*",
-            "emoji": "💸",
-            "recherche": "clock ticking deadline work",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce que tu as déjà dépensé ne reviendra jamais. Ne le laisse pas décider.",
-            "ecran": "Le passé ne *reviendra pas*",
-            "emoji": "🛑",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour te libérer de ce piège au travail, voici l'astuce en deux étapes très simples.",
-            "ecran": "Solution : Repartir de zéro | Évaluer aujourd'hui | Trancher net",
-            "emoji": "💡",
-            "recherche": "confident businessman decision writing",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Première étape. Pose-toi cette question : si je partais de zéro aujourd'hui, est-ce que je choisirais encore ce projet ?",
-            "ecran": "Étape 1 : La *question magique*",
-            "emoji": "❓",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deuxième étape. Si la réponse est non, arrête tout de suite, sans éprouver la moindre culpabilité.",
-            "ecran": "Étape 2 : Acter la *décision*",
-            "emoji": "✂️",
-            "recherche": "closing laptop finishing work",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En coupant tes pertes tôt, tu libères du temps pour ce qui compte vraiment.",
-            "ecran": "Économise *ton énergie*",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce que tu as déjà dépensé ne doit jamais décider à ta place.",
-            "ecran": "Ce que tu as déjà dépensé ne doit jamais décider à ta place.",
-            "emoji": "📌",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le piège des coûts irrécupérables"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "sunk_cost",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgDWNIFgCK1/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261122-1830-r.mp4"
     },
     {
@@ -4796,6 +4617,13 @@
       "media_id": "18122451925760758",
       "sujet": "masse_critique",
       "url": "https://www.instagram.com/reel/DgCtD9egrI5/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-22",
+      "media_id": "18172917580470425",
+      "sujet": "sunk_cost",
+      "url": "https://www.instagram.com/reel/DgDWNIFgCK1/"
     }
   ]
 }
