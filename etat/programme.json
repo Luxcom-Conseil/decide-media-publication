@@ -1424,7 +1424,7 @@
    "reseau": "youtube",
    "buffer": "6afeb39f9af0a73f71292ae3",
    "heure": "2026-11-19T09:50:00+01:00",
-   "relances": 2
+   "relances": 3
   },
   {
    "jour": "2026-11-19",
@@ -1439,7 +1439,7 @@
    "reseau": "youtube",
    "buffer": "6afeb3a09af0a73f71292d3f",
    "heure": "2026-11-19T16:30:00+01:00",
-   "relances": 2
+   "relances": 3
   },
   {
    "jour": "2026-11-19",
@@ -1454,7 +1454,7 @@
    "reseau": "youtube",
    "buffer": "6afeb3a19af0a73f71292daa",
    "heure": "2026-11-19T22:00:00+01:00",
-   "relances": 2
+   "relances": 3
   }
  ],
  "echecs": {
