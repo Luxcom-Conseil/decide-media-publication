@@ -1168,116 +1168,14 @@
       "formule": "Ordre",
       "id": "20261122-2100",
       "legende": "Arrête de refouler tes émotions tant que tu n'as pas vu ça.\n\nQuand une émotion inconfortable arrive, notre premier réflexe est de la combattre. Pourtant, plus tu luttes contre ton stress ou ta colère, plus tu l'alimentes.\n\nLa prochaine fois, valide ce que tu ressens au lieu de le juger. Laisse le nuage passer.\n\nQuelle émotion essaies-tu de cacher en ce moment ?\n\n#psychologie #gestiondustress #emotions #bienetre #developpementpersonnel",
+      "media_id": "18134208874812900",
+      "publie_le": "2026-11-22T20:02:06+00:00",
       "quand": "2026-11-22T21:00:00+01:00",
       "refait_le": "2026-11-19T19:13:44+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de refouler tes émotions tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce réflexe quand tu es stressé te gâche la vie."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que lutter contre le stress t'aide ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "gestiondu stress",
-          "emotions",
-          "bienetre",
-          "developpementpersonnel"
-        ],
-        "legende": "Arrête de refouler tes émotions tant que tu n'as pas vu ça.\n\nQuand une émotion inconfortable arrive, notre premier réflexe est de la combattre. Pourtant, plus tu luttes contre ton stress ou ta colère, plus tu l'alimentes.\n\nLa prochaine fois, valide ce que tu ressens au lieu de le juger. Laisse le nuage passer.\n\nQuelle émotion essaies-tu de cacher en ce moment ?",
-        "question": "Quelle émotion essaies-tu de cacher en ce moment ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Arrête de refouler tes émotions tant que tu n'as pas vu ça.",
-            "ecran": "Arrête de *refouler* tes émotions",
-            "emoji": "🛑",
-            "recherche": "stressed man office",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce principe s'appelle l'acceptation émotionnelle.",
-            "ecran": "L'*acceptation* émotionnelle",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au travail, tu sens la panique monter et tu te forces à être calme.",
-            "ecran": "Tu *bloques* ton stress",
-            "emoji": "📱",
-            "recherche": "person looking phone anxious",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Problème : lutter contre une émotion ne fait que l'amplifier.",
-            "ecran": "Lutter *renforce* la douleur",
-            "emoji": "🔥",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Dis-toi : c'est normal de ressentir ça. Deux. Laisse couler.",
-            "ecran": "L'astuce : 1. Valide | 2. Patiente",
-            "emoji": "💡",
-            "recherche": "deep breathing relaxed",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Accueillir l'émotion la fait disparaître.",
-            "ecran": "Accueillir l'émotion la fait *disparaître*",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quelle émotion essaies-tu de cacher en ce moment ?",
-            "ecran": "Et *toi* ?",
-            "emoji": "🤔",
-            "recherche": "thinking person face",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'acceptation émotionnelle"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "acceptation",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgDnZVbl4Xj/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261122-2100-r.mp4"
     },
     {
@@ -5280,6 +5178,13 @@
       "media_id": "18172917580470425",
       "sujet": "sunk_cost",
       "url": "https://www.instagram.com/reel/DgDWNIFgCK1/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-22",
+      "media_id": "18134208874812900",
+      "sujet": "acceptation",
+      "url": "https://www.instagram.com/reel/DgDnZVbl4Xj/"
     }
   ]
 }
