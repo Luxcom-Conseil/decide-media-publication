@@ -4070,6 +4070,662 @@
       "sujet": "ikea",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-21/20261128-1230.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261128-1830.jpg",
+      "format": "long",
+      "formule": "Révélation",
+      "id": "20261128-1830",
+      "legende": "Ce petit réflexe au bureau te coûte plus d'énergie que tu ne le crois.\n\nSans t'en rendre compte, ton cerveau capture et imite les émotions des gens qui t'entourent. C'est la contagion émotionnelle. Quand un collègue arrive très stressé ou énervé, tu peux te retrouver épuisé en quelques minutes sans avoir rien fait.\n\nPour préserver ton énergie au travail, fais attention aux personnes avec qui tu passes le plus de temps et prends du recul face à leur tension. N'oublie pas non plus que ta propre attitude impacte l'humeur de toute l'équipe.\n\nAs-tu déjà remarqué un collègue qui plombe l'ambiance de tout le bureau ?\n\n#psychologie #travail #bienetreaubureau #relations",
+      "quand": "2026-11-28T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe au bureau te coûte plus d'énergie que tu crois."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Absorber l'humeur de tes collègues peut totalement détruire ta journée."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de parler aux collègues toxiques tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "travail",
+          "bienetreaubureau",
+          "relations"
+        ],
+        "legende": "Ce petit réflexe au bureau te coûte plus d'énergie que tu ne le crois.\n\nSans t'en rendre compte, ton cerveau capture et imite les émotions des gens qui t'entourent. C'est la contagion émotionnelle. Quand un collègue arrive très stressé ou énervé, tu peux te retrouver épuisé en quelques minutes sans avoir rien fait.\n\nPour préserver ton énergie au travail, fais attention aux personnes avec qui tu passes le plus de temps et prends du recul face à leur tension. N'oublie pas non plus que ta propre attitude impacte l'humeur de toute l'équipe.\n\nAs-tu déjà remarqué un collègue qui plombe l'ambiance de tout le bureau ?",
+        "question": "As-tu déjà remarqué un collègue qui plombe l'ambiance de tout le bureau ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce petit réflexe au bureau te coûte plus d'énergie que tu ne le crois !",
+            "ecran": "Ce *réflexe* épuise toute ton énergie",
+            "emoji": "🔋",
+            "recherche": "tired worker office desk",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce qui se passe dans ton cerveau juste après la pause café.",
+            "ecran": "Et le *pire* arrive après",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce phénomène a un nom direct : la contagion émotionnelle.",
+            "ecran": "La *contagion* émotionnelle",
+            "emoji": "🧠",
+            "recherche": "people talking office coffee",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu arrives en forme le matin, super motivé pour attaquer tes projets.",
+            "ecran": "Le collègue toujours *stressé*",
+            "emoji": "☕",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un collègue vient râler cinq minutes sur son dossier ou le transport.",
+            "ecran": "Il *râle* pendant 5 minutes",
+            "emoji": "😤",
+            "recherche": "stressed colleague complaining",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Sans raison apparente, tu te sens soudainement lourd, tendu et démotivé.",
+            "ecran": "Ton *humeur* chute brusquement",
+            "emoji": "📉",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau imite automatiquement les expressions et tensions de tes proches.",
+            "ecran": "Ton cerveau les *imite*",
+            "emoji": "🪞",
+            "recherche": "man looking reflective window",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Négatif",
+            "b": "Positif",
+            "dit": "Les émotions négatives des autres t'impactent bien plus que leurs discours.",
+            "ecran": "L'impact des *émotions*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Regarde en réunion : un seul manager anxieux peut tendre toute une salle.",
+            "ecran": "En *réunion* d'équipe",
+            "emoji": "💬",
+            "recherche": "tense business meeting room",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais attention, ce mécanisme fonctionne aussi exactement dans l'autre sens !",
+            "ecran": "Dans les *deux* sens",
+            "emoji": "🔄",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton calme ou ton enthousiasme contaminent directement ton open-space.",
+            "ecran": "Ta propre *énergie*",
+            "emoji": "✨",
+            "recherche": "smiling employee office laptop",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Alors, comment éviter de subir la négativité ambiante chaque jour ?",
+            "ecran": "Comment te *protéger* ?",
+            "emoji": "🛡️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici trois étapes simples à mettre en place dès aujourd'hui.",
+            "ecran": "Astuces : Sélectionner | Observer | Diffuser",
+            "emoji": "📋",
+            "recherche": "person writing notebook desk",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Fais attention à l'humeur des gens que tu fréquente le plus au travail.",
+            "ecran": "Un. *Observe* ton entourage",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Prends conscience que ce stress ne t'appartient pas directement.",
+            "ecran": "Deux. *Filtre* ce que tu absorbes",
+            "emoji": "2️⃣",
+            "recherche": "deep breath professional man",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Choisis d'apporter une énergie plus sereine et constructive aux autres.",
+            "ecran": "Trois. *Diffuse* du positif",
+            "emoji": "3️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu choisis l'humeur que tu diffuses au bureau.",
+            "ecran": "Tu choisis l'humeur que tu *diffuses* au bureau.",
+            "emoji": "💡",
+            "recherche": "confident worker walking office",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La contagion émotionnelle"
+      },
+      "statut": "programme",
+      "sujet": "contagion_emotionnelle",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261128-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261128-2100.jpg",
+      "format": "court",
+      "formule": "Défi",
+      "id": "20261128-2100",
+      "legende": "Personne ne m'a expliqué ça, et ça a sauvé mon argent.\n\nQuand on te fait une première demande énorme, c'est souvent pour te faire accepter la seconde. Par effet de contraste, la deuxième option te paraît tout de suite très raisonnable.\n\nPour éviter de te faire avoir, sépare les deux propositions. Évalue toujours la seconde option de manière isolée, sans tenir compte du premier prix proposé.\n\nAs-tu déjà cédé à ce genre de remise ?\n\n#psychologie #persuasion #astuces #negociation #influence",
+      "quand": "2026-11-28T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Défi",
+            "texte": "Personne ne m'a expliqué ça, et ça a sauvé mon argent."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe d'achat te coûte plus cher que tu penses."
+          },
+          {
+            "formule": "Démasquer",
+            "texte": "Les vendeurs utilisent ce piège sur toi tous les jours."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "persuasion",
+          "astuces",
+          "negociation",
+          "influence"
+        ],
+        "legende": "Personne ne m'a expliqué ça, et ça a sauvé mon argent.\n\nQuand on te fait une première demande énorme, c'est souvent pour te faire accepter la seconde. Par effet de contraste, la deuxième option te paraît tout de suite très raisonnable.\n\nPour éviter de te faire avoir, sépare les deux propositions. Évalue toujours la seconde option de manière isolée, sans tenir compte du premier prix proposé.\n\nAs-tu déjà cédé à ce genre de remise ?",
+        "question": "As-tu déjà cédé à ce genre de remise ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Personne ne m'a expliqué ça, et ça a sauvé mon argent.",
+            "ecran": "Ça a *sauvé* mon argent",
+            "emoji": "😱",
+            "recherche": "man shocked money",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On appelle ce piège la technique de la porte au nez.",
+            "ecran": "La *porte* au nez",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un vendeur te propose un prix exorbitant que tu refuses direct.",
+            "ecran": "Une offre *exagérée*",
+            "emoji": "🛒",
+            "recherche": "store seller talking client",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Juste après, il baisse son prix et tu acceptes tout de suite.",
+            "ecran": "La baisse *piège*",
+            "emoji": "📉",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Par contraste avec l'excès, la seconde offre paraît raisonnable.",
+            "ecran": "L'effet de *contraste*",
+            "emoji": "🎭",
+            "recherche": "thinking student desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un, isole la deuxième offre. Deux, juge-la seule, sans la comparer.",
+            "ecran": "Astuce : Isoler l'offre | Évaluer le besoin",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Une offre s'évalue seule, jamais par rapport à un excès.",
+            "ecran": "Une offre s'évalue *seule*",
+            "emoji": "🎯",
+            "recherche": "confident businessman smiling",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La technique de la porte au nez"
+      },
+      "statut": "programme",
+      "sujet": "porte_au_nez",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261128-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261129-1230.jpg",
+      "format": "court",
+      "formule": "Enjeu",
+      "id": "20261129-1230",
+      "legende": "Ta façon de parler détruit tes chances de convaincre au quotidien.\n\nOn se sent naturellement plus à l'aise avec quelqu'un qui partage notre débit de parole ou notre posture. C'est l'effet miroir.\n\nPour créer du lien rapidement, observe le ton de ton interlocuteur et adapte doucement ton rythme, sans le singer.\n\nAs-tu déjà remarqué que tu parlais comme tes amis ?\n\n#psychologie #communication #relations #developpementpersonnel",
+      "quand": "2026-11-29T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Enjeu",
+            "texte": "Ta façon de parler détruit tes chances de convaincre au quotidien."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de parler vite tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe dans tes conversations te coûte tes meilleures opportunités."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "communication",
+          "relations",
+          "developpementpersonnel"
+        ],
+        "legende": "Ta façon de parler détruit tes chances de convaincre au quotidien.\n\nOn se sent naturellement plus à l'aise avec quelqu'un qui partage notre débit de parole ou notre posture. C'est l'effet miroir.\n\nPour créer du lien rapidement, observe le ton de ton interlocuteur et adapte doucement ton rythme, sans le singer.\n\nAs-tu déjà remarqué que tu parlais comme tes amis ?",
+        "question": "As-tu déjà remarqué que tu parlais comme tes amis ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ta façon de parler détruit tes chances de convaincre au quotidien.",
+            "ecran": "Ta voix *détruit* tes chances",
+            "emoji": "😱",
+            "recherche": "man talking stressed desk",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce blocage a un nom très précis : l'effet miroir.",
+            "ecran": "Voici *l'effet miroir*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au bureau, face à un collègue calme, tu parles trop vite et il se ferme.",
+            "ecran": "Tu *stresses* ton interlocuteur",
+            "emoji": "👔",
+            "recherche": "office meeting tension",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau accorde d'instinct sa confiance aux gens qui lui ressemblent.",
+            "ecran": "Le cerveau cherche le *semblable*",
+            "emoji": "🤝",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Observe d'abord le débit de la personne. Deux. Ajuste ton ton sans la singer.",
+            "ecran": "Méthode : Écoute le ton | Aligne ton rythme",
+            "emoji": "💡",
+            "recherche": "two people speaking listening",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Adapte ton rythme pour créer la confiance.",
+            "ecran": "Adapte ton *rythme* pour créer la confiance",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "As-tu déjà remarqué que tu parlais comme tes amis ?",
+            "ecran": "Et *toi* ?",
+            "emoji": "🤔",
+            "recherche": "friends talking smiling",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet miroir"
+      },
+      "statut": "programme",
+      "sujet": "miroir",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261129-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261129-1830.jpg",
+      "format": "long",
+      "formule": "Liste",
+      "id": "20261129-1830",
+      "legende": "3 raisons pour lesquelles tes prospects ne t'répondent jamais au premier message.\n\nUne seule démarche convainc rarement du premier coup. Le cerveau humain a besoin de temps et de plusieurs interactions avant de passer à l'action ou d'accorder sa confiance.\n\nNe te décourage pas au premier silence. La présence régulière et bienveillante finit toujours par payer.\n\nCombien de fois relances-tu un prospect avant d'abandonner ?\n\n#psychologie #entrepreneuriat #vente #conseilsvente",
+      "quand": "2026-11-29T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Liste",
+            "texte": "3 raisons pour lesquelles tes prospects ne t'répondent jamais au premier message."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe d'abandonner après un refus te coûte des milliers d'euros."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois qu'un prospect silencieux te rejette ? C'est tout l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "entrepreneuriat",
+          "vente",
+          "conseilsvente"
+        ],
+        "legende": "3 raisons pour lesquelles tes prospects ne t'répondent jamais au premier message.\n\nUne seule démarche convainc rarement du premier coup. Le cerveau humain a besoin de temps et de plusieurs interactions avant de passer à l'action ou d'accorder sa confiance.\n\nNe te décourage pas au premier silence. La présence régulière et bienveillante finit toujours par payer.\n\nCombien de fois relances-tu un prospect avant d'abandonner ?",
+        "question": "Combien de fois relances-tu un prospect avant d'abandonner ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici trois raisons pour lesquelles tes prospects ne te répondent jamais au tout premier message.",
+            "ecran": "3 raisons pour lesquelles ils *ne répondent pas*",
+            "emoji": "📱",
+            "recherche": "man looking at phone stressed",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce que tu fais juste après avoir envoyé cette première proposition sans réponse.",
+            "ecran": "Le pire vient *après*",
+            "emoji": "🔥",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, on observe ce phénomène grâce à la règle des 7 contacts.",
+            "ecran": "La règle des *7 contacts*",
+            "emoji": "🧠",
+            "recherche": "brain network psychology concept",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Une seule publicité ou un seul e-mail ne suffit presque jamais à convaincre quelqu'un de passer à l'action.",
+            "ecran": "Une fois ne *suffit jamais*",
+            "emoji": "📢",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "1 contact",
+            "b": "7 contacts",
+            "dit": "Le cerveau a besoin de plusieurs interactions répétées avant de faire confiance et d'acheter.",
+            "ecran": "L'impact sur *l'action*",
+            "emoji": "📊",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 7
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Imagine un client à Paris qui reçoit ton devis en plein milieu d'une journée de travail surchargée.",
+            "ecran": "Au bureau à *Paris*",
+            "emoji": "🏢",
+            "recherche": "office worker busy laptop",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Il voit ton offre, la trouve intéressante, mais ferme son e-mail et oublie dans la minute.",
+            "ecran": "Il oublie *instantanément*",
+            "emoji": "🛒",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Toi, tu penses qu'il a refusé, alors qu'il n'a juste pas eu le temps de traiter ton message.",
+            "ecran": "Tu penses qu'il *refuse*",
+            "emoji": "❌",
+            "recherche": "sad entrepreneur desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Ne te décourage pas après un premier silence. Ce n'est pas un refus définitif.",
+            "ecran": "Un. Garde *le contact*",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Relance poliment avec des contenus utiles à intervalles réguliers.",
+            "ecran": "Deux. Reste *régulier*",
+            "emoji": "⏳",
+            "recherche": "calendar planning desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Multiplie les points de contact légitimes pour ancrer ta présence.",
+            "ecran": "Trois. Vise *7 étapes*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici le plan : un premier envoi, puis une relance avec de la valeur, et un suivi régulier.",
+            "ecran": "Méthode : Premier envoi | Relance utile | Suivi régulier",
+            "emoji": "✅",
+            "recherche": "checklist execution business",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La présence régulière finit toujours par faire la différence auprès de tes clients.",
+            "ecran": "Ne baisse pas *les bras*",
+            "emoji": "🛡️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce n'est pas un refus, c'est juste le début.",
+            "ecran": "Ce n'est pas *un refus*, c'est juste *le début*.",
+            "emoji": "💎",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La règle des 7 contacts"
+      },
+      "statut": "programme",
+      "sujet": "sept",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261129-1830.mp4"
     }
   ],
   "publications": [
