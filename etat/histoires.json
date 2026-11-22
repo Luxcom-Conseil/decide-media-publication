@@ -24,9 +24,164 @@
   "trainpostal",
   "joconde",
   "wirecard",
-  "kerviel"
+  "kerviel",
+  "beltracchi"
  ],
- "attente_partie2": null,
+ "attente_partie2": {
+  "id": "beltracchi",
+  "jour_partie1": "2026-11-22",
+  "script": {
+   "titre": "Wolfgang Beltracchi, le roi des faussaires",
+   "scenes": [
+    {
+     "type": "accroche",
+     "ecran": "Ce faussaire a *trompé* le monde entier",
+     "grand": null,
+     "dit": "Tu penses qu'un faux tableau ne vaut rien ? Il a empoché des millions.",
+     "image": 2,
+     "recherche": null
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Des millions aux enchères",
+     "grand": "20 millions",
+     "dit": "Pendant plus de trente ans, Wolfgang Beltracchi vend de faux tableaux de maîtres.",
+     "image": 3,
+     "recherche": "art auction house"
+    },
+    {
+     "type": "recit",
+     "ecran": "Un *talent* précoce",
+     "grand": null,
+     "dit": "Tout commence dans son enfance. Son père est restaurateur de tableaux et peintre d'église.",
+     "image": 4,
+     "recherche": "church painting restoration"
+    },
+    {
+     "type": "date",
+     "ecran": "Le défi du père",
+     "grand": "14 ans",
+     "dit": "À quatorze ans seulement, son père le met au défi d'imiter Picasso.",
+     "image": 5,
+     "recherche": "Pablo Picasso painting"
+    },
+    {
+     "type": "recit",
+     "ecran": "Une *imitation* parfaite",
+     "grand": null,
+     "dit": "Wolfgang réussit une reproduction si parfaite qu'il stupéfie son propre père.",
+     "image": 6,
+     "recherche": "artist easel canvas"
+    },
+    {
+     "type": "date",
+     "ecran": "L'académie d'Aix-la-Chapelle",
+     "grand": "1969",
+     "dit": "En 1969, il entre à l'académie des beaux-arts d'Aix-la-Chapelle pour étudier l'art.",
+     "image": 5,
+     "recherche": "Aachen art academy"
+    },
+    {
+     "type": "recit",
+     "ecran": "Une vie de *nomade*",
+     "grand": null,
+     "dit": "Mais il abandonne vite ses études pour parcourir l'Europe et l'Afrique du Nord.",
+     "image": 7,
+     "recherche": "hippie travel europe"
+    },
+    {
+     "type": "recit",
+     "ecran": "L'esprit *hippie*",
+     "grand": null,
+     "dit": "Il adopte le mouvement hippie, prônant l'antiautoritarisme et une totale liberté.",
+     "image": 8,
+     "recherche": "1970s hippie movement"
+    },
+    {
+     "type": "date",
+     "ecran": "Les premières contrefaçons",
+     "grand": "1980",
+     "dit": "Dans les années 1980, Wolfgang commence à fabriquer ses premières contrefaçons.",
+     "image": 7,
+     "recherche": "art forgery canvas"
+    },
+    {
+     "type": "recit",
+     "ecran": "Une *rencontre* décisive",
+     "grand": null,
+     "dit": "En 1992, il rencontre Hélène. Il épouse cette femme et prend son nom de famille.",
+     "image": 10,
+     "recherche": "wedding portrait 1990s"
+    },
+    {
+     "type": "recit",
+     "ecran": "Les Bonnie and Clyde",
+     "grand": null,
+     "dit": "Ensemble, ils deviennent le duo le plus redoutable du marché de l'art.",
+     "image": 0,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Un *succès* colossal",
+     "grand": null,
+     "dit": "Wolfgang peint les toiles et Hélène s'occupe de les commercialiser dans le monde.",
+     "image": 8,
+     "recherche": "art gallery display"
+    },
+    {
+     "type": "recit",
+     "ecran": "Validé par les *experts*",
+     "grand": null,
+     "dit": "Les plus grands experts certifient ses faux comme d'authentiques chefs-d'œuvre !",
+     "image": 2,
+     "recherche": "art expert magnifying glass"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Des prix vertigineux",
+     "grand": "67,2 millions",
+     "dit": "Ses toiles sont vendues plusieurs millions d'euros lors de prestigieuses enchères.",
+     "image": 4,
+     "recherche": "art auction gavel"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le piège se *referme*",
+     "grand": null,
+     "dit": "Pendant des décennies, personne ne se doute de la moindre supercherie.",
+     "image": 9,
+     "recherche": "oil painting detail"
+    },
+    {
+     "type": "date",
+     "ecran": "L'analyse fatale",
+     "grand": "2010",
+     "dit": "Mais en 2010, une analyse scientifique sur un tableau va tout faire basculer.",
+     "image": 5,
+     "recherche": "chemical analysis art laboratory"
+    },
+    {
+     "type": "suite",
+     "ecran": "Comment s'est-il fait *prendre* ?",
+     "grand": null,
+     "dit": "Quelle erreur minuscule a détruit son empire ? La suite dans la partie 2.",
+     "image": 10,
+     "recherche": "magnifying glass detail"
+    }
+   ],
+   "question": "Aurais-tu décelé le faux ? Oui ou non en commentaire.",
+   "legende": "Pendant plus de trente ans, Wolfgang Beltracchi a berné le monde de l'art en vendant de faux tableaux pour des millions d'euros. Découvrez son histoire incroyable dans cette première partie. Aurais-tu décelé le faux ? Oui ou non en commentaire.",
+   "hashtags": [
+    "histoirevraie",
+    "faussaire",
+    "art",
+    "arnaque",
+    "documentaire"
+   ],
+   "_credit_musique": "« Curious Ambience » par Reg1n0ld (CC0, Freesound)"
+  }
+ },
  "journal": [
   {
    "jour": "2026-11-06",
@@ -375,6 +530,12 @@
    "id": "creditlyonnais",
    "format": "serie",
    "erreur": "script refusé au contrôle : 12 scènes (13 à 24 attendues) ; la première scène doit être l'accroche ; 1054 caractères dits, il en faut de 1150 à 1700 (question comprise)"
+  },
+  {
+   "jour": "2026-11-22",
+   "id": "beltracchi",
+   "format": "serie",
+   "nom": "hva-beltracchi-p1"
   }
  ],
  "en_chiffre": [
@@ -878,7 +1039,23 @@
    "nom": "hva-kerviel-p2",
    "reseau": "youtube",
    "buffer": "6b0145b15e993799d85caad6",
-   "heure": "2026-11-21T12:30:00+01:00"
+   "heure": "2026-11-21T12:30:00+01:00",
+   "relances": 1,
+   "heure_relance": "2026-11-22T08:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-22",
+   "nom": "hva-beltracchi-p1",
+   "reseau": "tiktok",
+   "buffer": "6b02974d846b0ee907698c08",
+   "heure": "2026-11-22T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-22",
+   "nom": "hva-beltracchi-p1",
+   "reseau": "youtube",
+   "buffer": "6b02974d02479690922fc286",
+   "heure": "2026-11-22T20:30:00+01:00"
   }
  ]
 }
