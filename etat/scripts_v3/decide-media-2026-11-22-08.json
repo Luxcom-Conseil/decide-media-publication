@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "9 148 milliards de FCFA de dépôts bancaires ont été enregistrés au Cameroun.",
+    "17,2 % des dépôts bancaires au Cameroun étaient considérés comme stables.",
+    "9 148 milliards de FCFA de dépôts ont été recensés en fin décembre 2025."
+  ],
+  "titre": "Épargne au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "9 148 milliards de *FCFA* de dépôts",
+      "dit": "Les dépôts bancaires au Cameroun s'élevaient à 9 148 milliards de FCFA à fin décembre 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Seulement 17,2 % de dépôts *stables*",
+      "dit": "Sur ce total, seulement 17,2 % étaient considérés comme stables selon un communiqué du ministère."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un communiqué sans *source*",
+      "dit": "Le document officiel ne cite aucune source et ne précise pas la méthode de calcul."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La définition reste *floue*",
+      "dit": "Le texte ne donne pas non plus la définition exacte retenue pour qualifier ces dépôts de stables."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "29 au 31 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'événement s'est tenu à *Douala*",
+      "dit": "La deuxième édition nationale de cette journée s'est tenue du 29 au 31 octobre 2026 à Douala."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une caravane au marché *Mboppi*",
+      "dit": "Le programme comprenait une campagne d'éducation financière et une caravane au marché Mboppi le 30 octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Présidé par Yaouba *Abdoulaye*",
+      "dit": "Le ministre délégué auprès du ministre des Finances a présidé la cérémonie de clôture le 31 octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Renforcer l'épargne à long *terme*",
+      "dit": "L'objectif affiché de l'événement est de renforcer la mobilisation de l'épargne sur le long terme."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun bilan chiffré de *l'événement*",
+      "dit": "Le communiqué ne donne aucun chiffre sur la fréquentation ou sur les volumes d'épargne collectés."
+    }
+  ]
+}

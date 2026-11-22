@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "Un écart de 748 milliards entoure le projet Kikot.",
+    "Le barrage de Kikot a deux coûts différents selon deux documents.",
+    "Deux documents affichent 748 milliards d'écart pour Kikot."
+  ],
+  "titre": "Barrage de Kikot : 748 milliards d'écart",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Un écart de *748 milliards* de FCFA",
+      "dit": "Un écart de 748 milliards de FCFA entoure le coût du futur barrage hydroélectrique de Kikot."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "872 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un premier coût de *872 milliards*",
+      "dit": "Un premier document budgétaire de l'État fixe le montant de l'investissement à 872 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 620 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un second coût à *1 620 milliards*",
+      "dit": "De son côté, un document relatif aux discussions financières mentionne le chiffre de 1 620 milliards."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un écart calculé par *Le Bled Parle*",
+      "dit": "Cet écart de 748 milliards de FCFA provient d'un calcul du journal Le Bled Parle."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un barrage sur la *Sanaga*",
+      "dit": "L'ouvrage doit être construit sur le fleuve Sanaga avec une puissance installée de 500 mégawatts."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Électricité du France",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Un projet détenu avec *EDF*",
+      "dit": "Le projet est porté par KHPC, une société détenue à parts égales par l'État et le groupe EDF."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 juillet 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un certificat délivré en *juillet*",
+      "dit": "Le 2 juillet 2026, le ministère de l'Environnement a délivré le certificat de conformité."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des réunions tenues à *Yaoundé*",
+      "dit": "Le 15 septembre 2026, des discussions avec les bailleurs de fonds se sont tenues à Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Second semestre 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Financement prévu fin *2027*",
+      "dit": "La clôture financière du projet Kikot reste envisagée au plus tôt au second semestre 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des périmètres encore *inconnus*",
+      "dit": "Le périmètre exact des deux estimations n'est pas précisé dans les documents."
+    }
+  ]
+}

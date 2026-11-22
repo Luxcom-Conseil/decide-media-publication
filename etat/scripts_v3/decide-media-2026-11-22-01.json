@@ -1,0 +1,135 @@
+{
+  "accroches": [
+    "L'électricité est rationnée dans sept régions du Cameroun.",
+    "Le taux de remplissage des réservoirs est tombé à 68 %.",
+    "La demande d'électricité au Cameroun a progressé de 7 %."
+  ],
+  "titre": "Rationnement d'électricité dans 7 régions",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Électricité *rationnée* dans 7 régions",
+      "dit": "L'électricité est rationnée dans sept régions du Cameroun depuis ce vendredi 20 novembre 2026."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le réseau *Sud* est touché",
+      "dit": "Selon Le Bled Parle, cette décision concerne toutes les régions desservies par le réseau interconnecté Sud."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Sept *régions* concernées au total",
+      "dit": "Sont touchés le Centre, le Sud, l'Est, le Littoral, l'Ouest, le Nord-Ouest et le Sud-Ouest."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "74 %",
+        "apres": "68 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des réservoirs *moins* remplis",
+      "dit": "La Socadel estime à 68 % le remplissage des réservoirs, contre 74 % à la même période en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Demande en *hausse* de 7 %",
+      "dit": "De son côté, la demande d'électricité a progressé d'environ 7 %, accompagnant d'autres contraintes."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des coupures *déjà* constatées",
+      "dit": "Plusieurs quartiers de Yaoundé ont déjà subi des coupures d'électricité entre le 19 et le 20 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Appel à *réduire* la consommation",
+      "dit": "La Socadel demande donc aux usagers du réseau Sud de réduire leur consommation avant la saison sèche."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Quatre *barrages* réservoirs cités",
+      "dit": "Le Bled Parle rappelle l'existence de quatre barrages-réservoirs, dont celui de Lom Pangar."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Fin inconnue",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Programmes *sur* les canaux régionaux",
+      "dit": "La Socadel informe que les programmes de rationnement sont diffusés sur ses canaux régionaux."
+    }
+  ]
+}

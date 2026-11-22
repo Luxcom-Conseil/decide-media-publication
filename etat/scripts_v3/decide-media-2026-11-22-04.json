@@ -1,0 +1,212 @@
+{
+  "accroches": [
+    "Le paludisme a coûté 105 milliards de FCFA en 2025 au Cameroun.",
+    "Un programme cible 70 établissements scolaires contre le paludisme au Cameroun.",
+    "72 % des décès du paludisme touchent les moins de cinq ans."
+  ],
+  "titre": "Lutte contre le paludisme à l'école",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère de la Santé publique",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Le *paludisme* a coûté 105 milliards",
+      "dit": "Le paludisme a coûté 105 milliards de FCFA de dépenses directes en 2025 au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "250 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*250 milliards* de pertes estimées",
+      "dit": "Selon le Journal du Cameroun, la maladie a aussi causé au moins 250 milliards de FCFA de pertes économiques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *nouveau* programme scolaire",
+      "dit": "Le 12 novembre 2026, le ministère de la Santé publique a donc lancé un programme de lutte à l'école."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2026-2028",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Phase *expérimentale* de trois ans",
+      "dit": "Ce plan concerne 70 établissements scolaires et universitaires dans une phase expérimentale de 2026 à 2028."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*2,9 millions* de cas confirmés",
+      "dit": "En 2025, le pays a enregistré 2,9 millions de cas confirmés de paludisme et 1 261 décès."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "909 *enfants* décédés",
+      "dit": "Les enfants de moins de cinq ans représentent 909 de ces décès, soit 72 % de la mortalité générale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Sensibiliser dans les *familles*",
+      "dit": "Le programme demande aux élèves d'agir dans leur établissement et dans leur famille."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Moustiquaires et *hygiène*",
+      "dit": "Les actions visent l'hygiène, l'usage de moustiquaires imprégnées et les réflexes en cas de fièvre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Théâtre et *vidéos* éducatives",
+      "dit": "Les messages passent par des pièces de théâtre, des concours, des bandes dessinées et des vidéos."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Formations pour le *personnel*",
+      "dit": "Sur le plan médical, le personnel médico-scolaire doit être formé au dépistage et à l'orientation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tests et *médicaments* fournis",
+      "dit": "Les infirmeries scolaires doivent recevoir des tests de diagnostic rapide et des médicaments antipaludiques."
+    }
+  ]
+}

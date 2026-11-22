@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "450 milliards de FCFA de dépôts publics identifiés en 2022 au Cameroun.",
+    "Le ministère des Finances lance un recensement des comptes publics en banque.",
+    "Une mission de vingt jours ouvrables examine les comptes publics au Cameroun."
+  ],
+  "titre": "Comptes publics au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "450 milliards de *FCFA* de dépôts publics",
+      "dit": "450 milliards de FCFA de dépôts publics ont été identifiés dans les banques en 2022 au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "29 septembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un nouveau *recensement* lancé à Yaoundé",
+      "dit": "Le 29 septembre 2026, le ministère des Finances a lancé à Yaoundé un nouveau recensement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Travaux présidés par Louis *Paul* Motaze",
+      "dit": "Les travaux sont présidés par le ministre des Finances Louis Paul Motaze avec les banques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "20 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une mission de vingt *jours* ouvrables",
+      "dit": "Une mission de vingt jours ouvrables doit permettre d'examiner les comptes concernés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Identifier titulaires, nature et *soldes*",
+      "dit": "Le recensement identifie les comptes publics ouverts, leurs titulaires, leur nature et leurs soldes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Distinguer les montants éligibles au *rapatriement*",
+      "dit": "Les résultats permettront de distinguer les montants éligibles au rapatriement et les transferts."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tenir compte des contraintes *prudentielles*",
+      "dit": "Le rapatriement devra tenir compte des contraintes opérationnelles et prudentielles des banques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un examen pour les fonds de *projets*",
+      "dit": "Pour les fonds liés à des projets, le texte prévoit un examen avec d'éventuelles restrictions."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Sans calendrier",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun *calendrier* fixe n'est donné",
+      "dit": "Aucun calendrier fixe n'est donné par le ministère dans ce communiqué du 2 octobre 2026."
+    }
+  ]
+}
