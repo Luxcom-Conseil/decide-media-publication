@@ -1134,215 +1134,14 @@
       "formule": "Enjeu",
       "id": "20261122-1230",
       "legende": "Vouloir toucher tout le monde peut détruire tes projets.\n\nPour réussir durablement, il faut comprendre le principe de la masse critique. Il existe un seuil précis où les résultats s'auto-alimentent.\n\nAu lieu d'éparpiller ton énergie, focalise-toi sur une seule cible. Deviens solide sur ce créneau avant de chercher à grandir.\n\nAs-tu tendance à trop éparpiller tes projets au début ?\n\n#psychologie #entrepreneuriat #conseils #productivite #succes",
+      "media_id": "18122451925760758",
+      "publie_le": "2026-11-22T11:32:28+00:00",
       "quand": "2026-11-22T12:30:00+01:00",
       "refait_le": "2026-11-19T19:13:44+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Enjeu",
-            "texte": "Vouloir toucher tout le monde peut détruire tes projets."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois qu'il faut chercher plus de clients ? C'est l'inverse."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce reflexe d'éparpiller tes efforts te coûte très cher."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "entrepreneuriat",
-          "conseils",
-          "productivite",
-          "succes"
-        ],
-        "legende": "Vouloir toucher tout le monde peut détruire tes projets.\n\nPour réussir durablement, il faut comprendre le principe de la masse critique. Il existe un seuil précis où les résultats s'auto-alimentent.\n\nAu lieu d'éparpiller ton énergie, focalise-toi sur une seule cible. Deviens solide sur ce créneau avant de chercher à grandir.\n\nAs-tu tendance à trop éparpiller tes projets au début ?",
-        "question": "As-tu tendance à trop éparpiller tes projets au début ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Vouloir toucher tout le monde tout de suite peut ruiner tes projets.",
-            "ecran": "Toucher *tout le monde* détruit tes projets",
-            "emoji": "🚨",
-            "recherche": "stressed man working laptop",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est ce qui se passe quand tu t'éparpilles trop vite.",
-            "ecran": "Et le *pire* arrive après",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie et en business, on parle de la masse critique.",
-            "ecran": "La *masse critique*",
-            "emoji": "🧠",
-            "recherche": "brain network connection",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est ce seuil exact où ta croissance commence à se nourrir toute seule.",
-            "ecran": "Le seuil d'envol *autonome*",
-            "emoji": "🚀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Imagine que tu lances une offre, un projet ou un nouveau produit.",
-            "ecran": "Au *bureau* ou sur le web",
-            "emoji": "🏢",
-            "recherche": "modern office teamwork",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu essaies de plaire aux étudiants, aux cadres et aux retraités en même temps.",
-            "ecran": "Trop d'objectifs *différents*",
-            "emoji": "💸",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Éparpillé",
-            "b": "Concentré",
-            "dit": "Résultat : ton énergie s'épuise au lieu d'accumuler de la force.",
-            "ecran": "Éparpillé vs *Concentré*",
-            "emoji": "📊",
-            "recherche": "chart graph growth",
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau et ton marché ont besoin d'une densité forte pour réagir.",
-            "ecran": "Le *cerveau* aime la clarté",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Sans cette densité initiale, le bouche-à-oreille ne s'active jamais.",
-            "ecran": "Le bouche-à-oreille *s'allume*",
-            "emoji": "🔥",
-            "recherche": "people chatting coffee shop",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Alors, comment faire pour déclencher cet effet domino chez toi ?",
-            "ecran": "Comment atteindre cette *masse* ?",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici les trois étapes pour réussir sur la durée sans te brûler.",
-            "ecran": "Méthode : 1. Cibler petit | 2. Dominer | 3. Élargir",
-            "emoji": "📋",
-            "recherche": "writing list notebook",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Concentre-toi sur un groupe très précis de personnes au départ.",
-            "ecran": "Un : *Un seul groupement*",
-            "emoji": "1️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Devenez la référence incontournable pour ce petit groupe.",
-            "ecran": "Deux : *Installe-toi* fermement",
-            "emoji": "2️⃣",
-            "recherche": "confident businessman smiling",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Seulement une fois bien implanté, ouvre-toi à d'autres cibles.",
-            "ecran": "Trois : *Élargis* ensuite",
-            "emoji": "3️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ne laisse pas la peur de rater des opportunités disperser tes forces.",
-            "ecran": "Ne cède pas au *vertige*",
-            "emoji": "🛡️",
-            "recherche": "focused athlete starting line",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deviens indispensable quelque part avant de vouloir être partout.",
-            "ecran": "Deviens indispensable *quelque part* avant de vouloir être *partout*.",
-            "emoji": "📌",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La masse critique"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "masse_critique",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgCtD9egrI5/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261122-1230-r.mp4"
     },
     {
@@ -4990,6 +4789,13 @@
       "media_id": "17943184560393408",
       "sujet": "multitache",
       "url": "https://www.instagram.com/reel/DgBCmcaDLOf/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-22",
+      "media_id": "18122451925760758",
+      "sujet": "masse_critique",
+      "url": "https://www.instagram.com/reel/DgCtD9egrI5/"
     }
   ]
 }
