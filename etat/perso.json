@@ -1219,215 +1219,14 @@
       "formule": "Révélation",
       "id": "20261123-2100",
       "legende": "Cette prime au travail te coûte plus cher que tu ne le crois.\n\nC'est ce qu'on appelle l'effet cobra. Lorsqu'on fixe une récompense ou un objectif mal pensé, les gens cherchent naturellement à maximiser leur gain au détriment de l'intérêt général.\n\nPour éviter cela, prends l'habitude d'anticiper le contournement avant de valider une règle. Demande-toi comment elle pourrait être détournée.\n\nAs-tu déjà vu une règle absurde créer l'effet inverse au travail ?\n\n#psychologie #management #entreprise #travail #productivite",
+      "media_id": "18093653474695830",
+      "publie_le": "2026-11-23T20:02:27+00:00",
       "quand": "2026-11-23T21:00:00+01:00",
       "refait_le": "2026-11-20T18:56:23+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Révélation",
-            "texte": "Cette prime au travail te coûte plus cher que tu ne crois."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de fixer des objectifs avant d'avoir vu ça."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que récompenser tes équipes aide ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "management",
-          "entreprise",
-          "travail",
-          "productivite"
-        ],
-        "legende": "Cette prime au travail te coûte plus cher que tu ne le crois.\n\nC'est ce qu'on appelle l'effet cobra. Lorsqu'on fixe une récompense ou un objectif mal pensé, les gens cherchent naturellement à maximiser leur gain au détriment de l'intérêt général.\n\nPour éviter cela, prends l'habitude d'anticiper le contournement avant de valider une règle. Demande-toi comment elle pourrait être détournée.\n\nAs-tu déjà vu une règle absurde créer l'effet inverse au travail ?",
-        "question": "As-tu déjà vu une règle absurde créer l'effet inverse au travail ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Cette prime au travail te coûte plus cher que tu ne le crois.",
-            "ecran": "Cette *prime* te coûte très cher",
-            "emoji": "😱",
-            "recherche": "stressed manager office desk",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est ce qui se passe quand tu penses bien faire.",
-            "ecran": "Un *piège* bien caché",
-            "emoji": "🔥",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie et en management, on appelle ça l'effet cobra.",
-            "ecran": "L'*effet cobra*",
-            "emoji": "🐍",
-            "recherche": "snake dangerous animal",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est quand une récompense mal pensée produit exactement l'inverse du résultat voulu.",
-            "ecran": "Une *mauvaise* incitation",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu vois ça au bureau tous les jours sans même t'en rendre compte.",
-            "ecran": "Au *bureau* chaque jour",
-            "emoji": "🏢",
-            "recherche": "corporate office employees meeting",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Imagine une entreprise qui donne une prime aux développeurs pour chaque bug corrigé.",
-            "ecran": "Prime aux *bugs* résolus",
-            "emoji": "💻",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Résultat ? Certains vont créer des bugs exprès juste pour les réparer et toucher l'argent.",
-            "ecran": "Créer des *problèmes*",
-            "emoji": "😈",
-            "recherche": "typing fast computer keyboard",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ou une prime aux appels courts au service client : les employés raccrochent au nez des gens.",
-            "ecran": "Appels *expédiés*",
-            "emoji": "📞",
-            "recherche": "call center operator stressed",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Intention",
-            "b": "Résultat",
-            "dit": "Le cerveau cherche toujours le chemin le plus court vers la récompense prometteuse.",
-            "ecran": "L'effet des *primes*",
-            "emoji": "⚖️",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Il n'obéit pas à l'esprit de ta règle, il obéit strictement à la métrique exacte.",
-            "ecran": "Le *cerveau* va au plus simple",
-            "emoji": "🤖",
-            "recherche": "man thinking thoughtful office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, tu peux très facilement te protéger de cet effet vicieux.",
-            "ecran": "Comment *éviter* le piège ?",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici les trois étapes pour ne plus te faire piéger par tes propres règles.",
-            "ecran": "Éviter le piège : 1. Tester | 2. Tester les failles | 3. Aligner",
-            "emoji": "📋",
-            "recherche": "writing notebook plan",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Avant de lancer une règle, demande-toi : comment quelqu'un pourrait en abuser ?",
-            "ecran": "Un. *Anticiper* les abus",
-            "emoji": "1️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Mets-toi dans la peau d'un tricheur qui cherche le gain facile sans effort.",
-            "ecran": "Deux. Tester *en secret*",
-            "emoji": "2️⃣",
-            "recherche": "person smiling evil sneaky",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Recompense le résultat global réel, pas une simple action isolée et mécanique.",
-            "ecran": "Trois. Mesurer la *qualité*",
-            "emoji": "3️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mesure le vrai résultat, pas l'effort.",
-            "ecran": "Mesure le *vrai* résultat, pas l'effort.",
-            "emoji": "🎯",
-            "recherche": "successful target goal clear",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'effet cobra"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "cobra",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgGMM8EksxO/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261123-2100-r.mp4"
     },
     {
@@ -4907,6 +4706,13 @@
       "media_id": "17881172223567910",
       "sujet": "langages",
       "url": "https://www.instagram.com/reel/DgF7DA1FdoF/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-23",
+      "media_id": "18093653474695830",
+      "sujet": "cobra",
+      "url": "https://www.instagram.com/reel/DgGMM8EksxO/"
     }
   ]
 }
