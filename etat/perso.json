@@ -1185,116 +1185,14 @@
       "formule": "Démasquer",
       "id": "20261123-1230",
       "legende": "Les vendeurs utilisent ce piège sur toi tous les jours.\n\nFace aux messages comme 'plus que 2 articles en stock' ou 'fin des soldes ce soir', notre cerveau panique et surévalue le produit.\n\nAvant de valider ton panier sous la pression, impose-toi une pause d'une minute pour réfléchir à ton besoin réel. Et si tu l'utilises dans ton business, veille à ce que cette rareté soit authentique.\n\nAs-tu déjà acheté un objet juste parce qu'il n'en restait presque plus ?\n\n#psychologie #persuasion #achats #entrepreneuriat #conseil",
+      "media_id": "17958793569296184",
+      "publie_le": "2026-11-23T11:31:51+00:00",
       "quand": "2026-11-23T12:30:00+01:00",
       "refait_le": "2026-11-19T19:13:44+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Démasquer",
-            "texte": "Les vendeurs utilisent ce piège sur toi tous les jours."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Ce petit stress au supermarché te fait perdre beaucoup d'argent."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête d'acheter en urgence tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "persuasion",
-          "achats",
-          "entrepreneuriat",
-          "conseil"
-        ],
-        "legende": "Les vendeurs utilisent ce piège sur toi tous les jours.\n\nFace aux messages comme 'plus que 2 articles en stock' ou 'fin des soldes ce soir', notre cerveau panique et surévalue le produit.\n\nAvant de valider ton panier sous la pression, impose-toi une pause d'une minute pour réfléchir à ton besoin réel. Et si tu l'utilises dans ton business, veille à ce que cette rareté soit authentique.\n\nAs-tu déjà acheté un objet juste parce qu'il n'en restait presque plus ?",
-        "question": "As-tu déjà acheté un objet juste parce qu'il n'en restait presque plus ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les vendeurs utilisent ce piège sur toi tous les jours.",
-            "ecran": "Ce *piège* sur toi tous les jours",
-            "emoji": "🛍️",
-            "recherche": "woman shopping store",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est le mécanisme de la rareté et de l'urgence.",
-            "ecran": "Le principe de *rareté*",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu vois 'plus que deux articles en stock' ou 'offre valable aujourd'hui seulement'.",
-            "ecran": "Plus que *2* en stock !",
-            "emoji": "📱",
-            "recherche": "phone online shopping stress",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau associe immédiatement la limite de temps à une valeur supérieure.",
-            "ecran": "Ce qui est *rare* paraît précieux",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Prends une minute avant d'acheter. Deux. Si tu l'utilises, sois honnête.",
-            "ecran": "Astuce : 1. Pause d'un minute | 2. Vraie rareté",
-            "emoji": "💡",
-            "recherche": "person thinking clock",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "L'urgence pousse à l'achat, la pause redonne le contrôle.",
-            "ecran": "Prends une *pause* avant de payer",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "As-tu déjà acheté un objet juste parce qu'il n'en restait presque plus ?",
-            "ecran": "As-tu déjà *craqué* ?",
-            "emoji": "🤔",
-            "recherche": "man confused phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La rareté et l'urgence"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "rarete",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgFRzgUjgvd/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261123-1230-r.mp4"
     },
     {
@@ -5185,6 +5083,13 @@
       "media_id": "18134208874812900",
       "sujet": "acceptation",
       "url": "https://www.instagram.com/reel/DgDnZVbl4Xj/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-23",
+      "media_id": "17958793569296184",
+      "sujet": "rarete",
+      "url": "https://www.instagram.com/reel/DgFRzgUjgvd/"
     }
   ]
 }
