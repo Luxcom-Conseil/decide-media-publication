@@ -239,8 +239,8 @@ antennes:
         tiktok_buffer: 6b03621f8541f09ecb6ab6aa    # TikTok @burkina.decide.me (mention IA)
     lots:
       dossier_drive: 1_RI9qx6aB70-NqSwMW5zij57mUb6dvlA   # « Burkina », sous-dossier de « Article DECIDE MEDIA - Quotidien »
-      reseaux: [youtube_buffer, tiktok_buffer]
-      max_par_lot: {youtube_buffer: 2, tiktok_buffer: 10}   # YouTube par Buffer : 2 posts par jour au plus (refus du 22/11/2026)
+      reseaux: [youtube_bf, tiktok_buffer]   # YouTube en direct par l'API depuis le 23/11/2026 (projet Google decide-media-burkina-youtube)
+      max_par_lot: {youtube_bf: 10, tiktok_buffer: 10}   # Buffer limitait YouTube à 2 posts par jour (refus du 22/11/2026)
       rattrapage: {actif: false}
       fuseau_creneaux: Africa/Ouagadougou     # UTC+0 toute l'année (Buffer l'affiche « Abidjan »)
       # mêmes heures locales que le Cameroun, une heure plus tard à Paris

@@ -3,7 +3,10 @@
 Prérequis : identifiant OAuth « Application de bureau » du projet Google Cloud, téléchargé (fichier
 client_secret_….json, laissé dans Téléchargements ou passé en argument).
 
-    python scripts/jeton_youtube.py [chemin/vers/client_secret.json]
+    python scripts/jeton_youtube.py [chemin/vers/client_secret.json] [--antenne burkina]
+
+--antenne burkina : chaîne « Actu Burkina - Decide Media », enregistrée sous YOUTUBE_…_BURKINA (son propre projet
+Google Cloud, donc son propre quota). Sans l'option : la chaîne du Cameroun, comme avant.
 
 Une page Google s'ouvre : choisissez le compte, puis la chaîne DECIDE MEDIA, et autorisez.
 """
@@ -24,8 +27,16 @@ def ecrire_env(valeurs: dict) -> None:
     ENV.write_text("\n".join(lignes) + "\n", encoding="utf-8")
 
 
-if len(sys.argv) > 1:
-    fichier = Path(sys.argv[1])
+args = sys.argv[1:]
+SUFFIXE, ATTENDU = "", "decide"
+if "--antenne" in args:
+    i = args.index("--antenne")
+    if args[i + 1:i + 2] != ["burkina"]:
+        raise SystemExit("--antenne : seule « burkina » est connue")
+    SUFFIXE, ATTENDU = "_BURKINA", "burkina"
+    del args[i:i + 2]
+if args:
+    fichier = Path(args[0])
 else:
     candidats = sorted((Path.home() / "Downloads").glob("client_secret*.json"), key=lambda p: p.stat().st_mtime,
                        reverse=True)
@@ -41,8 +52,8 @@ creds = flow.run_local_server(port=0, access_type="offline", prompt="consent",
 if not creds.refresh_token:
     raise SystemExit("Google n'a pas fourni de jeton durable : relancez le script.")
 
-ecrire_env({"YOUTUBE_CLIENT_ID": creds.client_id, "YOUTUBE_CLIENT_SECRET": creds.client_secret,
-            "YOUTUBE_REFRESH_TOKEN": creds.refresh_token})  # enregistré d'abord : une erreur ensuite ne fait rien perdre
+ecrire_env({"YOUTUBE_CLIENT_ID" + SUFFIXE: creds.client_id, "YOUTUBE_CLIENT_SECRET" + SUFFIXE: creds.client_secret,
+            "YOUTUBE_REFRESH_TOKEN" + SUFFIXE: creds.refresh_token})  # enregistré d'abord : une erreur ensuite ne fait rien perdre
 try:
     chaine = build("youtube", "v3", credentials=creds, cache_discovery=False).channels().list(
         part="snippet", mine=True).execute().get("items", [])
@@ -50,5 +61,5 @@ try:
 except Exception as e:
     raise SystemExit(f"Accès enregistré, mais lecture de la chaîne impossible : {e}")
 print(f"\n✅ Chaîne YouTube « {nom} » enregistrée dans {ENV}")
-if "decide" not in nom.lower():
-    print("⚠ Ce n'est pas la chaîne DECIDE MEDIA : relancez le script et choisissez la bonne chaîne.")
+if ATTENDU not in nom.lower():
+    print("⚠ Ce n'est pas la bonne chaîne : relancez le script et choisissez-la.")

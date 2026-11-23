@@ -3,7 +3,7 @@ from .buffer import BufferLinkedIn, BufferTikTok, BufferX, BufferYouTube
 from .linkedin import LinkedIn
 from .meta import Facebook, FacebookShorts, Instagram
 from .x import X
-from .youtube import YouTube
+from .youtube import YouTube, YouTubeBurkina
 
 TOUS: dict[str, type[Publieur]] = {
     "facebook": Facebook,
@@ -12,6 +12,7 @@ TOUS: dict[str, type[Publieur]] = {
     "linkedin": LinkedIn,
     "x": X,
     "youtube": YouTube,
+    "youtube_bf": YouTubeBurkina,  # antenne Burkina, API directe
     "x_buffer": BufferX,
     "linkedin_buffer": BufferLinkedIn,
     "tiktok_buffer": BufferTikTok,

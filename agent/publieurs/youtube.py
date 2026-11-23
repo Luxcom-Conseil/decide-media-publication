@@ -13,18 +13,20 @@ SCOPES = ["https://www.googleapis.com/auth/youtube.upload", "https://www.googlea
 
 class YouTube(Publieur):
     nom = "youtube"
+    suffixe = ""  # YouTubeBurkina : variables YOUTUBE_…_BURKINA (autre chaîne, autre projet Google Cloud, autre quota)
     variables = ("YOUTUBE_CLIENT_ID", "YOUTUBE_CLIENT_SECRET", "YOUTUBE_REFRESH_TOKEN")
 
     def _service(self):
         from google.oauth2.credentials import Credentials
         from googleapiclient.discovery import build
 
+        s = self.suffixe
         creds = Credentials(
             None,
-            refresh_token=os.environ["YOUTUBE_REFRESH_TOKEN"],
+            refresh_token=os.environ["YOUTUBE_REFRESH_TOKEN" + s],
             token_uri="https://oauth2.googleapis.com/token",
-            client_id=os.environ["YOUTUBE_CLIENT_ID"],
-            client_secret=os.environ["YOUTUBE_CLIENT_SECRET"],
+            client_id=os.environ["YOUTUBE_CLIENT_ID" + s],
+            client_secret=os.environ["YOUTUBE_CLIENT_SECRET" + s],
             scopes=SCOPES,
         )
         return build("youtube", "v3", credentials=creds, cache_discovery=False)
@@ -146,3 +148,12 @@ class YouTube(Publieur):
 def _titre_youtube(titre: str) -> str:
     titre = titre.replace("<", "").replace(">", "").strip()
     return titre if len(titre) <= 100 else titre[:99].rstrip() + "…"
+
+
+class YouTubeBurkina(YouTube):
+    """Chaîne « Actu Burkina - Decide Media » par l'API directe (23/11/2026) : Buffer n'y programme que 2 Shorts par jour.
+    Son propre projet Google Cloud, donc son propre quota d'envoi, séparé de celui du Cameroun."""
+    nom = "youtube_bf"
+    suffixe = "_BURKINA"
+    variables = ("YOUTUBE_CLIENT_ID_BURKINA", "YOUTUBE_CLIENT_SECRET_BURKINA", "YOUTUBE_REFRESH_TOKEN_BURKINA")
+

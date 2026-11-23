@@ -28,7 +28,7 @@ def test_le_cameroun_ne_change_pas(cfg):
 def test_burkina_remplace_drive_reseaux_fuseau_et_chaines(cfg):
     b = appliquer_antenne(cfg, "burkina")
     assert b["lots"]["dossier_drive"] != cfg["lots"]["dossier_drive"]
-    assert b["lots"]["reseaux"] == ["youtube_buffer", "tiktok_buffer"]
+    assert b["lots"]["reseaux"] == ["youtube_bf", "tiktok_buffer"]  # YouTube en direct depuis le 23/11/2026
     assert b["lots"]["fuseau_creneaux"] == "Africa/Ouagadougou"
     assert set(b["buffer"]["canaux"]) == {"youtube_buffer", "tiktok_buffer"}  # ni X ni LinkedIn du Cameroun
     assert b["buffer"]["canaux"]["tiktok_buffer"] != cfg["buffer"]["canaux"]["tiktok_buffer"]
@@ -46,7 +46,7 @@ def test_antenne_inconnue(cfg):
 def test_creneaux_a_l_heure_de_ouagadougou(cfg):
     b = appliquer_antenne(cfg, "burkina")
     tot = datetime(2026, 11, 23, 0, 0, tzinfo=timezone.utc)
-    h = creneaux(b, date(2026, 11, 23), 2, tot, [], "youtube_buffer")
+    h = creneaux(b, date(2026, 11, 23), 2, tot, [], "youtube_bf")
     assert [x.astimezone(ZoneInfo("UTC")).strftime("%H:%M") for x in h] == ["08:00", "11:00"]  # UTC+0
     t = creneaux(b, date(2026, 11, 23), 1, tot, [], "tiktok_buffer")
     assert t[0].astimezone(ZoneInfo("UTC")).strftime("%H:%M") == "08:15"
@@ -60,3 +60,15 @@ def test_youtube_par_buffer_titre_categorie_et_shorts(cfg):
     meta = pub.metadonnees()["youtube"]
     assert meta["title"] == article["title"] and meta["categoryId"] == "25" and meta["privacy"] == "public"
     assert pub.en_video({"_rang": 99})
+
+
+def test_youtube_direct_burkina_a_ses_propres_identifiants(monkeypatch):
+    from agent.publieurs import TOUS
+    from agent.publieurs.youtube import YouTube, YouTubeBurkina
+    assert TOUS["youtube_bf"] is YouTubeBurkina
+    for v in YouTube.variables:
+        monkeypatch.setenv(v, "cameroun")
+    for v in YouTubeBurkina.variables:
+        monkeypatch.delenv(v, raising=False)
+    assert YouTube.est_configure() and not YouTubeBurkina.est_configure()  # jamais les identifiants du Cameroun
+    assert all(v.endswith("_BURKINA") for v in YouTubeBurkina.variables)
