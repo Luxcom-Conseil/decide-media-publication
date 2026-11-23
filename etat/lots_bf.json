@@ -189,9 +189,9 @@
       "tentatives": 99
     },
     "youtube_bf": {
+      "note": "doublon YouTube du lot test (Marchés modernes : 104 milliards FCFA prévus, publié le 22/11 par Buffer)",
       "statut": "ecarte",
-      "tentatives": 99,
-      "note": "doublon YouTube du lot test (Marchés modernes : 104 milliards FCFA prévus, publié le 22/11 par Buffer)"
+      "tentatives": 99
     }
   },
   "decide-bf-decide-media-2026-11-23-04": {
@@ -278,6 +278,27 @@
       "tentatives": 0,
       "titre": "Coton : 310 francs le kilo minimum",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-11": {
+    "tiktok_buffer": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T15:33:15+00:00",
+      "piste": "principale",
+      "post_id": "6b045cba14d1cfb9e02fee0e",
+      "programme_pour": "2026-11-23T19:30:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "L'Académie technologique ouvre à Pabré",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T15:33:19+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "L'Académie technologique ouvre à Pabré"
     }
   }
 }

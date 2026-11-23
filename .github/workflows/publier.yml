@@ -180,6 +180,7 @@ jobs:
             git commit -m "etat: passage Burkina du $(date -u +'%Y-%m-%d %H:%M') UTC"
             git pull --rebase --autostash
             git push
+          fi
 
   # Antenne DECIDE MEDIA Afrique (TikTok par le compte Buffer du Burkina, YouTube en direct plus tard) : après le Burkina, dans le même
   # passage, pour ne jamais enregistrer etat/ en même temps que lui. Tant que antennes.afrique.actif vaut false

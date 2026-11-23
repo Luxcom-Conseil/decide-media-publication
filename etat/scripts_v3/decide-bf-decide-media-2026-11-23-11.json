@@ -1,0 +1,176 @@
+{
+  "accroches": [
+    "Une académie de 37 milliards de FCFA a ouvert à Pabré.",
+    "Le Burkina Faso a inauguré son Académie technologique à Pabré.",
+    "Une grande académie technologique est sortie de terre en onze mois."
+  ],
+  "titre": "Ouverture de l'Académie technologique du Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Pabré",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une académie de *37 milliards* d'investissements",
+      "dit": "Une académie technologique de plus de 37 milliards de FCFA a été inaugurée ce lundi à Pabré."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un complexe au nord de *Ouagadougou*",
+      "dit": "Le complexe est situé au nord de Ouagadougou et fait partie de l'Initiative présidentielle pour l'éducation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "11 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Travaux terminés en *11 mois*",
+      "dit": "Les travaux de la première phase avaient débuté en décembre 2025 et ont duré onze mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un site de *60 hectares*",
+      "dit": "Le site s'étend sur environ 60 hectares à Pabré, selon les informations diffusées par l'agence APA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Étudiants et profs en *internat*",
+      "dit": "Il regroupe des amphithéâtres, des ateliers, une cantine, une infirmerie et des logements pour l'internat."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Formation de futurs *ingénieurs*",
+      "dit": "Ce nouvel établissement d'enseignement supérieur a pour mission de former des ingénieurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*250 étudiants* admis cette année",
+      "dit": "La première promotion compte 250 admis issus des séries scientifiques et techniques du baccalauréat."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Informatique, mines et *aéronautique*",
+      "dit": "Les cours couvrent l'informatique, la cybersécurité, l'énergie, les mines, la métallurgie et l'aéronautique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 juillet 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Créée par décret en *juillet 2026*",
+      "dit": "L'Académie avait été créée par un décret pris en Conseil des ministres le 2 juillet 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*28 candidats* sur liste d'attente",
+      "dit": "En plus des admis, le communiqué d'août dernier précisait la sélection de 28 candidats sur liste d'attente."
+    }
+  ]
+}
