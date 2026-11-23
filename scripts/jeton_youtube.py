@@ -3,10 +3,10 @@
 Prérequis : identifiant OAuth « Application de bureau » du projet Google Cloud, téléchargé (fichier
 client_secret_….json, laissé dans Téléchargements ou passé en argument).
 
-    python scripts/jeton_youtube.py [chemin/vers/client_secret.json] [--antenne burkina]
+    python scripts/jeton_youtube.py [chemin/vers/client_secret.json] [--antenne burkina|afrique]
 
 --antenne burkina : chaîne « Actu Burkina - Decide Media », enregistrée sous YOUTUBE_…_BURKINA (son propre projet
-Google Cloud, donc son propre quota). Sans l'option : la chaîne du Cameroun, comme avant.
+Google Cloud, donc son propre quota). --antenne afrique : chaîne « DECIDE MEDIA AFRIQUE », sous YOUTUBE_…_AFRIQUE. Sans l'option : la chaîne du Cameroun, comme avant.
 
 Une page Google s'ouvre : choisissez le compte, puis la chaîne DECIDE MEDIA, et autorisez.
 """
@@ -31,9 +31,10 @@ args = sys.argv[1:]
 SUFFIXE, ATTENDU = "", "decide"
 if "--antenne" in args:
     i = args.index("--antenne")
-    if args[i + 1:i + 2] != ["burkina"]:
-        raise SystemExit("--antenne : seule « burkina » est connue")
-    SUFFIXE, ATTENDU = "_BURKINA", "burkina"
+    antennes = {"burkina": ("_BURKINA", "burkina"), "afrique": ("_AFRIQUE", "afrique")}
+    if args[i + 1] not in antennes:
+        raise SystemExit("--antenne : « burkina » ou « afrique »")
+    SUFFIXE, ATTENDU = antennes[args[i + 1]]
     del args[i:i + 2]
 if args:
     fichier = Path(args[0])
