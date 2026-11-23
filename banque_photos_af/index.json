@@ -1,5 +1,165 @@
 [
  {
+  "theme": "agriculture",
+  "pays": "Nigeria",
+  "fichier": "agriculture/the-mambilla.jpg",
+  "montre": "plantation de thé du plateau de Mambilla",
+  "lieu": "Taraba",
+  "date": "2016-09-24",
+  "annee": "2016",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Ebere Jude Ekemezie",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Mambilla_Plateau_Highland_Tea_Farm,_Nigeria_05.jpg",
+  "credit": "Taraba, 2016 · Photo : Ebere Jude Ekemezie / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1080
+  ]
+ },
+ {
+  "theme": "agriculture",
+  "pays": "Nigeria",
+  "fichier": "agriculture/battage-mais-kaduna.jpg",
+  "montre": "battage du maïs",
+  "lieu": "Makarfi",
+  "date": "2017-10-21",
+  "annee": "2017",
+  "personnes": "visibles",
+  "marque": null,
+  "auteur": "MKALM7",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Farm_workers_threshing_maize_at_Makarfi_Local_Government_of_Kaduna_State_Nigeria_02.jpg",
+  "credit": "Makarfi, 2017 · Photo : MKALM7 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "agriculture",
+  "pays": "Nigeria",
+  "fichier": "agriculture/manioc-port-harcourt.jpg",
+  "montre": "champ de manioc",
+  "lieu": "Port Harcourt",
+  "date": "2019-06-10",
+  "annee": "2019",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Berekara U. Pius",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:CASSAVA_FARM_IN_PORT_HARCOURT_CLOSE_TO_ABONNEMA_WALF,_RIVERS_STATE,_NIGERIA.jpg",
+  "credit": "Port Harcourt, 2019 · Photo : Berekara U. Pius / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "agriculture",
+  "pays": "Sénégal",
+  "fichier": "agriculture/arachides-decortiquees.jpg",
+  "montre": "arachides et maïs sur un marché",
+  "lieu": "inconnu",
+  "date": "2025-04-09",
+  "annee": "2025",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Kadjia18",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Arachide_decortiqu%C3%A9.jpg",
+  "credit": "Sénégal, 2025 · Photo : Kadjia18 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   2560
+  ]
+ },
+ {
+  "theme": "agriculture",
+  "pays": "Tanzanie",
+  "fichier": "agriculture/champs-arusha.jpg",
+  "montre": "champs et paysans près d'Arusha",
+  "lieu": "Arusha",
+  "date": "2007-10-06",
+  "annee": "2007",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Fanny Schertzer",
+  "licence": "CC BY 2.5",
+  "licence_url": "https://creativecommons.org/licenses/by/2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Tanzanian_farmers.jpg",
+  "credit": "Arusha, 2007 · Photo : Fanny Schertzer / Wikimedia Commons · CC BY 2.5 · recadrée",
+  "taille": [
+   1920,
+   1277
+  ]
+ },
+ {
+  "theme": "agriculture",
+  "pays": "Tanzanie",
+  "fichier": "agriculture/piments-tanzanie.jpg",
+  "montre": "récolte de piments",
+  "lieu": "inconnu",
+  "date": "2005-08-15",
+  "annee": "2005",
+  "personnes": "visibles",
+  "marque": null,
+  "auteur": "USAID Africa Bureau",
+  "licence": "Public domain",
+  "licence_url": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Paprika_pepper_farmer_in_Tanzania_(5761933485).jpg",
+  "credit": "Tanzanie, 2005 · Photo : USAID Africa Bureau / Wikimedia Commons · Public domain · recadrée",
+  "taille": [
+   1544,
+   1024
+  ]
+ },
+ {
+  "theme": "agriculture",
+  "pays": "Tanzanie",
+  "fichier": "agriculture/arrosage-potager.jpg",
+  "montre": "arrosage d'un potager",
+  "lieu": "inconnu",
+  "date": "Unknown da",
+  "annee": "inconnue",
+  "personnes": "visibles",
+  "marque": null,
+  "auteur": "USAID",
+  "licence": "Public domain",
+  "licence_url": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Woman_watering_crops,_Tanzania.jpg",
+  "credit": "Tanzanie, inconnue · Photo : USAID / Wikimedia Commons · Public domain · recadrée",
+  "taille": [
+   1920,
+   1229
+  ]
+ },
+ {
+  "theme": "agriculture",
+  "pays": "Tanzanie",
+  "fichier": "agriculture/riziere-tanzanie.jpg",
+  "montre": "rizière",
+  "lieu": "inconnu",
+  "date": "2014-05-21",
+  "annee": "2014",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "FelicityFeinman",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Tanzanian_Rice_Farmer.JPG",
+  "credit": "Tanzanie, 2014 · Photo : FelicityFeinman / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1280
+  ]
+ },
+ {
   "theme": "cacao_cafe_the",
   "pays": "Côte d'Ivoire",
   "fichier": "cacao_cafe_the/feuilles-cacaoyer-cote-ivoire.jpg",
@@ -220,6 +380,266 @@
   ]
  },
  {
+  "theme": "energie",
+  "pays": "RD Congo",
+  "fichier": "energie/centrale-inga.jpg",
+  "montre": "centrale hydroélectrique d'Inga",
+  "lieu": "Inga",
+  "date": "2004-07",
+  "annee": "2004",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Alaindg",
+  "licence": "CC BY 2.5",
+  "licence_url": "https://creativecommons.org/licenses/by/2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Inga01.jpg",
+  "credit": "Inga, 2004 · Photo : Alaindg / Wikimedia Commons · CC BY 2.5 · recadrée",
+  "taille": [
+   1800,
+   1213
+  ]
+ },
+ {
+  "theme": "energie",
+  "pays": "RD Congo",
+  "fichier": "energie/conduites-forcees-inga.jpg",
+  "montre": "conduites forcées du barrage d'Inga",
+  "lieu": "Inga",
+  "date": "2004-07",
+  "annee": "2004",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Alaindg",
+  "licence": "CC BY 2.5",
+  "licence_url": "https://creativecommons.org/licenses/by/2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Inga003.jpg",
+  "credit": "Inga, 2004 · Photo : Alaindg / Wikimedia Commons · CC BY 2.5 · recadrée",
+  "taille": [
+   1800,
+   1152
+  ]
+ },
+ {
+  "theme": "energie",
+  "pays": "Maroc",
+  "fichier": "energie/tour-noor-iii.jpg",
+  "montre": "tour solaire de la centrale Noor III",
+  "lieu": "Ouarzazate",
+  "date": "2019-10-17",
+  "annee": "2019",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Richard Allaway",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Noor_3_-_Ouarzazate_Solar_Power_Station_(48985145947).jpg",
+  "credit": "Ouarzazate, 2019 · Photo : Richard Allaway / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   2560
+  ]
+ },
+ {
+  "theme": "energie",
+  "pays": "Maroc",
+  "fichier": "energie/centrale-noor-ouarzazate.jpg",
+  "montre": "centrale solaire Noor 1 et 2 vue d'en haut",
+  "lieu": "Ouarzazate",
+  "date": "2019-10-17",
+  "annee": "2019",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Richard Allaway",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Noor_1_and_2_-_Ouarzazate_Solar_Power_Station_(48962353822).jpg",
+  "credit": "Ouarzazate, 2019 · Photo : Richard Allaway / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   894
+  ]
+ },
+ {
+  "theme": "energie",
+  "pays": "Kenya",
+  "fichier": "energie/geothermie-olkaria.jpg",
+  "montre": "centrale géothermique Olkaria V",
+  "lieu": "Naivasha",
+  "date": "2019-10-24",
+  "annee": "2019",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Macabe5387",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Olkaria_V_Geothermal_Power_Station.jpg",
+  "credit": "Naivasha, 2019 · Photo : Macabe5387 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "energie",
+  "pays": "Égypte",
+  "fichier": "energie/haut-barrage-assouan.jpg",
+  "montre": "haut barrage d'Assouan et sa centrale",
+  "lieu": "Assouan",
+  "date": "2008-02-19",
+  "annee": "2008",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "شرف الدين",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Aswan_High_Dam-1.jpg",
+  "credit": "Assouan, 2008 · Photo : شرف الدين / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "energie",
+  "pays": "Égypte",
+  "fichier": "energie/lac-barrage-assouan.jpg",
+  "montre": "retenue du haut barrage d'Assouan",
+  "lieu": "Assouan",
+  "date": "2008-02-19",
+  "annee": "2008",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "شرف الدين",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Aswan_High_Dam-3.jpg",
+  "credit": "Assouan, 2008 · Photo : شرف الدين / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "energie",
+  "pays": "Afrique du Sud",
+  "fichier": "energie/centrale-koeberg.jpg",
+  "montre": "centrale nucléaire de Koeberg",
+  "lieu": "Le Cap",
+  "date": "2010-08-21",
+  "annee": "2010",
+  "personnes": "aucune",
+  "marque": "Eskom",
+  "auteur": "Paul Scott from South Africa",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Koeberg_Nuclear_Power_Plant_2010-1.jpg",
+  "credit": "Le Cap, 2010 · Photo : Paul Scott from South Africa / Wikimedia Commons · CC BY-SA 2.0 · recadrée",
+  "taille": [
+   1920,
+   1275
+  ]
+ },
+ {
+  "theme": "finance",
+  "pays": "Afrique du Sud",
+  "fichier": "finance/bourse-johannesburg.jpg",
+  "montre": "bâtiment de la bourse de Johannesburg",
+  "lieu": "Johannesburg",
+  "date": "2007-04-22",
+  "annee": "2007",
+  "personnes": "aucune",
+  "marque": "JSE",
+  "auteur": "Andres de Wet",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Johannesburg_Stock_Exchange.jpg",
+  "credit": "Johannesburg, 2007 · Photo : Andres de Wet / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1429,
+   2168
+  ]
+ },
+ {
+  "theme": "finance",
+  "pays": "Nigeria",
+  "fichier": "finance/banque-centrale-nigeria-ibadan.jpg",
+  "montre": "agence de la Banque centrale du Nigeria",
+  "lieu": "Ibadan",
+  "date": "2017-06-27",
+  "annee": "2017",
+  "personnes": "aucune",
+  "marque": "Banque centrale du Nigeria",
+  "auteur": "Hizick27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Central_Bank_Of_Nigeria_Ibadan_branch1.jpg",
+  "credit": "Ibadan, 2017 · Photo : Hizick27 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1536,
+   1297
+  ]
+ },
+ {
+  "theme": "finance",
+  "pays": "Afrique du Sud",
+  "fichier": "finance/pretoria-reserve-bank.jpg",
+  "montre": "centre de Pretoria et la Banque de réserve",
+  "lieu": "Pretoria",
+  "date": "2012-09-23",
+  "annee": "2012",
+  "personnes": "aucune",
+  "marque": "South African Reserve Bank",
+  "auteur": "JMK",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Pretoria,_uitsig_oor_middestad.jpg",
+  "credit": "Pretoria, 2012 · Photo : JMK / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1433
+  ]
+ },
+ {
+  "theme": "finance",
+  "pays": "Ghana",
+  "fichier": "finance/banque-du-ghana.jpg",
+  "montre": "siège de la Banque du Ghana",
+  "lieu": "Accra",
+  "date": "2011-04-05",
+  "annee": "2011",
+  "personnes": "loin",
+  "marque": "Banque du Ghana",
+  "auteur": "Natsubee",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Ghana_High_Street.jpg",
+  "credit": "Accra, 2011 · Photo : Natsubee / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "finance",
+  "pays": "Kenya",
+  "fichier": "finance/banque-centrale-kenya.jpg",
+  "montre": "siège de la Banque centrale du Kenya",
+  "lieu": "Nairobi",
+  "date": "1973-12",
+  "annee": "1973",
+  "personnes": "aucune",
+  "marque": "Banque centrale du Kenya",
+  "auteur": "mwanasimba from La Réunion",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:CBK_Nairobi_1973.jpg",
+  "credit": "Nairobi, 1973 · Photo : mwanasimba from La Réunion / Wikimedia Commons · CC BY-SA 2.0 · recadrée",
+  "taille": [
+   937,
+   937
+  ]
+ },
+ {
   "theme": "institutions_continentales",
   "pays": "Afrique",
   "fichier": "institutions_continentales/siege-union-africaine-addis.jpg",
@@ -314,6 +734,126 @@
   "licence_url": "",
   "page": "https://commons.wikimedia.org/wiki/File:ZiguinchorBCEAO.jpg",
   "credit": "Ziguinchor, 2008 · Photo : Ji-Elle / Wikimedia Commons · Public domain · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "marches",
+  "pays": "Kenya",
+  "fichier": "marches/marche-masai-nairobi.jpg",
+  "montre": "tissus au marché Masaï",
+  "lieu": "Nairobi",
+  "date": "2015-05-02",
+  "annee": "2015",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Ninaras",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Masai_Market_Nairobi_01.jpg",
+  "credit": "Nairobi, 2015 · Photo : Ninaras / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1012
+  ]
+ },
+ {
+  "theme": "marches",
+  "pays": "Kenya",
+  "fichier": "marches/masques-nairobi.jpg",
+  "montre": "masques en bois sur un marché",
+  "lieu": "Nairobi",
+  "date": "2015-05-02",
+  "annee": "2015",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Ninaras",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:African_masks_in_Nairobi_01.jpg",
+  "credit": "Nairobi, 2015 · Photo : Ninaras / Wikimedia Commons · CC BY 4.0 · recadrée",
+  "taille": [
+   1920,
+   1246
+  ]
+ },
+ {
+  "theme": "marches",
+  "pays": "Kenya",
+  "fichier": "marches/halle-city-market-nairobi.jpg",
+  "montre": "halle du City Market",
+  "lieu": "Nairobi",
+  "date": "2021-08-09",
+  "annee": "2021",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Bugsinmyfood",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:City_market_hall,_Nairobi.jpg",
+  "credit": "Nairobi, 2021 · Photo : Bugsinmyfood / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "marches",
+  "pays": "Sénégal",
+  "fichier": "marches/marche-kermel.jpg",
+  "montre": "façade du marché Kermel",
+  "lieu": "Dakar",
+  "date": "2005-01-16",
+  "annee": "2005",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Neil Rickards",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DakarKermel.jpg",
+  "credit": "Dakar, 2005 · Photo : Neil Rickards / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "marches",
+  "pays": "Sénégal",
+  "fichier": "marches/legumes-kermel.jpg",
+  "montre": "légumes sur un étal du marché Kermel",
+  "lieu": "Dakar",
+  "date": "2019-01-23",
+  "annee": "2019",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Balou46",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:SN-dakar-marche-kermel-3.jpg",
+  "credit": "Dakar, 2019 · Photo : Balou46 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1272
+  ]
+ },
+ {
+  "theme": "marches",
+  "pays": "Éthiopie",
+  "fichier": "marches/merkato-addis.jpg",
+  "montre": "allée de tissus au Merkato",
+  "lieu": "Addis-Abeba",
+  "date": "2008-04-18",
+  "annee": "2008",
+  "personnes": "visibles",
+  "marque": null,
+  "auteur": "JanManu",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:MercatoAddisAbeba08.jpg",
+  "credit": "Addis-Abeba, 2008 · Photo : JanManu / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
   "taille": [
    1920,
    1440
@@ -497,6 +1037,126 @@
   "taille": [
    1194,
    1791
+  ]
+ },
+ {
+  "theme": "numerique_mobile",
+  "pays": "Kenya",
+  "fichier": "numerique_mobile/caisse-m-pesa.jpg",
+  "montre": "affichette de paiement M-Pesa",
+  "lieu": "inconnu",
+  "date": "2012-06-30",
+  "annee": "2012",
+  "personnes": "aucune",
+  "marque": "M-Pesa",
+  "auteur": "Raidarmax",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:An_M-Pesa_Payment_Till.JPG",
+  "credit": "Kenya, 2012 · Photo : Raidarmax / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1280
+  ]
+ },
+ {
+  "theme": "numerique_mobile",
+  "pays": "Kenya",
+  "fichier": "numerique_mobile/kiosque-m-pesa.jpg",
+  "montre": "boutique M-Pesa de Safaricom",
+  "lieu": "inconnu",
+  "date": "2005-01-10",
+  "annee": "2005",
+  "personnes": "aucune",
+  "marque": "Safaricom",
+  "auteur": "Realt0n12",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:M-Pesa_Kenyan_Kiosk.JPG",
+  "credit": "Kenya, 2005 · Photo : Realt0n12 / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "numerique_mobile",
+  "pays": "Kenya",
+  "fichier": "numerique_mobile/carte-sim-m-pesa.jpg",
+  "montre": "carte SIM M-Pesa",
+  "lieu": "inconnu",
+  "date": "2011-06-24",
+  "annee": "2011",
+  "personnes": "aucune",
+  "marque": "Safaricom",
+  "auteur": "Bill Maurer. Uploaded to Flickr by Institute for Money, Technology and Financial",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:M-Pesa_SIM_card.jpg",
+  "credit": "Kenya, 2011 · Photo : Bill Maurer. Uploaded to Flickr by Institute for Money, Technology and Financial / Wikimedia Commons · CC BY-SA 2.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "numerique_mobile",
+  "pays": "Nigeria",
+  "fichier": "numerique_mobile/computer-village-ikeja.jpg",
+  "montre": "rue du Computer Village",
+  "lieu": "Lagos",
+  "date": "2019-07-04",
+  "annee": "2019",
+  "personnes": "visibles",
+  "marque": null,
+  "auteur": "Lightfast Media",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Computer_Village,_Ikeja_Lagos.jpg",
+  "credit": "Lagos, 2019 · Photo : Lightfast Media / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1280
+  ]
+ },
+ {
+  "theme": "numerique_mobile",
+  "pays": "Ouganda",
+  "fichier": "numerique_mobile/kiosque-mobile-money.jpg",
+  "montre": "kiosque de mobile money",
+  "lieu": "inconnu",
+  "date": "2017-10-08",
+  "annee": "2017",
+  "personnes": "visibles",
+  "marque": null,
+  "auteur": "Bukulu Steven",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mobile_Money_Kiosk.jpg",
+  "credit": "Ouganda, 2017 · Photo : Bukulu Steven / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1280
+  ]
+ },
+ {
+  "theme": "numerique_mobile",
+  "pays": "Ouganda",
+  "fichier": "numerique_mobile/kiosque-mtn.jpg",
+  "montre": "kiosque de mobile money MTN",
+  "lieu": "inconnu",
+  "date": "2017-10-20",
+  "annee": "2017",
+  "personnes": "visibles",
+  "marque": "MTN",
+  "auteur": "Mstephen247",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Woman_on_mobile_money_kiosk.jpg",
+  "credit": "Ouganda, 2017 · Photo : Mstephen247 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   3413
   ]
  },
  {
@@ -754,6 +1414,646 @@
   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Tanger_Med_port.jpg",
   "credit": "Tanger Med, 2009 · Photo : hiroo yamagata / Wikimedia Commons · CC BY-SA 2.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Afrique du Sud",
+  "fichier": "pouvoirs/union-buildings.jpg",
+  "montre": "Union Buildings, siège du gouvernement",
+  "lieu": "Pretoria",
+  "date": "2011-11-25",
+  "annee": "2011",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Portiatn",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Union_Buildings,_Pretoria,_South_Africa.JPG",
+  "credit": "Pretoria, 2011 · Photo : Portiatn / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1450
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Nigeria",
+  "fichier": "pouvoirs/assemblee-nationale-abuja.jpg",
+  "montre": "Assemblée nationale du Nigeria",
+  "lieu": "Abuja",
+  "date": "2005-09-16",
+  "annee": "2005",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Shiraz Chakera",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Nigeriahouseofreps.jpg",
+  "credit": "Abuja, 2005 · Photo : Shiraz Chakera / Wikimedia Commons · CC BY-SA 2.0 · recadrée",
+  "taille": [
+   1920,
+   1250
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Nigeria",
+  "fichier": "pouvoirs/assemblee-abuja-face.jpg",
+  "montre": "Assemblée nationale du Nigeria",
+  "lieu": "Abuja",
+  "date": "2018-05-15",
+  "annee": "2018",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Kabusa16",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Assembly_Building,_Abuja,_Nigeria.jpg",
+  "credit": "Abuja, 2018 · Photo : Kabusa16 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1280
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Kenya",
+  "fichier": "pouvoirs/parlement-kenya.jpg",
+  "montre": "tour du Parlement du Kenya",
+  "lieu": "Nairobi",
+  "date": "2010-03-25",
+  "annee": "2010",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Daryona",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kenyan_Parliament.JPG",
+  "credit": "Nairobi, 2010 · Photo : Daryona / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1800,
+   2400
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Ghana",
+  "fichier": "pouvoirs/jubilee-house.jpg",
+  "montre": "Jubilee House, présidence du Ghana",
+  "lieu": "Accra",
+  "date": "2009-01-29",
+  "annee": "2009",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Jessica Gardner",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Golden_Jubilee_House.jpg",
+  "credit": "Accra, 2009 · Photo : Jessica Gardner / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1280,
+   967
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Ghana",
+  "fichier": "pouvoirs/jubilee-house-jardin.jpg",
+  "montre": "Jubilee House, présidence du Ghana",
+  "lieu": "Accra",
+  "date": "2010-03-15",
+  "annee": "2010",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "James Cridland",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Golden_Jubilee_House.jpg",
+  "credit": "Accra, 2010 · Photo : James Cridland / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1347
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Sénégal",
+  "fichier": "pouvoirs/palais-presidentiel-dakar.jpg",
+  "montre": "Palais présidentiel",
+  "lieu": "Dakar",
+  "date": "2007-01-01",
+  "annee": "2007",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Bess Sadler from Palo Alto, CA, USA",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Dakar-Palais_pr%C3%A9sidentiel.jpg",
+  "credit": "Dakar, 2007 · Photo : Bess Sadler from Palo Alto, CA, USA / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Égypte",
+  "fichier": "pouvoirs/nouvelle-capitale-egypte.jpg",
+  "montre": "quartier gouvernemental de la nouvelle capitale administrative",
+  "lieu": "Nouvelle capitale administrative",
+  "date": "2023-05-10",
+  "annee": "2023",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Abdelrhman 1990",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Government_District,_New_Capital_2.jpg",
+  "credit": "Nouvelle capitale administrative, 2023 · Photo : Abdelrhman 1990 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1088
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Maroc",
+  "fichier": "pouvoirs/parlement-rabat.jpg",
+  "montre": "Parlement du Maroc",
+  "lieu": "Rabat",
+  "date": "2007-01",
+  "annee": "2007",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Davide Cesare Veniani",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Rabat_Parliament.jpg",
+  "credit": "Rabat, 2007 · Photo : Davide Cesare Veniani / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "pouvoirs",
+  "pays": "Maroc",
+  "fichier": "pouvoirs/parlement-rabat-palmiers.jpg",
+  "montre": "Parlement du Maroc",
+  "lieu": "Rabat",
+  "date": "2007-08",
+  "annee": "2007",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Pilecka",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Rabat_-_building_of_parlament.JPG",
+  "credit": "Rabat, 2007 · Photo : Pilecka / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1419
+  ]
+ },
+ {
+  "theme": "transport",
+  "pays": "Kenya",
+  "fichier": "transport/gare-nairobi-terminus.jpg",
+  "montre": "gare Nairobi Terminus du train SGR",
+  "lieu": "Nairobi",
+  "date": "2018-12-29",
+  "annee": "2018",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Macabe5387",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Nairobi_Terminus.jpg",
+  "credit": "Nairobi, 2018 · Photo : Macabe5387 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "transport",
+  "pays": "Kenya",
+  "fichier": "transport/train-sgr-nairobi.jpg",
+  "montre": "train SGR à quai",
+  "lieu": "Nairobi",
+  "date": "2017-06-07",
+  "annee": "2017",
+  "personnes": "aucune",
+  "marque": "Kenya Railways",
+  "auteur": "Erasmus Kamugisha",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:New_SGR_train_Nairobi.jpg",
+  "credit": "Nairobi, 2017 · Photo : Erasmus Kamugisha / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1272
+  ]
+ },
+ {
+  "theme": "transport",
+  "pays": "Éthiopie",
+  "fichier": "transport/gare-dire-dawa.jpg",
+  "montre": "gare du chemin de fer Djibouti-Éthiopie",
+  "lieu": "Dire Dawa",
+  "date": "2007-10-23",
+  "annee": "2007",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "A. Davey from Where I Live Now: Pacific Northwest",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Djibouti_-_Ethiopia_Railway_Station,_Dire_Dawa,_Ethiopia.jpg",
+  "credit": "Dire Dawa, 2007 · Photo : A. Davey from Where I Live Now: Pacific Northwest / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1600,
+   1171
+  ]
+ },
+ {
+  "theme": "transport",
+  "pays": "Nigeria",
+  "fichier": "transport/gare-abeokuta.jpg",
+  "montre": "gare Wole Soyinka",
+  "lieu": "Abeokuta",
+  "date": "2023-10-11",
+  "annee": "2023",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Pacesetter Media",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:WOLE_SOYINKA_TRAIN_TERMINAL,_ABEOKUTA.jpg",
+  "credit": "Abeokuta, 2023 · Photo : Pacesetter Media / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1275
+  ]
+ },
+ {
+  "theme": "transport",
+  "pays": "Maroc",
+  "fichier": "transport/tgv-al-boraq.jpg",
+  "montre": "TGV Al Boraq",
+  "lieu": "inconnu",
+  "date": "2018-03-02",
+  "annee": "2018",
+  "personnes": "aucune",
+  "marque": "ONCF",
+  "auteur": "hakzelf",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:ONCF_Al_boraq.jpeg",
+  "credit": "Maroc, 2018 · Photo : hakzelf / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "transport",
+  "pays": "Maroc",
+  "fichier": "transport/al-boraq-quai.jpg",
+  "montre": "TGV Al Boraq à quai",
+  "lieu": "inconnu",
+  "date": "2018-11-30",
+  "annee": "2018",
+  "personnes": "loin",
+  "marque": "ONCF",
+  "auteur": "NicholasNCE",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Al_Boraq_RGV2N2_at_Tanger_Ville.jpg",
+  "credit": "Maroc, 2018 · Photo : NicholasNCE / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1280
+  ]
+ },
+ {
+  "theme": "transport",
+  "pays": "Afrique du Sud",
+  "fichier": "transport/gautrain-depot.jpg",
+  "montre": "rame du Gautrain au dépôt",
+  "lieu": "Midrand",
+  "date": "2009-12-05",
+  "annee": "2009",
+  "personnes": "aucune",
+  "marque": "Gautrain",
+  "auteur": "GautengCitizen",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gautrain-in-depot.JPG",
+  "credit": "Midrand, 2009 · Photo : GautengCitizen / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1373
+  ]
+ },
+ {
+  "theme": "transport",
+  "pays": "Sénégal",
+  "fichier": "transport/gare-dakar.jpg",
+  "montre": "gare de Dakar en rénovation pour le TER",
+  "lieu": "Dakar",
+  "date": "2018-10-11",
+  "annee": "2018",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "mon.nini",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gare_de_dakar_en_renovation_2018-10-11_par_mon.nini.jpg",
+  "credit": "Dakar, 2018 · Photo : mon.nini / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1080
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Nigeria",
+  "fichier": "villes/lagos-skyline.jpg",
+  "montre": "immeubles de Lagos le long d'une voie express",
+  "lieu": "Lagos",
+  "date": "2015-02-28",
+  "annee": "2015",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Clara Sanchiz",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lagos_skyline.jpg",
+  "credit": "Lagos, 2015 · Photo : Clara Sanchiz / Wikimedia Commons · CC BY-SA 2.0 · recadrée",
+  "taille": [
+   1920,
+   1015
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Kenya",
+  "fichier": "villes/nairobi-upperhill.jpg",
+  "montre": "tours du centre de Nairobi vues d'Upper Hill",
+  "lieu": "Nairobi",
+  "date": "19 April 2",
+  "annee": "inconnue",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Lmwangi",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Nairobi_skyline_P1000019.jpg",
+  "credit": "Nairobi, inconnue · Photo : Lmwangi / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Afrique du Sud",
+  "fichier": "villes/johannesburg-cbd.jpg",
+  "montre": "centre d'affaires de Johannesburg",
+  "lieu": "Johannesburg",
+  "date": "2009-12-04",
+  "annee": "2009",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Evan Bench",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Johannesburg_CBD.jpg",
+  "credit": "Johannesburg, 2009 · Photo : Evan Bench / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Sénégal",
+  "fichier": "villes/dakar-vue-haut.jpg",
+  "montre": "Dakar vue d'en haut",
+  "lieu": "Dakar",
+  "date": "2023-04-14",
+  "annee": "2023",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Ourytima",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Dakar_vue_de_haut_02.jpg",
+  "credit": "Dakar, 2023 · Photo : Ourytima / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Côte d'Ivoire",
+  "fichier": "villes/abidjan-plateau-lagune.jpg",
+  "montre": "le Plateau vu de la lagune Ébrié",
+  "lieu": "Abidjan",
+  "date": "2010-05-14",
+  "annee": "2010",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "RyansWorld",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Plateau_2010,_Abidjan.jpg",
+  "credit": "Abidjan, 2010 · Photo : RyansWorld / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1600,
+   961
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Côte d'Ivoire",
+  "fichier": "villes/abidjan-plateau-sud.jpg",
+  "montre": "immeubles du Plateau",
+  "lieu": "Abidjan",
+  "date": "2016-04-17",
+  "annee": "2016",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Citizen59",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:PlateauSudAbidjanApril2016.JPG",
+  "credit": "Abidjan, 2016 · Photo : Citizen59 / Wikimedia Commons · CC BY 3.0 · recadrée",
+  "taille": [
+   1920,
+   1275
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Éthiopie",
+  "fichier": "villes/addis-abeba-skyline.jpg",
+  "montre": "immeubles d'Addis-Abeba",
+  "lieu": "Addis-Abeba",
+  "date": "2012-08-11",
+  "annee": "2012",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Simfan34",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Addis_Ababa_skyline.jpg",
+  "credit": "Addis-Abeba, 2012 · Photo : Simfan34 / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Égypte",
+  "fichier": "villes/caire-nil-gezira.jpg",
+  "montre": "le Nil et l'île de Gezira",
+  "lieu": "Le Caire",
+  "date": "2009-03-28",
+  "annee": "2009",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Andrew A. Shenouda from Cairo, Egypt",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Bakar_88_-_Cairo,_Egypt_(HDR).jpg",
+  "credit": "Le Caire, 2009 · Photo : Andrew A. Shenouda from Cairo, Egypt / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1279
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Maroc",
+  "fichier": "villes/casablanca-skyline.jpg",
+  "montre": "immeubles de Casablanca et minaret de la mosquée Hassan II",
+  "lieu": "Casablanca",
+  "date": "2007-04-02",
+  "annee": "2007",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "elchicogris",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Casablanca_(1).jpg",
+  "credit": "Casablanca, 2007 · Photo : elchicogris / Wikimedia Commons · CC BY-SA 2.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Ghana",
+  "fichier": "villes/accra-airport-city.jpg",
+  "montre": "rue du quartier Airport City",
+  "lieu": "Accra",
+  "date": "2013-09-15",
+  "annee": "2013",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "jbdodane",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Airport_City,_Greater_Accra_Street.jpg",
+  "credit": "Accra, 2013 · Photo : jbdodane / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1080
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Rwanda",
+  "fichier": "villes/kigali-centre.jpg",
+  "montre": "centre de Kigali",
+  "lieu": "Kigali",
+  "date": "2018-05-28",
+  "annee": "2018",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Adrien K",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kigali2018Cropped.jpg",
+  "credit": "Kigali, 2018 · Photo : Adrien K / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1280
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Tanzanie",
+  "fichier": "villes/dar-es-salaam-front-de-mer.jpg",
+  "montre": "front de mer de Dar es Salaam",
+  "lieu": "Dar es Salaam",
+  "date": "2009-09-06",
+  "annee": "2009",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Chen Hualin",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_waterfront_of_Dar_es_Salaam.JPG",
+  "credit": "Dar es Salaam, 2009 · Photo : Chen Hualin / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Algérie",
+  "fichier": "villes/alger-centre.jpg",
+  "montre": "centre d'Alger",
+  "lieu": "Alger",
+  "date": "02/03/2018",
+  "annee": "2018",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Tiger redd",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Alger_la_blanche_et_ses_merveilles.jpg",
+  "credit": "Alger, 2018 · Photo : Tiger redd / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1434
+  ]
+ },
+ {
+  "theme": "villes",
+  "pays": "Tunisie",
+  "fichier": "villes/tunis-avenue-bourguiba.jpg",
+  "montre": "avenue Habib-Bourguiba vue d'un toit",
+  "lieu": "Tunis",
+  "date": "2007-09",
+  "annee": "2007",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Josiehen",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ave_Habib_Bourguiba,_Tunis.JPG",
+  "credit": "Tunis, 2007 · Photo : Josiehen / Wikimedia Commons · CC BY-SA 3.0 · recadrée",
   "taille": [
    1920,
    1440
