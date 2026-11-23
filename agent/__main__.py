@@ -82,6 +82,7 @@ def main(argv: list[str] | None = None) -> int:
         from .config import appliquer_antenne
 
         cfg = appliquer_antenne(cfg, a.antenne)
+        os.environ["DECIDE_ANTENNE"] = a.antenne  # voix propre à l'antenne (agent/voix.py, antennes.<nom>.voix)
         os.environ["DRIVE_FOLDER_ID"] = cfg["lots"]["dossier_drive"]
         cle = cfg["antenne"].get("cle_buffer")
         if cle:  # les publieurs Buffer lisent BUFFER_API_KEY : celle de l'antenne la remplace pour ce passage

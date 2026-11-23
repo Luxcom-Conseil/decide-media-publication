@@ -525,7 +525,8 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
         try:
             pistes = {p["cle"]: p for p in narration_jt(charger_config(MOTION.parent / "config.yaml"), dits, dossier, "voix",
                                                         journal, style=STYLE_JT, continu=True,
-                                                        modeles=cfg_voix.get("modeles_jt"))}
+                                                        modeles=cfg_voix.get("modeles_jt"),
+                                                        voix=cfg_voix.get("gemini"))}  # voix propre à l'antenne
             colle = True
         except Exception as e:
             journal(f"    ↺ voix du 20 h indisponible ({str(e)[:120]}), voix phrase par phrase")

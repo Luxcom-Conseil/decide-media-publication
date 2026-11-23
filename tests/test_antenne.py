@@ -103,3 +103,16 @@ def test_carte_connait_les_54_pays():
             "Somalie", "Soudan", "Soudan du Sud", "Tanzanie", "Tchad", "Togo", "Tunisie", "Zambie", "Zimbabwe"]
     cle = lambda n: unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode().lower()
     assert len(pays) == 54 and not [p for p in pays if cle(p) not in lieux]
+
+
+def test_voix_feminine_pour_l_afrique_seulement(monkeypatch):
+    """Demande de Stéphane du 23/11/2026 : voix féminine pour l'Afrique ; Cameroun et Burkina gardent Schedar."""
+    from agent.voix import _reglages
+    monkeypatch.delenv("DECIDE_ANTENNE", raising=False)
+    assert _reglages()["nom"] == "fr-FR-Chirp3-HD-Schedar" and "gemini" not in _reglages()
+    monkeypatch.setenv("DECIDE_ANTENNE", "burkina")
+    assert _reglages()["nom"] == "fr-FR-Chirp3-HD-Schedar" and "gemini" not in _reglages()
+    monkeypatch.setenv("DECIDE_ANTENNE", "afrique")
+    r = _reglages()
+    assert r["gemini"] == "Kore" and r["nom"] == "fr-FR-Chirp3-HD-Kore"
+    assert r["journal_tv"] and r["active"]  # le reste du bloc voix ne change pas

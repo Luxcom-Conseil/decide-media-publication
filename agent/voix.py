@@ -30,8 +30,12 @@ class VoixIndisponible(RuntimeError):
 
 
 def _reglages() -> dict:
+    """Réglages de voix. Une antenne (variable DECIDE_ANTENNE, posée par l'agent) peut avoir sa propre voix :
+    antennes.<nom>.voix remplace, clé par clé, le bloc voix (« nom » pour Chirp, « gemini » pour la voix du 20 h)."""
     from .config import charger_config
-    return {**DEFAUTS, **(charger_config(RACINE / "config.yaml").get("voix") or {})}
+    cfg = charger_config(RACINE / "config.yaml")
+    propre = ((cfg.get("antennes") or {}).get(os.environ.get("DECIDE_ANTENNE", "")) or {}).get("voix") or {}
+    return {**DEFAUTS, **(cfg.get("voix") or {}), **propre}
 
 
 def _identifiants() -> dict:

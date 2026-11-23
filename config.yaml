@@ -254,6 +254,9 @@ antennes:
     journal: etat/lots_af.json
     photos_utilisees: etat/photos_utilisees_af.json
     prefixe_id: decide-af-          # identifiants des articles : jamais les mêmes que ceux du Cameroun et du Burkina
+    voix:                           # voix féminine, demande de Stéphane du 23/11/2026 (Cameroun et Burkina gardent Schedar)
+      gemini: Kore                  # voix du 20 h (Gemini), une prise
+      nom: fr-FR-Chirp3-HD-Kore     # secours Chirp, phrase par phrase
     buffer:
       canaux:
         tiktok_buffer: 6b04340c8541f09ecb75911a    # TikTok @decide_media_afrique (mention IA), fuseau Africa/Lagos
