@@ -1,0 +1,180 @@
+{
+  "accroches": [
+    "Le Cameroun demande de prolonger le projet PROLOG jusqu'en 2028.",
+    "660 450 personnes ont bénéficié des premiers ouvrages du projet PROLOG.",
+    "44,93 milliards FCFA sont déjà engagés pour le projet PROLOG."
+  ],
+  "titre": "Projet PROLOG : demande de prolongation",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Le Cameroun demande de prolonger PROLOG jusqu'en *2028*",
+      "dit": "Le gouvernement camerounais demande de prolonger le projet PROLOG jusqu'en décembre 2028."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Aucun *argent* supplémentaire n'est demandé",
+      "dit": "Selon Journal du Cameroun, cette demande de rallonge se fait sans aucun financement additionnel."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère de la Décentralisation et du Développement Local",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "La *Banque mondiale* a été reçue",
+      "dit": "Le 17 novembre 2026, le ministre de la Décentralisation a reçu une mission de la Banque mondiale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un bilan physique de *95,4 %*",
+      "dit": "Le bilan présenté pour le premier cycle affiche un taux d'exécution physique de 95,4 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Près de *500* ouvrages réalisés",
+      "dit": "Près de 500 ouvrages ont été construits au bénéfice de 660 450 personnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "44 930 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*44,93 milliards* FCFA déjà engagés",
+      "dit": "Pour le deuxième cycle, 44,93 milliards de francs CFA sont entièrement engagés par des conventions."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "20 décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Lancement prévu le *20 décembre*",
+      "dit": "Le ministre a réaffirmé le lancement des travaux à haute intensité de main-d'œuvre pour le 20 décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Priorité à la *main-d'œuvre* locale",
+      "dit": "Ces chantiers emploient principalement des ouvriers locaux plutôt que des machines."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*Trois* priorités fixées par l'État",
+      "dit": "Pour la prolongation, le gouvernement fixe trois priorités dont la participation des femmes et des jeunes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2026-2035",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Alignement sur la *stratégie* nationale",
+      "dit": "Le projet doit aussi s'aligner sur la Stratégie nationale de la décentralisation 2026-2035."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réponse de la mission *inconnue*",
+      "dit": "Journal du Cameroun ne précise pas la réponse de la Banque mondiale à cette demande."
+    }
+  ]
+}

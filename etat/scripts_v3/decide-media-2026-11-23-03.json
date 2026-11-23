@@ -1,0 +1,163 @@
+{
+  "accroches": [
+    "Plus de 10 000 parties par million de cobalt mesurées à Elig-Mfomo.",
+    "Des teneurs de cobalt de plus de 1 % détectées au Cameroun.",
+    "Une étude révèle des concentrations records de cobalt dans la Lékié."
+  ],
+  "titre": "Du cobalt découvert à Elig-Mfomo",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Plus de *10 000* ppm de cobalt",
+      "dit": "Plus de 10 000 parties par million de cobalt ont été mesurées dans la commune d'Elig-Mfomo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Dans la région du *Centre*",
+      "dit": "Selon l'étude parue le 28 octobre 2026 dans Discover Geoscience, ces teneurs dépassent 1 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cinq *chercheurs* camerounais mobilisés",
+      "dit": "Cinq chercheurs camerounais ont analysé 14 échantillons de roches et 9 échantillons de sols."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *0,75 %* de nickel",
+      "dit": "Les teneurs en nickel vont de 928 à 7 530 parties par million, soit jusqu'à 0,75 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le long de six *tranchées*",
+      "dit": "Ces prélèvements ont été réalisés le long de six tranchées de deux mètres de profondeur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *goethite* concentre les métaux",
+      "dit": "Le minéral principal associé à la concentration de ces métaux est la goethite."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Similitudes avec l'*Est*",
+      "dit": "Cette configuration présente des similitudes avec les gisements de Nkamouna et de Lomié."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas de *mine* immédiate",
+      "dit": "Cependant, l'expert en mines Herman Ngono met en garde contre l'idée d'un gisement exploitable."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Éviter l'*exportation* brute",
+      "dit": "De son côté, l'expert Michel Bissou estime que le pays ne doit pas viser seulement l'exportation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "28 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucune *date* d'exploitation",
+      "dit": "DataCameroon précise qu'aucun tonnage ni aucune date d'exploitation ne sont pour l'instant annoncés."
+    }
+  ]
+}

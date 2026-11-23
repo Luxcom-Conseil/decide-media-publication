@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "36,9 milliards de FCFA de chiffre d'affaires pour les aéroports du Cameroun.",
+    "Aéroports du Cameroun lancent MAARCH, une plateforme numérique interne.",
+    "2,54 milliards de FCFA de bénéfice net pour Aéroports du Cameroun en 2025."
+  ],
+  "titre": "Aéroports du Cameroun : nouvelle plateforme",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala International Airport",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "36,9 milliards *de FCFA* de chiffre d'affaires",
+      "dit": "Aéroports du Cameroun a enregistré environ 36,9 milliards de FCFA de chiffre d'affaires en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le bénéfice *net* a baissé de 72 %",
+      "dit": "Son bénéfice net a baissé de 72 %, à 2,54 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Lancement *officiel* de la plateforme MAARCH",
+      "dit": "L'entreprise, qui gère sept aéroports, a lancé officiellement le 17 novembre 2026 une plateforme numérique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réduction des délais *de traitement* des dossiers",
+      "dit": "Nommée MAARCH, cette solution interne vise à réduire les délais de traitement des documents."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le directeur *général* a fait le lancement",
+      "dit": "Le lancement a été fait par le directeur général, Thomas Owona Assoumou, selon Business in Cameroon."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Partager et *traiter* les documents par voie électronique",
+      "dit": "La plateforme sert à partager, traiter et stocker les documents entre services par voie électronique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réduire la circulation *de dossiers* papier",
+      "dit": "L'objectif est de réduire la circulation de dossiers papier et d'améliorer la gestion interne."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "1,77 million *de passagers* accueillis en 2024",
+      "dit": "En 2024, les aéroports camerounais ont accueilli 1,77 million de passagers, soit 5,6 % de plus qu'en 2023."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Douala est resté *l'aéroport* le plus actif",
+      "dit": "Douala est resté l'aéroport le plus actif en 2024, avec 18 436 mouvements d'avions."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "75 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un programme *d'investissement* de 75 milliards",
+      "dit": "En septembre 2025, l'entreprise avait annoncé un programme d'investissement de 75 milliards de FCFA sur trois ans."
+    }
+  ]
+}

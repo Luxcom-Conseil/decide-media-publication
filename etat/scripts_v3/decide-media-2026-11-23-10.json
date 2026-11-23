@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "828 FCFA le litre de gasoil à Douala en novembre 2026.",
+    "Le coût d'importation du gasoil atteint 984,46 FCFA en novembre 2026.",
+    "L'écart avec le prix à la pompe est de 156,46 FCFA par litre."
+  ],
+  "titre": "Prix du gasoil au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Gasoil à *828 FCFA* à Douala",
+      "dit": "À Douala, le gasoil reste vendu 828 FCFA le litre à la pompe en novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "984,46",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Coût d'importation à *984,46 FCFA*",
+      "dit": "Son seul coût d'importation atteint 984,46 FCFA, selon la grille de la CSPH."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse depuis le mois *d'octobre*",
+      "dit": "En octobre, ce coût d'importation était de 974,93 FCFA selon la même source."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "156,46",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un écart de *156,46 FCFA*",
+      "dit": "L'écart avec le prix à la pompe est ainsi de 156,46 FCFA par litre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "439,83",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Soutien unitaire à *439,83 FCFA*",
+      "dit": "Le soutien unitaire inscrit dans la structure tarifaire passe à 439,83 FCFA en novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "octobre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Il était à *430,30 FCFA* avant",
+      "dit": "Ce montant s'élevait à 430,30 FCFA en octobre dernier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "57 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "57 milliards de FCFA *en septembre*",
+      "dit": "Le ministre des Finances a évalué à 57 milliards de FCFA le soutien aux carburants en septembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le super à *840 FCFA*",
+      "dit": "Un rapport de suivi conjoint donnait le super à 840 FCFA en juin 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 250",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *1 250 FCFA* au nord",
+      "dit": "Dans le circuit informel, le carburant du Nigeria se vendait jusqu'à environ 1 250 FCFA dans le Nord-Ouest."
+    }
+  ]
+}

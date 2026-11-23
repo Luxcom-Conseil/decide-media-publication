@@ -1,0 +1,112 @@
+{
+  "accroches": [
+    "3,4 % de croissance pour le PIB du Cameroun au premier trimestre 2026.",
+    "L'investissement public recule de 15,9 % au premier trimestre 2026 au Cameroun.",
+    "La consommation privée augmente de 3,9 % sur un an au Cameroun."
+  ],
+  "titre": "Croissance et investissement au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Institut national de la statistique du Cameroun",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Une *croissance* de 3,4 % au premier trimestre",
+      "dit": "Le produit intérieur brut réel du Cameroun a progressé de 3,4 % au premier trimestre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un rythme *proche* de l'année précédente",
+      "dit": "Selon l'Institut national de la statistique, le rythme reste proche de l'année 2025 entière."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Progression de 1,6 % d'un *trimestre*",
+      "dit": "D'un trimestre à l'autre, le PIB réel progresse de 1,6 % après correction des effets saisonniers."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les services progressent de *4,6* pour cent",
+      "dit": "Sur un an, les services progressent de 4,6 % et le secteur secondaire de 2,9 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le secteur primaire augmente de *0,7* pour cent",
+      "dit": "Le secteur primaire ne progresse que de 0,7 %, freiné par l'agriculture industrielle et d'exportation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La *consommation* privée en hausse",
+      "dit": "Du côté de la demande, la consommation privée augmente de 3,9 % sur un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'investissement privé *augmente* de 12,3 pour cent",
+      "dit": "L'investissement total augmente de 8,0 %, porté par l'investissement privé en hausse de 12,3 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'investissement public *recule*",
+      "dit": "En revanche, l'investissement public recule de 15,9 % sur la même période."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Baisse de 27,7 % d'un *trimestre* à l'autre",
+      "dit": "D'un trimestre à l'autre, cet investissement public baisse de 27,7 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse des *importations*",
+      "dit": "Les importations augmentent de 22,8 % sur un an au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les *exportations* progressent de 3,8 pour cent",
+      "dit": "Les exportations affichent quant à elles une hausse de 3,8 % selon l'institut."
+    }
+  ]
+}

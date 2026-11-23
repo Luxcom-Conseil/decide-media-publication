@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "Une caravane nationale sillonne le Cameroun pour déclarer les naissances.",
+    "Le BUNEC lance une tournée du Sud au Nord pour les actes.",
+    "L'UNICEF offre un camion spécial pour enregistrer les enfants."
+  ],
+  "titre": "Caravane des naissances au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une *caravane* pour les naissances",
+      "dit": "Une caravane du BUNEC a quitté Yaoundé le 16 novembre 2026 pour une tournée nationale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Du *Sud* au *Nord*",
+      "dit": "Cette tournée doit traverser le pays du Sud au Nord avec des séances d'enregistrement en chemin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un camion offert par *l'Unicef*",
+      "dit": "Selon le Journal du Cameroun, ce camion a été offert par l'UNICEF au Bureau national de l'état civil."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "16 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Première halte à *Abong-Mbang*",
+      "dit": "Sa première halte a eu lieu le lundi 16 novembre à Abong-Mbang avec les autorités locales."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Bertoua | Ngaoundéré | Garoua",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plusieurs *villes* visitées",
+      "dit": "La caravane doit ensuite sillonner Bertoua, Meiganga, Ngaoundéré, Ngong et Garoua."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Régulariser la situation des *enfants*",
+      "dit": "Des séances de sensibilisation permettront aux parents de régulariser la situation de leurs enfants."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un challenge dans 374 *communes*",
+      "dit": "Un challenge a aussi été lancé par l'UNICEF avec le BUNEC et le Minddevel auprès des communes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Garoua II championne de la *citoyenneté*",
+      "dit": "La commune de Garoua II est devenue championne nationale de la citoyenneté lors de ce projet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Remise officielle le *30 novembre*",
+      "dit": "Le camion doit lui être remis officiellement le 30 novembre prochain."
+    }
+  ]
+}
