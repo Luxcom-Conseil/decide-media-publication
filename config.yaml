@@ -247,3 +247,25 @@ antennes:
       creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30", "09:30", "21:15"]
       creneaux_par_reseau:
         tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15", "12:45", "15:45", "18:45", "09:45", "21:30"]
+  afrique:                          # DECIDE MEDIA Afrique, préparé le 23/11/2026 : tout le continent, YouTube et TikTok seulement
+    actif: false                    # à passer à true après les comptes, le Buffer Afrique et le lot test (feu vert de Stéphane)
+    cle_buffer: BUFFER_API_KEY_AFRIQUE        # quatrième compte Buffer (compte Google de l'antenne Afrique)
+    banque_photos: banque_photos_af
+    journal: etat/lots_af.json
+    photos_utilisees: etat/photos_utilisees_af.json
+    prefixe_id: decide-af-          # identifiants des articles : jamais les mêmes que ceux du Cameroun et du Burkina
+    buffer:
+      canaux:
+        youtube_buffer: A_REMPLIR   # YouTube « DECIDE MEDIA Afrique » dans le Buffer Afrique
+        tiktok_buffer: A_REMPLIR    # TikTok DECIDE MEDIA Afrique (mention IA)
+    lots:
+      dossier_drive: 1TPiTLFrUdYSG1KlO23FHsfXRTNXy6E4U   # « Afrique », sous-dossier de « Article DECIDE MEDIA - Quotidien »
+      # Au départ YouTube par Buffer (2 Shorts par jour au plus, comme le Burkina le 22/11) ; youtube_af (API directe,
+      # secrets YOUTUBE_*_AFRIQUE) dès que le projet Google de la chaîne est autorisé.
+      reseaux: [youtube_buffer, tiktok_buffer]
+      max_par_lot: {youtube_buffer: 2, youtube_af: 10, tiktok_buffer: 10}
+      rattrapage: {actif: false}
+      fuseau_creneaux: Africa/Lagos             # UTC+1 : Afrique centrale et Ouest anglophone, Paris en hiver
+      creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30", "09:30", "21:15"]
+      creneaux_par_reseau:
+        tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15", "12:45", "15:45", "18:45", "09:45", "21:30"]

@@ -72,3 +72,29 @@ def test_youtube_direct_burkina_a_ses_propres_identifiants(monkeypatch):
         monkeypatch.delenv(v, raising=False)
     assert YouTube.est_configure() and not YouTubeBurkina.est_configure()  # jamais les identifiants du Cameroun
     assert all(v.endswith("_BURKINA") for v in YouTubeBurkina.variables)
+
+
+def test_afrique_remplace_drive_reseaux_fuseau_et_reste_inactive(cfg):
+    a = appliquer_antenne(cfg, "afrique")
+    assert a["lots"]["dossier_drive"] == "1TPiTLFrUdYSG1KlO23FHsfXRTNXy6E4U"
+    assert a["lots"]["dossier_drive"] not in (cfg["lots"]["dossier_drive"], appliquer_antenne(cfg, "burkina")["lots"]["dossier_drive"])
+    assert set(a["lots"]["reseaux"]) <= {"youtube_buffer", "youtube_af", "tiktok_buffer"}
+    assert a["lots"]["fuseau_creneaux"] == "Africa/Lagos"
+    assert set(a["buffer"]["canaux"]) == {"youtube_buffer", "tiktok_buffer"}
+    assert a["antenne"]["prefixe_id"] == "decide-af-" and a["antenne"]["journal"] == "etat/lots_af.json"
+    assert a["antenne"]["actif"] is False  # aucun lot Afrique ne part avant les comptes et le feu vert
+    assert cfg["lots"]["fuseau_creneaux"] == "Africa/Douala"
+
+
+def test_carte_connait_les_54_pays():
+    import json
+    import unicodedata
+    lieux = json.loads((RACINE / "motion" / "src" / "lieux.json").read_text(encoding="utf-8"))
+    pays = ["Afrique du Sud", "Algérie", "Angola", "Bénin", "Botswana", "Burkina Faso", "Burundi", "Cabo Verde", "Cameroun",
+            "Centrafrique", "Comores", "Congo", "Côte d'Ivoire", "Djibouti", "Égypte", "Érythrée", "Eswatini", "Éthiopie",
+            "Gabon", "Gambie", "Ghana", "Guinée", "Guinée-Bissau", "Guinée équatoriale", "Kenya", "Lesotho", "Liberia",
+            "Libye", "Madagascar", "Malawi", "Mali", "Maroc", "Maurice", "Mauritanie", "Mozambique", "Namibie", "Niger",
+            "Nigeria", "Ouganda", "RD Congo", "Rwanda", "Sao Tomé-et-Principe", "Sénégal", "Seychelles", "Sierra Leone",
+            "Somalie", "Soudan", "Soudan du Sud", "Tanzanie", "Tchad", "Togo", "Tunisie", "Zambie", "Zimbabwe"]
+    cle = lambda n: unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode().lower()
+    assert len(pays) == 54 and not [p for p in pays if cle(p) not in lieux]

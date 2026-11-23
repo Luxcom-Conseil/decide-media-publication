@@ -157,3 +157,11 @@ class YouTubeBurkina(YouTube):
     suffixe = "_BURKINA"
     variables = ("YOUTUBE_CLIENT_ID_BURKINA", "YOUTUBE_CLIENT_SECRET_BURKINA", "YOUTUBE_REFRESH_TOKEN_BURKINA")
 
+
+class YouTubeAfrique(YouTube):
+    """Chaîne « DECIDE MEDIA Afrique » par l'API directe, avec son propre projet Google Cloud (préparé le 23/11/2026,
+    à activer dans antennes.afrique.lots.reseaux une fois les secrets YOUTUBE_*_AFRIQUE en place)."""
+    nom = "youtube_af"
+    suffixe = "_AFRIQUE"
+    variables = ("YOUTUBE_CLIENT_ID_AFRIQUE", "YOUTUBE_CLIENT_SECRET_AFRIQUE", "YOUTUBE_REFRESH_TOKEN_AFRIQUE")
+
