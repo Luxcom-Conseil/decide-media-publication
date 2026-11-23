@@ -1,0 +1,161 @@
+{
+  "accroches": [
+    "Un projet de 448 milliards FCFA pèse 42 % du carnet de GHV.",
+    "Le projet d'usine à Bekoko représente 448 milliards de FCFA.",
+    "Une seule usine au Cameroun concentre 89 % de l'international d'un groupe."
+  ],
+  "titre": "Projet de pneus à Bekoko : 448 milliards",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Un projet de *448 milliards* FCFA",
+      "dit": "Un projet d'usine de pneus au Cameroun représente 448 milliards de FCFA pour l'entreprise indienne GHV."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "42,3 % du *carnet* total",
+      "dit": "Ce projet situé à Bekoko constitue 42,3 % du carnet de commandes total déclaré par ce groupe."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 058 700 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un carnet de *1 058,7 milliards*",
+      "dit": "Selon une présentation aux investisseurs du 17 novembre 2026, le carnet total atteint 1 058,7 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*89,3 %* des commandes internationales",
+      "dit": "Sur ses 7 840 crores de roupies à l'international, l'usine camerounaise concentre 89,3 % de la valeur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "9 mai 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Lettre d'intention du *9 mai 2026*",
+      "dit": "Le 9 mai 2026, GHV avait annoncé à la Bourse de Bombay une lettre d'intention pour ce marché."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "413 300 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un montant initial de *413,3 milliards*",
+      "dit": "Ce marché était alors évalué à 630 millions d'euros hors taxes, soit environ 413,3 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "36 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Délai prévu de *36 mois*",
+      "dit": "Le délai d'exécution annoncé était de 36 mois à partir de la notification de l'ordre de démarrage."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*7,6 millions* de pneus par an",
+      "dit": "Le projet prévoit la création d'une usine capable de produire 7,6 millions de pneus chaque année."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Porté par *Cameroon Tyres Factory*",
+      "dit": "Selon Investir au Cameroun, ce projet est porté par l'entreprise Cameroon Tyres Factory Project SA."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque de développement des États de l'Afrique centrale",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Prêt BDEAC de *65,6 milliards*",
+      "dit": "De son côté, la BDEAC a approuvé le 23 décembre 2024 un prêt de 65,6 milliards de FCFA."
+    }
+  ]
+}

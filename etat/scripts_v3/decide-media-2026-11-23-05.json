@@ -1,0 +1,180 @@
+{
+  "accroches": [
+    "Les États-Unis lient-ils leur aide sécuritaire aux mines camerounaises ?",
+    "334 milliards de FCFA d'intentions américaines dans les mines au Cameroun.",
+    "L'aide sécuritaire américaine au Cameroun dépend de deux projets miniers."
+  ],
+  "titre": "Mines au Cameroun : l'aide des États-Unis",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "334 milliards de *projets* américains",
+      "dit": "334 milliards de FCFA d'intentions américaines sont annoncés dans le secteur minier camerounais."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *hypothèse* sur la sécurité",
+      "dit": "Une étude publiée ce mois-ci avance que l'aide sécuritaire des États-Unis pourrait dépendre de ces accès."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun *accord* officiel prouvé",
+      "dit": "Selon Investir au Cameroun, les auteurs ne produisent aucun document officiel prouvant ce lien."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des *sources* diplomatiques citées",
+      "dit": "L'étude s'appuie sur des entretiens avec des diplomates réalisés à Yaoundé en février 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Deux *gisements* stratégiques concernés",
+      "dit": "Deux projets sont cités : Nkamouna-Lomié dans l'Est et Akonolinga dans la région du Centre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des *intentions* d'investissements",
+      "dit": "Le ministère de l'Économie évoque 500 millions de dollars pour le rutile et 85 millions pour Nkamouna."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *entreprises* non nommees",
+      "dit": "Ces montants représentent de simples intentions d'entreprises non nommées par le ministère."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 février 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *permis* minier retire",
+      "dit": "Sur Nkamouna, le permis qu'avait détenu Geovic a été retiré par décret présidentiel le 12 février 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *revendication* du groupe",
+      "dit": "L'entreprise Geovic affirme que ses droits miniers restent valables sur le site de Nkamouna."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "9 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *rencontre* diplomatique recente",
+      "dit": "Le 9 novembre 2026, le ministre Alamine Ousmane Mey a reçu le chargé d'affaires américain."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *dialogue* prevu aux USA",
+      "dit": "Selon le ministère, une deuxième édition du dialogue économique est prévue en 2027 aux États-Unis."
+    }
+  ]
+}

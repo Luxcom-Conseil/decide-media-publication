@@ -1,0 +1,185 @@
+{
+  "accroches": [
+    "Les investisseurs au Cameroun détiennent 84,9 % des titres du pays.",
+    "L'encours local des titres publics camerounais atteint 1 855,3 milliards FCFA.",
+    "Les investisseurs du Cameroun détiennent la moitié du marché régional."
+  ],
+  "titre": "Titres publics : la part du Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque des Etats de l'Afrique Centrale",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "84,9 % des titres *détenus* localement",
+      "dit": "Les investisseurs installés au Cameroun détiennent 84,9 % des titres émis par l'État à fin septembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une part en *hausse* sur un mois",
+      "dit": "Selon la BEAC rapportée par Cameroun24, cette part était de 83,4 % un mois plus tôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 855,3 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "1 855,3 milliards *FCFA* d'avoirs",
+      "dit": "En septembre, leurs avoirs en titres du Trésor camerounais sont passés à 1 855,3 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 132,8 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *hausse* de 132,8 milliards",
+      "dit": "Cela représente une augmentation de 132,8 milliards de FCFA sur un seul mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2 184,4 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Encours total : 2 184,4 *milliards*",
+      "dit": "L'encours total des titres émis par le Cameroun atteint 2 184,4 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun | Congo | Gabon",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des placements dans toute la *Cemac*",
+      "dit": "Ces investisseurs détiennent aussi 3 681,2 milliards de FCFA de titres des autres États de la Cemac."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "68,1 %",
+        "apres": "66,5 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "66,5 % du *portefeuille* régional",
+      "dit": "Ces titres régionaux comptent pour 66,5 % de leur portefeuille global, contre 68,1 % fin août."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "50,3 % du *marché* régional",
+      "dit": "Les acteurs établis au Cameroun détiennent 50,3 % du marché régional des titres publics."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Direction generale du Tresor",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Chiffre *confirmé* par la France",
+      "dit": "De son côté, le Trésor français retient également ce chiffre de 50,3 % pour septembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des chiffres de *valeurs* en circulation",
+      "dit": "Cameroun24 précise qu'une hausse ne signifie pas que l'État a reçu de nouveaux financements."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Septembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bénéficiaires non *détaillés*",
+      "dit": "La BEAC ne précise pas les établissements concernés ni la nationalité des bénéficiaires économiques."
+    }
+  ]
+}
