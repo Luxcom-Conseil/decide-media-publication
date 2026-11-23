@@ -255,6 +255,58 @@ def script_secours(article: dict) -> dict | None:
     return {"titre": article.get("title", ""), "scenes": scenes}
 
 
+# Série « Le point pays » (antenne Afrique, décision de Stéphane du 23/11/2026, test de 2 semaines) : 3 à 5 brèves sur un
+# même pays, qui s'enchaînent avec un décompte à l'écran, 2 minutes au plus. Le script se construit sans IA, à partir des
+# phrases que la production a écrites et contre-lues (champ `serie` du manifeste) : aucun chiffre ne peut s'y glisser.
+SERIE_TYPE = "serie_pays"
+BANQUES = ("banque_photos_af", "banque_photos", "banque_photos_bf")
+
+
+def est_serie(article: dict) -> bool:
+    return article.get("editorial_type") == SERIE_TYPE and bool((article.get("serie") or {}).get("breves"))
+
+
+def script_serie(article: dict) -> dict | None:
+    """Accroche de la série, puis pour chaque brève une carte « n/total » avec son titre et sa première phrase, et ses
+    autres phrases sur sa photo, le compteur affiché. None si le champ serie est inutilisable."""
+    se = article.get("serie") or {}
+    breves = [b for b in se.get("breves") or [] if b.get("titre") and b.get("phrases")]
+    if not 3 <= len(breves) <= 5:
+        return None
+    pays = article.get("country") or ""
+    accroche = str(se.get("accroche") or article.get("title") or "")
+    # « Le point Nigeria » contient déjà le pays : la voix ne le répète pas
+    tete = accroche if not pays or pays.lower() in accroche.lower() else f"{accroche} {pays}"
+    scenes = [{"type": "accroche", "fond": None, "ecran": accroche,
+               "dit": f"{tete.rstrip(' .:')} : les {len(breves)} infos du jour.", "photo_page": breves[0].get("photo_page")}]
+    for n, b in enumerate(breves, 1):
+        c = {"n": n, "total": len(breves)}
+        phrases = [str(x).strip() for x in b["phrases"] if str(x).strip()]
+        scenes.append({"type": "breve", "ecran": b["titre"], "dit": phrases[0], "compteur": c, "photo_page": b.get("photo_page")})
+        scenes += [{"type": "explication", "illustration": {"type": "photo"}, "fond": None, "ecran": "", "dit": x,
+                    "compteur": c, "photo_page": b.get("photo_page")} for x in phrases[1:]]
+    return {"titre": article.get("title", ""), "scenes": scenes}
+
+
+def photo_de_banque(page: str | None, dossier: Path, nom: str) -> dict | None:
+    """La photo d'une banque du dépôt (Afrique, Cameroun, Burkina) dont la page Commons est `page`, copiée pour le rendu."""
+    from .lots import cle_photo
+    if not page:
+        return None
+    for banque in BANQUES:
+        racine = MOTION.parent / banque
+        try:
+            index = json.loads((racine / "index.json").read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        e = next((e for e in index if cle_photo(e.get("page")) == cle_photo(page)), None)
+        if e:
+            cible = dossier / f"{nom}{Path(e['fichier']).suffix}"
+            shutil.copy(racine / e["fichier"], cible)
+            return {"src": f"_v3/{cible.name}", "video": False, "credit": e["credit"]}
+    return None
+
+
 def script_v3(article: dict, cfg: dict, journal=print, cache: Path | None = None) -> dict | None:
     fichier = cache / f"{article.get('id', 'article')}.json" if cache else None
     if fichier and fichier.exists():
@@ -392,9 +444,11 @@ def rendre_production(article: dict, image: Path, sortie: Path, journal=print, e
     les passages."""
     from .config import charger_config
     from .gabarit_v2 import rendre_v2
-    ecrit = None
+    ecrit = script_serie(article) if est_serie(article) else None
+    if ecrit:
+        journal(f"    serie {article.get('country')} : {sum(sc['type'] == 'breve' for sc in ecrit['scenes'])} brèves, script tiré du manifeste")
     try:
-        ecrit = script_v3(article, charger_config(MOTION.parent / "config.yaml"), journal, cache=SCRIPTS_V3)
+        ecrit = ecrit or script_v3(article, charger_config(MOTION.parent / "config.yaml"), journal, cache=SCRIPTS_V3)
     except Exception as e:  # l'IA ne bloque jamais la publication
         journal(f"⚠️ Script V3 indisponible ({type(e).__name__} : {str(e)[:200]})")
     if not ecrit:
@@ -415,7 +469,17 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
     scenes, dits, pris = [], [], set()
     for k, sc in enumerate(ecrit["scenes"]):
         s = {"type": sc["type"], "ecran": _insecables(sc.get("ecran") or "") or None, "soustitre": _insecables(sc["dit"])}
-        if sc["type"] == "explication":
+        if sc.get("compteur"):
+            s["compteur"] = sc["compteur"]
+        if sc.get("photo_page"):  # série : la photo de la brève, prise dans une banque vérifiée
+            media = photo_de_banque(sc["photo_page"], dossier, f"breve{k}")
+            if media:
+                s["media"] = media
+                if sc["type"] == "explication":
+                    s["type"] = "media"
+        if s.get("media"):
+            pass
+        elif sc["type"] == "explication":
             s["illustration"] = {c: v for c, v in (sc.get("illustration") or {}).items() if v is not None} or {"type": "photo"}
         elif sc.get("fond"):
             media = _fond(sc["fond"], dossier, f"fond{k}", pris, journal)
@@ -481,7 +545,7 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
     if avant < DUREE_MIN:
         journal(f"      ⏱ {avant:.1f} s → {etirer(scenes):.1f} s ({DUREE_MIN:.0f} s au moins)")
     editeurs = list(dict.fromkeys((s or {}).get("publisher") for s in article.get("sources") or [] if (s or {}).get("publisher")))
-    props = {"rubrique": "VOUS AVEZ DEMANDÉ" if question_du_public(article) else "INFO",
+    props = {"rubrique": "VOUS AVEZ DEMANDÉ" if question_du_public(article) else "LE POINT" if est_serie(article) else "INFO",
              "lieu": article.get("country"), "date": _date_fr(article.get("event_date")), "titre": ecrit.get("titre") or article.get("title", ""),
              "image": f"_v3/{nom_image}", "source": ("Source : " + ", ".join(editeurs[:3])) if editeurs else None,
              "scenes": scenes, "musique": "melodie.wav", "volume_musique": 0.10}

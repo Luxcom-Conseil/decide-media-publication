@@ -25,7 +25,9 @@ const G = 60, D = 150; // marges gauche / droite
 export type MediaV3 = { src: string; video: boolean; credit?: string; logo?: boolean; voile?: boolean };
 
 export type SceneV3 = {
-  type: "accroche" | "media" | "explication" | "outro";
+  type: "accroche" | "media" | "explication" | "outro" | "breve";
+  // série « Le point pays » (antenne Afrique, 23/11/2026) : numéro de la brève et nombre de brèves, affichés à l'écran
+  compteur?: { n: number; total: number };
   ecran?: string; // *mot clé* en orange
   illustration?: Illustration;
   media?: MediaV3;
@@ -182,6 +184,29 @@ const ScMedia: React.FC<{ sc: SceneV3 }> = ({ sc }) => (
   </>
 );
 
+// série : carte d'ouverture de chaque brève, le grand numéro puis le titre de la brève
+const Breve: React.FC<{ sc: SceneV3 }> = ({ sc }) => (
+  <>
+    <Pop style={{ position: "absolute", top: 470, left: 0, right: 0, textAlign: "center" }}>
+      <span style={{ fontFamily, fontWeight: 900, fontSize: 230, lineHeight: 1, color: ORANGE, textShadow: "0 10px 40px rgba(0,0,0,0.7)" }}>
+        {sc.compteur?.n}</span>
+      <span style={{ fontFamily, fontWeight: 800, fontSize: 90, color: BLANC, textShadow: "0 6px 24px rgba(0,0,0,0.7)" }}>/{sc.compteur?.total}</span>
+    </Pop>
+    {sc.ecran && <Cinetique texte={sc.ecran} taille={sc.ecran.length > 28 ? 72 : 84} top={860} />}
+  </>
+);
+
+// série : le numéro de la brève en cours, et une pastille par brève (faites en orange)
+const Compteur: React.FC<{ c: { n: number; total: number } }> = ({ c }) => (
+  <div style={{ position: "absolute", top: 1170, left: G, display: "flex", alignItems: "center", gap: 14 }}>
+    <div style={{ background: ORANGE, color: BLANC, fontFamily, fontWeight: 900, fontSize: 40, padding: "4px 18px", borderRadius: 10,
+      boxShadow: "0 6px 20px rgba(0,0,0,0.5)" }}>{c.n}/{c.total}</div>
+    {Array.from({ length: c.total }, (_, k) => (
+      <div key={k} style={{ width: 20, height: 20, borderRadius: 10, background: k < c.n ? ORANGE : "rgba(255,255,255,0.35)" }} />
+    ))}
+  </div>
+);
+
 const Outro: React.FC<{ s: ScriptV3 }> = ({ s }) => (
   <AbsoluteFill style={{ top: 420, height: 800, alignItems: "center", justifyContent: "center", textAlign: "center" }}>
     <Pop><div style={{ fontFamily, fontWeight: 900, fontSize: 120, color: BLANC }}>DEC<span style={{ color: ORANGE }}>I</span>DE
@@ -268,7 +293,9 @@ export const GabaritV3: React.FC<ScriptV3> = (s) => {
             {p.sc.type === "media" && <ScMedia sc={p.sc} />}
             {p.sc.type === "explication" && <Explication sc={p.sc} image={s.image} />}
             {p.sc.type === "outro" && <Outro s={s} />}
+            {p.sc.type === "breve" && <Breve sc={p.sc} />}
           </Punch>
+          {p.sc.compteur && p.sc.type !== "breve" && <Compteur c={p.sc.compteur} />}
           <SousTitres sc={p.sc} />
           <Credit texte={p.sc.media?.credit} />
           {p.sc.voix && <Sequence from={avant(p.sc)}><Audio src={staticFile(p.sc.voix.src)} /></Sequence>}
