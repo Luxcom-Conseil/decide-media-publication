@@ -262,9 +262,8 @@ antennes:
         tiktok_buffer: 6b04340c8541f09ecb75911a    # TikTok @decide_media_afrique (mention IA), fuseau Africa/Lagos
     lots:
       dossier_drive: 1TPiTLFrUdYSG1KlO23FHsfXRTNXy6E4U   # « Afrique », sous-dossier de « Article DECIDE MEDIA - Quotidien »
-      # TikTok par Buffer. Le compte Buffer du Burkina n'a plus de place gratuite : YouTube passera par youtube_af
-      # (API directe, secrets YOUTUBE_*_AFRIQUE) dès que le projet Google de la chaîne est autorisé.
-      reseaux: [tiktok_buffer]
+      # TikTok par le Buffer du Burkina ; YouTube en direct par l'API (youtube_af, secrets YOUTUBE_*_AFRIQUE, autorisé le 23/11/2026).
+      reseaux: [youtube_af, tiktok_buffer]   # YouTube en direct depuis le 23/11/2026 (chaîne DECIDE MEDIA AFRIQUE)
       max_par_lot: {youtube_af: 10, tiktok_buffer: 10}
       rattrapage: {actif: false}
       fuseau_creneaux: Africa/Lagos             # UTC+1 : Afrique centrale et Ouest anglophone, Paris en hiver

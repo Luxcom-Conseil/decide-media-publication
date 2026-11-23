@@ -78,7 +78,7 @@ def test_afrique_remplace_drive_reseaux_fuseau_et_est_active(cfg):
     a = appliquer_antenne(cfg, "afrique")
     assert a["lots"]["dossier_drive"] == "1TPiTLFrUdYSG1KlO23FHsfXRTNXy6E4U"
     assert a["lots"]["dossier_drive"] not in (cfg["lots"]["dossier_drive"], appliquer_antenne(cfg, "burkina")["lots"]["dossier_drive"])
-    assert set(a["lots"]["reseaux"]) <= {"youtube_buffer", "youtube_af", "tiktok_buffer"}
+    assert a["lots"]["reseaux"] == ["youtube_af", "tiktok_buffer"]  # YouTube en direct depuis le 23/11/2026
     assert a["lots"]["fuseau_creneaux"] == "Africa/Lagos"
     # TikTok Afrique = 3e chaîne du compte Buffer du Burkina (23/11/2026) : même clé, jamais la même chaîne
     bf = appliquer_antenne(cfg, "burkina")
