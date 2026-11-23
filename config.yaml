@@ -248,7 +248,7 @@ antennes:
       creneaux_par_reseau:
         tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15", "12:45", "15:45", "18:45", "09:45", "21:30"]
   afrique:                          # DECIDE MEDIA Afrique, préparé le 23/11/2026 : tout le continent, YouTube et TikTok seulement
-    actif: false                    # à passer à true après les comptes, le Buffer Afrique et le lot test (feu vert de Stéphane)
+    actif: true                     # activée le 23/11/2026 (lot test 2026-11-23_TEST relu, 10 articles ; « effectues les 4 tâches »)
     cle_buffer: BUFFER_API_KEY_BURKINA        # compte Buffer du Burkina (3e chaîne du plan gratuit, connectée le 23/11/2026)
     banque_photos: banque_photos_af
     journal: etat/lots_af.json

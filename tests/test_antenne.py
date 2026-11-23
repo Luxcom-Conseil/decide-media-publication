@@ -74,7 +74,7 @@ def test_youtube_direct_burkina_a_ses_propres_identifiants(monkeypatch):
     assert all(v.endswith("_BURKINA") for v in YouTubeBurkina.variables)
 
 
-def test_afrique_remplace_drive_reseaux_fuseau_et_reste_inactive(cfg):
+def test_afrique_remplace_drive_reseaux_fuseau_et_est_active(cfg):
     a = appliquer_antenne(cfg, "afrique")
     assert a["lots"]["dossier_drive"] == "1TPiTLFrUdYSG1KlO23FHsfXRTNXy6E4U"
     assert a["lots"]["dossier_drive"] not in (cfg["lots"]["dossier_drive"], appliquer_antenne(cfg, "burkina")["lots"]["dossier_drive"])
@@ -87,7 +87,7 @@ def test_afrique_remplace_drive_reseaux_fuseau_et_reste_inactive(cfg):
     assert a["buffer"]["canaux"]["tiktok_buffer"] not in bf["buffer"]["canaux"].values()
     assert bf["buffer"]["canaux"]["tiktok_buffer"] == "6b03621f8541f09ecb6ab6aa"
     assert a["antenne"]["prefixe_id"] == "decide-af-" and a["antenne"]["journal"] == "etat/lots_af.json"
-    assert a["antenne"]["actif"] is False  # aucun lot Afrique ne part avant les comptes et le feu vert
+    assert a["antenne"]["actif"] is True  # activée le 23/11/2026 après le lot test
     assert cfg["lots"]["fuseau_creneaux"] == "Africa/Douala"
 
 
