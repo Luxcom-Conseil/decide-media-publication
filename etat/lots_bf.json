@@ -187,6 +187,11 @@
       "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
       "statut": "ecarte",
       "tentatives": 99
+    },
+    "youtube_bf": {
+      "statut": "ecarte",
+      "tentatives": 99,
+      "note": "doublon YouTube du lot test (Marchés modernes : 104 milliards FCFA prévus, publié le 22/11 par Buffer)"
     }
   },
   "decide-bf-decide-media-2026-11-23-04": {
