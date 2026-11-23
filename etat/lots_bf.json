@@ -151,5 +151,29 @@
       "tentatives": 1,
       "titre": "76 169 rapatriés de Guinée"
     }
+  },
+  "decide-bf-decide-media-2026-11-23-02": {
+    "tiktok_buffer": {
+      "statut": "ecarte",
+      "tentatives": 99,
+      "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
+      "maj": "2026-11-23T10:25:00+00:00"
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-03": {
+    "tiktok_buffer": {
+      "statut": "ecarte",
+      "tentatives": 99,
+      "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
+      "maj": "2026-11-23T10:25:00+00:00"
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-04": {
+    "tiktok_buffer": {
+      "statut": "ecarte",
+      "tentatives": 99,
+      "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
+      "maj": "2026-11-23T10:25:00+00:00"
+    }
   }
 }
