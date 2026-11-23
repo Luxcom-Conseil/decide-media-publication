@@ -380,6 +380,226 @@
   ]
  },
  {
+  "theme": "diaspora_aeroports",
+  "pays": "Éthiopie",
+  "fichier": "diaspora_aeroports/aeroport-bole.jpg",
+  "montre": "aérogare de l'aéroport international de Bole",
+  "lieu": "Addis-Abeba",
+  "date": "1 August 2",
+  "annee": "inconnue",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Vob08",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bole_international_airport.jpg",
+  "credit": "Addis-Abeba, inconnue · Photo : Vob08 / Wikimedia Commons · CC BY 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Éthiopie",
+  "fichier": "diaspora_aeroports/hall-bole.jpg",
+  "montre": "hall de l'aéroport de Bole",
+  "lieu": "Addis-Abeba",
+  "date": "1 August 2",
+  "annee": "inconnue",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Vob08",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bole_international_airport_2.jpg",
+  "credit": "Addis-Abeba, inconnue · Photo : Vob08 / Wikimedia Commons · CC BY 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Éthiopie",
+  "fichier": "diaspora_aeroports/ethiopian-bole.jpg",
+  "montre": "avion d'Ethiopian Airlines à Bole",
+  "lieu": "Addis-Abeba",
+  "date": "2014-05-02",
+  "annee": "2014",
+  "personnes": "loin",
+  "marque": "Ethiopian Airlines",
+  "auteur": "Vijay8808",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ethiopian_Airlines_at_Bole_International_airport.jpg",
+  "credit": "Addis-Abeba, 2014 · Photo : Vijay8808 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1080
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Nigeria",
+  "fichier": "diaspora_aeroports/tour-aeroport-lagos.jpg",
+  "montre": "tour de contrôle de l'aéroport de Lagos",
+  "lieu": "Lagos",
+  "date": "Taken on 2",
+  "annee": "inconnue",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "hh oldman",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Nigeria_Airport_-_panoramio.jpg",
+  "credit": "Lagos, inconnue · Photo : hh oldman / Wikimedia Commons · CC BY 3.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Sénégal",
+  "fichier": "diaspora_aeroports/aerogare-aibd.jpg",
+  "montre": "aérogare de l'aéroport Blaise-Diagne",
+  "lieu": "Diass",
+  "date": "2018-10-12",
+  "annee": "2018",
+  "personnes": "aucune",
+  "marque": null,
+  "auteur": "Fawaz.tairou",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:A%C3%A9roport_International_Blaise_DIAGNE.jpg",
+  "credit": "Diass, 2018 · Photo : Fawaz.tairou / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Sénégal",
+  "fichier": "diaspora_aeroports/enregistrement-aibd.jpg",
+  "montre": "zone d'enregistrement de l'aéroport Blaise-Diagne",
+  "lieu": "Diass",
+  "date": "2018-12-31",
+  "annee": "2018",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "Jjm2311",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DakarDepartures.jpg",
+  "credit": "Diass, 2018 · Photo : Jjm2311 / Wikimedia Commons · CC BY-SA 4.0 · recadrée",
+  "taille": [
+   1920,
+   1439
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Kenya",
+  "fichier": "diaspora_aeroports/kenya-airways-jkia.jpg",
+  "montre": "avion de Kenya Airways à l'aéroport Jomo-Kenyatta",
+  "lieu": "Nairobi",
+  "date": "27 July 20",
+  "annee": "inconnue",
+  "personnes": "loin",
+  "marque": "Kenya Airways",
+  "auteur": "Christopher Thiemann",
+  "licence": "Public domain",
+  "licence_url": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Kenya_Airways_B777-2U8ER_(5Y-KQU)_at_Jomo_Kenyatta_International_Airport.jpg",
+  "credit": "Nairobi, inconnue · Photo : Christopher Thiemann / Wikimedia Commons · Public domain · recadrée",
+  "taille": [
+   1600,
+   1200
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Kenya",
+  "fichier": "diaspora_aeroports/arrivees-jkia.jpg",
+  "montre": "terminal des arrivées de l'aéroport Jomo-Kenyatta",
+  "lieu": "Nairobi",
+  "date": "2010-07-17",
+  "annee": "2010",
+  "personnes": "loin",
+  "marque": null,
+  "auteur": "N.Whittle",
+  "licence": "Public domain",
+  "licence_url": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Nairobi_Arrivals_Terminal.jpg",
+  "credit": "Nairobi, 2010 · Photo : N.Whittle / Wikimedia Commons · Public domain · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Maroc",
+  "fichier": "diaspora_aeroports/hall-aeroport-casablanca.jpg",
+  "montre": "salle d'embarquement de l'aéroport Mohammed-V",
+  "lieu": "Casablanca",
+  "date": "2009-04-01",
+  "annee": "2009",
+  "personnes": "visibles",
+  "marque": null,
+  "auteur": "Joris-Jan",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:CasablancaAirport.jpg",
+  "credit": "Casablanca, 2009 · Photo : Joris-Jan / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1281
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Côte d'Ivoire",
+  "fichier": "diaspora_aeroports/tarmac-abidjan.jpg",
+  "montre": "tarmac de l'aéroport Félix-Houphouët-Boigny",
+  "lieu": "Abidjan",
+  "date": "2009-09-28",
+  "annee": "2009",
+  "personnes": "loin",
+  "marque": "Air France",
+  "auteur": "Hussein Abdallah",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vue_tarmac_a%C3%A9roport_d%27Abidjan.jpg",
+  "credit": "Abidjan, 2009 · Photo : Hussein Abdallah / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "theme": "diaspora_aeroports",
+  "pays": "Côte d'Ivoire",
+  "fichier": "diaspora_aeroports/ethiopian-abidjan.jpg",
+  "montre": "avion d'Ethiopian Airlines à Abidjan",
+  "lieu": "Abidjan",
+  "date": "2012-06-11",
+  "annee": "2012",
+  "personnes": "loin",
+  "marque": "Ethiopian Airlines",
+  "auteur": "abdallahh from Montréal, Canada",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ethiopian_Airlines_B737-760_(ET-ALN)_at_F%C3%A9lix_Houphou%C3%ABt-Boigny_International_Airport.jpg",
+  "credit": "Abidjan, 2012 · Photo : abdallahh from Montréal, Canada / Wikimedia Commons · CC BY 2.0 · recadrée",
+  "taille": [
+   1920,
+   1280
+  ]
+ },
+ {
   "theme": "energie",
   "pays": "RD Congo",
   "fichier": "energie/centrale-inga.jpg",
