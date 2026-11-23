@@ -152,28 +152,127 @@
       "titre": "76 169 rapatriés de Guinée"
     }
   },
+  "decide-bf-decide-media-2026-11-23-01": {
+    "tiktok_buffer": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T10:28:05+00:00",
+      "piste": "principale",
+      "post_id": "6b04153563ce787ca5ae5d1d",
+      "programme_pour": "2026-11-23T11:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les mines tirent la croissance",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_buffer": {
+      "erreur": "buffer youtube_buffer : You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.",
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T10:28:03+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Les mines tirent la croissance"
+    }
+  },
   "decide-bf-decide-media-2026-11-23-02": {
     "tiktok_buffer": {
-      "statut": "ecarte",
-      "tentatives": 99,
+      "maj": "2026-11-23T10:25:00+00:00",
       "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
-      "maj": "2026-11-23T10:25:00+00:00"
+      "statut": "ecarte",
+      "tentatives": 99
     }
   },
   "decide-bf-decide-media-2026-11-23-03": {
     "tiktok_buffer": {
-      "statut": "ecarte",
-      "tentatives": 99,
+      "maj": "2026-11-23T10:25:00+00:00",
       "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
-      "maj": "2026-11-23T10:25:00+00:00"
+      "statut": "ecarte",
+      "tentatives": 99
     }
   },
   "decide-bf-decide-media-2026-11-23-04": {
     "tiktok_buffer": {
-      "statut": "ecarte",
-      "tentatives": 99,
+      "maj": "2026-11-23T10:25:00+00:00",
       "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
-      "maj": "2026-11-23T10:25:00+00:00"
+      "statut": "ecarte",
+      "tentatives": 99
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-05": {
+    "tiktok_buffer": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T10:34:00+00:00",
+      "piste": "principale",
+      "post_id": "6b0416973cc668ed6f3790db",
+      "programme_pour": "2026-11-23T14:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Perkoa : 400 emplois attendus",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-06": {
+    "tiktok_buffer": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T10:47:24+00:00",
+      "piste": "principale",
+      "post_id": "6b0419bbc9e1646179042004",
+      "programme_pour": "2026-11-23T17:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le gasoil grimpe de 75 francs",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-07": {
+    "tiktok_buffer": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T10:53:12+00:00",
+      "piste": "principale",
+      "post_id": "6b041b1755f4a41c13dd3fbd",
+      "programme_pour": "2026-11-23T20:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Faso SANU, nouveau bras de l'État",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-08": {
+    "tiktok_buffer": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T10:59:34+00:00",
+      "piste": "principale",
+      "post_id": "6b041c96186a329b5e0d2c91",
+      "programme_pour": "2026-11-23T12:45:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le panier gonfle, la viande flambe",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-09": {
+    "tiktok_buffer": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T11:06:27+00:00",
+      "piste": "principale",
+      "post_id": "6b041e32451a68a17f8d17a1",
+      "programme_pour": "2026-11-23T15:45:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gaz subventionné : les restaurants contrôlés",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-23-10": {
+    "tiktok_buffer": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T11:14:34+00:00",
+      "piste": "principale",
+      "post_id": "6b04201ad8293518c2dcddad",
+      "programme_pour": "2026-11-23T18:45:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Coton : 310 francs le kilo minimum",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
     }
   }
 }

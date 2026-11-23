@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "Faso SANU devient la nouvelle société d'État minière du Burkina Faso.",
+    "Trois décrets miniers ont été adoptés le 5 novembre 2026 au Burkina Faso.",
+    "Le capital de Faso SANU est partagé entre SONASP et le Trésor public."
+  ],
+  "titre": "Faso SANU, nouveau bras minier",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Faso *SANU*, nouvelle société d'État",
+      "dit": "Faso SANU devient la nouvelle société d'État minière au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Trois décrets *adoptés* en Conseil",
+      "dit": "Le Conseil des ministres a adopté trois décrets le 5 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réorganisation des *sites* miniers",
+      "dit": "L'un des textes porte sur la réorganisation de l'exploitation des sites miniers illégaux."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Création de la *société* Faso SANU",
+      "dit": "Les deux autres décrets concernent la création de la société d'État Faso SANU et ses statuts."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ministère de *l'Énergie* et des Mines",
+      "dit": "Ces décisions concernent le ministère de l'Énergie, des Mines et des Carrières."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Yacouba Zabré *Gouba* dirige le secteur",
+      "dit": "Ce département ministériel est dirigé par le ministre Yacouba Zabré Gouba."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Faso SANU signifie *or* en dioula",
+      "dit": "Le nom Faso SANU signifie or en dioula selon les précisions officielles."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Capital partagé entre *SONASP* et Trésor",
+      "dit": "Son capital est détenu à 50 pour cent par la SONASP et à 50 pour cent par le Trésor public."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Lutte contre le *travail* des enfants",
+      "dit": "Le gouvernement rappelle que l'emploi d'enfants sur ces sites expose à toute la rigueur de la loi."
+    }
+  ]
+}

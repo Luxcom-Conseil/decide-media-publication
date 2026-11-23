@@ -1,0 +1,103 @@
+{
+  "accroches": [
+    "3,64 % d'inflation au Burkina Faso en septembre 2026.",
+    "La viande gagne 17,49 % sur un an au Burkina Faso.",
+    "Les légumes frais augmentent de 21,15 % sur un an."
+  ],
+  "titre": "Inflation au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Inflation à *3,64 %* en septembre",
+      "dit": "L'inflation au Burkina Faso a atteint 3,64 % sur un an en septembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse par rapport à *août*",
+      "dit": "Ce chiffre est en hausse par rapport à août, où elle s'établissait à 3,04 % selon l'INSD."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Baisse mensuelle de *0,06 %*",
+      "dit": "D'un mois à l'autre, l'indice global a pourtant légèrement baissé de 0,06 % en septembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'alimentation monte de *3,37 %*",
+      "dit": "Les produits alimentaires et boissons non alcoolisées montent de 3,37 % sur un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La viande grimpe de *17,49 %*",
+      "dit": "Dans le détail, la viande gagne 17,49 % sur la même période."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les légumes montent de *21,15 %*",
+      "dit": "Les légumes en fruits frais ou réfrigérés bondissent de leur côté de 21,15 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le pain baisse de *7,28 %*",
+      "dit": "À l'inverse, les pains et céréales baissent de 7,28 % sur un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La communication progresse de *18,48 %*",
+      "dit": "Hors alimentation, l'information et la communication montent de 18,48 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le logement monte de *2,52 %*",
+      "dit": "Le logement, l'eau, l'électricité et le gaz progressent quant à eux de 2,52 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'enseignement recule de *4,25 %*",
+      "dit": "Enfin, les services d'enseignement reculent de 4,25 % sur un an en septembre."
+    }
+  ]
+}

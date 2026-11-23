@@ -1,0 +1,193 @@
+{
+  "accroches": [
+    "Des restaurants contrôlés pour usage de gaz subventionné à Ouagadougou.",
+    "La brigade économique cible les restaurants utilisant le gaz subventionné.",
+    "Le gaz butane subventionné est strictement réservé aux ménages."
+  ],
+  "titre": "Gaz subventionné : restaurants contrôlés",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des restaurants *contrôlés* pour usage de gaz subventionné.",
+      "dit": "Des restaurants contrôlés pour usage de gaz subventionné à Ouagadougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'opération menée par la *BMCRF*.",
+      "dit": "L'opération a été menée le mardi 10 novembre 2026 par la Brigade mobile de contrôle."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plusieurs bouteilles de gaz *saisies*.",
+      "dit": "Plusieurs bouteilles de gaz subventionné ont ainsi été saisies dans des restaurants."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le gaz subventionné pour les *ménages*.",
+      "dit": "Ce gaz butane subventionné est exclusivement destiné à l'usage domestique des ménages."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des bouteilles de 1 à *12,5 kg*.",
+      "dit": "Les bouteilles concernées ont des capacités allant de 1 à 12,5 kilogrammes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les professionnels utilisent des bouteilles de *15 kg*.",
+      "dit": "Les professionnels doivent utiliser des bouteilles hors gabarit de plus de 15 kilogrammes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un délai fixé à fin *octobre*.",
+      "dit": "Les distributeurs avaient jusqu'à la fin du mois d'octobre 2026 pour fournir les professionnels."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des pénuries causées par les *détournements*.",
+      "dit": "Selon Sidwaya, ces usages détournés ont provoqué par le passé des pénuries pour les ménages."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des contrôles étendus aux *transporteurs*.",
+      "dit": "Le coordonnateur général Sanibè Faho annonce que les contrôles seront étendus aux transporteurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *sanctions* prévues pour les contrevenants.",
+      "dit": "Les professionnels qui ne s'y conforment pas s'exposent désormais à des sanctions."
+    }
+  ]
+}

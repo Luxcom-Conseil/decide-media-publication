@@ -1,0 +1,152 @@
+{
+  "accroches": [
+    "Le Burkina Faso prévoit 96 milliards de francs CFA avec la mine de Perkoa.",
+    "La mine de Perkoa doit créer 400 emplois directs.",
+    "La mine de Perkoa a fermé en 2022 après des inondations."
+  ],
+  "titre": "Burkina Faso : relance de la mine de Perkoa",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Mine de Perkoa : *96 milliards* de FCFA attendus",
+      "dit": "Le Burkina Faso prévoit un peu plus de 96 milliards de francs CFA de recettes avec la mine de Perkoa."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un nouveau permis *d'exploitation* accordé",
+      "dit": "Ce 19 novembre 2026, le Conseil des ministres a accordé un permis d'exploitation à la société SOPAMIB Perkoa SA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une grande mine de zinc à *Réo*",
+      "dit": "Cette mine industrielle de zinc est située dans la commune de Réo, dans la province du Sanguié."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le gouvernement prévoit *400 emplois* directs",
+      "dit": "Selon le gouvernement, la mise en service doit permettre de créer 400 emplois directs et 850 emplois indirects."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une production de *560 000 tonnes* visée",
+      "dit": "D'après le site C'Finance, le projet vise la production de 560 000 tonnes de concentré polymétrique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "37 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*37 milliards* de soutien selon C'Finance",
+      "dit": "Le même média indique que l'État a mobilisé un soutien financier de 37 milliards de francs CFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Fermée en 2022",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le site avait fermé après des *inondations*",
+      "dit": "Le site de Perkoa avait été fermé en 2022 après des inondations, puis son permis avait été retiré en 2023."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "4 ans d'exploitation",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Au moins *4 ans* de fonctionnement prévus",
+      "dit": "La remise en état du site doit permettre de faire fonctionner la mine pendant au moins quatre ans."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La date de reprise demeure *inconnue*",
+      "dit": "La date précise de reprise de la production n'a pas été précisée dans les comptes rendus officiels."
+    }
+  ]
+}

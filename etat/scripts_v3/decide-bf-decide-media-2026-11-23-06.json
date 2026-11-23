@@ -1,0 +1,163 @@
+{
+  "accroches": [
+    "Le litre de gasoil coûte 750 francs CFA au Burkina Faso.",
+    "Le gasoil grimpe de 75 francs CFA depuis le 10 août.",
+    "Une hausse de 75 francs par litre soit 11 pour cent."
+  ],
+  "titre": "Hausse du gasoil au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le litre de gasoil *750 francs*",
+      "dit": "Depuis le 10 août 2026, le litre de gasoil coûte 750 francs CFA au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse de *75 francs*",
+      "dit": "Il valait 675 francs CFA avant cette date, soit une hausse de 75 francs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une augmentation de *11 pour cent*",
+      "dit": "Cela représente 11 pour cent de plus par litre selon les calculs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des sorties *frauduleuses* de carburant",
+      "dit": "Le gouvernement justifie cette décision par des sorties frauduleuses de carburant."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "365000000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de *365 millions*",
+      "dit": "Sidwaya cite plus de 365 millions de litres sortis frauduleusement en juin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "fin 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *730 millions*",
+      "dit": "Ce chiffre pourrait atteindre 730 millions de litres d'ici la fin de l'année."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "70000000000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une perte de *70 milliards*",
+      "dit": "Cet écart représente environ 70 milliards de francs CFA de perte pour le budget."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La Primature *explique*",
+      "dit": "Abdou-Salam Gampené l'a déclaré le 9 août au journal télévisé de 20 heures."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse de *40 pour cent*",
+      "dit": "La SONABHY relève une hausse de près de 40 pour cent de la consommation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "janvier à juin 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Entre *janvier et juin*",
+      "dit": "Cette forte augmentation de la consommation s'est produite entre janvier et juin 2026."
+    }
+  ]
+}

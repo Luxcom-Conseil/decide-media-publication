@@ -1,0 +1,126 @@
+{
+  "accroches": [
+    "Le PIB du Burkina Faso a augmenté de 7,7 % sur un an.",
+    "Les activités minières ont progressé de 30,5 % au Burkina Faso.",
+    "L'investissement a augmenté de 39,7 % au Burkina Faso."
+  ],
+  "titre": "La croissance portée par les mines",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le PIB *progresse* de 7,7 %",
+      "dit": "Le produit intérieur brut du Burkina Faso a progressé de 7,7 % au deuxième trimestre 2026 sur un an."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Institut national de la statistique et de la démographie",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Chiffres de *l'INSD*",
+      "dit": "Selon l'Institut national de la statistique, cette hausse est principalement portée par le secteur secondaire."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les mines *bondissent* de 30,5 %",
+      "dit": "Dans ce secteur secondaire, les activités extractives et minières ont augmenté de 30,5 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le prix des mines *s'envole*",
+      "dit": "L'institut relie la hausse des prix des mines à l'envolée continue du cours de l'or sur le marché."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'agriculture *progresse* de 5,8 %",
+      "dit": "L'agriculture hors coton gagne 5,8 % et les services du secteur tertiaire avancent de 1,9 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse de *1,6 %* ce trimestre",
+      "dit": "D'un trimestre à l'autre, la croissance économique globale atteint 1,6 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 14,1 %",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les impôts *rapportent* plus",
+      "dit": "Les taxes et impôts apportent l'essentiel de cette hausse avec une mobilisation en volume de 14,1 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La construction *recule* de 2,8 %",
+      "dit": "Dans le même temps, le secteur du bâtiment et de la construction recule de 2,8 % sur le trimestre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Investissement en *forte* hausse",
+      "dit": "Du côté des dépenses, l'investissement progresse de 39,7 % et la consommation des ménages de 4,2 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Comptes annuels",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des chiffres *encore* provisoires",
+      "dit": "Ces chiffres restent des estimations provisoires en attendant la consolidation des comptes annuels."
+    }
+  ]
+}
