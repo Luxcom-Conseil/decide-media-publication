@@ -81,10 +81,14 @@ const Cles: React.FC<{ texte: string; couleur?: string }> = ({ texte, couleur = 
   );
 };
 
+// Miniature (23/11/2026) : Buffer envoie à TikTok et YouTube l'image 0 de la vidéo (thumbnailOffset 0). Dans la scène
+// d'accroche, la carte est donc entière dès l'image 0, sans animation d'entrée, comme dans RecitReel.
+const Entiere = React.createContext(false);
 const useApparition = (retard = 2) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  return spring({ frame: f - retard, fps, config: { damping: 13, stiffness: 190, mass: 0.6 } });
+  const entiere = React.useContext(Entiere);
+  return entiere ? 1 : spring({ frame: f - retard, fps, config: { damping: 13, stiffness: 190, mass: 0.6 } });
 };
 
 // ---------------------------------------------------------------- fond : image en haut, fondue dans le noir
@@ -133,7 +137,7 @@ const Gros: React.FC<{ t: string; taille?: number }> = ({ t, taille }) => {
 const Tampon: React.FC<{ t: string; rouge?: boolean; detail?: string | null; top?: number }> = ({ t, rouge = true, detail, top = 560 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const p = spring({ frame: f - 2, fps, config: { damping: 9, stiffness: 230, mass: 0.7 } });
+  const p = React.useContext(Entiere) ? 1 : spring({ frame: f - 2, fps, config: { damping: 9, stiffness: 230, mass: 0.7 } });
   const c = rouge ? ROUGE : JAUNE;
   return (
     <div style={{ position: "absolute", top, left: G, right: D - 40, display: "flex", flexDirection: "column", alignItems: "center", gap: 26 }}>
@@ -147,13 +151,14 @@ const Tampon: React.FC<{ t: string; rouge?: boolean; detail?: string | null; top
 
 const Barres: React.FC<{ items: Barre[]; label?: string | null }> = ({ items, label }) => {
   const f = useCurrentFrame();
+  const entiere = React.useContext(Entiere);
   const nums = items.map((b) => parseFloat((b.valeur ?? "").replace(/\s/g, "").replace(",", ".").replace(/[^\d.-]/g, "")) || 0);
   const max = Math.max(...nums.map(Math.abs), 1);
   return (
     <div style={{ position: "absolute", top: 470, left: G + 20, right: D, display: "flex", flexDirection: "column", gap: 26 }}>
       {label && <div style={{ textAlign: "center" }}><Etiquette t={label} /></div>}
       {items.slice(0, 4).map((b, k) => {
-        const p = interpolate(f, [6 + k * 8, 22 + k * 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+        const p = entiere ? 1 : interpolate(f, [6 + k * 8, 22 + k * 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
         const larg = nums[k] ? Math.max(8, (Math.abs(nums[k]) / max) * 100) : 100;
         return (
           <div key={k} style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -171,11 +176,12 @@ const Barres: React.FC<{ items: Barre[]; label?: string | null }> = ({ items, la
 
 const Liste: React.FC<{ items: Barre[]; label?: string | null }> = ({ items, label }) => {
   const f = useCurrentFrame();
+  const entiere = React.useContext(Entiere);
   return (
     <div style={{ position: "absolute", top: 470, left: G + 20, right: D, display: "flex", flexDirection: "column", gap: 22 }}>
       {label && <div style={{ textAlign: "center" }}><Encadre t={label} /></div>}
       {items.slice(0, 5).map((b, k) => {
-        const p = interpolate(f, [4 + k * 9, 12 + k * 9], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+        const p = entiere ? 1 : interpolate(f, [4 + k * 9, 12 + k * 9], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
         return (
           <div key={k} style={{ display: "flex", alignItems: "center", gap: 20, opacity: p, transform: `translateX(${(1 - p) * -40}px)` }}>
             <div style={{ width: 54, height: 54, flex: "none", background: b.mauvais ? ROUGE : JAUNE, color: b.mauvais ? BLANC : NOIR,
@@ -355,6 +361,10 @@ export const ActuCouverture: React.FC<CouvertureActu> = (c) => (
   </AbsoluteFill>
 );
 
+// la scène 0 sert de miniature : toujours un titre accrocheur lisible (une carte « image » ou vide prend le titre)
+const miniature = (sc: SceneActu, s: ScriptActu): SceneActu =>
+  (sc.ecran ?? "").trim() && sc.carte !== "image" ? sc : { ...sc, carte: "titre", ecran: sc.ecran?.trim() ? sc.ecran : s.titre };
+
 export const ActuReel: React.FC<ScriptActu> = (s) => {
   const { scenes, total } = plan(s);
   const f = useCurrentFrame();
@@ -368,8 +378,10 @@ export const ActuReel: React.FC<ScriptActu> = (s) => {
       {scenes.map((p) => (
         <Sequence key={p.i} from={p.debut} durationInFrames={p.longueur}>
           <Fond im={p.sc.image} long={p.longueur} i={p.i} />
-          {p.sc.type === "question" ? <Question sc={p.sc} /> : p.sc.type === "signature" ? <Signature s={s} />
-            : p.sc.type === "lecon" ? <Lecon sc={p.sc} /> : <Carte sc={p.sc} s={s} />}
+          <Entiere.Provider value={p.i === 0}>
+            {p.sc.type === "question" ? <Question sc={p.sc} /> : p.sc.type === "signature" ? <Signature s={s} />
+              : p.sc.type === "lecon" ? <Lecon sc={p.sc} /> : <Carte sc={p.i === 0 ? miniature(p.sc, s) : p.sc} s={s} />}
+          </Entiere.Provider>
           <SousTitres sc={p.sc} />
           {p.sc.type !== "signature" && <Source sc={p.sc} />}
           {p.sc.voix && <Audio src={staticFile(p.sc.voix.src)} />}
