@@ -21,6 +21,9 @@ etat/*
 !etat/etat.json
 !etat/voix.json
 !etat/photos_utilisees.json
+!etat/lots_bf.json
+!etat/photos_utilisees_bf.json
+!etat/performances_bf.json
 !etat/scripts/
 !etat/scripts_v3/
 !etat/perso.json

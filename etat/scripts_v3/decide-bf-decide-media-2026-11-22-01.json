@@ -1,0 +1,195 @@
+{
+  "accroches": [
+    "Un ménage sur trois seulement a accès à l'électricité au Burkina Faso.",
+    "Le Burkina Faso compte 12 % d'accès à l'électricité en milieu rural.",
+    "Le Burkina Faso vise 2 871 milliards FCFA pour l'électricité en dix ans."
+  ],
+  "titre": "Électricité : le plan du Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un *ménage sur trois* a le courant",
+      "dit": "Un ménage sur trois seulement a aujourd'hui accès à l'électricité au Burkina Faso."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Présidence du Faso",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Un *écart* ville et campagne",
+      "dit": "Cette situation a été rappelée par la Présidence du Faso lors de l'installation du Dr Ardjouma Sombié."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Burkina Faso",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "89 % en *ville*",
+      "dit": "Selon la Présidence, le taux d'accès au courant avoisine 89 % en milieu urbain."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Burkina Faso",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "12 % à la *campagne*",
+      "dit": "En milieu rural, ce taux d'accès au réseau électrique est d'à peine 12 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "6 700 *localités* sans courant",
+      "dit": "Dans le pays, près de 6 700 localités attendent encore d'être électrifiées."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un objectif de *90 %*",
+      "dit": "L'initiative présidentielle Énergie pour tous vise désormais un taux d'accès global de 90 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "17,9 millions de *personnes*",
+      "dit": "Ce programme entend toucher plus de 3,5 millions de ménages et d'entreprises, soit 17,9 millions de personnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "+ 1 965 *mégawatts*",
+      "dit": "Pour y parvenir, les autorités prévoient d'installer 1 965 mégawatts de puissance en plus."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2 871 milliards FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "2 871 milliards *FCFA*",
+      "dit": "Le besoin de financement est estimé à plus de 2 871 milliards FCFA sur dix ans."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "160 000 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "160 000 *FCFA* par personne",
+      "dit": "Rapportée au nombre de personnes visées, cette somme représente plus de 160 000 FCFA par personne."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Pas de calendrier",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucune *date* de début",
+      "dit": "Le communiqué officiel ne donne pour le moment aucun calendrier par étape ni date de début du programme."
+    }
+  ]
+}

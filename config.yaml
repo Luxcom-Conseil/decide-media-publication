@@ -227,7 +227,7 @@ perso:
 # remplacés clé par clé (agent/config.py, appliquer_antenne). Le Cameroun, lancé sans --antenne, ne change pas.
 antennes:
   burkina:                          # DECIDE MEDIA Burkina, préparé le 22/11/2026 : YouTube et TikTok seulement
-    actif: false                    # à passer à true après le lot test validé par Stéphane
+    actif: true                     # activée le 22/11/2026 par Stéphane (lot test publié, série officielle le 23/11)
     cle_buffer: BUFFER_API_KEY_BURKINA        # troisième compte Buffer (decidemediaburkina@gmail.com)
     banque_photos: banque_photos_bf
     journal: etat/lots_bf.json
@@ -240,7 +240,7 @@ antennes:
     lots:
       dossier_drive: 1_RI9qx6aB70-NqSwMW5zij57mUb6dvlA   # « Burkina », sous-dossier de « Article DECIDE MEDIA - Quotidien »
       reseaux: [youtube_buffer, tiktok_buffer]
-      max_par_lot: {youtube_buffer: 10, tiktok_buffer: 10}
+      max_par_lot: {youtube_buffer: 2, tiktok_buffer: 10}   # YouTube par Buffer : 2 posts par jour au plus (refus du 22/11/2026)
       rattrapage: {actif: false}
       fuseau_creneaux: Africa/Ouagadougou     # UTC+0 toute l'année (Buffer l'affiche « Abidjan »)
       # mêmes heures locales que le Cameroun, une heure plus tard à Paris

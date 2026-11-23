@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "4 800 milliards FCFA de dépenses prévues par l'État burkinabè pour 2027.",
+    "L'État burkinabè prévoit 4 800 milliards FCFA de dépenses pour 2027.",
+    "Le Conseil des ministres a adopté l'avant-projet de budget 2027."
+  ],
+  "titre": "Burkina Faso : budget 2027",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "4 800 milliards de *dépenses* en 2027",
+      "dit": "L'État burkinabè prévoit 4 800 milliards FCFA de dépenses pour 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "4 200 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "4 200 milliards de *recettes*",
+      "dit": "Le pays prévoit aussi 4 200 milliards FCFA de recettes pour ce même exercice."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Conseil des *ministres*",
+      "dit": "Ces chiffres proviennent du compte rendu du Conseil des ministres du 8 octobre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Projet de *loi*",
+      "dit": "Le Conseil a adopté un avant-projet de loi de finances pour l'exercice."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Transmission à *l'Assemblée*",
+      "dit": "Le texte sera ensuite transmis à l'Assemblée législative du Peuple."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ministre de *l'Économie*",
+      "dit": "Ces informations sont attribuées au ministre de l'Économie et des Finances."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plan *R.E.L.A.N.C.E.*",
+      "dit": "Ce budget s'inscrit dans le cadre du plan R.E.L.A.N.C.E."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Secteur *agricole*",
+      "dit": "Le texte vise notamment l'accompagnement du secteur agricole et l'industrialisation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Secteurs *sociaux*",
+      "dit": "Il prévoit aussi l'amélioration des secteurs sociaux de base pour booster la croissance."
+    }
+  ]
+}

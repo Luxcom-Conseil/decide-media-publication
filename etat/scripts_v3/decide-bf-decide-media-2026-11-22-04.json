@@ -1,0 +1,202 @@
+{
+  "accroches": [
+    "L'électricité ne pèse que 1,82 % au Burkina Faso en 2025.",
+    "Le taux d'accès à l'énergie atteint 36 % au Burkina Faso.",
+    "La biomasse représente 61,58 % de l'énergie au Burkina Faso."
+  ],
+  "titre": "Bilan énergétique 2025 au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'électricité ne pèse que *1,82 %*",
+      "dit": "L'électricité ne pèse que 1,82 % dans l'approvisionnement énergétique du Burkina Faso en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "36",
+        "apres": "36",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un taux d'accès de *36 %*",
+      "dit": "Le taux d'accès à l'énergie s'établit à 36 % à l'échelle nationale selon le directeur général de l'énergie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Validation le *13 novembre 2026*",
+      "dit": "Ce bilan a été validé lors d'un séminaire qui s'est tenu le vendredi 13 novembre 2026 à Ouagadougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "61,58",
+        "apres": "61,58",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La biomasse première source avec *61,58 %*",
+      "dit": "La biomasse reste la première source d'énergie avec 61,58 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "36",
+        "apres": "36",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les produits pétroliers à *36 %*",
+      "dit": "Les produits pétroliers représentent également 36 % de cet approvisionnement énergétique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "7",
+        "apres": "11",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "En milieu rural, accès à *11 %*",
+      "dit": "Le taux d'accès en milieu rural est passé de 7 % à 11 % en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "89",
+        "apres": "89",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "En milieu urbain, taux de *89 %*",
+      "dit": "Ce taux atteint 89 % en milieu urbain selon les chiffres publiés par le journal Sidwaya."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "2024",
+        "apres": "2025",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Progression de *6,61 %* de l'énergie",
+      "dit": "Entre 2024 et 2025, l'approvisionnement total en énergie primaire a progressé de 6,61 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Consommation finale en hausse de *8,3 %*",
+      "dit": "De son côté, la consommation finale totale a augmenté de 8,3 % sur la même période."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "55,17",
+        "apres": "55,17",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dans l'industrie, *55,17 %* de pétrole",
+      "dit": "Dans l'industrie, les produits pétroliers dominent avec 55,17 % de la consommation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "78,90",
+        "apres": "78,90",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dans le commerce, *78,90 %* de biomasse",
+      "dit": "Dans le commerce et les services publics, la biomasse représente 78,90 % de l'énergie."
+    }
+  ]
+}

@@ -110,7 +110,8 @@ class _Buffer(Publieur):
             }""", {"input": entree})["createPost"]
         if not d.get("post"):
             message = d.get("message", "refus sans motif")
-            if re.search(r"limit|queue|quota", message, re.I):  # file d'attente gratuite pleine (10 posts) : on attend
+            # file d'attente gratuite pleine (10 posts), ou YouTube par Buffer : 2 posts par jour au plus (22/11/2026)
+            if re.search(r"limit|queue|quota|maximum number of posts", message, re.I):
                 raise ErreurLimite(f"buffer {self.canal} : {message}")
             raise ErreurPublication(f"buffer {self.canal} : {message}")
         return Resultat(f"https://publish.buffer.com/channels/{self._canal()}/schedule", d["post"]["id"])

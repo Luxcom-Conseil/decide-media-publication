@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "L'usine de tomates de Tenkodogo a réussi son essai.",
+    "Un deuxième essai concluant pour l'usine de tomates de Tenkodogo.",
+    "Des boîtes et sachets de tomates produits à Tenkodogo."
+  ],
+  "titre": "Usine de tomates à Tenkodogo",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Tenkodogo",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Usine de tomates à *Tenkodogo*",
+      "dit": "L'usine de tomates de Tenkodogo a réussi son deuxième essai ce jeudi 19 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un essai *concluant* selon la direction",
+      "dit": "Le test s'est avéré concluant selon le directeur général, Soulemane Sodré, cité par Sidwaya."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des boîtes de *pâte* de tomate",
+      "dit": "L'établissement dispose désormais de boîtes de pâte de tomate de 2 200 g, de 850 g et de 400 g."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des sachets de *ketchup* prévus",
+      "dit": "Des sachets de 60 g, de 30 g et de 10 g sont aussi prêts, le plus petit contenant du ketchup."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une matière première actuellement *rare*",
+      "dit": "Le directeur général indique que la tomate est rare en ce moment sur le marché."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des cultures de *contresaison* attendues",
+      "dit": "Il compte sur les cultures de contresaison pour s'approvisionner en matière première."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "De grosses productions en *décembre*",
+      "dit": "De grosses productions sont ainsi attendues courant décembre et janvier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des détails non *communiqués*",
+      "dit": "Le journal ne donne ni la capacité de l'usine, ni le nombre d'emplois, ni les prix pratiqués."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des produits bientôt en *magasin*",
+      "dit": "Le quotidien écrit seulement que les consommateurs pourront voir les articles d'ici peu."
+    }
+  ]
+}

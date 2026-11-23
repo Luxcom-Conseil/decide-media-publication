@@ -1,0 +1,155 @@
+{
+  "decide-bf-decide-media-2026-11-22-01": {
+    "tiktok_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T01:06:51+00:00",
+      "piste": "principale",
+      "post_id": "6b0391abcc364169c19c0470",
+      "programme_pour": "2026-11-23T01:40:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le courant, pas encore pour tous",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-22T23:18:49+00:00",
+      "piste": "principale",
+      "post_id": "6b037859cc364169c19294ec",
+      "programme_pour": "2026-11-23T01:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le courant, pas encore pour tous",
+      "url": "https://publish.buffer.com/channels/6b0361c78541f09ecb6ab421/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-22-02": {
+    "tiktok_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T01:06:53+00:00",
+      "piste": "principale",
+      "post_id": "6b0391ada6de38de9ea9aee1",
+      "programme_pour": "2026-11-23T02:10:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Marchés modernes : 104 milliards FCFA prévus",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-22T23:33:29+00:00",
+      "piste": "principale",
+      "post_id": "6b037bc9bf5d5a73b6ce4446",
+      "programme_pour": "2026-11-23T01:30:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Marchés modernes : 104 milliards FCFA prévus",
+      "url": "https://publish.buffer.com/channels/6b0361c78541f09ecb6ab421/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-22-03": {
+    "tiktok_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T01:06:56+00:00",
+      "piste": "principale",
+      "post_id": "6b0391b0cc364169c19c0586",
+      "programme_pour": "2026-11-23T02:40:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "324 milliards pour quatre hôpitaux",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_buffer": {
+      "erreur": "buffer youtube_buffer : You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.",
+      "lot": "2026-11-22",
+      "maj": "2026-11-22T23:58:09+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "324 milliards pour quatre hôpitaux"
+    }
+  },
+  "decide-bf-decide-media-2026-11-22-04": {
+    "tiktok_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T01:06:58+00:00",
+      "piste": "principale",
+      "post_id": "6b0391b2cc364169c19c0626",
+      "programme_pour": "2026-11-23T03:10:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le courant ne pèse que 1,82 %",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_buffer": {
+      "erreur": "buffer youtube_buffer : You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.",
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T00:14:21+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Le courant ne pèse que 1,82 %"
+    }
+  },
+  "decide-bf-decide-media-2026-11-22-05": {
+    "tiktok_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T01:06:59+00:00",
+      "piste": "principale",
+      "post_id": "6b0391b3c72676f5e974661f",
+      "programme_pour": "2026-11-23T03:40:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un budget 2027 à 4 800 milliards",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_buffer": {
+      "erreur": "buffer youtube_buffer : You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.",
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T00:29:24+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Un budget 2027 à 4 800 milliards"
+    }
+  },
+  "decide-bf-decide-media-2026-11-22-06": {
+    "tiktok_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T01:07:02+00:00",
+      "piste": "principale",
+      "post_id": "6b0391b6d5eabfb8ccf36c84",
+      "programme_pour": "2026-11-23T04:10:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Tenkodogo : l'usine de tomates à l'essai",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_buffer": {
+      "erreur": "buffer youtube_buffer : You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.",
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T00:46:11+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "Tenkodogo : l'usine de tomates à l'essai"
+    }
+  },
+  "decide-bf-decide-media-2026-11-22-07": {
+    "tiktok_buffer": {
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T01:07:04+00:00",
+      "piste": "principale",
+      "post_id": "6b0391b8d864a011050c82d0",
+      "programme_pour": "2026-11-24T01:10:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "76 169 rapatriés de Guinée",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_buffer": {
+      "erreur": "buffer youtube_buffer : You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.",
+      "lot": "2026-11-22",
+      "maj": "2026-11-23T01:06:49+00:00",
+      "statut": "echec",
+      "tentatives": 1,
+      "titre": "76 169 rapatriés de Guinée"
+    }
+  }
+}

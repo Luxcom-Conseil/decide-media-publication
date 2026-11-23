@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "324 milliards de FCFA pour quatre hôpitaux au Burkina Faso.",
+    "Quatre nouveaux centres hospitaliers régionaux universitaires annoncés par le gouvernement.",
+    "Le Conseil des ministres a autorisé la construction de quatre hôpitaux."
+  ],
+  "titre": "324 milliards pour quatre hôpitaux",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "324 milliards pour *quatre* hôpitaux",
+      "dit": "324 milliards de FCFA sont mobilisés pour construire quatre hôpitaux au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un décret adopté en *Conseil* des ministres",
+      "dit": "Un décret présenté au Conseil des ministres du 19 novembre 2026 autorise le recrutement des prestataires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Fada N'Gourma | Banfora | Kaya | Koudougou",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Implantation à Fada, Banfora, Kaya et *Koudougou*",
+      "dit": "Ces centres hospitaliers régionaux universitaires seront implantés à Fada N'Gourma, Banfora, Kaya et Koudougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Début des travaux en *décembre*",
+      "dit": "Selon Lefaso.net, les travaux de Fada N'Gourma devront commencer en décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chantiers prévus pour *2027*",
+      "dit": "De son côté, le chantier de Banfora, de Kaya et de Koudougou débutera courant l'année 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une première phase de *neuf* établissements",
+      "dit": "Ce décret s'inscrit dans le cadre d'une première phase portant sur neuf établissements promis par le chef de l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "324 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un coût global pour *quatre* centres",
+      "dit": "Le coût de 324 milliards de francs CFA ne concerne que ces quatre centres d'après le gouvernement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Intervention du ministre de la *Santé*",
+      "dit": "Le ministre de la Santé, Robert Lucien Jean-Claude Kargougou, s'est exprimé sur ce dossier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les travaux n'ont pas *commencé*",
+      "dit": "Ces annonces gouvernementales ne précisent ni le nombre de lits ni la date exacte d'ouverture."
+    }
+  ]
+}

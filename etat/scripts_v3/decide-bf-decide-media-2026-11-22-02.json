@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "104 milliards FCFA sont prévus pour des marchés modernes au Burkina.",
+    "Le projet RAAGA prévoit des marchés modernes à Ouagadougou et Bobo-Dioulasso.",
+    "104 milliards FCFA financeront des complexes marchands selon le Conseil des ministres."
+  ],
+  "titre": "Marchés modernes : 104 milliards FCFA",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "104 milliards FCFA pour des *marchés* modernes",
+      "dit": "104 milliards FCFA sont prévus pour des marchés modernes au Burkina."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "104 379 023 379",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le coût est estimé à 104 *milliards* FCFA",
+      "dit": "Le coût global est estimé à 104 379 023 379 FCFA, soit 104,3 milliards."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Ouagadougou | Bobo-Dioulasso",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "À Ouagadougou et *Bobo-Dioulasso*",
+      "dit": "Le projet concerne des complexes marchands à Ouagadougou et à Bobo-Dioulasso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Inscrit par le Conseil des *ministres*",
+      "dit": "Le Conseil des ministres du 19 novembre 2026 a validé l'inscription de ce projet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pris en charge par l' *État*",
+      "dit": "Selon Burkina 24, le financement sera entièrement pris en charge par le budget de l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Ouagadougou",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dans les arrondissements n°01 et n°04",
+      "dit": "À Ouagadougou, les sites se trouvent dans les arrondissements n°01 et n°04."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un bâtiment principal de type *R+3*",
+      "dit": "Les infrastructures prévues comprennent un bâtiment principal de type R+3."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Trois niveaux au-dessus du *rez-de-chaussée*",
+      "dit": "Cela représente trois niveaux au-dessus du rez-de-chaussée, avec des étalages et boutiques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La date d'ouverture reste *inconnue*",
+      "dit": "Pour les commerçants, la date de début des travaux et d'ouverture est donc inconnue."
+    }
+  ]
+}

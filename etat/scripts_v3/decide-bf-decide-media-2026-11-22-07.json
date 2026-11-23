@@ -1,0 +1,173 @@
+{
+  "accroches": [
+    "76 169 personnes ont été rapatriées de Guinée au Burkina Faso.",
+    "Le Burkina Faso a rapatrié 76 169 personnes depuis la Guinée.",
+    "Soixante-seize mille cent soixante-neuf personnes ont quitté la Guinée."
+  ],
+  "titre": "Rapatriement de Guinée",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "76 169 rapatriés de *Guinée*",
+      "dit": "Au 18 novembre 2026, 76 169 personnes avaient été rapatriées de Guinée au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "20 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un communiqué officiel du *gouvernement*",
+      "dit": "Ce chiffre a été publié dans un communiqué du gouvernement burkinabè daté du 20 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "15 968 *enfants* concernés",
+      "dit": "Parmi ces personnes rentrées au pays, le document compte 15 968 enfants."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "74 452 *hommes*",
+      "dit": "Le communiqué recense aussi 74 452 hommes et 1 717 femmes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *orpailleurs* burkinabè",
+      "dit": "Ce sont principalement des orpailleurs burkinabè et leurs proches qui ont fait le voyage."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Interdiction de *l'or*",
+      "dit": "Ils ont été touchés par des mesures prises en Guinée à partir du 2 novembre contre l'orpaillage illégal."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Bobo-Dioulasso",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Fin des *opérations*",
+      "dit": "Le gouvernement annonce la fin des opérations de rapatriement après l'arrivée du dernier convoi."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "18 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vingt *cars*",
+      "dit": "Ce dernier groupe est arrivé à Bobo-Dioulasso dans la nuit du 18 au 19 novembre avec un millier de passagers."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *étrangers* pris en charge",
+      "dit": "Le texte précise que 1 994 étrangers, surtout des Togolais et des Béninois, ont aussi été aidés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le rôle du *Mali*",
+      "dit": "Les autorités remercient le Mali pour avoir escorté les convois de retour jusqu'au Burkina Faso."
+    }
+  ]
+}
