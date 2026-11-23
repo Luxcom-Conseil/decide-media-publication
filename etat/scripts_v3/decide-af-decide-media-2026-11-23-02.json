@@ -1,0 +1,195 @@
+{
+  "accroches": [
+    "Le FMI prépare 1 380 milliards FCFA de prêts pour l'Égypte.",
+    "L'Égypte et le FMI ont conclu un accord de 2,3 milliards de dollars.",
+    "L'Égypte veut vendre 899 milliards FCFA d'actifs publics en 2026."
+  ],
+  "titre": "Le FMI prépare 2,3 milliards pour l'Égypte",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Le Caire",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le FMI prépare *1 380 milliards* FCFA",
+      "dit": "Le FMI prépare 1 380 milliards FCFA de prêts pour l'Égypte."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "FMI",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Un *accord* de 2,3 milliards",
+      "dit": "Ce mercredi 18 novembre, l'institution et le pays ont conclu un accord au niveau des équipes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "899 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un premier *versement* prévu",
+      "dit": "Selon Arab News, le pays recevrait 899 milliards FCFA via son programme de prêt sur 48 mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "480 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *soutien* pour la résilience",
+      "dit": "La Facilité pour la résilience et la durabilité apporterait jusqu'à 480 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "mars 2024",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *programme* lancé en 2024",
+      "dit": "Ce programme initial de 8 milliards de dollars a été approuvé en mars 2024."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Le Caire",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *mission* au Caire",
+      "dit": "Une mission du FMI a travaillé au Caire du 25 octobre au 5 novembre dernier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La *croissance* atteint 5,1 %",
+      "dit": "Selon Arab News, la croissance de l'Égypte a atteint 5,1 % pendant l'exercice clos fin juin 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 100 bps",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les *taux* ont augmenté",
+      "dit": "Selon Africanews, l'Égypte a relevé ses taux d'intérêt de 100 points de base en octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "899 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *ventes* d'actifs publics",
+      "dit": "Le pays compte tirer 899 milliards FCFA de cessions d'actifs publics en 2026/27."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réduire la *dette* publique",
+      "dit": "Au moins la moitié de ces recettes d'actifs publics servira directement à réduire la dette."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Date inconnue",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *vote* final attendu",
+      "dit": "Le conseil d'administration du FMI doit encore approuver l'accord à une date non fixée."
+    }
+  ]
+}

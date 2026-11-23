@@ -1,0 +1,151 @@
+{
+  "accroches": [
+    "L'inflation alimentaire dépasse 20 % dans 19 États du Nigeria.",
+    "L'inflation alimentaire nationale a ralenti à 19,13 % en octobre.",
+    "À Yobe l'inflation mensuelle est passée de moins 7 % à 18,41 %."
+  ],
+  "titre": "Prix des aliments au Nigeria",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Inflation à plus de *20 %*",
+      "dit": "L'inflation alimentaire dépasse encore 20 % dans 19 des 36 États du Nigeria."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "19,59 %",
+        "apres": "19,13 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'inflation nationale *ralentit*",
+      "dit": "Selon le Bureau des statistiques, l'inflation alimentaire nationale est passée de 19,59 % à 19,13 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Baisse mensuelle de *0,75 %*",
+      "dit": "Sur le seul mois d'octobre, les prix de la nourriture ont baissé de 0,75 % à l'échelle du pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Ondo à *31,74 %* d'inflation",
+      "dit": "Selon une analyse de BusinessDay, l'État d'Ondo affiche le taux annuel le plus élevé à 31,74 %."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Lagos",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Lagos atteint *31,43 %*",
+      "dit": "À Lagos, l'inflation alimentaire annuelle atteint 31,43 % et celle d'Imo s'élève à 29,75 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "24,50 %",
+        "apres": "28,81 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Forte hausse à *Oyo*",
+      "dit": "Dans l'État d'Oyo, le taux annuel est monté de 24,50 % en septembre à 28,81 % en octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "- 7,0 %",
+        "apres": "18,41 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Flambée à *Yobe*",
+      "dit": "À Yobe, le taux mensuel est passé de moins 7,0 % en septembre à 18,41 % en octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Baisse mensuelle à *Lagos*",
+      "dit": "De son côté, Lagos enregistre une baisse mensuelle des prix de la nourriture de 5,93 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Différences de *consommation*",
+      "dit": "BusinessDay précise que les États ne se comparent pas directement en raison des modes de consommation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "1 an",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Nourriture plus *chère*",
+      "dit": "Un taux de 19,13 % signifie que la nourriture coûte 19,13 % de plus qu'un an plus tôt."
+    }
+  ]
+}
