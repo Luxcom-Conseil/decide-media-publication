@@ -5,7 +5,9 @@ on:
     # Facebook et YouTube programment eux-mêmes : un passage le matin suffit (heures UTC, GitHub peut décaler un peu).
     # 04:45 UTC = 6 h 45 à Paris en été, 5 h 45 en hiver. Les passages de 08:45 et 11:45 ne font rien
     # si tout est déjà programmé : ils rattrapent un lot déposé en retard par le producteur.
-    - cron: "45 4,8,11 * * *"
+    # 15:45 UTC : lots du soir (AAAA-MM-JJ_soir), produits vers 14 h à Paris quand un grand événement est arrivé après
+    # le lot du matin (décision de Stéphane du 23/11/2026) ; sans lot du soir, ce passage ne fait rien de neuf.
+    - cron: "45 4,8,11,15 * * *"
   workflow_dispatch:
     inputs:
       commande:

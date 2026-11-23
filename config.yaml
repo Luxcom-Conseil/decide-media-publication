@@ -124,6 +124,11 @@ lots:
     tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15", "12:45", "15:45", "18:45", "09:45", "21:30"]
     # visuels du lot de rattrapage : 20 min après chaque visuel du lot du jour
     facebook_rattrapage: ["07:20", "08:50", "10:20", "11:50", "13:20", "14:50", "16:20", "17:50", "19:20", "20:50"]
+    # lot du soir (AAAA-MM-JJ_soir, 1 à 3 articles produits l'après-midi) : dans les trous de 45 min du lot du matin
+    facebook_shorts_soir: ["20:00", "22:30", "17:00"]
+    tiktok_buffer_soir: ["19:30", "22:15", "16:30"]
+  # lot du soir, autres réseaux (décision de Stéphane du 23/11/2026 : coller à l'actualité du jour)
+  creneaux_soir: ["19:15", "22:00", "16:15"]
   marge_minutes: 20
   ecart_minimum_minutes: 45
 

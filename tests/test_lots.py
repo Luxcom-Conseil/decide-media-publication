@@ -1,5 +1,6 @@
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import pytest
@@ -361,3 +362,81 @@ def test_une_reponse_facebook_est_suivie_pour_repondre_sous_les_commentaires(tmp
     assert [s for s in suivis.values() if s] == [{"origine": "https://www.facebook.com/1/videos/123456789",
                                                   "commentaires": ["Pour qui ?", "pour qui"],
                                                   "phrase": "Phrase du corps.", "faits": []}]
+
+
+# --------------------------------------------------------------------------- lot du soir (23/11/2026)
+
+SOIR_PASSAGE = datetime(2026, 10, 21, 15, 45, tzinfo=timezone.utc)  # 16:45 à Douala
+
+
+def soir(n=1, **kw):
+    m = manifeste(protocol_version="2.3", article_count=n, required_article_count=n,
+                  articles=[article(i, id=f"decide-media-2026-10-21-soir-{i:02d}", post_text=f"Soir {i}",
+                                    platform_texts={"facebook": f"Soir FB {i}"}) for i in range(1, n + 1)])
+    m.update(kw)
+    return m
+
+
+class FauxDriveSoir(FauxDrive):
+    def __init__(self, matin, du_soir):
+        super().__init__(matin)
+        self.soir = du_soir
+
+    def lister_dossiers(self):
+        return [Dossier("d1", "2026-10-21"), Dossier("s1", "2026-10-21_soir"), Dossier("r", "Complements")]
+
+    def lister_fichiers(self, d):
+        return [Fichier(d.id, "manifest.json", "")] if d.id in ("d1", "s1") else []
+
+    def lire_brut(self, f):
+        return json.dumps(self.soir if f.id == "s1" else self.m).encode()
+
+
+def test_controle_lot_du_soir():
+    assert len(controler_manifeste(soir(1), "2026-10-21_soir")) == 1
+    assert len(controler_manifeste(soir(3), "2026-10-21_soir")) == 3
+    with pytest.raises(LotInvalide, match="de 1 à 3"):
+        controler_manifeste(soir(4), "2026-10-21_soir")
+    with pytest.raises(LotInvalide, match="2.3"):  # un lot du soir dans le dossier du matin
+        controler_manifeste(soir(1), "2026-10-21")
+    with pytest.raises(LotInvalide, match="2.3"):  # un lot du matin dans le dossier du soir
+        controler_manifeste(manifeste(), "2026-10-21_soir")
+    with pytest.raises(LotInvalide, match="date"):
+        controler_manifeste(soir(1, date="2026-10-20"), "2026-10-21_soir")
+    m = soir(1)
+    m["articles"][0]["editorial_type"] = "reponse"
+    with pytest.raises(LotInvalide, match="réponse"):
+        controler_manifeste(m, "2026-10-21_soir")
+
+
+def test_lot_du_soir_part_le_soir_sans_toucher_au_matin(tmp_path):
+    fb, tk, j = FauxFacebook(), FauxFacebook(), Journal(tmp_path / "lots.json")
+    reel = charger_config("config.yaml")  # créneaux réels du matin et du soir
+    cfg = {**reel, "lots": {**reel["lots"], "reseaux": ["facebook", "tiktok_buffer"]}}
+    traiter_lots(cfg, FauxDrive(manifeste()), {"facebook": fb, "tiktok_buffer": tk}, j, print, maintenant=MATIN)
+    matin = {q for _, q in fb.programmes}
+    assert len(fb.programmes) == 10
+    # l'après-midi : le lot du soir arrive ; le matin n'est pas reprogrammé
+    drive = FauxDriveSoir(manifeste(), soir(2))
+    traiter_lots(cfg, drive, {"facebook": fb, "tiktok_buffer": tk}, Journal(tmp_path / "lots.json"), print,
+                 maintenant=SOIR_PASSAGE)
+    nouveaux = fb.programmes[10:]
+    assert [t for t, _ in nouveaux] == ["Soir FB 1", "Soir FB 2"]
+    heures = [q.astimezone(ZoneInfo("Africa/Douala")).strftime("%d %H:%M") for _, q in nouveaux]
+    assert heures == ["21 19:15", "21 22:00"]
+    assert all(abs(q - p) >= timedelta(minutes=45) for _, q in nouveaux for p in matin)
+    assert [q.astimezone(ZoneInfo("Africa/Douala")).strftime("%H:%M") for _, q in tk.programmes[10:]] == ["19:30", "22:15"]
+    j2 = Journal(tmp_path / "lots.json")
+    assert j2.get("decide-media-2026-10-21-soir-01", "facebook")["lot"] == "2026-10-21_soir"
+    # un passage de plus : rien en double
+    traiter_lots(cfg, drive, {"facebook": fb, "tiktok_buffer": tk}, j2, print, maintenant=SOIR_PASSAGE)
+    assert len(fb.programmes) == 12 and len(tk.programmes) == 12
+
+
+def test_lot_du_soir_passe_avant_le_matin(tmp_path):
+    """Les deux lots arrivent au même passage : le soir est programmé d'abord (YouTube : quota d'envois du jour)."""
+    yt = FauxFacebook()
+    cfg = {**CFG, "lots": {**CFG["lots"], "reseaux": ["youtube"]}, "youtube": {"modele_valide": True}}
+    traiter_lots(cfg, FauxDriveSoir(manifeste(), soir(1)), {"youtube": yt}, Journal(tmp_path / "l.json"), print,
+                 maintenant=MATIN)
+    assert yt.programmes[0][0] == "Soir 1" and len(yt.programmes) == 11

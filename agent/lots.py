@@ -21,13 +21,22 @@ from zoneinfo import ZoneInfo
 from .publieurs.base import ErreurLimite
 from .reponses_facebook import a_suivre
 
-RE_LOT = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+RE_LOT = re.compile(r"^\d{4}-\d{2}-\d{2}(_soir)?$")
+# Lot du soir (décision de Stéphane du 23/11/2026, « coller à l'actualité ») : 1 à 3 articles produits l'après-midi sur
+# un grand événement survenu après le lot du matin (l'Académie technologique du Faso, le 23/11). Dossier AAAA-MM-JJ_soir,
+# protocole 2.3 ; il passe avant le lot du matin, pour partir le soir même.
+SOIR = "_soir"
+
+
+def jour_du_lot(nom: str) -> str:
+    """Date d'un dossier de lot : « 2026-11-23 » pour 2026-11-23 et 2026-11-23_soir."""
+    return nom[:10]
 DATE_CONTRAT_12 = date(2026, 10, 12)
 # 1.3 = 1.2 + champs de rattrapage ; 2.0 = 5 articles par jour ;
 # 2.1 = les 5 articles d'actualité + 1 à 3 « dossiers » (suivi ou explication), décision de Stéphane du 07/11/2026
 # 2.2 = 2.1 + 1 à 3 « réponses » aux questions du public, en fin de lot, 10 articles au plus (décision du 12/11/2026)
 # 10 vidéos par jour (décision du 19/11/2026) : des actualités de complément comblent le lot jusqu'à 10
-ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": (5, 10), "2.1": (6, 10), "2.2": (6, 10)}
+ARTICLES_PAR_PROTOCOLE = {"1.2": 10, "1.3": 10, "2.0": (5, 10), "2.1": (6, 10), "2.2": (6, 10), "2.3": (1, 3)}
 # une réponse ne part qu'en vidéo, et seulement sur la plateforme où la question a été posée
 RESEAUX_REPONSE = {"tiktok": "tiktok_buffer", "facebook": "facebook_shorts"}
 
@@ -50,10 +59,15 @@ def controler_manifeste(m: dict, nom_dossier: str) -> list[dict]:
     """Renvoie les articles publiables ; lève LotInvalide si le lot ne doit pas être publié."""
     if m.get("status") != "ready":
         raise LotInvalide(f"statut « {m.get('status')} » (seuls les lots « ready » sont publiés)")
-    if m.get("date") != nom_dossier:
+    if m.get("date") != jour_du_lot(nom_dossier):
         raise LotInvalide(f"date du manifeste ({m.get('date')}) ≠ nom du dossier ({nom_dossier})")
+    if nom_dossier.endswith(SOIR) != (m.get("protocol_version") == "2.3"):
+        raise LotInvalide(f"le protocole 2.3 va avec un dossier {SOIR}, et seulement lui "
+                          f"(dossier {nom_dossier}, protocole {m.get('protocol_version')})")
     articles = m.get("articles") or []
-    if date.fromisoformat(nom_dossier) >= DATE_CONTRAT_12:
+    if m.get("protocol_version") == "2.3" and any(a.get("editorial_type") == "reponse" for a in articles):
+        raise LotInvalide("un lot du soir ne porte pas de réponse")
+    if date.fromisoformat(jour_du_lot(nom_dossier)) >= DATE_CONTRAT_12:
         attendus = ARTICLES_PAR_PROTOCOLE.get(m.get("protocol_version"))
         if attendus is None:
             raise LotInvalide(f"protocol_version {m.get('protocol_version')} ≠ " + ", ".join(ARTICLES_PAR_PROTOCOLE))
@@ -102,7 +116,11 @@ def creneaux(cfg: dict, jour: date, nb: int, maintenant: datetime, deja: list[da
     out: list[datetime] = []
     j = jour
     while len(out) < nb:
-        for hm in (c.get("creneaux_par_reseau") or {}).get(reseau) or c["creneaux"]:
+        par_reseau = c.get("creneaux_par_reseau") or {}
+        base = reseau.removesuffix(SOIR) if reseau else reseau
+        # lot du soir : ses créneaux propres (« tiktok_buffer_soir »), sinon ceux du soir communs, sinon ceux du réseau
+        soir = c.get("creneaux_soir") if reseau and reseau.endswith(SOIR) else None
+        for hm in par_reseau.get(reseau) or soir or par_reseau.get(base) or c["creneaux"]:
             h, mn = map(int, hm.split(":"))
             quand = datetime(j.year, j.month, j.day, h, mn, tzinfo=tz)
             if quand < plancher or any(abs(quand - p) < ecart for p in pris):
@@ -131,14 +149,15 @@ class Journal:
         e["maj"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     def horaires(self, reseau: str, jour: date, tz: str, piste: str = "principale",
-                 lot: str | None = None) -> list[datetime]:
+                 lot: str | set | None = None) -> list[datetime]:
         """Horaires déjà pris sur ce réseau à partir de `jour`, pour une piste (principale ou rattrapage Facebook) ;
-        avec `lot`, seulement ceux de ce lot."""
+        avec `lot` (un nom ou un ensemble de noms), seulement ceux de ces lots."""
+        lots = {lot} if isinstance(lot, str) else lot
         out = []
         for art in self.d.values():
             e = art.get(reseau, {})
             q = e.get("programme_pour")
-            if q and e.get("piste", "principale") == piste and (lot is None or e.get("lot") == lot):
+            if q and e.get("piste", "principale") == piste and (lots is None or e.get("lot") in lots):
                 dt = datetime.fromisoformat(q)
                 if dt.astimezone(ZoneInfo(tz)).date() >= jour:
                     out.append(dt)
@@ -164,6 +183,7 @@ def noter_photos(articles: list[dict], lot: str, chemin: str | Path = "etat/phot
     """Liste légère des photos publiées, lue par la production du lendemain (les manifestes sont trop lourds).
     {adresse de la page : date du dernier lot qui l'a utilisée}."""
     chemin = Path(chemin)
+    lot = jour_du_lot(lot)
     d = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else {}
     for a in articles:
         page = (a.get("image_provenance") or {}).get("page")
@@ -194,7 +214,10 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
         return
 
     prevus: dict[tuple, list[datetime]] = {}  # horaires attribués pendant ce passage, par (réseau, piste)
-    dossiers = sorted((d for d in drive.lister_dossiers() if RE_LOT.match(d.nom)), key=lambda d: d.nom)
+    # le lot du soir d'un jour passe avant son lot du matin : il porte l'actualité du jour et doit partir le soir même
+    # (YouTube : environ 10 envois par jour, que les restes du matin ne doivent pas prendre avant lui)
+    dossiers = sorted((d for d in drive.lister_dossiers() if RE_LOT.match(d.nom)),
+                      key=lambda d: (jour_du_lot(d.nom), not d.nom.endswith(SOIR)))
     log(f"{len(dossiers)} lot(s) dans le Drive" + ("  [SIMULATION]" if simulation else ""))
 
     def lire(dossier, bavard: bool = True):
@@ -215,18 +238,18 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
             if prefixe and not str(a["id"]).startswith(prefixe):  # antenne : jamais l'identifiant d'un article Cameroun
                 a["id"] = prefixe + str(a["id"])
             a.setdefault("_rang", rang)
-            a.setdefault("_lot", dossier.nom)
+            a.setdefault("_lot", jour_du_lot(dossier.nom))
         return manifeste, articles
 
     # 1. le lot du jour, en priorité, sur tous les réseaux
     travaux = []  # (dossier, articles, réseaux, piste)
     du_jour = False
     for d in dossiers:
-        if plus_ancien <= date.fromisoformat(d.nom) <= aujourdhui:
+        if plus_ancien <= date.fromisoformat(jour_du_lot(d.nom)) <= aujourdhui:
             _, articles = lire(d)
             if articles:
                 travaux.append((d, articles, reseaux, "principale"))
-                du_jour = du_jour or d.nom == aujourdhui.isoformat()
+                du_jour = du_jour or jour_du_lot(d.nom) == aujourdhui.isoformat()
                 if not simulation:
                     noter_photos(articles, d.nom, (cfg.get("antenne") or {}).get("photos_utilisees")
                                  or Path(journal.chemin).parent / "photos_utilisees.json")
@@ -245,7 +268,7 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
             manif, articles = lire(choisi, bavard=False) if choisi else (None, None)
         else:
             for d in dossiers:
-                if date.fromisoformat(d.nom) >= plus_ancien or d.nom < str(r.get("depuis", "")):
+                if d.nom.endswith(SOIR) or date.fromisoformat(d.nom) >= plus_ancien or d.nom < str(r.get("depuis", "")):
                     continue
                 manif, articles = lire(d, bavard=False)
                 if not articles or not manif.get("backfill"):
@@ -286,14 +309,17 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                 restants = restants[:max(0, int(plafond) - deja)]
             if not restants:
                 continue
-            jour_lot = date.fromisoformat(dossier.nom)
+            jour_lot = date.fromisoformat(jour_du_lot(dossier.nom))
             cle = (reseau, piste)
             prevus.setdefault(cle, [])
             # le lot du jour est prioritaire : il prend les créneaux du jour même si des posts
-            # d'anciens lots y débordent encore (sinon chaque lot glisse au lendemain)
+            # d'anciens lots y débordent encore (sinon chaque lot glisse au lendemain) ; le matin et le soir du même
+            # jour se voient l'un l'autre, pour ne jamais tomber à la même heure
+            du_jour_lot = jour_du_lot(dossier.nom) == aujourdhui.isoformat()
             pris = journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"], piste,
-                                    lot=dossier.nom if dossier.nom == aujourdhui.isoformat() else None)
-            nom_creneaux = reseau if piste == "principale" else f"{reseau}_rattrapage"
+                                    lot={aujourdhui.isoformat(), aujourdhui.isoformat() + SOIR} if du_jour_lot else None)
+            soir = dossier.nom.endswith(SOIR)
+            nom_creneaux = (f"{reseau}{SOIR}" if soir else reseau) if piste == "principale" else f"{reseau}_rattrapage"
             horaires = creneaux(cfg, max(jour_lot, aujourdhui), len(restants), horloge(), pris + prevus[cle],
                                 nom_creneaux)
             prevus[cle] += horaires
@@ -367,7 +393,7 @@ def _differe(cfg, nom_lot, articles, reseau, pub, drive, journal: Journal, log, 
     # 1. horaires pour les articles nouveaux
     nouveaux = [a for a in articles if not journal.get(a["id"], reseau).get("programme_pour")]
     if nouveaux:
-        horaires = creneaux(cfg, max(date.fromisoformat(nom_lot), aujourdhui), len(nouveaux), maintenant,
+        horaires = creneaux(cfg, max(date.fromisoformat(jour_du_lot(nom_lot)), aujourdhui), len(nouveaux), maintenant,
                             journal.horaires(reseau, aujourdhui, c["fuseau_creneaux"]) + prevus[reseau])
         prevus[reseau] += horaires
         for a, quand in zip(nouveaux, horaires):
