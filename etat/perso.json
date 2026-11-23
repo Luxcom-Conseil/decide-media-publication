@@ -4131,6 +4131,212 @@
       "sujet": "sept",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-22/20261129-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-23/20261130-2100.jpg",
+      "format": "long",
+      "formule": "Révélation",
+      "id": "20261130-2100",
+      "legende": "Ce mot gratuit te coûte plus cher que tu ne le crois au quotidien.\n\nQuand un produit est gratuit, notre cerveau s'éteint un peu. Il voit l'absence de risque financier et oublie de calculer la valeur réelle de ce qu'on lui propose.\n\nLa prochaine fois qu'on te propose un objet, un service ou une option offerte, pose-toi la bonne question : quelle est la contrepartie ? Ton temps, tes données ou tes euros ?\n\nQuelle est la dernière chose gratuite qui t'a fait dépenser plus ?\n\n#psychologie #biaiscognitif #argent #conseils #decision",
+      "quand": "2026-11-30T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Ce mot gratuit te coûte plus cher que tu ne crois."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu penses faire une affaire ? Tu t'enfonces."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Chaque cadeau gratuit détruit peu à peu ton budget."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "biaiscognitif",
+          "argent",
+          "conseils",
+          "decision"
+        ],
+        "legende": "Ce mot gratuit te coûte plus cher que tu ne le crois au quotidien.\n\nQuand un produit est gratuit, notre cerveau s'éteint un peu. Il voit l'absence de risque financier et oublie de calculer la valeur réelle de ce qu'on lui propose.\n\nLa prochaine fois qu'on te propose un objet, un service ou une option offerte, pose-toi la bonne question : quelle est la contrepartie ? Ton temps, tes données ou tes euros ?\n\nQuelle est la dernière chose gratuite qui t'a fait dépenser plus ?",
+        "question": "Quelle est la dernière chose gratuite qui t'a fait dépenser plus ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce mot gratuit te coûte plus cher que tu ne le crois vraiment au quotidien.",
+            "ecran": "Le mot *gratuit* te coûte cher",
+            "emoji": "😱",
+            "recherche": "person buying groceries online",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce qu'il te pousse à faire sans que tu t'en rendes compte.",
+            "ecran": "Et le *pire* arrive après",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce mécanisme psychologique s'appelle simplement l'effet du prix zéro.",
+            "ecran": "L'effet du *prix zéro*",
+            "emoji": "🧠",
+            "recherche": "brain diagram animation",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu ajoutes un article inutile au panier juste pour débloquer la livraison offerte.",
+            "ecran": "La *livraison* offerte",
+            "emoji": "🛒",
+            "recherche": "shopping cart online desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au café ou au magasin, tu prends un grand format parce qu'un bonus est offert.",
+            "ecran": "Le *deuxième* produit offert",
+            "emoji": "☕",
+            "recherche": "person coffee shop counter",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Sur ton téléphone, tu installes une application gratuitement sans réfléchir aux données.",
+            "ecran": "L'application *gratuite*",
+            "emoji": "📱",
+            "recherche": "person typing smartphone screen",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Prix bas",
+            "b": "Prix zéro",
+            "dit": "Pour ton cerveau, gratuit n'est pas un prix très bas, c'est un déclencheur émotionnel.",
+            "ecran": "L'impact du *gratuit*",
+            "emoji": "⚖️",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le cerveau adore ça parce qu'il ne voit absolument aucun risque de perte directe.",
+            "ecran": "Aucun *risque* perçu",
+            "emoji": "❌",
+            "recherche": "thoughtful man looking relaxed",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais en réalité, tu finis par dépenser de l'argent que tu voulais économiser.",
+            "ecran": "Le vrai *coût* caché",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une astuce simple pour ne plus tomber dans le piège.",
+            "ecran": "Comment s'en *protéger*",
+            "emoji": "🎯",
+            "recherche": "man smiling thinking idea",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Devant un produit offert, demande-toi toujours ce que tu donnes réellement en échange.",
+            "ecran": "Astuce : Ton temps | Tes données | Ton budget",
+            "emoji": "📋",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Est-ce que tu donnes de ton temps en regardant des publicités par exemple ?",
+            "ecran": "Est-ce ton *temps* ?",
+            "emoji": "⏳",
+            "recherche": "bored person watching phone",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Est-ce que tu partages tes données personnelles sans mesurer l'impact ?",
+            "ecran": "Sont-ce tes *données* ?",
+            "emoji": "🔒",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ou est-ce que tu fais un achat que tu n'avais pas du tout prévu au départ ?",
+            "ecran": "Un *achat* non prévu ?",
+            "emoji": "💸",
+            "recherche": "hand holding receipt wallet",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si c'est gratuit, cherche la vraie contrepartie.",
+            "ecran": "Si c'est gratuit, cherche la vraie contrepartie.",
+            "emoji": "💎",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet du prix zéro"
+      },
+      "statut": "programme",
+      "sujet": "gratuit",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-23/20261130-2100.mp4"
     }
   ],
   "publications": [
