@@ -80,7 +80,12 @@ def test_afrique_remplace_drive_reseaux_fuseau_et_reste_inactive(cfg):
     assert a["lots"]["dossier_drive"] not in (cfg["lots"]["dossier_drive"], appliquer_antenne(cfg, "burkina")["lots"]["dossier_drive"])
     assert set(a["lots"]["reseaux"]) <= {"youtube_buffer", "youtube_af", "tiktok_buffer"}
     assert a["lots"]["fuseau_creneaux"] == "Africa/Lagos"
-    assert set(a["buffer"]["canaux"]) == {"youtube_buffer", "tiktok_buffer"}
+    # TikTok Afrique = 3e chaîne du compte Buffer du Burkina (23/11/2026) : même clé, jamais la même chaîne
+    bf = appliquer_antenne(cfg, "burkina")
+    assert set(a["buffer"]["canaux"]) == {"tiktok_buffer"}
+    assert a["antenne"]["cle_buffer"] == bf["antenne"]["cle_buffer"] == "BUFFER_API_KEY_BURKINA"
+    assert a["buffer"]["canaux"]["tiktok_buffer"] not in bf["buffer"]["canaux"].values()
+    assert bf["buffer"]["canaux"]["tiktok_buffer"] == "6b03621f8541f09ecb6ab6aa"
     assert a["antenne"]["prefixe_id"] == "decide-af-" and a["antenne"]["journal"] == "etat/lots_af.json"
     assert a["antenne"]["actif"] is False  # aucun lot Afrique ne part avant les comptes et le feu vert
     assert cfg["lots"]["fuseau_creneaux"] == "Africa/Douala"

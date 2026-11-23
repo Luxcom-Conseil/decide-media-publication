@@ -181,7 +181,7 @@ jobs:
             git pull --rebase --autostash
             git push
 
-  # Antenne DECIDE MEDIA Afrique (YouTube et TikTok par le compte Buffer Afrique) : après le Burkina, dans le même
+  # Antenne DECIDE MEDIA Afrique (TikTok par le compte Buffer du Burkina, YouTube en direct plus tard) : après le Burkina, dans le même
   # passage, pour ne jamais enregistrer etat/ en même temps que lui. Tant que antennes.afrique.actif vaut false
   # (config.yaml), ce job ne publie rien. Le Cameroun et le Burkina ne dépendent pas de ce job.
   afrique:
@@ -214,7 +214,7 @@ jobs:
         env:
           SIMULATION: ${{ inputs.simulation }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          BUFFER_API_KEY_AFRIQUE: ${{ secrets.BUFFER_API_KEY_AFRIQUE }}
+          BUFFER_API_KEY_BURKINA: ${{ secrets.BUFFER_API_KEY_BURKINA }}   # TikTok Afrique : 3e chaîne du Buffer Burkina
           YOUTUBE_CLIENT_ID_AFRIQUE: ${{ secrets.YOUTUBE_CLIENT_ID_AFRIQUE }}
           YOUTUBE_CLIENT_SECRET_AFRIQUE: ${{ secrets.YOUTUBE_CLIENT_SECRET_AFRIQUE }}
           YOUTUBE_REFRESH_TOKEN_AFRIQUE: ${{ secrets.YOUTUBE_REFRESH_TOKEN_AFRIQUE }}
