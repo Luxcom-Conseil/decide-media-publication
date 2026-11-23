@@ -164,6 +164,16 @@
       "titre": "Les mines tirent la croissance",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
     },
+    "youtube_bf": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:31:00+00:00",
+      "piste": "principale",
+      "post_id": "zga0mdMNvGA",
+      "programme_pour": "2026-11-24T08:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Les mines tirent la croissance"
+    },
     "youtube_buffer": {
       "erreur": "buffer youtube_buffer : You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.",
       "lot": "2026-11-23",
@@ -179,6 +189,16 @@
       "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
       "statut": "ecarte",
       "tentatives": 99
+    },
+    "youtube_bf": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:31:00+00:00",
+      "piste": "principale",
+      "post_id": "43ckhMCUfIo",
+      "programme_pour": "2026-11-24T11:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Quatre hôpitaux pour 324 milliards"
     }
   },
   "decide-bf-decide-media-2026-11-23-03": {
@@ -200,6 +220,16 @@
       "note": "doublon du lot test publié dans la nuit du 22 au 23/11 (CHR-U, RAAGA, bilan énergétique)",
       "statut": "ecarte",
       "tentatives": 99
+    },
+    "youtube_bf": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:31:01+00:00",
+      "piste": "principale",
+      "post_id": "7PPJw45q6AI",
+      "programme_pour": "2026-11-24T14:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "La biomasse domine encore l'énergie"
     }
   },
   "decide-bf-decide-media-2026-11-23-05": {
@@ -213,6 +243,16 @@
       "tentatives": 0,
       "titre": "Perkoa : 400 emplois attendus",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:31:01+00:00",
+      "piste": "principale",
+      "post_id": "4y4T7StbyE8",
+      "programme_pour": "2026-11-24T17:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Perkoa : 400 emplois attendus"
     }
   },
   "decide-bf-decide-media-2026-11-23-06": {
@@ -226,6 +266,16 @@
       "tentatives": 0,
       "titre": "Le gasoil grimpe de 75 francs",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:31:01+00:00",
+      "piste": "principale",
+      "post_id": "bxYnDQdGlX8",
+      "programme_pour": "2026-11-24T20:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le gasoil grimpe de 75 francs"
     }
   },
   "decide-bf-decide-media-2026-11-23-07": {
@@ -239,6 +289,16 @@
       "tentatives": 0,
       "titre": "Faso SANU, nouveau bras de l'État",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:31:02+00:00",
+      "piste": "principale",
+      "post_id": "wD0nRvFMv1Y",
+      "programme_pour": "2026-11-24T12:30:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Faso SANU, nouveau bras de l'État"
     }
   },
   "decide-bf-decide-media-2026-11-23-08": {
@@ -252,6 +312,16 @@
       "tentatives": 0,
       "titre": "Le panier gonfle, la viande flambe",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:31:02+00:00",
+      "piste": "principale",
+      "post_id": "Bk60uuU0Sx4",
+      "programme_pour": "2026-11-24T08:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le panier gonfle, la viande flambe"
     }
   },
   "decide-bf-decide-media-2026-11-23-09": {
@@ -265,6 +335,16 @@
       "tentatives": 0,
       "titre": "Gaz subventionné : les restaurants contrôlés",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:31:03+00:00",
+      "piste": "principale",
+      "post_id": "nw2VvfZ66QI",
+      "programme_pour": "2026-11-24T11:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Gaz subventionné : les restaurants contrôlés"
     }
   },
   "decide-bf-decide-media-2026-11-23-10": {
@@ -278,6 +358,14 @@
       "tentatives": 0,
       "titre": "Coton : 310 francs le kilo minimum",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
+      "lot": "2026-11-23",
+      "maj": "2026-11-23T21:35:38+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Coton : 310 francs le kilo minimum"
     }
   },
   "decide-bf-decide-media-2026-11-23-11": {

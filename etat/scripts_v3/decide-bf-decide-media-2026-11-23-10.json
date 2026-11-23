@@ -1,0 +1,154 @@
+{
+  "accroches": [
+    "310 francs CFA le kilo minimum pour le coton au Burkina Faso.",
+    "Le Burkina Faso vise 534 250 tonnes de coton pour cette campagne.",
+    "Les engrais sont vendus à 17 500 francs CFA le sac."
+  ],
+  "titre": "Prix et objectifs du coton au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "310 francs *minimum* le kilo",
+      "dit": "Au Burkina Faso, le prix minimum du coton premier choix est fixé à 310 francs CFA le kilo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "285 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "285 francs le *deuxième* choix",
+      "dit": "Pour le deuxième choix, le tarif minimum s'élève à 285 francs CFA le kilogramme."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "375 FCFA",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "375 francs le *biologique*",
+      "dit": "Le coton biologique atteint quant à lui un prix minimum de 375 francs CFA le kilo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 juin 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Décision du *25* juin 2026",
+      "dit": "Ces tarifs ont été arrêtés par le Conseil des ministres le 25 juin 2026 pour la campagne 2026-2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Objectif : 534 250 *tonnes*",
+      "dit": "Le gouvernement vise une production totale de 534 250 tonnes de coton graine."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "532 000 tonnes de *conventionnel*",
+      "dit": "Ce volume comprend 532 000 tonnes de coton conventionnel et 2 250 tonnes de coton biologique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse d'environ *70 %*",
+      "dit": "Cet objectif représente environ 70 % de plus que les 314 293 tonnes récoltées l'année précédente."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "294 507 t",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "294 507 tonnes un *an* plus tôt",
+      "dit": "Lors de la campagne précédente, la production s'élevait à 294 507 tonnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "17 500",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le sac d'engrais à *17 500* FCFA",
+      "dit": "Pour accompagner la campagne, les sacs de 50 kg d'engrais NPK-SB et d'urée sont cédés à crédit à 17 500 francs CFA."
+    }
+  ]
+}
