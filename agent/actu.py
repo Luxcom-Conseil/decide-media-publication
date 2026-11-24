@@ -21,6 +21,7 @@ import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from xml.etree import ElementTree
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -655,6 +656,14 @@ def ecrire_etat(etat: dict) -> None:
     ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def jour_cible() -> str:
+    """Jour à produire. GitHub lance les passages planifiés avec 6 à 8 h de retard (20-23/11/2026 : départ entre 9 h et
+    10 h de Paris, les vidéos de 7 h 30 à 10 h 30 partaient toutes vers 11 h). Le passage part donc la veille à 15 h :
+    l'après-midi on prépare le lendemain ; avant midi (retard extrême, lancement à la main) on fait le jour même."""
+    maintenant = datetime.now(ZoneInfo("Europe/Paris"))
+    return (maintenant.date() + timedelta(days=1 if maintenant.hour >= 12 else 0)).isoformat()
+
+
 def produire(cfg: dict, log, jour: str, seulement: list[int] | None = None) -> list[dict]:
     """Fabrique les vidéos actu du `jour` dans sortie/actu/<jour>/ selon la grille du test."""
     j = date.fromisoformat(jour)
@@ -668,7 +677,8 @@ def produire(cfg: dict, log, jour: str, seulement: list[int] | None = None) -> l
         return faites
     etat = lire_etat()
     codes = grille(j)
-    deja = {v["creneau"] for v in faites}
+    # deux passages pour un même jour (lancement à la main + passage planifié en retard) : pas de doublon
+    deja = {v["creneau"] for v in faites} | {x["creneau"] for x in etat["journal"] if x.get("jour") == jour}
     a_faire = [k for k in range(len(codes)) if k not in deja and (seulement is None or k in seulement)]
     log(f"🗓️ {jour}, jour {(j - DEBUT_TEST).days % len(GRILLE) + 1} du cycle : "
         + ", ".join(f"{HEURES[k]} {codes[k]}" for k in a_faire))
@@ -678,12 +688,28 @@ def produire(cfg: dict, log, jour: str, seulement: list[int] | None = None) -> l
     exclus = set(etat["faits"])
     choix = choisir(cfg, [codes[k] for k in a_faire], articles, exclus, log)
     for k, ch in zip(a_faire, choix):
-        nom = f"actu-{jour}-{k}-{ch['code']}"
-        log(f"• {HEURES[k]} format {ch['code']} ({FORMATS[ch['code']]['partie']})")
-        try:
-            meta = fabriquer(cfg, ch, articles, j, dossier, nom, exclus, log)
-        except Exception as e:
-            log(f"    ❌ créneau {HEURES[k]} sans vidéo : {str(e)[:300]}")
+        meta = None
+        # Créneau refusé (1 à 3 par jour du 20 au 23/11/2026) : d'abord les 3 articles suivants du même format, puis
+        # le format de secours de même taille (1a long, 1b court) ; le journal garde le format réellement sorti.
+        secours = "1b" if FORMATS[ch["code"]]["taille"] == "court" else "1a"
+        essais = [ch, dict(ch, articles=ch["articles"][3:])]
+        if ch["code"] != secours:
+            essais.append({"code": secours, "articles": candidats(secours, articles, exclus)[:3], "fiche": "", "wikipedia": ""})
+        for n, e in enumerate(essais):
+            if not [i for i in e["articles"] if articles[i]["url"] not in exclus]:
+                continue
+            nom = f"actu-{jour}-{k}-{e['code']}"
+            log(f"• {HEURES[k]} format {e['code']} ({FORMATS[e['code']]['partie']})" + (" — nouvel essai" if n else ""))
+            try:
+                meta = fabriquer(cfg, e, articles, j, dossier, nom, exclus, log)
+                ch = e
+                break
+            except Exception as x:
+                log(f"    ❌ {str(x)[:300]}")
+                if "Gemini indisponible" in str(x):
+                    break
+        if meta is None:
+            log(f"    ❌ créneau {HEURES[k]} sans vidéo")
             continue
         exclus.add(meta["article"]["url"])
         etat["faits"].append(meta["article"]["url"])

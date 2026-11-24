@@ -81,7 +81,7 @@ FORMATS = {
     "serie": ((13, 24), (1150, 1700)),
     "serie2": ((12, 24), (1100, 1700)),
     "chiffre": ((6, 11), (380, 600)),
-    "actu": ((8, 17), (650, 1250)),  # rubrique actu (agent/actu.py) : un article de presse court donne 45 à 60 s
+    "actu": ((7, 17), (560, 1250)),  # 7 scènes / 560 car. (24/11/2026) : refus fréquents à 7 scènes et 590-620 car.  # rubrique actu (agent/actu.py) : un article de presse court donne 45 à 60 s
     "programme": ((10, 17), (850, 1250)),  # 60 s (demande de Stéphane du 07/11/2026)  # rubrique Présidentielle 2027 (agent/programme.py)
 }
 TYPES = ["accroche", "recit", "date", "chiffre", "suite", "lecon"]
@@ -696,14 +696,20 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
     # vidéo toutes les 30 min, sans attendre les créneaux. Le passage automatique du matin garde les créneaux.
     immediat = os.environ.get("HISTOIRES_IMMEDIAT") == "1"  # case « immediat » du lancement manuel (histoires.yml)
     maintenant = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0)
+    en_retard = 0
+    youtube_plein = False
     for rang, v in enumerate(plan):
         meta = json.loads((dossier / f"{v['nom']}.json").read_text(encoding="utf-8"))
         quand = datetime.fromisoformat(f"{jour}T{v['heure']}:00").replace(tzinfo=ZoneInfo("Europe/Paris"))
         if immediat:
             quand = maintenant + timedelta(minutes=10 + 30 * rang)
-        elif quand < datetime.now(ZoneInfo("Europe/Paris")):
-            quand = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0) + timedelta(minutes=20)
+        elif quand < maintenant + timedelta(minutes=20):
+            # créneaux passés (passage en retard) : étalés de 30 en 30 min, plus jamais tous à la même minute
+            quand = maintenant + timedelta(minutes=20 + 30 * en_retard)
+            en_retard += 1
         for reseau, canal in canaux.items():
+            if reseau == "youtube" and youtube_plein:
+                continue
             metadata = ({"tiktok": {"isAiGenerated": True, "title": v["titre"][:90]}} if reseau == "tiktok" else
                         {"youtube": {"title": v["titre"][:100], "categoryId": str(h.get("categorie_youtube", "27")),
                                      "privacy": "public", "madeForKids": False, "notifySubscribers": True,
@@ -722,6 +728,11 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
                 log(f"    📅 {reseau} {quand:%d/%m %H:%M} : {v['titre']}")
                 etat["programmes"].append({"jour": jour, "nom": v["nom"], "reseau": reseau, "buffer": d["post"]["id"],
                                            "heure": quand.isoformat()})
+            elif "maximum number of posts YouTube allows" in d.get("message", ""):
+                # plafond YouTube de la chaîne (2 posts par jour du 20 au 23/11/2026, pris par la série) : ce n'est pas
+                # une panne du passage ; les vidéos suivantes ne sont plus proposées à YouTube ce jour-là
+                youtube_plein = True
+                log(f"    ⚠️ youtube : plafond quotidien de la chaîne atteint, « {v['titre']} » et les suivantes sur TikTok seulement")
             else:
                 ok = False
                 log(f"    ❌ {reseau} : {d.get('message', 'refus sans motif')[:300]}")

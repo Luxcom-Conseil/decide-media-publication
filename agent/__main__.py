@@ -194,11 +194,12 @@ def main(argv: list[str] | None = None) -> int:
 
         from . import actu
 
-        jour = datetime.now(ZoneInfo("Europe/Paris")).date().isoformat()
+        jour = os.environ.get("ACTU_JOUR") or actu.jour_cible()  # ACTU_JOUR : le même jour pour les 2 étapes (actu.yml)
         if a.commande == "actu-essai":  # --sujet = code du format (1a, 4b…) ; rien n'est publié
             ok = actu.essai(cfg, log, a.sujet or "1a")
         elif a.commande == "actu-produire":
-            ok = len(actu.produire(cfg, log, jour)) > 0 or not (cfg.get("actu") or {}).get("actif", True)
+            ok = (len(actu.produire(cfg, log, jour)) > 0 or not (cfg.get("actu") or {}).get("actif", True)
+                  or any(x.get("jour") == jour for x in actu.lire_etat()["journal"]))  # jour déjà fait par un passage
         else:
             ok = actu.programmer(cfg, log, jour)
         _resume_github(log)

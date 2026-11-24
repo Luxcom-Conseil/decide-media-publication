@@ -5,7 +5,9 @@ name: Histoires vraies d'argent - Actu
 # entre 7 h 30 et 22 h (la série des histoires garde 12 h 30 et 20 h 30).
 on:
   schedule:
-    - cron: "7 1 * * *"    # 1 h 07 UTC (2 h 07 à Paris), après les histoires (0 h 07) et le programme (0 h 37)
+    # 14 h 07 UTC (15 h 07 à Paris) : prépare les vidéos du LENDEMAIN (agent/actu.py, jour_cible). Le passage de
+    # 2 h 07 démarrait avec 6 à 8 h de retard (20-23/11/2026) et tassait les créneaux du matin vers 11 h.
+    - cron: "7 14 * * *"
   workflow_dispatch:
     inputs:
       immediat:
@@ -24,6 +26,8 @@ jobs:
   produire:
     runs-on: ubuntu-latest
     timeout-minutes: 330   # 8 vidéos ; la première sort à 7 h 30 de Paris
+    outputs:
+      jour: ${{ steps.jour.outputs.jour }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -38,10 +42,14 @@ jobs:
           cache: npm
           cache-dependency-path: motion/package-lock.json
       - run: pip install -r requirements.txt
+      - name: Jour à produire (fixé une fois pour les deux étapes)
+        id: jour
+        run: echo "jour=$(python -c 'from agent.actu import jour_cible; print(jour_cible())')" >> "$GITHUB_OUTPUT"
       - name: Fabriquer les vidéos du jour
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          ACTU_JOUR: ${{ steps.jour.outputs.jour }}
         run: python -m agent actu-produire
       - uses: actions/upload-artifact@v4
         if: always()
@@ -77,6 +85,7 @@ jobs:
       - name: Mettre en ligne et programmer dans Buffer
         env:
           BUFFER_API_KEY_HISTOIRES: ${{ secrets.BUFFER_API_KEY_HISTOIRES }}
+          ACTU_JOUR: ${{ needs.produire.outputs.jour }}
           HISTOIRES_IMMEDIAT: ${{ (github.event_name == 'workflow_dispatch' && inputs.immediat) && '1' || '0' }}
         run: python -m agent actu-programmer
       - name: Enregistrer l'avancement
