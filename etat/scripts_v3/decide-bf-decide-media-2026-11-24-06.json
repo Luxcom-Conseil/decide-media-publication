@@ -1,0 +1,156 @@
+{
+  "accroches": [
+    "Le kilo d'oignon a pris 82 % dans le Kadiogo en septembre 2026.",
+    "Le kilo d'oignon est passé de 651 à 1 183 FCFA en un mois.",
+    "La tomate baisse alors que l'oignon augmente fortement au Burkina Faso."
+  ],
+  "titre": "Prix des aliments au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'oignon *prend* 82 % en un mois",
+      "dit": "Le kilo d'oignon frais a pris 82 % dans le Kadiogo en septembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "651",
+        "apres": "1 183",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Il passe à *1 183 FCFA* le kilo",
+      "dit": "Selon l'INSD, le kilo d'oignon y est passé de 651 FCFA en août à 1 183 FCFA en septembre."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Hauts-Bassins",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Hausse de *28 %* dans le Guiriko",
+      "dit": "Dans le Guiriko, la hausse de l'oignon atteint 28 %, passant de 712 à 910 FCFA le kilo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La tomate *recule* de 28 %",
+      "dit": "À l'inverse, la tomate ronde recule dans le Kadiogo de 1 168 FCFA le kilo à 845 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Moins *11 %* dans le Guiriko",
+      "dit": "Elle baisse aussi de 11 % dans la région du Guiriko, pour atteindre 827 FCFA le kilo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "13 258",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le sac de riz à *13 258 FCFA*",
+      "dit": "De son côté, le sac de 25 kg de riz brisé revient à 13 258 FCFA dans le Kadiogo en septembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "11 987",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le riz *baisse* dans le Guiriko",
+      "dit": "Dans le Guiriko, le même sac de riz brisé est passé de 12 471 à 11 987 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le mouton *monte* de 9 %",
+      "dit": "La viande fraîche de mouton avec os monte de 9 %, atteignant 4 198 FCFA le kilo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "850",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Prix du carburant *stable*",
+      "dit": "L'essence super reste stable dans le Kadiogo à 850 FCFA le litre en septembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "5 562,5",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le gaz à *5 562,5 FCFA*",
+      "dit": "La bouteille de gaz de 12,5 kg coûte 5 562,5 FCFA, comme le mois précédent."
+    }
+  ]
+}

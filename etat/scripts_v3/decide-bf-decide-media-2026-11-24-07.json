@@ -1,0 +1,142 @@
+{
+  "accroches": [
+    "À Kyon, 11 établissements ont été scellés lors d'un contrôle commercial.",
+    "Plus d'une tonne de produits périmés a été saisie à Kyon.",
+    "Sur 23 commerces contrôlés à Kyon, 11 ont été scellés."
+  ],
+  "titre": "Kyon : 11 commerces scellés par l'État",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "11 commerces *scellés* à Kyon",
+      "dit": "À Kyon, 11 établissements ont été scellés lors d'un contrôle des agents du commerce."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "23 commerces *contrôlés* au Sanguié",
+      "dit": "Les agents de la direction régionale de Nando ont inspecté au total 23 commerces de cette commune."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "+1 tonne de *produits* saisie",
+      "dit": "Plus d'une tonne de marchandises périmées et prohibées a été saisie durant cette opération."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aliments *impropres* à la consommation",
+      "dit": "Ces produits retirés du marché étaient jugés impropres à la consommation ou interdits de vente."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Réglementation des *prix* non respectée",
+      "dit": "Les contrôleurs ont aussi relevé plusieurs manquements à la réglementation sur les prix des marchandises."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Rappel de la *loi* aux commerçants",
+      "dit": "La direction régionale rappelle l'obligation stricte de respecter la loi et les règles en vigueur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Surveillance du *marché* poursuivie",
+      "dit": "Les autorités annoncent que les opérations de contrôle vont se poursuivre dans la région de Nando."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Signalement des *fraudes* possible",
+      "dit": "De leur côté, les consommateurs peuvent signaler les fraudes aux numéros verts 80 00 11 84 et 85."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "21 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bilan du *21 novembre* 2026",
+      "dit": "Le compte rendu des inspecteurs a été publié le 23 novembre d'après un bilan daté du 21 novembre 2026."
+    }
+  ]
+}

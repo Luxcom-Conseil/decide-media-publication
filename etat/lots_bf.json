@@ -490,18 +490,45 @@
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-11-24",
-      "maj": "2026-11-24T09:55:18+00:00",
-      "statut": "echec",
+      "maj": "2026-11-24T13:02:25+00:00",
+      "piste": "principale",
+      "post_id": "6b058ae149097c7ae5088488",
+      "programme_pour": "2026-11-24T15:45:00+00:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Gouvernement et privé : rendez-vous à Bobo"
+      "titre": "Gouvernement et privé : rendez-vous à Bobo",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
     },
     "youtube_bf": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-11-24",
-      "maj": "2026-11-24T09:49:21+00:00",
+      "maj": "2026-11-24T13:00:13+00:00",
       "statut": "echec",
       "tentatives": 0,
       "titre": "Gouvernement et privé : rendez-vous à Bobo"
+    }
+  },
+  "decide-bf-decide-media-2026-11-24-06": {
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T13:11:17+00:00",
+      "piste": "principale",
+      "post_id": "6b058cf5993e0890bb588e28",
+      "programme_pour": "2026-11-24T18:45:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Au marché, l'oignon monte, la tomate chute",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-24-07": {
+    "tiktok_buffer": {
+      "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T13:18:21+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Kyon : 11 établissements scellés"
     }
   }
 }
