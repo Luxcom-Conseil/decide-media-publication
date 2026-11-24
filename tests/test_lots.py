@@ -440,3 +440,19 @@ def test_lot_du_soir_passe_avant_le_matin(tmp_path):
     traiter_lots(cfg, FauxDriveSoir(manifeste(), soir(1)), {"youtube": yt}, Journal(tmp_path / "l.json"), print,
                  maintenant=MATIN)
     assert yt.programmes[0][0] == "Soir 1" and len(yt.programmes) == 11
+
+
+def test_plafond_par_jour_matin_et_soir_ensemble(tmp_path):
+    """YouTube Burkina : 5 vidéos par jour en tout (décision du 24/11/2026) ; TikTok garde ses 10, plus le soir."""
+    yt, tk = FauxFacebook(), FauxFacebook()
+    reel = charger_config("config.yaml")
+    cfg = {**reel, "youtube": {**reel["youtube"], "modele_valide": True},
+           "lots": {**reel["lots"], "reseaux": ["youtube", "tiktok_buffer"], "max_par_jour": {"youtube": 5}}}
+    pubs = {"youtube": yt, "tiktok_buffer": tk}
+    traiter_lots(cfg, FauxDrive(manifeste()), pubs, Journal(tmp_path / "l.json"), print, maintenant=MATIN)
+    assert len(yt.programmes) == 5 and len(tk.programmes) == 10
+    # l'après-midi : le lot du soir n'a plus de place sur YouTube, il part sur TikTok
+    traiter_lots(cfg, FauxDriveSoir(manifeste(), soir(2)), pubs, Journal(tmp_path / "l.json"), print,
+                 maintenant=SOIR_PASSAGE)
+    assert len(yt.programmes) == 5 and len(tk.programmes) == 12
+    assert Journal(tmp_path / "l.json").programmes_du_jour("youtube", "2026-10-21") == 5

@@ -163,6 +163,11 @@ class Journal:
                     out.append(dt)
         return out
 
+    def programmes_du_jour(self, reseau: str, jour: str) -> int:
+        """Articles déjà programmés sur ce réseau pour les lots d'un jour (matin et soir ensemble)."""
+        return sum(art.get(reseau, {}).get("statut") == "programme"
+                   and jour_du_lot(art.get(reseau, {}).get("lot") or "") == jour for art in self.d.values())
+
     def sauver(self) -> None:
         self.chemin.parent.mkdir(parents=True, exist_ok=True)
         tmp = self.chemin.with_suffix(".tmp")
@@ -307,6 +312,12 @@ def traiter_lots(cfg: dict, drive, publieurs: dict, journal: Journal, log, *, si
                 if len(restants) > max(0, int(plafond) - deja):
                     log(f"    (plafond {reseau} : {plafond} par lot — les suivants ne sont pas programmés)")
                 restants = restants[:max(0, int(plafond) - deja)]
+            par_jour = (c.get("max_par_jour") or {}).get(reseau)
+            if par_jour is not None:  # plafond du jour, lot du matin et lot du soir ensemble (ex. YouTube Burkina : 5)
+                reste = max(0, int(par_jour) - journal.programmes_du_jour(reseau, jour_du_lot(dossier.nom)))
+                if len(restants) > reste:
+                    log(f"    (plafond {reseau} : {par_jour} par jour, matin et soir — les suivants ne sont pas programmés)")
+                restants = restants[:reste]
             if not restants:
                 continue
             jour_lot = date.fromisoformat(jour_du_lot(dossier.nom))
