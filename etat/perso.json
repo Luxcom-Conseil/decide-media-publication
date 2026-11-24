@@ -1270,193 +1270,14 @@
       "formule": "Liste",
       "id": "20261124-2100",
       "legende": "3 choses que tu fais sans t'en rendre compte quand tu révises.\n\nOn pense souvent que travailler sans s'arrêter est la clé du succès. En réalité, le cerveau a besoin de vraies coupures pour enregistrer les informations.\n\nTravaille par blocs, coupe les écrans pendant tes pauses et dors bien.\n\nTu fais des pauses sans écran ou tu restes sur ton téléphone ?\n\n#psychologie #productivite #memoire #travail #apprentissage",
+      "media_id": "18255586708309648",
+      "publie_le": "2026-11-24T20:02:26+00:00",
       "quand": "2026-11-24T21:00:00+01:00",
       "refait_le": "2026-11-20T18:56:23+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Liste",
-            "texte": "3 choses que tu fais sans t'en rendre compte quand tu révises."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Travailler sans t'arrêter peut détruire ton efficacité."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de bosser non-stop tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "productivite",
-          "memoire",
-          "travail",
-          "apprentissage"
-        ],
-        "legende": "3 choses que tu fais sans t'en rendre compte quand tu révises.\n\nOn pense souvent que travailler sans s'arrêter est la clé du succès. En réalité, le cerveau a besoin de vraies coupures pour enregistrer les informations.\n\nTravaille par blocs, coupe les écrans pendant tes pauses et dors bien.\n\nTu fais des pauses sans écran ou tu restes sur ton téléphone ?",
-        "question": "Tu fais des pauses sans écran ou tu restes sur ton téléphone ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "3 choses que tu fais sans t'en rendre compte quand tu révises ou travailles des heures.",
-            "ecran": "Tu *oublies* tout ce que tu apprends ?",
-            "emoji": "🧠",
-            "recherche": "student stressed desk",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que tu penses bien faire en restant collé à ta chaise toute la journée.",
-            "ecran": "Et le pire, c'est la *troisième*.",
-            "emoji": "🔥",
-            "recherche": "person working long hours",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En réalité, ton cerveau a besoin de pauses et même de sommeil pour consolider ce qu'il a appris.",
-            "ecran": "Le cerveau a besoin de *souffler*.",
-            "emoji": "💡",
-            "recherche": "brain resting asleep",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Première erreur classique au bureau ou à la maison. Tu prends une pause mais tu restes sur ton téléphone.",
-            "ecran": "Le piège des *réseaux* pendant les pauses",
-            "emoji": "📱",
-            "recherche": "person scrolling phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton esprit continue de traiter des informations visuelles et ton cerveau fatigue encore plus au lieu de récupérer.",
-            "ecran": "Ton cerveau ne *repose* pas",
-            "emoji": "❌",
-            "recherche": "tired eyes screen",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deuxième erreur, tu enchaînes les dossiers ou les chapitres pendant des heures sans lever les yeux.",
-            "ecran": "Enchaîner sans *s'arrêter*",
-            "emoji": "⏳",
-            "recherche": "clock ticking fast",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Résultat, ta concentration chute et tu retiens beaucoup moins bien les informations importantes.",
-            "ecran": "Ta *mémoire* sature complètement",
-            "emoji": "📉",
-            "recherche": "confused student papers",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Troisième erreur, tu penses que veiller tard pour tout apprendre la veille est une bonne stratégie.",
-            "ecran": "Oublier le *sommeil* récupérateur",
-            "emoji": "🏃",
-            "recherche": "night studying lamp",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est faux. C'est pendant la nuit que ton cerveau fait le tri et range durablement tes nouvelles connaissances.",
-            "ecran": "La nuit *range* tes souvenirs",
-            "emoji": "🌙",
-            "recherche": "sleeping in bed",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici comment faire pour booster ta mémoire dès aujourd'hui sans t'épuiser inutilement.",
-            "ecran": "La méthode en *trois étapes*",
-            "emoji": "✅",
-            "recherche": "focused planning desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Travaille par périodes concentrées, sans distraction et sans regarder tes notifications.",
-            "ecran": "1. Travail par *périodes*",
-            "emoji": "🎯",
-            "recherche": "focused man computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Fais une vraie pause, loin de l'écran, en marchant un peu ou en regardant par la fenêtre.",
-            "ecran": "2. Fais une vraie *pause*",
-            "emoji": "🌿",
-            "recherche": "walking outside park",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Respecte tes nuits de sommeil pour laisser le temps à ton cerveau de tout assimiler.",
-            "ecran": "3. Respecte tes *nuits*",
-            "emoji": "🛌",
-            "recherche": "peaceful morning light",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les pauses et le sommeil aident le cerveau à consolider ce qu'il a appris.",
-            "ecran": "Les pauses *consolident* ton apprentissage.",
-            "emoji": "💡",
-            "recherche": "light bulb idea",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le pouvoir des pauses"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "pauses",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgIw-9nkS-w/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261124-2100-r.mp4"
     },
     {
@@ -4653,6 +4474,13 @@
       "media_id": "18079167191466020",
       "sujet": "pareto",
       "url": "https://www.instagram.com/reel/DgIf3bNE8Je/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-24",
+      "media_id": "18255586708309648",
+      "sujet": "pauses",
+      "url": "https://www.instagram.com/reel/DgIw-9nkS-w/"
     }
   ]
 }
