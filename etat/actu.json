@@ -1,0 +1,71 @@
+{
+ "faits": [
+  "https://www.20minutes.fr/economie/4265270-20261124-pourquoi-banque-france-veut-relancer-circulation-billets-5-euros?at_medium=display&at_campaign=149",
+  "https://www.franceinfo.fr/politique/suppression-de-l-abattement-fiscal-de-10-applique-aux-pensions-de-retraites-je-salue-le-choix-courageux-du-senat-confie-david-amiel-ministre-des-comptes-publics_8297268.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/pouvoir-achat/reportage-des-qu-on-voit-des-promos-on-stocke-a-la-maison-et-on-cache-de-plus-en-plus-de-francais-profitent-du-black-friday-pour-faire-leurs-cadeaux-de-noel_8296566.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/replay-radio/le-brief-eco/stellantis-quitte-la-competition-sportive_8275340.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2026-cybersecurite-collectivites",
+  "https://www.20minutes.fr/economie/4265097-20261123-si-90-stations-baisse-prix-carburants-10-restants?at_medium=display&at_campaign=149",
+  "https://www.franceinfo.fr/faits-divers/justice-proces/un-policier-condamne-a-18-mois-de-prison-ferme-pour-un-tir-mortel-sur-un-automobiliste-noir-en-seine-saint-denis_8293448.html#xtor=RSS-3-%5Bfaits-divers%2Fjustice-proces%5D",
+  "https://www.franceinfo.fr/culture/cinema/face-a-la-sous-representation-des-femmes-aux-postes-d-encadrement-dans-le-cinema-le-cnc-va-mettre-en-place-un-nouveau-systeme-de-bonus-malus_8297346.html#xtor=RSS-3-%5Beconomie%5D"
+ ],
+ "journal": [
+  {
+   "jour": "2026-11-24",
+   "creneau": 0,
+   "code": "1c",
+   "nom": "actu-2026-11-24-0-1c",
+   "url": "https://www.20minutes.fr/economie/4265270-20261124-pourquoi-banque-france-veut-relancer-circulation-billets-5-euros?at_medium=display&at_campaign=149"
+  },
+  {
+   "jour": "2026-11-24",
+   "creneau": 1,
+   "code": "1a",
+   "nom": "actu-2026-11-24-1-1a",
+   "url": "https://www.franceinfo.fr/politique/suppression-de-l-abattement-fiscal-de-10-applique-aux-pensions-de-retraites-je-salue-le-choix-courageux-du-senat-confie-david-amiel-ministre-des-comptes-publics_8297268.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-24",
+   "creneau": 2,
+   "code": "5b",
+   "nom": "actu-2026-11-24-2-5b",
+   "url": "https://www.franceinfo.fr/economie/pouvoir-achat/reportage-des-qu-on-voit-des-promos-on-stocke-a-la-maison-et-on-cache-de-plus-en-plus-de-francais-profitent-du-black-friday-pour-faire-leurs-cadeaux-de-noel_8296566.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-24",
+   "creneau": 3,
+   "code": "2a",
+   "nom": "actu-2026-11-24-3-2a",
+   "url": "https://www.franceinfo.fr/replay-radio/le-brief-eco/stellantis-quitte-la-competition-sportive_8275340.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-24",
+   "creneau": 4,
+   "code": "4b",
+   "nom": "actu-2026-11-24-4-4b",
+   "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2026-cybersecurite-collectivites"
+  },
+  {
+   "jour": "2026-11-24",
+   "creneau": 5,
+   "code": "6b",
+   "nom": "actu-2026-11-24-5-6b",
+   "url": "https://www.20minutes.fr/economie/4265097-20261123-si-90-stations-baisse-prix-carburants-10-restants?at_medium=display&at_campaign=149"
+  },
+  {
+   "jour": "2026-11-24",
+   "creneau": 6,
+   "code": "7a",
+   "nom": "actu-2026-11-24-6-7a",
+   "url": "https://www.franceinfo.fr/faits-divers/justice-proces/un-policier-condamne-a-18-mois-de-prison-ferme-pour-un-tir-mortel-sur-un-automobiliste-noir-en-seine-saint-denis_8293448.html#xtor=RSS-3-%5Bfaits-divers%2Fjustice-proces%5D"
+  },
+  {
+   "jour": "2026-11-24",
+   "creneau": 7,
+   "code": "2c",
+   "nom": "actu-2026-11-24-7-2c",
+   "url": "https://www.franceinfo.fr/culture/cinema/face-a-la-sous-representation-des-femmes-aux-postes-d-encadrement-dans-le-cinema-le-cnc-va-mettre-en-place-un-nouveau-systeme-de-bonus-malus_8297346.html#xtor=RSS-3-%5Beconomie%5D"
+  }
+ ],
+ "programmes": []
+}
