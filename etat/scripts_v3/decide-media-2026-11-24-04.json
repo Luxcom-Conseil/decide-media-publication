@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "Ce mardi 24 novembre 2026 est le dernier jour pour déposer les candidatures.",
+    "La caution est de 50 000 FCFA pour les municipales au Cameroun.",
+    "La caution atteint un million de FCFA pour les législatives au Cameroun."
+  ],
+  "titre": "Candidatures : date limite ce mardi",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Candidatures : date limite ce *mardi*",
+      "dit": "Ce mardi 24 novembre 2026 est le dernier jour pour déposer les candidatures aux élections."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 février 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Scrutin prévu le 7 *février*",
+      "dit": "Le scrutin pour les législatives et les municipales est prévu le 7 février 2027 au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "50000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Caution de 50 000 *FCFA*",
+      "dit": "Selon Cameroun24, la caution est de 50 000 FCFA par candidat pour les municipales."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Caution d'un million de *FCFA*",
+      "dit": "Pour les législatives, la caution s'élève à un million de FCFA versés au Trésor public."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dépôt des dossiers auprès *d'Elecam*",
+      "dit": "Pour les municipales, les dossiers se déposent au démembrement communal d'Elecam."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Direction générale des *élections*",
+      "dit": "Pour les législatives, le dépôt se fait à la Direction générale ou au démembrement départemental."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "9 décembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Publication autour du 9 *décembre*",
+      "dit": "La liste des candidats serait publiée autour du 9 décembre selon un calcul de Cameroun24."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "23 janvier 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Début de la campagne en *janvier*",
+      "dit": "La campagne électorale doit débuter le 23 janvier 2027 selon les informations de Koaci."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Appel de la Commission des *droits*",
+      "dit": "La Commission des droits de l'Homme demande de garantir à tous l'accès aux pièces nécessaires."
+    }
+  ]
+}

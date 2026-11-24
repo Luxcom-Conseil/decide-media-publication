@@ -1,0 +1,231 @@
+{
+  "accroches": [
+    "1,8 milliard de FCFA sont programmés pour le train Kribi Dja.",
+    "Le Cameroun prévoit un train entre Kribi et la région du Dja.",
+    "Un appel d'offres était prévu le 25 mai 2026."
+  ],
+  "titre": "Un train Kribi-Dja en projet",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Kribi",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "1,8 milliard pour le train *Kribi-Dja*",
+      "dit": "1,8 milliard de FCFA sont programmés pour les études d'un train entre Kribi et le Dja."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 mai 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un appel d'offres au *Cameroun*",
+      "dit": "Selon Investir au Cameroun, ce montant figure dans le plan de charges des marchés publics pour 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 septembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une attribution prévue le *7 septembre*",
+      "dit": "Le calendrier prévoyait un appel d'offres national restreint à lancer le 25 mai 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 octobre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Signature du contrat en *octobre*",
+      "dit": "L'attribution était fixée au 7 septembre et la signature du contrat au 12 octobre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "18 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un chantier de *18 mois*",
+      "dit": "Le démarrage des prestations était programmé pour le 26 octobre 2026 pour une durée de 18 mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "26 avril 2028",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réception attendue en *2028*",
+      "dit": "La réception finale de ces études préparatoires était ainsi attendue le 26 avril 2028."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le tracé reste *inconnu*",
+      "dit": "Cependant, le texte ne donne ni le tracé exact, ni la longueur de la future ligne de chemin de fer."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun coût des *travaux*",
+      "dit": "Le document ne précise pas non plus le coût total des travaux de construction du train."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérification des *sources*",
+      "dit": "Investir au Cameroun n'a pu confirmer, dans les sources publiques, aucun avis de consultation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Démarrage non *confirmé*",
+      "dit": "Le démarrage programmé pour le 26 octobre 2026 n'a pas pu être confirmé non plus."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une ligne sur *papier*",
+      "dit": "Ce projet de train entre Kribi et le Dja reste donc à ce stade une simple ligne sur papier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des études de *faisabilité*",
+      "dit": "Ces études financées visent seulement à savoir si le projet est réalisable, sans garantir sa construction."
+    }
+  ]
+}

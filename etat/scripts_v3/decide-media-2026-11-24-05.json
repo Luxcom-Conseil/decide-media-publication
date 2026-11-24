@@ -1,0 +1,143 @@
+{
+  "accroches": [
+    "Le Cameroun a enregistré 1 019 280 cas de paludisme.",
+    "Le Cameroun compte 350 000 cas de paludisme en moins.",
+    "La baisse des cas de paludisme atteint 25 %."
+  ],
+  "titre": "Paludisme au Cameroun : 350 000 cas de moins",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le Cameroun compte 350 000 cas *en moins*",
+      "dit": "Le Cameroun compte 350 000 cas de paludisme en moins sur les six premiers mois de 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un million de cas confirmés en *2026*",
+      "dit": "Entre janvier et juin 2026, le pays a enregistré 1 019 280 cas confirmés selon DataCameroon."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une baisse de 25,7 % des *cas*",
+      "dit": "Ce chiffre se compare aux 1 371 326 cas de la même période en 2025, soit une baisse de 25,7 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le nombre de décès *baisse* aussi",
+      "dit": "Les décès suivent la même pente avec 469 morts sur les six premiers mois de 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "250 décès de moins qu'en *2025*",
+      "dit": "Le pays comptait 719 décès au premier semestre 2025, ce qui représente 250 décès de moins."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une baisse de mortalité annoncée *officiellement*",
+      "dit": "Le ministre de la Santé publique annonce aussi une baisse de 19 % du taux de mortalité."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La maladie ne recule pas *durablement*",
+      "dit": "Cependant, DataCameroon rappelle que ces chiffres ne suffisent pas à établir un recul durable."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le Dr Paul Tassé reste *prudent*",
+      "dit": "Selon le docteur Paul Tassé, la baisse observée ne signifie pas que le pays maîtrise la maladie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2030",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un plan national vise l'horizon *2030*",
+      "dit": "Le Plan stratégique national de lutte contre le paludisme vise une réduction de 90 % d'ici 2030."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2022",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une baisse calculée depuis l'année *2022*",
+      "dit": "Cette baisse est attendue par rapport à une situation de référence établie en 2022."
+    }
+  ]
+}

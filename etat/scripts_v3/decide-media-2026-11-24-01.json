@@ -1,0 +1,124 @@
+{
+  "accroches": [
+    "L'écart entre SanlamAllianz et AXA tombe à 410 millions FCFA au Cameroun.",
+    "Le marché de l'assurance non-vie recule de 4,2 % au Cameroun.",
+    "Zénithe Assurances augmente ses primes de 35,1 % au premier semestre 2026."
+  ],
+  "titre": "Assurance : la course en tête au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "410 millions FCFA *d'écart* seulement",
+      "dit": "Au premier semestre 2026, SanlamAllianz n'a plus que 410 millions de FCFA d'avance sur AXA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2 260 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un écart autrefois de *2,26 milliards*",
+      "dit": "Selon Ecomatin, la différence entre les deux leaders était de 2,26 milliards de FCFA un an plus tôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le secteur non-vie *recule* de 4,2 %",
+      "dit": "Sur la période, le marché des assurances non-vie recule de 4,2 %, à 107,57 milliards de FCFA."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Sanlam",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "SanlamAllianz perd *1,28 milliard*",
+      "dit": "Le chiffre d'affaires non-vie de SanlamAllianz baisse de 7,5 %, à 15,74 milliards de FCFA."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "AXA",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "AXA *progresse* de 3,9 %",
+      "dit": "À l'inverse, les primes d'AXA progressent de 3,9 %, pour atteindre 15,33 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Zénithe *s'impose* avec +35,1 %",
+      "dit": "De son côté, Zénithe Assurances augmente ses primes de 35,1 %, à 6,61 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "NSIA en hausse de *22,2 %*",
+      "dit": "NSIA progresse quant à elle de 22,2 %, en encaissant 5,16 milliards de FCFA de primes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Chanas voit ses ventes *chuter*",
+      "dit": "En revanche, la compagnie Chanas voit son chiffre d'affaires amputé de moitié, à 7,25 milliards."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'assurance-vie en *hausse* globale",
+      "dit": "Dans le même temps, la branche assurance-vie progresse globalement de 5,63 % au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "33 280 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "33,28 milliards en *cumul*",
+      "dit": "Au total, en comptant la vie et le non-vie, SanlamAllianz cumule 33,28 milliards de FCFA."
+    }
+  ]
+}

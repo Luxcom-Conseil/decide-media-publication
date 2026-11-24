@@ -1,0 +1,163 @@
+{
+  "accroches": [
+    "28 milliards de FCFA pour la mine d'or de Bibemi.",
+    "Oriole Resources réduit son investissement initial de 36 à 28 milliards.",
+    "Une baisse de 22,7 % pour le projet aurifère de Bibemi."
+  ],
+  "titre": "Bibemi : l'investissement en baisse",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Bibemi",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un investissement réduit à *28 milliards* de FCFA",
+      "dit": "L'investissement initial de la mine d'or de Bibemi pourrait passer de 36 à 28 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une estimation du cabinet *Stirling*",
+      "dit": "Ce chiffre provient d'une étude technique du cabinet Stirling Process Engineering, publiée le 18 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "60,4",
+        "apres": "46,7",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une baisse de *22,7 %* en dollars",
+      "dit": "En dollars, l'investissement initial passerait de 60,4 à 46,7 millions, selon les estimations."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une économie de *8,2 milliards*",
+      "dit": "Cela représente une économie de 8,2 milliards de FCFA pour ce projet codétenu avec BCM International."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un changement de *procédé*",
+      "dit": "Cette baisse s'explique par un changement de procédé de traitement de l'or, comparant l'oxydation à un broyage."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "85 %",
+        "apres": "78,7 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un rendement en *baisse*",
+      "dit": "En échange, la récupération de l'or baisserait de 85 % à 78,7 %, un recul de 6,3 points."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un coût en *hausse*",
+      "dit": "Le coût d'exploitation par once passerait de son côté de 574,7 à 616,9 dollars, soit 7,3 % de plus."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "10 000 onces",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une production de *311 kg*",
+      "dit": "Le site produirait ainsi 10 000 onces d'or par an, soit environ 311 kilogrammes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 % d'incertitude",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une marge de *30 %*",
+      "dit": "Ces chiffres restent des estimations, assorties d'une marge d'incertitude d'environ 30 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Décembre 2024",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "En attente du *permis*",
+      "dit": "La mise en exploitation reste conditionnée à l'obtention du permis minier demandé dès 2024."
+    }
+  ]
+}

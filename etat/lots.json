@@ -15934,5 +15934,685 @@
       "titre": "Le gasoil se vend sous son prix",
       "url": "https://youtu.be/anAsfWlSbo8"
     }
+  },
+  "decide-media-2026-11-24-01": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:20+00:00",
+      "piste": "principale",
+      "post_id": "122124614283499704",
+      "programme_pour": "2026-11-24T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Assurance : le leader perd du terrain",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:05:30+00:00",
+      "piste": "principale",
+      "post_id": "2237811953779035",
+      "programme_pour": "2026-11-24T08:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Assurance : le leader perd du terrain",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:07+00:00",
+      "piste": "principale",
+      "post_id": "6b053c4b060d9b648256c6ca",
+      "programme_pour": "2026-11-24T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Assurance : le leader perd du terrain",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:14+00:00",
+      "piste": "principale",
+      "post_id": "6b053c52060d9b648256c99c",
+      "programme_pour": "2026-11-24T11:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Assurance : le leader perd du terrain",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:09:14+00:00",
+      "piste": "principale",
+      "post_id": "6b05381af1f043512329dc6b",
+      "programme_pour": "2026-11-24T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Assurance : le leader perd du terrain",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:57:59+00:00",
+      "piste": "principale",
+      "post_id": "W0Q-p_o-1zQ",
+      "programme_pour": "2026-11-24T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Assurance : le leader perd du terrain",
+      "url": "https://youtu.be/W0Q-p_o-1zQ"
+    }
+  },
+  "decide-media-2026-11-24-02": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:23+00:00",
+      "piste": "principale",
+      "post_id": "122124614331499704",
+      "programme_pour": "2026-11-24T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Téléphones importés : la douane compte",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:05:36+00:00",
+      "piste": "principale",
+      "post_id": "2058361071536193",
+      "programme_pour": "2026-11-24T11:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Téléphones importés : la douane compte",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:08+00:00",
+      "piste": "principale",
+      "post_id": "6b053c4cca4899309e6944e6",
+      "programme_pour": "2026-11-24T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Téléphones importés : la douane compte",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:15+00:00",
+      "piste": "principale",
+      "post_id": "6b053c53b34a1444db94024a",
+      "programme_pour": "2026-11-24T14:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Téléphones importés : la douane compte",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:11:11+00:00",
+      "piste": "principale",
+      "post_id": "6b05388f286252d738400c8c",
+      "programme_pour": "2026-11-24T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Téléphones importés : la douane compte",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T06:03:28+00:00",
+      "piste": "principale",
+      "post_id": "C0z2cH543z0",
+      "programme_pour": "2026-11-24T11:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Téléphones importés : la douane compte",
+      "url": "https://youtu.be/C0z2cH543z0"
+    }
+  },
+  "decide-media-2026-11-24-03": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:26+00:00",
+      "piste": "principale",
+      "post_id": "122124614391499704",
+      "programme_pour": "2026-11-24T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un train Kribi–Dja, d'abord sur papier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:05:43+00:00",
+      "piste": "principale",
+      "post_id": "1142532595321765",
+      "programme_pour": "2026-11-24T14:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un train Kribi–Dja, d'abord sur papier",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:09+00:00",
+      "piste": "principale",
+      "post_id": "6b053c4db34a1444db9400fc",
+      "programme_pour": "2026-11-24T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un train Kribi–Dja, d'abord sur papier",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:16+00:00",
+      "piste": "principale",
+      "post_id": "6b053c54060d9b648256cadd",
+      "programme_pour": "2026-11-24T17:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un train Kribi–Dja, d'abord sur papier",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:13:21+00:00",
+      "piste": "principale",
+      "post_id": "6b05391131056e7b6e80fa62",
+      "programme_pour": "2026-11-24T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un train Kribi–Dja, d'abord sur papier",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T06:12:27+00:00",
+      "piste": "principale",
+      "post_id": "qq2Tye86jok",
+      "programme_pour": "2026-11-24T14:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Un train Kribi–Dja, d'abord sur papier",
+      "url": "https://youtu.be/qq2Tye86jok"
+    }
+  },
+  "decide-media-2026-11-24-04": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:29+00:00",
+      "piste": "principale",
+      "post_id": "122124614445499704",
+      "programme_pour": "2026-11-24T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Candidatures : date limite ce mardi",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:05:50+00:00",
+      "piste": "principale",
+      "post_id": "2336000220492003",
+      "programme_pour": "2026-11-24T17:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Candidatures : date limite ce mardi",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:10+00:00",
+      "piste": "principale",
+      "post_id": "6b053c4ef1f04351232b81dc",
+      "programme_pour": "2026-11-24T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Candidatures : date limite ce mardi",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:17+00:00",
+      "piste": "principale",
+      "post_id": "6b053c55060d9b648256cb57",
+      "programme_pour": "2026-11-24T20:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Candidatures : date limite ce mardi",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:15:09+00:00",
+      "piste": "principale",
+      "post_id": "6b05397d060d9b648255c0f3",
+      "programme_pour": "2026-11-24T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Candidatures : date limite ce mardi",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T06:24:14+00:00",
+      "piste": "principale",
+      "post_id": "HjO66zUroY4",
+      "programme_pour": "2026-11-24T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Candidatures : date limite ce mardi",
+      "url": "https://youtu.be/HjO66zUroY4"
+    }
+  },
+  "decide-media-2026-11-24-05": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:31+00:00",
+      "piste": "principale",
+      "post_id": "122124614493499704",
+      "programme_pour": "2026-11-24T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Paludisme : 350 000 cas de moins",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:05:57+00:00",
+      "piste": "principale",
+      "post_id": "1657570019251000",
+      "programme_pour": "2026-11-24T20:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Paludisme : 350 000 cas de moins",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:10+00:00",
+      "piste": "principale",
+      "post_id": "6b053c4e286252d738416665",
+      "programme_pour": "2026-11-24T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Paludisme : 350 000 cas de moins",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:29:15+00:00",
+      "piste": "principale",
+      "post_id": "6b053ccbca4899309e696744",
+      "programme_pour": "2026-11-24T12:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Paludisme : 350 000 cas de moins",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:17:05+00:00",
+      "piste": "principale",
+      "post_id": "6b0539f1f1f04351232aa5b3",
+      "programme_pour": "2026-11-24T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Paludisme : 350 000 cas de moins",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T06:32:27+00:00",
+      "piste": "principale",
+      "post_id": "ato51bNRShU",
+      "programme_pour": "2026-11-24T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Paludisme : 350 000 cas de moins",
+      "url": "https://youtu.be/ato51bNRShU"
+    }
+  },
+  "decide-media-2026-11-24-06": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:34+00:00",
+      "piste": "principale",
+      "post_id": "122124614571499704",
+      "programme_pour": "2026-11-24T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Banque mondiale : le portefeuille grossit",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:06:04+00:00",
+      "piste": "principale",
+      "post_id": "2117572505791707",
+      "programme_pour": "2026-11-24T13:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Banque mondiale : le portefeuille grossit",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:11+00:00",
+      "piste": "principale",
+      "post_id": "6b053c4f31056e7b6e824868",
+      "programme_pour": "2026-11-24T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Banque mondiale : le portefeuille grossit",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:31:13+00:00",
+      "piste": "principale",
+      "post_id": "6b053d41286252d73841ca47",
+      "programme_pour": "2026-11-24T15:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Banque mondiale : le portefeuille grossit",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:18:51+00:00",
+      "piste": "principale",
+      "post_id": "6b053a5bf1f04351232acc6d",
+      "programme_pour": "2026-11-24T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Banque mondiale : le portefeuille grossit",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T06:41:18+00:00",
+      "piste": "principale",
+      "post_id": "wc2LytRTaFY",
+      "programme_pour": "2026-11-24T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Banque mondiale : le portefeuille grossit",
+      "url": "https://youtu.be/wc2LytRTaFY"
+    }
+  },
+  "decide-media-2026-11-24-07": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:37+00:00",
+      "piste": "principale",
+      "post_id": "122124614619499704",
+      "programme_pour": "2026-11-24T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bibemi : l'investissement pourrait baisser",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:06:11+00:00",
+      "piste": "principale",
+      "post_id": "2651285581963054",
+      "programme_pour": "2026-11-24T16:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bibemi : l'investissement pourrait baisser",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:12+00:00",
+      "piste": "principale",
+      "post_id": "6b053c50b34a1444db940166",
+      "programme_pour": "2026-11-24T18:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bibemi : l'investissement pourrait baisser",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:33:42+00:00",
+      "piste": "principale",
+      "post_id": "6b053dd631056e7b6e82d70b",
+      "programme_pour": "2026-11-24T18:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bibemi : l'investissement pourrait baisser",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:20:57+00:00",
+      "piste": "principale",
+      "post_id": "6b053ad9ca4899309e68bd12",
+      "programme_pour": "2026-11-24T18:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bibemi : l'investissement pourrait baisser",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T06:47:34+00:00",
+      "piste": "principale",
+      "post_id": "VSeh3w7fT10",
+      "programme_pour": "2026-11-24T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Bibemi : l'investissement pourrait baisser",
+      "url": "https://youtu.be/VSeh3w7fT10"
+    }
+  },
+  "decide-media-2026-11-24-08": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:40+00:00",
+      "piste": "principale",
+      "post_id": "122124614667499704",
+      "programme_pour": "2026-11-24T18:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "UBA Cameroun réduit son découvert",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:06:18+00:00",
+      "piste": "principale",
+      "post_id": "1880293036746253",
+      "programme_pour": "2026-11-24T19:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "UBA Cameroun réduit son découvert",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:12+00:00",
+      "piste": "principale",
+      "post_id": "6b053c50f1f04351232b825a",
+      "programme_pour": "2026-11-24T09:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "UBA Cameroun réduit son découvert",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:36:01+00:00",
+      "piste": "principale",
+      "post_id": "6b053e61f1f04351232c2ad3",
+      "programme_pour": "2026-11-24T09:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "UBA Cameroun réduit son découvert",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:23:03+00:00",
+      "piste": "principale",
+      "post_id": "6b053b57ca4899309e68e4f7",
+      "programme_pour": "2026-11-24T09:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "UBA Cameroun réduit son découvert",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T06:57:43+00:00",
+      "piste": "principale",
+      "post_id": "d3dZ-Gx0RgI",
+      "programme_pour": "2026-11-24T18:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "UBA Cameroun réduit son découvert",
+      "url": "https://youtu.be/d3dZ-Gx0RgI"
+    }
+  },
+  "decide-media-2026-11-24-09": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:43+00:00",
+      "piste": "principale",
+      "post_id": "122124614787499704",
+      "programme_pour": "2026-11-24T09:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Allocations : l'audit vise 2,3 milliards",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:06:26+00:00",
+      "piste": "principale",
+      "post_id": "1141999938652686",
+      "programme_pour": "2026-11-24T10:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Allocations : l'audit vise 2,3 milliards",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:13+00:00",
+      "piste": "principale",
+      "post_id": "6b053c51ca4899309e6946b2",
+      "programme_pour": "2026-11-24T21:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Allocations : l'audit vise 2,3 milliards",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:38:19+00:00",
+      "piste": "principale",
+      "post_id": "6b053eeb31056e7b6e8326fd",
+      "programme_pour": "2026-11-24T21:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Allocations : l'audit vise 2,3 milliards",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:25:10+00:00",
+      "piste": "principale",
+      "post_id": "6b053bd6f1f04351232b5bdf",
+      "programme_pour": "2026-11-24T21:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Allocations : l'audit vise 2,3 milliards",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:02:31+00:00",
+      "piste": "principale",
+      "post_id": "klFJCA4rd9o",
+      "programme_pour": "2026-11-24T09:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Allocations : l'audit vise 2,3 milliards",
+      "url": "https://youtu.be/klFJCA4rd9o"
+    }
+  },
+  "decide-media-2026-11-24-10": {
+    "facebook": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T05:46:46+00:00",
+      "piste": "principale",
+      "post_id": "122124614841499704",
+      "programme_pour": "2026-11-24T21:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Médicaments : le Centre s'approvisionne sur place",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "facebook_shorts": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:06:32+00:00",
+      "piste": "principale",
+      "post_id": "1153156744103907",
+      "programme_pour": "2026-11-24T21:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Médicaments : le Centre s'approvisionne sur place",
+      "url": "https://business.facebook.com/latest/posts/scheduled_posts?asset_id=1407561435764031"
+    },
+    "linkedin_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:14+00:00",
+      "piste": "principale",
+      "post_id": "6b053c51060d9b648256c932",
+      "programme_pour": "2026-11-25T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Médicaments : le Centre s'approvisionne sur place",
+      "url": "https://publish.buffer.com/channels/6ad88ffd778b240e2f78dad7/schedule"
+    },
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:39:46+00:00",
+      "piste": "principale",
+      "post_id": "6b053f42b34a1444db94ee2a",
+      "programme_pour": "2026-11-25T08:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Médicaments : le Centre s'approvisionne sur place",
+      "url": "https://publish.buffer.com/channels/6ad8aefe778b240e2f7a1ffd/schedule"
+    },
+    "x_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:27:06+00:00",
+      "piste": "principale",
+      "post_id": "6b053c4a286252d738416549",
+      "programme_pour": "2026-11-25T08:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Médicaments : le Centre s'approvisionne sur place",
+      "url": "https://publish.buffer.com/channels/6ad88f9c778b240e2f78d689/schedule"
+    },
+    "youtube": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:05:23+00:00",
+      "piste": "principale",
+      "post_id": "RxpfY7-i0zg",
+      "programme_pour": "2026-11-24T21:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Médicaments : le Centre s'approvisionne sur place",
+      "url": "https://youtu.be/RxpfY7-i0zg"
+    }
   }
 }

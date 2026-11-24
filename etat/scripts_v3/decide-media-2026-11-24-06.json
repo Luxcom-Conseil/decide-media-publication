@@ -1,0 +1,153 @@
+{
+  "accroches": [
+    "Le portefeuille actif de la Banque mondiale atteint 2 635 milliards de FCFA au Cameroun.",
+    "La Banque mondiale compte 19 opérations actives pour 4,392 milliards de dollars au Cameroun.",
+    "Le portefeuille de la Banque mondiale au Cameroun a évolué entre septembre et novembre 2026."
+  ],
+  "titre": "Banque mondiale au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Portefeuille de *2 635 milliards* de FCFA",
+      "dit": "Le portefeuille actif de la Banque mondiale atteint 2 635 milliards de FCFA au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un total de *19 opérations* en cours",
+      "dit": "Selon le ministère de l'Économie, cela représente 19 opérations pour 4,392 milliards de dollars."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "19 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chiffres publiés le *19 novembre 2026*",
+      "dit": "Ces chiffres ont été rendus publics le 19 novembre 2026, selon Investir au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "9 septembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Évaluation à *1 806 milliards* en septembre",
+      "dit": "Le 9 septembre 2026, le Minepat évaluait ce même portefeuille à 1 806 milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une valeur en *hausse* en octobre",
+      "dit": "Le 15 octobre 2026, le ministère annonçait 4,129 milliards de dollars de financements signés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un total de *18 projets* actifs",
+      "dit": "Ces accords concernaient alors 18 projets actifs selon les données officielles communiquées."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un écart de *263 millions* de dollars",
+      "dit": "La valeur de novembre dépasse celle d'octobre de 263 millions de dollars sans certitude."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de *5 milliards* de financements approuvés",
+      "dit": "Le ministère évoquait aussi 5,01 milliards de dollars approuvés pour 21 projets au total."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un taux de *décaissement* supérieur à 20 %",
+      "dit": "Ousmane Diagana, vice-président de la Banque mondiale, a indiqué un taux de décaissement de 20 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des détails *inconnus* sur les montants",
+      "dit": "Le communiqué ne donne ni les montants par opération ni la répartition entre prêts et dons."
+    }
+  ]
+}
