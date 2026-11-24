@@ -1,0 +1,332 @@
+{
+ "afrique du sud": {
+  "fichier": "afrique-du-sud.png",
+  "pays": "Afrique du Sud",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg",
+  "licence": "Public domain"
+ },
+ "algerie": {
+  "fichier": "algerie.png",
+  "pays": "Algérie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Algeria.svg",
+  "licence": "Public domain"
+ },
+ "angola": {
+  "fichier": "angola.png",
+  "pays": "Angola",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Angola.svg",
+  "licence": "Public domain"
+ },
+ "benin": {
+  "fichier": "benin.png",
+  "pays": "Bénin",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Benin.svg",
+  "licence": "Public domain"
+ },
+ "botswana": {
+  "fichier": "botswana.png",
+  "pays": "Botswana",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Botswana.svg",
+  "licence": "Public domain"
+ },
+ "burkina faso": {
+  "fichier": "burkina-faso.png",
+  "pays": "Burkina Faso",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
+  "licence": "Public domain"
+ },
+ "burundi": {
+  "fichier": "burundi.png",
+  "pays": "Burundi",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Burundi.svg",
+  "licence": "Public domain"
+ },
+ "cabo verde": {
+  "fichier": "cabo-verde.png",
+  "pays": "Cabo Verde",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Cape_Verde_(3-2).svg",
+  "licence": "Public domain"
+ },
+ "cameroun": {
+  "fichier": "cameroun.png",
+  "pays": "Cameroun",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon.svg",
+  "licence": "Public domain"
+ },
+ "centrafrique": {
+  "fichier": "centrafrique.png",
+  "pays": "Centrafrique",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Central_African_Republic.svg",
+  "licence": "Public domain"
+ },
+ "comores": {
+  "fichier": "comores.png",
+  "pays": "Comores",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros.svg",
+  "licence": "Public domain"
+ },
+ "congo": {
+  "fichier": "congo.png",
+  "pays": "Congo",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo.svg",
+  "licence": "Public domain"
+ },
+ "cote d'ivoire": {
+  "fichier": "cote-divoire.png",
+  "pays": "Côte d'Ivoire",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_C%C3%B4te_d%27Ivoire.svg",
+  "licence": "Public domain"
+ },
+ "djibouti": {
+  "fichier": "djibouti.png",
+  "pays": "Djibouti",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Djibouti.svg",
+  "licence": "Public domain"
+ },
+ "egypte": {
+  "fichier": "egypte.png",
+  "pays": "Égypte",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg",
+  "licence": "Public domain"
+ },
+ "erythree": {
+  "fichier": "erythree.png",
+  "pays": "Érythrée",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea.svg",
+  "licence": "Public domain"
+ },
+ "eswatini": {
+  "fichier": "eswatini.png",
+  "pays": "Eswatini",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Eswatini.svg",
+  "licence": "Public domain"
+ },
+ "ethiopie": {
+  "fichier": "ethiopie.png",
+  "pays": "Éthiopie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg",
+  "licence": "Public domain"
+ },
+ "gabon": {
+  "fichier": "gabon.png",
+  "pays": "Gabon",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Gabon.svg",
+  "licence": "Public domain"
+ },
+ "gambie": {
+  "fichier": "gambie.png",
+  "pays": "Gambie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_The_Gambia.svg",
+  "licence": "Public domain"
+ },
+ "ghana": {
+  "fichier": "ghana.png",
+  "pays": "Ghana",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Ghana.svg",
+  "licence": "Public domain"
+ },
+ "guinee": {
+  "fichier": "guinee.png",
+  "pays": "Guinée",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Guinea.svg",
+  "licence": "Public domain"
+ },
+ "guinee-bissau": {
+  "fichier": "guinee-bissau.png",
+  "pays": "Guinée-Bissau",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Guinea-Bissau.svg",
+  "licence": "Public domain"
+ },
+ "guinee equatoriale": {
+  "fichier": "guinee-equatoriale.png",
+  "pays": "Guinée équatoriale",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Equatorial_Guinea.svg",
+  "licence": "Public domain"
+ },
+ "kenya": {
+  "fichier": "kenya.png",
+  "pays": "Kenya",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+  "licence": "Public domain"
+ },
+ "lesotho": {
+  "fichier": "lesotho.png",
+  "pays": "Lesotho",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Lesotho.svg",
+  "licence": "Public domain"
+ },
+ "liberia": {
+  "fichier": "liberia.png",
+  "pays": "Liberia",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Liberia.svg",
+  "licence": "Public domain"
+ },
+ "libye": {
+  "fichier": "libye.png",
+  "pays": "Libye",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Libya.svg",
+  "licence": "Public domain"
+ },
+ "madagascar": {
+  "fichier": "madagascar.png",
+  "pays": "Madagascar",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Madagascar.svg",
+  "licence": "Public domain"
+ },
+ "malawi": {
+  "fichier": "malawi.png",
+  "pays": "Malawi",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Malawi.svg",
+  "licence": "Public domain"
+ },
+ "mali": {
+  "fichier": "mali.png",
+  "pays": "Mali",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg",
+  "licence": "Public domain"
+ },
+ "maroc": {
+  "fichier": "maroc.png",
+  "pays": "Maroc",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Morocco.svg",
+  "licence": "Public domain"
+ },
+ "maurice": {
+  "fichier": "maurice.png",
+  "pays": "Maurice",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius.svg",
+  "licence": "Public domain"
+ },
+ "mauritanie": {
+  "fichier": "mauritanie.png",
+  "pays": "Mauritanie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg",
+  "licence": "Public domain"
+ },
+ "mozambique": {
+  "fichier": "mozambique.png",
+  "pays": "Mozambique",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg",
+  "licence": "Public domain"
+ },
+ "namibie": {
+  "fichier": "namibie.png",
+  "pays": "Namibie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Namibia.svg",
+  "licence": "Public domain"
+ },
+ "niger": {
+  "fichier": "niger.png",
+  "pays": "Niger",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Niger.svg",
+  "licence": "Public domain"
+ },
+ "nigeria": {
+  "fichier": "nigeria.png",
+  "pays": "Nigeria",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Nigeria.svg",
+  "licence": "Public domain"
+ },
+ "ouganda": {
+  "fichier": "ouganda.png",
+  "pays": "Ouganda",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Uganda.svg",
+  "licence": "Public domain"
+ },
+ "rd congo": {
+  "fichier": "rd-congo.png",
+  "pays": "RD Congo",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+  "licence": "Public domain"
+ },
+ "rwanda": {
+  "fichier": "rwanda.png",
+  "pays": "Rwanda",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda.svg",
+  "licence": "Public domain"
+ },
+ "sao tome-et-principe": {
+  "fichier": "sao-tome-et-principe.png",
+  "pays": "Sao Tomé-et-Principe",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
+  "licence": "Public domain"
+ },
+ "senegal": {
+  "fichier": "senegal.png",
+  "pays": "Sénégal",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg",
+  "licence": "Public domain"
+ },
+ "seychelles": {
+  "fichier": "seychelles.png",
+  "pays": "Seychelles",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles.svg",
+  "licence": "Public domain"
+ },
+ "sierra leone": {
+  "fichier": "sierra-leone.png",
+  "pays": "Sierra Leone",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Sierra_Leone.svg",
+  "licence": "Public domain"
+ },
+ "somalie": {
+  "fichier": "somalie.png",
+  "pays": "Somalie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg",
+  "licence": "Public domain"
+ },
+ "soudan": {
+  "fichier": "soudan.png",
+  "pays": "Soudan",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Sudan.svg",
+  "licence": "Public domain"
+ },
+ "soudan du sud": {
+  "fichier": "soudan-du-sud.png",
+  "pays": "Soudan du Sud",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Sudan.svg",
+  "licence": "Public domain"
+ },
+ "tanzanie": {
+  "fichier": "tanzanie.png",
+  "pays": "Tanzanie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Tanzania.svg",
+  "licence": "Public domain"
+ },
+ "tchad": {
+  "fichier": "tchad.png",
+  "pays": "Tchad",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Chad.svg",
+  "licence": "Public domain"
+ },
+ "togo": {
+  "fichier": "togo.png",
+  "pays": "Togo",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Togo.svg",
+  "licence": "Public domain"
+ },
+ "tunisie": {
+  "fichier": "tunisie.png",
+  "pays": "Tunisie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Tunisia.svg",
+  "licence": "Public domain"
+ },
+ "zambie": {
+  "fichier": "zambie.png",
+  "pays": "Zambie",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Zambia.svg",
+  "licence": "Public domain"
+ },
+ "zimbabwe": {
+  "fichier": "zimbabwe.png",
+  "pays": "Zimbabwe",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg",
+  "licence": "Public domain"
+ },
+ "afrique": {
+  "fichier": "afrique.png",
+  "pays": "Afrique",
+  "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_Union.svg",
+  "licence": "Public domain"
+ }
+}

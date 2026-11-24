@@ -22,12 +22,14 @@ const apres = (sc: SceneV3) => (sc.voix?.colle ? 0 : VOIX_FIN);
 const G = 60, D = 150; // marges gauche / droite
 
 // voile : photo de fond très assombrie derrière un dessin (une image de plus, sans gêner la lecture du dessin)
-export type MediaV3 = { src: string; video: boolean; credit?: string; logo?: boolean; voile?: boolean };
+// portrait (antenne Afrique, 23/11/2026) : portrait officiel d'une personne citée, posé dans un cadre
+export type MediaV3 = { src: string; video: boolean; credit?: string; logo?: boolean; voile?: boolean; portrait?: boolean };
 
 export type SceneV3 = {
   type: "accroche" | "media" | "explication" | "outro" | "breve";
   // série « Le point pays » (antenne Afrique, 23/11/2026) : numéro de la brève et nombre de brèves, affichés à l'écran
   compteur?: { n: number; total: number };
+  drapeau?: string; // antenne Afrique : drapeau du pays posé sur la carte d'ouverture
   ecran?: string; // *mot clé* en orange
   illustration?: Illustration;
   media?: MediaV3;
@@ -45,6 +47,7 @@ export type ScriptV3 = {
   date?: string;
   titre: string;
   image: string; // visuel du lot (affiche DECIDE)
+  drapeau?: string; // antenne Afrique : drapeau du pays dans l'en-tête
   source?: string;
   scenes: SceneV3[];
   musique?: string;
@@ -96,6 +99,19 @@ const Fond: React.FC = () => {
 // photo ou vidéo plein écran, assombrie pour que le texte reste lisible ; un logo est posé sur une carte blanche
 const Media: React.FC<{ m: MediaV3; long: number }> = ({ m, long }) => {
   const f = useCurrentFrame();
+  if (m.portrait) {
+    // portrait officiel : cadre orange, léger zoom, le visage n'est jamais sous le texte
+    return (
+      <>
+        <Fond />
+        <div style={{ position: "absolute", top: 440, left: 250, width: 580, height: 640, borderRadius: 24, overflow: "hidden",
+          border: `6px solid ${ORANGE}`, boxShadow: "0 30px 80px rgba(0,0,0,0.6)" }}>
+          <Img src={staticFile(m.src)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 20%",
+            transform: `scale(${interpolate(f, [0, long], [1.02, 1.1])})` }} />
+        </div>
+      </>
+    );
+  }
   if (m.logo) {
     return (
       <>
@@ -165,8 +181,14 @@ const Accroche: React.FC<{ sc: SceneV3; image: string; long: number }> = ({ sc, 
   );
 };
 
+const Drapeau: React.FC<{ src: string; largeur: number; style?: React.CSSProperties }> = ({ src, largeur, style }) => (
+  <Img src={staticFile(src)} style={{ width: largeur, height: largeur * 2 / 3, objectFit: "cover", borderRadius: 8,
+    border: `4px solid ${BLANC}`, boxShadow: "0 10px 30px rgba(0,0,0,0.6)", ...style }} />
+);
+
 const Explication: React.FC<{ sc: SceneV3; image: string }> = ({ sc, image }) => (
   <>
+    {sc.drapeau && <Pop delai={4} style={{ position: "absolute", top: 450, left: 110, zIndex: 2 }}><Drapeau src={sc.drapeau} largeur={240} /></Pop>}
     <div style={{ position: "absolute", top: 510, left: 140 }}>
       {sc.illustration?.type === "photo"
         ? <div style={{ position: "relative", width: 760, height: 500, borderRadius: 20, overflow: "hidden", border: `6px solid ${ORANGE}` }}>
@@ -180,7 +202,8 @@ const Explication: React.FC<{ sc: SceneV3; image: string }> = ({ sc, image }) =>
 
 const ScMedia: React.FC<{ sc: SceneV3 }> = ({ sc }) => (
   <>
-    {sc.ecran && <Cinetique texte={sc.ecran} taille={sc.ecran.length > 28 ? 74 : 88} top={sc.media?.logo ? 1000 : 820} />}
+    {sc.ecran && <Cinetique texte={sc.ecran} taille={sc.ecran.length > 28 ? (sc.media?.portrait ? 60 : 74) : (sc.media?.portrait ? 70 : 88)}
+      top={sc.media?.portrait ? 1100 : sc.media?.logo ? 1000 : 820} />}
   </>
 );
 
@@ -251,6 +274,7 @@ const Entete: React.FC<{ s: ScriptV3 }> = ({ s }) => (
   <div style={{ position: "absolute", top: 230, left: G, right: G }}>
     <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
       <div style={{ background: ORANGE, color: BLANC, fontFamily, fontWeight: 800, fontSize: 26, letterSpacing: 2, padding: "7px 16px", borderRadius: 6 }}>{s.rubrique}</div>
+      {s.drapeau && <Drapeau src={s.drapeau} largeur={60} style={{ borderWidth: 2, borderRadius: 4 }} />}
       <div style={{ flex: 1, color: GRIS, fontFamily, fontWeight: 700, fontSize: 26, letterSpacing: 1, textShadow: "0 2px 8px #000" }}>
         {[s.lieu, s.date].filter(Boolean).join(" · ").toUpperCase()}</div>
       <div style={{ width: 66, height: 66, borderRadius: 12, background: BLANC, display: "flex", alignItems: "center", justifyContent: "center",

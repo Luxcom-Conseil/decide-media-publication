@@ -23,6 +23,9 @@ etat/*
 !etat/photos_utilisees.json
 !etat/lots_bf.json
 !etat/photos_utilisees_bf.json
+!etat/lots_af.json
+!etat/photos_utilisees_af.json
+!etat/performances_af.json
 !etat/performances_bf.json
 !etat/scripts/
 !etat/scripts_v3/

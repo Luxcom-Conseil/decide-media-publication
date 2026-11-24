@@ -250,6 +250,14 @@ def script_secours(article: dict) -> dict | None:
         scenes += [{"type": "explication", "illustration": {"type": "photo"}, "fond": None, "ecran": "", "dit": p}
                    for p in gardees[:4]]
         return {"titre": article.get("title", ""), "scenes": scenes}
+    if antenne_afrique():
+        # Afrique (23/11/2026, « l'accroche n'est pas terrible ») : la voix ouvre sur la phrase qui porte le chiffre du
+        # visuel (accroche_appui, copiée mot pour mot du body par la production), pas sur la première phrase de contexte
+        appui = str(article.get("accroche_appui") or "").strip()
+        if 20 <= len(appui) <= 180 and appui in (article.get("body") or "") and "?" not in appui:
+            gardees = [appui] + [g for g in gardees if g != appui]
+            while len(gardees) > 1 and sum(map(len, gardees)) > VOIX_MAX:
+                gardees.pop()
     scenes = [{"type": "accroche", "fond": None, "ecran": hook, "dit": gardees[0]}]
     scenes += [{"type": "explication", "illustration": {"type": "photo"}, "fond": None, "ecran": "", "dit": p} for p in gardees[1:]]
     return {"titre": article.get("title", ""), "scenes": scenes}
@@ -318,7 +326,10 @@ def script_v3(article: dict, cfg: dict, journal=print, cache: Path | None = None
         return None
     systeme, schema = sv.SYSTEME, sv.SCHEMA
     # même appel Gemini (modèles de secours, pauses), autres consignes ; la date du jour pour ne pas écrire au présent un fait ancien
-    sv.SYSTEME = SYSTEME + f"\n\nDate du jour : {date.today().isoformat()}. Un fait daté de plus de 7 jours s'écrit au passé, hook compris." + consignes_reponse(article)
+    sv.SYSTEME = SYSTEME + f"\n\nDate du jour : {date.today().isoformat()}. Un fait daté de plus de 7 jours s'écrit au passé, hook compris." + consignes_reponse(article) + (
+        "\n\nAntenne Afrique (tout le continent) : l'accroche nomme le pays de l'article dès ses premiers mots "
+        "(« L'Égypte… », « Au Nigeria… »), avec le chiffre ou le fait qui touche le plus le public. Une carte du pays et "
+        "son drapeau sont ajoutés automatiquement après l'accroche : n'en mets pas toi-même." if antenne_afrique() else "")
     sv.SCHEMA = SCHEMA
     remarques: list[str] = []
     court = None  # meilleur script dont le seul défaut est une voix un peu courte
@@ -396,7 +407,53 @@ def _fond(fond: dict, dossier: Path, nom: str, pris: set[str], journal) -> dict 
 THEMES_GENERIQUES = {"electricite", "solaire", "carburant", "marche", "transport", "agriculture", "elevage", "eau",
                      "travail", "bois_foret", "peche"}
 PHOTOS_PAR_SHORT = 4
-COUVERTURE_MS = 500  # instant de la couverture : texte du hook complet, secousse finie (Buffer → TikTok : thumbnailOffset)
+COUVERTURE_MS = 500
+# Antenne Afrique (demande de Stéphane du 23/11/2026 : « monotone, on ne voit même pas le drapeau ou la carte du pays ») :
+# le drapeau du pays dans l'en-tête, une scène carte + drapeau juste après l'accroche, d'autres photos du pays de la
+# banque, et le portrait officiel d'une personne citée (banque vérifiée portraits_af). Rien ne change pour les autres.
+DRAPEAUX = MOTION / "public" / "drapeaux"
+PORTRAITS = MOTION.parent / "portraits_af"
+THEMES_PAYS_EXCLUS = {"pouvoirs", "institutions_continentales", "finance"}  # un bâtiment nommé ferait croire à celui de l'article
+# un portrait jamais pour un fait négatif (antenne-afrique.md) : l'article entier est écarté s'il en parle
+NEGATIF = re.compile(r"accus|condamn|arrêt[ée]|arrestation|inculp|enquête|corruption|scandale|limog|destitu|sanction|fraude|"
+                     r"détourn|procès|poursuit|mis en cause|coup d'[ÉE]tat|putsch|massacre|exaction|violences|démission", re.I)
+
+
+def antenne_afrique() -> bool:
+    return os.environ.get("DECIDE_ANTENNE") == "afrique"
+
+
+def _cle_pays(t: str) -> str:
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", t or "") if unicodedata.category(c) != "Mn").lower().replace("’", "'").strip()
+
+
+def drapeau_de(pays: str | None) -> str | None:
+    """Chemin (sous motion/public) du drapeau du pays, ou de l'Union africaine pour « Afrique » ; None si inconnu."""
+    try:
+        index = json.loads((DRAPEAUX / "index.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    e = index.get(_cle_pays(pays or ""))
+    return f"drapeaux/{e['fichier']}" if e else None
+
+
+def portraits_cites(article: dict) -> list[dict]:
+    """Les personnes de la banque de portraits nommées dans l'article (nom ou variante exacte), dans l'ordre du texte.
+    Liste vide si l'article parle d'un fait négatif : jamais un portrait pour ça."""
+    texte = " ".join([article.get("title") or "", article.get("body") or ""])
+    if NEGATIF.search(texte):
+        return []
+    try:
+        index = json.loads((PORTRAITS / "index.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    trouves = []
+    for e in index:
+        pos = [texte.find(n) for n in [e["nom"], *e.get("variantes", [])] if n and texte.find(n) >= 0]
+        if pos:
+            trouves.append((min(pos), e))
+    return [e for _, e in sorted(trouves, key=lambda x: x[0])]  # instant de la couverture : texte du hook complet, secousse finie (Buffer → TikTok : thumbnailOffset)
 
 
 def photos_du_sujet(article: dict, dossier: Path, pris: set[str], recentes: dict | None = None) -> list[dict]:
@@ -425,7 +482,12 @@ def photos_du_sujet(article: dict, dossier: Path, pris: set[str], recentes: dict
             return False
 
     choisies = [sienne]
-    if sienne["theme"] in THEMES_GENERIQUES:
+    if antenne_afrique():  # tout le continent : d'autres photos du même pays, sans bâtiment officiel nommé
+        pays = article.get("country") or sienne.get("pays")
+        choisies += [e for e in index if e is not sienne and e.get("pays") == pays and e["fichier"] not in pris
+                     and e["theme"] not in THEMES_PAYS_EXCLUS and e["personnes"] in ("aucune", "loin")
+                     and not e.get("marque") and not recente(e)][:PHOTOS_PAR_SHORT - 1]
+    elif sienne["theme"] in THEMES_GENERIQUES:
         choisies += [e for e in index if e is not sienne and e["theme"] == sienne["theme"] and e["fichier"] not in pris
                      and e["personnes"] in ("aucune", "loin") and not e["marque"] and not recente(e)
                      and "panneau de" not in e["montre"]][:PHOTOS_PAR_SHORT - 1]
@@ -436,6 +498,40 @@ def photos_du_sujet(article: dict, dossier: Path, pris: set[str], recentes: dict
         pris.add(e["fichier"])
         sortie.append({"src": f"_v3/{cible.name}", "video": False, "credit": e["credit"]})
     return sortie
+
+
+def ouverture_pays(scenes: list[dict], article: dict, drapeau: str | None, journal) -> None:
+    """Antenne Afrique : la première scène après l'accroche montre la carte qui zoome sur le pays, avec son drapeau.
+    Une scène déjà illustrée d'un dessin chiffré (pourcentage, pile, calendrier…) le garde : on prend la suivante."""
+    pays = article.get("country") or ""
+    if not pays or est_serie(article):
+        return
+    texte = "" if pays == "Afrique" else pays  # « Afrique » : tout le continent, sans repère
+    for s in scenes[1:4]:
+        il = (s.get("illustration") or {}).get("type")
+        if s["type"] == "explication" and not s.get("media") and il in (None, "photo", "carte"):
+            s["illustration"] = {"type": "carte", "texte": texte}
+            if drapeau:
+                s["drapeau"] = drapeau
+            journal(f"      🗺 ouverture pays : carte {pays or 'Afrique'}{' + drapeau' if drapeau else ''}")
+            return
+
+
+def portraits_dans_scenes(scenes: list[dict], dits: list[dict], article: dict, dossier: Path, journal) -> None:
+    """Antenne Afrique : le portrait officiel (banque vérifiée) d'une personne citée, sur la première scène dont la phrase
+    la nomme. Une personne une fois par vidéo ; jamais sur l'accroche ni sur la scène carte ; jamais pour un fait négatif."""
+    for e in portraits_cites(article):
+        noms = [e["nom"], *e.get("variantes", [])]
+        for k, s in enumerate(scenes):
+            if k == 0 or s.get("drapeau") or s.get("media") or s["type"] not in ("explication", "media"):
+                continue
+            if any(n in (dits[k].get("dit") or "") for n in noms):
+                cible = dossier / f"portrait{k}{Path(e['fichier']).suffix}"
+                shutil.copy(PORTRAITS / e["fichier"], cible)
+                s.pop("illustration", None)
+                s.update(type="media", media={"src": f"_v3/{cible.name}", "video": False, "credit": e["credit"], "portrait": True})
+                journal(f"      👤 portrait : {e['nom']} ({e['credit']})")
+                break
 
 
 def rendre_production(article: dict, image: Path, sortie: Path, journal=print, essai: bool = False) -> Path:
@@ -489,6 +585,10 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
                 s.update(type="explication", illustration={"type": "photo"})
         scenes.append(s)
         dits.append({"cle": f"s{k}", "texte": sc["dit"]})
+    drapeau = drapeau_de(article.get("country")) if antenne_afrique() else None
+    if antenne_afrique():
+        ouverture_pays(scenes, article, drapeau, journal)
+        portraits_dans_scenes(scenes, ecrit["scenes"], article, dossier, journal)
     # plus d'images (demande du 05/11) : la photo de l'article et celles de son thème, à tour de rôle ; une scène
     # « photo » (le visuel du lot en carte) passe en plein écran, un dessin garde son fond photo très assombri
     photos = photos_du_sujet(article, dossier, pris)
@@ -550,6 +650,8 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
              "lieu": article.get("country"), "date": _date_fr(article.get("event_date")), "titre": ecrit.get("titre") or article.get("title", ""),
              "image": f"_v3/{nom_image}", "source": ("Source : " + ", ".join(editeurs[:3])) if editeurs else None,
              "scenes": scenes, "musique": "melodie.wav", "volume_musique": 0.10}
+    if drapeau:
+        props["drapeau"] = drapeau
     from . import sons
     from .config import charger_config
     cfg = charger_config(MOTION.parent / "config.yaml")
