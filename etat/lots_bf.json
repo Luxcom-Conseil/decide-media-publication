@@ -502,7 +502,7 @@
     "youtube_bf": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-11-24",
-      "maj": "2026-11-24T13:00:13+00:00",
+      "maj": "2026-11-24T15:25:52+00:00",
       "statut": "echec",
       "tentatives": 0,
       "titre": "Gouvernement et privé : rendez-vous à Bobo"
@@ -525,10 +525,37 @@
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-11-24",
-      "maj": "2026-11-24T13:18:21+00:00",
+      "maj": "2026-11-24T15:30:09+00:00",
+      "piste": "principale",
+      "post_id": "6b05ad81e86dabb983da1387",
+      "programme_pour": "2026-11-24T21:30:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Kyon : 11 établissements scellés",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-24-08": {
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T15:35:43+00:00",
+      "piste": "principale",
+      "post_id": "6b05aecfe8a9240946b20e38",
+      "programme_pour": "2026-11-25T08:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Cinq boutiques fermées à Ouagadougou",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-24-09": {
+    "tiktok_buffer": {
+      "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T15:43:01+00:00",
       "statut": "echec",
       "tentatives": 0,
-      "titre": "Kyon : 11 établissements scellés"
+      "titre": "COLASEE : 100 projets industriels visés"
     }
   }
 }
