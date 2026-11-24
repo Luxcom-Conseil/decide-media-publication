@@ -625,7 +625,8 @@ def relancer(log, lire=None, ecrire=None, jours: int = 3, categorie: str = "27")
     maintenant = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0)
     depuis, n = maintenant - timedelta(days=jours), 0
     for p in etat.get("programmes", []):
-        if not p.get("buffer"):  # envoyé en direct à YouTube (API) : rien à relancer dans Buffer
+        # envoyé en direct à YouTube (API), ou ancien post YouTube de Buffer (chaîne déconnectée le 24/11/2026)
+        if not p.get("buffer") or p.get("reseau") == "youtube":
             continue
         if datetime.fromisoformat(p["heure"]) < depuis or p.get("relances", 0) >= RELANCES_MAX:
             continue
@@ -636,7 +637,10 @@ def relancer(log, lire=None, ecrire=None, jours: int = 3, categorie: str = "27")
                            {"id": p["buffer"]}, cle="BUFFER_API_KEY_HISTOIRES")["post"]
         except Exception as e:
             log(f"    ⚠️ état Buffer illisible pour {p['nom']} ({p['reseau']}) : {e}")
+            if "429" in str(e):  # limite de Buffer sur 15 min : on la garde pour programmer les vidéos du jour
+                break
             continue
+        time.sleep(1)
         if not post or post.get("status") != "error":
             continue
         quand = maintenant + timedelta(minutes=15 + 30 * n)
@@ -740,12 +744,19 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
                       "dueAt": quand.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
                       "assets": [{"video": {"url": adresses[f"{v['nom']}.mp4"], "metadata": {"thumbnailOffset": 0}}}],
                       "metadata": metadata}
-            try:
-                d = requete("""mutation($input: CreatePostInput!) { createPost(input: $input) {
-                    ... on PostActionSuccess { post { id } } ... on MutationError { message } } }""",
-                            {"input": entree}, cle="BUFFER_API_KEY_HISTOIRES")["createPost"]
-            except Exception as e:
-                d = {"message": f"{type(e).__name__} : {e}"}
+            d = {}
+            for attente in (0, 60, 180, 420):  # HTTP 429 (limite sur 15 min, 24/11/2026 : 8 refus d'affilée) : on attend
+                time.sleep(attente)
+                try:
+                    d = requete("""mutation($input: CreatePostInput!) { createPost(input: $input) {
+                        ... on PostActionSuccess { post { id } } ... on MutationError { message } } }""",
+                                {"input": entree}, cle="BUFFER_API_KEY_HISTOIRES")["createPost"]
+                    break
+                except Exception as e:
+                    d = {"message": f"{type(e).__name__} : {e}"}
+                    if "429" not in str(e):
+                        break
+            time.sleep(2)
             if d.get("post"):
                 log(f"    📅 {reseau} {quand:%d/%m %H:%M} : {v['titre']}")
                 etat["programmes"].append({"jour": jour, "nom": v["nom"], "reseau": reseau, "buffer": d["post"]["id"],

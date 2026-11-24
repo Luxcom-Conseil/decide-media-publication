@@ -32,6 +32,7 @@ etat/*
 !etat/perso.json
 !etat/histoires.json
 !etat/programme.json
+!etat/actu.json
 !etat/performances.json
 !etat/instagram_perso.jeton
 
