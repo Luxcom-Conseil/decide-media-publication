@@ -141,7 +141,7 @@ histoires:
   categorie_youtube: "27"               # Éducation
   # YouTube en direct par l'API (demande de Stéphane du 24/11/2026, secrets YOUTUBE_*_HISTOIRES, projet Google à part) :
   # série et actu ne passent plus par Buffer pour YouTube. false = Buffer (plafond gratuit de 2 Shorts par jour).
-  youtube_direct: false
+  youtube_direct: true
   voix:                                 # essai C choisi par Stéphane le 06/11/2026 : ton bande-annonce de thriller
     nom: Algenib
     demi_tons: 1                        # un peu plus grave

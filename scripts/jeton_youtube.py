@@ -46,7 +46,7 @@ else:
         raise SystemExit("Fichier client_secret….json introuvable dans Téléchargements.")
     fichier = candidats[0]
 print(f"Identifiant utilisé : {fichier.name}")
-print("Une page Google s'ouvre : choisissez votre compte, puis la chaîne DECIDE MEDIA, et cliquez sur « Autoriser ».")
+print(f"Une page Google s'ouvre : choisissez votre compte, puis la chaîne « {ATTENDU} », et cliquez sur « Autoriser ».")
 
 flow = InstalledAppFlow.from_client_secrets_file(str(fichier), SCOPES)
 creds = flow.run_local_server(port=0, access_type="offline", prompt="consent",
