@@ -741,5 +741,15 @@ def essai(cfg: dict, log, code: str) -> bool:
         return False
 
 
+def youtube_actu(cfg: dict) -> int:
+    """Vidéos actu envoyées à YouTube par jour : le total voulu moins la série, dans la limite du plafond de la chaîne."""
+    a = cfg.get("actu") or {}
+    total = min(int(a.get("youtube_par_jour", 5)), int(a.get("youtube_plafond", 2)))
+    return max(0, total - int(a.get("youtube_serie", 2)))
+
+
 def programmer(cfg: dict, log, jour: str) -> bool:
-    return h.programmer(cfg, log, jour, dossier=RACINE / "sortie" / "actu" / jour, lire=lire_etat, ecrire=ecrire_etat)
+    n = youtube_actu(cfg)
+    log(f"▶️ YouTube : {n} vidéo(s) actu ce jour-là, TikTok : toutes")
+    return h.programmer(cfg, log, jour, dossier=RACINE / "sortie" / "actu" / jour, lire=lire_etat, ecrire=ecrire_etat,
+                        youtube_max=n)

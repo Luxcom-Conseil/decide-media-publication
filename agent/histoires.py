@@ -667,7 +667,8 @@ def relancer(log, lire=None, ecrire=None, jours: int = 3, categorie: str = "27")
     return n
 
 
-def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None, ecrire=None) -> bool:
+def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None, ecrire=None,
+               youtube_max: int | None = None) -> bool:
     """Met en ligne les vidéos du `jour` (GitHub Pages) et les programme dans le second compte Buffer, sur TikTok et
     YouTube, aux heures de Paris du plan. `dossier`, `lire`, `ecrire` : pour la rubrique programme (agent/programme.py)."""
     lire, ecrire = lire or lire_etat, ecrire or ecrire_etat
@@ -698,6 +699,9 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
     maintenant = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0)
     en_retard = 0
     youtube_plein = False
+    # `youtube_max` (rubrique actu) : seules ces vidéos du plan vont aussi sur YouTube, réparties sur la journée
+    pour_youtube = (set(range(len(plan))) if youtube_max is None or youtube_max >= len(plan) else
+                    {round((k + 0.5) * len(plan) / youtube_max - 0.5) for k in range(youtube_max)})
     for rang, v in enumerate(plan):
         meta = json.loads((dossier / f"{v['nom']}.json").read_text(encoding="utf-8"))
         quand = datetime.fromisoformat(f"{jour}T{v['heure']}:00").replace(tzinfo=ZoneInfo("Europe/Paris"))
@@ -708,7 +712,7 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
             quand = maintenant + timedelta(minutes=20 + 30 * en_retard)
             en_retard += 1
         for reseau, canal in canaux.items():
-            if reseau == "youtube" and youtube_plein:
+            if reseau == "youtube" and (youtube_plein or rang not in pour_youtube):
                 continue
             metadata = ({"tiktok": {"isAiGenerated": True, "title": v["titre"][:90]}} if reseau == "tiktok" else
                         {"youtube": {"title": v["titre"][:100], "categoryId": str(h.get("categorie_youtube", "27")),

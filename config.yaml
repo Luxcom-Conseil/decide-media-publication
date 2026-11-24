@@ -193,6 +193,14 @@ programme:
 # série des histoires : 10 vidéos par jour. Évaluation : vues à 48 h par format, on garde ceux à 2 fois la médiane.
 actu:
   actif: true
+  # Volumes demandés par Stéphane le 24/11/2026 : TikTok 10 par jour (8 actu + 2 série), YouTube 5 par jour (3 actu
+  # + 2 série). Les vidéos actu envoyées à YouTube sont réparties sur la journée.
+  youtube_par_jour: 5
+  # Plafond Buffer de la chaîne YouTube : 2 Shorts par 24 h sur l'offre gratuite (refus « maximum number of posts
+  # YouTube allows in a day (2) » du 20 au 23/11/2026). Les 2 places sont gardées pour la série. À relever quand
+  # YouTube passe en direct par l'API (comme le Burkina et l'Afrique) ou par une offre Buffer payante.
+  youtube_plafond: 2
+  youtube_serie: 2            # Shorts YouTube de la série des histoires (12 h 30 et 20 h 30), prioritaires
 
 # Compte Instagram de Stéphane : Reels « conseils et astuces psychologiques » de 60 s et plus, sans visage filmé, un
 # sujet du catalogue agent/perso_sujets.py par Reel ; connexion Instagram directe ; public européen.
