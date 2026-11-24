@@ -1253,104 +1253,14 @@
       "formule": "Enjeu",
       "id": "20261124-1830",
       "legende": "Travailler plus dur peut ruiner totalement ton efficacité au bureau.\n\nOn passe souvent notre temps sur des détails sans importance. La règle est simple : identifie ce qui rapporte vraiment et concentre-toi uniquement là-dessus.\n\nQuelle est la seule tâche qui te rapporte le plus de résultats aujourd'hui ?\n\n#productivite #travail #organisation #psychologie",
+      "media_id": "18079167191466020",
+      "publie_le": "2026-11-24T17:32:33+00:00",
       "quand": "2026-11-24T18:30:00+01:00",
       "refait_le": "2026-11-20T18:56:23+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Enjeu",
-            "texte": "Travailler plus dur peut ruiner totalement ton efficacité au bureau."
-          },
-          {
-            "formule": "Liste",
-            "texte": "3 erreurs que tu fais quand tu essaies de tout faire."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de t'épuiser tant que tu n'as pas vu cette règle."
-          }
-        ],
-        "hashtags": [
-          "productivite",
-          "travail",
-          "organisation",
-          "psychologie"
-        ],
-        "legende": "Travailler plus dur peut ruiner totalement ton efficacité au bureau.\n\nOn passe souvent notre temps sur des détails sans importance. La règle est simple : identifie ce qui rapporte vraiment et concentre-toi uniquement là-dessus.\n\nQuelle est la seule tâche qui te rapporte le plus de résultats aujourd'hui ?",
-        "question": "Quelle est la seule tâche qui te rapporte le plus de résultats aujourd'hui ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Travailler plus dur peut ruiner totalement ton efficacité au bureau.",
-            "ecran": "Travailler plus peut te *ruiner*",
-            "emoji": "⚠️",
-            "recherche": "stressed worker office",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Environ quatre-vingt pour cent des résultats viennent de seulement vingt pour cent des efforts.",
-            "ecran": "La *loi de Pareto*",
-            "emoji": "🧠",
-            "recherche": "thinking in office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu passes des heures sur tes emails alors que les vrais gros contrats se jouent ailleurs.",
-            "ecran": "Passer des heures sur tes *emails*",
-            "emoji": "💻",
-            "recherche": "frustrated at computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau se disperse sur des détails pour éviter de traiter ce qui compte vraiment.",
-            "ecran": "Le cerveau *se disperse*",
-            "emoji": "🎯",
-            "recherche": "focused worker",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Repère les quelques actions qui produisent l'essentiel de tes résultats.",
-            "ecran": "Priorise tes *actions*",
-            "emoji": "📝",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Donne la priorité absolue aux vingt pour cent d'efforts qui changent tout.",
-            "ecran": "Moins d'efforts, plus de *résultats*",
-            "emoji": "💡",
-            "recherche": "success at work",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La loi de Pareto"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "pareto",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgIf3bNE8Je/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261124-1830-r.mp4"
     },
     {
@@ -4736,6 +4646,13 @@
       "media_id": "18239662750319508",
       "sujet": "petites_victoires",
       "url": "https://www.instagram.com/reel/DgH2mDPCTr1/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-24",
+      "media_id": "18079167191466020",
+      "sujet": "pareto",
+      "url": "https://www.instagram.com/reel/DgIf3bNE8Je/"
     }
   ]
 }
