@@ -51,7 +51,11 @@ def mettre_en_ligne(fichiers: list[Path], jour: date, attente_max: int = 300, no
         _git("checkout", "-q", "--orphan", f"{BRANCHE}-publie", cwd=dossier)
         if not existe:
             _git("rm", "-rqf", ".", cwd=dossier)
-        limite = jour - timedelta(days=JOURS_GARDES)
+        # jamais au-delà d'aujourd'hui (Paris) : DECIDE dépose déjà le 26/11 le 24/11, ce qui effaçait les vidéos du jour
+        # avant que Buffer ne vienne les chercher (dossier 2026-11-24 absent le 24/11/2026 à midi)
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        limite = min(jour - timedelta(days=JOURS_GARDES), datetime.now(ZoneInfo("Europe/Paris")).date())
         limite_semaine = jour - timedelta(days=JOURS_GARDES_SEMAINE)
         for sous in dossier.iterdir():  # on ne garde que les derniers jours
             if sous.is_dir() and sous.name[:4].isdigit() and sous.name < limite.isoformat():
