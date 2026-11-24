@@ -158,6 +158,43 @@ class YouTubeBurkina(YouTube):
     variables = ("YOUTUBE_CLIENT_ID_BURKINA", "YOUTUBE_CLIENT_SECRET_BURKINA", "YOUTUBE_REFRESH_TOKEN_BURKINA")
 
 
+class YouTubeHistoires(YouTube):
+    """Chaîne « Histoires vraies d'argent » par l'API directe (24/11/2026) : Buffer gratuit n'y programmait que 2 Shorts
+    par jour. Son propre projet Google Cloud (10 000 unités par jour, 1 600 par envoi : 6 vidéos par jour au plus)."""
+    nom = "youtube_hv"
+    suffixe = "_HISTOIRES"
+    variables = ("YOUTUBE_CLIENT_ID_HISTOIRES", "YOUTUBE_CLIENT_SECRET_HISTOIRES", "YOUTUBE_REFRESH_TOKEN_HISTOIRES")
+
+    def __init__(self, cfg: dict | None = None):  # utilisé hors de l'orchestrateur (agent/histoires.py)
+        self.cfg = cfg or {}
+
+    def programmer_fichier(self, video: Path, titre: str, description: str, quand, categorie: str = "27") -> str:
+        """Envoie le MP4 en privé avec publishAt : YouTube le rend public lui-même à l'heure dite. Renvoie l'ID."""
+        from googleapiclient.errors import HttpError
+        from googleapiclient.http import MediaFileUpload
+
+        corps = {"snippet": {"title": _titre_youtube(titre), "categoryId": str(categorie), "defaultLanguage": "fr",
+                             "defaultAudioLanguage": "fr",
+                             "description": (description + "\n\n#Shorts").replace("<", "").replace(">", "")[:5000]},
+                 "status": {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True,
+                            "publishAt": quand.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")}}
+        media = MediaFileUpload(str(video), mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True)
+        try:
+            req = self._service().videos().insert(part="snippet,status", body=corps, media_body=media)
+            reponse = None
+            while reponse is None:
+                _, reponse = req.next_chunk(num_retries=3)
+        except HttpError as e:
+            if "quota" in str(e).lower() or "uploadlimitexceeded" in str(e).lower():
+                raise ErreurLimite("youtube : limite d'envoi du jour atteinte") from None
+            raise ErreurPublication(f"youtube : HTTP {e.status_code} — {e.reason}") from None
+        finally:
+            fd = getattr(media, "_fd", None)
+            if fd:
+                fd.close()
+        return reponse["id"]
+
+
 class YouTubeAfrique(YouTube):
     """Chaîne « DECIDE MEDIA Afrique » par l'API directe, avec son propre projet Google Cloud (préparé le 23/11/2026,
     à activer dans antennes.afrique.lots.reseaux une fois les secrets YOUTUBE_*_AFRIQUE en place)."""

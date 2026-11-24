@@ -744,7 +744,8 @@ def essai(cfg: dict, log, code: str) -> bool:
 def youtube_actu(cfg: dict) -> int:
     """Vidéos actu envoyées à YouTube par jour : le total voulu moins la série, dans la limite du plafond de la chaîne."""
     a = cfg.get("actu") or {}
-    total = min(int(a.get("youtube_par_jour", 5)), int(a.get("youtube_plafond", 2)))
+    direct = (cfg.get("histoires") or {}).get("youtube_direct")  # API directe : plus de plafond Buffer (2 par jour)
+    total = min(int(a.get("youtube_par_jour", 5)), 6 if direct else int(a.get("youtube_plafond", 2)))
     return max(0, total - int(a.get("youtube_serie", 2)))
 
 

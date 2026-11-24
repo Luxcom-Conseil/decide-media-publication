@@ -77,6 +77,9 @@ jobs:
       - name: Mettre en ligne et programmer dans Buffer
         env:
           BUFFER_API_KEY_HISTOIRES: ${{ secrets.BUFFER_API_KEY_HISTOIRES }}
+          YOUTUBE_CLIENT_ID_HISTOIRES: ${{ secrets.YOUTUBE_CLIENT_ID_HISTOIRES }}
+          YOUTUBE_CLIENT_SECRET_HISTOIRES: ${{ secrets.YOUTUBE_CLIENT_SECRET_HISTOIRES }}
+          YOUTUBE_REFRESH_TOKEN_HISTOIRES: ${{ secrets.YOUTUBE_REFRESH_TOKEN_HISTOIRES }}
           HISTOIRES_IMMEDIAT: ${{ (github.event_name == 'workflow_dispatch' && inputs.immediat) && '1' || '0' }}
         run: python -m agent histoires-programmer
       - name: Enregistrer l'avancement

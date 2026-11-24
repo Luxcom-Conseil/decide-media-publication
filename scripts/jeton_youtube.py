@@ -31,9 +31,10 @@ args = sys.argv[1:]
 SUFFIXE, ATTENDU = "", "decide"
 if "--antenne" in args:
     i = args.index("--antenne")
-    antennes = {"burkina": ("_BURKINA", "burkina"), "afrique": ("_AFRIQUE", "afrique")}
+    antennes = {"burkina": ("_BURKINA", "burkina"), "afrique": ("_AFRIQUE", "afrique"),
+                "histoires": ("_HISTOIRES", "histoires")}  # chaîne « Histoires vraies d'argent » (24/11/2026)
     if args[i + 1] not in antennes:
-        raise SystemExit("--antenne : « burkina » ou « afrique »")
+        raise SystemExit("--antenne : « burkina », « afrique » ou « histoires »")
     SUFFIXE, ATTENDU = antennes[args[i + 1]]
     del args[i:i + 2]
 if args:

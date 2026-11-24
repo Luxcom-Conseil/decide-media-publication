@@ -625,6 +625,8 @@ def relancer(log, lire=None, ecrire=None, jours: int = 3, categorie: str = "27")
     maintenant = datetime.now(ZoneInfo("Europe/Paris")).replace(second=0, microsecond=0)
     depuis, n = maintenant - timedelta(days=jours), 0
     for p in etat.get("programmes", []):
+        if not p.get("buffer"):  # envoyé en direct à YouTube (API) : rien à relancer dans Buffer
+            continue
         if datetime.fromisoformat(p["heure"]) < depuis or p.get("relances", 0) >= RELANCES_MAX:
             continue
         try:
@@ -681,6 +683,7 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
 
     from .hebergement import mettre_en_ligne
     from .publieurs.buffer import requete
+    from .publieurs.youtube import YouTubeHistoires
 
     h = cfg.get("histoires") or {}
     canaux = h.get("canaux") or {}
@@ -713,6 +716,21 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
             en_retard += 1
         for reseau, canal in canaux.items():
             if reseau == "youtube" and (youtube_plein or rang not in pour_youtube):
+                continue
+            if reseau == "youtube" and h.get("youtube_direct"):  # API directe depuis le 24/11/2026 (plus par Buffer)
+                try:
+                    vid = YouTubeHistoires(cfg).programmer_fichier(dossier / f"{v['nom']}.mp4", v["titre"], meta["legende"],
+                                                                   quand, str(h.get("categorie_youtube", "27")))
+                    log(f"    📅 youtube {quand:%d/%m %H:%M} : {v['titre']} (https://youtu.be/{vid})")
+                    etat["programmes"].append({"jour": jour, "nom": v["nom"], "reseau": reseau, "youtube": vid,
+                                               "heure": quand.isoformat()})
+                except Exception as e:
+                    if "limite" in str(e):  # quota du projet Google épuisé : pas une panne du passage
+                        youtube_plein = True
+                        log(f"    ⚠️ {e} : « {v['titre']} » et les suivantes sur TikTok seulement")
+                    else:
+                        ok = False
+                        log(f"    ❌ youtube : {str(e)[:300]}")
                 continue
             metadata = ({"tiktok": {"isAiGenerated": True, "title": v["titre"][:90]}} if reseau == "tiktok" else
                         {"youtube": {"title": v["titre"][:100], "categoryId": str(h.get("categorie_youtube", "27")),

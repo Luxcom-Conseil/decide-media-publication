@@ -139,6 +139,9 @@ histoires:
     tiktok: 6aed2f70e29c69a1717a0a84    # TikTok @histoires.vraies.argents
     youtube: 6aed2ff5e29c69a1717a0e25   # YouTube « Histoires Vraies d'Argent »
   categorie_youtube: "27"               # Éducation
+  # YouTube en direct par l'API (demande de Stéphane du 24/11/2026, secrets YOUTUBE_*_HISTOIRES, projet Google à part) :
+  # série et actu ne passent plus par Buffer pour YouTube. false = Buffer (plafond gratuit de 2 Shorts par jour).
+  youtube_direct: false
   voix:                                 # essai C choisi par Stéphane le 06/11/2026 : ton bande-annonce de thriller
     nom: Algenib
     demi_tons: 1                        # un peu plus grave
@@ -197,8 +200,8 @@ actu:
   # + 2 série). Les vidéos actu envoyées à YouTube sont réparties sur la journée.
   youtube_par_jour: 5
   # Plafond Buffer de la chaîne YouTube : 2 Shorts par 24 h sur l'offre gratuite (refus « maximum number of posts
-  # YouTube allows in a day (2) » du 20 au 23/11/2026). Les 2 places sont gardées pour la série. À relever quand
-  # YouTube passe en direct par l'API (comme le Burkina et l'Afrique) ou par une offre Buffer payante.
+  # YouTube allows in a day (2) » du 20 au 23/11/2026). Les 2 places sont gardées pour la série. Ignoré quand
+  # histoires.youtube_direct est vrai (API : 6 envois par jour au plus).
   youtube_plafond: 2
   youtube_serie: 2            # Shorts YouTube de la série des histoires (12 h 30 et 20 h 30), prioritaires
 
