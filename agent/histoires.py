@@ -630,6 +630,10 @@ def relancer(log, lire=None, ecrire=None, jours: int = 3, categorie: str = "27")
             continue
         if datetime.fromisoformat(p["heure"]) < depuis or p.get("relances", 0) >= RELANCES_MAX:
             continue
+        # quota Buffer (1 000 requêtes / 30 j par chaîne, épuisé le 24/11/2026) : on ne relit ni un post déjà parti,
+        # ni un post dont l'heure n'est pas venue (Buffer ne le refuse qu'au moment de publier)
+        if p.get("envoye") or datetime.fromisoformat(p.get("heure_relance") or p["heure"]) > maintenant:
+            continue
         try:
             post = requete("""query($id: PostId!) { post(input: {id: $id}) { status error { message } text
                 assets { ... on VideoAsset { source } }
@@ -641,6 +645,8 @@ def relancer(log, lire=None, ecrire=None, jours: int = 3, categorie: str = "27")
                 break
             continue
         time.sleep(1)
+        if post and post.get("status") == "sent":
+            p["envoye"] = True
         if not post or post.get("status") != "error":
             continue
         quand = maintenant + timedelta(minutes=15 + 30 * n)
@@ -720,6 +726,9 @@ def programmer(cfg: dict, log, jour: str, dossier: Path | None = None, lire=None
             en_retard += 1
         for reseau, canal in canaux.items():
             if reseau == "youtube" and (youtube_plein or rang not in pour_youtube):
+                continue
+            # déjà programmée par un passage précédent (relance après un refus de Buffer) : pas de doublon
+            if any(x.get("nom") == v["nom"] and x.get("reseau") == reseau for x in etat["programmes"]):
                 continue
             if reseau == "youtube" and h.get("youtube_direct"):  # API directe depuis le 24/11/2026 (plus par Buffer)
                 try:
