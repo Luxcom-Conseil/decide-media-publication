@@ -58,3 +58,18 @@ def test_secours_afrique_ouvre_sur_la_phrase_du_chiffre(monkeypatch):
 def test_sans_antenne_afrique_rien_ne_change(monkeypatch):
     monkeypatch.delenv("DECIDE_ANTENNE", raising=False)
     assert not g.antenne_afrique()
+
+
+def test_photos_du_pays_meme_sans_photo_d_article_en_banque(monkeypatch, tmp_path):
+    """Couverture TikTok du 24/11/2026 : la photo de l'article hors banque ne laisse plus l'accroche sans photo."""
+    from pathlib import Path
+    from agent import medias_commons
+    monkeypatch.setenv("DECIDE_ANTENNE", "afrique")
+    monkeypatch.setattr(medias_commons, "BANQUE", Path(g.MOTION.parent / "banque_photos_af"))
+    art = {"country": "Kenya", "image_provenance": {"page": "https://commons.wikimedia.org/wiki/File:Inconnue.jpg"}}
+    photos = g.photos_du_sujet(art, tmp_path, set(), recentes={})
+    assert photos and len(photos) <= g.PHOTOS_PAR_SHORT
+    assert isinstance(g.photos_du_sujet({"country": "Atlantide", "image_provenance": art["image_provenance"]}, tmp_path, set(),
+                                        recentes={}), list)  # pays sans photo : la couverture prend le grand drapeau
+    monkeypatch.delenv("DECIDE_ANTENNE")
+    assert g.photos_du_sujet(art, tmp_path, set(), recentes={}) == []  # Cameroun et Burkina : inchangés

@@ -467,10 +467,10 @@ def photos_du_sujet(article: dict, dossier: Path, pris: set[str], recentes: dict
         return []
     index = json.loads((BANQUE / "index.json").read_text(encoding="utf-8"))
     sienne = next((e for e in index if cle_photo(e.get("page")) == page), None)
-    if not sienne:
+    if not sienne and not antenne_afrique():
         return []
     if recentes is None:
-        f = MOTION.parent / "etat" / "photos_utilisees.json"
+        f = MOTION.parent / "etat" / ("photos_utilisees_af.json" if antenne_afrique() else "photos_utilisees.json")
         recentes = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
     jour = str(article.get("_lot") or date.today().isoformat())
 
@@ -481,12 +481,18 @@ def photos_du_sujet(article: dict, dossier: Path, pris: set[str], recentes: dict
         except ValueError:
             return False
 
-    choisies = [sienne]
+    choisies = [sienne] if sienne else []
     if antenne_afrique():  # tout le continent : d'autres photos du même pays, sans bâtiment officiel nommé
-        pays = article.get("country") or sienne.get("pays")
-        choisies += [e for e in index if e is not sienne and e.get("pays") == pays and e["fichier"] not in pris
-                     and e["theme"] not in THEMES_PAYS_EXCLUS and e["personnes"] in ("aucune", "loin")
-                     and not e.get("marque") and not recente(e)][:PHOTOS_PAR_SHORT - 1]
+        # photo de l'article hors banque (24/11/2026, couverture TikTok sur la capture de l'article) : les photos du
+        # pays seules ; pays sans photo : des vues générales du continent (pays « Afrique » de la banque)
+        pays = article.get("country") or (sienne or {}).get("pays")
+
+        def du_pays(p):
+            return [e for e in index if e is not sienne and e.get("pays") == p and e["fichier"] not in pris
+                    and e["theme"] not in THEMES_PAYS_EXCLUS and e["personnes"] in ("aucune", "loin")
+                    and not e.get("marque") and not recente(e)]
+        autres = du_pays(pays) or ([] if sienne else du_pays("Afrique"))
+        choisies += autres[:PHOTOS_PAR_SHORT - len(choisies)]
     elif sienne["theme"] in THEMES_GENERIQUES:
         choisies += [e for e in index if e is not sienne and e["theme"] == sienne["theme"] and e["fichier"] not in pris
                      and e["personnes"] in ("aucune", "loin") and not e["marque"] and not recente(e)
@@ -652,6 +658,8 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
              "scenes": scenes, "musique": "melodie.wav", "volume_musique": 0.10}
     if drapeau:
         props["drapeau"] = drapeau
+    if antenne_afrique():  # couverture TikTok (24/11/2026) : photo plein écran, drapeau, nom du pays, accroche en grand
+        props["couverture"] = {"pays": (article.get("country") or "Afrique").upper(), "drapeau": drapeau}
     from . import sons
     from .config import charger_config
     cfg = charger_config(MOTION.parent / "config.yaml")

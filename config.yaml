@@ -282,7 +282,7 @@ antennes:
       dossier_drive: 1TPiTLFrUdYSG1KlO23FHsfXRTNXy6E4U   # « Afrique », sous-dossier de « Article DECIDE MEDIA - Quotidien »
       # TikTok par le Buffer du Burkina ; YouTube en direct par l'API (youtube_af, secrets YOUTUBE_*_AFRIQUE, autorisé le 23/11/2026).
       reseaux: [youtube_af, tiktok_buffer]   # YouTube en direct depuis le 23/11/2026 (chaîne DECIDE MEDIA AFRIQUE)
-      max_par_lot: {youtube_af: 10, tiktok_buffer: 10}
+      max_par_lot: {youtube_af: 5, tiktok_buffer: 10}   # YouTube : 5 Shorts par jour, TikTok : 10 (Stéphane, 24/11/2026)
       rattrapage: {actif: false}
       fuseau_creneaux: Africa/Lagos             # UTC+1 : Afrique centrale et Ouest anglophone, Paris en hiver
       creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30", "09:30", "21:15"]

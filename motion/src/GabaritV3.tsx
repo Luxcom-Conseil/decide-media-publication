@@ -48,6 +48,7 @@ export type ScriptV3 = {
   titre: string;
   image: string; // visuel du lot (affiche DECIDE)
   drapeau?: string; // antenne Afrique : drapeau du pays dans l'en-tête
+  couverture?: { pays: string; drapeau?: string | null }; // antenne Afrique : accroche-couverture (TikTok, 24/11/2026)
   source?: string;
   scenes: SceneV3[];
   musique?: string;
@@ -97,7 +98,7 @@ const Fond: React.FC = () => {
 };
 
 // photo ou vidéo plein écran, assombrie pour que le texte reste lisible ; un logo est posé sur une carte blanche
-const Media: React.FC<{ m: MediaV3; long: number }> = ({ m, long }) => {
+const Media: React.FC<{ m: MediaV3; long: number; clair?: boolean }> = ({ m, long, clair }) => {
   const f = useCurrentFrame();
   if (m.portrait) {
     // portrait officiel : cadre orange, léger zoom, le visage n'est jamais sous le texte
@@ -130,6 +131,8 @@ const Media: React.FC<{ m: MediaV3; long: number }> = ({ m, long }) => {
     <AbsoluteFill>
       {m.video ? <OffthreadVideo src={staticFile(m.src)} muted style={style} /> : <Img src={staticFile(m.src)} style={style} />}
       <AbsoluteFill style={{ background: m.voile ? "rgba(14,14,14,0.8)"
+        // couverture : la photo reste lumineuse au centre, le bas s'assombrit sous l'accroche
+        : clair ? "linear-gradient(180deg, rgba(14,14,14,0.6) 0%, rgba(14,14,14,0) 22%, rgba(14,14,14,0) 42%, rgba(14,14,14,0.55) 56%, rgba(14,14,14,0.9) 80%)"
         : "linear-gradient(180deg, rgba(14,14,14,0.75) 0%, rgba(14,14,14,0.25) 30%, rgba(14,14,14,0.45) 50%, rgba(14,14,14,0.92) 72%)" }} />
     </AbsoluteFill>
   );
@@ -177,6 +180,28 @@ const Accroche: React.FC<{ sc: SceneV3; image: string; long: number }> = ({ sc, 
         <Img src={staticFile(image)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${interpolate(f, [0, long], [1, 1.06])})` }} />
       </div>
       <Cinetique texte={t} taille={t.length > 50 ? 66 : 78} top={1020} immediat />
+    </>
+  );
+};
+
+// antenne Afrique : la couverture que montrent les grilles TikTok (recadrage 3:4, y 240–1680) : drapeau et nom du pays
+// en haut, photo du pays en plein écran (sinon un grand drapeau), l'accroche en très gros dans le bas, complète dès la 1re image
+const Couverture: React.FC<{ sc: SceneV3; c: { pays: string; drapeau?: string | null } }> = ({ sc, c }) => {
+  const t = sc.ecran ?? "";
+  const photo = !!sc.media && !sc.media.logo && !sc.media.portrait;
+  return (
+    <>
+      {!photo && c.drapeau && (
+        <div style={{ position: "absolute", top: 590, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+          <Drapeau src={c.drapeau} largeur={520} />
+        </div>
+      )}
+      <div style={{ position: "absolute", top: 450, left: 0, right: 0, display: "flex", justifyContent: "center", alignItems: "center", gap: 24 }}>
+        {photo && c.drapeau && <Drapeau src={c.drapeau} largeur={150} />}
+        <span style={{ fontFamily, fontWeight: 900, fontSize: 64, letterSpacing: 2, color: BLANC, background: ORANGE, padding: "6px 26px",
+          borderRadius: 14, boxShadow: "0 10px 30px rgba(0,0,0,0.5)" }}>{c.pays}</span>
+      </div>
+      <Cinetique texte={t} taille={t.length > 60 ? 88 : t.length > 40 ? 100 : 116} top={photo ? 960 : 1010} immediat />
     </>
   );
 };
@@ -312,8 +337,9 @@ export const GabaritV3: React.FC<ScriptV3> = (s) => {
       {scenes.map((p) => (
         <Sequence key={p.i} from={p.debut} durationInFrames={p.longueur}>
           <Punch long={p.longueur} premiere={p.i === 0}>
-            {p.sc.media && <Media m={p.sc.media} long={p.longueur} />}
-            {p.sc.type === "accroche" && <Accroche sc={p.sc} image={s.image} long={p.longueur} />}
+            {p.sc.media && <Media m={p.sc.media} long={p.longueur} clair={p.sc.type === "accroche" && !!s.couverture} />}
+            {p.sc.type === "accroche" && (s.couverture ? <Couverture sc={p.sc} c={s.couverture} />
+              : <Accroche sc={p.sc} image={s.image} long={p.longueur} />)}
             {p.sc.type === "media" && <ScMedia sc={p.sc} />}
             {p.sc.type === "explication" && <Explication sc={p.sc} image={s.image} />}
             {p.sc.type === "outro" && <Outro s={s} />}
