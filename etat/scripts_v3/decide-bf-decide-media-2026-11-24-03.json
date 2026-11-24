@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "S&P relève la note de crédit du Burkina Faso à B-.",
+    "La note de crédit du Burkina Faso progresse selon S&P Global.",
+    "Le risque financier du Burkina Faso est jugé en baisse."
+  ],
+  "titre": "Note de crédit en hausse au Burkina",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "S&P relève la note du *Burkina*",
+      "dit": "S&P relève la note de crédit du Burkina Faso à B-."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "CCC+",
+        "apres": "B-",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Note de crédit",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La note passe de *CCC+* à *B-*",
+      "dit": "Cette notation, annoncée le 6 novembre 2026, évalue la capacité de l'État à rembourser ses dettes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "C",
+        "apres": "B",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Note court terme",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le court terme passe à *B*",
+      "dit": "La note à court terme du pays progresse également, passant de C à B, selon l'agence internationale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Quatre facteurs *positifs* identifiés",
+      "dit": "Le ministère de l'Économie cite quatre facteurs clés expliquant cette décision de l'agence de notation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Risques de liquidité en *baisse*",
+      "dit": "L'agence note l'atténuation des risques de liquidité et le respect des engagements envers les créanciers."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Sécurité et activités en *reprise*",
+      "dit": "S&P souligne aussi la continuité administrative, la reprise minière et agricole, et la sécurité en amélioration."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "1,8",
+        "apres": "3,8",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Déficit public",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le déficit cible *3,8 %* en 2026",
+      "dit": "Le déficit public remonterait à 3,8 % du PIB en 2026, après avoir atteint 1,8 % l'année dernière."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'or pèse *90 %* des exportations",
+      "dit": "Selon Wakat Séra, l'or représente près de 90 % des exportations nationales du pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Intérêts supérieurs à *10 %* des recettes",
+      "dit": "Les charges d'intérêts de la dette publique devraient dépasser 10 % des recettes publiques jusqu'en 2029."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Toujours en catégorie *spéculative*",
+      "dit": "Malgré ce relèvement, la note B- demeure dans la catégorie spéculative, sous le seuil de BBB-."
+    }
+  ]
+}

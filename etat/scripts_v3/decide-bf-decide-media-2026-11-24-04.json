@@ -1,0 +1,176 @@
+{
+  "accroches": [
+    "Une microfinance burkinabè crée une société anonyme de 200 millions FCFA.",
+    "L'APFI du Burkina Faso change de statut et devient IFIC-SA.",
+    "Une loi impose la réorganisation des structures de microfinance au Burkina."
+  ],
+  "titre": "Microfinance : l'APFI devient IFIC-SA",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une *société* de 200 millions FCFA",
+      "dit": "Au Burkina Faso, une microfinance crée une société anonyme au capital de 200 millions de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'APFI *devient* l'IFIC-SA",
+      "dit": "L'Association pour la promotion de la finance inclusive, l'APFI, devient IFIC-SA, selon Sidwaya."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Décision *prise* à Ouagadougou",
+      "dit": "Les membres ont validé ce changement de statut ce samedi 21 novembre 2026 à Ouagadougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "13 février 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *loi* de février 2025",
+      "dit": "Cette transformation fait suite à la loi du 13 février 2025 portant réglementation de la microfinance."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Nouvelle *obligation* légale",
+      "dit": "Le texte impose de se réorganiser en société anonyme ou coopérative pour garder son agrément."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Nouveau *président* nommé",
+      "dit": "Hamadou Bonkoungou a été porté à la présidence du conseil d'administration d'IFIC-SA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Appel aux *actionnaires*",
+      "dit": "Le nouveau président demande aux actionnaires de réunir les ressources nécessaires avant le démarrage."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "De nouvelles *souscriptions*",
+      "dit": "La rencontre a aussi enregistré de nouvelles souscriptions, sans montant ni nombre précisés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Autorisations *en attente*",
+      "dit": "L'article mentionne des extensions d'activité sous réserve d'obtenir les autorisations requises."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Incertitudes pour les *clients*",
+      "dit": "Le journal Sidwaya ne précise pas le sort des comptes et des crédits en cours de l'APFI."
+    }
+  ]
+}

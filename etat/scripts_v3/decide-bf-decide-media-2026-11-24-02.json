@@ -1,0 +1,163 @@
+{
+  "accroches": [
+    "Le coût du Hadj 2027 s'élève à 3 630 000 FCFA au Burkina Faso.",
+    "Les inscriptions pour le Hadj 2027 ferment le 26 novembre 2026.",
+    "Le tirage au sort électronique des candidats est prévu le 27 novembre."
+  ],
+  "titre": "Hadj 2027 : inscriptions",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le coût est de *3 630 000* FCFA.",
+      "dit": "Le coût du Hadj 2027 s'élève à 3 630 000 FCFA au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La plateforme ouvre le *24 novembre*.",
+      "dit": "Selon le Comité national d'organisation du pèlerinage, la plateforme d'inscription ouvre le 24 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "26 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Fermeture le *26 novembre* à minuit.",
+      "dit": "Les inscriptions ferment le 26 novembre à 23 h 59 sur la plateforme officielle."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tirage au sort le *27 novembre*.",
+      "dit": "Le tirage au sort électronique des candidats est prévu le 27 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 décembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Enrôlement jusqu'au *5 décembre*.",
+      "dit": "L'enrôlement par les agences de voyages agréées par l'État se déroule du 27 novembre au 5 décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "8 décembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Liste d'attente du *6 au 8*.",
+      "dit": "Les candidats de la liste d'attente sont enrôlés du 6 au 8 décembre en remplacement des défaillants."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Annonce du ministre *Émile Zerbo*.",
+      "dit": "Ce montant a été fixé par un communiqué du ministre d'État Émile Zerbo, chargé de l'Administration."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La *restauration* est comprise.",
+      "dit": "Le montant comprend le coût effectif du pèlerinage ainsi que les frais de restauration."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'achat du *mouton* reste facultatif.",
+      "dit": "L'achat d'un mouton est facultatif et reste entièrement à la charge du pèlerin qui le souhaite."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse de *10,5 %* par rapport à 2026.",
+      "dit": "Le coût de 2027 dépasse celui de 2026 de 344 755 FCFA, soit environ dix pour cent."
+    }
+  ]
+}

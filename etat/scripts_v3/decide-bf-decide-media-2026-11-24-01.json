@@ -1,0 +1,212 @@
+{
+  "accroches": [
+    "Sucre, riz et huile soumis à une autorisation spéciale au Burkina Faso.",
+    "Une nouvelle liste d'importation et d'exportation adoptée au Burkina Faso.",
+    "Le décret du 30 octobre 2026 modifie les règles d'importation."
+  ],
+  "titre": "Nouvelle liste d'importation au Burkina",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Sucre et riz *soumis* à autorisation",
+      "dit": "Sucre, riz et huile sont soumis à une autorisation spéciale d'importation au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un décret *signé* le 30 octobre",
+      "dit": "Le Président du Faso a signé le décret le trente octobre deux mille vingt-six."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un texte *rendu* public récemment",
+      "dit": "Selon Lefaso.net, la Brigade mobile de contrôle économique a rendu le texte public le vingt-trois novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La liste *remplace* celle de 2025",
+      "dit": "Ce nouveau texte abroge la liste précédente qui datait du vingt-huit octobre deux mille vingt-cinq."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Farine, lait et *huiles* concernés",
+      "dit": "La farine de blé, le lait et les huiles alimentaires figurent aussi sur cette nouvelle liste."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ciment et *savon* sur la liste",
+      "dit": "À l'importation, le texte cite le ciment, le savon, les détergents et les équipements solaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Maïs et *soja* à l'exportation",
+      "dit": "À l'exportation, le décret soumet à autorisation le maïs, le mil, le sorgho et le soja."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bétail et *or* aussi concernés",
+      "dit": "L'arachide, le sésame, la noix de cajou, le bétail sur pied et l'or sont aussi concernés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une autorisation *avant* toute opération",
+      "dit": "Les importateurs et les exportateurs doivent obtenir cette autorisation avant toute opération."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'exécution *revient* à deux ministères",
+      "dit": "L'exécution revient aux ministres chargés de l'Industrie et de l'Économie selon le texte."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun changement *annoncé* pour les prix",
+      "dit": "Pour le consommateur, aucun changement de prix ni de disponibilité n'est annoncé."
+    }
+  ]
+}

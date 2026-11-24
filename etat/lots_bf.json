@@ -388,5 +388,108 @@
       "tentatives": 0,
       "titre": "L'Académie technologique ouvre à Pabré"
     }
+  },
+  "decide-bf-decide-media-2026-11-24-01": {
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T08:12:53+00:00",
+      "piste": "principale",
+      "post_id": "6b054704286252d73845aa85",
+      "programme_pour": "2026-11-24T11:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Sucre, riz, huile : autorisation spéciale",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:47:25+00:00",
+      "piste": "principale",
+      "post_id": "sGljENLH6f8",
+      "programme_pour": "2026-11-24T11:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Sucre, riz, huile : autorisation spéciale",
+      "url": "https://youtu.be/sGljENLH6f8"
+    }
+  },
+  "decide-bf-decide-media-2026-11-24-02": {
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T08:14:30+00:00",
+      "piste": "principale",
+      "post_id": "6b054766b34a1444db98a594",
+      "programme_pour": "2026-11-24T14:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Hadj 2027 : inscriptions jusqu'au 26 novembre",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T07:55:59+00:00",
+      "piste": "principale",
+      "post_id": "8js0R_nZvcM",
+      "programme_pour": "2026-11-24T14:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Hadj 2027 : inscriptions jusqu'au 26 novembre",
+      "url": "https://youtu.be/8js0R_nZvcM"
+    }
+  },
+  "decide-bf-decide-media-2026-11-24-03": {
+    "tiktok_buffer": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T08:16:17+00:00",
+      "piste": "principale",
+      "post_id": "6b0547d131056e7b6e871361",
+      "programme_pour": "2026-11-24T17:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "S&P relève la note du Burkina",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T08:01:00+00:00",
+      "piste": "principale",
+      "post_id": "Bhg1dtPC7nw",
+      "programme_pour": "2026-11-24T17:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "S&P relève la note du Burkina",
+      "url": "https://youtu.be/Bhg1dtPC7nw"
+    }
+  },
+  "decide-bf-decide-media-2026-11-24-04": {
+    "tiktok_buffer": {
+      "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T08:18:04+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Microfinance : l'APFI devient IFIC-SA"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T08:05:02+00:00",
+      "piste": "principale",
+      "post_id": "QeP_jvvNxJg",
+      "programme_pour": "2026-11-24T20:00:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Microfinance : l'APFI devient IFIC-SA",
+      "url": "https://youtu.be/QeP_jvvNxJg"
+    }
+  },
+  "decide-bf-decide-media-2026-11-24-05": {
+    "youtube_bf": {
+      "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
+      "lot": "2026-11-24",
+      "maj": "2026-11-24T08:10:54+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Gouvernement et privé : rendez-vous à Bobo"
+    }
   }
 }

@@ -1,0 +1,205 @@
+{
+  "accroches": [
+    "Le gouvernement et les entreprises se réunissent le 30 novembre à Bobo-Dioulasso.",
+    "Un prix spécial du Président du Faso est créé pour l'industrie burkinabè.",
+    "Le bilan des recommandations économiques de l'édition précédente est annoncé pour fin novembre."
+  ],
+  "titre": "Rencontre Gouvernement et Secteur Privé",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Bobo-Dioulasso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Gouvernement et privé à *Bobo-Dioulasso*",
+      "dit": "Le gouvernement et le secteur privé burkinabè se réunissent les 30 novembre et 1er décembre à Bobo-Dioulasso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *23e* rencontre nationale s'ouvre",
+      "dit": "Il s'agit de la 23e Rencontre nationale gouvernement secteur privé selon le média Sidwaya."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "4 décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La semaine de l'*industrie* débute",
+      "dit": "La 7e Semaine de l'industrie burkinabè a lieu en même temps, du 30 novembre au 4 décembre."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une *annonce* faite à Ouagadougou",
+      "dit": "L'annonce a été faite ce lundi 23 novembre à Ouagadougou selon Burkina 24."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un thème axé sur le *civisme*",
+      "dit": "Le thème de la rencontre porte sur le civisme économique et le rôle du secteur privé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *bilan* des éditions précédentes",
+      "dit": "Un état de mise en œuvre des recommandations des éditions antérieures sera présenté lors des échanges."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *réponses* apportées par l'État",
+      "dit": "Le gouvernement présentera ses réponses aux demandes issues des instances régionales et sectorielles."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'*emballage* au cœur des débats",
+      "dit": "La Semaine de l'industrie aborde la problématique de l'emballage et des compétences agro-industrielles."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *panneaux* et une foire",
+      "dit": "Le programme prévoit des panels, une foire d'exposition et des rencontres d'affaires B2B et G2B."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Création d'un *Prix* spécial présidentiel",
+      "dit": "La création du Prix spécial du Président du Faso constitue la nouveauté de cette édition 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Visite des usines *SOBTO*",
+      "dit": "Une journée portes ouvertes est organisée à la SOBTO pendant la semaine de l'industrie."
+    }
+  ]
+}
