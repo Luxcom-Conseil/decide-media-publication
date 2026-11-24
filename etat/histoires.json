@@ -26,136 +26,138 @@
   "wirecard",
   "kerviel",
   "beltracchi",
-  "uniongenerale"
+  "uniongenerale",
+  "empruntsrusses"
  ],
  "attente_partie2": {
-  "id": "uniongenerale",
-  "jour_partie1": "2026-11-23",
+  "id": "empruntsrusses",
+  "jour_partie1": "2026-11-24",
   "script": {
-   "titre": "Le crash de l'Union Générale",
+   "titre": "L'immense arnaque des emprunts russes",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "Un *empire* qui s'effondre",
+     "ecran": "15 milliards *volés* aux épargnants ?",
      "grand": null,
-     "dit": "Quatre milliards de francs partent en fumée en une seule journée.",
+     "dit": "Quinze milliards de francs-or volés à des millions de familles.",
      "image": 0,
-     "recherche": "Paris stock exchange 19th century"
+     "recherche": "French golden franc coins stack"
     },
     {
      "type": "recit",
-     "ecran": "La ruine des *épargnants*",
+     "ecran": "Le pire arrive *bientôt*",
      "grand": null,
-     "dit": "Des milliers de familles sont totalement ruinées. Le pire arrive maintenant.",
-     "image": 1,
-     "recherche": "French panic crowd 19th century"
-    },
-    {
-     "type": "recit",
-     "ecran": "Un homme *ambitieux*",
-     "grand": null,
-     "dit": "Tout commence avec Paul Eugène Bontoux, un ancien cadre de la banque Rothschild.",
-     "image": 0,
-     "recherche": "Paul Eugene Bontoux portrait"
+     "dit": "Tu penses que ton argent est en sécurité à la banque ? Attends de voir la suite.",
+     "image": 2,
+     "recherche": "Crédit Lyonnais Paris 1900"
     },
     {
      "type": "date",
-     "ecran": "Licencié par Rothschild",
-     "grand": "1877",
-     "dit": "En 1877, il tente la politique mais son élection est invalidée pour fraude.",
-     "image": 1,
-     "recherche": "Gap Hautes Alpes history"
-    },
-    {
-     "type": "recit",
-     "ecran": "Des projets *colossaux*",
-     "grand": null,
-     "dit": "Licencié par la banque Rothschild, il décide de se venger en créant son propre empire.",
-     "image": 0,
-     "recherche": "Rothschild bank Paris 1880"
-    },
-    {
-     "type": "date",
-     "ecran": "Création à Lyon",
-     "grand": "3 juin 1878",
-     "dit": "Le 3 juin 1878, il fonde l'Union générale à Lyon pour défier les géants de la finance.",
-     "image": 1,
-     "recherche": "Lyon place de la bourse 1880"
-    },
-    {
-     "type": "chiffre",
-     "ecran": "Capital doublé",
-     "grand": "50 millions",
-     "dit": "Le capital prévu est vite porté à 50 millions de francs. C'est du jamais vu.",
-     "image": 0,
-     "recherche": "French francs banknotes 19th century"
-    },
-    {
-     "type": "recit",
-     "ecran": "L'appui des *catholiques*",
-     "grand": null,
-     "dit": "Bontoux séduit les milieux monarchistes, catholiques et le prétendant au trône de France.",
-     "image": 0,
+     "ecran": "Le *premier* grand succès",
+     "grand": "1888",
+     "dit": "En 1888, le tsar Alexandre III lance un immense emprunt de 500 millions de francs à Paris.",
+     "image": 2,
      "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Soutien *pontifical*",
+     "ecran": "Une *campagne* massive",
      "grand": null,
-     "dit": "Même le secrétaire du Pape s'engage au capital. Les fonds affluent massivement.",
-     "image": 1,
-     "recherche": "Vatican cardinal 19th century"
+     "dit": "Le gouvernement français pousse la population à placer toute son épargne pour financer la Russie.",
+     "image": 4,
+     "recherche": "French propaganda poster 1900"
+    },
+    {
+     "type": "recit",
+     "ecran": "Prêter c'est *aider* la France",
+     "grand": null,
+     "dit": "Les journaux répètent en boucle : prêter à la Russie, c'est prêter à la France !",
+     "image": 5,
+     "recherche": "Vintage French newspaper 1900"
     },
     {
      "type": "chiffre",
-     "ecran": "L'explosion de l'action",
-     "grand": "2 500 F",
-     "dit": "L'action passe de 750 francs à 2 500 francs. Tout le monde veut sa part.",
-     "image": 0,
-     "recherche": "Stock market chart historical"
+     "ecran": "Un *profit* colossal",
+     "grand": "30 %",
+     "dit": "Le Crédit lyonnais réalise 30 % de ses profits avant 1914 grâce à ces titres russes.",
+     "image": 4,
+     "recherche": null
     },
     {
      "type": "recit",
-     "ecran": "Des achats *délirants*",
+     "ecran": "Un *chantier* gigantesque",
      "grand": null,
-     "dit": "La banque achète des compagnies d'assurances et construit le premier chemin de fer serbe.",
-     "image": 1,
-     "recherche": "Old steam train Serbia 1880"
-    },
-    {
-     "type": "recit",
-     "ecran": "L'expansion *africaine*",
-     "grand": null,
-     "dit": "Elle fonde des sociétés d'eau et finance d'immenses projets jusqu'en Égypte.",
-     "image": 0,
-     "recherche": "Suez canal 1880 construction"
+     "dit": "Cet argent finance la construction du Transsibérien et le développement des mines russes.",
+     "image": 5,
+     "recherche": "Trans Siberian Railway 1900"
     },
     {
      "type": "date",
-     "ecran": "L'opération de trop",
-     "grand": "décembre 1881",
-     "dit": "En décembre 1881, il lance le Crédit maritime de Trieste pour raffler une concession.",
+     "ecran": "L'emprunt *record*",
+     "grand": "Juin 1906",
+     "dit": "En juin 1906, un emprunt record de 2,25 milliards de francs-or est émis sur les marchés.",
+     "image": 3,
+     "recherche": null
+    },
+    {
+     "type": "recit",
+     "ecran": "Les *Français* achètent tout",
+     "grand": null,
+     "dit": "Les épargnants français couvrent à eux seuls la moitié de ce montant colossal.",
      "image": 1,
-     "recherche": "Trieste port 19th century"
+     "recherche": "Bourset de Paris 1900"
+    },
+    {
+     "type": "recit",
+     "ecran": "Les *coupons* sont versés",
+     "grand": null,
+     "dit": "Chaque mois, les petits porteurs viennent chercher leurs intérêts au guichet sans se douter de rien.",
+     "image": 3,
+     "recherche": "Bank counter Paris 1910"
+    },
+    {
+     "type": "date",
+     "ecran": "Le *coup de théâtre*",
+     "grand": "29 déc. 1917",
+     "dit": "Mais le 29 décembre 1917, les bolcheviks prennent le pouvoir et publient un décret choc.",
+     "image": 6,
+     "recherche": "Lenin Petrograd 1917"
+    },
+    {
+     "type": "recit",
+     "ecran": "Annulation *totale* des dettes",
+     "grand": null,
+     "dit": "Le nouveau gouvernement répudie unilatéralement l'intégralité des dettes de l'Empire russe !",
+     "image": 4,
+     "recherche": "Russian Revolution 1917 posters"
+    },
+    {
+     "type": "chiffre",
+     "ecran": "Des *victimes* par millions",
+     "grand": "1,6 million",
+     "dit": "En France, on recense 1,6 million de déclarations de créances individuelles ruinées.",
+     "image": 6,
+     "recherche": "Parisian crowd 1920s"
     },
     {
      "type": "suite",
-     "ecran": "Que va-t-il se passer ?",
+     "ecran": "Les Français seront-ils *remboursés* ?",
      "grand": null,
-     "dit": "Mais la concession leur échappe et les caisses sont vides. La suite dans la partie 2.",
-     "image": 0,
-     "recherche": "Paris Bourse panic 1882"
+     "dit": "Les épargnants vont-ils revoir leur argent un jour ? La suite dans la partie 2.",
+     "image": 7,
+     "recherche": "French francs 1920s"
     }
    ],
-   "question": "Connaissais-tu ce krach ? Oui ou non, en commentaire.",
-   "legende": "Quatre milliards de francs disparus en une journée... L'histoire du plus grand scandale financier du XIXe siècle. Connaissais-tu ce krach ? Oui ou non, en commentaire.",
+   "question": "Tu aurais investi ton argent ? Oui ou non, en commentaire.",
+   "legende": "Quinze milliards de francs-or volatilisés du jour au lendemain. Découvrez l'histoire incroyable des emprunts russes qui ont ruiné des milliers de familles. Tu aurais investi ton argent ? Oui ou non, en commentaire.",
    "hashtags": [
-    "histoire",
-    "argent",
-    "faitdivers",
-    "bourse"
+    "Histoire",
+    "Argent",
+    "Economie",
+    "Arnaque",
+    "Patrimoine"
    ],
-   "_credit_musique": "« Street Museum (Dark Ambient BGM) » par ChristmasKrumble666 (CC0, Freesound)"
+   "_credit_musique": "« Drama Strings » par younoise (CC0, Freesound)"
   }
  },
  "journal": [
@@ -524,6 +526,18 @@
    "id": "uniongenerale",
    "format": "serie",
    "nom": "hva-uniongenerale-p1"
+  },
+  {
+   "jour": "2026-11-24",
+   "id": "uniongenerale",
+   "format": "serie2",
+   "erreur": "script refusé au contrôle : chiffres absents de l'article : 20"
+  },
+  {
+   "jour": "2026-11-24",
+   "id": "empruntsrusses",
+   "format": "serie",
+   "nom": "hva-empruntsrusses-p1"
   }
  ],
  "en_chiffre": [
@@ -1072,6 +1086,20 @@
    "reseau": "youtube",
    "buffer": "6b03ec3ebeaafcdbe0d193a2",
    "heure": "2026-11-23T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-24",
+   "nom": "hva-empruntsrusses-p1",
+   "reseau": "tiktok",
+   "buffer": "6b05614f52e902c2ad6856ad",
+   "heure": "2026-11-24T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-24",
+   "nom": "hva-empruntsrusses-p1",
+   "reseau": "youtube",
+   "buffer": "6b056150127d3666e7db0b7d",
+   "heure": "2026-11-24T20:30:00+01:00"
   }
  ]
 }
