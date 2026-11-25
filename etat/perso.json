@@ -1287,181 +1287,14 @@
       "formule": "Ordre",
       "id": "20261125-1230",
       "legende": "Arrête de chercher de nouveaux réseaux tant que tu n'as pas vu ça.\n\nOn cherche souvent à tout recommencer ailleurs, alors que la vraie puissance réside dans ce qu'on possède déjà.\n\nChaque personne qui rejoint ton cercle augmente sa valeur globale. Arrête de t'éparpiller.\n\nDans quelle communauté existante vas-tu investir dès aujourd'hui ?\n\n#psychologie #reseau #developpementpersonnel #carriere",
+      "media_id": "17999785542101873",
+      "publie_le": "2026-11-25T11:32:11+00:00",
       "quand": "2026-11-25T12:30:00+01:00",
       "refait_le": "2026-11-20T18:56:23+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de chercher de nouveaux réseaux tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Ignorer ce simple mécanisme peut ruiner ton business sur le long terme."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe change tout à la valeur de ce que tu construis."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "reseau",
-          "developpementpersonnel",
-          "carriere"
-        ],
-        "legende": "Arrête de chercher de nouveaux réseaux tant que tu n'as pas vu ça.\n\nOn cherche souvent à tout recommencer ailleurs, alors que la vraie puissance réside dans ce qu'on possède déjà.\n\nChaque personne qui rejoint ton cercle augmente sa valeur globale. Arrête de t'éparpiller.\n\nDans quelle communauté existante vas-tu investir dès aujourd'hui ?",
-        "question": "Dans quelle communauté existante vas-tu investir dès aujourd'hui ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Arrête de chercher de nouveaux réseaux tant que tu n'as pas vu ça.",
-            "ecran": "Arrête de *chercher* de nouveaux réseaux.",
-            "emoji": "🛑",
-            "recherche": "man stressed phone",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que tu passes à côté de la vraie puissance de ton entourage actuel.",
-            "ecran": "Et le pire, c'est la *suite*.",
-            "emoji": "🔥",
-            "recherche": "people in meeting office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ça s'appelle l'effet de réseau, et ça change absolument toutes les règles du jeu.",
-            "ecran": "Ça s'appelle *l'effet de réseau*.",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Une chose prend de la valeur à mesure que de plus en plus de gens l'utilisent.",
-            "ecran": "Une chose *prend* de la valeur.",
-            "emoji": "📈",
-            "recherche": "growing business chart",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Regarde au bureau tous les jours, c'est exactement le même principe qui se répète.",
-            "ecran": "Regarde au *bureau* chaque matin.",
-            "emoji": "🏢",
-            "recherche": "office workers busy",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Même pour tes achats ou tes applications, tu choisis toujours ce que tout le monde utilise.",
-            "ecran": "Même dans tes *achats* de tous les jours.",
-            "emoji": "🛒",
-            "recherche": "woman shopping market",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau fait ça parce qu'il cherche naturellement la sécurité et l'utilité maximale.",
-            "ecran": "Ton cerveau *cherche* la sécurité.",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Plus il y a de monde dans un groupe, plus ce groupe devient fort et utile pour toi.",
-            "ecran": "Plus on est de *fous*.",
-            "emoji": "👥",
-            "recherche": "group of friends laughing",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Première étape, investis à fond dans les communautés où tu es déjà présent.",
-            "ecran": "Investis là où *tu es* déjà.",
-            "emoji": "🎯",
-            "recherche": "team working together",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deuxième étape, dis toi bien que chaque nouveau membre augmente la valeur pour tous les autres.",
-            "ecran": "Chaque *membre* ajoute de la valeur.",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Troisième étape, aide ton réseau actuel à grandir au lieu de t'éparpiller partout.",
-            "ecran": "Fais *grandir* ton cercle actuel.",
-            "emoji": "🚀",
-            "recherche": "business growth success",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "De cette façon, tu arrêtes de perdre ton temps à tout recommencer à zéro ailleurs.",
-            "ecran": "Protège ton *temps* précieux.",
-            "emoji": "🛡️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Renforce ton cercle existant, c'est là que se trouve ta vraie puissance.",
-            "ecran": "Renforce ton *cercle* existant.",
-            "emoji": "✨",
-            "recherche": "smiling person portrait",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'effet de réseau"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "reseau",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgKbZeIM_kz/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261125-1230-r.mp4"
     },
     {
@@ -5506,6 +5339,13 @@
       "media_id": "18255586708309648",
       "sujet": "pauses",
       "url": "https://www.instagram.com/reel/DgIw-9nkS-w/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-25",
+      "media_id": "17999785542101873",
+      "sujet": "reseau",
+      "url": "https://www.instagram.com/reel/DgKbZeIM_kz/"
     }
   ]
 }
