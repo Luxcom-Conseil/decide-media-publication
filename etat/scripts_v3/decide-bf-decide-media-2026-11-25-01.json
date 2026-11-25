@@ -1,0 +1,136 @@
+{
+  "accroches": [
+    "Le PIB du Burkina Faso a augmenté de 7,7 % en un an.",
+    "Les activités extractives ont augmenté de 30,5 % au Burkina Faso.",
+    "L'investissement a augmenté de 39,7 % au deuxième trimestre 2026."
+  ],
+  "titre": "PIB : +7,7 % sur un an au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le PIB *augmente* de 7,7 %",
+      "dit": "Au deuxième trimestre 2026, le PIB réel du Burkina Faso a progressé de 7,7 % par rapport à 2025."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Institut national de la statistique et de la démographie",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Selon l'*INSD*",
+      "dit": "Selon l'Institut national de la statistique et de la démographie, la hausse est de 1,6 % sur un trimestre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les *mines* à +30,5 %",
+      "dit": "Sur un an, le secteur secondaire progresse de 18,1 %, porté par les activités extractives à plus 30,5 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'*or* tire la croissance",
+      "dit": "L'INSD lie la forte hausse des prix des activités extractives à l'envolée continue du cours de l'or."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Secteur *primaire* : +5,0 %",
+      "dit": "De son côté, le secteur primaire gagne 5,0 %, avec une agriculture en hausse de 5,8 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le *tertiaire* avance peu",
+      "dit": "Le secteur tertiaire, qui regroupe commerce, transports et services, ne gagne que 1,9 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "-0,6 %",
+        "apres": "-1,4 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Premier trimestre *révisé*",
+      "dit": "L'institut a révisé la croissance du premier trimestre sur un trimestre, de -0,6 % à -1,4 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La *construction* recule",
+      "dit": "Sur un trimestre, deux branches reculent : la construction de 2,8 % et l'industrie manufacturière de 0,5 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Investissement en *hausse*",
+      "dit": "Côté dépenses, sur un an, l'investissement augmente de 39,7 % et la consommation finale de 3,8 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Comptes d'*octobre 2026*",
+      "dit": "Ces comptes calculés en base 2015 ont été publiés par l'INSD en octobre 2026."
+    }
+  ]
+}

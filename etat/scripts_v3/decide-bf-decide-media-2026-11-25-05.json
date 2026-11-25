@@ -1,0 +1,181 @@
+{
+  "accroches": [
+    "Du sildénafil a été découvert dans des boissons au Burkina Faso.",
+    "Le Burkina Faso suspend la vente de deux boissons populaires.",
+    "Deux boissons sont interdites de vente après des analyses médicales."
+  ],
+  "titre": "Boissons suspendues au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Du *sildénafil* découvert dans des boissons",
+      "dit": "Du sildénafil a été découvert dans des boissons au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "20 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le ministère *suspend* la commercialisation",
+      "dit": "Le ministère de la Santé a suspendu la fabrication et la vente des boissons Le Roi et cola le 20 novembre."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une alerte de la *Faso FDA*",
+      "dit": "Cette décision suit une alerte de la Faso Food and Drug Administration après des analyses en laboratoire."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un médicament sous *suivi médical*",
+      "dit": "Le sildénafil est un principe actif qui nécessite un encadrement médical strict."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *risques* pour la santé",
+      "dit": "Il présente des risques pour les personnes souffrant de maladies cardiovasculaires ou d'hypertension."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Danger pour les *personnes âgées*",
+      "dit": "Les personnes âgées et celles qui prennent des dérivés nitrés sont également exposées à ces dangers."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ne plus *consommer* ces produits",
+      "dit": "Le ministère de la Santé demande à la population de ne plus acheter ni consommer ces jus."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Consulter en cas de *symptômes*",
+      "dit": "En cas de douleur thoracique ou de malaise après ingestion, la consultation en centre de santé est demandée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Retrait immédiat des *rayons*",
+      "dit": "Les commerçants doivent retirer ces boissons de leurs stocks en attendant leur récupération par les inspecteurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3535",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Appeler le *3535* pour signaler",
+      "dit": "Le numéro vert 3535 est mis en place pour obtenir des informations ou signaler un produit sur le marché."
+    }
+  ]
+}

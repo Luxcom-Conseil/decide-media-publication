@@ -1,0 +1,171 @@
+{
+  "accroches": [
+    "Les permis de construire sont délivrés en 15 jours ouvrables.",
+    "Les agréments du bâtiment sont désormais traités en 30 jours.",
+    "La validité des permis de construire passe de 5 à 7 ans."
+  ],
+  "titre": "Burkina : permis de construire en 15 jours",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Permis délivrés en *15 jours*",
+      "dit": "Au Burkina Faso, les permis de construire sont désormais délivrés dans un délai de 15 jours ouvrables."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dossier complet *requis*",
+      "dit": "Ce délai s'applique après le dépôt d'un dossier complet, selon le journal Sidwaya."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "*Deux décrets* adoptés en juin",
+      "dit": "Le gouvernement burkinabè a adopté deux décrets le 18 juin 2026 pour simplifier ces démarches."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pour construire ou *démolir*",
+      "dit": "Le premier texte encadre les actes pour construire, modifier, restaurer ou démolir un bâtiment."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *guichet unique* créé",
+      "dit": "Les réformes créent un guichet unique pour regrouper tous les services techniques nécessaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *certificat d'occuper* prévu",
+      "dit": "Un propriétaire peut habiter ou louer dès que le rez-de-chaussée est achevé et conforme."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Agréments en *30 jours*",
+      "dit": "Le délai de traitement des agréments du bâtiment tombe à 30 jours ouvrables, contre trois mois avant."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Validité portée à *7 ans*",
+      "dit": "De son côté, la durée de validité du permis de construire passe de 5 à 7 ans."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Dori | Gaoua | Banfora",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Signature *déléguée* en région",
+      "dit": "La signature du ministre est déléguée pour valider des permis à Dori, Gaoua ou Banfora."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Secteur en *recul de 2,8 %*",
+      "dit": "Au deuxième trimestre, la branche de la construction a reculé de 2,8 % selon l'INSD."
+    }
+  ]
+}

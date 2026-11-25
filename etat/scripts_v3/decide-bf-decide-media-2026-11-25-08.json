@@ -1,0 +1,143 @@
+{
+  "accroches": [
+    "L'insémination bovine revient désormais à 5 000 FCFA au Burkina Faso.",
+    "La vaccination du bétail est devenue obligatoire au Burkina Faso.",
+    "Environ 300 000 ruminants ont déjà été vaccinés dans le Nazinon."
+  ],
+  "titre": "Burkina Faso : vaccination du bétail",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'insémination *coûte* 5 000 FCFA",
+      "dit": "Au Burkina Faso, l'insémination des vaches revient désormais à 5 000 FCFA grâce à la subvention de l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un *coût* fortement réduit",
+      "dit": "Selon un éleveur de Bangré-Saanga, cet acte vétérinaire coûtait auparavant 75 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Près de 650 *vaches* inséminées",
+      "dit": "Dans la région de l'Oubri, près de 650 vaches ont déjà été inséminées selon les autorités."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *vaccination* est obligatoire",
+      "dit": "Le ministère des Ressources animales a rappelé que la vaccination du bétail est désormais obligatoire."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des *vaccins* gratuits ou subventionnés",
+      "dit": "Le gouvernement précise que la majorité des vaccins sont fortement subventionnés et que d'autres sont gratuits."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "300 000 *bêtes* déjà vaccinées",
+      "dit": "Dans le Nazinon, environ 300 000 petits ruminants ont déjà été vaccinés selon les services vétérinaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Protéger contre deux *maladies*",
+      "dit": "Cette campagne protège le cheptel contre la peste des petits ruminants et la pasteurellose."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des *tournées* sur le terrain",
+      "dit": "Le ministère a supervisé le lancement de cette campagne 2026-2027 dans le Nazinon, l'Oubri et le Yaadga."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Sanctions pour les *réfractaires*",
+      "dit": "Les autorités ont annoncé des sanctions contre les producteurs qui refuseront de faire vacciner leurs animaux."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bilan le *27 novembre 2026*",
+      "dit": "Un atelier de bilan intermédiaire sur l'avancée de la campagne est prévu le 27 novembre 2026."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "accroches": [
+    "Le maïs a augmenté de 15,90 FCFA le kilo en septembre.",
+    "Le maïs et le mil augmentent dans le Kadiogo en septembre.",
+    "Le riz brisé recule à 13 257,96 FCFA le sac."
+  ],
+  "titre": "Burkina Faso : le prix du maïs et du mil monte",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Kadiogo",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le maïs *augmente* de 15,90 FCFA",
+      "dit": "Dans le Kadiogo, le kilo de maïs blanc a augmenté de 15,90 FCFA en septembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "191,88 FCFA",
+        "apres": "207,78 FCFA",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le kilo *passe* à 207,78 FCFA",
+      "dit": "Il est passé de 191,88 FCFA en août à 207,78 FCFA en septembre, selon l'INSD."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "308,63 FCFA",
+        "apres": "327,16 FCFA",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le petit mil *grimpe* de 6,0 %",
+      "dit": "Le petit mil a grimpé de 6,0 %, passant de 308,63 FCFA à 327,16 FCFA le kilo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le sac de riz *baisse* un peu",
+      "dit": "De son côté, le sac de 25 kg de riz brisé a régressé de 1,2 % pour atteindre 13 257,96 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "281,89 FCFA",
+        "apres": "284,46 FCFA",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le sorgho blanc *varie* très peu",
+      "dit": "Le sorgho blanc a peu évolué, s'établissant à 284,46 FCFA le kilo contre 281,89 FCFA le mois précédent."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'indice national *remonte* de 0,63 %",
+      "dit": "Au niveau national, l'indice des pains et céréales a pris 0,63 % sur un mois pour s'établir à 93,40."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les prix *restent* en baisse sur un an",
+      "dit": "Sur douze mois, ces produits restent en baisse de 7,28 % par rapport à septembre 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse de *2,78 %* en trois mois",
+      "dit": "Toutefois, l'institut statistique relève une hausse cumulée de 2,78 % au cours des trois derniers mois."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Des écarts *selon* les régions",
+      "dit": "Ces relevés concernent la région de Ouagadougou et peuvent être très différents dans les treize autres régions."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La note d'*octobre 2026* très attendue",
+      "dit": "La publication des données d'octobre 2026 permettra de vérifier la poursuite de cette tendance."
+    }
+  ]
+}

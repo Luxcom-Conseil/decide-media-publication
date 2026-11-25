@@ -1,0 +1,156 @@
+{
+  "accroches": [
+    "Le principal taux de la BCEAO s'établit à 3,00 %.",
+    "L'inflation atteint 3,64 % au Burkina Faso en septembre 2026.",
+    "La BCEAO réunit son Comité de politique monétaire le 2 décembre 2026."
+  ],
+  "titre": "BCEAO : décision sur les taux directeurs",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Banque centrale des États de l'Afrique de l'Ouest",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Le taux principal est à *3,00 %*",
+      "dit": "Le principal taux auquel la BCEAO prête aux banques s'établit à 3,00 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le taux était à *3,25 %*",
+      "dit": "Ce niveau fait suite à une baisse, ce taux atteignant 3,25 % en décembre 2025."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Dakar",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Réunion fixée le *2 décembre*",
+      "dit": "La banque centrale tient la quatrième réunion de son comité monétaire le 2 décembre 2026 à Dakar."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le comité définit la *politique*",
+      "dit": "Selon la BCEAO, cette instance est chargée de définir la politique monétaire de l'UMOA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "16 mars 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Taux fixé en *mars 2026*",
+      "dit": "Le communiqué du 10 juin 2026 a maintenu le taux directeur en vigueur depuis le 16 mars 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Burkina Faso",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un seul taux pour *8 États*",
+      "dit": "Un seul taux directeur s'applique aux huit États membres de l'Union."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Inflation de *3,64 %* mesurée",
+      "dit": "Selon l'INSD, l'inflation au Burkina Faso atteint 3,64 % en septembre 2026 sur douze mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Inflation de *1,7 %* globale",
+      "dit": "De son côté, la BCEAO indique une hausse des prix de 1,7 % dans toute l'Union en août."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Évolution des *prix* différente",
+      "dit": "Ces données publiées sur des périmètres distincts montrent que les prix n'évoluent pas au même rythme."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Décision dans le *communiqué*",
+      "dit": "La mesure exacte prise le 2 décembre sera publiée par la BCEAO dans son communiqué."
+    }
+  ]
+}

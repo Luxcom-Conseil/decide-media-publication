@@ -1,0 +1,202 @@
+{
+  "accroches": [
+    "Moov baisse la fibre jusqu'à 65 % au Burkina Faso.",
+    "La fibre 100 Mbps passe à 10 000 FCFA jusqu'en décembre.",
+    "Moov prépare un smartphone 4G à 20 000 FCFA au Burkina."
+  ],
+  "titre": "Fibre : baisse des prix chez Moov",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La fibre *baisse* de 65 %",
+      "dit": "Moov Africa-ONATEL baisse les prix de ses offres fibre jusqu'à 65 % au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "24 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Annonce à *Ouagadougou*",
+      "dit": "L'opérateur a fait cette annonce le 24 novembre 2026 à la Semaine du numérique à Ouagadougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Événement jusqu'au *27 novembre*",
+      "dit": "Cet événement national sur les technologies du numérique se déroule jusqu'au 27 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Débit minimum de *100 Mbps*",
+      "dit": "Le débit minimum proposé pour la fibre optique à domicile est désormais fixé à 100 Mbps."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "10 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "10 000 FCFA *par mois*",
+      "dit": "L'offre à 100 Mbps est vendue au tarif de 10 000 FCFA jusqu'au 31 décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La baisse est un *plafond*",
+      "dit": "Selon les articles publiés, les 65 % représentent un plafond et la baisse peut être plus faible selon l'offre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Nouvelle offre jusqu'à *500 Mbps*",
+      "dit": "L'entreprise annonce une nouvelle formule montant jusqu'à 500 Mbps, sans en préciser le prix."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "20 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un smartphone 4G à *20 000 FCFA*",
+      "dit": "Un projet de téléphone 4G à 20 000 FCFA est aussi mentionné, mais aucune date de lancement n'est donnée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2026-2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Près de *800 sites ruraux*",
+      "dit": "L'opérateur prévoit également d'installer près de 800 sites ruraux entre 2026 et 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Burkina Faso",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Programme *Zéro zone blanche*",
+      "dit": "Ce déploiement dans les campagnes s'inscrit dans le cadre du projet baptisé Zéro zone blanche."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérifier le *prix* exact",
+      "dit": "Selon Lefaso.net, Moov est le sponsor officiel de cette 21e édition de la Semaine du numérique."
+    }
+  ]
+}
