@@ -1321,114 +1321,13 @@
       "formule": "Contre-pied",
       "id": "20261125-2100",
       "legende": "Tu crois être fatigué par ton travail ? C'est l'inverse.\n\nQuand tu essaies de retenir tout ce que tu dois faire, ton cerveau tourne à plein régime sans s'arrêter. Cette surcharge permanente te donne l'impression d'être débordé avant même de commencer.\n\nPour te libérer l'esprit, applique cette règle simple : écris absolument tout sur une feuille de papier, puis isole seulement 3 priorités pour ta journée.\n\nCombien de choses tu gardes en tête là tout de suite ?\n\n#surchargementale #productivite #gestiondustress #conseilspsychologie",
+      "media_id": "18121989257587792",
+      "publie_le": "2026-11-25T20:02:11+00:00",
       "quand": "2026-11-25T21:00:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois être fatigué par ton travail ? C'est l'inverse."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Garder tout en tête est en train de détruire ton énergie."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce réflexe mental quotidien te coûte toute ton énergie."
-          }
-        ],
-        "hashtags": [
-          "surchargementale",
-          "productivite",
-          "gestiondustress",
-          "conseilspsychologie"
-        ],
-        "legende": "Tu crois être fatigué par ton travail ? C'est l'inverse.\n\nQuand tu essaies de retenir tout ce que tu dois faire, ton cerveau tourne à plein régime sans s'arrêter. Cette surcharge permanente te donne l'impression d'être débordé avant même de commencer.\n\nPour te libérer l'esprit, applique cette règle simple : écris absolument tout sur une feuille de papier, puis isole seulement 3 priorités pour ta journée.\n\nCombien de choses tu gardes en tête là tout de suite ?",
-        "question": "Combien de choses tu gardes en tête là tout de suite ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu crois que ton travail te fatigue ? C'est tout l'inverse.",
-            "ecran": "Tu crois être *fatigué* ? C'est l'inverse.",
-            "emoji": "🤯",
-            "recherche": "tired person desk office",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce qui t'épuise vraiment, c'est la surcharge mentale.",
-            "ecran": "La *surcharge* mentale",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu penses au dossier à rendre, aux courses, et au loyer.",
-            "ecran": "Trop de *choses* à retenir",
-            "emoji": "📱",
-            "recherche": "man looking stressed phone",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Garder cette liste en tête épuise ton esprit en continu.",
-            "ecran": "Ton cerveau *sature*",
-            "emoji": "⏳",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Étape une : vide tout sur du papier. Étape deux : garde seulement trois priorités.",
-            "ecran": "Méthode : Écris tout | 3 priorités",
-            "emoji": "💡",
-            "recherche": "writing list notebook paper",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le papier est fait pour penser, le cerveau pour créer.",
-            "ecran": "Le papier *pense*, le cerveau *crée*",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Combien de choses tu gardes en tête là tout de suite ?",
-            "ecran": "Combien de *tâches* en tête ?",
-            "emoji": "🤔",
-            "recherche": "thinking person camera",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La surcharge mentale"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "surcharge",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgLVyzRhgDY/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261125-2100.mp4"
     },
     {
@@ -5163,6 +5062,13 @@
       "media_id": "18118166015114139",
       "sujet": "possession",
       "url": "https://www.instagram.com/reel/DgLEplsC9k1/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-25",
+      "media_id": "18121989257587792",
+      "sujet": "surcharge",
+      "url": "https://www.instagram.com/reel/DgLVyzRhgDY/"
     }
   ]
 }
