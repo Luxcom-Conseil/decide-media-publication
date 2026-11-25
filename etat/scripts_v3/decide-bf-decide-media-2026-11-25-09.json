@@ -1,0 +1,158 @@
+{
+  "accroches": [
+    "Plus de 580 acteurs économiques ont été inspectés à Zorgho en novembre 2026.",
+    "Six établissements ont été mis sous scellés à Zorgho après des contrôles.",
+    "Des contrôles de prix ont ciblé 580 commerçants à Zorgho en novembre 2026."
+  ],
+  "titre": "Contrôles de prix : 580 acteurs inspectés",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Plus de 580 *acteurs* inspectés",
+      "dit": "Plus de 580 acteurs économiques ont été inspectés à Zorgho du 16 au 21 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Six *établissements* sous scellés",
+      "dit": "Selon le média Wakat Séra, six établissements ont été mis sous scellés à la suite de ce contrôle."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Boissons, gaz et *ciment* visés",
+      "dit": "Les inspections ont ciblé les débits de boissons, le gaz, les caves, le ciment et les produits importés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Vérification des *documents* légaux",
+      "dit": "Les agents ont vérifié l'affichage des prix, les autorisations, les dépôts et les documents d'importation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Fermetures dans le *Tuy*",
+      "dit": "Le vendredi 20 novembre, des établissements ont aussi été scellés dans le Tuy, à Béréba, Kari et Dankari."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Sanction de *prix* illicites",
+      "dit": "Ces fermetures administratives sont dues à la détection de plusieurs pratiques de prix illicites."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Manga",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Enquête sur les *boissons* à Manga",
+      "dit": "À Manga, dans le Nazinon, des investigations sur la hausse des prix des boissons ont débuté le 23 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Huit *caves* inspectées",
+      "dit": "Huit caves et dépôts de boissons y ont été inspectés au cours de cette nouvelle intervention."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Justificatifs de *prix* réclamés",
+      "dit": "Huit établissements sont invités à se présenter avec leurs pièces justificatives d'achat et de vente."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Contrôles du 3 au 5 *novembre*",
+      "dit": "Une précédente opération du 3 au 5 novembre avait déjà relevé des hausses de prix à Manga, Pô et Dakola."
+    }
+  ]
+}

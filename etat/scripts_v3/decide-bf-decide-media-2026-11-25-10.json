@@ -1,0 +1,153 @@
+{
+  "accroches": [
+    "La viande coûte 17,49 % plus cher au Burkina Faso en un an.",
+    "L'inflation grimpe de 3,64 % en un an au Burkina Faso.",
+    "Les prix de la viande augmentent de 17,49 % depuis septembre 2025."
+  ],
+  "titre": "Inflation : la viande en tête",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La *viande* coûte 17,49 % plus cher",
+      "dit": "La viande coûte 17,49 % plus cher au Burkina Faso en un an, selon l'institut national de la statistique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les prix grimpent de 3,64 %",
+      "dit": "Sur douze mois, à fin septembre 2026, les prix à la consommation ont augmenté de 3,64 % globalement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Baisse de 0,06 % sur *un mois*",
+      "dit": "Toutefois, sur un mois, l'indice recule légèrement de 0,06 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": "hausse",
+        "avant": null,
+        "apres": null,
+        "montant": "11,70 %",
+        "a": null,
+        "b": null,
+        "texte": "Poissons",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le poisson augmente de 11,70 %",
+      "dit": "Derrière la viande, les prix du poisson et des fruits de mer grimpent de 11,70 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": "hausse",
+        "avant": null,
+        "apres": null,
+        "montant": "8,19 %",
+        "a": null,
+        "b": null,
+        "texte": "Électricité et gaz",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Électricité et gaz : + 8,19 %",
+      "dit": "L'électricité, le gaz et les autres combustibles suivent avec une hausse de 8,19 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Baisse pour les *céréales*",
+      "dit": "À l'inverse, les prix des pains et des céréales baissent de 7,28 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "1,07",
+        "apres": "5,00",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Locaux vs Importés",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les produits locaux *plus chers*",
+      "dit": "Les produits locaux augmentent de 5,00 % contre 1,07 % pour les produits importés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Disparités *régionales* marquées",
+      "dit": "L'inflation varie selon les régions, atteignant 3,90 % dans le Guiriko contre 2,44 % dans le Kadiogo."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Alimentation",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un panier *variable* par ménage",
+      "dit": "Les produits alimentaires et boissons non alcoolisées augmentent globalement de 3,37 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Marché",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des causes de hausse *inconnues*",
+      "dit": "L'institut ne précise pas les causes de ces hausses, notamment pour la viande."
+    }
+  ]
+}

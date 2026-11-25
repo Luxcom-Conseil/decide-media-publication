@@ -708,10 +708,40 @@
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-11-25",
-      "maj": "2026-11-25T10:43:42+00:00",
-      "statut": "echec",
+      "maj": "2026-11-25T12:52:17+00:00",
+      "piste": "principale",
+      "post_id": "6b06da01286553c59ff90e97",
+      "programme_pour": "2026-11-25T21:30:00+00:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Vaccin du bétail : campagne obligatoire"
+      "titre": "Vaccin du bétail : campagne obligatoire",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-25-09": {
+    "tiktok_buffer": {
+      "lot": "2026-11-25",
+      "maj": "2026-11-25T13:05:23+00:00",
+      "piste": "principale",
+      "post_id": "6b06dd13d0c412ddea809740",
+      "programme_pour": "2026-11-26T08:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Zorgho : 580 acteurs contrôlés, six scellés",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    }
+  },
+  "decide-bf-decide-media-2026-11-25-10": {
+    "tiktok_buffer": {
+      "lot": "2026-11-25",
+      "maj": "2026-11-25T13:21:53+00:00",
+      "piste": "principale",
+      "post_id": "6b06e0f0154a177288ca5488",
+      "programme_pour": "2026-11-26T11:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Inflation : la viande en tête",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
     }
   }
 }
