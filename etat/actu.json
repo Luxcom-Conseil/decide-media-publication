@@ -7,7 +7,15 @@
   "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2026-cybersecurite-collectivites",
   "https://www.20minutes.fr/economie/4265097-20261123-si-90-stations-baisse-prix-carburants-10-restants?at_medium=display&at_campaign=149",
   "https://www.franceinfo.fr/faits-divers/justice-proces/un-policier-condamne-a-18-mois-de-prison-ferme-pour-un-tir-mortel-sur-un-automobiliste-noir-en-seine-saint-denis_8293448.html#xtor=RSS-3-%5Bfaits-divers%2Fjustice-proces%5D",
-  "https://www.franceinfo.fr/culture/cinema/face-a-la-sous-representation-des-femmes-aux-postes-d-encadrement-dans-le-cinema-le-cnc-va-mettre-en-place-un-nouveau-systeme-de-bonus-malus_8297346.html#xtor=RSS-3-%5Beconomie%5D"
+  "https://www.franceinfo.fr/culture/cinema/face-a-la-sous-representation-des-femmes-aux-postes-d-encadrement-dans-le-cinema-le-cnc-va-mettre-en-place-un-nouveau-systeme-de-bonus-malus_8297346.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/votre-argent/livret-a/la-baisse-de-l-encours-du-livret-a-en-2026-est-un-signal-reel-de-la-baisse-du-pouvoir-d-achat-des-francais-explique-un-economiste_8297811.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/c-est-la-petite-coupure-parfaite-victime-de-son-succes-le-billet-de-5-euros-se-fait-rare_8297841.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.20minutes.fr/economie/4265466-20261124-cas-besoin-liquidites-vide-peu-livret-10-milliards-retires-francais?at_medium=display&at_campaign=149",
+  "https://www.franceinfo.fr/economie/transports/sncf/la-sncf-annonce-un-plan-a-300-millions-d-euros-pour-renover-l-axe-atlantique_8298045.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/politique/l-assemblee-nationale-adopte-en-premiere-lecture-le-projet-de-loi-de-relance-du-logement_8298255.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/internet/nvidia/donald-trump-s-est-il-enrichi-avec-le-retour-surprise-de-jensen-huang-a-la-tete-de-nvidia_8298000.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/replay-radio/le-monde-et-vous/de-fausses-reunions-zoom-pour-voler-des-millions-le-fbi-devoile-une-vaste-arnaque-attribuee-a-la-coree-du-nord_8266715.html#xtor=RSS-3-%5Binternet%2Fsecurite-sur-internet%5D",
+  "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-%5Beconomie%5D"
  ],
  "journal": [
   {
@@ -65,6 +73,62 @@
    "code": "2c",
    "nom": "actu-2026-11-24-7-2c",
    "url": "https://www.franceinfo.fr/culture/cinema/face-a-la-sous-representation-des-femmes-aux-postes-d-encadrement-dans-le-cinema-le-cnc-va-mettre-en-place-un-nouveau-systeme-de-bonus-malus_8297346.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-25",
+   "creneau": 0,
+   "code": "1b",
+   "nom": "actu-2026-11-25-0-1b",
+   "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/la-baisse-de-l-encours-du-livret-a-en-2026-est-un-signal-reel-de-la-baisse-du-pouvoir-d-achat-des-francais-explique-un-economiste_8297811.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-25",
+   "creneau": 1,
+   "code": "1c",
+   "nom": "actu-2026-11-25-1-1c",
+   "url": "https://www.franceinfo.fr/economie/c-est-la-petite-coupure-parfaite-victime-de-son-succes-le-billet-de-5-euros-se-fait-rare_8297841.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-25",
+   "creneau": 2,
+   "code": "6c",
+   "nom": "actu-2026-11-25-2-6c",
+   "url": "https://www.20minutes.fr/economie/4265466-20261124-cas-besoin-liquidites-vide-peu-livret-10-milliards-retires-francais?at_medium=display&at_campaign=149"
+  },
+  {
+   "jour": "2026-11-25",
+   "creneau": 3,
+   "code": "5a",
+   "nom": "actu-2026-11-25-3-5a",
+   "url": "https://www.franceinfo.fr/economie/transports/sncf/la-sncf-annonce-un-plan-a-300-millions-d-euros-pour-renover-l-axe-atlantique_8298045.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-25",
+   "creneau": 4,
+   "code": "2b",
+   "nom": "actu-2026-11-25-4-2b",
+   "url": "https://www.franceinfo.fr/politique/l-assemblee-nationale-adopte-en-premiere-lecture-le-projet-de-loi-de-relance-du-logement_8298255.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-25",
+   "creneau": 5,
+   "code": "3b",
+   "nom": "actu-2026-11-25-5-3b",
+   "url": "https://www.franceinfo.fr/internet/nvidia/donald-trump-s-est-il-enrichi-avec-le-retour-surprise-de-jensen-huang-a-la-tete-de-nvidia_8298000.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-25",
+   "creneau": 6,
+   "code": "4c",
+   "nom": "actu-2026-11-25-6-4c",
+   "url": "https://www.franceinfo.fr/replay-radio/le-monde-et-vous/de-fausses-reunions-zoom-pour-voler-des-millions-le-fbi-devoile-une-vaste-arnaque-attribuee-a-la-coree-du-nord_8266715.html#xtor=RSS-3-%5Binternet%2Fsecurite-sur-internet%5D"
+  },
+  {
+   "jour": "2026-11-25",
+   "creneau": 7,
+   "code": "2a",
+   "nom": "actu-2026-11-25-7-2a",
+   "url": "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-%5Beconomie%5D"
   }
  ],
  "programmes": [
@@ -94,56 +158,141 @@
    "nom": "actu-2026-11-24-0-1c",
    "reseau": "tiktok",
    "buffer": "6b05ae26931bd5779e895ad0",
-   "heure": "2026-11-24T16:52:00+01:00"
+   "heure": "2026-11-24T16:52:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-24",
    "nom": "actu-2026-11-24-1-1a",
    "reseau": "tiktok",
    "buffer": "6b05ae29e8a9240946b1c664",
-   "heure": "2026-11-24T17:22:00+01:00"
+   "heure": "2026-11-24T17:22:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-24",
    "nom": "actu-2026-11-24-2-5b",
    "reseau": "tiktok",
    "buffer": "6b05ae2de8a9240946b1c7e8",
-   "heure": "2026-11-24T17:52:00+01:00"
+   "heure": "2026-11-24T17:52:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-24",
    "nom": "actu-2026-11-24-3-2a",
    "reseau": "tiktok",
    "buffer": "6b05ae3015f4fbd321069615",
-   "heure": "2026-11-24T18:22:00+01:00"
+   "heure": "2026-11-24T18:22:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-24",
    "nom": "actu-2026-11-24-4-4b",
    "reseau": "tiktok",
    "buffer": "6b05ae3315f4fbd32106971d",
-   "heure": "2026-11-24T18:52:00+01:00"
+   "heure": "2026-11-24T18:52:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-24",
    "nom": "actu-2026-11-24-5-6b",
    "reseau": "tiktok",
    "buffer": "6b05ae37e8a9240946b1cbf3",
-   "heure": "2026-11-24T18:00:00+01:00"
+   "heure": "2026-11-24T18:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-24",
    "nom": "actu-2026-11-24-6-7a",
    "reseau": "tiktok",
    "buffer": "6b05ae3a15f4fbd321069a15",
-   "heure": "2026-11-24T19:30:00+01:00"
+   "heure": "2026-11-24T19:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-24",
    "nom": "actu-2026-11-24-7-2c",
    "reseau": "tiktok",
    "buffer": "6b05ae3ee8a9240946b1ce87",
-   "heure": "2026-11-24T22:00:00+01:00"
+   "heure": "2026-11-24T22:00:00+01:00",
+   "envoye": true
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-0-1b",
+   "reseau": "tiktok",
+   "buffer": "6b062954c4ff71faa81e10cc",
+   "heure": "2026-11-25T07:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-1-1c",
+   "reseau": "tiktok",
+   "buffer": "6b062956a8becebb7747a990",
+   "heure": "2026-11-25T09:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-1-1c",
+   "reseau": "youtube",
+   "youtube": "hLu2KAbs2hc",
+   "heure": "2026-11-25T09:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-2-6c",
+   "reseau": "tiktok",
+   "buffer": "6b06295c615ec212af72f07a",
+   "heure": "2026-11-25T10:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-3-5a",
+   "reseau": "tiktok",
+   "buffer": "6b06295ff0b405190ac6f227",
+   "heure": "2026-11-25T14:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-4-2b",
+   "reseau": "tiktok",
+   "buffer": "6b062962a8becebb7747ac3a",
+   "heure": "2026-11-25T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-4-2b",
+   "reseau": "youtube",
+   "youtube": "5fYVat9eIso",
+   "heure": "2026-11-25T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-5-3b",
+   "reseau": "tiktok",
+   "buffer": "6b062967c4ff71faa81e1794",
+   "heure": "2026-11-25T18:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-6-4c",
+   "reseau": "tiktok",
+   "buffer": "6b062969f0b405190ac6f70b",
+   "heure": "2026-11-25T19:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-6-4c",
+   "reseau": "youtube",
+   "youtube": "T617Qq7lZTo",
+   "heure": "2026-11-25T19:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-25",
+   "nom": "actu-2026-11-25-7-2a",
+   "reseau": "tiktok",
+   "buffer": "6b06296e9192919413279419",
+   "heure": "2026-11-25T22:00:00+01:00"
   }
  ]
 }
