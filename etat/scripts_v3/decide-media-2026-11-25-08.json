@@ -1,0 +1,212 @@
+{
+  "accroches": [
+    "La première Cameroon Fintech Week s'est ouverte à Douala le 23 novembre 2026.",
+    "La première Cameroon Fintech Week s'est ouverte à Douala.",
+    "La première Cameroon Fintech Week a débuté le 23 novembre 2026."
+  ],
+  "titre": "Fintech Week à Douala",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La première Cameroon *Fintech Week* à Douala",
+      "dit": "La première Cameroon Fintech Week s'est ouverte à Douala le 23 novembre 2026 selon Cameroon Tribune."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala | Yaoundé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La Digital Finance *Fair* à Yaoundé",
+      "dit": "La Digital Finance Fair doit suivre du 26 au 28 novembre 2026 à Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les organisateurs de *l'événement*",
+      "dit": "Les organisateurs sont la Fintech and Payments Association of Cameroon et l'American Chamber of Commerce."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des discours de *lancement*",
+      "dit": "La présidente Leah Malla Rackovsky et Ange Patrick Demanou ont pris la parole lors de l'ouverture."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cinq occasions *mises* en avant",
+      "dit": "Cinq occasions sont mises en avant dont une inclusion financière au-delà des comptes de base."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Évaluation du *crédit* des PME",
+      "dit": "Le programme prévoit aussi l'évaluation du crédit des PME à partir de leurs données numériques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Commerce transfrontalier dans la *ZLECAf*",
+      "dit": "Un commerce transfrontalier plus rapide est visé dans le cadre de la zone de libre-échange continentale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Six défis *cités*",
+      "dit": "Six défis majeurs sont aussi cités pour le secteur au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le retard de la *réglementation*",
+      "dit": "Parmi ces obstacles figurent le retard de la réglementation et la menace de la cybercriminalité."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Sortir de la *liste* grise",
+      "dit": "La conformité vise à soutenir l'effort du pays pour sortir de la liste grise du GAFI."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des acteurs *exercent* sans être connus",
+      "dit": "Selon le ministère des Finances, de nombreux acteurs de cet écosystème exercent sans être connus des autorités."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "accroches": [
+    "Les PME paient environ 2 points de plus à cause du GAFI.",
+    "La prime de risque supplémentaire est estimée à 200 points de base.",
+    "Le Cameroun figure sur la liste grise depuis le 23 juin 2023."
+  ],
+  "titre": "PME et liste grise au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les PME paient 2 points de plus",
+      "dit": "Les PME paient environ deux points de plus à cause de la liste grise du GAFI selon la Banque mondiale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une prime de risque",
+      "dit": "La prime de risque supplémentaire est estimée à deux cents points de base."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "23 juin 2023",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Présent depuis juin 2023",
+      "dit": "Le Cameroun figure sur cette liste depuis le vingt-trois juin deux mille vingt-trois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des failles de sécurité",
+      "dit": "Le GAFI y place les pays dont la lutte contre le blanchiment d'argent a des failles."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "22 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un bilan à Yaoundé",
+      "dit": "Le Comité national de coordination a présenté un bilan le vingt-deux octobre à Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Dix-neuf actions réalisées",
+      "dit": "Dix-neuf actions sur vingt-quatre sont réalisées de manière satisfaisante selon ce comité."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cinq actions restantes",
+      "dit": "Cinq actions restent à finaliser comme la supervision fondée sur les risques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des banques plus strictes",
+      "dit": "Les banques étrangères multiplient les contrôles et répercutent ces frais sur les opérateurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un risque pour l'industrie",
+      "dit": "La Banque mondiale signale un risque pour les emplois de l'industrie manufacturière."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une visite en 2027",
+      "dit": "Le Cameroun pourrait recevoir une visite d'évaluation en deux mille vingt-sept."
+    }
+  ]
+}

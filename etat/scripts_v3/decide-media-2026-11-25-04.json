@@ -1,0 +1,192 @@
+{
+  "accroches": [
+    "Apple ajuste ses versements aux développeurs au Cameroun à cause d'un nouvel impôt de 3 %.",
+    "Un impôt numérique de 3 % modifie les versements d'Apple aux développeurs au Cameroun.",
+    "Apple a modifié ses reversements aux développeurs au Cameroun en raison d'un impôt de 3 %."
+  ],
+  "titre": "Impôt numérique : Apple ajuste ses versements",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Apple ajuste ses versements au *Cameroun*",
+      "dit": "Apple a modifié, au Cameroun, les sommes qu'elle reverse aux développeurs sur certaines ventes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un impôt de *3 %* sur le numérique",
+      "dit": "Ce changement fait suite à la mise en place d'un impôt de 3 % sur les entreprises numériques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "17 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Annonce faite le *17 novembre*",
+      "dit": "Le groupe américain l'a annoncé le 17 novembre 2026 sur son portail destiné aux développeurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Cameroun | Côte d'Ivoire",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un ajustement similaire en *Côte d'Ivoire*",
+      "dit": "D'après Investir au Cameroun, Apple signale un ajustement du même type en Côte d'Ivoire."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Issu de la loi de *finances*",
+      "dit": "Cette mesure fiscale provient directement de la loi de finances camerounaise pour l'exercice 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "50 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de *50 millions* de FCFA",
+      "dit": "L'impôt cible les entreprises étrangères facturant plus de 50 millions de FCFA de rémunérations."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de *1 000* utilisateurs",
+      "dit": "Le dispositif s'applique aussi aux firmes comptant plus de 1 000 utilisateurs dans le pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un taux sur le *chiffre* d'affaires",
+      "dit": "Selon LeFisk, ce taux s'applique directement sur le chiffre d'affaires brut réalisé au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 du mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un paiement *mensuel*",
+      "dit": "La déclaration et le paiement sont mensuels, au plus tard le 15 du mois suivant l'activité."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les *consommateurs* ne payent pas",
+      "dit": "Le ministère des Finances précise que les obligations incombent aux entreprises non résidentes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3 décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas de changement de *prix*",
+      "dit": "Le Cameroun ne figure pas dans la liste des changements de prix programmés pour le 3 décembre."
+    }
+  ]
+}

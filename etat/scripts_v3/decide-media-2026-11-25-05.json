@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "La licence de drone civil au Cameroun dure désormais deux ans.",
+    "La durée de validité de la licence de drone passe à deux ans.",
+    "Le Cameroun réduit à deux ans la validité des licences de drone."
+  ],
+  "titre": "Drones au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La licence de drone dure *deux ans*.",
+      "dit": "La licence de drone civil au Cameroun dure désormais deux ans contre six auparavant."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un arrêté signé le *2 novembre*.",
+      "dit": "Un arrêté du Premier ministre, signé le 2 novembre 2026, encadre cette activité selon EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *autorisation* pour importer un drone.",
+      "dit": "Importer un drone demande désormais une autorisation préalable du ministre chargé du Commerce extérieur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'aviation et la *défense* fixent les règles.",
+      "dit": "Les ministères de l'Aviation civile et de la Défense définiront les caractéristiques des appareils."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *certificat* obligatoire pour les entreprises.",
+      "dit": "Les entreprises doivent obtenir un certificat d'exploitation auprès de l'Autorité aéronautique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une *assurance* de responsabilité civile exigée.",
+      "dit": "Elles doivent aussi souscrire une assurance de responsabilité civile qui couvre les tiers."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "48 heures",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un préavis de *48 heures* pour voler.",
+      "dit": "Pour les professionnels, le préavis de vol auprès des autorités locales passe à 48 heures minimum."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Avoir *18 ans* et suivre une formation.",
+      "dit": "Pour renouveler leur licence, les pilotes devront avoir au moins 18 ans et suivre une formation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un dispositif de *suivi* en temps réel.",
+      "dit": "Un dispositif de suivi et de localisation en temps réel des drones sera mis en place."
+    }
+  ]
+}

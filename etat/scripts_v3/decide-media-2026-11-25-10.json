@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "La COBAC a retiré l'agrément de Crédit Populaire le 1er juillet 2026.",
+    "Crédit Populaire S.A. a perdu son agrément bancaire au Cameroun.",
+    "Le régulateur bancaire a ordonné la liquidation de Crédit Populaire."
+  ],
+  "titre": "Crédit Populaire perd son agrément",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La COBAC retire l'agrément de *Crédit Populaire*.",
+      "dit": "La COBAC a retiré le 1er juillet 2026 l'agrément de Crédit Populaire, selon EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "1er juillet 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une décision prise à titre *disciplinaire*.",
+      "dit": "Ce retrait a été prononcé à titre disciplinaire sans que les motifs ne soient rendus publics."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *liquidation* de l'établissement est prononcée.",
+      "dit": "Cette décision entraîne la liquidation immédiate de l'établissement dès sa notification."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "28 septembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *liquidateur* nommé pour six mois.",
+      "dit": "Le régulateur bancaire a désigné Madeleine Félicité Yop épouse Ntengue comme liquidateur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Treize agences dans quatre *régions*.",
+      "dit": "L'établissement de microfinance revendiquait un réseau de treize agences dans quatre régions."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "février 2004",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Début des activités à *Bonabéri*.",
+      "dit": "Crédit Populaire avait démarré ses activités en février 2004 avec une seule agence."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "D'autres sanctions prononcées par la *COBAC*.",
+      "dit": "African Development Credit a également perdu son agrément à la même date."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "mars",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une autre caisse sanctionnée en *mars*.",
+      "dit": "En mars, la COBAC avait déjà sanctionné la Caisse d'Épargne et de Crédit pour les Initiatives Locales."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "De nombreux retraits dans la zone *CEMAC*.",
+      "dit": "Dans la zone CEMAC, le régulateur avait recensé soixante-dix retraits en 2024 puis dix-sept en 2025."
+    }
+  ]
+}

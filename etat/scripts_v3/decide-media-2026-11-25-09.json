@@ -1,0 +1,164 @@
+{
+  "accroches": [
+    "Le Cameroun propose un programme solaire d'urgence de 500 MW.",
+    "Le Cameroun discute d'un programme solaire d'urgence de 500 MW.",
+    "Un programme solaire d'urgence de 500 MW est discuté."
+  ],
+  "titre": "Solaire d'urgence au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Programme solaire de *500 MW*",
+      "dit": "Le Cameroun a présenté un programme solaire d'urgence de 500 MW à la Banque mondiale le 19 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réunion à *Yaoundé*",
+      "dit": "La réunion a eu lieu à Yaoundé entre le ministre de l'Eau et de l'Énergie et la Banque mondiale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "23 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun nouvel *accord*",
+      "dit": "Ce projet n'est qu'une proposition et le texte n'annonce ni nouvel accord ni coût précis."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Déficit de production *prévu*",
+      "dit": "La raison avancée est un déficit de production qui pourrait atteindre 800 MW en 2030."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Hausse du *déficit*",
+      "dit": "Ce déficit est estimé à 140 MW en 2027 puis à 470 MW en 2028 selon le gouvernement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Fin 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Capacité de *2 280 MW*",
+      "dit": "Fin 2025, la capacité installée du pays était estimée à 2 280 MW par Business in Cameroon."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2030",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Objectif de *3 000 MW*",
+      "dit": "De son côté, le ministère de l'Eau et de l'Énergie vise 3 000 MW d'ici la fin de la décennie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Centrale à *gaz de Kribi*",
+      "dit": "Les discussions portent aussi sur l'agrandissement de la centrale à gaz de Kribi."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "4 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Recettes de *4 milliards*",
+      "dit": "Le gouvernement compte en tirer près de 4 milliards de FCFA de recettes d'électricité par mois."
+    }
+  ]
+}

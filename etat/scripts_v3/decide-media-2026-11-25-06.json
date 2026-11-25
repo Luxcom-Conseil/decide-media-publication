@@ -1,0 +1,154 @@
+{
+  "accroches": [
+    "Les intérêts de la dette publique atteignent 9 % des dépenses publiques en 2026.",
+    "Le Cameroun consacre 9 % de ses dépenses publiques aux intérêts de la dette en 2026.",
+    "La part des dépenses publiques pour les intérêts de la dette passe à 9 % en 2026."
+  ],
+  "titre": "Dette du Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Les intérêts pèsent *9 %* des dépenses",
+      "dit": "Les intérêts de la dette publique représentent 9 % des dépenses publiques du Cameroun en 2026, contre 2 % en 2014."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un poids multiplié par *4,5*",
+      "dit": "Ce poids est ainsi multiplié par 4,5 en douze ans, selon la Banque mondiale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "15 607 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'encours atteint *15 607* milliards",
+      "dit": "L'encours de la dette s'élève à 15 607 milliards de FCFA à fin juin 2026, d'après la Caisse autonome d'amortissement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "3 726 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une hausse de *12 000* milliards",
+      "dit": "Il s'établissait à 3 726 milliards de FCFA au 31 décembre 2014, soit près de 12 000 milliards de plus."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "13 %",
+        "apres": "87 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des emprunts non *concessionnels*",
+      "dit": "Les nouveaux engagements extérieurs sont à 87 % non concessionnels, contre 13 % de prêts concessionnels."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "10 %",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un taux effectif de *10 %*",
+      "dit": "La Banque mondiale relève un taux d'intérêt effectif moyen d'environ 10 % pour les emprunts récents."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un taux moyen de *4,4 %*",
+      "dit": "Le taux moyen de l'ensemble de la dette publique atteint 4,4 % aujourd'hui."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "296 500 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une charge en *baisse*",
+      "dit": "En francs, la charge d'intérêts a reculé de 321,6 milliards à 296,5 milliards de FCFA entre 2024 et 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "61 600 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Eximbank China a perçu *61,6* milliards",
+      "dit": "Eximbank China a perçu 61,6 milliards de FCFA d'intérêts en 2025, après 72,3 milliards en 2024."
+    }
+  ]
+}
