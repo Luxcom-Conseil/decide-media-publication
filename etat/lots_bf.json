@@ -708,7 +708,7 @@
     "tiktok_buffer": {
       "erreur": "buffer tiktok_buffer : Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed.",
       "lot": "2026-11-25",
-      "maj": "2026-11-25T08:49:07+00:00",
+      "maj": "2026-11-25T10:43:42+00:00",
       "statut": "echec",
       "tentatives": 0,
       "titre": "Vaccin du bétail : campagne obligatoire"
