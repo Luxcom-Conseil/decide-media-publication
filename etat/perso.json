@@ -4445,6 +4445,351 @@
       "sujet": "cout_opportunite",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-24/20261201-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-25/20261202-1230.jpg",
+      "format": "court",
+      "formule": "Ordre",
+      "id": "20261202-1230",
+      "legende": "Arrête de tout donner au milieu de tes présentations.\n\nTous tes efforts s'évaporent si tu places le plus important au milieu de ton discours. Le cerveau retient principalement ce qu'il entend en premier et la toute dernière impression.\n\nPour impacter tes interlocuteurs, place l'essentiel dès l'ouverture, puis répète cette idée juste avant de conclure.\n\nTu places ton meilleur argument au début ou à la fin ?\n\n#psychologie #communication #prisedeparole #memorisation #productivite",
+      "quand": "2026-12-02T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de tout donner au milieu de tes présentations."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Tu perds tes clients à cause de ce détail."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe ruine tes chances d'être retenu."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "communication",
+          "prise de parole",
+          "memorisation",
+          "productivite"
+        ],
+        "legende": "Arrête de tout donner au milieu de tes présentations.\n\nTous tes efforts s'évaporent si tu places le plus important au milieu de ton discours. Le cerveau retient principalement ce qu'il entend en premier et la toute dernière impression.\n\nPour impacter tes interlocuteurs, place l'essentiel dès l'ouverture, puis répète cette idée juste avant de conclure.\n\nTu places ton meilleur argument au début ou à la fin ?",
+        "question": "Tu places ton meilleur argument au début ou à la fin ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Arrête de donner tes meilleurs arguments au milieu de tes présentations.",
+            "ecran": "*Arrête* de tout donner au milieu !",
+            "emoji": "⚠️",
+            "recherche": "man speaking presentation business",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, c'est l'effet du début et de la fin.",
+            "ecran": "Le début et la *fin*",
+            "emoji": "🧠",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tu donnes une liste, ton interlocuteur oublie presque tout le milieu.",
+            "ecran": "Ton client *oublie* le milieu",
+            "emoji": "📉",
+            "recherche": "bored person meeting desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Son cerveau est hyper attentif au départ, puis il décroche.",
+            "ecran": "L'attention *sature* vite",
+            "emoji": "🔋",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et il se réveille juste à la fin, pour le dernier mot.",
+            "ecran": "La fin reste *fraîche*",
+            "emoji": "🔄",
+            "recherche": "person listening nod head",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Alors change de méthode. Un : mets ton message fort au début.",
+            "ecran": "Méthode : 1. Fort au début | 2. Répète à la fin",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux : répète ce même message clé juste avant de conclure.",
+            "ecran": "*Répète* à la fin",
+            "emoji": "🎯",
+            "recherche": "writing notes marker board",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On retient l'amorce et la chute, le reste s'efface.",
+            "ecran": "On retient l'*amorce* et la *chute*",
+            "emoji": "✨",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet de position sérielle"
+      },
+      "statut": "programme",
+      "sujet": "primaute",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-25/20261202-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-25/20261202-1830.jpg",
+      "format": "long",
+      "formule": "Démasquer",
+      "id": "20261202-1830",
+      "legende": "Les applications utilisent ça pour te faire perdre tout ton temps.\n\nNotre cerveau préfère toujours un petit plaisir tout de suite plutôt qu'une grande récompense plus tard. C'est le biais du présent. C'est pour ça qu'on remet au lendemain nos plus grands projets.\n\nPour réussir, utilise le système contre lui-même : associe une petite récompense immédiate à chaque tâche difficile. Et quand tu veux convaincre, montre ce que ton interlocuteur gagne aujourd'hui.\n\nTu cèdes plus souvent à quelle tentation : les séries le soir ou la nourriture ?\n\n#psychologie #productivite #mental #conseil",
+      "quand": "2026-12-02T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Démasquer",
+            "texte": "Les applications utilisent ça pour te faire perdre tout ton temps."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Chercher le plaisir immédiat détruit complètement tes projets d'avenir."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce réflexe quotidien te coûte ton succès à long terme."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "mental",
+          "conseil"
+        ],
+        "legende": "Les applications utilisent ça pour te faire perdre tout ton temps.\n\nNotre cerveau préfère toujours un petit plaisir tout de suite plutôt qu'une grande récompense plus tard. C'est le biais du présent. C'est pour ça qu'on remet au lendemain nos plus grands projets.\n\nPour réussir, utilise le système contre lui-même : associe une petite récompense immédiate à chaque tâche difficile. Et quand tu veux convaincre, montre ce que ton interlocuteur gagne aujourd'hui.\n\nTu cèdes plus souvent à quelle tentation : les séries le soir ou la nourriture ?",
+        "question": "Tu cèdes plus souvent à quelle tentation : les séries le soir ou la nourriture ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Les applications utilisent ça sur toi pour te faire perdre tout ton temps.",
+            "ecran": "Les *apps* l'utilisent sur toi",
+            "emoji": "📱",
+            "recherche": "person scrolling smartphone couch",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est ce que ça fait à tes projets les plus importants.",
+            "ecran": "Et le *pire* arrive",
+            "emoji": "⚠️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce phénomène s'appelle le biais du présent. Ton cerveau adore le rapide.",
+            "ecran": "Le *biais* du présent",
+            "emoji": "🧠",
+            "recherche": "brain animation concept",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Tout de suite",
+            "b": "Plus tard",
+            "dit": "Tu préfères une petite récompense tout de suite qu'un grand succès plus tard.",
+            "ecran": "Présent vs *Futur*",
+            "emoji": "⚖️",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu choisis ce gâteau au chocolat maintenant plutôt que ta ligne dans 6 mois.",
+            "ecran": "Gâteau vs *Santé*",
+            "emoji": "🍰",
+            "recherche": "eating chocolate cake",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu regardes un autre épisode ce soir au lieu d'être en forme demain matin.",
+            "ecran": "Série vs *Sommeil*",
+            "emoji": "📺",
+            "recherche": "watching tv late night",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu achètes ce gadget aujourd'hui au lieu d'épargner pour ton grand voyage.",
+            "ecran": "Achat vs *Épargne*",
+            "emoji": "🛍️",
+            "recherche": "shopping online credit card",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourquoi ? Parce que ton cerveau est câblé pour la survie immédiate.",
+            "ecran": "Survie *immédiate*",
+            "emoji": "🔬",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour ton cerveau, ton toi du futur est un inconnu total.",
+            "ecran": "Le futur est *abstrait*",
+            "emoji": "🔮",
+            "recherche": "man looking in mirror confused",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Mais tu peux utiliser ce piège à ton avantage avec une méthode simple.",
+            "ecran": "Pire qu'un *piège*",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici 2 astuces simples pour contourner ce blocage de ton cerveau.",
+            "ecran": "La méthode : 1. Récompense | 2. Gain direct",
+            "emoji": "📝",
+            "recherche": "writing notebook checklist",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Pour tenir un objectif dur, donne-toi une petite récompense tout de suite.",
+            "ecran": "Un. *Récompense* immédiate",
+            "emoji": "1️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Bois ton meilleur café uniquement quand tu rédiges ce rapport ennuyeux.",
+            "ecran": "Travail + *Plaisir*",
+            "emoji": "☕",
+            "recherche": "drinking coffee laptop work",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Pour convaincre quelqu'un, montre ce qu'il gagne dès aujourd'hui.",
+            "ecran": "Deux. *Bénéfice* du jour",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne vends pas une promesse dans 5 ans. Montre l'intérêt du moment présent.",
+            "ecran": "Gain *immédiat*",
+            "emoji": "🤝",
+            "recherche": "business handshake smiling",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour réussir à long terme, associe toujours ton effort à un plaisir immédiat.",
+            "ecran": "Rends le *futur* immédiat",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le biais du présent"
+      },
+      "statut": "programme",
+      "sujet": "present",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-25/20261202-1830.mp4"
     }
   ],
   "publications": [
