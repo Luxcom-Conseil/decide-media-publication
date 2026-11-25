@@ -1304,204 +1304,14 @@
       "formule": "Démasquer",
       "id": "20261125-1830",
       "legende": "Tes collègues utilisent ça sur toi pour te faire travailler plus. Ce mécanisme, c'est l'effet de possession.\n\nDès qu'une idée est la nôtre, on la surévalue. On s'accroche à des projets médiocres ou des méthodes dépassées simplement parce qu'on les a créés.\n\nLa solution est simple : prends du recul. Pose-toi la question : \"Si je ne travaillais pas sur ce projet, est-ce que je le choisirais aujourd'hui ?\".\n\nApprendre à lâcher prise est le meilleur moyen de rester productif.\n\nQuelle habitude ou quel projet as-tu enfin osé lâcher au travail ?\n\n#psychologie #productivite #viepro #travail #developpementpersonnel",
+      "media_id": "18118166015114139",
+      "publie_le": "2026-11-25T17:32:37+00:00",
       "quand": "2026-11-25T18:30:00+01:00",
       "refait_le": "2026-11-20T18:56:23+00:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Démasquer",
-            "texte": "Tes collègues utilisent ça sur toi pour te faire travailler plus."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Ton attachement à tes dossiers peut ruiner ta productivité au bureau."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu penses que tes idées sont meilleures juste parce que tu les as."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "productivite",
-          "viepro",
-          "travail",
-          "developpementpersonnel"
-        ],
-        "legende": "Tes collègues utilisent ça sur toi pour te faire travailler plus. Ce mécanisme, c'est l'effet de possession.\n\nDès qu'une idée est la nôtre, on la surévalue. On s'accroche à des projets médiocres ou des méthodes dépassées simplement parce qu'on les a créés.\n\nLa solution est simple : prends du recul. Pose-toi la question : \"Si je ne travaillais pas sur ce projet, est-ce que je le choisirais aujourd'hui ?\".\n\nApprendre à lâcher prise est le meilleur moyen de rester productif.\n\nQuelle habitude ou quel projet as-tu enfin osé lâcher au travail ?",
-        "question": "Quelle habitude ou quel projet as-tu enfin osé lâcher au travail ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tes collègues utilisent ça sur toi pour te faire travailler plus. C'est un mécanisme redoutable.",
-            "ecran": "Tes collègues *utilisent* ça sur toi",
-            "emoji": "👀",
-            "recherche": "colleagues talking office",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que tu tombes dans le panneau à chaque fois, sans même t'en rendre compte.",
-            "ecran": "Tu te *fais* avoir sans savoir",
-            "emoji": "🧠",
-            "recherche": "stressed office worker",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ça s'appelle l'effet de possession. Tu accordes une valeur exagérée aux choses, juste parce que tu les as.",
-            "ecran": "Ça s'appelle *l'effet* de possession",
-            "emoji": "📦",
-            "recherche": "holding object",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Regarde au bureau. Dès qu'un dossier ou une idée est à toi, tu perds totalement ton objectivité. Tu l'aimes trop.",
-            "ecran": "Tu ne peux plus *être* objectif",
-            "emoji": "💼",
-            "recherche": "business meeting",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu défends un projet qui ne fonctionne plus en réunion, simplement parce que c'est toi qui l'as initié au début.",
-            "ecran": "Tu défends un *projet* médiocre",
-            "emoji": "📈",
-            "recherche": "presentation slides",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ou alors, tu t'accroches à un vieil outil informatique dépassé, parce que c'est toi qui l'as configuré il y a longtemps.",
-            "ecran": "Tu t'accroches à *ton* vieux process",
-            "emoji": "🛠️",
-            "recherche": "computer desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ça te pousse même à accepter des tâches épuisantes, juste par habitude. Tu crois que c'est précieux, mais c'est un poids.",
-            "ecran": "Ça devient un *poids* inutile",
-            "emoji": "⏳",
-            "recherche": "tired businessman",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau déteste perdre. Dès que quelque chose est à toi, il refuse de le lâcher, même si c'est mauvais pour ta carrière.",
-            "ecran": "Ton cerveau *déteste* perdre",
-            "emoji": "🔥",
-            "recherche": "thinking process",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il y a une technique toute simple pour sortir de ce piège mental. Prêt pour la méthode concrète ?",
-            "ecran": "Reprends le *contrôle* maintenant",
-            "emoji": "✅",
-            "recherche": "person smiling",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un, prends une vraie distance. Deux, cherche un regard extérieur. C'est l'étape cruciale pour avancer sereinement.",
-            "ecran": "1. Recul | 2. Regard | 3. Test",
-            "emoji": "🎯",
-            "recherche": "looking at paper",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois, fais le test du renouveau. Imagine que tu arrives demain. Est-ce que tu choisirais ce projet-là aujourd'hui ?",
-            "ecran": "Fais le *test* du renouveau",
-            "emoji": "🤔",
-            "recherche": "woman thinking",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Si la réponse est non, alors n'hésite pas. Ce n'est pas parce que c'est à toi que c'est forcément la meilleure option.",
-            "ecran": "N'hésite pas à *lâcher* prise",
-            "emoji": "💡",
-            "recherche": "lightbulb moment",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est comme les essais gratuits. On s'attache vite à un service, même si au fond on n'en a pas vraiment besoin.",
-            "ecran": "Comme un *essai* gratuit",
-            "emoji": "🛒",
-            "recherche": "shopping market",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Apprends à faire le tri entre ce qui est bon pour ta carrière et ce qui est juste une habitude qui te bloque.",
-            "ecran": "Fais le *tri* maintenant",
-            "emoji": "🚀",
-            "recherche": "office work",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce que tu possèdes finit par te posséder. Garde cette phrase en tête pour tes prochaines décisions au boulot.",
-            "ecran": "Ce que tu possèdes *te* possède",
-            "emoji": "✨",
-            "recherche": "person looking ahead",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'effet de possession au travail"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "possession",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgLEplsC9k1/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261125-1830-r.mp4"
     },
     {
@@ -5346,6 +5156,13 @@
       "media_id": "17999785542101873",
       "sujet": "reseau",
       "url": "https://www.instagram.com/reel/DgKbZeIM_kz/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-25",
+      "media_id": "18118166015114139",
+      "sujet": "possession",
+      "url": "https://www.instagram.com/reel/DgLEplsC9k1/"
     }
   ]
 }
