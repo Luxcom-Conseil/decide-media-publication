@@ -222,7 +222,7 @@ jobs:
           YOUTUBE_CLIENT_SECRET_AFRIQUE: ${{ secrets.YOUTUBE_CLIENT_SECRET_AFRIQUE }}
           YOUTUBE_REFRESH_TOKEN_AFRIQUE: ${{ secrets.YOUTUBE_REFRESH_TOKEN_AFRIQUE }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_AFRIQUE || secrets.GEMINI_API_KEY }}   # clé à part (projet decide-media-afrique-youtube, 24/11/2026) : quota propre
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # clé commune : la clé Afrique à part (24/11) répondait HTTP 402, prépaiement exigé
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python -m agent lots --antenne afrique
