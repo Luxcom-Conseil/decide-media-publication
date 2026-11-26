@@ -1369,191 +1369,13 @@
       "formule": "Enjeu",
       "id": "20261126-2100",
       "legende": "Envoyer trop de mails peut bloquer toute ta carrière au travail.\n\nAu bureau, on fait souvent l'erreur d'envoyer des demandes directes sans préparer notre interlocuteur. Résultat, nos messages restent sans réponse et nos projets stagnent.\n\nPour convaincre tes collègues ou tes clients, suis les 4 étapes indispensables : capter l'Attention, susciter l'Intérêt, éveiller le Désir, puis proposer l'Action.\n\nAssure-toi toujours d'avoir l'attention et l'intérêt de la personne avant de lui demander quoi que ce soit.\n\nUtilises-tu déjà une structure précise quand tu écris à un collègue ?\n\n#travail #communication #productivite #entreprise",
+      "media_id": "18653720566033974",
+      "publie_le": "2026-11-26T20:02:26+00:00",
       "quand": "2026-11-26T21:00:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Enjeu",
-            "texte": "Envoyer trop de mails peut bloquer toute ta carrière au travail."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de demander des services au travail sans utiliser cette méthode."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce reflexe dans tes messages te fait perdre l'écoute des autres."
-          }
-        ],
-        "hashtags": [
-          "travail",
-          "communication",
-          "productivite",
-          "entreprise"
-        ],
-        "legende": "Envoyer trop de mails peut bloquer toute ta carrière au travail.\n\nAu bureau, on fait souvent l'erreur d'envoyer des demandes directes sans préparer notre interlocuteur. Résultat, nos messages restent sans réponse et nos projets stagnent.\n\nPour convaincre tes collègues ou tes clients, suis les 4 étapes indispensables : capter l'Attention, susciter l'Intérêt, éveiller le Désir, puis proposer l'Action.\n\nAssure-toi toujours d'avoir l'attention et l'intérêt de la personne avant de lui demander quoi que ce soit.\n\nUtilises-tu déjà une structure précise quand tu écris à un collègue ?",
-        "question": "Utilises-tu déjà une structure précise quand tu écris à un collègue ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Envoyer trop de mails mal structurés peut bloquer toute ta carrière au travail.",
-            "ecran": "Tes mails *bloquent* ta carrière",
-            "emoji": "🚨",
-            "recherche": "stressed worker office computer",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu envoies un message important à un collègue et il te répond trois jours plus tard. Et la suite est pire.",
-            "ecran": "Personne ne te *répond* ?",
-            "emoji": "📱",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour faire valoir tes idées au bureau, il existe une structure simple. Ça s'appelle la méthode AIDA.",
-            "ecran": "La méthode *AIDA*",
-            "emoji": "🧠",
-            "recherche": "business meeting team list",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au quotidien, on envoie souvent un gros pavé de texte sans réfléchir à la personne en face.",
-            "ecran": "Un mail *moyen*",
-            "emoji": "📧",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Résultat : le cerveau de ton interlocuteur est saturé et remet ta demande à plus tard.",
-            "ecran": "Ton collègue te *zappe*",
-            "emoji": "🙈",
-            "recherche": "tired corporate employee desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Tu dois d'abord capter son attention dès les premiers mots ou avec un objet clair.",
-            "ecran": "Étape 1 : *Attention*",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Tu suscites son intérêt en expliquant pourquoi cela le concerne directement.",
-            "ecran": "Étape 2 : *Intérêt*",
-            "emoji": "💡",
-            "recherche": "colleagues talking office desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Tu éveilles son désir en montrant le bénéfice concret de la solution.",
-            "ecran": "Étape 3 : *Désir*",
-            "emoji": "🔥",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Quatre. Tu termines par un appel à l'action précis et facile à réaliser.",
-            "ecran": "Étape 4 : *Action*",
-            "emoji": "🎯",
-            "recherche": "typing keyboard quick action",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Direct",
-            "b": "AIDA",
-            "dit": "Si tu demandes tout de suite, ta chance de réponse est faible. Si tu prépares le terrain, elle augmente.",
-            "ecran": "L'impact sur ta *demande*",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 1,
-            "valeur_b": 3
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour une réunion ou une validation, applique ces étapes dans ton prochain message.",
-            "ecran": "Exemple au *bureau*",
-            "emoji": "💼",
-            "recherche": "office worker professional laptop",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Retiens la formule : capte l'attention, crée l'intérêt, donne envie, puis demande une action.",
-            "ecran": "Méthode : Attention | Intérêt | Désir | Action",
-            "emoji": "✅",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Avant de demander quoi que ce soit, assure-toi d'avoir d'abord capté l'attention et l'intérêt.",
-            "ecran": "Facilite la *vie* des autres",
-            "emoji": "🤝",
-            "recherche": "shaking hands professional business",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Prépare l'attention avant de demander l'action.",
-            "ecran": "Prépare l'attention *avant* de demander l'action.",
-            "emoji": "📌",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La méthode AIDA au travail"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "aida",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgN6lAdPkju/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261126-2100.mp4"
     },
     {
@@ -5653,6 +5475,13 @@
       "media_id": "18140709184655708",
       "sujet": "conflit_cause",
       "url": "https://www.instagram.com/reel/DgNpZ5UBQfR/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-26",
+      "media_id": "18653720566033974",
+      "sujet": "aida",
+      "url": "https://www.instagram.com/reel/DgN6lAdPkju/"
     }
   ]
 }
