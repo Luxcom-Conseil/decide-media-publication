@@ -17479,9 +17479,9 @@
     "x_buffer": {
       "erreur": "buffer x_buffer : Invalid post: Twitter / X posts cannot exceed 280 characters.",
       "lot": "2026-11-26",
-      "maj": "2026-11-26T10:46:07+00:00",
+      "maj": "2026-11-26T12:50:55+00:00",
       "statut": "echec",
-      "tentatives": 2,
+      "tentatives": 3,
       "titre": "Laquintinie : consultations gratuites en décembre"
     },
     "youtube": {
