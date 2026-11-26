@@ -4543,6 +4543,478 @@
       "sujet": "present",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-25/20261202-1830.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-26/20261202-2100.jpg",
+      "format": "long",
+      "formule": "Contre-pied",
+      "id": "20261202-2100",
+      "legende": "Tu crois négocier ton salaire calmement ? Ton cerveau est déjà piégé par un mécanisme redoutable.\n\nLe tout premier chiffre que tu entends dans une discussion fixe ton jugement pour tout le reste. C'est l'effet d'ancrage.\n\nPour reprendre le dessus, prends les devants en annonçant ton montant en premier, et juge toujours la valeur réelle finale.\n\nQuel est le dernier chiffre qui t'a influencé au travail ?\n\n#psychologie #travail #negociation #carriere",
+      "quand": "2026-12-02T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois négocier ton salaire calmement ? Ton cerveau est déjà piégé."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Dire ton salaire en premier peut détruire ta négociation."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce premier chiffre que tu entends contrôle tous tes choix."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "travail",
+          "negociation",
+          "carriere"
+        ],
+        "legende": "Tu crois négocier ton salaire calmement ? Ton cerveau est déjà piégé par un mécanisme redoutable.\n\nLe tout premier chiffre que tu entends dans une discussion fixe ton jugement pour tout le reste. C'est l'effet d'ancrage.\n\nPour reprendre le dessus, prends les devants en annonçant ton montant en premier, et juge toujours la valeur réelle finale.\n\nQuel est le dernier chiffre qui t'a influencé au travail ?",
+        "question": "Quel est le dernier chiffre qui t'a influencé au travail ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu crois négocier ton salaire calmement ? Ton cerveau est déjà piégé par un piège invisible.",
+            "ecran": "Tu *crois* négocier calmement ?",
+            "emoji": "🧠",
+            "recherche": "man stressed office",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que tu ne remarques même pas quand les autres utilisent cette astuce contre toi.",
+            "ecran": "Et le *pire* arrive vite.",
+            "emoji": "🔥",
+            "recherche": "business meeting tension",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ça s'appelle l'effet d'ancrage. Le tout premier chiffre que tu entends fixe ton jugement pour tout le reste.",
+            "ecran": "L'ancrage *mental*.",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pense à ton entretien annuel avec ton manager. Il pose une base dès les premières minutes de la discussion.",
+            "ecran": "Au *bureau* chaque jour",
+            "emoji": "💼",
+            "recherche": "boss employee meeting",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Si on te glisse un montant faible au début, toute augmentation te paraîtra correcte, même si elle est insuffisante.",
+            "ecran": "Une *offre* trop basse",
+            "emoji": "📉",
+            "recherche": "looking at computer sad",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Même quand vous discutez d'un budget pour un projet d'équipe, le premier chiffre lancé devient la référence absolue.",
+            "ecran": "Entre *collègues*",
+            "emoji": "🤝",
+            "recherche": "team discussing office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pour économiser de l'énergie, ton esprit se raccroche au premier repère chiffré qu'il reçoit sans chercher plus loin.",
+            "ecran": "Pourquoi ton *cerveau* fait ça",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, tu peux utiliser ce mécanisme à ton avantage pour tes prochaines discussions professionnelles.",
+            "ecran": "Reprends le *contrôle*",
+            "emoji": "⚡",
+            "recherche": "confident businessman",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici comment procéder en deux étapes concrètes lors de tes prochains échanges au travail.",
+            "ecran": "Deux *règles* simples",
+            "emoji": "✅",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Premièrement, dans une négociation, prends les devants et annonce ton chiffre en premier pour poser ton ancre.",
+            "ecran": "Annonce ton *chiffre*",
+            "emoji": "1️⃣",
+            "recherche": "handshake business",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deuxièmement, quand on t'annonce un prix barré ou une réduction, regarde uniquement le montant final à payer.",
+            "ecran": "Juge le *prix* final",
+            "emoji": "2️⃣",
+            "recherche": "calculator paperwork",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le premier chiffre fixe ton choix, alors prends le contrôle de la discussion dès le départ.",
+            "ecran": "Le premier chiffre *fixe* ton choix.",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet d'ancrage au travail"
+      },
+      "statut": "programme",
+      "sujet": "ancrage",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-26/20261202-2100.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-26/20261203-1230.jpg",
+      "format": "long",
+      "formule": "Révélation",
+      "id": "20261203-1230",
+      "legende": "Ce petit réflexe au bureau te coûte toutes tes primes.\n\nOn repousse souvent ce qui nous met mal à l'aise au travail. Le secret est de fractionner la montagne en un tout petit pas.\n\nQuelle est la tâche que tu repousses depuis des jours au bureau ?\n\n#psychologie #productivite #travail #carriere",
+      "quand": "2026-12-03T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe au bureau te coûte toutes tes primes."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Être très bon dans ton travail peut détruire ta carrière."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête de remettre au lendemain tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "travail",
+          "carriere"
+        ],
+        "legende": "Ce petit réflexe au bureau te coûte toutes tes primes.\n\nOn repousse souvent ce qui nous met mal à l'aise au travail. Le secret est de fractionner la montagne en un tout petit pas.\n\nQuelle est la tâche que tu repousses depuis des jours au bureau ?",
+        "question": "Quelle est la tâche que tu repousses depuis des jours au bureau ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce petit réflexe au bureau te coûte toutes tes primes.",
+            "ecran": "Ce *réflexe* au bureau te coûte cher",
+            "emoji": "💼",
+            "recherche": "stressed office worker",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que tu culpabilises toute la journée sans rien faire.",
+            "ecran": "Et le *pire*, c'est la suite",
+            "emoji": "🔥",
+            "recherche": "worker looking at computer",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "On repousse surtout les tâches qui nous mettent mal à l'aise au travail.",
+            "ecran": "Ton cerveau te *piège* chaque matin",
+            "emoji": "🧠",
+            "recherche": "thinking in office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ça arrive quand le dossier est ennuyeux, trop flou ou que tu as peur d'échouer.",
+            "ecran": "Tâches *ennuyeuses* ou floues",
+            "emoji": "🥱",
+            "recherche": "bored at desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu regardes ton écran, tu as ce rapport important à boucler pour ton chef.",
+            "ecran": "Le dossier *attendra* encore un jour",
+            "emoji": "📊",
+            "recherche": "office employee typing",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et au lieu de l'ouvrir, tu décides soudainement de ranger ton bureau ou prendre un café.",
+            "ecran": "Le piège de la *pause* café",
+            "emoji": "☕",
+            "recherche": "coffee break office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu passes des heures à faire des choses secondaires pour fuir la vraie difficulté.",
+            "ecran": "Le temps *file* sans avancer",
+            "emoji": "⏰",
+            "recherche": "clock ticking office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Plus tu attends, plus la montagne paraît haute et plus tu paniques devant tes collègues.",
+            "ecran": "La *peur* de mal faire",
+            "emoji": "📉",
+            "recherche": "worried man desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe une astuce infaillible pour tromper ton cerveau.",
+            "ecran": "Voici la *solution* simple",
+            "emoji": "💡",
+            "recherche": "lightbulb idea office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Premièrement, découpe ta tâche en une toute première action ultra précise.",
+            "ecran": "*Découper* la tâche",
+            "emoji": "🎯",
+            "recherche": "planning notes desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne pense pas à tout le rapport. Pense juste à ouvrir le fichier sur ton écran.",
+            "ecran": "Juste ouvrir le *fichier*",
+            "emoji": "📝",
+            "recherche": "typing on laptop",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deuxièmement, engage toi uniquement sur cette petite action, rien de plus pour l'instant.",
+            "ecran": "S'engager *seulement* dessus",
+            "emoji": "✅",
+            "recherche": "confident businessman",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Une fois que c'est fait, la peur disparaît et l'élan naturel prend le relais.",
+            "ecran": "L'élan fait le *reste*",
+            "emoji": "🚀",
+            "recherche": "success office celebration",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Découpe la tâche en une toute première action précise, et engage-toi seulement sur celle-là.",
+            "ecran": "Découpe la tâche en une première action",
+            "emoji": "📌",
+            "recherche": "focused worker",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "La procrastination"
+      },
+      "statut": "programme",
+      "sujet": "procrastination",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-26/20261203-1230.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-26/20261203-1830.jpg",
+      "format": "court",
+      "formule": "Défi",
+      "id": "20261203-1830",
+      "legende": "Personne ne m'a jamais expliqué ça, et ça a tout changé.\n\nQuand tu travailles des heures sans avancer, insister ne sert à rien. Ton cerveau sature et chaque effort supplémentaire produit moins de résultats.\n\nLa solution est simple : change d'approche au lieu de forcer. Fais une pause ou passe à autre chose.\n\nTu fais quoi quand tu bloques sur une tâche au travail ?\n\n#psychologie #productivite #travail #astuce",
+      "quand": "2026-12-03T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Défi",
+            "texte": "Personne ne m'a jamais expliqué ça, et ça a tout changé."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Travailler plus sans t'arrêter peut détruire tes résultats."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois que forcer plus résout tout ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "productivite",
+          "travail",
+          "astuce"
+        ],
+        "legende": "Personne ne m'a jamais expliqué ça, et ça a tout changé.\n\nQuand tu travailles des heures sans avancer, insister ne sert à rien. Ton cerveau sature et chaque effort supplémentaire produit moins de résultats.\n\nLa solution est simple : change d'approche au lieu de forcer. Fais une pause ou passe à autre chose.\n\nTu fais quoi quand tu bloques sur une tâche au travail ?",
+        "question": "Tu fais quoi quand tu bloques sur une tâche au travail ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Personne ne m'a jamais expliqué ça, et ça a tout changé dans mon travail.",
+            "ecran": "Personne ne m'a *jamais* expliqué ça",
+            "emoji": "🔥",
+            "recherche": "man working hard desk",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ça s'appelle les rendements décroissants. Au-delà d'un certain point, chaque effort rapporte moins.",
+            "ecran": "Les *rendements* décroissants",
+            "emoji": "🧠",
+            "recherche": "stressed worker office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu passes des heures sur le même dossier au bureau et ta productivité chute.",
+            "ecran": "Tu passes des *heures* sur un dossier",
+            "emoji": "💻",
+            "recherche": "person typing computer late",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau sature car il n'est pas conçu pour produire sans s'arrêter.",
+            "ecran": "Ton cerveau sature *vite*",
+            "emoji": "⚡",
+            "recherche": "tired person rubbing eyes",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand tes efforts rapportent moins, change d'approche au lieu d'insister bêtement.",
+            "ecran": "Change *d'approche*",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Fais une vraie pause ou change de tâche pour relancer ton efficacité.",
+            "ecran": "Fais une *pause* ou change de tâche",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Les rendements décroissants"
+      },
+      "statut": "programme",
+      "sujet": "rendements",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-26/20261203-1830.mp4"
     }
   ],
   "publications": [
