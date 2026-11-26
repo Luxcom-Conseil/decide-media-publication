@@ -376,5 +376,143 @@
       "titre": "Maroc : OCP garde sa note BBB-",
       "url": "https://youtu.be/-4ctdLo_8yo"
     }
+  },
+  "decide-af-decide-media-2026-11-26-01": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T09:03:16+00:00",
+      "piste": "principale",
+      "post_id": "6b07f5d417fc84b971ba9103",
+      "programme_pour": "2026-11-26T11:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Tullow règle sa facture au Ghana",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    },
+    "youtube_af": {
+      "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T08:58:05+00:00",
+      "statut": "echec",
+      "tentatives": 0,
+      "titre": "Tullow règle sa facture au Ghana"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-02": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T09:13:53+00:00",
+      "piste": "principale",
+      "post_id": "6b07f85117fc84b971bbc828",
+      "programme_pour": "2026-11-26T14:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Sénégal : la baguette fait grève",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-03": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T09:24:41+00:00",
+      "piste": "principale",
+      "post_id": "6b07fad97cb39d7aa36770c9",
+      "programme_pour": "2026-11-26T17:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Botswana réclame sa part des mines",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-04": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T09:36:39+00:00",
+      "piste": "principale",
+      "post_id": "6b07fda7e52242758a1cdffa",
+      "programme_pour": "2026-11-26T20:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Abidjan mobilise 110 milliards sur le marché",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-05": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T09:47:01+00:00",
+      "piste": "principale",
+      "post_id": "6b080015e52242758a1e007e",
+      "programme_pour": "2026-11-26T12:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Jirama : le déficit d'électricité recule",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-06": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T09:57:18+00:00",
+      "piste": "principale",
+      "post_id": "6b08027e10c0f7816e979ec0",
+      "programme_pour": "2026-11-26T15:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Cameroun rabote son emprunt ESG",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-07": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T10:07:32+00:00",
+      "piste": "principale",
+      "post_id": "6b0804e4ed9dce3bdafbbbf7",
+      "programme_pour": "2026-11-26T18:45:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Alger vide encore son fonds pétrolier",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-08": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T10:18:03+00:00",
+      "piste": "principale",
+      "post_id": "6b08075bb56cc066e5bb611f",
+      "programme_pour": "2026-11-26T21:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Mines : 966 millions annoncés à Kinshasa",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-09": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T10:29:09+00:00",
+      "piste": "principale",
+      "post_id": "6b0809f5d8848786e0d82e07",
+      "programme_pour": "2026-11-27T08:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "BOAD et BERD veulent financer en euros",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
+  },
+  "decide-af-decide-media-2026-11-26-10": {
+    "tiktok_buffer": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T10:39:37+00:00",
+      "piste": "principale",
+      "post_id": "6b080c69ed9dce3bdafed2cd",
+      "programme_pour": "2026-11-27T11:15:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Climat : 27 % des besoins couverts",
+      "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    }
   }
 }
