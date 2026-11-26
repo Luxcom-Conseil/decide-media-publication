@@ -1353,169 +1353,13 @@
       "formule": "Défi",
       "id": "20261126-1830",
       "legende": "Personne ne m'a jamais expliqué ça, et ça a sauvé mon couple.\n\nDans une dispute, le sujet visible cache souvent un besoin beaucoup plus profond d'être écouté, aidé ou respecté.\n\nLa prochaine fois que la tension monte, prends une grande respiration et cherche ce qui se cache vraiment derrière les reproches.\n\nQuel est le sujet de dispute qui revient le plus souvent chez toi ? ❤️\n\n#psychologie #couple #communication #developpementpersonnel",
+      "media_id": "18140709184655708",
+      "publie_le": "2026-11-26T17:32:19+00:00",
       "quand": "2026-11-26T18:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Défi",
-            "texte": "Personne ne m'a jamais expliqué ça, et ça a sauvé mon couple."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Une mauvaise dispute peut détruire ta relation en quelques minutes."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit détail dans tes disputes te coûte plus cher que tu ne crois."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "couple",
-          "communication",
-          "developpementpersonnel"
-        ],
-        "legende": "Personne ne m'a jamais expliqué ça, et ça a sauvé mon couple.\n\nDans une dispute, le sujet visible cache souvent un besoin beaucoup plus profond d'être écouté, aidé ou respecté.\n\nLa prochaine fois que la tension monte, prends une grande respiration et cherche ce qui se cache vraiment derrière les reproches.\n\nQuel est le sujet de dispute qui revient le plus souvent chez toi ? ❤️",
-        "question": "Quel est le sujet de dispute qui revient le plus souvent chez toi ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Personne ne m'a jamais expliqué ça, et ça a sauvé mon couple.",
-            "ecran": "Personne ne m'a *jamais* expliqué ça !",
-            "emoji": "🔥",
-            "recherche": "couple arguing angry",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est la troisième fois que tu te disputes pour la même bêtise.",
-            "ecran": "Et le pire, c'est la *suite*.",
-            "emoji": "🧠",
-            "recherche": "frustrated person room",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu te prends la tête pour un retard, pour de la vaisselle qui traîne dans l'évier.",
-            "ecran": "Ce n'est *jamais* la vaisselle.",
-            "emoji": "🍽️",
-            "recherche": "kitchen sink plates",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mais crois moi bien, le sujet visible cache toujours un besoin beaucoup plus profond.",
-            "ecran": "Le sujet est *caché*.",
-            "emoji": "👀",
-            "recherche": "person thinking hard",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au fond, tu veux juste te sentir respecté, écouté, ou simplement aidé au quotidien.",
-            "ecran": "Besoin de *respect*.",
-            "emoji": "🤝",
-            "recherche": "people talking calmly",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau se focalise sur le détail matériel parce que c'est beaucoup plus facile à attaquer.",
-            "ecran": "Ton cerveau te *piège*.",
-            "emoji": "⚡",
-            "recherche": "stressed person head",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Alors la prochaine fois que la tension monte à la maison, fais une pause immédiate.",
-            "ecran": "Il faut tout *arrêter*.",
-            "emoji": "🛑",
-            "recherche": "stop hand sign",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pose toi simplement cette question essentielle pour changer complètement la dynamique.",
-            "ecran": "La *vraie* question.",
-            "emoji": "💡",
-            "recherche": "light bulb idea",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Demande toi clairement de quoi est ce qu'on parle vraiment en ce moment précis.",
-            "ecran": "De quoi *parle* t on ?",
-            "emoji": "🎯",
-            "recherche": "target dartboard",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mets des mots sur le vrai manque au lieu de ressasser des reproches inutiles sur les tâches.",
-            "ecran": "Exprime ton *besoin*.",
-            "emoji": "🗣️",
-            "recherche": "talking together",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ça désamorce le conflit en quelques secondes et ça évite des heures de bouderie stérile.",
-            "ecran": "Change ta *relation*.",
-            "emoji": "🌱",
-            "recherche": "plant growing growth",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pendant un conflit, demande toi toujours de quoi est ce qu'on parle vraiment.",
-            "ecran": "Le conflit cache un *besoin*.",
-            "emoji": "✅",
-            "recherche": "smiling peaceful",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le vrai sujet de la dispute"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "conflit_cause",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgNpZ5UBQfR/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261126-1830.mp4"
     },
     {
@@ -5330,6 +5174,13 @@
       "media_id": "18108649916202330",
       "sujet": "pied_porte",
       "url": "https://www.instagram.com/reel/DgNANdxIXuR/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-26",
+      "media_id": "18140709184655708",
+      "sujet": "conflit_cause",
+      "url": "https://www.instagram.com/reel/DgNpZ5UBQfR/"
     }
   ]
 }
