@@ -392,10 +392,14 @@
     "youtube_af": {
       "erreur": "youtube : limite d'envoi du jour atteinte (≈ 10 vidéos/jour) — réessai au prochain passage",
       "lot": "2026-11-26",
-      "maj": "2026-11-26T08:58:05+00:00",
-      "statut": "echec",
+      "maj": "2026-11-26T10:53:39+00:00",
+      "piste": "principale",
+      "post_id": "ipVOCKkKnUE",
+      "programme_pour": "2026-11-26T14:00:00+01:00",
+      "statut": "programme",
       "tentatives": 0,
-      "titre": "Tullow règle sa facture au Ghana"
+      "titre": "Tullow règle sa facture au Ghana",
+      "url": "https://youtu.be/ipVOCKkKnUE"
     }
   },
   "decide-af-decide-media-2026-11-26-02": {
@@ -409,6 +413,17 @@
       "tentatives": 0,
       "titre": "Sénégal : la baguette fait grève",
       "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    },
+    "youtube_af": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T10:59:41+00:00",
+      "piste": "principale",
+      "post_id": "dYl8b9AM_Ds",
+      "programme_pour": "2026-11-26T17:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Sénégal : la baguette fait grève",
+      "url": "https://youtu.be/dYl8b9AM_Ds"
     }
   },
   "decide-af-decide-media-2026-11-26-03": {
@@ -422,6 +437,17 @@
       "tentatives": 0,
       "titre": "Le Botswana réclame sa part des mines",
       "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    },
+    "youtube_af": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T11:05:37+00:00",
+      "piste": "principale",
+      "post_id": "XwO8MqXqLtA",
+      "programme_pour": "2026-11-26T20:00:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Le Botswana réclame sa part des mines",
+      "url": "https://youtu.be/XwO8MqXqLtA"
     }
   },
   "decide-af-decide-media-2026-11-26-04": {
@@ -435,6 +461,17 @@
       "tentatives": 0,
       "titre": "Abidjan mobilise 110 milliards sur le marché",
       "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    },
+    "youtube_af": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T11:11:36+00:00",
+      "piste": "principale",
+      "post_id": "yDjQXR7hm-k",
+      "programme_pour": "2026-11-26T12:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Abidjan mobilise 110 milliards sur le marché",
+      "url": "https://youtu.be/yDjQXR7hm-k"
     }
   },
   "decide-af-decide-media-2026-11-26-05": {
@@ -448,6 +485,17 @@
       "tentatives": 0,
       "titre": "Jirama : le déficit d'électricité recule",
       "url": "https://publish.buffer.com/channels/6b04340c8541f09ecb75911a/schedule"
+    },
+    "youtube_af": {
+      "lot": "2026-11-26",
+      "maj": "2026-11-26T11:17:27+00:00",
+      "piste": "principale",
+      "post_id": "XDTteQ9d0vE",
+      "programme_pour": "2026-11-26T15:30:00+01:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Jirama : le déficit d'électricité recule",
+      "url": "https://youtu.be/XDTteQ9d0vE"
     }
   },
   "decide-af-decide-media-2026-11-26-06": {
