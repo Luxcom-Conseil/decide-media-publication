@@ -202,3 +202,10 @@ class YouTubeAfrique(YouTube):
     suffixe = "_AFRIQUE"
     variables = ("YOUTUBE_CLIENT_ID_AFRIQUE", "YOUTUBE_CLIENT_SECRET_AFRIQUE", "YOUTUBE_REFRESH_TOKEN_AFRIQUE")
 
+
+class YouTubeBenin(YouTube):
+    """Chaîne « Actu Bénin - DECIDE MEDIA » par l'API directe, avec son propre projet Google Cloud (son propre quota),
+    préparée le 27/11/2026 ; secrets YOUTUBE_*_BENIN."""
+    nom = "youtube_bj"
+    suffixe = "_BENIN"
+    variables = ("YOUTUBE_CLIENT_ID_BENIN", "YOUTUBE_CLIENT_SECRET_BENIN", "YOUTUBE_REFRESH_TOKEN_BENIN")

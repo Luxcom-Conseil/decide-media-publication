@@ -3,10 +3,10 @@
 Prérequis : identifiant OAuth « Application de bureau » du projet Google Cloud, téléchargé (fichier
 client_secret_….json, laissé dans Téléchargements ou passé en argument).
 
-    python scripts/jeton_youtube.py [chemin/vers/client_secret.json] [--antenne burkina|afrique]
+    python scripts/jeton_youtube.py [chemin/vers/client_secret.json] [--antenne burkina|afrique|benin]
 
 --antenne burkina : chaîne « Actu Burkina - Decide Media », enregistrée sous YOUTUBE_…_BURKINA (son propre projet
-Google Cloud, donc son propre quota). --antenne afrique : chaîne « DECIDE MEDIA AFRIQUE », sous YOUTUBE_…_AFRIQUE. Sans l'option : la chaîne du Cameroun, comme avant.
+Google Cloud, donc son propre quota). --antenne afrique : chaîne « DECIDE MEDIA AFRIQUE », sous YOUTUBE_…_AFRIQUE. --antenne benin : chaîne « Actu Bénin - DECIDE MEDIA », sous YOUTUBE_…_BENIN. Sans l'option : la chaîne du Cameroun, comme avant.
 
 Une page Google s'ouvre : choisissez le compte, puis la chaîne DECIDE MEDIA, et autorisez.
 """
@@ -32,9 +32,10 @@ SUFFIXE, ATTENDU = "", "decide"
 if "--antenne" in args:
     i = args.index("--antenne")
     antennes = {"burkina": ("_BURKINA", "burkina"), "afrique": ("_AFRIQUE", "afrique"),
-                "histoires": ("_HISTOIRES", "histoires")}  # chaîne « Histoires vraies d'argent » (24/11/2026)
+                "histoires": ("_HISTOIRES", "histoires"),  # chaîne « Histoires vraies d'argent » (24/11/2026)
+                "benin": ("_BENIN", "bénin")}  # chaîne « Actu Bénin - DECIDE MEDIA » (27/11/2026)
     if args[i + 1] not in antennes:
-        raise SystemExit("--antenne : « burkina », « afrique » ou « histoires »")
+        raise SystemExit("--antenne : « burkina », « afrique », « histoires » ou « benin »")
     SUFFIXE, ATTENDU = antennes[args[i + 1]]
     del args[i:i + 2]
 if args:
