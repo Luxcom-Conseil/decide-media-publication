@@ -1337,104 +1337,13 @@
       "formule": "Révélation",
       "id": "20261126-1230",
       "legende": "Ce petit service banal te coûte plus cher que tu ne crois.\n\nQuand tu acceptes une toute petite faveur, tu ouvres la porte à des demandes beaucoup plus lourdes. Ton cerveau cherche simplement à rester cohérent avec son engagement initial.\n\nPrends du recul dès qu'on te demande un peu plus.\n\nOn t'a déjà fait ce coup-là au travail ?\n\n#psychologie #persuasion #travail #relations #conseils",
+      "media_id": "18108649916202330",
+      "publie_le": "2026-11-26T11:31:59+00:00",
       "quand": "2026-11-26T12:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit service banal te coûte plus cher que tu ne crois."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de dire oui aux petites demandes sans savoir ceci."
-          },
-          {
-            "formule": "Démasquer",
-            "texte": "On te manipule au travail avec cette technique toute simple."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "persuasion",
-          "travail",
-          "relations",
-          "conseils"
-        ],
-        "legende": "Ce petit service banal te coûte plus cher que tu ne crois.\n\nQuand tu acceptes une toute petite faveur, tu ouvres la porte à des demandes beaucoup plus lourdes. Ton cerveau cherche simplement à rester cohérent avec son engagement initial.\n\nPrends du recul dès qu'on te demande un peu plus.\n\nOn t'a déjà fait ce coup-là au travail ?",
-        "question": "On t'a déjà fait ce coup-là au travail ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce petit service banal te coûte plus cher que tu ne crois.",
-            "ecran": "Ce *petit service* coûte très cher",
-            "emoji": "😱",
-            "recherche": "stressed man office phone",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "En psychologie, c'est la technique du pied dans la porte.",
-            "ecran": "Le *pied dans la porte*",
-            "emoji": "🚪",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un collègue te demande cinq minutes pour relire un mail. Tu dis oui. Le lendemain, il te confie tout son dossier.",
-            "ecran": "Un petit service *puis tout*",
-            "emoji": "💻",
-            "recherche": "office colleagues conversation desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton cerveau veut rester cohérent avec son premier oui.",
-            "ecran": "Rester *cohérent* avec soi",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pour te protéger : un, repère l'escalade dès le deuxième oui. Deux, refuse la grosse demande calmement.",
-            "ecran": "L'astuce : Pose ta limite | Négocie la suite",
-            "emoji": "💡",
-            "recherche": "man saying no hand gesture",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Accepter un peu, c'est souvent tout donner.",
-            "ecran": "Accepter un peu, c'est *souvent* tout donner",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le pied dans la porte"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "pied_porte",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgNANdxIXuR/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-19/20261126-1230.mp4"
     },
     {
@@ -5414,6 +5323,13 @@
       "media_id": "18121989257587792",
       "sujet": "surcharge",
       "url": "https://www.instagram.com/reel/DgLVyzRhgDY/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-26",
+      "media_id": "18108649916202330",
+      "sujet": "pied_porte",
+      "url": "https://www.instagram.com/reel/DgNANdxIXuR/"
     }
   ]
 }
