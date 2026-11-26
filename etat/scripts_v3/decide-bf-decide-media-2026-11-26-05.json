@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "L'inflation est passée de -0,2 % à 0,4 % au deuxième trimestre dans l'Umoa.",
+    "La BCEAO relève une hausse des prix dans l'Union monétaire au deuxième trimestre 2026.",
+    "L'inflation dans l'Umoa atteint 0,4 % au deuxième trimestre 2026 selon la banque centrale."
+  ],
+  "titre": "Zone UMOA : les prix repartent",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "BCEAO",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "L'inflation *atteint* 0,4 % au deuxième trimestre",
+      "dit": "L'inflation est passée de -0,2 % au premier trimestre 2026 à 0,4 % au deuxième trimestre dans l'Umoa."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un chiffre *global* pour toute l'Union",
+      "dit": "Ce chiffre provient du communiqué de la BCEAO daté du 9 septembre 2026 et porte sur toute l'Union."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse des *prix* du transport",
+      "dit": "Selon la banque centrale, cette remontée vient surtout de la hausse des prix du transport."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le carburant *pèse* sur les tarifs",
+      "dit": "Cette augmentation fait suite au relèvement des prix des produits pétroliers dans la plupart des États."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Logement et *alimentation* aussi touchés",
+      "dit": "Les prix du logement et de certains produits alimentaires comme la viande, le poisson et les légumes ont augmenté."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "0,0 %",
+        "apres": "1,0 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une inflation *moyenne* de 1,0 %",
+      "dit": "Pour toute l'année 2026, la BCEAO prévoit une inflation moyenne de 1,0 %, après 0,0 % en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des risques liés au *Moyen-Orient*",
+      "dit": "La hausse des prix pourrait se poursuivre à cause des incertitudes autour de la crise au Moyen-Orient."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "16 mars 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les taux *directeurs* maintenus",
+      "dit": "Le principal taux directeur de la BCEAO est maintenu à 3,00 % depuis le 16 mars 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le guichet de *prêt* à 5,00 %",
+      "dit": "Le taux du guichet de prêt marginal reste quant à lui fixé à 5,00 % selon la banque centrale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Prochaine *réunion* à Dakar",
+      "dit": "Le Comité se réunira de nouveau à Dakar le 2 décembre 2026 pour suivre de près ces risques."
+    }
+  ]
+}

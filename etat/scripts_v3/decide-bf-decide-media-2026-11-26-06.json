@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "20 millions de mètres de tissu produits par l'usine Texforces.",
+    "L'usine Texforces à Bobo-Dioulasso peut produire 6 millions de tenues.",
+    "Un million de tee-shirts prévus par l'usine Texforces au Burkina."
+  ],
+  "titre": "Texforces : du tissu fait à Bobo",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Bobo-Dioulasso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "20 millions de *mètres* de tissu",
+      "dit": "20 millions de mètres de tissu sont produits par l'usine Texforces au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Six millions de *tenues*",
+      "dit": "L'usine située à Logofourousso a une capacité de six millions de tenues selon Lefaso.net."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un million de *tee-shirts*",
+      "dit": "Environ un million de tee-shirts sortent de cette même unité de production."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chiffres de la *CCI-BF*",
+      "dit": "Ces chiffres ont été présentés par Roland Achille Sow de la Chambre de commerce."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Publication du *19 novembre*",
+      "dit": "L'information a été publiée par le journal en ligne le 19 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Inauguration en *septembre*",
+      "dit": "L'usine a été inaugurée le 9 septembre 2026 par le capitaine Ibrahim Traoré."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Capacité et non *production*",
+      "dit": "Une capacité estimée n'est pas une production réelle selon le journal."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Montants non *indiqués*",
+      "dit": "Le site ne donne ni le nombre d'emplois créés ni le montant investi."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Prix de *vente*",
+      "dit": "Le journal ne précise pas non plus le prix des tenues et des tee-shirts."
+    }
+  ]
+}

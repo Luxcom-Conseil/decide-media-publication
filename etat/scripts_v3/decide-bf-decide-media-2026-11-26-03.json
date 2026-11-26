@@ -1,0 +1,231 @@
+{
+  "accroches": [
+    "La 6e édition de la VITHRO s'ouvre à Ouagadougou du 24 au 29 novembre 2026.",
+    "Le Sénégal est le pays invité d'honneur de la VITHRO 2026 au Burkina Faso.",
+    "Le tourisme et la souveraineté économique sont au cœur de la VITHRO 2026."
+  ],
+  "titre": "VITHRO 2026 : Ouverture du tourisme",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "La 6e édition de la *VITHRO* a ouvert ses portes.",
+      "dit": "La 6e édition de la VITHRO se tient du 24 au 29 novembre 2026 à Ouagadougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'événement se déroule dans la *ZAD*.",
+      "dit": "L'événement se déroule exactement dans la Zone d'activités diverses."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La *FOPATH-B* a lancé cette édition.",
+      "dit": "Selon le quotidien Sidwaya, la Fédération des organisations patronales du tourisme a lancé cette édition."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le comité est présidé par *Mamoudou* Zoungrana.",
+      "dit": "Le comité d'organisation est placé sous la présidence de Mamoudou Pierre Célestin Zoungrana."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *Sénégal* est invité d'honneur.",
+      "dit": "Pour cette édition, le Sénégal est le pays invité d'honneur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La région du *Nando* est à l'honneur.",
+      "dit": "De son côté, la région du Nando est la région invitée d'honneur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le thème porte sur la *souveraineté* économique.",
+      "dit": "Le thème de l'année interroge la contribution des acteurs privés du tourisme dans l'UEMOA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des excursions *Taan-guess* sont proposées.",
+      "dit": "Le public peut participer à des excursions Taan-guess pour découvrir des destinations."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'espace *Rifyam* met en avant les saveurs.",
+      "dit": "Un espace Rifyam est consacré aux saveurs du terroir et à la gastronomie régionale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un concours du meilleur *grilleur* est prévu.",
+      "dit": "Le programme inclut aussi un concours du meilleur grilleur de poulet bicyclette."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *panels* et des rencontres B2B.",
+      "dit": "Des expositions, des conférences et des rencontres professionnelles complètent l'agenda."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "29 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le salon ferme ses portes le *29 novembre*.",
+      "dit": "Le salon prend fin le 29 novembre 2026 après six jours d'activités."
+    }
+  ]
+}

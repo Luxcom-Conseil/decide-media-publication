@@ -1,0 +1,193 @@
+{
+  "accroches": [
+    "Une autorisation spéciale est désormais exigée pour importer du sucre.",
+    "Le Burkina Faso encadre l'importation de produits de base.",
+    "Un décret impose des contrôles sur l'exportation du maïs."
+  ],
+  "titre": "Contrôle des importations au Burkina",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une *autorisation* est exigée pour importer du sucre.",
+      "dit": "Une autorisation spéciale est désormais exigée pour importer du sucre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le décret date du *30 octobre* 2026.",
+      "dit": "Le décret a été signé le 30 octobre 2026 au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le riz et le *lait* sont aussi concernés.",
+      "dit": "Il impose cette règle pour le riz, la farine de blé, le lait et les huiles alimentaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'exportation du *maïs* est également soumise.",
+      "dit": "L'exportation du maïs, du mil et du sorgho nécessite aussi ce document selon Lefaso.net."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le texte porte le numéro *2026-1254*.",
+      "dit": "Le texte porte le numéro 2026-1254 pour placer ces mouvements sous contrôle."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *ciment* entre dans la liste.",
+      "dit": "À l'importation, la liste comprend aussi le concentré de tomate et le ciment."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les *équipements* solaires sont aussi visés.",
+      "dit": "Les équipements solaires ainsi que les pneus pour engins à deux roues sont concernés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'exportation de *l'or* est encadrée.",
+      "dit": "Pour l'exportation, le texte vise le bétail, l'or, l'oignon et la noix de cajou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'ancien décret est *abrogé*.",
+      "dit": "Ce nouveau texte abroge celui qui datait du 28 octobre 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plusieurs *ministres* exécutent le texte.",
+      "dit": "Les ministres de l'Industrie et des Finances sont chargés de son exécution."
+    }
+  ]
+}

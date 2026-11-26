@@ -1,0 +1,205 @@
+{
+  "accroches": [
+    "1,6 milliard de francs CFA ont été mobilisés au Burkina Faso.",
+    "Le programme Feed Good a touché 105 000 personnes au Burkina Faso.",
+    "Le programme Feed Good affiche un taux d'exécution physique de 98 %."
+  ],
+  "titre": "Burkina Faso : bilan du programme Feed Good",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "1,6 milliard de FCFA *mobilisés*",
+      "dit": "Plus de 1,6 milliard de francs CFA ont été mobilisés au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 615 639 299",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un total de *1 615 639 299* FCFA",
+      "dit": "Selon Lefaso.net, la somme exacte atteint 1 615 639 299 francs CFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un programme financé par la *Belgique*",
+      "dit": "Ce financement s'inscrit dans le programme Feed Good 2022-2026 soutenu par la Belgique."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Koudougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un bilan présenté à *Koudougou*",
+      "dit": "Le bilan a été présenté lors d'un atelier à Koudougou après cinq ans d'action."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Agir pour les systèmes *alimentaires*",
+      "dit": "Ces interventions visent la transformation des systèmes alimentaires locaux."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de *105 000* personnes touchées",
+      "dit": "Le programme a touché directement plus de 105 000 personnes sur le terrain."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*98 %* d'exécution physique",
+      "dit": "Selon le rapport, le taux d'exécution physique s'élève à 98 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*95 %* d'exécution financière",
+      "dit": "De son côté, le taux d'exécution financière atteint 95 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *réalisations* sur le terrain",
+      "dit": "Trois centres agroécologiques et des unités de transformation maraîchère ont été créés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *minoterie* pour le maïs",
+      "dit": "Un complexe économique et une minoterie de maïs ont aussi été installés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *détails* non précisés",
+      "dit": "Lefaso.net ne détaille pas la part reçue par chaque bénéficiaire du programme."
+    }
+  ]
+}
