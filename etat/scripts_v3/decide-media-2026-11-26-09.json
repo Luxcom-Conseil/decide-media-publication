@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "150 places sont ouvertes au concours d'ICT University à Yaoundé.",
+    "ICT University ouvre 150 places pour son concours au Cameroun.",
+    "Les dossiers pour le concours d'ICT University coûtent 20 000 FCFA."
+  ],
+  "titre": "ICT University : 150 places",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "150 places *ouvertes* à ICT University",
+      "dit": "150 places sont ouvertes au concours d'ICT University à Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dépôt des *dossiers* avant le 27 novembre",
+      "dit": "Les candidats peuvent déposer leur dossier jusqu'au 27 novembre 2026 à 15h30, selon camer.be."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Concours prévu le *30 novembre*",
+      "dit": "Le concours a lieu le 30 novembre au campus d'ICT University à Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "150 places en *cycle* d'ingénieurs",
+      "dit": "Le titre de camer.be annonce 150 places en cycle d'ingénieurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "20 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Frais de *dossier* à 20 000 FCFA",
+      "dit": "Les frais de dépôt du dossier sont fixés à 20 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Inscription en *ligne* sur la plateforme",
+      "dit": "L'inscription se fait en ligne sur la plateforme de l'université."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Annonce du *MINESUP* avec l'université",
+      "dit": "Le concours est annoncé par le ministère de l'Enseignement supérieur en collaboration avec l'établissement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tutelle de l' *Université* de Dschang",
+      "dit": "Il est placé sous la tutelle académique de la Faculté d'agronomie et des sciences agricoles de l'Université de Dschang."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Date *limite* fixée à vendredi",
+      "dit": "La date limite tombe le vendredi 27 novembre à 15h30."
+    }
+  ]
+}

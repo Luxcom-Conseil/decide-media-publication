@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "21 000 FCFA est le cours de référence pour l'entrée en Bourse de Renaprov Finance.",
+    "58 919 actions de Renaprov sont annoncées pour le compartiment B-Medium.",
+    "1,237 milliard de FCFA est la valeur des actions admises selon le prix de référence."
+  ],
+  "titre": "Renaprov Finance en Bourse",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "21 000 FCFA le cours de *référence*",
+      "dit": "21 000 FCFA est le cours de référence pour l'entrée en Bourse de Renaprov Finance le 1er décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ce n'est pas un prix *garanti*",
+      "dit": "Selon la BVMAC, ce cours de référence ne garantit pas le prix des premiers échanges sur le marché."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une séance en offre à prix *ouvert*",
+      "dit": "La séance de cotation se fait en offre à prix ouvert avec Afriland Bourse Investment comme arrangeur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1237000000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "58 919 actions pour le compartiment *B-Medium*",
+      "dit": "58 919 actions de Renaprov sont annoncées pour le compartiment B-Medium avec une valeur de 1,237 milliard."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'offre initiale visait 400 000 *actions*",
+      "dit": "L'offre de départ proposait 400 000 actions nouvelles pour lever 8,4 milliards de FCFA sur le marché."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "14,73 % du volume initial *retenu*",
+      "dit": "Ces actions admises représentent 14,73 % de ce volume initial selon le journal Investir au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 août 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un refus en l'état le 5 *août*",
+      "dit": "Le 5 août 2026, le comité d'admission avait refusé en l'état l'entrée en Bourse avec des demandes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "16 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une autorisation sous *réserve*",
+      "dit": "Le 16 octobre, l'admission avait été autorisée sous réserve d'un avis de non-opposition de la COSUMAF."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les conditions du règlement *général*",
+      "dit": "L'article 77 exige notamment 5 milliards de capitalisation, 15 % du capital diffusé et 500 000 titres."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des interrogations sur les *critères*",
+      "dit": "Le journal note qu'il n'est pas possible de déterminer comment Renaprov satisfait aux conditions du compartiment."
+    }
+  ]
+}

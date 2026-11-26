@@ -1,0 +1,144 @@
+{
+  "accroches": [
+    "70 000 tonnes de cacao ont été exportées illégalement vers le Nigeria.",
+    "70 000 tonnes de fèves de cacao ont fui vers le Nigeria en 2023/24.",
+    "La dounaie exige le paiement des taxes avant le départ des cargaisons."
+  ],
+  "titre": "Cacao : la douane contrôle les départs",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "70 000 tonnes de *cacao* exportées illégalement",
+      "dit": "70 000 tonnes de fèves de cacao ont été exportées illégalement vers le Nigeria lors de la campagne 2023/24."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Paiement des *taxes* avant le départ",
+      "dit": "La douane camerounaise exige désormais que les exportateurs paient droits et taxes avant que les camions quittent les entrepôts."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Directive signée le *23 novembre*",
+      "dit": "Cette directive a été signée le 23 novembre par le directeur général des douanes, Fongod Edwin Nuvaga."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Contrôles renforcés dans le *Sud-Ouest*",
+      "dit": "Le texte vise les exportations par route ou par fleuve avec des agents postés aux points de contrôle vers le Nigeria."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Recul des *exportations* en 2025",
+      "dit": "Selon les données des douanes, les exportations enregistrées de cacao brut ont reculé de 9 % en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 030 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus d'un milliard de *taxes* payées",
+      "dit": "Une coopérative du Sud-Ouest indique avoir payé 1,03 milliard de francs CFA de droits et taxes l'année dernière."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Publication de l'information le *25 novembre*",
+      "dit": "Cette information a été rapportée le 25 novembre 2026 par le média spécialisé Business in Cameroon."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Estimation du *NCCB*",
+      "dit": "Le chiffre de 70 000 tonnes exportées clandestinement provient d'une estimation du National Cocoa and Coffee Board."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Baisse des achats dans le *Sud-Ouest*",
+      "dit": "Dans la région du Sud-Ouest, les achats déclarés ont baissé de près de 20 % d'une campagne à l'autre."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "Le prix de la bière pourrait augmenter de 100 à 150 FCFA en 2027.",
+    "Le gouvernement envisage 50 milliards de FCFA de recettes fiscales supplémentaires.",
+    "Une taxe de 5 FCFA par bouteille est envisagée pour les brasseurs."
+  ],
+  "titre": "Hausse du prix de la bière au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Hausse de *100 à 150* FCFA",
+      "dit": "Le prix de la bière pourrait augmenter de 100 à 150 FCFA par bouteille en 2027 au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 50 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un projet de *50 milliards*",
+      "dit": "Selon le journal EcoMatin, le gouvernement envisage 50 milliards de FCFA de recettes supplémentaires par an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un droit de timbre de *5* FCFA",
+      "dit": "Parmi les mesures prévues dans le projet de loi de finances 2027 figure un droit de timbre de 5 FCFA par bouteille."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des discussions à *Douala*",
+      "dit": "Des consultations entre le fisc et les industriels ont eu lieu en août 2026 à Douala."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les brasseurs en *négociation*",
+      "dit": "Cette fiscalité oppose l'État aux industriels comme Boissons du Cameroun, Guinness et l'Union camerounaise de brasseries."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "décembre 2023",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une demande de *hausse*",
+      "dit": "La CAPA, qui fédère les acteurs de la filière, avait déjà demandé en décembre 2023 une hausse de 50 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "novembre 2024",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des débits de boissons *fermés*",
+      "dit": "En novembre 2024, des débits avaient relevé leurs tarifs seuls, entraînant des fermetures par le ministère du Commerce."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Rien n'est *décidé*",
+      "dit": "Pour le client, le montant de 100 à 150 FCFA et le droit de timbre sont des scénarios et non des tarifs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le projet au *Parlement*",
+      "dit": "Le projet de loi de finances 2027 n'a pas encore été déposé au Parlement et aucune date de vote n'est fixée."
+    }
+  ]
+}

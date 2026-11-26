@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "L'hôpital Laquintinie offre des consultations médicales gratuites du 1er au 30 décembre 2026.",
+    "L'hôpital Laquintinie célèbre ses 95 ans avec un programme spécial à Douala.",
+    "L'hôpital Laquintinie prévoit une marche sportive de 9,5 km pour son anniversaire."
+  ],
+  "titre": "Laquintinie : consultations gratuites",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'hôpital Laquintinie offre des consultations *gratuites*.",
+      "dit": "L'hôpital Laquintinie de Douala offre des consultations médicales gratuites du 1er au 30 décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'établissement célèbre ses *95 ans*.",
+      "dit": "Cette action s'inscrit dans le programme des 95 ans de cet établissement créé le 24 novembre 1931."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des journées *portes ouvertes* ont débuté.",
+      "dit": "Selon camer.be, des journées portes ouvertes ont été lancées le 25 novembre pour marquer cet anniversaire."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 décembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des créneaux pour les plus de *70 ans*.",
+      "dit": "Des journées spécifiques sont réservées aux personnes de plus de 70 ans, notamment les 12 et 17 décembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "1er décembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un programme *scientifique* est prévu.",
+      "dit": "Le programme comprend aussi des journées scientifiques du 1er au 3 décembre dans l'établissement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "9 décembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une soirée de *gala* pour les mécènes.",
+      "dit": "Une soirée de gala en hommage aux mécènes est organisée le 9 décembre, suivie de la Fête de l'Excellence."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Douala",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une marche sportive de *9,5 km*.",
+      "dit": "Une marche sportive de 9,5 km est également au programme, avec une date exacte à confirmer auprès de l'hôpital."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "De nouveaux projets pour *l'hôpital*.",
+      "dit": "La directrice a présenté des projets à court terme, comme le dossier médical informatisé et la gérontologie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 décembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les coûts d'hospitalisation sont *établis*.",
+      "dit": "Les coûts d'une journée d'hospitalisation sont désormais fixés selon le standing choisi jusqu'au 30 décembre."
+    }
+  ]
+}

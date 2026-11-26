@@ -1,0 +1,173 @@
+{
+  "accroches": [
+    "11,6 millions d'euros de primes de durabilité versés par Touton.",
+    "7,61 milliards de FCFA de primes pour 132 000 producteurs africains.",
+    "Touton a versé 11,6 millions d'euros de primes de durabilité."
+  ],
+  "titre": "Cacao : les primes de Touton",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "11,6 millions *d'euros* de primes",
+      "dit": "Touton affirme avoir versé 11,6 millions d'euros de primes de durabilité à ses cacaoculteurs partenaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "7610000000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "7,61 milliards *de FCFA* versés",
+      "dit": "Cette somme équivaut à environ 7,61 milliards de FCFA et couvre 132 000 producteurs selon le rapport 2025/2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Quatre pays *africains* concernés",
+      "dit": "Le dispositif concerne le Cameroun, la Côte d'Ivoire, le Ghana et le Nigeria sans répartition précise."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "57600",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Environ 57 600 *FCFA* par producteur",
+      "dit": "En divisant à parts égales, on obtient une moyenne d'environ 57 600 FCFA par producteur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "3 230 hectares *cartographiés* au Cameroun",
+      "dit": "Au Cameroun, Touton a cartographié 3 230 hectares à la fin de la campagne, soit une hausse de 111 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "31 décembre 2020",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Règlement européen *contre* la déforestation",
+      "dit": "Cette démarche répond au règlement européen exigeant que les terres n'aient pas été déboisées après 2020."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Application en *décembre* 2026",
+      "dit": "Les principales obligations s'appliqueront à partir du 30 décembre 2026 pour les opérateurs moyens et grands."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 juin 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Puis en *juin* 2027",
+      "dit": "L'échéance sera fixée au 30 juin 2027 pour les micro et petites entreprises."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Données de *l'ONCC*",
+      "dit": "Selon l'Office national du cacao et du café, l'entreprise a importé 17 581 tonnes en 2024 et 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une part de *marché* de 11,4 %",
+      "dit": "Le volume a reculé à 14 303 tonnes tandis que la part de marché a atteint 11,4 %."
+    }
+  ]
+}

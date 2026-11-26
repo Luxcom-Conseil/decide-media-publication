@@ -1,0 +1,169 @@
+{
+  "accroches": [
+    "Une tour 4G a été déployée par NuRAN et Orange Cameroun.",
+    "NuRAN a annoncé avoir déployé une tour 4G avec Orange Cameroun.",
+    "Les premiers résultats atteignent 13,28 Mbps en téléchargement selon NuRAN."
+  ],
+  "titre": "Orange mise sur la 4G rurale",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Une tour *4G* déployée",
+      "dit": "Une tour 4G a été déployée par NuRAN et Orange Cameroun selon un communiqué du 18 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des travaux sur *deux* sites",
+      "dit": "L'entreprise canadienne spécialisée dans les télécommunications a aussi engagé des travaux sur deux autres sites."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un débit de *13,28* Mbps",
+      "dit": "Selon l'entreprise, les premiers résultats atteignent 13,28 mégabits par seconde en téléchargement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'envoi à *7,92* Mbps",
+      "dit": "L'envoi de données atteint quant à lui 7,92 mégabits par seconde d'après ces mêmes chiffres."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une liaison de *400* Mbps",
+      "dit": "La liaison par faisceau hertzien qui relie la tour au réseau a une capacité de plus de 400 mégabits par seconde."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un contrat en *octobre 2020*",
+      "dit": "Ce partenariat date d'octobre 2020 avec un premier contrat initial portant sur 122 sites."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une option pour *120* sites",
+      "dit": "En mars 2021, Orange Cameroun a levé une option pour 120 sites supplémentaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une livraison de *122* tours",
+      "dit": "NuRAN a livré une première tranche de 122 tours pour Orange Cameroun selon son rapport du troisième trimestre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un total de *5 092* tours",
+      "dit": "L'entreprise revendique au total 5 092 tours sous contrat réparties dans huit pays différents."
+    }
+  ]
+}
