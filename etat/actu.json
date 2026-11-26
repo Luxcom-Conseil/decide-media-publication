@@ -15,7 +15,15 @@
   "https://www.franceinfo.fr/politique/l-assemblee-nationale-adopte-en-premiere-lecture-le-projet-de-loi-de-relance-du-logement_8298255.html#xtor=RSS-3-%5Beconomie%5D",
   "https://www.franceinfo.fr/internet/nvidia/donald-trump-s-est-il-enrichi-avec-le-retour-surprise-de-jensen-huang-a-la-tete-de-nvidia_8298000.html#xtor=RSS-3-%5Beconomie%5D",
   "https://www.franceinfo.fr/replay-radio/le-monde-et-vous/de-fausses-reunions-zoom-pour-voler-des-millions-le-fbi-devoile-une-vaste-arnaque-attribuee-a-la-coree-du-nord_8266715.html#xtor=RSS-3-%5Binternet%2Fsecurite-sur-internet%5D",
-  "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-%5Beconomie%5D"
+  "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/le-groupement-les-mousquetaires-intermarche-en-passe-de-racheter-chronodrive-a-auchan_8300139.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/apprentissage-les-fraudes-et-les-abus-pourraient-couter-3-milliards-d-euros-selon-la-cour-des-comptes_8300244.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.20minutes.fr/economie/4265678-20261125-union-europeenne-mexique-chine-etats-unis-annoncent-nouveaux-droits-douane?at_medium=display&at_campaign=149",
+  "https://www.franceinfo.fr/economie/la-banque-independante-delubac-placee-sous-le-controle-du-gendarme-du-secteur-bancaire_8299923.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.20minutes.fr/economie/4265698-20261125-banque-bnp-paribas-prevoit-supprimer-100-postes-france-transferer-portugal?at_medium=display&at_campaign=149",
+  "https://www.franceinfo.fr/economie/commerce/black-friday-comment-reperer-les-fausses-promos_8299893.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.bfmtv.com/economie/video-3-milliards-d-euros-d-abus-sur-l-apprentissage_VN-202611250840.html",
+  "https://www.20minutes.fr/economie/4265644-20261125-premiere-fois-paiements-carte-depasse-ceux-especes-europe?at_medium=display&at_campaign=149"
  ],
  "journal": [
   {
@@ -129,6 +137,62 @@
    "code": "2a",
    "nom": "actu-2026-11-25-7-2a",
    "url": "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-26",
+   "creneau": 0,
+   "code": "1a",
+   "nom": "actu-2026-11-26-0-1a",
+   "url": "https://www.franceinfo.fr/economie/le-groupement-les-mousquetaires-intermarche-en-passe-de-racheter-chronodrive-a-auchan_8300139.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-26",
+   "creneau": 1,
+   "code": "1b",
+   "nom": "actu-2026-11-26-1-1b",
+   "url": "https://www.franceinfo.fr/economie/apprentissage-les-fraudes-et-les-abus-pourraient-couter-3-milliards-d-euros-selon-la-cour-des-comptes_8300244.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-26",
+   "creneau": 2,
+   "code": "2c",
+   "nom": "actu-2026-11-26-2-2c",
+   "url": "https://www.20minutes.fr/economie/4265678-20261125-union-europeenne-mexique-chine-etats-unis-annoncent-nouveaux-droits-douane?at_medium=display&at_campaign=149"
+  },
+  {
+   "jour": "2026-11-26",
+   "creneau": 3,
+   "code": "4a",
+   "nom": "actu-2026-11-26-3-4a",
+   "url": "https://www.franceinfo.fr/economie/la-banque-independante-delubac-placee-sous-le-controle-du-gendarme-du-secteur-bancaire_8299923.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-26",
+   "creneau": 4,
+   "code": "6a",
+   "nom": "actu-2026-11-26-4-6a",
+   "url": "https://www.20minutes.fr/economie/4265698-20261125-banque-bnp-paribas-prevoit-supprimer-100-postes-france-transferer-portugal?at_medium=display&at_campaign=149"
+  },
+  {
+   "jour": "2026-11-26",
+   "creneau": 5,
+   "code": "5c",
+   "nom": "actu-2026-11-26-5-5c",
+   "url": "https://www.franceinfo.fr/economie/commerce/black-friday-comment-reperer-les-fausses-promos_8299893.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-26",
+   "creneau": 6,
+   "code": "7b",
+   "nom": "actu-2026-11-26-6-7b",
+   "url": "https://www.bfmtv.com/economie/video-3-milliards-d-euros-d-abus-sur-l-apprentissage_VN-202611250840.html"
+  },
+  {
+   "jour": "2026-11-26",
+   "creneau": 7,
+   "code": "2b",
+   "nom": "actu-2026-11-26-7-2b",
+   "url": "https://www.20minutes.fr/economie/4265644-20261125-premiere-fois-paiements-carte-depasse-ceux-especes-europe?at_medium=display&at_campaign=149"
   }
  ],
  "programmes": [
@@ -222,14 +286,16 @@
    "nom": "actu-2026-11-25-0-1b",
    "reseau": "tiktok",
    "buffer": "6b062954c4ff71faa81e10cc",
-   "heure": "2026-11-25T07:30:00+01:00"
+   "heure": "2026-11-25T07:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-25",
    "nom": "actu-2026-11-25-1-1c",
    "reseau": "tiktok",
    "buffer": "6b062956a8becebb7747a990",
-   "heure": "2026-11-25T09:00:00+01:00"
+   "heure": "2026-11-25T09:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-25",
@@ -243,21 +309,24 @@
    "nom": "actu-2026-11-25-2-6c",
    "reseau": "tiktok",
    "buffer": "6b06295c615ec212af72f07a",
-   "heure": "2026-11-25T10:30:00+01:00"
+   "heure": "2026-11-25T10:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-25",
    "nom": "actu-2026-11-25-3-5a",
    "reseau": "tiktok",
    "buffer": "6b06295ff0b405190ac6f227",
-   "heure": "2026-11-25T14:00:00+01:00"
+   "heure": "2026-11-25T14:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-25",
    "nom": "actu-2026-11-25-4-2b",
    "reseau": "tiktok",
    "buffer": "6b062962a8becebb7747ac3a",
-   "heure": "2026-11-25T16:30:00+01:00"
+   "heure": "2026-11-25T16:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-25",
@@ -271,14 +340,16 @@
    "nom": "actu-2026-11-25-5-3b",
    "reseau": "tiktok",
    "buffer": "6b062967c4ff71faa81e1794",
-   "heure": "2026-11-25T18:00:00+01:00"
+   "heure": "2026-11-25T18:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-25",
    "nom": "actu-2026-11-25-6-4c",
    "reseau": "tiktok",
    "buffer": "6b062969f0b405190ac6f70b",
-   "heure": "2026-11-25T19:30:00+01:00"
+   "heure": "2026-11-25T19:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-25",
@@ -292,7 +363,85 @@
    "nom": "actu-2026-11-25-7-2a",
    "reseau": "tiktok",
    "buffer": "6b06296e9192919413279419",
-   "heure": "2026-11-25T22:00:00+01:00"
+   "heure": "2026-11-25T22:00:00+01:00",
+   "envoye": true
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-0-1a",
+   "reseau": "tiktok",
+   "buffer": "6b077b13a791bea1b23b930f",
+   "heure": "2026-11-26T07:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-1-1b",
+   "reseau": "tiktok",
+   "buffer": "6b077b15b8e2338b8575e6da",
+   "heure": "2026-11-26T09:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-1-1b",
+   "reseau": "youtube",
+   "youtube": "HZ12wbOF8qc",
+   "heure": "2026-11-26T09:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-2-2c",
+   "reseau": "tiktok",
+   "buffer": "6b077b1a9f6dda31ccab711c",
+   "heure": "2026-11-26T10:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-3-4a",
+   "reseau": "tiktok",
+   "buffer": "6b077b1d9f6dda31ccab721d",
+   "heure": "2026-11-26T14:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-4-6a",
+   "reseau": "tiktok",
+   "buffer": "6b077b1fa791bea1b23b9592",
+   "heure": "2026-11-26T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-4-6a",
+   "reseau": "youtube",
+   "youtube": "VTvp4zdVeio",
+   "heure": "2026-11-26T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-5-5c",
+   "reseau": "tiktok",
+   "buffer": "6b077b25b96dd8d3517420b0",
+   "heure": "2026-11-26T18:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-6-7b",
+   "reseau": "tiktok",
+   "buffer": "6b077b2707071a60673d5010",
+   "heure": "2026-11-26T19:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-6-7b",
+   "reseau": "youtube",
+   "youtube": "EH4ISFgrq-w",
+   "heure": "2026-11-26T19:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-26",
+   "nom": "actu-2026-11-26-7-2b",
+   "reseau": "tiktok",
+   "buffer": "6b077b2dd4eda4b659c1efbc",
+   "heure": "2026-11-26T22:00:00+01:00"
   }
  ]
 }
