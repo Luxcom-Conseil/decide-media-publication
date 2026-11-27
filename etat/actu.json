@@ -31,7 +31,15 @@
   "https://www.20minutes.fr/monde/4265967-20261126-elon-musk-promet-deux-actions-spacex-chaque-enfant-amerique?at_medium=display&at_campaign=149",
   "https://www.franceinfo.fr/economie/black-friday-quand-des-robots-preparent-des-commandes_8302092.html#xtor=RSS-3-%5Beconomie%5D",
   "https://www.franceinfo.fr/economie/a-paris-cette-gare-de-marchandises-a-91-millions-d-euros-n-a-jamais-accueilli-de-train_8302014.html#xtor=RSS-3-%5Beconomie%5D",
-  "https://www.franceinfo.fr/economie/petit-electromenager-pourquoi-les-aspirateurs-laveurs-ont-ils-autant-la-cote_8302089.html#xtor=RSS-3-%5Beconomie%5D"
+  "https://www.franceinfo.fr/economie/petit-electromenager-pourquoi-les-aspirateurs-laveurs-ont-ils-autant-la-cote_8302089.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.lefigaro.fr/conjoncture/la-france-est-en-legere-recession-depuis-le-deuxieme-trimestre-selon-l-insee-20261127",
+  "https://www.franceinfo.fr/economie/mutuelle-auto-habitation-une-nouvelle-flambee-des-tarifs-des-assurances-en-2027_8303730.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/transports/prix-des-carburants/il-y-a-vraiment-une-grande-difference-enfin-du-gazole-sous-les-2-euros-dans-les-stations-services_8303175.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.lefigaro.fr/conso/les-francais-veulent-se-faire-plaisir-malgre-l-inflation-le-secteur-du-jouet-en-route-vers-une-nouvelle-annee-record-20261124",
+  "https://www.franceinfo.fr/economie/industrie/on-est-quand-meme-inquiets-pour-l-avenir-du-site-des-salaries-de-stellantis-mis-en-chomage-partiel-a-rennes-et-mulhouse-face-aux-difficultes-du-groupe_8303127.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/france/occitanie/haute-garonne/en-haute-garonne-des-ramoneurs-ont-ils-genere-des-photos-par-ia-pour-alourdir-la-facture-d-une-cliente_8303154.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/la-commission-de-securite-valide-la-reouverture-du-bhv-marais-a-paris-apres-trois-semaines-de-fermeture_8303787.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/pouvoir-achat/chaque-annee-c-est-plus-tendu-nouveau-bras-de-fer-sur-les-prix-entre-supermarches-et-industriels_8303733.html#xtor=RSS-3-%5Beconomie%5D"
  ],
  "journal": [
   {
@@ -257,6 +265,62 @@
    "code": "2b",
    "nom": "actu-2026-11-27-7-2b",
    "url": "https://www.franceinfo.fr/economie/petit-electromenager-pourquoi-les-aspirateurs-laveurs-ont-ils-autant-la-cote_8302089.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-28",
+   "creneau": 0,
+   "code": "1c",
+   "nom": "actu-2026-11-28-0-1c",
+   "url": "https://www.lefigaro.fr/conjoncture/la-france-est-en-legere-recession-depuis-le-deuxieme-trimestre-selon-l-insee-20261127"
+  },
+  {
+   "jour": "2026-11-28",
+   "creneau": 1,
+   "code": "1a",
+   "nom": "actu-2026-11-28-1-1a",
+   "url": "https://www.franceinfo.fr/economie/mutuelle-auto-habitation-une-nouvelle-flambee-des-tarifs-des-assurances-en-2027_8303730.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-28",
+   "creneau": 2,
+   "code": "6b",
+   "nom": "actu-2026-11-28-2-6b",
+   "url": "https://www.franceinfo.fr/economie/transports/prix-des-carburants/il-y-a-vraiment-une-grande-difference-enfin-du-gazole-sous-les-2-euros-dans-les-stations-services_8303175.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-28",
+   "creneau": 3,
+   "code": "5c",
+   "nom": "actu-2026-11-28-3-5c",
+   "url": "https://www.lefigaro.fr/conso/les-francais-veulent-se-faire-plaisir-malgre-l-inflation-le-secteur-du-jouet-en-route-vers-une-nouvelle-annee-record-20261124"
+  },
+  {
+   "jour": "2026-11-28",
+   "creneau": 4,
+   "code": "2a",
+   "nom": "actu-2026-11-28-4-2a",
+   "url": "https://www.franceinfo.fr/economie/industrie/on-est-quand-meme-inquiets-pour-l-avenir-du-site-des-salaries-de-stellantis-mis-en-chomage-partiel-a-rennes-et-mulhouse-face-aux-difficultes-du-groupe_8303127.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-28",
+   "creneau": 5,
+   "code": "4b",
+   "nom": "actu-2026-11-28-5-4b",
+   "url": "https://www.franceinfo.fr/france/occitanie/haute-garonne/en-haute-garonne-des-ramoneurs-ont-ils-genere-des-photos-par-ia-pour-alourdir-la-facture-d-une-cliente_8303154.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-28",
+   "creneau": 6,
+   "code": "3b",
+   "nom": "actu-2026-11-28-6-3b",
+   "url": "https://www.franceinfo.fr/economie/la-commission-de-securite-valide-la-reouverture-du-bhv-marais-a-paris-apres-trois-semaines-de-fermeture_8303787.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-28",
+   "creneau": 7,
+   "code": "2c",
+   "nom": "actu-2026-11-28-7-2c",
+   "url": "https://www.franceinfo.fr/economie/pouvoir-achat/chaque-annee-c-est-plus-tendu-nouveau-bras-de-fer-sur-les-prix-entre-supermarches-et-industriels_8303733.html#xtor=RSS-3-%5Beconomie%5D"
   }
  ],
  "programmes": [
@@ -520,14 +584,16 @@
    "nom": "actu-2026-11-27-0-1a",
    "reseau": "tiktok",
    "buffer": "6b08c8f47c3f43554e3f3183",
-   "heure": "2026-11-27T07:30:00+01:00"
+   "heure": "2026-11-27T07:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-27",
    "nom": "actu-2026-11-27-1-1b",
    "reseau": "tiktok",
    "buffer": "6b08c8f69131f7416c59c5be",
-   "heure": "2026-11-27T09:00:00+01:00"
+   "heure": "2026-11-27T09:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-27",
@@ -541,21 +607,24 @@
    "nom": "actu-2026-11-27-2-4a",
    "reseau": "tiktok",
    "buffer": "6b08c8fd7c3f43554e3f34fe",
-   "heure": "2026-11-27T10:30:00+01:00"
+   "heure": "2026-11-27T10:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-27",
    "nom": "actu-2026-11-27-3-2a",
    "reseau": "tiktok",
    "buffer": "6b08c9007c3f43554e3f366a",
-   "heure": "2026-11-27T14:00:00+01:00"
+   "heure": "2026-11-27T14:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-27",
    "nom": "actu-2026-11-27-4-6a",
    "reseau": "tiktok",
    "buffer": "6b08c9029131f7416c59c989",
-   "heure": "2026-11-27T16:30:00+01:00"
+   "heure": "2026-11-27T16:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-27",
@@ -569,14 +638,16 @@
    "nom": "actu-2026-11-27-5-5b",
    "reseau": "tiktok",
    "buffer": "6b08c9099131f7416c59d028",
-   "heure": "2026-11-27T18:00:00+01:00"
+   "heure": "2026-11-27T18:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-27",
    "nom": "actu-2026-11-27-6-7b",
    "reseau": "tiktok",
    "buffer": "6b08c90d8899c4e779fdabf0",
-   "heure": "2026-11-27T19:30:00+01:00"
+   "heure": "2026-11-27T19:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-27",
@@ -590,7 +661,85 @@
    "nom": "actu-2026-11-27-7-2b",
    "reseau": "tiktok",
    "buffer": "6b08c9128899c4e779fdaf4b",
-   "heure": "2026-11-27T22:00:00+01:00"
+   "heure": "2026-11-27T22:00:00+01:00",
+   "envoye": true
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-0-1c",
+   "reseau": "tiktok",
+   "buffer": "6b0a106523fb5b7700feb2eb",
+   "heure": "2026-11-28T07:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-1-1a",
+   "reseau": "tiktok",
+   "buffer": "6b0a106870e80ae8f1b4215e",
+   "heure": "2026-11-28T09:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-1-1a",
+   "reseau": "youtube",
+   "youtube": "UHPv534RlgQ",
+   "heure": "2026-11-28T09:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-2-6b",
+   "reseau": "tiktok",
+   "buffer": "6b0a106deada83daa6a8dbab",
+   "heure": "2026-11-28T10:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-3-5c",
+   "reseau": "tiktok",
+   "buffer": "6b0a106feab081a3f505cc93",
+   "heure": "2026-11-28T14:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-4-2a",
+   "reseau": "tiktok",
+   "buffer": "6b0a107270e80ae8f1b42354",
+   "heure": "2026-11-28T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-4-2a",
+   "reseau": "youtube",
+   "youtube": "KQcsL1CMQQM",
+   "heure": "2026-11-28T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-5-4b",
+   "reseau": "tiktok",
+   "buffer": "6b0a107723fb5b7700febbd4",
+   "heure": "2026-11-28T18:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-6-3b",
+   "reseau": "tiktok",
+   "buffer": "6b0a107aeab081a3f505d2b5",
+   "heure": "2026-11-28T19:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-6-3b",
+   "reseau": "youtube",
+   "youtube": "T6WPQ8GIFX8",
+   "heure": "2026-11-28T19:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-28",
+   "nom": "actu-2026-11-28-7-2c",
+   "reseau": "tiktok",
+   "buffer": "6b0a107e41454797ead17a13",
+   "heure": "2026-11-28T22:00:00+01:00"
   }
  ]
 }
