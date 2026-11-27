@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "550 millions d'euros de financement durable pour le Cameroun.",
+    "Le Cameroun finalise un financement durable de 550 millions d'euros.",
+    "Une garantie de 466 millions d'euros de la Banque africaine."
+  ],
+  "titre": "Financement durable de 550 millions d'euros",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaounde",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Financement de 550 millions d'euros au *Cameroun*",
+      "dit": "Le Cameroun s'apprête à finaliser un financement durable de 550 millions d'euros avec l'appui de la BAD."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "360 800 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cela représente 360,8 milliards de *FCFA*",
+      "dit": "Cela représente 360,8 milliards de francs CFA selon le communiqué publié par le ministère des Finances."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "305 700 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une garantie partielle de 305,7 milliards de *FCFA*",
+      "dit": "Ce financement devrait bénéficier d'une garantie de crédit partielle de la part de la Banque africaine."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La garantie équivaut à 84,7 % du *montant*",
+      "dit": "Ce plafond équivaut à 84,7 % du montant total de l'emprunt envisagé par les autorités."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Diversifier les sources de *financement*",
+      "dit": "Le but affiché est de diversifier les sources de financement et de mobiliser des fonds pour le pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "mi-décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Clôture financière prévue pour mi-*décembre*",
+      "dit": "La clôture financière et le décaissement de cette enveloppe sont prévus pour la mi-décembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "mars 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un cadre adopté en mars *2025*",
+      "dit": "Un cadre adopté en mars 2025 autorise le refinancement de dépenses éligibles remontant en arrière."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2024 - 2028",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des dépenses étalées sur cinq *exercices*",
+      "dit": "Les dépenses éligibles s'étendent sur cinq exercices, de 2024 à 2028, selon les informations obtenues."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Respecter des critères environnementaux ou *sociaux*",
+      "dit": "Ces dépenses peuvent concerner l'investissement, le fonctionnement ou des subventions sous conditions."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "un an",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un rapport annuel prévu après un *an*",
+      "dit": "Un rapport annuel est prévu à partir d'un an après l'obtention des fonds avec une vérification."
+    }
+  ]
+}

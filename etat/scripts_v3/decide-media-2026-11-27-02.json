@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "Le gouvernement camerounais explore l'option nucléaire sans montant d'investissement.",
+    "Le Cameroun envisage de petits réacteurs modulaires d'une puissance de 10 à 300 mégawatts.",
+    "L'hydroélectricité fournit 66 pour cent de la production d'électricité au Cameroun."
+  ],
+  "titre": "Le nucléaire au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le Cameroun *explore* l'option nucléaire",
+      "dit": "Le gouvernement camerounais explore l'option nucléaire, mais aucun site ni montant n'est annoncé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un délai de *trois mois* accordé",
+      "dit": "Lors du Conseil de cabinet du 25 novembre 2026, le Premier ministre a donné trois mois aux ministres."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *chronogramme* chiffré des démarches",
+      "dit": "Ils doivent remettre un chronogramme chiffré des démarches avant l'étude de faisabilité."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "De petits *réacteurs* modulaires envisagés",
+      "dit": "Le gouvernement évoque de petits réacteurs modulaires d'une puissance de 10 à 300 mégawatts."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "4 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une construction en *quatre ans*",
+      "dit": "Selon le ministre de l'Énergie, la construction durerait environ quatre ans."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'hydroélectricité fournit *66 pour cent*",
+      "dit": "L'hydroélectricité fournit 66 pour cent de la production d'électricité, contre 31 pour cent pour le thermique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "74",
+        "apres": "68",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le *remplissage* des réservoirs baisse",
+      "dit": "Le taux de remplissage des réservoirs est tombé à 68 pour cent, contre 74 pour cent en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "20 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *rationnements* dans sept régions",
+      "dit": "Le 20 novembre, la Société camerounaise d'électricité a annoncé des rationnements dans sept régions."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "juillet 2019",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *loi* de juillet 2019",
+      "dit": "Une loi sur la sûreté radiologique et nucléaire date de juillet 2019 au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plusieurs *obstacles* à franchir",
+      "dit": "Plusieurs obstacles restent à franchir, dont le financement, la gestion des déchets et les compétences."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "accroches": [
+    "2,7 milliards de transactions de monnaie mobile ont été enregistrées au Cameroun en 2025.",
+    "Plus de 80 % des utilisateurs interrogés paient avec leur mobile selon une enquête du CNEF.",
+    "Plus d'un adulte camerounais sur trois reste hors du système financier selon le CNEF."
+  ],
+  "titre": "Finance numérique au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "2,7 milliards de *transactions* mobiles",
+      "dit": "2,7 milliards de transactions de monnaie mobile ont été enregistrées au Cameroun en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un appel aux *banques* et fintechs",
+      "dit": "Le ministre des Finances Louis Paul Motaze a invité les banques le 26 novembre à proposer de l'épargne abordable."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Yaoundé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ouverture du premier salon *SAFINUM*",
+      "dit": "Il s'exprimait à l'ouverture de SAFINUM 2026 au Centre de conférences de Yaoundé pour trois jours."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *crédits* sans titre foncier",
+      "dit": "Le ministre évoque l'utilisation de l'historique des transactions numériques pour obtenir un crédit sans titre foncier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "67 *sites* de télécommunications mis en service",
+      "dit": "La ministre des Postes annonce un plan de modernisation avec 67 sites de télécommunications mis en service."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "80",
+        "apres": "80",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de 80 % *paient* par mobile",
+      "dit": "Plus de 80 % des utilisateurs interrogés paient avec leur mobile et 46 % utilisent l'épargne numérique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "36",
+        "apres": "36",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "36 % utilisent le *crédit* numérique",
+      "dit": "Environ 36 % recourent au crédit numérique selon une enquête citée par le ministère des Finances."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Inquiétudes sur la *sécurité*",
+      "dit": "Huit utilisateurs sur dix s'inquiètent toutefois de la sécurité de leurs transactions financières."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hors du système *financier*",
+      "dit": "Plus d'un adulte sur trois reste hors du système financier et l'économie informelle pèse 42 % du PIB."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Objectif de 65 % d'ici *2027*",
+      "dit": "Le gouvernement vise à étendre ces services à 65 % des adultes d'ici 2027 pour développer le secteur."
+    }
+  ]
+}

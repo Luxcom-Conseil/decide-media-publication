@@ -1,0 +1,144 @@
+{
+  "accroches": [
+    "147,83 heures de coupure d'électricité par client au Cameroun en 2025.",
+    "La durée moyenne de coupure a atteint 147,83 heures en 2025.",
+    "64,04 interruptions d'électricité par client au Cameroun en 2025."
+  ],
+  "titre": "Coupures d'électricité au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "147,83 heures de *coupure* en 2025",
+      "dit": "La durée moyenne de coupure d'électricité par client a atteint 147,83 heures en 2025 au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse par rapport à *2024*",
+      "dit": "Ce chiffre est en hausse par rapport à 2024, où elle était de 114,39 heures, selon le régulateur ARSEL."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "53,30",
+        "apres": "64,04",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "64,04 interruptions par *client*",
+      "dit": "Les interruptions sont aussi plus nombreuses avec 64,04 coupures par client en 2025 contre 53,30 l'année précédente."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "249,42 heures",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de dix jours sans *courant*",
+      "dit": "En zone rurale, la durée moyenne atteint 249,42 heures, soit plus de dix jours cumulés sans courant."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "58 %",
+        "apres": "41,2 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une fiabilité en forte *baisse*",
+      "dit": "La fiabilité des lignes de moyenne tension est tombée à 41,2 % contre 58 % en 2024."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un désaccord entre les *acteurs*",
+      "dit": "Mais ces chiffres ne font pas l'unanimité et l'ARSEL et la SOCADEL n'ont pas réussi à accorder leurs mesures."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "24 juillet 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réunion technique à *Kribi*",
+      "dit": "Lors d'un atelier technique à Kribi le 24 juillet 2026, les valeurs définitives n'ont pas été arrêtées."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un impact lourd pour les *entreprises*",
+      "dit": "Selon l'économiste Armand Kenfack, l'impact des coupures est particulièrement lourd pour les petites entreprises."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une énergie injectée en *hausse*",
+      "dit": "Pour l'expert Achille Abomo, la hausse de 5,7 % de l'énergie injectée dans les réseaux ne suffit pas."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "accroches": [
+    "L'État versait 174,29 milliards FCFA aux collectivités en 2025.",
+    "Les fonds reçus par les collectivités sont sous le seuil légal.",
+    "Les communes attendaient les centimes additionnels depuis le début d'année."
+  ],
+  "titre": "Financement des communes au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "174,29 milliards *FCFA* pour les communes",
+      "dit": "L'État a versé 174,29 milliards de FCFA aux collectivités locales en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Seulement 4,51 % des *recettes*",
+      "dit": "Selon Ecomatin, cette somme représentait seulement 4,51 % des recettes totales de l'État."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère des Finances du Cameroun",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Le ministre *défend* le bilan",
+      "dit": "Le ministre des Finances Louis Paul Motaze a défendu ce bilan dans le projet de loi de règlement 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "24 décembre 2019",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le seuil légal fixé à *15 %*",
+      "dit": "La loi du 24 décembre 2019 fixe pourtant la dotation de la décentralisation à 15 % au moins."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des recettes *insuffisantes*",
+      "dit": "L'impôt général synthétique, censé remplacer d'anciennes recettes communales, a aussi rapporté bien moins."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un *relèvement* progressif annoncé",
+      "dit": "Le ministre des Finances reconnaît l'écart avec la loi et annonce un relèvement progressif."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Pas de date",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucune *date* précisée",
+      "dit": "Ce relèvement dépend du transfert des compétences, mais aucune date précise n'a été donnée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "11 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Rien perçu au *11 novembre*",
+      "dit": "Au 11 novembre, les collectivités affirmaient n'avoir perçu aucun centime additionnel depuis le début d'année."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 100 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "100 milliards *FCFA* d'impayés",
+      "dit": "De son côté, le Trésor évalue ces impayés envers les collectivités à plus de 100 milliards FCFA."
+    }
+  ]
+}

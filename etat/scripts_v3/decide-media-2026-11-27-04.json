@@ -1,0 +1,178 @@
+{
+  "accroches": [
+    "43,8 milliards FCFA sont prévus pour électrifier 243 localités du Grand Nord.",
+    "L'AER lance un projet d'électrification de 43,8 milliards FCFA au Cameroun.",
+    "Le taux d'électrification rurale atteignait 6 % dans le Grand Nord en 2021."
+  ],
+  "titre": "Électricité : 43,8 milliards pour le Nord",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Agence d'électrification rurale",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "43,8 milliards pour *243 localités*",
+      "dit": "43,8 milliards FCFA sont prévus pour électrifier 243 localités du Grand Nord."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Nord",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un appel d'offres *international*",
+      "dit": "Ce 25 novembre, l'Agence d'électrification rurale a lancé un appel d'offres international selon EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Deux régions *visées*",
+      "dit": "Le projet concerne cinq lots répartis entre les régions du Nord et de l'Adamaoua."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "13 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Guider : le *plus gros* lot",
+      "dit": "Le lot de Guider est le plus important avec 69 localités pour 13 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "11 870 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Garoua et *Lagdo* financés",
+      "dit": "Garoua compte 55 localités pour 11,87 milliards, et Lagdo 38 localités pour 8,22 milliards."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "6 790 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'Adamaoua *également* concerné",
+      "dit": "Adamaoua Nord reçoit 6,79 milliards FCFA et Adamaoua Sud obtient 3,87 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "18 à 24 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des travaux de *18 à 24 mois*",
+      "dit": "Les délais d'exécution prévus sont de 18 mois pour deux lots, et de 24 mois pour les trois autres."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Union européenne",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Financement *international*",
+      "dit": "Le financement provient de la Banque européenne d'investissement, de l'Union européenne et de l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "6 % de *couverture rurale* en 2021",
+      "dit": "En 2021, l'ARSEL indiquait un taux d'électrification rurale de 6 % dans le Grand Nord."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des clients en *hausse de 40 %*",
+      "dit": "Fin 2025, la SOCADEL comptait 261 019 clients actifs dans la zone, contre 186 442 en 2021."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "811 750 personnes *déjà touchées*",
+      "dit": "Selon l'AER, le programme PERACE a déjà fourni un service électrique amélioré à 811 750 personnes."
+    }
+  ]
+}

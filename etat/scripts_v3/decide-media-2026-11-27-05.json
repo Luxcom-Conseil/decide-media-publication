@@ -1,0 +1,221 @@
+{
+  "accroches": [
+    "76,61 milliards de FCFA ont financé la route régionale Awaé-Esse-Soa.",
+    "La nouvelle route Awaé-Esse-Soa mesure exactement 82,252 km de long.",
+    "Le ministère annonce 943 emplois créés grâce au chantier."
+  ],
+  "titre": "Route Awaé-Esse-Soa",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "76,61 *milliards* de FCFA",
+      "dit": "76,61 milliards de FCFA ont financé la route régionale Awaé-Esse-Soa."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La route mesure *82,252* km",
+      "dit": "La route mesure 82,252 km selon le Journal du Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Inauguration ce *jeudi* 26 novembre",
+      "dit": "Le ministre des Travaux publics Emmanuel Nganou Djoumessi a présidé la cérémonie de mise en service ce jeudi 26 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Financement *public*",
+      "dit": "Le projet a été financé par le budget d'investissement public dans le cadre du plan triennal d'urgence."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le tronçon *Awaé-Esse*",
+      "dit": "Le tronçon Awaé-Esse est long de 49 km et comprend les ponts sur les rivières Zoui et Afamba."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des *travaux* confiés à une entreprise",
+      "dit": "Les travaux ont été confiés à China First Highway Engineering Company Cameroon."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Relier les *communes*",
+      "dit": "L'infrastructure relie les trois communes du département de la Mefou et Afamba, dont Awaé, Esse et Soa."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Desservir *22* villages",
+      "dit": "La route dessert 22 villages et s'ouvre sur les routes nationales numéros 1, 4 et 10."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Circulation *sous-régionale*",
+      "dit": "Elle permet aussi la circulation nationale et sous-régionale via la République centrafricaine."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Acheminer les produits *agricoles*",
+      "dit": "Les produits comme le macabo, le manioc et la banane-plantain pourront être acheminés plus vite vers les marchés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "943",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "943 *emplois* créés",
+      "dit": "Le ministère annonce 943 emplois créés dont 919 pour des nationaux."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "25 *forages* réalisés",
+      "dit": "Le projet comprend aussi 25 forages à motricité humaine le long de l'itinéraire."
+    }
+  ]
+}

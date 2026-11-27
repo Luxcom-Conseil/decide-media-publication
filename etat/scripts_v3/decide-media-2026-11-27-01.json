@@ -1,0 +1,193 @@
+{
+  "accroches": [
+    "72 % de la population avait accès à l'électricité au Cameroun en 2024.",
+    "Le Cameroun prépare sa première politique nationale des tarifs de l'électricité.",
+    "Aucun nouveau tarif de l'électricité n'est annoncé pour l'instant au Cameroun."
+  ],
+  "titre": "Électricité au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "72 % de la population avait *accès* à l'électricité en 2024",
+      "dit": "72 % de la population avait accès à l'électricité au Cameroun en 2024, selon la Banque mondiale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Yaoundé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le ministère de l'Eau a ouvert des *consultations*",
+      "dit": "Le 25 novembre 2026, à Yaoundé, le ministère de l'Eau et de l'Énergie a ouvert des consultations."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un contrat signé le *16 octobre* 2026",
+      "dit": "Le ministre a signé un contrat avec un consortium le 16 octobre 2026 pour préparer cette politique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le travail s'inscrit dans l'Energy *Compact*",
+      "dit": "Ce travail s'inscrit dans l'Energy Compact du Cameroun, adopté en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'étude doit examiner les tarifs *sociaux*",
+      "dit": "L'étude doit examiner les tarifs sociaux, qui sont des prix réduits pour des foyers modestes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des subventions ciblées pour certains *clients*",
+      "dit": "Elle se penche aussi sur des subventions ciblées et sur la péréquation tarifaire."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un prix unique malgré des *coûts* différents",
+      "dit": "La péréquation consiste à appliquer le même prix à des clients dont le courant ne coûte pas pareil."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des prix *imprévisibles* selon le ministère",
+      "dit": "Selon un représentant du ministère, l'absence de politique nationale a entraîné des décisions de prix imprévisibles."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun nouveau tarif n'est *annoncé*",
+      "dit": "Business in Cameroon note qu'aucun nouveau tarif et aucun montant de subvention n'a été annoncé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un rapport préliminaire examiné ce *25 novembre*",
+      "dit": "Les participants à l'atelier du 25 novembre ont examiné le rapport préliminaire du consultant."
+    }
+  ]
+}
