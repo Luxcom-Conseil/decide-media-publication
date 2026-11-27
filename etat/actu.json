@@ -23,7 +23,15 @@
   "https://www.20minutes.fr/economie/4265698-20261125-banque-bnp-paribas-prevoit-supprimer-100-postes-france-transferer-portugal?at_medium=display&at_campaign=149",
   "https://www.franceinfo.fr/economie/commerce/black-friday-comment-reperer-les-fausses-promos_8299893.html#xtor=RSS-3-%5Beconomie%5D",
   "https://www.bfmtv.com/economie/video-3-milliards-d-euros-d-abus-sur-l-apprentissage_VN-202611250840.html",
-  "https://www.20minutes.fr/economie/4265644-20261125-premiere-fois-paiements-carte-depasse-ceux-especes-europe?at_medium=display&at_campaign=149"
+  "https://www.20minutes.fr/economie/4265644-20261125-premiere-fois-paiements-carte-depasse-ceux-especes-europe?at_medium=display&at_campaign=149",
+  "https://www.franceinfo.fr/sante/medicament/doliprane-dafalgan-et-efferalgan-pourquoi-la-boite-de-paracetamol-va-t-elle-augmenter_8301477.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.20minutes.fr/auto/4265576-20261125-voitures-electriques-ventes-augmente-70-europe-depuis-janvier?at_medium=display&at_campaign=149",
+  "https://www.lefigaro.fr/secteur/high-tech/l-agence-france-presse-victime-d-une-cyberattaque-sa-plateforme-de-photos-et-videos-temporairement-inaccessible-20261126",
+  "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/secheresse/c-est-pas-le-psy-qui-va-faire-pousser-de-l-herbe-apres-le-suicide-d-un-agriculteur-sa-famille-temoigne_8302056.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.20minutes.fr/monde/4265967-20261126-elon-musk-promet-deux-actions-spacex-chaque-enfant-amerique?at_medium=display&at_campaign=149",
+  "https://www.franceinfo.fr/economie/black-friday-quand-des-robots-preparent-des-commandes_8302092.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/a-paris-cette-gare-de-marchandises-a-91-millions-d-euros-n-a-jamais-accueilli-de-train_8302014.html#xtor=RSS-3-%5Beconomie%5D",
+  "https://www.franceinfo.fr/economie/petit-electromenager-pourquoi-les-aspirateurs-laveurs-ont-ils-autant-la-cote_8302089.html#xtor=RSS-3-%5Beconomie%5D"
  ],
  "journal": [
   {
@@ -193,6 +201,62 @@
    "code": "2b",
    "nom": "actu-2026-11-26-7-2b",
    "url": "https://www.20minutes.fr/economie/4265644-20261125-premiere-fois-paiements-carte-depasse-ceux-especes-europe?at_medium=display&at_campaign=149"
+  },
+  {
+   "jour": "2026-11-27",
+   "creneau": 0,
+   "code": "1a",
+   "nom": "actu-2026-11-27-0-1a",
+   "url": "https://www.franceinfo.fr/sante/medicament/doliprane-dafalgan-et-efferalgan-pourquoi-la-boite-de-paracetamol-va-t-elle-augmenter_8301477.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-27",
+   "creneau": 1,
+   "code": "1b",
+   "nom": "actu-2026-11-27-1-1b",
+   "url": "https://www.20minutes.fr/auto/4265576-20261125-voitures-electriques-ventes-augmente-70-europe-depuis-janvier?at_medium=display&at_campaign=149"
+  },
+  {
+   "jour": "2026-11-27",
+   "creneau": 2,
+   "code": "4a",
+   "nom": "actu-2026-11-27-2-4a",
+   "url": "https://www.lefigaro.fr/secteur/high-tech/l-agence-france-presse-victime-d-une-cyberattaque-sa-plateforme-de-photos-et-videos-temporairement-inaccessible-20261126"
+  },
+  {
+   "jour": "2026-11-27",
+   "creneau": 3,
+   "code": "2a",
+   "nom": "actu-2026-11-27-3-2a",
+   "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/secheresse/c-est-pas-le-psy-qui-va-faire-pousser-de-l-herbe-apres-le-suicide-d-un-agriculteur-sa-famille-temoigne_8302056.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-27",
+   "creneau": 4,
+   "code": "6a",
+   "nom": "actu-2026-11-27-4-6a",
+   "url": "https://www.20minutes.fr/monde/4265967-20261126-elon-musk-promet-deux-actions-spacex-chaque-enfant-amerique?at_medium=display&at_campaign=149"
+  },
+  {
+   "jour": "2026-11-27",
+   "creneau": 5,
+   "code": "5b",
+   "nom": "actu-2026-11-27-5-5b",
+   "url": "https://www.franceinfo.fr/economie/black-friday-quand-des-robots-preparent-des-commandes_8302092.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-27",
+   "creneau": 6,
+   "code": "7b",
+   "nom": "actu-2026-11-27-6-7b",
+   "url": "https://www.franceinfo.fr/economie/a-paris-cette-gare-de-marchandises-a-91-millions-d-euros-n-a-jamais-accueilli-de-train_8302014.html#xtor=RSS-3-%5Beconomie%5D"
+  },
+  {
+   "jour": "2026-11-27",
+   "creneau": 7,
+   "code": "2b",
+   "nom": "actu-2026-11-27-7-2b",
+   "url": "https://www.franceinfo.fr/economie/petit-electromenager-pourquoi-les-aspirateurs-laveurs-ont-ils-autant-la-cote_8302089.html#xtor=RSS-3-%5Beconomie%5D"
   }
  ],
  "programmes": [
@@ -371,14 +435,16 @@
    "nom": "actu-2026-11-26-0-1a",
    "reseau": "tiktok",
    "buffer": "6b077b13a791bea1b23b930f",
-   "heure": "2026-11-26T07:30:00+01:00"
+   "heure": "2026-11-26T07:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-26",
    "nom": "actu-2026-11-26-1-1b",
    "reseau": "tiktok",
    "buffer": "6b077b15b8e2338b8575e6da",
-   "heure": "2026-11-26T09:00:00+01:00"
+   "heure": "2026-11-26T09:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-26",
@@ -392,21 +458,24 @@
    "nom": "actu-2026-11-26-2-2c",
    "reseau": "tiktok",
    "buffer": "6b077b1a9f6dda31ccab711c",
-   "heure": "2026-11-26T10:30:00+01:00"
+   "heure": "2026-11-26T10:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-26",
    "nom": "actu-2026-11-26-3-4a",
    "reseau": "tiktok",
    "buffer": "6b077b1d9f6dda31ccab721d",
-   "heure": "2026-11-26T14:00:00+01:00"
+   "heure": "2026-11-26T14:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-26",
    "nom": "actu-2026-11-26-4-6a",
    "reseau": "tiktok",
    "buffer": "6b077b1fa791bea1b23b9592",
-   "heure": "2026-11-26T16:30:00+01:00"
+   "heure": "2026-11-26T16:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-26",
@@ -420,14 +489,16 @@
    "nom": "actu-2026-11-26-5-5c",
    "reseau": "tiktok",
    "buffer": "6b077b25b96dd8d3517420b0",
-   "heure": "2026-11-26T18:00:00+01:00"
+   "heure": "2026-11-26T18:00:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-26",
    "nom": "actu-2026-11-26-6-7b",
    "reseau": "tiktok",
    "buffer": "6b077b2707071a60673d5010",
-   "heure": "2026-11-26T19:30:00+01:00"
+   "heure": "2026-11-26T19:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-26",
@@ -441,7 +512,85 @@
    "nom": "actu-2026-11-26-7-2b",
    "reseau": "tiktok",
    "buffer": "6b077b2dd4eda4b659c1efbc",
-   "heure": "2026-11-26T22:00:00+01:00"
+   "heure": "2026-11-26T22:00:00+01:00",
+   "envoye": true
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-0-1a",
+   "reseau": "tiktok",
+   "buffer": "6b08c8f47c3f43554e3f3183",
+   "heure": "2026-11-27T07:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-1-1b",
+   "reseau": "tiktok",
+   "buffer": "6b08c8f69131f7416c59c5be",
+   "heure": "2026-11-27T09:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-1-1b",
+   "reseau": "youtube",
+   "youtube": "to78WuBSZIU",
+   "heure": "2026-11-27T09:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-2-4a",
+   "reseau": "tiktok",
+   "buffer": "6b08c8fd7c3f43554e3f34fe",
+   "heure": "2026-11-27T10:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-3-2a",
+   "reseau": "tiktok",
+   "buffer": "6b08c9007c3f43554e3f366a",
+   "heure": "2026-11-27T14:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-4-6a",
+   "reseau": "tiktok",
+   "buffer": "6b08c9029131f7416c59c989",
+   "heure": "2026-11-27T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-4-6a",
+   "reseau": "youtube",
+   "youtube": "ORec5XaExRg",
+   "heure": "2026-11-27T16:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-5-5b",
+   "reseau": "tiktok",
+   "buffer": "6b08c9099131f7416c59d028",
+   "heure": "2026-11-27T18:00:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-6-7b",
+   "reseau": "tiktok",
+   "buffer": "6b08c90d8899c4e779fdabf0",
+   "heure": "2026-11-27T19:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-6-7b",
+   "reseau": "youtube",
+   "youtube": "9hGxtRLZ8rA",
+   "heure": "2026-11-27T19:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "actu-2026-11-27-7-2b",
+   "reseau": "tiktok",
+   "buffer": "6b08c9128899c4e779fdaf4b",
+   "heure": "2026-11-27T22:00:00+01:00"
   }
  ]
 }
