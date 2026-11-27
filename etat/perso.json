@@ -1417,192 +1417,13 @@
       "formule": "Démasquer",
       "id": "20261127-2100",
       "legende": "Les profs et formateurs utilisent ça sur toi sans même le savoir.\n\nTon cerveau est conçu pour faire le tri. Une information plate et neutre est rapidement oubliée, alors qu'un souvenir chargé d'émotion reste gravé.\n\nPour mieux retenir un cours ou une présentation, ne te contente pas de relire des notes. Raconte une histoire ou connecte cette idée à quelque chose d'important pour toi.\n\nQuelle est la dernière info que tu as retenue grâce à une émotion ?\n\n#psychologie #apprentissage #memoire #conseilsvie #developpementpersonnel",
+      "media_id": "18006337176011032",
+      "publie_le": "2026-11-27T20:02:26+00:00",
       "quand": "2026-11-27T21:00:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Démasquer",
-            "texte": "Les profs et formateurs utilisent ça sur toi sans le savoir."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Réviser sans émocher tes émotions détruit tes chances de retenir."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que relire tes cours aide ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "apprentissage",
-          "memoire",
-          "conseilsvie",
-          "developpementpersonnel"
-        ],
-        "legende": "Les profs et formateurs utilisent ça sur toi sans même le savoir.\n\nTon cerveau est conçu pour faire le tri. Une information plate et neutre est rapidement oubliée, alors qu'un souvenir chargé d'émotion reste gravé.\n\nPour mieux retenir un cours ou une présentation, ne te contente pas de relire des notes. Raconte une histoire ou connecte cette idée à quelque chose d'important pour toi.\n\nQuelle est la dernière info que tu as retenue grâce à une émotion ?",
-        "question": "Quelle est la dernière info que tu as retenue grâce à une émotion ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Les profs et formateurs utilisent ça sur toi sans même le savoir.",
-            "ecran": "Les profs *utilisent* ça sur toi",
-            "emoji": "🎭",
-            "recherche": "teacher classroom speaking students",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que tu fais la même erreur tous les jours.",
-            "ecran": "Et la suite est *pire*",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce mécanisme lie directement tes émotions à ta capacité de mémoire.",
-            "ecran": "Émotions et *mémoire*",
-            "emoji": "🧠",
-            "recherche": "human brain hologram glowing",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu passes du temps à relire une fiche de révision bien neutre au bureau.",
-            "ecran": "Des heures de *lecture*",
-            "emoji": "📚",
-            "recherche": "person studying library bored",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le lendemain matin dans les transports, tu as déjà presque tout oublié.",
-            "ecran": "Tout est *oublié*",
-            "emoji": "😴",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pourtant, tu te souviens en détail d'une dispute ou d'un film marquant.",
-            "ecran": "Un film *marquant*",
-            "emoji": "🎬",
-            "recherche": "person watching movie emotional",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "C'est simple : on retient mieux ce qui nous a fait ressentir quelque chose.",
-            "ecran": "Le cerveau *tri*",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Sans émotion, ton cerveau classe l'information comme inutile et l'efface.",
-            "ecran": "L'information est *ancrée*",
-            "emoji": "🔒",
-            "recherche": "delete file computer screen",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici deux étapes concrètes pour fixer n'importe quelle information.",
-            "ecran": "L'astuce : Raconter une histoire | Relier à soi",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Raconte une histoire autour du sujet au lieu d'apprendre par cœur.",
-            "ecran": "Un. *Raconte* une histoire",
-            "emoji": "1️⃣",
-            "recherche": "person telling story friends",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Relie directement l'information à quelque chose qui compte pour toi.",
-            "ecran": "Deux. *Relie* à toi",
-            "emoji": "2️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Si tu dois présenter un projet, mets-y une touche d'humour ou de surprise.",
-            "ecran": "Pour *faire* retenir",
-            "emoji": "🗣️",
-            "recherche": "business presentation speech office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tes collègues vont écouter et retenir ton message sans aucun effort.",
-            "ecran": "Attrape leur *attention*",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "On retient mieux ce qui nous a fait ressentir quelque chose.",
-            "ecran": "On *retient* ce qui nous touche",
-            "emoji": "📌",
-            "recherche": "notebook writing light bulb",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Les émotions et la mémoire"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "emotion_memoire",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgQfYEBsRaW/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-21/20261127-2100.mp4"
     },
     {
@@ -5779,6 +5600,13 @@
       "media_id": "18139685194801144",
       "sujet": "goulot",
       "url": "https://www.instagram.com/reel/DgQOLw3xDV7/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-27",
+      "media_id": "18006337176011032",
+      "sujet": "emotion_memoire",
+      "url": "https://www.instagram.com/reel/DgQfYEBsRaW/"
     }
   ]
 }
