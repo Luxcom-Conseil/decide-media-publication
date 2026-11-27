@@ -288,3 +288,18 @@ antennes:
       creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30", "09:30", "21:15"]
       creneaux_par_reseau:
         tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15", "12:45", "15:45", "18:45", "09:45", "21:30"]
+  benin:                            # DECIDE MEDIA Bénin, préparé le 27/11/2026 : YouTube seulement (pas de TikTok, pas de Buffer)
+    actif: false                    # à passer à true après le lot test Bénin (étape 7 de decide-benin/flux-production.md)
+    banque_photos: banque_photos_bj
+    journal: etat/lots_bj.json
+    photos_utilisees: etat/photos_utilisees_bj.json
+    prefixe_id: decide-bj-          # identifiants des articles : jamais les mêmes que ceux du Cameroun, du Burkina et de l'Afrique
+    lots:
+      dossier_drive: 1l3I2bIFPtIiqd6WNLG01pVk8Z2hqa7cR   # « Benin », sous-dossier de « Article DECIDE MEDIA - Quotidien » (27/11/2026)
+      # YouTube en direct par l'API (youtube_bj, projet Google decide-media-benin-youtube, secrets YOUTUBE_*_BENIN, autorisé le 27/11/2026)
+      reseaux: [youtube_bj]
+      max_par_lot: {youtube_bj: 5}
+      max_par_jour: {youtube_bj: 5}   # quota du projet Google : environ 6 envois par jour ; même rythme que le Burkina
+      rattrapage: {actif: false}
+      fuseau_creneaux: Africa/Porto-Novo      # UTC+1 toute l'année, comme Douala
+      creneaux: ["08:00", "11:00", "14:00", "17:00", "20:00", "12:30", "15:30", "18:30", "09:30", "21:15"]
