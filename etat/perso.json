@@ -1401,125 +1401,13 @@
       "formule": "Ordre",
       "id": "20261127-1830",
       "legende": "Arrête de tout optimiser tant que tu n'as pas vu ça.\n\nAméliorer des détails ne sert à rien si le blocage principal reste inchangé. C'est le principe de la théorie des contraintes : un seul goulot d'étranglement limite l'ensemble de tes résultats.\n\nIdentifie la contrainte majeure de ton projet et mets toutes tes ressources dessus pour la débloquer.\n\nQuel est ton plus grand frein actuel ?\n\n#productivite #organisation #efficacite #psychologie",
+      "media_id": "18139685194801144",
+      "publie_le": "2026-11-27T17:31:51+00:00",
       "quand": "2026-11-27T18:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de tout optimiser tant que tu n'as pas vu ça."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Travailler plus dur peut complètement gâcher tes résultats."
-          },
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois qu'il faut tout améliorer ? C'est l'inverse."
-          }
-        ],
-        "hashtags": [
-          "productivite",
-          "organisation",
-          "efficacite",
-          "psychologie"
-        ],
-        "legende": "Arrête de tout optimiser tant que tu n'as pas vu ça.\n\nAméliorer des détails ne sert à rien si le blocage principal reste inchangé. C'est le principe de la théorie des contraintes : un seul goulot d'étranglement limite l'ensemble de tes résultats.\n\nIdentifie la contrainte majeure de ton projet et mets toutes tes ressources dessus pour la débloquer.\n\nQuel est ton plus grand frein actuel ?",
-        "question": "Quel est ton plus grand frein actuel ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Arrête de tout optimiser tant que tu n'as pas vu ça.",
-            "ecran": "Arrête de *tout* optimiser",
-            "emoji": "🛑",
-            "recherche": "man looking at camera stop gesture",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce principe s'appelle la théorie des contraintes.",
-            "ecran": "La *théorie* des contraintes",
-            "emoji": "🧠",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au bureau, tu finances de nouveaux outils et tu changes de méthode.",
-            "ecran": "Tu travailles *dans le vide*",
-            "emoji": "💻",
-            "recherche": "frustrated office worker computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mais tes projets prennent toujours autant de retard.",
-            "ecran": "Aucun *résultat* supplémentaire",
-            "emoji": "📉",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ton système a un seul point de blocage qui limite tout le reste.",
-            "ecran": "Un seul *point de blocage*",
-            "emoji": "🚧",
-            "recherche": "traffic jam bottleneck",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pousser le reste ne sert à rien tant que ce nœud n'est pas réglé.",
-            "ecran": "Améliorer ailleurs est *inutile*",
-            "emoji": "⏳",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Trouve ton frein principal. Deux. Concentre toute ton énergie dessus.",
-            "ecran": "L'astuce : 1. Repère le frein | 2. Bloque tout dessus",
-            "emoji": "💡",
-            "recherche": "focused person working desk",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Résous le vrai problème d'abord.",
-            "ecran": "Résous le *vrai* problème d'abord",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "La théorie des contraintes"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "goulot",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgQOLw3xDV7/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261127-1830.mp4"
     },
     {
@@ -5288,6 +5176,13 @@
       "media_id": "17930819403428724",
       "sujet": "perfectionnisme",
       "url": "https://www.instagram.com/reel/DgPlA4xzPLo/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-27",
+      "media_id": "18139685194801144",
+      "sujet": "goulot",
+      "url": "https://www.instagram.com/reel/DgQOLw3xDV7/"
     }
   ]
 }
