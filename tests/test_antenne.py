@@ -118,9 +118,9 @@ def test_voix_feminine_pour_l_afrique_seulement(monkeypatch):
     assert r["journal_tv"] and r["active"]  # le reste du bloc voix ne change pas
 
 
-def test_benin_youtube_seul_son_drive_sa_banque_et_inactif(cfg):
-    """Antenne Bénin (27/11/2026) : YouTube en direct seulement, son dossier Drive, sa banque, son journal, inactive
-    jusqu'au lot test ; les trois autres ne changent pas."""
+def test_benin_youtube_seul_son_drive_sa_banque_et_active(cfg):
+    """Antenne Bénin (27/11/2026) : YouTube en direct seulement, son dossier Drive, sa banque, son journal, active
+    depuis le lot test du 27/11 ; les trois autres ne changent pas."""
     b = appliquer_antenne(cfg, "benin")
     assert b["lots"]["dossier_drive"] == "1l3I2bIFPtIiqd6WNLG01pVk8Z2hqa7cR"
     assert b["lots"]["reseaux"] == ["youtube_bj"]
@@ -128,7 +128,7 @@ def test_benin_youtube_seul_son_drive_sa_banque_et_inactif(cfg):
     assert b["lots"]["fuseau_creneaux"] == "Africa/Porto-Novo"
     assert b["antenne"]["prefixe_id"] == "decide-bj-" and b["antenne"]["journal"] == "etat/lots_bj.json"
     assert (RACINE / b["antenne"]["banque_photos"] / "index.json").exists()
-    assert b["antenne"]["actif"] is False
+    assert b["antenne"]["actif"] is True
     for autre in ("burkina", "afrique"):
         assert appliquer_antenne(cfg, autre)["lots"]["dossier_drive"] != b["lots"]["dossier_drive"]
 

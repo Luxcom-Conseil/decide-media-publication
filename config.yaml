@@ -289,7 +289,7 @@ antennes:
       creneaux_par_reseau:
         tiktok_buffer: ["08:15", "11:15", "14:15", "17:15", "20:15", "12:45", "15:45", "18:45", "09:45", "21:30"]
   benin:                            # DECIDE MEDIA Bénin, préparé le 27/11/2026 : YouTube seulement (pas de TikTok, pas de Buffer)
-    actif: false                    # à passer à true après le lot test Bénin (étape 7 de decide-benin/flux-production.md)
+    actif: true                     # activée le 27/11/2026 (lot test 2026-11-27_TEST2 relu, 10 articles ; « Oui, active-la »)
     banque_photos: banque_photos_bj
     journal: etat/lots_bj.json
     photos_utilisees: etat/photos_utilisees_bj.json
