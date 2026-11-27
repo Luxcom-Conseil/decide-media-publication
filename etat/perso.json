@@ -4524,6 +4524,602 @@
       "sujet": "rendements",
       "timbre": "conseil",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-26/20261203-1830.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-27/20261203-2100.jpg",
+      "format": "long",
+      "formule": "Enjeu",
+      "id": "20261203-2100",
+      "legende": "Rester dans ta zone de confort peut détruire ta carrière.\n\nOn garde souvent un contrat, une habitude ou une méthode de travail obsolète simplement parce que le changement demande un effort. Votre cerveau perçoit la nouveauté comme un risque inutile et préfère la sécurité du connu.\n\nPour sortir de ce piège, posez-vous la bonne question : si vous n'aviez pas cette habitude aujourd'hui, l'choisiriez-vous vraiment ? Et pour convaincre les autres, proposez toujours une transition simple et sans risque.\n\nQuelle habitude tu gardes uniquement parce que c'est plus simple ?\n\n#psychologie #développementpersonnel #travail #productivité #conseils",
+      "quand": "2026-12-03T21:00:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Enjeu",
+            "texte": "Rester dans ta zone de confort peut détruire ta carrière."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe quotidien te coûte plus cher que tu ne crois."
+          },
+          {
+            "formule": "Ordre",
+            "texte": "Arrête d'accepter tout par habitude tant que tu n'as pas vu ça."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "développementpersonnel",
+          "travail",
+          "productivité",
+          "conseils"
+        ],
+        "legende": "Rester dans ta zone de confort peut détruire ta carrière.\n\nOn garde souvent un contrat, une habitude ou une méthode de travail obsolète simplement parce que le changement demande un effort. Votre cerveau perçoit la nouveauté comme un risque inutile et préfère la sécurité du connu.\n\nPour sortir de ce piège, posez-vous la bonne question : si vous n'aviez pas cette habitude aujourd'hui, l'choisiriez-vous vraiment ? Et pour convaincre les autres, proposez toujours une transition simple et sans risque.\n\nQuelle habitude tu gardes uniquement parce que c'est plus simple ?",
+        "question": "Quelle habitude tu gardes uniquement parce que c'est plus simple ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Rester dans ta zone de confort peut détruire ta carrière sans que tu ne t'en rendes compte.",
+            "ecran": "Rester *immobile* peut tout détruire",
+            "emoji": "🚨",
+            "recherche": "man sitting worried office",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu gardes cet abonnement trop cher, et le pire, c'est ce que tu acceptes au travail.",
+            "ecran": "Tu préfères *ne rien changer*",
+            "emoji": "🫣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce blocage psychologique bien connu s'appelle tout simplement le biais du statu quo.",
+            "ecran": "Le biais du *statu quo*",
+            "emoji": "🧠",
+            "recherche": "brain animation graphic",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au quotidien, tu conserves ce forfait mobile trop cher depuis trois ans sans comparer les offres.",
+            "ecran": "Tu *payes* pour rien",
+            "emoji": "💸",
+            "recherche": "person checking phone bill",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au supermarché, tu achètes toujours la même marque de café par pur réflexe, sans regarder à côté.",
+            "ecran": "Toujours le *même produit*",
+            "emoji": "🛒",
+            "recherche": "woman shopping supermarket aisle",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au travail, tu restes dans des missions qui ne te plaisent plus parce que le changement te fait peur.",
+            "ecran": "Bloqué dans ton *poste*",
+            "emoji": "💼",
+            "recherche": "bored worker desk office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton équipe garde un fichier lourd et mal rangé uniquement parce qu'on a toujours fait comme ça.",
+            "ecran": "Des *méthodes* dépassées",
+            "emoji": "📁",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Changer",
+            "b": "Rester",
+            "dit": "Pourquoi ce piège ? Parce que pour ton cerveau, changer demande un effort et paraît très risqué.",
+            "ecran": "Le coût de l'effort",
+            "emoji": "⚖️",
+            "recherche": null,
+            "type": "comparaison",
+            "valeur_a": 3,
+            "valeur_b": 1
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau cherche avant tout à te protéger, alors il choisit la facilité de la routine.",
+            "ecran": "La *routine* te rassure",
+            "emoji": "🛡️",
+            "recherche": "person relaxing sofa home",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Heureusement, il existe deux astuces concrètes pour débloquer la situation dès aujourd'hui.",
+            "ecran": "Reprends le *contrôle*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Pour toi-même, demande-toi si tu gardes cette situation par vrai choix ou par simple habitude.",
+            "ecran": "Pour soi : Choix ou habitude ? | Option zéro",
+            "emoji": "💡",
+            "recherche": "man thinking looking window",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Demande-toi : si je n'avais pas ce contrat aujourd'hui, est-ce que je le signerais maintenant ?",
+            "ecran": "La bonne *question*",
+            "emoji": "❓",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Si tu veux convaincre un collègue, rends le premier pas ultra simple et rassurant pour lui.",
+            "ecran": "Pour les autres : Rendre facile | Rassurer | Tester",
+            "emoji": "🤝",
+            "recherche": "two colleagues discussion office",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne propose pas une révolution totale. Propose juste d'essayer la nouvelle méthode pendant une semaine.",
+            "ecran": "Propose un *test*",
+            "emoji": "🧪",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Le confort d'aujourd'hui peut devenir ton piège de demain.",
+            "ecran": "Le *confort* d'aujourd'hui peut devenir ton piège de *demain*.",
+            "emoji": "📌",
+            "recherche": "person walking outdoors perspective",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Le biais du statu quo"
+      },
+      "statut": "programme",
+      "sujet": "statu_quo",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-27/20261203-2100.mp4"
+    },
+    {
+      "angle": "",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-27/20261204-1230.jpg",
+      "format": "long",
+      "formule": "Liste",
+      "id": "20261204-1230",
+      "legende": "3 pièges que les vendeurs utilisent pour te faire dépenser plus.\n\nQuand tu hésites entre deux choix, les vendeurs ajoutent souvent une troisième option moins intéressante. Ce leurre est placé uniquement pour rendre l'offre la plus chère irrésistible à tes yeux.\n\nPour éviter ce piège, masque l'option intermédiaire et concentre-toi uniquement sur ton besoin de départ.\n\nAs-tu déjà acheté la plus grande taille juste parce qu'elle paraissait plus rentable ?\n\n#psychologie #influence #biaiscognitif #conseils #decisions",
+      "quand": "2026-12-04T12:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Liste",
+            "texte": "3 pièges que les vendeurs utilisent pour te faire dépenser plus."
+          },
+          {
+            "formule": "Révélation",
+            "texte": "Ce petit réflexe au restaurant te coûte plus cher que prévu."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois choisir librement ? C'est totalement l'inverse au magasin."
+          }
+        ],
+        "hashtags": [
+          "psychologie",
+          "influence",
+          "biaiscognitif",
+          "conseils",
+          "decisions"
+        ],
+        "legende": "3 pièges que les vendeurs utilisent pour te faire dépenser plus.\n\nQuand tu hésites entre deux choix, les vendeurs ajoutent souvent une troisième option moins intéressante. Ce leurre est placé uniquement pour rendre l'offre la plus chère irrésistible à tes yeux.\n\nPour éviter ce piège, masque l'option intermédiaire et concentre-toi uniquement sur ton besoin de départ.\n\nAs-tu déjà acheté la plus grande taille juste parce qu'elle paraissait plus rentable ?",
+        "question": "As-tu déjà acheté la plus grande taille juste parce qu'elle paraissait plus rentable ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Voici 3 pièges que les vendeurs utilisent pour te faire dépenser plus.",
+            "ecran": "3 pièges pour *te faire dépenser*",
+            "emoji": "🛍️",
+            "recherche": "man shopping store money",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est le troisième, tu te fais avoir à tous les coups.",
+            "ecran": "Le troisième est *le pire*",
+            "emoji": "👀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ce mécanisme psychologique s'appelle simplement l'effet leurre.",
+            "ecran": "L'effet *leurre*",
+            "emoji": "🧠",
+            "recherche": "brain thinking psychology",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu veux un petit popcorn, mais le grand ne coûte qu'un peu plus.",
+            "ecran": "Au *cinéma*",
+            "emoji": "🍿",
+            "recherche": "eating popcorn cinema",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu vois trois tailles de boisson au lieu de deux habituelles.",
+            "ecran": "Au *café*",
+            "emoji": "☕",
+            "recherche": "coffee shop menu",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois abonnements sont proposés pour te pousser vers le plus cher.",
+            "ecran": "Sur *internet*",
+            "emoji": "📱",
+            "recherche": "scrolling phone screen",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ajouter une troisième option moins intéressante change toute ton analyse.",
+            "ecran": "Une *troisième option*",
+            "emoji": "🎯",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": "Option leurre",
+            "b": "Option visée",
+            "dit": "L'option inutile est là pour faire briller l'option la plus chère.",
+            "ecran": "La fausse *affaire*",
+            "emoji": "📊",
+            "recherche": "comparing price chart",
+            "type": "comparaison",
+            "valeur_a": 1,
+            "valeur_b": 3
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau compare les choix proches et croit faire une affaire.",
+            "ecran": "Ton cerveau *se piège*",
+            "emoji": "💡",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Repère l'option intermédiaire qui semble n'avoir aucun intérêt réel.",
+            "ecran": "Un. *Identifie*",
+            "emoji": "1️⃣",
+            "recherche": "man thinking list",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Masque cette option inutile pour comparer uniquement ton besoin.",
+            "ecran": "Deux. *Cache*",
+            "emoji": "2️⃣",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Demande-toi ce que tu voulais acheter avant de voir le menu.",
+            "ecran": "Parade : Identifie le leurre | Masque la fausse option | Choisis ton besoin réel",
+            "emoji": "🛠️",
+            "recherche": "decision maker checklist",
+            "type": "liste",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ne laisse plus une fausse option guider tes achats au quotidien.",
+            "ecran": "Protège *ton argent*",
+            "emoji": "🛡️",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Quand une option semble évidente, cherche ce qui la fait briller.",
+            "ecran": "Quand une option semble évidente, cherche ce qui la fait briller.",
+            "emoji": "💬",
+            "recherche": "wise man quote",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "L'effet leurre"
+      },
+      "statut": "programme",
+      "sujet": "leurre",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-27/20261204-1230.mp4"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "cover_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-27/20261204-1830.jpg",
+      "format": "long",
+      "formule": "Ordre",
+      "id": "20261204-1830",
+      "legende": "Arrête d'essayer de créer de nouvelles habitudes au travail tant que tu n'as pas vu ça.\n\nAu lieu d'utiliser toute ton énergie et ta volonté pour tenir une bonne résolution au bureau, appuie-toi sur ce que tu fais déjà tous les jours sans y penser.\n\nApplique la formule magique : « Après avoir… (habitude existante), je… (nouvelle habitude) ». Par exemple, juste après ton café du matin ou immédiatement après ta dernière réunion.\n\nQuelle routine existante au bureau vas-tu utiliser dès demain ?\n\n#productivite #habitudes #travail #organisation #efficacite",
+      "quand": "2026-12-04T18:30:00+01:00",
+      "script": {
+        "accroches": [
+          {
+            "formule": "Ordre",
+            "texte": "Arrête d'essayer de créer de nouvelles habitudes au travail tant que tu n'as pas vu ça."
+          },
+          {
+            "formule": "Enjeu",
+            "texte": "Vouloir changer tes routines au bureau risque de ruiner tes journées."
+          },
+          {
+            "formule": "Contre-pied",
+            "texte": "Tu crois qu'il faut de la volonté au travail ? C'est l'inverse."
+          }
+        ],
+        "hashtags": [
+          "productivite",
+          "habitudes",
+          "travail",
+          "organisation",
+          "efficacite"
+        ],
+        "legende": "Arrête d'essayer de créer de nouvelles habitudes au travail tant que tu n'as pas vu ça.\n\nAu lieu d'utiliser toute ton énergie et ta volonté pour tenir une bonne résolution au bureau, appuie-toi sur ce que tu fais déjà tous les jours sans y penser.\n\nApplique la formule magique : « Après avoir… (habitude existante), je… (nouvelle habitude) ». Par exemple, juste après ton café du matin ou immédiatement après ta dernière réunion.\n\nQuelle routine existante au bureau vas-tu utiliser dès demain ?",
+        "question": "Quelle routine existante au bureau vas-tu utiliser dès demain ?",
+        "scenes": [
+          {
+            "a": null,
+            "b": null,
+            "dit": "Arrête d'essayer de créer de nouvelles habitudes au travail tant que tu n'as pas vu ça.",
+            "ecran": "Arrête de créer des *habitudes* sans ça",
+            "emoji": "🛑",
+            "recherche": "man stressed office computer",
+            "type": "accroche",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Et le pire, c'est que tu t'y prends mal depuis le début sans le savoir.",
+            "ecran": "Le secret des *routines* efficaces",
+            "emoji": "🤫",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "En psychologie, la meilleure technique a un nom : accrocher une habitude.",
+            "ecran": "Mécanisme : *Accrocher* une habitude",
+            "emoji": "🧠",
+            "recherche": "brain network connection icon",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu arrives au bureau, tu te dis que tu vas lire tes mails urgents. Mais tu oublies.",
+            "ecran": "Ton *café* du matin",
+            "emoji": "☕",
+            "recherche": "coffee machine office work",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Tu veux classer tes dossiers après chaque réunion ? Le soir arrive et rien n'est fait.",
+            "ecran": "Le piège de la *volonté*",
+            "emoji": "💻",
+            "recherche": "woman frustrated laptop office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Pourquoi ? Parce que ton cerveau refuse de créer un nouveau bloc à partir de zéro.",
+            "ecran": "Utilise tes *ancres* déjà là",
+            "emoji": "🔗",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Une nouvelle habitude tient beaucoup mieux quand elle s'accroche à une habitude déjà bien ancrée.",
+            "ecran": "Fixe le *nouveau* sur l'ancien",
+            "emoji": "💡",
+            "recherche": "gears turning together mechanism",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Au lieu de compter sur la motivation, utilise une formule ultra simple.",
+            "ecran": "La *formule* exacte à suivre",
+            "emoji": "📝",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "La formule est la suivante : Après avoir fait mon habitude existante, je fais ma nouvelle habitude.",
+            "ecran": "Après (ancienne), je (nouvelle)",
+            "emoji": "🎯",
+            "recherche": "writing notes office desk",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Un. Après avoir fait couler mon café du matin, je valide mes trois priorités du jour.",
+            "ecran": "Exemple 1 : Le *café* quotidien",
+            "emoji": "☕",
+            "recherche": "drinking coffee office worker",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Deux. Après être sorti de la salle de réunion, je range mon poste de travail.",
+            "ecran": "Exemple 2 : Fin de *réunion*",
+            "emoji": "🚪",
+            "recherche": "people leaving meeting room",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Trois. Après avoir fermé mon ordinateur à dix-sept heures, je note l'action du lendemain.",
+            "ecran": "Exemple 3 : Éteindre l'*écran*",
+            "emoji": "🖥️",
+            "recherche": "closing laptop screen office",
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Ton cerveau utilise le premier geste comme un déclencheur automatique pour le second.",
+            "ecran": "L'*automatisation* est lancée",
+            "emoji": "🚀",
+            "recherche": null,
+            "type": "texte",
+            "valeur_a": null,
+            "valeur_b": null
+          },
+          {
+            "a": null,
+            "b": null,
+            "dit": "Accroche ton action sur une routine déjà installée.",
+            "ecran": "Accroche ton *action* sur une routine déjà *installée*.",
+            "emoji": "📌",
+            "recherche": "concept success office checklist",
+            "type": "citation",
+            "valeur_a": null,
+            "valeur_b": null
+          }
+        ],
+        "titre": "Accrocher une habitude"
+      },
+      "statut": "programme",
+      "sujet": "empilement",
+      "timbre": "conseil",
+      "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-27/20261204-1830.mp4"
     }
   ],
   "publications": [
