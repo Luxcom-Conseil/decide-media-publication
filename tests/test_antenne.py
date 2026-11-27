@@ -138,3 +138,12 @@ def test_carte_connait_les_villes_du_benin():
     for v in ("Cotonou", "Porto-Novo", "Parakou", "Abomey-Calavi", "Bohicon", "Ouidah", "Ganvié", "Malanville",
               "Djougou", "Natitingou", "Sèmè-Kpodji", "Glo-Djigbé"):
         assert lieu_connu(v), v
+
+
+def test_miniature_youtube_porte_le_titre_entier():
+    """Demande de Stéphane du 27/11/2026 : la miniature annonce clairement le titre ; chiffre et unité restent d'un bloc."""
+    from agent.gabarit_v3 import miniature_titre
+    assert miniature_titre({"title": "PIB : +7,7 % sur un an"}) == "PIB : +7,7 % sur un an"
+    assert miniature_titre({"title": "Le bidon passe à 18 000 FCFA"}).endswith("18 000 FCFA")
+    assert miniature_titre({}, "Titre du script") == "Titre du script"
+    assert "*" not in miniature_titre({"title": "Le *prix* <b>baisse</b>"})

@@ -295,7 +295,7 @@ const Credit: React.FC<{ texte?: string }> = ({ texte }) => texte ? (
   </div>
 ) : null;
 
-const Entete: React.FC<{ s: ScriptV3 }> = ({ s }) => (
+const Entete: React.FC<{ s: ScriptV3; sansTitre?: boolean }> = ({ s, sansTitre }) => (
   <div style={{ position: "absolute", top: 230, left: G, right: G }}>
     <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
       <div style={{ background: ORANGE, color: BLANC, fontFamily, fontWeight: 800, fontSize: 26, letterSpacing: 2, padding: "7px 16px", borderRadius: 6 }}>{s.rubrique}</div>
@@ -305,10 +305,60 @@ const Entete: React.FC<{ s: ScriptV3 }> = ({ s }) => (
       <div style={{ width: 66, height: 66, borderRadius: 12, background: BLANC, display: "flex", alignItems: "center", justifyContent: "center",
         fontFamily, fontWeight: 900, fontSize: 46, color: NOIR }}>D<span style={{ color: ORANGE }}>.</span></div>
     </div>
-    <div style={{ marginTop: 18, fontFamily, fontWeight: 800, fontSize: s.titre.length > 45 ? 38 : 44, lineHeight: 1.15, color: BLANC,
-      textShadow: "0 3px 12px rgba(0,0,0,0.9)", paddingRight: 60 }}>{fr(s.titre)}</div>
+    {!sansTitre && <div style={{ marginTop: 18, fontFamily, fontWeight: 800, fontSize: s.titre.length > 45 ? 38 : 44, lineHeight: 1.15, color: BLANC,
+      textShadow: "0 3px 12px rgba(0,0,0,0.9)", paddingRight: 60 }}>{fr(s.titre)}</div>}
   </div>
 );
+
+// Miniature YouTube (27/11/2026, demande de Stéphane : « les miniatures annoncent clairement le titre de chaque sujet ») :
+// une image fixe à part, plus l'image 15 de la vidéo. Le titre de la vidéo en très gros au centre (chiffres en orange),
+// sur la photo du sujet ; en-tête DECIDE en haut ; antenne Afrique : drapeau et nom du pays au-dessus du titre.
+// Tout le texte tient entre y 430 et 1500, la zone que gardent les grilles de chaîne et la recherche.
+export type MiniatureV3Props = ScriptV3 & { titre_miniature?: string };
+export const MiniatureV3: React.FC<MiniatureV3Props> = (s) => {
+  const titre = (s.titre_miniature || s.titre || "").trim();
+  const photo = s.scenes.map((sc) => sc.media).find((m) => m && !m.video && !m.logo && !m.portrait);
+  const n = titre.length;
+  const taille = n <= 28 ? 124 : n <= 45 ? 108 : n <= 65 ? 92 : 78;
+  return (
+    <AbsoluteFill style={{ backgroundColor: NOIR, fontFamily }}>
+      {photo ? (
+        <AbsoluteFill>
+          <Img src={staticFile(photo.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: "scale(1.04)" }} />
+          <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(14,14,14,0.7) 0%, rgba(14,14,14,0.15) 22%, " +
+            "rgba(14,14,14,0.35) 40%, rgba(14,14,14,0.85) 62%, rgba(14,14,14,0.95) 100%)" }} />
+        </AbsoluteFill>
+      ) : (
+        <>
+          <Fond />
+          <div style={{ position: "absolute", top: 440, left: 290, width: 500, height: 500, borderRadius: 24, overflow: "hidden",
+            border: `6px solid ${ORANGE}`, boxShadow: "0 30px 80px rgba(0,0,0,0.6)" }}>
+            <Img src={staticFile(s.image)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          </div>
+        </>
+      )}
+      <Entete s={s} sansTitre />
+      <div style={{ position: "absolute", top: 960, bottom: 490, left: G, right: G, display: "flex", flexDirection: "column",
+        justifyContent: "center", alignItems: "center", gap: 28 }}>
+        {s.couverture && (
+          <div style={{ display: "flex", alignItems: "center", gap: 22 }}>
+            {s.couverture.drapeau && <Drapeau src={s.couverture.drapeau} largeur={120} />}
+            <span style={{ fontWeight: 900, fontSize: 54, letterSpacing: 2, color: BLANC, background: ORANGE, padding: "4px 22px",
+              borderRadius: 12 }}>{s.couverture.pays}</span>
+          </div>
+        )}
+        <div style={{ textAlign: "center", fontWeight: 900, fontSize: taille, lineHeight: 1.1, color: BLANC,
+          textShadow: "0 6px 28px rgba(0,0,0,0.8)" }}>
+          {motsCles(titre).map(([m, cle], k) => (
+            <span key={k} style={{ display: "inline-block", margin: `0 ${taille * 0.12}px ${taille * 0.1}px`,
+              background: cle ? ORANGE : "transparent", padding: cle ? "0 14px" : 0, borderRadius: 10 }}>{m}</span>
+          ))}
+        </div>
+      </div>
+      <Credit texte={photo?.credit} />
+    </AbsoluteFill>
+  );
+};
 
 // entrée de scène : zoom « punch » + flash bref, sortie en fondu court
 // première scène : pas d'entrée, la première image est déjà la couverture

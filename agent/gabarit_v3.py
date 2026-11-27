@@ -680,9 +680,13 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
                                 str(sortie.resolve()), f"--props={fichier}", "--codec=h264", "--crf=22", "--log=warn"],
                                cwd=MOTION, capture_output=True, text=True, timeout=2400)
             if r.returncode == 0:
-                # couverture JPEG (YouTube) : l'image de la vidéo à COUVERTURE_MS, la même que TikTok affiche
-                c = subprocess.run([npx, "remotion", "still", "src/index.ts", "DecideShortV3", str(couverture(sortie).resolve()),
-                                    f"--props={fichier}", f"--frame={COUVERTURE_MS * 30 // 1000}", "--image-format=jpeg",
+                # miniature JPEG (YouTube, 27/11/2026) : une image à part, le titre de la vidéo en très gros sur la photo
+                # du sujet (avant : l'image de la vidéo à COUVERTURE_MS, qui montrait l'accroche et le titre en petit)
+                mini = Path(d) / "miniature.json"
+                mini.write_text(json.dumps({**props, "titre_miniature": miniature_titre(article, props["titre"])},
+                                           ensure_ascii=False), encoding="utf-8")
+                c = subprocess.run([npx, "remotion", "still", "src/index.ts", "DecideMiniatureV3", str(couverture(sortie).resolve()),
+                                    f"--props={mini}", "--frame=0", "--image-format=jpeg",
                                     "--jpeg-quality=90", "--log=warn"], cwd=MOTION, capture_output=True, text=True, timeout=600)
                 if c.returncode != 0:
                     journal(f"⚠️ couverture non fabriquée : {(c.stderr + c.stdout)[-300:]}")
@@ -692,6 +696,12 @@ def rendre_v3(article: dict, image: Path, sortie: Path, journal=print, ecrit: di
         raise RuntimeError(f"rendu Remotion impossible (code {r.returncode}) : {(r.stderr + r.stdout)[-1500:]}")
     sons.niveler(cfg, "video", sortie, journal)
     return sortie
+
+
+def miniature_titre(article: dict, defaut: str = "") -> str:
+    """Le titre affiché sur la miniature : celui de la vidéo YouTube (le titre de l'article), sans balises ni étoiles."""
+    t = str(article.get("title") or defaut or "").replace("<", "").replace(">", "").replace("*", "")
+    return _insecables(" ".join(t.split()))  # « 18 000 FCFA », « +7,7 % » : un seul bloc, jamais coupés
 
 
 def couverture(short: Path) -> Path:
