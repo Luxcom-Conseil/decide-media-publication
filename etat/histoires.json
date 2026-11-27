@@ -27,137 +27,154 @@
   "kerviel",
   "beltracchi",
   "uniongenerale",
-  "empruntsrusses"
+  "empruntsrusses",
+  "pechiney"
  ],
  "attente_partie2": {
-  "id": "empruntsrusses",
-  "jour_partie1": "2026-11-24",
+  "id": "pechiney",
+  "jour_partie1": "2026-11-27",
   "script": {
-   "titre": "L'immense arnaque des emprunts russes",
+   "titre": "L'affaire Pechiney-Triangle",
    "scenes": [
     {
      "type": "accroche",
-     "ecran": "15 milliards *volés* aux épargnants ?",
+     "ecran": "Un secret d'*État* à 48 millions",
      "grand": null,
-     "dit": "Quinze milliards de francs-or volés à des millions de familles.",
+     "dit": "Les secrets d'État devaient rester cachés. Ils ont rapporté des millions.",
      "image": 0,
-     "recherche": "French golden franc coins stack"
-    },
-    {
-     "type": "recit",
-     "ecran": "Le pire arrive *bientôt*",
-     "grand": null,
-     "dit": "Tu penses que ton argent est en sécurité à la banque ? Attends de voir la suite.",
-     "image": 2,
-     "recherche": "Crédit Lyonnais Paris 1900"
-    },
-    {
-     "type": "date",
-     "ecran": "Le *premier* grand succès",
-     "grand": "1888",
-     "dit": "En 1888, le tsar Alexandre III lance un immense emprunt de 500 millions de francs à Paris.",
-     "image": 2,
-     "recherche": null
-    },
-    {
-     "type": "recit",
-     "ecran": "Une *campagne* massive",
-     "grand": null,
-     "dit": "Le gouvernement français pousse la population à placer toute son épargne pour financer la Russie.",
-     "image": 4,
-     "recherche": "French propaganda poster 1900"
-    },
-    {
-     "type": "recit",
-     "ecran": "Prêter c'est *aider* la France",
-     "grand": null,
-     "dit": "Les journaux répètent en boucle : prêter à la Russie, c'est prêter à la France !",
-     "image": 5,
-     "recherche": "Vintage French newspaper 1900"
+     "recherche": "New York Stock Exchange 1980s"
     },
     {
      "type": "chiffre",
-     "ecran": "Un *profit* colossal",
-     "grand": "30 %",
-     "dit": "Le Crédit lyonnais réalise 30 % de ses profits avant 1914 grâce à ces titres russes.",
-     "image": 4,
-     "recherche": null
+     "ecran": "*Titres* échangés en une semaine",
+     "grand": "200 000",
+     "dit": "En novembre 1988, le volume d'échange de l'entreprise visée passe soudain de 3 500 à 200 000 titres par jour.",
+     "image": 2,
+     "recherche": "Wall Street trading floor"
     },
     {
      "type": "recit",
-     "ecran": "Un *chantier* gigantesque",
+     "ecran": "L'action s'*envolait*",
      "grand": null,
-     "dit": "Cet argent finance la construction du Transsibérien et le développement des mines russes.",
-     "image": 5,
-     "recherche": "Trans Siberian Railway 1900"
-    },
-    {
-     "type": "date",
-     "ecran": "L'emprunt *record*",
-     "grand": "Juin 1906",
-     "dit": "En juin 1906, un emprunt record de 2,25 milliards de francs-or est émis sur les marchés.",
+     "dit": "L'action passe de 10 à 56 dollars. Pechiney doit racheter la société américaine Triangle bien plus cher que prévu.",
      "image": 3,
-     "recherche": null
+     "recherche": "Stock market ticker 1980s"
     },
     {
-     "type": "recit",
-     "ecran": "Les *Français* achètent tout",
-     "grand": null,
-     "dit": "Les épargnants français couvrent à eux seuls la moitié de ce montant colossal.",
+     "type": "chiffre",
+     "ecran": "Un *bénéfice* suspect",
+     "grand": "48 millions",
+     "dit": "Les spéculateurs qui ont profité de l'information confidentielle empochent environ 48 millions de francs.",
      "image": 1,
-     "recherche": "Bourset de Paris 1900"
+     "recherche": "French Franc banknotes"
     },
     {
      "type": "recit",
-     "ecran": "Les *coupons* sont versés",
+     "ecran": "Alerte à la *SEC*",
      "grand": null,
-     "dit": "Chaque mois, les petits porteurs viennent chercher leurs intérêts au guichet sans se douter de rien.",
-     "image": 3,
-     "recherche": "Bank counter Paris 1910"
+     "dit": "À New York, l'autorité de contrôle des marchés boursiers voit ces mouvements anormaux et lance l'alerte.",
+     "image": 2,
+     "recherche": "SEC headquarters Washington"
     },
     {
      "type": "date",
-     "ecran": "Le *coup de théâtre*",
-     "grand": "29 déc. 1917",
-     "dit": "Mais le 29 décembre 1917, les bolcheviks prennent le pouvoir et publient un décret choc.",
-     "image": 6,
-     "recherche": "Lenin Petrograd 1917"
+     "ecran": "L'enquête est *lancée*",
+     "grand": "Février 1989",
+     "dit": "En février 1989, la justice française démarre son instruction. Car Pechiney est une entreprise nationalisée.",
+     "image": 3,
+     "recherche": "Palais de Justice Paris"
     },
     {
      "type": "recit",
-     "ecran": "Annulation *totale* des dettes",
+     "ecran": "Des *politiques* informés",
      "grand": null,
-     "dit": "Le nouveau gouvernement répudie unilatéralement l'intégralité des dettes de l'Empire russe !",
+     "dit": "Des hommes politiques au courant de l'opération secrète figurent eux-mêmes parmi les acheteurs d'actions.",
      "image": 4,
-     "recherche": "Russian Revolution 1917 posters"
+     "recherche": "French National Assembly"
+    },
+    {
+     "type": "recit",
+     "ecran": "Un *délit* d'initié",
+     "grand": null,
+     "dit": "L'instruction met au jour un délit d'initié massif qui implique le sommet du pouvoir.",
+     "image": 5,
+     "recherche": "Gavel courtroom judge"
+    },
+    {
+     "type": "recit",
+     "ecran": "Neuf *inculpés*",
+     "grand": null,
+     "dit": "Au total, neuf personnes sont inculpées par la justice dans ce scandale financier.",
+     "image": 9,
+     "recherche": "Courtroom legal documents"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le *directeur* de cabinet",
+     "grand": null,
+     "dit": "Parmi eux, Alain Boublil, directeur de cabinet au ministère des Finances sous Pierre Bérégovoy.",
+     "image": 0,
+     "recherche": "Bercy Ministry of Finance Paris"
+    },
+    {
+     "type": "recit",
+     "ecran": "L'ami du *Président*",
+     "grand": null,
+     "dit": "Alain Boublil a informé Roger-Patrice Pelat, l'ami intime du président François Mitterrand.",
+     "image": 6,
+     "recherche": "Elysee Palace Paris"
     },
     {
      "type": "chiffre",
-     "ecran": "Des *victimes* par millions",
-     "grand": "1,6 million",
-     "dit": "En France, on recense 1,6 million de déclarations de créances individuelles ruinées.",
+     "ecran": "Des *plus-values* record",
+     "grand": "6,7 millions",
+     "dit": "Roger-Patrice Pelat réalise 6,7 millions de francs de plus-values en achetant des milliers d'actions.",
+     "image": 7,
+     "recherche": "Bank vault money"
+    },
+    {
+     "type": "recit",
+     "ecran": "Des comptes en *Suisse*",
+     "grand": null,
+     "dit": "Il achète 10 000 titres en France et 20 000 autres via une société financière suisse.",
+     "image": 8,
+     "recherche": "Geneva private bank"
+    },
+    {
+     "type": "recit",
+     "ecran": "Le *fondateur* de la Fnac",
+     "grand": null,
+     "dit": "Informé par Pelat, Max Théret, le fondateur de la Fnac et financier du Parti socialiste, achète 32 000 actions.",
+     "image": 4,
+     "recherche": "Vintage Paris storefront"
+    },
+    {
+     "type": "date",
+     "ecran": "Un *arrêt* cardiaque",
+     "grand": "7 mars 1989",
+     "dit": "Soudain, le 7 mars 1989, Roger-Patrice Pelat meurt d'un arrêt cardiaque en pleine instruction.",
      "image": 6,
-     "recherche": "Parisian crowd 1920s"
+     "recherche": "Hospital corridor vintage"
     },
     {
      "type": "suite",
-     "ecran": "Les Français seront-ils *remboursés* ?",
+     "ecran": "Que va faire la *justice* ?",
      "grand": null,
-     "dit": "Les épargnants vont-ils revoir leur argent un jour ? La suite dans la partie 2.",
-     "image": 7,
-     "recherche": "French francs 1920s"
+     "dit": "Les suspects vont-ils échapper aux condamnations ? La suite dans la partie 2.",
+     "image": 9,
+     "recherche": "Scales of justice"
     }
    ],
-   "question": "Tu aurais investi ton argent ? Oui ou non, en commentaire.",
-   "legende": "Quinze milliards de francs-or volatilisés du jour au lendemain. Découvrez l'histoire incroyable des emprunts russes qui ont ruiné des milliers de familles. Tu aurais investi ton argent ? Oui ou non, en commentaire.",
+   "question": "Tu penses que la justice allait condamner les proches du pouvoir ? Oui ou non en commentaire.",
+   "legende": "Les secrets d'État devaient rester cachés. Ils ont rapporté des millions. Découvrez les coulisses de l'affaire Pechiney-Triangle. Tu penses que la justice allait condamner les proches du pouvoir ? Oui ou non en commentaire.",
    "hashtags": [
-    "Histoire",
-    "Argent",
-    "Economie",
-    "Arnaque",
-    "Patrimoine"
+    "histoire",
+    "argent",
+    "scandale",
+    "finance",
+    "justice"
    ],
-   "_credit_musique": "« Drama Strings » par younoise (CC0, Freesound)"
+   "_credit_musique": "« Suspenseful Strings Music 01 » par Magmi.Soundtracks (CC0, Freesound)"
   }
  },
  "journal": [
@@ -538,6 +555,18 @@
    "id": "empruntsrusses",
    "format": "serie",
    "nom": "hva-empruntsrusses-p1"
+  },
+  {
+   "jour": "2026-11-27",
+   "id": "empruntsrusses",
+   "format": "serie2",
+   "erreur": "script refusé au contrôle : accroche dite trop longue (95 caractères, 75 au plus : 2 à 4 secondes)"
+  },
+  {
+   "jour": "2026-11-27",
+   "id": "pechiney",
+   "format": "serie",
+   "nom": "hva-pechiney-p1"
   }
  ],
  "en_chiffre": [
@@ -1092,7 +1121,8 @@
    "nom": "hva-empruntsrusses-p1",
    "reseau": "tiktok",
    "buffer": "6b05614f52e902c2ad6856ad",
-   "heure": "2026-11-24T20:30:00+01:00"
+   "heure": "2026-11-24T20:30:00+01:00",
+   "envoye": true
   },
   {
    "jour": "2026-11-24",
@@ -1100,6 +1130,20 @@
    "reseau": "youtube",
    "buffer": "6b056150127d3666e7db0b7d",
    "heure": "2026-11-24T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "hva-pechiney-p1",
+   "reseau": "tiktok",
+   "buffer": "6b093c741fd46e62e726fa28",
+   "heure": "2026-11-27T20:30:00+01:00"
+  },
+  {
+   "jour": "2026-11-27",
+   "nom": "hva-pechiney-p1",
+   "reseau": "youtube",
+   "youtube": "uXltAsBrHco",
+   "heure": "2026-11-27T20:30:00+01:00"
   }
  ]
 }
