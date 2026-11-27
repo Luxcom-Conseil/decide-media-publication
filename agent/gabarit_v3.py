@@ -267,7 +267,7 @@ def script_secours(article: dict) -> dict | None:
 # même pays, qui s'enchaînent avec un décompte à l'écran, 2 minutes au plus. Le script se construit sans IA, à partir des
 # phrases que la production a écrites et contre-lues (champ `serie` du manifeste) : aucun chiffre ne peut s'y glisser.
 SERIE_TYPE = "serie_pays"
-BANQUES = ("banque_photos_af", "banque_photos", "banque_photos_bf")
+BANQUES = ("banque_photos_af", "banque_photos", "banque_photos_bf", "banque_photos_bj")
 
 
 def est_serie(article: dict) -> bool:
@@ -470,7 +470,9 @@ def photos_du_sujet(article: dict, dossier: Path, pris: set[str], recentes: dict
     if not sienne and not antenne_afrique():
         return []
     if recentes is None:
-        f = MOTION.parent / "etat" / ("photos_utilisees_af.json" if antenne_afrique() else "photos_utilisees.json")
+        # Bénin (27/11/2026) : son propre registre ; le Cameroun et le Burkina lisent photos_utilisees.json, comme avant
+        suffixe = {"afrique": "_af", "benin": "_bj"}.get(os.environ.get("DECIDE_ANTENNE", ""), "")
+        f = MOTION.parent / "etat" / f"photos_utilisees{suffixe}.json"
         recentes = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
     jour = str(article.get("_lot") or date.today().isoformat())
 

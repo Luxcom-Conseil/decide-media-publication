@@ -238,3 +238,57 @@ jobs:
             git pull --rebase --autostash
             git push
           fi
+
+  # Antenne DECIDE MEDIA Bénin (YouTube seulement, en direct par l'API, préparée le 27/11/2026) : après l'Afrique, dans le
+  # même passage, pour ne jamais enregistrer etat/ en même temps qu'elle. Tant que antennes.benin.actif vaut false
+  # (config.yaml), ce job ne publie rien. Le Cameroun, le Burkina et l'Afrique ne dépendent pas de ce job.
+  benin:
+    needs: [agent, burkina, afrique]
+    if: always() && (inputs.commande || 'lots') == 'lots'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: motion/package-lock.json
+
+      - name: Polices des Shorts (émojis)
+        run: sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null
+
+      - run: pip install -r requirements.txt
+
+      - name: Lancer l'agent (antenne Bénin)
+        env:
+          SIMULATION: ${{ inputs.simulation }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          YOUTUBE_CLIENT_ID_BENIN: ${{ secrets.YOUTUBE_CLIENT_ID_BENIN }}
+          YOUTUBE_CLIENT_SECRET_BENIN: ${{ secrets.YOUTUBE_CLIENT_SECRET_BENIN }}
+          YOUTUBE_REFRESH_TOKEN_BENIN: ${{ secrets.YOUTUBE_REFRESH_TOKEN_BENIN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python -m agent lots --antenne benin
+
+      - name: Enregistrer la mémoire de l'agent
+        if: always()
+        run: |
+          git config user.name "agent-publication"
+          git config user.email "agent-publication@users.noreply.github.com"
+          git add etat/
+          if ! git diff --staged --quiet; then
+            git commit -m "etat: passage Bénin du $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase --autostash
+            git push
+          fi
