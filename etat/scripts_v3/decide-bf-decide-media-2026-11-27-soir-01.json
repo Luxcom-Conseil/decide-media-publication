@@ -1,0 +1,200 @@
+{
+  "accroches": [
+    "Le Burkina Faso investit 37 milliards pour relancer la mine de Perkouan.",
+    "Le Burkina Faso relance la mine de Perkouan après 4 ans d'arrêt.",
+    "La mine de Perkouan rouvre après quatre ans d'arrêt au Burkina Faso."
+  ],
+  "titre": "Réouverture de la mine de Perkouan",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "Mine de Perkouan *relancée* après 4 ans",
+      "dit": "Le Burkina Faso relance la mine de Perkouan après 4 ans d'arrêt."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Réo",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Un site situé à *Réo*",
+      "dit": "Ce site se trouve à Réo dans la province du Sanguié."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "avril 2022",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "À l'arrêt depuis *avril 2022*",
+      "dit": "La mine était arrêtée depuis avril 2022 après une inondation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une mine contrôlée par *l'État*",
+      "dit": "Selon la Présidence, cette mine appartient à 100 % à l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "37 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un investissement de *37 milliards*",
+      "dit": "L'investissement global est estimé à 37 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Objectif *576 000 tonnes* produit",
+      "dit": "Les autorités prévoient de produire 576 000 tonnes de concentré."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "4 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une durée de *4 ans*",
+      "dit": "Cette nouvelle période d'exploitation doit durer quatre années."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "270 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*270 milliards* de chiffre d'affaires",
+      "dit": "Le chiffre d'affaires prévisionnel atteint 270 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Environ *1 250 emplois* prévus",
+      "dit": "Le projet vise 400 emplois directs et 850 indirects."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 84,8 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*84,8 milliards* pour le budget",
+      "dit": "La contribution directe au budget est estimée à 84,8 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 2,7 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*2,7 milliards* pour le Fonds minier",
+      "dit": "Le Fonds minier doit recevoir 2,7 milliards FCFA durant la durée du projet."
+    }
+  ]
+}

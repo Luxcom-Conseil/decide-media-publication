@@ -876,5 +876,29 @@
       "titre": "Texforces : du tissu fait à Bobo",
       "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
     }
+  },
+  "decide-bf-decide-media-2026-11-27-soir-01": {
+    "tiktok_buffer": {
+      "lot": "2026-11-27_soir",
+      "maj": "2026-11-27T14:32:49+00:00",
+      "piste": "principale",
+      "post_id": "6b099491015034238d332709",
+      "programme_pour": "2026-11-27T19:30:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Perkouan rouvre après quatre ans",
+      "url": "https://publish.buffer.com/channels/6b03621f8541f09ecb6ab6aa/schedule"
+    },
+    "youtube_bf": {
+      "lot": "2026-11-27_soir",
+      "maj": "2026-11-27T14:30:11+00:00",
+      "piste": "principale",
+      "post_id": "BpqU7Jd_iPM",
+      "programme_pour": "2026-11-27T19:15:00+00:00",
+      "statut": "programme",
+      "tentatives": 0,
+      "titre": "Perkouan rouvre après quatre ans",
+      "url": "https://youtu.be/BpqU7Jd_iPM"
+    }
   }
 }
