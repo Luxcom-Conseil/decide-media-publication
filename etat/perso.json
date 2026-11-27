@@ -1385,214 +1385,13 @@
       "formule": "Liste",
       "id": "20261127-1230",
       "legende": "3 signes que ton perfectionnisme bousille ta carrière au bureau.\n\nVouloir que tout soit parfait pousse souvent à repousser, voire à ne jamais commencer tes projets au travail.\n\nPour sortir de ce piège, vise « suffisamment bien » pour une première version, puis améliore ensuite. Tu gagneras du temps et de la sérénité avec tes collègues.\n\nTu as déjà repoussé un projet par peur de mal faire ?\n\n#confianceensoi #travail #productivite #psychologie #entrepreneuriat",
+      "media_id": "17930819403428724",
+      "publie_le": "2026-11-27T11:32:26+00:00",
       "quand": "2026-11-27T12:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Liste",
-            "texte": "3 signes que ton perfectionnisme bousille ta carrière au bureau."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Vouloir trop bien faire au bureau peut détruire ta carrière."
-          },
-          {
-            "formule": "Ordre",
-            "texte": "Arrête de chercher la perfection tant que tu n'as pas vu ça."
-          }
-        ],
-        "hashtags": [
-          "confianceensoi",
-          "travail",
-          "productivite",
-          "psychologie",
-          "entrepreneuriat"
-        ],
-        "legende": "3 signes que ton perfectionnisme bousille ta carrière au bureau.\n\nVouloir que tout soit parfait pousse souvent à repousser, voire à ne jamais commencer tes projets au travail.\n\nPour sortir de ce piège, vise « suffisamment bien » pour une première version, puis améliore ensuite. Tu gagneras du temps et de la sérénité avec tes collègues.\n\nTu as déjà repoussé un projet par peur de mal faire ?",
-        "question": "Tu as déjà repoussé un projet par peur de mal faire ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici trois signes que ton perfectionnisme bousille ta carrière au bureau.",
-            "ecran": "3 signes que ton perfectionnisme *bousille* ta carrière.",
-            "emoji": "😱",
-            "recherche": "stressed office worker laptop",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et crois-moi, le troisième signe est de loin le plus dangereux pour toi.",
-            "ecran": "Le troisième est le *pire*",
-            "emoji": "🔥",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Ce mécanisme invisible, c'est le piège du perfectionnisme au travail.",
-            "ecran": "Le piège du *perfectionnisme*",
-            "emoji": "🧠",
-            "recherche": "thinking professional portrait",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Tu passes une heure à relire un simple e-mail pour tes collègues.",
-            "ecran": "Un. Tu *relis* sans fin",
-            "emoji": "1️⃣",
-            "recherche": "typing email office desk",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Tu décales l'envoi d'un dossier parce qu'un détail te dérange encore.",
-            "ecran": "Deux. Tu *repousses* le lancement",
-            "emoji": "2️⃣",
-            "recherche": "man looking clock deadline",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Trois. Tu repousses le début d'un grand projet par peur de mal faire.",
-            "ecran": "Trois. Tu ne *commences* jamais",
-            "emoji": "3️⃣",
-            "recherche": "empty notepad office chair",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pourquoi ton cerveau fait ça ? Parce qu'il confond réussir et ne rien risquer.",
-            "ecran": "Pourquoi ton cerveau *bloque* ?",
-            "emoji": "🤷‍♂️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Vouloir que tout soit parfait pousse souvent à repousser, voire à ne jamais commencer.",
-            "ecran": "Vouloir tout *parfait* bloque tout",
-            "emoji": "⏳",
-            "recherche": "frustrated worker desk computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Attente",
-            "b": "Action",
-            "dit": "Tu passes tout ton temps à hésiter au lieu de faire avancer tes tâches.",
-            "ecran": "Ton blocage au travail",
-            "emoji": "📊",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 3,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Heureusement, il existe une astuce simple pour sortir de ce piège.",
-            "ecran": "L'astuce pour *débloquer*",
-            "emoji": "💡",
-            "recherche": "smiling employee office computer",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Vise suffisamment bien pour une première version, puis améliore ensuite.",
-            "ecran": "Méthode : Vise suffisant | Lance la V1 | Améliore ensuite",
-            "emoji": "✅",
-            "recherche": null,
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Étape un : écris un premier brouillon rapide, même s'il est très imperfectible.",
-            "ecran": "Étape 1 : Une *première* version",
-            "emoji": "📝",
-            "recherche": "writing notes notebook fast",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Étape deux : montre cette version à tes collègues pour avoir leurs retours.",
-            "ecran": "Étape 2 : *Partage* à tes collègues",
-            "emoji": "🤝",
-            "recherche": "coworkers talking meeting room",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Étape trois : corrige et peaufine le document avec leurs vraies remarques.",
-            "ecran": "Étape 3 : *Ajuste* après coup",
-            "emoji": "🛠️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Si tes collègues exigent la perfection immédiate, rappelle-leur qu'un projet évolue.",
-            "ecran": "Te *protéger* des exigences",
-            "emoji": "🛡️",
-            "recherche": "business meeting team talking",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Le fait vaut mieux que le parfait.",
-            "ecran": "Le fait vaut *mieux* que le parfait.",
-            "emoji": "🎯",
-            "recherche": null,
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "Le piège du perfectionnisme au bureau"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "perfectionnisme",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgPlA4xzPLo/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-20/20261127-1230.mp4"
     },
     {
@@ -5482,6 +5281,13 @@
       "media_id": "18653720566033974",
       "sujet": "aida",
       "url": "https://www.instagram.com/reel/DgN6lAdPkju/"
+    },
+    {
+      "angle": "au travail et avec les collègues",
+      "jour": "2026-11-27",
+      "media_id": "17930819403428724",
+      "sujet": "perfectionnisme",
+      "url": "https://www.instagram.com/reel/DgPlA4xzPLo/"
     }
   ]
 }
