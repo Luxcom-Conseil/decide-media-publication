@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-26T10:29+00:00",
- "jour": "2026-11-26",
+ "maj": "2026-11-27T10:32+00:00",
+ "jour": "2026-11-27",
  "lecture": "Classement des 14 derniers jours. sujets_forts / sujets_faibles : vues cumulées de tous les réseaux par titre. top[].commentaires_du_public : ce que demande le public sous les vidéos TikTok les plus commentées ; facebook_commentees[].commentaires_du_public : la même chose sous les vidéos de la Page Facebook qui ont au moins 2 commentaires (texte brut des internautes : des questions à traiter avec des sources, jamais des faits).",
  "reseaux": {
   "x": {
    "depuis_le_debut": {
-    "publies": 245,
-    "vues": 1073,
+    "publies": 254,
+    "vues": 1097,
     "moyenne": 4,
     "mediane": 3,
     "reactions": 29,
@@ -14,18 +14,18 @@
     "partages": 1
    },
    "7_derniers_jours": {
-    "publies": 52,
-    "vues": 170,
+    "publies": 56,
+    "vues": 163,
     "moyenne": 3,
-    "mediane": 2,
+    "mediane": 1,
     "reactions": 0,
     "commentaires": 1,
     "partages": 0
    },
    "7_jours_avant": {
-    "publies": 38,
-    "vues": 199,
-    "moyenne": 5,
+    "publies": 37,
+    "vues": 208,
+    "moyenne": 6,
     "mediane": 4,
     "reactions": 0,
     "commentaires": 0,
@@ -34,26 +34,26 @@
   },
   "linkedin": {
    "depuis_le_debut": {
-    "publies": 252,
-    "vues": 1519,
+    "publies": 262,
+    "vues": 1536,
     "moyenne": 6,
     "mediane": 1,
-    "reactions": 29,
+    "reactions": 32,
     "commentaires": 1,
     "partages": 0
    },
    "7_derniers_jours": {
-    "publies": 52,
-    "vues": 498,
-    "moyenne": 10,
-    "mediane": 3,
-    "reactions": 2,
+    "publies": 57,
+    "vues": 499,
+    "moyenne": 9,
+    "mediane": 2,
+    "reactions": 5,
     "commentaires": 0,
     "partages": 0
    },
    "7_jours_avant": {
-    "publies": 38,
-    "vues": 6,
+    "publies": 37,
+    "vues": 15,
     "moyenne": 0,
     "mediane": 0,
     "reactions": 0,
@@ -63,65 +63,65 @@
   },
   "tiktok": {
    "depuis_le_debut": {
-    "publies": 254,
-    "vues": 230149,
-    "moyenne": 906,
-    "mediane": 205,
-    "reactions": 10046,
-    "commentaires": 447,
-    "partages": 1187
+    "publies": 264,
+    "vues": 233924,
+    "moyenne": 886,
+    "mediane": 226,
+    "reactions": 10235,
+    "commentaires": 452,
+    "partages": 1192
    },
    "7_derniers_jours": {
-    "publies": 57,
-    "vues": 19499,
-    "moyenne": 342,
-    "mediane": 303,
-    "reactions": 1131,
-    "commentaires": 35,
-    "partages": 54
+    "publies": 62,
+    "vues": 21381,
+    "moyenne": 345,
+    "mediane": 302,
+    "reactions": 1213,
+    "commentaires": 34,
+    "partages": 49
    },
    "7_jours_avant": {
-    "publies": 39,
-    "vues": 28170,
-    "moyenne": 722,
-    "mediane": 447,
-    "reactions": 1034,
-    "commentaires": 13,
-    "partages": 31
+    "publies": 38,
+    "vues": 23727,
+    "moyenne": 624,
+    "mediane": 431,
+    "reactions": 908,
+    "commentaires": 15,
+    "partages": 34
    }
   },
   "youtube": {
    "depuis_le_debut": {
-    "publies": 264,
-    "vues": 13775,
-    "moyenne": 52,
+    "publies": 274,
+    "vues": 13828,
+    "moyenne": 50,
     "mediane": 18,
     "reactions": 46,
     "commentaires": 12,
     "partages": 0
    },
    "7_derniers_jours": {
-    "publies": 62,
-    "vues": 1896,
-    "moyenne": 31,
-    "mediane": 22,
-    "reactions": 3,
+    "publies": 67,
+    "vues": 1642,
+    "moyenne": 25,
+    "mediane": 17,
+    "reactions": 2,
     "commentaires": 2,
     "partages": 0
    },
    "7_jours_avant": {
-    "publies": 38,
-    "vues": 3081,
-    "moyenne": 81,
-    "mediane": 65,
-    "reactions": 8,
+    "publies": 37,
+    "vues": 3241,
+    "moyenne": 88,
+    "mediane": 78,
+    "reactions": 9,
     "commentaires": 0,
     "partages": 0
    }
   },
   "facebook": {
    "depuis_le_debut": {
-    "publies": 214,
+    "publies": 224,
     "vues": 238,
     "moyenne": 1,
     "mediane": 0,
@@ -130,8 +130,8 @@
     "partages": 0
    },
    "7_derniers_jours": {
-    "publies": 61,
-    "vues": 2,
+    "publies": 66,
+    "vues": 1,
     "moyenne": 0,
     "mediane": 0,
     "reactions": 0,
@@ -139,11 +139,11 @@
     "partages": 0
    },
    "7_jours_avant": {
-    "publies": 38,
-    "vues": 20,
+    "publies": 37,
+    "vues": 19,
     "moyenne": 1,
     "mediane": 1,
-    "reactions": 12,
+    "reactions": 11,
     "commentaires": 0,
     "partages": 0
    }
@@ -154,110 +154,110 @@
    "titre": "La Chine encaisse plus qu'avant L'administration centrale du Cameroun a versé 319,8 milliards de…",
    "date": "2026-11-15",
    "lien": "https://www.tiktok.com/@decide_media/video/7708293350842993938?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 4090,
-   "reactions": 92,
+   "vues": 4103,
+   "reactions": 93,
    "commentaires": 1,
    "partages": 3,
-   "visionnage_s": 8.41,
-   "reseau": "tiktok"
-  },
-  {
-   "titre": "L'internet tire la caisse de MTN MTN Cameroon a réalisé 367,2 milliards FCFA de revenus sur les…",
-   "date": "2026-11-12",
-   "lien": "https://www.tiktok.com/@decide_media/video/7707180099086372117?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 3156,
-   "reactions": 106,
-   "commentaires": 3,
-   "partages": 3,
-   "visionnage_s": 8.95,
+   "visionnage_s": 8.37,
    "reseau": "tiktok"
   },
   {
    "titre": "Le fioul des centrales repart à zéro",
    "date": "2026-11-16",
    "lien": "https://www.tiktok.com/@decide_media/video/7708710896733916434?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 2873,
+   "vues": 2878,
    "reactions": 77,
    "commentaires": 0,
    "partages": 1,
-   "visionnage_s": 11.39,
+   "visionnage_s": 11.38,
    "reseau": "tiktok"
   },
   {
    "titre": "Les eaux minérales changent de nom",
    "date": "2026-11-21",
    "lien": "https://www.tiktok.com/@decide_media/video/7710543063336144136?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 1408,
+   "vues": 1415,
    "reactions": 49,
    "commentaires": 0,
    "partages": 0,
-   "visionnage_s": 21.73,
+   "visionnage_s": 21.7,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Impôt numérique : Apple ajuste ses versements Apple dit avoir modifié, au Cameroun, les sommes…",
+   "date": "2026-11-25",
+   "lien": "https://www.tiktok.com/@decide_media/video/7712189748856524084?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 1284,
+   "reactions": 57,
+   "commentaires": 1,
+   "partages": 2,
+   "visionnage_s": 24.97,
    "reseau": "tiktok"
   },
   {
    "titre": "La BEAC revoit l'outil de ses réserves",
    "date": "2026-11-16",
    "lien": "https://www.tiktok.com/@decide_media/video/7708803930431573269?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 1251,
+   "vues": 1253,
    "reactions": 49,
    "commentaires": 0,
    "partages": 5,
-   "visionnage_s": 13.86,
-   "reseau": "tiktok"
-  },
-  {
-   "titre": "Dividendes : la BEAC porte la caisse L'État du Cameroun a encaissé 70,2 milliards FCFA de…",
-   "date": "2026-11-12",
-   "lien": "https://www.tiktok.com/@decide_media/video/7707365656299080978?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 1235,
-   "reactions": 36,
-   "commentaires": 0,
-   "partages": 1,
-   "visionnage_s": 9.41,
+   "visionnage_s": 13.78,
    "reseau": "tiktok"
   },
   {
    "titre": "L'oignon fait pleurer le panier",
    "date": "2026-11-19",
    "lien": "https://www.tiktok.com/@decide_media/video/7709777720523115782?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 1219,
+   "vues": 1237,
    "reactions": 73,
    "commentaires": 3,
    "partages": 9,
-   "visionnage_s": 18.2,
+   "visionnage_s": 18.19,
    "reseau": "tiktok"
   },
   {
    "titre": "Le courant se rationne dans sept régions",
    "date": "2026-11-22",
    "lien": "https://www.tiktok.com/@decide_media/video/7710937367875505416?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 1058,
-   "reactions": 50,
+   "vues": 1146,
+   "reactions": 52,
    "commentaires": 3,
    "partages": 11,
-   "visionnage_s": 21.09,
+   "visionnage_s": 20.52,
    "reseau": "tiktok"
   },
   {
    "titre": "Bekoko fait gonfler le carnet de GHV Le projet d'usine de pneus de Bekoko représente 42,3 % du…",
    "date": "2026-11-23",
    "lien": "https://www.tiktok.com/@decide_media/video/7711308466186358037?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 985,
+   "vues": 1024,
    "reactions": 70,
    "commentaires": 1,
    "partages": 13,
-   "visionnage_s": 33.91,
+   "visionnage_s": 33.84,
    "reseau": "tiktok"
   },
   {
    "titre": "Koutaba livre 240 futurs douaniers",
    "date": "2026-11-13",
    "lien": "https://www.tiktok.com/@decide_media/video/7707551215390887189?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "vues": 784,
+   "vues": 788,
    "reactions": 26,
    "commentaires": 1,
    "partages": 2,
-   "visionnage_s": 10.45,
+   "visionnage_s": 10.35,
+   "reseau": "tiktok"
+  },
+  {
+   "titre": "Japoma : des titres fonciers annulés",
+   "date": "2026-11-15",
+   "lien": "https://www.tiktok.com/@decide_media/video/7708432663190719764?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "vues": 747,
+   "reactions": 23,
+   "commentaires": 1,
+   "partages": 1,
+   "visionnage_s": 9.78,
    "reseau": "tiktok"
   }
  ],
@@ -265,108 +265,111 @@
  "sujets_forts": [
   {
    "titre": "La Chine encaisse plus qu'avant L'administration centrale du Cameroun a versé 319,8 milliards de…",
-   "vues": 4090,
+   "vues": 4103,
    "reseaux": {
-    "tiktok": 4090
-   }
-  },
-  {
-   "titre": "L'internet tire la caisse de MTN MTN Cameroon a réalisé 367,2 milliards FCFA de revenus sur les…",
-   "vues": 3156,
-   "reseaux": {
-    "tiktok": 3156
+    "tiktok": 4103
    }
   },
   {
    "titre": "Le fioul des centrales repart à zéro",
-   "vues": 2983,
+   "vues": 2994,
    "reseaux": {
     "x": 3,
     "linkedin": 0,
-    "tiktok": 2873,
-    "youtube": 106,
+    "tiktok": 2878,
+    "youtube": 112,
     "facebook": 1
    }
   },
   {
    "titre": "Les eaux minérales changent de nom",
-   "vues": 1495,
+   "vues": 1545,
    "reseaux": {
-    "x": 1,
+    "x": 2,
     "linkedin": 86,
-    "tiktok": 1408,
+    "tiktok": 1415,
+    "youtube": 42,
     "facebook": 0
    }
   },
   {
    "titre": "La BEAC revoit l'outil de ses réserves",
-   "vues": 1294,
+   "vues": 1296,
    "reseaux": {
     "x": 8,
     "linkedin": 0,
-    "tiktok": 1251,
+    "tiktok": 1253,
     "youtube": 34,
     "facebook": 1
    }
   },
   {
    "titre": "L'oignon fait pleurer le panier",
-   "vues": 1275,
+   "vues": 1294,
    "reseaux": {
-    "x": 7,
+    "x": 8,
     "linkedin": 3,
-    "tiktok": 1219,
+    "tiktok": 1237,
     "youtube": 46,
     "facebook": 0
    }
   },
   {
-   "titre": "Dividendes : la BEAC porte la caisse L'État du Cameroun a encaissé 70,2 milliards FCFA de…",
-   "vues": 1235,
+   "titre": "Impôt numérique : Apple ajuste ses versements Apple dit avoir modifié, au Cameroun, les sommes…",
+   "vues": 1284,
    "reseaux": {
-    "tiktok": 1235
+    "x": 0,
+    "tiktok": 1284
    }
   },
   {
    "titre": "Le courant se rationne dans sept régions",
-   "vues": 1112,
+   "vues": 1203,
    "reseaux": {
-    "x": 19,
+    "x": 20,
     "linkedin": 3,
-    "tiktok": 1058,
-    "youtube": 32,
+    "tiktok": 1146,
+    "youtube": 34,
     "facebook": 0
    }
   },
   {
    "titre": "Bekoko fait gonfler le carnet de GHV Le projet d'usine de pneus de Bekoko représente 42,3 % du…",
-   "vues": 996,
+   "vues": 1040,
    "reseaux": {
-    "x": 11,
-    "tiktok": 985
+    "x": 16,
+    "tiktok": 1024
    }
   },
   {
    "titre": "Koutaba livre 240 futurs douaniers",
-   "vues": 930,
+   "vues": 934,
    "reseaux": {
     "x": 4,
     "linkedin": 0,
-    "tiktok": 784,
+    "tiktok": 788,
     "youtube": 141,
+    "facebook": 1
+   }
+  },
+  {
+   "titre": "Japoma : des titres fonciers annulés",
+   "vues": 845,
+   "reseaux": {
+    "x": 6,
+    "linkedin": 0,
+    "tiktok": 747,
+    "youtube": 91,
     "facebook": 1
    }
   }
  ],
  "sujets_faibles": [
   {
-   "titre": "Le blé russe attend ses preuves",
-   "vues": 1,
+   "titre": "Le panier grimpe plus que le reste Entre 2021 et 2025, les prix alimentaires ont augmenté de 41,8…",
+   "vues": 0,
    "reseaux": {
-    "x": 1,
-    "linkedin": 0,
-    "youtube": 0,
-    "facebook": 0
+    "x": 0
    }
   },
   {
@@ -384,6 +387,22 @@
    }
   },
   {
+   "titre": "TVA : comment se faire rembourser Entre janvier et mars 2026, le Trésor a remboursé 11,1 milliards…",
+   "vues": 1,
+   "reseaux": {
+    "x": 1
+   }
+  },
+  {
+   "titre": "Impôt numérique : Apple ajuste ses versements",
+   "vues": 3,
+   "reseaux": {
+    "linkedin": 1,
+    "youtube": 2,
+    "facebook": 0
+   }
+  },
+  {
    "titre": "L'EPAB cherche 25 projets agricoles L'École pratique d'agriculture de Binguela (EPAB) cherche 25…",
    "vues": 3,
    "reseaux": {
@@ -398,18 +417,18 @@
    }
   },
   {
-   "titre": "Un train Kribi–Dja, d'abord sur papier",
-   "vues": 4,
-   "reseaux": {
-    "youtube": 4,
-    "facebook": 0
-   }
-  },
-  {
    "titre": "Banque mondiale : le portefeuille grossit",
    "vues": 5,
    "reseaux": {
     "youtube": 5,
+    "facebook": 0
+   }
+  },
+  {
+   "titre": "Un train Kribi–Dja, d'abord sur papier",
+   "vues": 6,
+   "reseaux": {
+    "youtube": 6,
     "facebook": 0
    }
   },
@@ -419,25 +438,6 @@
    "reseaux": {
     "linkedin": 1,
     "youtube": 7,
-    "facebook": 0
-   }
-  },
-  {
-   "titre": "Dividendes : la BEAC porte la caisse",
-   "vues": 10,
-   "reseaux": {
-    "x": 1,
-    "linkedin": 0,
-    "youtube": 8,
-    "facebook": 1
-   }
-  },
-  {
-   "titre": "Bekoko fait gonfler le carnet de GHV",
-   "vues": 14,
-   "reseaux": {
-    "linkedin": 4,
-    "youtube": 10,
     "facebook": 0
    }
   }
