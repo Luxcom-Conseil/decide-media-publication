@@ -1,0 +1,214 @@
+{
+  "accroches": [
+    "Le bitumage de 61 km de route a débuté au Burkina Faso.",
+    "La route reliant Batié à la Côte d'Ivoire va être bitumée.",
+    "L'État burkinabè finance entièrement le bitumage de 61 km de route."
+  ],
+  "titre": "Burkina : bitumage de 61 km de route",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Batié",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Bitumage de 61 km de *route*",
+      "dit": "Le bitumage de 61 km de route a débuté au Burkina Faso."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Travaux lancés le *21 novembre*",
+      "dit": "Le ministre Mikailou Sidibé a lancé les travaux le 21 novembre 2026 à Batié."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Axe Batié *frontière* Côte d'Ivoire",
+      "dit": "Le chantier concerne la route nationale 11 entre Batié, Kpuéré et la frontière ivoirienne."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Prolongement de la voie *Gaoua-Batié*",
+      "dit": "Ce projet prolonge la section Gaoua–Batié qui est déjà bitumée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Desserte de *11 villages*",
+      "dit": "Le tracé traverse les communes de Batié et Kpuéré et desservira onze villages."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Route large de 7 à *8 mètres*",
+      "dit": "La piste en terre devient une route bitumée large de 7 mètres en campagne et 8 en ville."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aménagement et *éclairage public*",
+      "dit": "Les travaux prévoient 51 dalots, un éclairage public et de la signalisation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Démolition de *26 structures*",
+      "dit": "Vingt-six anciens ouvrages comme des radiers et des buses seront démolis."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chantier confié à *Faso Mêbo*",
+      "dit": "L'Agence Faso Mêbo s'occupe des terrassements et de la chaussée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Entreprises *privées nationales*",
+      "dit": "Des entreprises privées nationales construiront les ouvrages d'art et l'assainissement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Projet financé par *l'État*",
+      "dit": "Le gouvernement affirme que ce projet est entièrement financé par l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Non précisés",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Coût et *délais inconnus*",
+      "dit": "Le communiqué officiel ne précise ni le coût total du chantier ni sa date de fin."
+    }
+  ]
+}

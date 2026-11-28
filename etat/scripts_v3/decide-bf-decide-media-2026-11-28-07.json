@@ -1,0 +1,166 @@
+{
+  "accroches": [
+    "Le Burkina Faso vise 90 % d'accès à l'électricité en 10 ans.",
+    "Le plan Faso Wa-Fulu coûte 2 871 milliards de francs CFA.",
+    "Au Burkina Faso, seulement un ménage sur trois a l'électricité."
+  ],
+  "titre": "Faso Wa-Fulu : l'électricité pour tous",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "2 871 milliards pour *l'électricité*",
+      "dit": "Le plan Faso Wa-Fulu prévoit deux mille huit cent soixante-onze milliards de francs CFA sur dix ans."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Objectif : *90 %* d'accès",
+      "dit": "L'initiative présidentielle vise à porter le taux d'accès national à l'électricité à 90 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Burkina Faso",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*6 700* localités à électrifier",
+      "dit": "Le projet prévoit d'électrifier six mille sept cents localités à travers le pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aujourd'hui, *1 sur 3*",
+      "dit": "Selon le coordonnateur, seulement un ménage sur trois a aujourd'hui accès à l'électricité."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "En village, à peine *12 %*",
+      "dit": "En milieu rural, le taux d'accès actuel est d'à peine 12 %."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Nouveau coordonnateur *installé*",
+      "dit": "Le 20 novembre 2026, à Ouagadougou, le Dr Ardjouma Sombié a été installé coordonnateur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Nommé par *décret*",
+      "dit": "Sa nomination avait été faite par décret présidentiel le 16 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Création de *brigades*",
+      "dit": "Le coordonnateur s'est engagé à installer des brigades d'électrification sur le terrain."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Implication des *communautés*",
+      "dit": "L'initiative prévoit d'associer directement les communautés bénéficiaires au projet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "10 ans",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas de *date* annoncée",
+      "dit": "Le compte rendu du gouvernement ne donne ni la provenance des fonds ni la date des premiers raccordements."
+    }
+  ]
+}

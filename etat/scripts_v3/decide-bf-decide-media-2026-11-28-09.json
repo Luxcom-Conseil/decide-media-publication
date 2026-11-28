@@ -1,0 +1,159 @@
+{
+  "accroches": [
+    "Le Burkina Faso produit 53 000 tonnes de poisson sur 100 000 nécessaires.",
+    "La consommation de poisson du Kadiogo dépasse 25 000 tonnes par an.",
+    "Le Kadiogo compte plus de 3 millions de consommateurs de poisson."
+  ],
+  "titre": "La production de poisson au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Burkina Faso",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le Burkina produit *53 000 tonnes* de poisson",
+      "dit": "La production nationale de poisson a dépassé 53 000 tonnes au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "100 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Besoins globaux : *100 000 tonnes*",
+      "dit": "Les besoins globaux du pays sont pourtant supérieurs à 100 000 tonnes par an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Chiffres cités par le *ministère*",
+      "dit": "Ces chiffres du ministère de l'Agriculture ont été cités à Koubri."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Koubri",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Première foire du poisson à *Koubri*",
+      "dit": "La commune abrite la première foire commerciale et gastronomique du poisson du Kadiogo."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Chambre de commerce et d'industrie du Burkina Faso",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Une foire organisée par la *CCI*",
+      "dit": "L'événement est organisé par la Chambre de commerce et d'industrie du Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "26 au 28 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Foire du *26 au 28 novembre*",
+      "dit": "Cette foire s'est tenue du 26 au 28 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*1 185 cages* flottantes actives",
+      "dit": "Le pays compte 1 185 cages flottantes et plus de 500 promoteurs privés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le Kadiogo consomme *25 000 tonnes*",
+      "dit": "Dans le Kadiogo, plus de 3 millions d'habitants consomment 25 000 tonnes par an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les vendeuses dénoncent des *coûts élevés*",
+      "dit": "De leur côté, les vendeuses dénoncent le coût élevé du poisson sur le marché."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Demande de *formations* et matériels",
+      "dit": "Elles demandent des formations, des financements et des équipements de conservation."
+    }
+  ]
+}

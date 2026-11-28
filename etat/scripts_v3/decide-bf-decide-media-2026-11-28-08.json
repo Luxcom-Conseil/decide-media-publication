@@ -1,0 +1,193 @@
+{
+  "accroches": [
+    "Les mini-laiteries ont réalisé 1,3 milliard de FCFA de ventes en 2025.",
+    "Le réseau des mini-laiteries a collecté 1 838 849 litres de lait.",
+    "Les mini-laiteries revendiquent la création de 612 emplois au Burkina Faso."
+  ],
+  "titre": "Burkina : 1,3 milliard pour le lait local",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "1,3 *milliard* de FCFA de ventes",
+      "dit": "Les mini-laiteries ont réalisé plus de 1,3 milliard de FCFA de chiffre d'affaires en 2025 au Burkina Faso."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bilan des *72h* du lait",
+      "dit": "L'union nationale de la filière a annoncé ce chiffre ce 27 novembre 2026 à Ouagadougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "1 838 849 *litres* collectés",
+      "dit": "Selon le président de l'union, le réseau a collecté 1 838 849 litres de lait local sur l'année 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "101 *mini-laiteries* recensées",
+      "dit": "En 2024, le réseau comptait 101 mini-laiteries et 94 organisations de producteurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "80 % de *femmes* membres",
+      "dit": "L'organisation regroupe environ 4 000 membres, dont près de 80 % de femmes et 35 % de jeunes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "612 *emplois* revendiqués",
+      "dit": "Sur le plan social, l'union estime sa contribution à 612 emplois, dont 250 directs et 357 indirects."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *écart* dans les chiffres",
+      "dit": "Le média Burkina24 souligne toutefois que ces chiffres détaillés d'emplois ne s'additionnent pas exactement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Accès aux *financements* réclamé",
+      "dit": "L'union demande un accès équitable aux financements publics, aux équipements frigorifiques et à l'énergie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ouverture des *cantines* scolaires",
+      "dit": "Les producteurs réclament aussi l'ouverture des marchés des cantines scolaires au lait local."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *feuille* de route attendue",
+      "dit": "De son côté, le directeur général des Productions animales attend une feuille de route avec un suivi précis."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "accroches": [
+    "Plus de 180 000 têtes ont été vaccinées contre la peste des petits ruminants.",
+    "L'État a mobilisé plus de 2 milliards de FCFA pour les éleveurs.",
+    "Le taux de vaccination contre la peste des petits ruminants dépasse 100 % dans le Djôrô."
+  ],
+  "titre": "Vaccination du bétail au Burkina Faso",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "180 000 *bêtes* vaccinées dans le Tannounyan",
+      "dit": "Dans le Tannounyan, plus de 180 000 têtes ont déjà été vaccinées contre la peste des petits ruminants."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Près de *60 %* de l'objectif atteint",
+      "dit": "Ce chiffre représente près de 60 % de l'objectif fixé pour cette zone, selon le média Burkina24."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "250 000 à 300 000",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Objectif : *250 000* à 300 000 animaux",
+      "dit": "L'objectif régional est estimé entre 250 000 et 300 000 animaux par les autorités locales."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *72 %* sur la base basse",
+      "dit": "Sur la base de 250 000 animaux, ce niveau de réalisation serait même d'environ 72 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Tournée ministérielle le *27 novembre 2026*",
+      "dit": "Le ministre délégué chargé des Ressources animales était en tournée dans la région le 27 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Appel à *redoubler* d'efforts",
+      "dit": "Il a demandé de redoubler d'efforts et appelé les éleveurs à faire vacciner leurs troupeaux."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*113 %* de vaccination dans le Djôrô",
+      "dit": "De son côté, la région du Djôrô annonçait la veille un taux de vaccination de 113 % contre la maladie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*154 %* enregistrés contre la rage",
+      "dit": "Dans cette même zone du Djôrô, le taux atteint même 154 % pour la campagne contre la rage."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Plus de *deux milliards* de FCFA mobilisés",
+      "dit": "Pour soutenir l'ensemble de la campagne, l'État a mobilisé plus de deux milliards de FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Des tarifs de vaccination *réduits*",
+      "dit": "Les autorités ont aussi annoncé que les tarifs de vaccination appliqués aux éleveurs ont été réduits."
+    }
+  ]
+}

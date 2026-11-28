@@ -1,0 +1,212 @@
+{
+  "accroches": [
+    "Wave lance un code pour transférer de l'argent sans internet au Burkina Faso.",
+    "Le code 3560# permet de transférer de l'argent sans connexion internet.",
+    "Wave Burkina permet d'envoyer de l'argent avec un téléphone simple."
+  ],
+  "titre": "Wave sans internet au Burkina",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Wave lance un code *sans* internet",
+      "dit": "Wave lance un service sans internet au Burkina Faso grâce au code *3560#."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Transférer de l'argent *sans* internet",
+      "dit": "Ce code permet de transférer de l'argent et de consulter son solde depuis un téléphone simple."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Présenté à *Ouagadougou* le 27 novembre",
+      "dit": "Le directeur général Joël Ky l'a présenté le 27 novembre 2026 pendant la Semaine du numérique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Fonctionne sur *tous* les réseaux",
+      "dit": "Selon lui, ce numéro fonctionne avec tous les réseaux de téléphonie mobile et dans les zones sans connexion."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'historique des *quatre* transactions",
+      "dit": "L'historique des quatre dernières transactions est aussi consultable avec ce code."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les frais restent les *mêmes*",
+      "dit": "Les tarifs de ce code sont les mêmes que ceux de l'application mobile."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des taux de *0,5 %* ou *0,85 %*",
+      "dit": "Burkina24 indique des transferts facturés à 0,5 %, tandis que leFaso.net cite 0,85 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les dépôts sont *gratuits*",
+      "dit": "Les dépôts, les retraits et les paiements de factures restent gratuits selon Burkina24."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Se méfier des *fraudes*",
+      "dit": "Joël Ky rappelle que Wave ne demande jamais le code secret d'un client."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le service au *80001257*",
+      "dit": "En cas de doute, il recommande d'appeler le service clientèle au 80001257."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "De nouveaux produits en *2027*",
+      "dit": "Wave annonce de nouveaux produits pour 2027 destinés aux particuliers et aux entreprises."
+    }
+  ]
+}

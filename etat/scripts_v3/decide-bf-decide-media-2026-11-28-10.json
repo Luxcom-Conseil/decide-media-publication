@@ -1,0 +1,190 @@
+{
+  "accroches": [
+    "20 femmes ont reçu 1 million de FCFA pour leurs entreprises.",
+    "20 millions de FCFA ont été distribués à 20 femmes entrepreneures.",
+    "20 femmes ont obtenu 1 million de FCFA après une formation."
+  ],
+  "titre": "1 million de FCFA pour 20 femmes entrepreneures",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "20 femmes reçoivent *1 million* FCFA",
+      "dit": "Au Burkina Faso, 20 femmes entrepreneures ont reçu 1 million de FCFA chacune ce 27 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "20 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un soutien total de *20 millions*",
+      "dit": "Selon leFaso.net, cette enveloppe totale de 20 millions de FCFA vise à lancer ou développer leurs activités."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Issues de *4 régions* du pays",
+      "dit": "Les lauréates viennent des régions du Yaadga, du Nando, du Guiriko et du Nakambé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Sélectionnées parmi *92 candidates*",
+      "dit": "Au départ de cette initiative, 92 candidates étaient engagées dans le processus de sélection."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Formation",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une *formation* en gestion financière",
+      "dit": "Elles ont d'abord suivi un apprentissage en éducation financière et en financement participatif."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un *coaching* pour leur projet",
+      "dit": "Un accompagnement a ensuite permis à chaque participante de construire son propre plan d'affaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les *20 meilleurs* plans primés",
+      "dit": "Des jurys régionaux ont retenu les 20 meilleurs dossiers pour leur attribuer ces chèques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Agroalimentaire, *tissage* et recyclage",
+      "dit": "Les projets concernent la transformation agroalimentaire, le tissage et la fabrication de charbon écologique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Achat de *machines* de production",
+      "dit": "La candidate Djénéba Pilabré compte acquérir des machines pour recycler des déchets en plus grande quantité."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "PNUD",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Un projet soutenu par les *Nations Unies*",
+      "dit": "Ce programme lancé en mars 2024 est financé par le Fonds des Nations Unies pour la consolidation de la paix."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Mis en œuvre par *l'OCADES Caritas*",
+      "dit": "L'OCADES Caritas exécute le volet d'accompagnement sous la tutelle du ministère de la Famille."
+    }
+  ]
+}

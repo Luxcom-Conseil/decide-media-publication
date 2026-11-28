@@ -1,0 +1,179 @@
+{
+  "accroches": [
+    "Le Burkina Faso prépare une loi unique pour encadrer sa jeunesse.",
+    "Un projet de loi burkinabè veut regrouper les textes sur la jeunesse.",
+    "Trois étapes restent avant le vote de la loi sur la jeunesse."
+  ],
+  "titre": "Une loi unique pour la jeunesse au Burkina",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ouagadougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Le Burkina prépare une *loi* unique",
+      "dit": "Le Burkina Faso prépare une loi unique pour encadrer sa jeunesse et organiser les actions du secteur."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Ministère des Sports et des Loisirs du Burkina Faso",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Un atelier réuni à *Ouagadougou*",
+      "dit": "Ce 25 novembre 2026, la ministre Annick Lydie Djouma Pikbougoum a ouvert un atelier à Ouagadougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les experts examinent le *texte*",
+      "dit": "Des experts examinent et valident l'avant-projet de loi portant encadrement de la jeunesse."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des règles jugées *éparses*",
+      "dit": "Selon la ministre, les actions en faveur des jeunes sont régies jusqu'ici par des textes épars et dépassés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des doublons sur le *terrain*",
+      "dit": "Cette situation crée des problèmes de coordination et des doublons d'interventions sur le terrain."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un objectif d'*autonomisation*",
+      "dit": "Le futur texte vise la protection, l'autonomisation et la responsabilisation des jeunes du pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3 étapes",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Encore *3* étapes à franchir",
+      "dit": "Selon le journal Sidwaya, il reste trois étapes officielles avant l'adoption finale de cette loi."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une validation par le *comité*",
+      "dit": "Le projet doit d'abord passer par le comité technique de validation des textes réglementaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Passage en Conseil des *ministres*",
+      "dit": "De son côté, le gouvernement examinera ensuite le texte en conseil des ministres."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Assemblée législative de transition",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Le vote par l'*Assemblée*",
+      "dit": "Enfin, l'Assemblée législative du peuple sera chargée de voter le texte de loi définitif."
+    }
+  ]
+}

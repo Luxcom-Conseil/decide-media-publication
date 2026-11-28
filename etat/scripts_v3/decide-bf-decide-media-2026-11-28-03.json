@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "Il manque 4 700 m³ d'eau potable par jour à Koudougou.",
+    "Koudougou produit 10 300 m³ d'eau par jour pour 15 000 m³ de besoins.",
+    "Le ministre Ismaël Sombié a lancé des travaux à Koudougou le 25 novembre 2026."
+  ],
+  "titre": "Manque d'eau à Koudougou",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Koudougou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Il manque 4 700 m³ d'eau par jour à Koudougou",
+      "dit": "Il manque 4 700 m³ d'eau potable par jour dans la ville de Koudougou."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Besoin de 15 000 m³",
+      "dit": "La production actuelle atteint 10 300 m³ par jour pour des besoins estimés à 15 000 m³ selon le ministère."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Travaux lancés le *25 novembre*",
+      "dit": "Le ministre Ismaël Sombié a lancé les travaux le 25 novembre 2026 pour renforcer l'approvisionnement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dans la région du *Nando*",
+      "dit": "Cette cérémonie a eu lieu dans la région du Nando pendant une tournée de supervision officielle."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Quatre électropompes de *250 m³*",
+      "dit": "Le projet prévoit quatre électropompes de 250 m³ par heure pour le pompage de l'eau brute."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Amélioration du *décanteur*",
+      "dit": "Pour le traitement, le décanteur passe de 400 à 450 m³ par heure selon le communiqué ministériel."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pose de *conduites*",
+      "dit": "Une conduite de 4 211 mètres doit être posée et la cuve de l'ancien château remise en état."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Coût et durée *inconnus*",
+      "dit": "Le texte ne précise ni le coût des travaux, ni leur durée, ni la date exacte de mise en service."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Demande de *diligence*",
+      "dit": "Le ministre a demandé aux entreprises chargées des travaux du professionnalisme et le respect des délais."
+    }
+  ]
+}
