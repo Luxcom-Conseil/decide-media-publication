@@ -1,0 +1,212 @@
+{
+  "accroches": [
+    "Au Maroc, l'ONCF et Maersk veulent développer le fret ferroviaire.",
+    "Un protocole d'accord signé le 24 novembre 2026 cible les conteneurs.",
+    "Le plan Maroc Rail vise 43 villes desservies d'ici l'horizon 2040."
+  ],
+  "titre": "Maroc : le rail veut les conteneurs",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Maroc",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Au Maroc, l'ONCF et Maersk s'associent pour le *fret*",
+      "dit": "Au Maroc, l'Office national des chemins de fer et Maersk ont signé un accord le 24 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "24 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un accord signé le *24 novembre*",
+      "dit": "Ce protocole d'accord vise à étudier le développement du fret ferroviaire selon Ecofin Agency."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Étendre les services de *fret*",
+      "dit": "Le texte prévoit d'étendre les services de transport par rail et de bâtir des solutions logistiques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun volume ni *calendrier* annoncé",
+      "dit": "L'accord ne chiffre ni les volumes de conteneurs, ni la part du transport routier, ni le calendrier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Maersk exploite des terminaux à *Tanger Med*",
+      "dit": "Maersk exploite à Tanger Med les terminaux TC1 et TC4 via sa filiale APM Terminals."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "31 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Nador West Med mis en *service*",
+      "dit": "À Nador West Med, le premier terminal à conteneurs a été mis en service le 31 octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2028",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Liaison ferroviaire prévue pour *2028*",
+      "dit": "La liaison ferroviaire de ce nouveau port est prévue pour l'année 2028."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réduire le trafic et les *émissions*",
+      "dit": "L'idée est de faire passer par le rail des conteneurs qui partent aujourd'hui par camion."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Industrie automobile et exportations *agricoles*",
+      "dit": "La demande est portée par l'industrie automobile, aéronautique et les exportations agricoles."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "23900000000000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plan Maroc Rail estimé à *23 900 milliards*",
+      "dit": "Le plan Maroc Rail à l'horizon 2040 est estimé à environ 23 900 milliards de francs CFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "23",
+        "apres": "43",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Villes desservies de *23 à 43*",
+      "dit": "Selon ce plan, le nombre de villes desservies par le rail passera de 23 à 43."
+    }
+  ]
+}

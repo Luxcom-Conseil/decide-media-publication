@@ -1,0 +1,153 @@
+{
+  "accroches": [
+    "Au Nigeria, 30 milliards de dollars sont nécessaires pour les infrastructures pétrolières d'ici 2030.",
+    "Le Nigeria cherche 30 milliards de dollars pour son secteur pétrolier et gazier d'ici 2030.",
+    "Il faut 18 000 milliards FCFA au Nigeria pour moderniser ses infrastructures gazières d'ici 2030."
+  ],
+  "titre": "Nigeria : 30 milliards $ pour le gaz",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Lagos",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Au Nigeria, 30 milliards *de dollars* requis",
+      "dit": "Au Nigeria, trente milliards de dollars sont nécessaires pour les infrastructures d'ici deux mille trente."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Soit environ 18 000 *milliards* FCFA",
+      "dit": "Cela représente environ dix-huit mille milliards de francs CFA, selon le régulateur NMDPRA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un chiffre présenté *à Lagos*",
+      "dit": "Victor Ojiakor a présenté ce chiffre le vingt-six novembre à Lagos, lors d'un sommet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les usines et *le stockage*",
+      "dit": "Le montant couvre les usines de traitement du gaz, le stockage, le transport et la distribution."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse par *rapport* à mars",
+      "dit": "Ce besoin dépasse l'estimation de mars dernier, qui visait vingt-deux milliards pour le seul gaz."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "30 à 45 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des stocks pour *30 à 45* jours",
+      "dit": "L'autorité prévoit des réserves stratégiques couvrant trente à quarante-cinq jours de consommation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "21,8 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un stock actuel *de 21,8* jours",
+      "dit": "En octobre, les stocks couvraient vingt-et-un virgule huit jours d'essence et quatorze jours de gaz."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le fonds MDGIF *attire* des fonds",
+      "dit": "De son côté, le fonds MDGIF a attiré sept cent cinq milliards de francs CFA d'investissements privés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Et près de *296* milliards publics",
+      "dit": "Il a aussi reçu deux cent quatre-vingt-seize milliards de francs CFA de fonds publics."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Trente et un *projets* financés",
+      "dit": "Au total, trente et un projets sont financés pour développer la capacité de production future."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "accroches": [
+    "Sénégal : 560 milliards de FCFA pour le projet de la Falémé.",
+    "Planet One investit 560 milliards de FCFA dans la Falémé.",
+    "Le projet de minerai de fer de la Falémé reçoit 560 milliards de FCFA."
+  ],
+  "titre": "Falémé : près de 560 milliards FCFA",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Falemé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Sénégal : 560 milliards de *FCFA* pour la Falémé",
+      "dit": "Au Sénégal, le groupe Planet One engage 560 milliards de FCFA pour le projet de minerai de fer de la Falémé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un engagement de *933 millions* de dollars",
+      "dit": "Selon Sika Finance du 27 novembre 2026, cet engagement atteint 933 millions de dollars annoncés à Reuters."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "120 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Première *phase* estimée à 120 milliards",
+      "dit": "La première phase est estimée à environ 120 milliards de FCFA pour une durée de 12 à 18 mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Modernisation des *infrastructures* minières",
+      "dit": "Elle porte sur la modernisation des infrastructures minières, routières et ferroviaires ainsi que sur les équipements."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "18 à 36 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une deuxième phase sans *montant*",
+      "dit": "De son côté, la deuxième phase doit durer entre 18 et 36 mois sans qu'aucun montant ne soit indiqué."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Production de *3 à 5 millions* de tonnes",
+      "dit": "La production initiale attendue est de 3 à 5 millions de tonnes de minerai de fer par an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Capacité de pointe à *10 millions* de tonnes",
+      "dit": "La capacité de pointe est évaluée à 10 millions de tonnes par an selon la logistique disponible."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un financement en *fonds propres* et dette",
+      "dit": "Le financement associe 40 pourcent de fonds propres et 60 pourcent de dette pour le projet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Planet One détient *80 pourcent*",
+      "dit": "Planet One détient 80 pourcent du capital tandis que l'État sénégalais et la MIFERSO en détiennent chacun 10 pourcent."
+    }
+  ]
+}

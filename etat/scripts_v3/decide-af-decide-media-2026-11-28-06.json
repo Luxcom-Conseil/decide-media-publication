@@ -1,0 +1,158 @@
+{
+  "accroches": [
+    "La Zambie a vendu pour 91,7 millions de dollars d'émeraudes en 2026.",
+    "Le gisement d'émeraudes de Kagem a atteint 91,7 millions de dollars de ventes en 2026.",
+    "Les ventes d'émeraudes du gisement de Kagem en Zambie ont rapporté 91,7 millions de dollars."
+  ],
+  "titre": "Zambie : 91,7 millions $ d'émeraudes",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "La Zambie a vendu pour 91,7 millions de dollars d'émeraudes en 2026.",
+      "dit": "La Zambie a vendu pour 91,7 millions de dollars d'émeraudes en 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse de *17 %*",
+      "dit": "Ce montant représente une hausse d'environ 17 % par rapport à l'année précédente."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "78,4 millions",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La mine avait vendu 78,4 millions en 2025",
+      "dit": "En 2025, la mine de Kagem avait vendu pour 78,4 millions de dollars."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Annonce de l'actionnaire Gemfields le *27 novembre*",
+      "dit": "L'annonce a été faite le 27 novembre 2026 par l'actionnaire Gemfields, selon Ecofin Agency."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Troisième meilleur résultat depuis *2009*",
+      "dit": "Avec ce total, Kagem obtient son troisième meilleur résultat annuel depuis le début des enchères en 2009."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "148,6 millions",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le record reste de *148,6 millions* en 2022",
+      "dit": "Le record historique reste établi à 148,6 millions de dollars en 2022."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 au 26 novembre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dernière vente du *12 au 26 novembre*",
+      "dit": "La dernière vente de l'année s'est tenue du 12 au 26 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "35,3 millions",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cette vente rapporte *35,3 millions* de dollars",
+      "dit": "Cette session a rapporté 35,3 millions de dollars et tous les lots proposés ont trouvé preneur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de *220 000 carats* de belle qualité",
+      "dit": "Les émeraudes de belle qualité représentaient un peu plus de 220 000 carats."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "L'entreprise Gemfields détient *75 %* de Kagem",
+      "dit": "L'entreprise Gemfields détient 75 % de la mine, aux côtés de la société publique zambienne."
+    }
+  ]
+}

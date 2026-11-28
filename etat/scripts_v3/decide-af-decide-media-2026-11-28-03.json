@@ -1,0 +1,144 @@
+{
+  "accroches": [
+    "En Côte d'Ivoire l'excédent commercial a dépassé 5 344,8 milliards FCFA en 2025.",
+    "En Côte d'Ivoire l'excédent commercial a été multiplié par 2,7 en 2025.",
+    "La Côte d'Ivoire a dégagé un excédent avec la France en 2025."
+  ],
+  "titre": "Côte d'Ivoire : excédent commercial record",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": null,
+      "ecran": "En Côte d'Ivoire l'excédent *dépasse* 5 344,8 milliards",
+      "dit": "En Côte d'Ivoire, l'excédent commercial a atteint 5 344,8 milliards FCFA en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un excédent *multiplié* par 2,7",
+      "dit": "Ce montant était de 1 989,2 milliards FCFA en 2024, soit une multiplication par 2,7."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Direction générale des Douanes",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Données des *Douanes* ivoiriennes",
+      "dit": "Ces chiffres proviennent d'une note de la Direction générale des Douanes sur le commerce extérieur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "12 427,8 milliards",
+        "apres": "16 611,6 milliards",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Exportations en *hausse* de 33,7 %",
+      "dit": "Les exportations de biens sont passées de 12 427,8 milliards FCFA à 16 611,6 milliards en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Importations en *hausse* de 7,9 %",
+      "dit": "De leur côté, les importations ont augmenté de 7,9 %, atteignant 11 266,9 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Taux de *couverture* à 147,4 %",
+      "dit": "Le taux de couverture des importations par les exportations est ainsi monté à 147,4 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2021 à 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'excédent était de *763,2 milliards*",
+      "dit": "En 2021, cet excédent était de 763,2 milliards FCFA, puis de 77,6 milliards FCFA en 2023."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Direction générale du Trésor",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Excédent de *412 milliards* avec la France",
+      "dit": "Selon le Trésor français, la Côte d'Ivoire a aussi dégagé un excédent de 412 milliards FCFA avec la France."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de *ventes* que d'achats",
+      "dit": "Cet excédent montre que le pays a plus encaissé en vendant à l'étranger qu'il n'a dépensé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Seuls les *biens* sont comptés",
+      "dit": "Ce calcul ne concerne que les marchandises et laisse de côté les services et les dettes."
+    }
+  ]
+}

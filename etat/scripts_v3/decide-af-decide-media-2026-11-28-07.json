@@ -1,0 +1,142 @@
+{
+  "accroches": [
+    "En Tunisie, les revenus des sociétés cotées en bourse progressent de 4,2 %.",
+    "La Bourse de Tunis enregistre des revenus de 19,2 milliards de dinars.",
+    "Les revenus des sociétés cotées à la Bourse de Tunis augmentent en 2026."
+  ],
+  "titre": "Bourse de Tunis : revenus en hausse",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Tunis",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "En Tunisie, les revenus *progressent* de 4,2 %.",
+      "dit": "En Tunisie, les sociétés cotées à la Bourse de Tunis ont vu leur revenu global progresser de 4,2 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "19 200 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un total de 19,2 *milliards* de dinars.",
+      "dit": "Ce revenu atteint 19,2 milliards de dinars, soit environ 3 760 milliards de francs CFA, sur les neuf premiers mois de 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "18 500 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Contre 18,5 milliards un an *avant*.",
+      "dit": "Il s'établissait à 18,5 milliards de dinars, soit environ 3 630 milliards de francs CFA, un an plus tôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Ces chiffres viennent d'une *note* officielle.",
+      "dit": "Ces chiffres proviennent d'une note de la Bourse de Tunis, relayée le 27 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Soit 64 % des *sociétés* en hausse.",
+      "dit": "Sur les 72 sociétés qui ont publié leurs indicateurs, 46 ont amélioré leurs revenus cumulés, soit 64 pour cent."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le secteur financier progresse de *6,5* pour cent.",
+      "dit": "Par secteur, le domaine financier progresse de 6,5 pour cent selon le document."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les douze banques cotées en *hausse*.",
+      "dit": "Les 12 banques cotées affichent un produit net bancaire cumulé en hausse de 5,8 pour cent."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les assurances progressent de *10,6* pour cent.",
+      "dit": "Les 7 compagnies d'assurances cotées affichent quant à elles des primes émises en hausse de 10,6 pour cent."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La télécommunication affiche la meilleure *performance*.",
+      "dit": "La télécommunication fait la meilleure performance globale avec une hausse de 15,2 pour cent."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le secteur des matériaux de base *recule*.",
+      "dit": "À l'inverse, le secteur des matériaux de base recule de 21,5 pour cent sur la même période."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "La santé baisse de *10,2* pour cent.",
+      "dit": "La santé enregistre une baisse de 10,2 pour cent et le secteur pétrole et gaz recule de 9 pour cent."
+    }
+  ]
+}

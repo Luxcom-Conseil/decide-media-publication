@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "En Afrique du Sud, un accord apporte 300 millions d'euros pour les minerais.",
+    "Jusqu'à 300 millions d'euros pour les minerais critiques en Afrique du Sud.",
+    "La BEI et l'IDC financent les minerais critiques à hauteur de 300 millions d'euros."
+  ],
+  "titre": "Minerais critiques : 300 millions d'euros",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "South Africa",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "En Afrique du Sud, *300 millions* d'euros pour les minerais",
+      "dit": "En Afrique du Sud, la Banque européenne d'investissement et l'IDC ont signé un accord le 26 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "197 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *197 milliards* FCFA",
+      "dit": "Cet accord apporte jusqu'à 300 millions d'euros, soit environ 197 milliards de francs CFA, comme plafond."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "590 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *590 milliards* d'investissements",
+      "dit": "La banque espère que cela soutiendra environ 900 millions d'euros d'investissement au total, soit 590 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pour l'Afrique du Sud",
+      "dit": "Le financement vise l'Afrique du Sud et d'autres pays d'Afrique subsaharienne, selon Ecofin Agency."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Extraction et *traitement* des minerais",
+      "dit": "Il couvre l'extraction, le traitement, le raffinage, le recyclage et les infrastructures nécessaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Transformation locale",
+      "dit": "Les projets doivent développer la transformation locale des minerais pour plus de valeur ajoutée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réduire les *risques*",
+      "dit": "Mmakgoshi Lekhethe, à la tête de l'IDC, indique qu'il doit réduire les risques pour les investisseurs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Premier *financement* hors Union européenne",
+      "dit": "Selon Ecofin, c'est le premier financement de la BEI hors Union européenne consacré aux minerais."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*30 %* des réserves mondiales",
+      "dit": "Le Fonds monétaire international rappelle que l'Afrique subsaharienne détient 30 % des réserves prouvées."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Freins à l'*investissement*",
+      "dit": "Ecofin liste aussi les freins comme le coût de l'électricité et le manque de main-d'œuvre qualifiée."
+    }
+  ]
+}

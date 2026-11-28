@@ -1,0 +1,224 @@
+{
+  "accroches": [
+    "Au Nigeria, la banque centrale maintient son taux directeur à 23 %.",
+    "Au Nigeria, l'inflation s'est établie à 14,06 % en octobre 2026.",
+    "Au Nigeria, les réserves extérieures ont atteint 54,02 milliards de dollars."
+  ],
+  "titre": "Nigeria : taux directeur maintenu à 23 %",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Central Bank of Nigeria",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Au Nigeria, le *taux* reste à 23 %",
+      "dit": "Au Nigeria, la banque centrale a gardé son taux directeur à 23 % le 24 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dix membres au *comité* monétaire",
+      "dit": "Selon le communiqué officiel, dix membres du comité de politique monétaire ont participé à ce vote."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "14,63 %",
+        "apres": "14,06 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'inflation *baisse* à 14,06 %",
+      "dit": "L'inflation sur un an a reculé à 14,06 % en octobre 2026, contre 14,63 % en septembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "19,59 %",
+        "apres": "19,13 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'alimentation *recule* à 19,13 %",
+      "dit": "De son côté, l'inflation des produits alimentaires est passée de 19,59 % à 19,13 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "12,95 %",
+        "apres": "10,78 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'inflation de base à *10,78 %*",
+      "dit": "L'inflation de base a également baissé, passant de 12,95 % à 10,78 % sur un an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Cinq mois de *baisse* consécutifs",
+      "dit": "Le comité cite la stabilité du change et la saison des récoltes pour expliquer cinq mois de baisse."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Réserves obligatoires *inchangées* à 45 %",
+      "dit": "Le coefficient de réserves obligatoires reste fixé à 45 % pour les banques de dépôt."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Deux *risques* identifiés par la banque",
+      "dit": "La banque centrale prévient toutefois contre les risques du conflit au Moyen-Orient sur le pétrole."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les *fêtes* menacent les prix",
+      "dit": "Elle cite aussi la hausse des dépenses prévue avec les fêtes de fin d'année et les élections."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "32 300 milliards",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "32 300 milliards FCFA de *réserves*",
+      "dit": "Au 17 novembre 2026, les réserves extérieures brutes atteignaient 54,02 milliards de dollars."
+    },
+    {
+      "type": "media",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Nigerian National Petroleum Corporation",
+        "logo": true,
+        "secours": null
+      },
+      "ecran": "Accord avec la *NNPC* signé",
+      "dit": "Un accord avec la compagnie pétrolière NNPC doit augmenter l'entrée de devises dans le pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "22-23 février 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Prochaine réunion en *février 2027*",
+      "dit": "La prochaine réunion de politique monétaire au Nigeria aura lieu les 22 et 23 février 2027."
+    }
+  ]
+}
