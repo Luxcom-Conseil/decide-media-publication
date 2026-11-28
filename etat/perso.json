@@ -1433,213 +1433,13 @@
       "formule": "Contre-pied",
       "id": "20261128-1230",
       "legende": "Tu crois que ton idée est géniale ? C'est peut-être tout l'inverse.\n\nNotre cerveau nous piège avec l'effet IKEA : on donne beaucoup plus de valeur à ce qu'on a construit soi-même, même si c'est imparfait.\n\nPour réussir tes projets, utilise ce réflexe à ton avantage :\n- Fais co-créer tes clients ou tes collègues pour qu'ils s'approprient tes idées.\n- Prends du recul sur tes propres créations pour accepter les remarques.\n\nAs-tu déjà gardé une idée ou un objet juste parce que tu l'avais fait toi-même ?\n\n#psychologie #entrepreneuriat #productivite #conseil",
+      "media_id": "18134222362691227",
+      "publie_le": "2026-11-28T11:32:16+00:00",
       "quand": "2026-11-28T12:30:00+01:00",
-      "script": {
-        "accroches": [
-          {
-            "formule": "Contre-pied",
-            "texte": "Tu crois que ton idée est géniale ? C'est l'inverse."
-          },
-          {
-            "formule": "Révélation",
-            "texte": "Ce petit réflexe au travail te coûte plus cher que tu ne crois."
-          },
-          {
-            "formule": "Enjeu",
-            "texte": "Trop aimer tes projets peut détruire ta carrière sans que tu le saches."
-          }
-        ],
-        "hashtags": [
-          "psychologie",
-          "entrepreneuriat",
-          "productivite",
-          "conseil"
-        ],
-        "legende": "Tu crois que ton idée est géniale ? C'est peut-être tout l'inverse.\n\nNotre cerveau nous piège avec l'effet IKEA : on donne beaucoup plus de valeur à ce qu'on a construit soi-même, même si c'est imparfait.\n\nPour réussir tes projets, utilise ce réflexe à ton avantage :\n- Fais co-créer tes clients ou tes collègues pour qu'ils s'approprient tes idées.\n- Prends du recul sur tes propres créations pour accepter les remarques.\n\nAs-tu déjà gardé une idée ou un objet juste parce que tu l'avais fait toi-même ?",
-        "question": "As-tu déjà gardé une idée ou un objet juste parce que tu l'avais fait toi-même ?",
-        "scenes": [
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu crois que ton idée est géniale ? C'est peut-être tout l'inverse.",
-            "ecran": "Tu *crois* que ton idée est géniale ?",
-            "emoji": "😱",
-            "recherche": "man thinking looking at laptop",
-            "type": "accroche",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Et le pire, c'est que tu défends ce projet même s'il ne marche pas du tout.",
-            "ecran": "Le piège de tes *propres* créations",
-            "emoji": "👀",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Psychologiquement, ce phénomène a un nom très précis. Ça s'appelle l'effet IKEA.",
-            "ecran": "Bienvenue dans *l'effet IKEA*",
-            "emoji": "🧠",
-            "recherche": "assembling wooden furniture hands",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": "Fait soi-même",
-            "b": "Acheté tout fait",
-            "dit": "On accorde spontanément beaucoup plus de valeur à ce qu'on a construit soi-même.",
-            "ecran": "La *valeur* perçue selon l'effort",
-            "emoji": "⚖️",
-            "recherche": null,
-            "type": "comparaison",
-            "valeur_a": 3,
-            "valeur_b": 1
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Même si le résultat final est bancal ou imparfait, ton cerveau l'adore.",
-            "ecran": "Même si c'est *imparfait*",
-            "emoji": "🛠️",
-            "recherche": "crooked table furniture close up",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Regarde ce meuble monté en deux heures chez toi. Tu y tiens énormément.",
-            "ecran": "Ce meuble monté *avec peine*",
-            "emoji": "📦",
-            "recherche": "man looking proud at shelf",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Pourtant, un spécialiste te dirait qu'il est mal vissé et qu'il penche.",
-            "ecran": "Pourtant il est *de travers*",
-            "emoji": "🛋️",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Au travail, c'est exactement la même chose avec tes propositions et tes présentations.",
-            "ecran": "C'est pareil au *bureau*",
-            "emoji": "🏢",
-            "recherche": "office worker writing whiteboard",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Comme tu as passé des nuits dessus, tu refuses de voir ses défauts évidents.",
-            "ecran": "Ton *projet* devient ton bébé",
-            "emoji": "💡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Tu deviens aveugle aux remarques constructives de tes collègues ou de tes proches.",
-            "ecran": "Tu rejettes les *critiques*",
-            "emoji": "🚫",
-            "recherche": "business meeting disagreement",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Mais tu peux retourner ce biais à ton avantage dès aujourd'hui.",
-            "ecran": "Comment utiliser ce *mécanisme* ?",
-            "emoji": "⚡",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Voici les deux étapes indispensables pour faire avancer tes projets rapidement.",
-            "ecran": "2 étapes : Impliquer | Prendre du recul",
-            "emoji": "🎯",
-            "recherche": "teamwork joining puzzle pieces",
-            "type": "liste",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Un. Pour qu'un client s'attache à ton idée, fais-le participer à sa création.",
-            "ecran": "Un : Fais *co-créer* ton client",
-            "emoji": "1️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Demande-lui son avis sur les détails, laisse-le construire le projet avec toi.",
-            "ecran": "Laisse-lui des *choix*",
-            "emoji": "🤝",
-            "recherche": "people collaborating laptop office",
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Deux. Garde en tête que ton attachement personnel peut totalement te rendre aveugle.",
-            "ecran": "Deux : *Méfie-toi* de tes idées",
-            "emoji": "2️⃣",
-            "recherche": null,
-            "type": "texte",
-            "valeur_a": null,
-            "valeur_b": null
-          },
-          {
-            "a": null,
-            "b": null,
-            "dit": "Fais participer les autres pour qu'ils aiment tes projets.",
-            "ecran": "Fais participer les autres pour qu'ils aiment tes projets.",
-            "emoji": "💡",
-            "recherche": "man smiling confidently camera",
-            "type": "citation",
-            "valeur_a": null,
-            "valeur_b": null
-          }
-        ],
-        "titre": "L'effet IKEA"
-      },
-      "statut": "programme",
+      "statut": "publie",
       "sujet": "ikea",
       "timbre": "conseil",
+      "url": "https://www.instagram.com/reel/DgSJyWlqyG4/",
       "video_url": "https://luxcom-conseil.github.io/decide-media-publication/perso-2026-11-21/20261128-1230.mp4"
     },
     {
@@ -5607,6 +5407,13 @@
       "media_id": "18006337176011032",
       "sujet": "emotion_memoire",
       "url": "https://www.instagram.com/reel/DgQfYEBsRaW/"
+    },
+    {
+      "angle": "",
+      "jour": "2026-11-28",
+      "media_id": "18134222362691227",
+      "sujet": "ikea",
+      "url": "https://www.instagram.com/reel/DgSJyWlqyG4/"
     }
   ]
 }
