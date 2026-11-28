@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "50 milliards de FCFA de recettes fiscales en plus sur les boissons en 2027.",
+    "Le projet de loi de finances 2027 prévoit une hausse de la taxation des boissons.",
+    "Une hausse de 100 à 150 FCFA par bouteille est avancée pour les boissons."
+  ],
+  "titre": "Boissons : 50 milliards de plus",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "50 milliards de *FCFA* de recettes en plus",
+      "dit": "Le projet de loi de finances 2027 prévoit 50 milliards de FCFA de recettes fiscales supplémentaires par an."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse des *droits* d'accises et timbre",
+      "dit": "Ces recettes proviennent d'une hausse des droits d'accises et de la création d'un droit de timbre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des mesures en *discussion* selon la presse",
+      "dit": "Selon le Journal du Cameroun, ces mesures sont actuellement en discussion dans le projet de loi."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "55",
+        "apres": "55",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "55 % du prix pour les *caisses*",
+      "dit": "D'après les industriels, 55 % du prix de la bouteille revient aux caisses de l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "+ 150",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Hausse de 100 à 150 *FCFA*",
+      "dit": "Le journal avance une hausse potentielle de 100 à 150 FCFA par bouteille selon les marques."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "10",
+        "apres": "20",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une augmentation de 10 à 20 *%*",
+      "dit": "Cette augmentation représente entre 10 et 20 % du prix en rayon selon les produits."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2019",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un précédent en *2019* sur les prix",
+      "dit": "En 2019, le ministère du Commerce avait déjà suspendu le relèvement des prix pour le fixer à 50 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "10 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "10 000 *emplois* directs dans le secteur",
+      "dit": "Selon l'association des producteurs, le secteur offre actuellement 10 000 emplois directs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "6 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "6 000 *exploitants* agricoles partenaires",
+      "dit": "La filière fait également vivre environ 6 000 exploitants agricoles partenaires."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "2 900",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Près de 2 900 *PME*",
+      "dit": "Le secteur soutient enfin près de 2 900 petites et moyennes entreprises partenaires."
+    }
+  ]
+}

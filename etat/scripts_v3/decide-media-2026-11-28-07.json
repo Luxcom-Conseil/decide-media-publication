@@ -1,0 +1,154 @@
+{
+  "accroches": [
+    "43,79 milliards FCFA pour électrifier 243 localités dans le Grand Nord.",
+    "L'AER a lancé un appel d'offres pour 243 localités.",
+    "243 localités visées par l'électrification rurale au Cameroun."
+  ],
+  "titre": "Électrification dans le Grand Nord",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Garoua",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "*43,79 milliards* FCFA pour le courant",
+      "dit": "43,79 milliards FCFA sont prévus pour électrifier 243 localités dans le Nord et l'Adamaoua."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un appel d'offres *lancé*",
+      "dit": "L'Agence d'électrification rurale a lancé cet appel d'offres international le 25 novembre 2026 selon EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Cinq lots pour *243* localités",
+      "dit": "Les cinq lots visent l'Adamaoua Nord, l'Adamaoua Sud, Lagdo, Garoua et Guider."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "18 à 24 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des délais de *18* à 24 mois",
+      "dit": "Les délais d'exécution sont fixés à 18 mois pour l'Adamaoua Sud et Lagdo, et à 24 mois pour les trois autres."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "10 %",
+        "apres": "2021",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un taux de *10 %* en 2021",
+      "dit": "Selon le régulateur ARSEL, le Grand Nord affichait en 2021 un taux d'électrification de 10 % des ménages."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une hausse de *40 %* des clients",
+      "dit": "La région comptait 261 019 clients actifs fin 2025, contre 186 442 en 2021, soit une hausse de 40 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "73269",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*73 269* nouveaux branchements",
+      "dit": "Entre 2021 et fin 2025, 73 269 branchements de premier accès y ont été enregistrés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le programme *PERACE* en cours",
+      "dit": "L'appel d'offres s'inscrit dans le programme PERACE, mis en œuvre depuis 2020 avec la Banque mondiale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "811750",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*811 750* personnes déjà touchées",
+      "dit": "Selon l'Agence d'électrification rurale, 811 750 personnes ont déjà bénéficié d'un service électrique nouveau."
+    }
+  ]
+}

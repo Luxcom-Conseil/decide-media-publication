@@ -1,0 +1,202 @@
+{
+  "accroches": [
+    "2 711 milliards FCFA iront au service de la dette en 2027.",
+    "Le budget de l'État atteindrait 9 761,7 milliards FCFA en 2027.",
+    "Le déficit budgétaire s'élèverait à près de 949 milliards FCFA."
+  ],
+  "titre": "Budget 2027 : la dette pèse lourd",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "2 711 milliards de *dette*",
+      "dit": "2 711 milliards FCFA iront au service de la dette en 2027 au Cameroun, selon EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "9 761,7",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un budget en *hausse*",
+      "dit": "Le budget de l'État devrait s'établir à 9 761,7 milliards FCFA, en hausse de 10,7 % par rapport à 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le Parlement a *adopté*",
+      "dit": "Le Parlement avait adopté un budget de 8 816,4 milliards FCFA en novembre 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le texte sera *déposé*",
+      "dit": "Le gouvernement s'apprête à déposer le texte au Parlement, sans date précise pour l'instant."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "724,5",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les intérêts de la *dette*",
+      "dit": "Les intérêts et commissions sur la dette absorberaient 724,5 milliards FCFA l'an prochain."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 986,5",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Remboursement des *emprunts*",
+      "dit": "Le remboursement du capital des emprunts atteindrait de son côté 1 986,5 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "6 062,4",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des recettes *attendues*",
+      "dit": "Les recettes budgétaires nettes sont quant à elles attendues à 6 062,4 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Les impôts et *taxes*",
+      "dit": "Les impôts et taxes fourniraient 80,2 % de ces recettes, soit 4 862,7 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "591,2",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les recettes *pétrolières*",
+      "dit": "Les recettes pétrolières devraient rapporter 591,2 milliards FCFA selon le projet."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "949",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un déficit *budgétaire*",
+      "dit": "Les dépenses totales laissent un déficit budgétaire de près de 949 milliards FCFA, soit 2,4 % du PIB."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "3 619,3",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Besoin de *financement*",
+      "dit": "L'État a besoin de 3 619,3 milliards FCFA au total pour boucler l'exercice à venir."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "accroches": [
+    "2,61 milliards FCFA pour superviser le futur dépôt de Kribi.",
+    "Proseen supervisera le futur dépôt de Kribi pour 2,61 milliards.",
+    "Le cabinet Proseen pilotera le futur dépôt pétrolier de Kribi."
+  ],
+  "titre": "Kribi : un superviseur pour le dépôt",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Kribi",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "2,61 milliards pour superviser *Kribi*",
+      "dit": "2,61 milliards FCFA pour superviser le futur dépôt de Kribi."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le marché attribué à *Proseen*",
+      "dit": "Le Dépôt pétrolier de Kribi a attribué ce marché au cabinet d'ingénierie ivoirien Proseen."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "52 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une durée de *52 mois*",
+      "dit": "La mission d'assistance et de supervision s'étendra sur une durée de 52 mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Décision signée le *25 novembre*",
+      "dit": "La décision d'attribution a été signée le 25 novembre 2026 par le directeur général Patrice Etame Etame."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Publication par *l'ARMP*",
+      "dit": "Selon Investir au Cameroun, l'Agence de régulation des marchés publics a publié l'information le 26 novembre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Classé premier avec *92 points*",
+      "dit": "Le cabinet Proseen a obtenu 92 points sur 100 et a été classé premier pour ce contrat."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Contrôler les coûts et *délais*",
+      "dit": "Son rôle consistera à contrôler les coûts et les délais, ainsi qu'à superviser les travaux."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Stockage de *140 000 m³*",
+      "dit": "Le projet prévoit des capacités de stockage de 140 000 mètres cubes de produits pétroliers blancs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Près de *500 emplois* directs",
+      "dit": "La Société camerounaise des dépôts pétroliers a annoncé que le projet générera près de 500 emplois directs."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "150 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un investissement de *150 milliards*",
+      "dit": "Le financement global du projet est estimé à environ 150 milliards de francs CFA selon EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "21 août 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Montage présenté à *Douala*",
+      "dit": "Ce montage financier a été présenté aux investisseurs le 21 août 2026 à Douala."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Financement non *confirmé*",
+      "dit": "Cependant, les documents consultés ne permettent pas de confirmer le bouclage définitif du financement."
+    }
+  ]
+}

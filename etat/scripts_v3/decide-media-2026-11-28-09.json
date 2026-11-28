@@ -1,0 +1,173 @@
+{
+  "accroches": [
+    "1,75 milliard de FCFA de garantie annoncée pour racheter les factures des PME.",
+    "Lusis & Co annonce 1,75 milliard de FCFA pour financer les PME.",
+    "Une garantie de 1,75 milliard de FCFA annoncée par Lusis & Co à Douala."
+  ],
+  "titre": "PME et factures au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Douala",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "1,75 milliard *FCFA* de garantie",
+      "dit": "1,75 milliard de FCFA de garantie ont été annoncés pour racheter les factures des PME."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Un financement de *l'Afreximbank*",
+      "dit": "Cette garantie a été accordée par Afreximbank selon le directeur général de Lusis et Co."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "25 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Présenté à *Douala* le 25 novembre",
+      "dit": "Le projet a été présenté le 25 novembre 2026 à Douala lors d'un forum sur le financement."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Aucun document *public* identifié",
+      "dit": "Selon Investir au Cameroun, aucun document public n'a précisé ce montant ni ces modalités."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'affacturage pour les *factures*",
+      "dit": "L'affacturage permet à une entreprise d'obtenir une avance de trésorerie sur ses factures."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Moins de *1 %* par mois",
+      "dit": "Lusis et Co veut proposer aux PME un taux de financement inférieur à 1 pour cent par mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "CCA Bank s'engage à *solder*",
+      "dit": "Le directeur général Pierre Okala Mbene déclare que CCA Bank s'engage à solder les créances."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Pas encore un établissement *agréé*",
+      "dit": "Selon Investir au Cameroun, Lusis et Co n'est pas encore un établissement agréé pour l'affacturage."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'avis de la *Cobac* requis",
+      "dit": "L'avis conforme de la Commission bancaire de l'Afrique centrale est requis pour exercer."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "11 mars 2016",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un décret du *11 mars 2016*",
+      "dit": "La loi du 23 avril 2014 encadre l'activité avec un décret d'application du 11 mars 2016."
+    }
+  ]
+}

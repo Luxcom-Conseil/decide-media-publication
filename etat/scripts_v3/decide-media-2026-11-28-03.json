@@ -1,0 +1,143 @@
+{
+  "accroches": [
+    "65 % des répondants jugent mauvaise la situation économique actuelle du Cameroun.",
+    "86 % ont manqué de revenus en espèces au moins une fois.",
+    "Les prix alimentaires ont augmenté de 41,8 % entre 2021 et 2025."
+  ],
+  "titre": "Économie au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "65 % des *répondants* jugent la situation mauvaise",
+      "dit": "65 % des répondants jugent mauvaise la situation économique actuelle du Cameroun en août 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "63 % estiment qu'elle s'est *détériorée*",
+      "dit": "Pour 63 % des personnes interrogées, elle s'est détériorée au cours des cinq dernières années."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "12 mois",
+        "apres": "86 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "86 % ont manqué de *revenus*",
+      "dit": "Au cours des 12 mois précédant le sondage, 86 % ont manqué de revenus en espèces au moins une fois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "64 % ont manqué de *nourriture*",
+      "dit": "De plus, 64 % ont manqué de nourriture et 54 % ont emprunté à des amis ou à des proches."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "33 % utilisent les *tontines*",
+      "dit": "33 % ont eu recours aux tontines ou à des groupes communautaires pour faire face."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "2021",
+        "apres": "41,8 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Hausse de 41,8 % des *prix*",
+      "dit": "Selon l'Institut national de la statistique, les prix alimentaires ont augmenté de 41,8 % entre 2021 et 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "23,3 % pour les *biens*",
+      "dit": "Cette hausse atteint 23,3 % pour l'ensemble des biens et services consommés par les ménages."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "2025",
+        "apres": "28,2 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "28,2 % vivent sous le *seuil*",
+      "dit": "Selon la Banque mondiale, 28,2 % des Camerounais vivaient avec moins de 3 dollars par jour en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 800",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Moins de 1 800 FCFA *par* jour",
+      "dit": "Cela représente environ 1 800 FCFA par jour pour plus de 8,4 millions de personnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Jusqu'à 29 % en *2026*",
+      "dit": "Cette part de la population pourrait atteindre 29 % en 2026 d'après la même organisation."
+    }
+  ]
+}

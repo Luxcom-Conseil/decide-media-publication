@@ -1,0 +1,193 @@
+{
+  "accroches": [
+    "La production de gaz de Bipaga a baissé de 29,5 % en 2026.",
+    "Bipaga a produit 17 000 tonnes de gaz sur dix mois en 2026.",
+    "Le Cameroun a importé plus de 83 % de son gaz en 2023."
+  ],
+  "titre": "Gaz domestique : Bipaga produit moins",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Bipaga *baisse* de 29,5 %",
+      "dit": "La production de gaz de Bipaga a reculé de 29,5 % sur les dix premiers mois de 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "baisse",
+        "avant": "24 100",
+        "apres": "17 000",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "17 000 *tonnes* de gaz",
+      "dit": "Le site a produit 17 000 tonnes entre janvier et octobre 2026, contre 24 100 tonnes en 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Bipaga *seule* usine active",
+      "dit": "Bipaga est la seule installation qui produit du gaz au Cameroun depuis l'arrêt de la Sonara."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pourcent",
+        "sens": "hausse",
+        "avant": "2023",
+        "apres": "83 %",
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "83 % de gaz *importé*",
+      "dit": "En 2023, les besoins du marché ont atteint 208 083 tonnes, dont plus de 83 % venaient de l'étranger."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "6 500",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La bouteille à *6 500 FCFA*",
+      "dit": "Pour le ménage, le prix officiel de la bouteille de 12,5 kg est fixé à 6 500 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "15 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Jusqu'à *15 000 FCFA*",
+      "dit": "Elle se négocie entre 10 000 et 15 000 FCFA dans certains points de vente informels."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "carte",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Limbé",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Activités *réduites* à Etinde",
+      "dit": "Pour le champ d'Etinde au large de Limbé, Bowleven indique des activités réduites au minimum."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "Fin 2027",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Décision fin *2027*",
+      "dit": "Une nouvelle décision d'investissement sur ce site n'est pas attendue avant la fin de l'année 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le gaz de *Yoyo-Yolanda*",
+      "dit": "Le gisement Yoyo-Yolanda prévoit de traiter son gaz à Bipaga avec la Guinée équatoriale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Manque de *planification*",
+      "dit": "Selon l'expert Bareja Youmssi, ces retards s'expliquent par le manque de recherche et d'investissements."
+    }
+  ]
+}

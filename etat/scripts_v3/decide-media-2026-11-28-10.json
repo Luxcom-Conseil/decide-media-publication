@@ -1,0 +1,163 @@
+{
+  "accroches": [
+    "L'État prévoit 18 % des investissements du pacte national AgriConnect.",
+    "Le pacte AgriConnect nécessite 1 120 milliards FCFA d'ici 2030 au Cameroun.",
+    "Le gouvernement camerounais doit financer 201 milliards FCFA pour AgriConnect."
+  ],
+  "titre": "AgriConnect : l'État prévoit 18 %",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Yaoundé",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "L'État prévoit *18 %* pour AgriConnect",
+      "dit": "L'État prévoit 18 % des investissements du pacte national AgriConnect au Cameroun."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1 120 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Besoin de *1 120 milliards* FCFA",
+      "dit": "Les besoins d'investissement sont estimés à 1,87 milliard de dollars pour la période 2026-2030, soit environ 1 120 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "201 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Contribution de *201 milliards* FCFA",
+      "dit": "Selon le document de la Banque mondiale, la contribution prévisionnelle du gouvernement camerounais s'élève à 201 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "916 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le privé et les *bailleurs* financent",
+      "dit": "Les bailleurs de fonds et le secteur privé devraient apporter le reste, soit environ 916 milliards FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Lancement à *Yaoundé* en octobre",
+      "dit": "Ce pacte national a été officiellement lancé le 21 octobre 2026 dans la ville de Yaoundé."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse de la production de *maïs*",
+      "dit": "Le programme vise à porter la production annuelle de maïs de 2,3 à 6 millions de tonnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Objectif de *100 000 tonnes* de soja",
+      "dit": "Il prévoit aussi de multiplier par cinq la production de soja pour atteindre 100 000 tonnes."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Réduire la facture des *importations*",
+      "dit": "L'initiative ambitionne par ailleurs de réduire de 28 % la facture des importations alimentaires du pays."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "10 000 000 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dispositif de *crédits* agricoles",
+      "dit": "Le projet ambitionne de mobiliser 10 milliards FCFA de crédits agricoles grâce à un dispositif de garantie."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "21 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Partenariats et *participeurs* institutionnels",
+      "dit": "Plusieurs institutions ont participé à l'élaboration du texte sans que leurs montants de financement soient fixés."
+    }
+  ]
+}

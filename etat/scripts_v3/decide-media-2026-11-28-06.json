@@ -1,0 +1,202 @@
+{
+  "accroches": [
+    "30 % du budget général sont prévus pour l'investissement en 2027.",
+    "Le gouvernement prépare le dépôt du projet de loi de finances 2027.",
+    "Le budget 2026 a été voté en cinq jours par l'Assemblée."
+  ],
+  "titre": "Budget au Cameroun",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Assemblée nationale du Cameroun",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "30 % pour *l'investissement*",
+      "dit": "30 % du budget général sont prévus pour l'investissement en 2027 selon Cameroon Tribune."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "12 octobre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une circulaire *présidentielle*",
+      "dit": "La préparation de ce budget repose sur une circulaire datée du 12 octobre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Dépôt au *Parlement*",
+      "dit": "Le gouvernement s'apprête à déposer ce projet de loi de finances au Parlement d'après EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "27 octobre",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Présentation au *Conseil de cabinet*",
+      "dit": "Le ministre des Finances a présenté ses projections au Conseil de cabinet le 27 octobre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un visa de *maturité*",
+      "dit": "Les nouveaux engagements demandent un visa de maturité pour prouver leur impact."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "26 novembre 2025",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le vote en *2025*",
+      "dit": "Pour la loi de finances 2026, le texte a été déposé dans la nuit du 26 novembre 2025."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "5 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Adopté en *cinq jours*",
+      "dit": "L'Assemblée nationale l'a adopté à l'unanimité cinq jours plus tard selon EcoMatin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un délai *réglementaire*",
+      "dit": "Ce délai est bien en deçà des 15 jours de délai réglementaire cités par le journal."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Une part de *23,4 %*",
+      "dit": "En 2026, le budget d'investissement public représentait 23,4 % du budget général."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Des crédits *inscrits*",
+      "dit": "Il s'agit des crédits inscrits dans la loi de finances et non des dépenses exécutées."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La promulgation par *décret*",
+      "dit": "Le texte voté attend ensuite sa promulgation par décret présidentiel d'après EcoMatin."
+    }
+  ]
+}
