@@ -1,0 +1,183 @@
+{
+  "accroches": [
+    "Dès le 1er décembre 2026, la CNSS ferme ses guichets pour les attestations.",
+    "Les demandes d'attestation CNSS passent uniquement en ligne au Bénin.",
+    "La CNSS bascule ses services en ligne dès ce mardi 1er décembre."
+  ],
+  "titre": "La CNSS passe au tout en ligne",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cotonou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Dès le 1er *décembre*, la CNSS ferme ses guichets.",
+      "dit": "Dès le mardi 1er décembre 2026, la CNSS n'accepte plus aux guichets les demandes d'attestation."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les demandes se font sur *service-public.bj*.",
+      "dit": "Ces demandes passent uniquement par le portail en ligne service-public.bj, selon l'annonce de la CNSS."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La référence employeur est *PS00597*.",
+      "dit": "Pour les employeurs, la démarche d'attestation porte la référence PS00597 sans montant indiqué."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "500",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'attestation coûte *500 FCFA*.",
+      "dit": "Pour les salariés, la démarche PS00602 permet de demander sa propre attestation d'affiliation pour 500 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "2 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Le délai est de *deux* jours.",
+      "dit": "Le portail affiche un délai indicatif de deux jours pour obtenir ce document en ligne."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les *paiements* ne changent pas.",
+      "dit": "Ce qui ne change pas, ce sont les obligations de déclaration et de paiement des cotisations."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Versement mensuel ou *trimestriel*.",
+      "dit": "Les entreprises de vingt salariés ou plus versent chaque mois et les autres chaque trimestre."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "15 jours",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Délai de *quinze* jours.",
+      "dit": "Le versement se fait dans les quinze jours suivant la fin de la période concernée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Majoration de *1,5 %* en retard.",
+      "dit": "En cas de retard, une majoration de 1,5 % s'applique par mois ou fraction de mois."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Les détails sont sur *cnss.bj*.",
+      "dit": "Les modalités détaillées de déclaration et de paiement sont publiées sur le site cnss.bj."
+    }
+  ]
+}

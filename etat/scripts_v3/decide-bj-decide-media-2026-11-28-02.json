@@ -1,0 +1,192 @@
+{
+  "accroches": [
+    "50 000 à 50 millions de FCFA de crédit en ligne au Bénin",
+    "Un crédit en 48 heures est désormais possible en ligne au Bénin",
+    "La Plateforme nationale d'inclusion financière lance un crédit en ligne"
+  ],
+  "titre": "Un crédit en 48 heures au Bénin",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Benin",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "50 000 à 50 millions de FCFA",
+      "dit": "50 000 à 50 millions de FCFA de crédit en ligne sont accessibles au Bénin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "48 heures",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un crédit en 48 heures",
+      "dit": "Depuis le 24 novembre 2026, les usagers peuvent demander ce financement sur la PNIF."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "3 à 36 mois",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Durée de 3 à 36 mois",
+      "dit": "Les durées de remboursement vont de trois à 36 mois, selon Banouto."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Le montant dépend du profil",
+      "dit": "Le montant réellement accessible dépend du profil du demandeur et de son institution."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "48 heures",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Versement en 48 heures",
+      "dit": "Celle-ci dispose de 48 heures après la signature du contrat pour verser les fonds."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Quatre étapes en ligne",
+      "dit": "La démarche se fait sur le site pnif.bj avec un identifiant unique."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "L'argent versé directement",
+      "dit": "L'institution verse ensuite l'argent sur un compte bancaire ou Mobile Money."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Quatorze établissements partenaires",
+      "dit": "Quatorze établissements de microfinance sont annoncés, selon 24 Heures au Bénin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "48 heures",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Validation soumise à conditions",
+      "dit": "Le délai ne signifie pas que toute demande est acceptée par le prêteur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Taux et frais variables",
+      "dit": "Le taux d'intérêt varie selon l'offre et des frais d'assurance peuvent s'ajouter."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un centre d'assistance",
+      "dit": "Un droit de rétractation sans frais existe et un centre d'assistance répond au 7320."
+    }
+  ]
+}

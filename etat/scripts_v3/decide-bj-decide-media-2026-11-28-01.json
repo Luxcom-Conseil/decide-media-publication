@@ -1,0 +1,173 @@
+{
+  "accroches": [
+    "4 757 milliards de FCFA pour le budget 2027 du Bénin.",
+    "Le budget 2027 du Bénin atteint 4 757 milliards de FCFA.",
+    "Aristide Médénou a présenté le budget 2027 de 4 757 milliards de FCFA."
+  ],
+  "titre": "Budget 2027 au Bénin",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Porto-Novo",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Budget 2027 : *4 757* milliards de FCFA",
+      "dit": "4 757 milliards de FCFA, c'est le montant du projet de budget 2027 présenté au Bénin."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "16 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Présenté le *16 novembre* 2026",
+      "dit": "Le 16 novembre 2026, le ministre de l'Économie et des Finances, Aristide Médénou, a dévoilé le texte."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Examiné par l'*Assemblée* nationale",
+      "dit": "L'audition s'est déroulée devant les députés de la commission budgétaire de l'Assemblée nationale."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Financé à *80 %* par l'État",
+      "dit": "Selon le ministre, le budget repose à 80 % sur les ressources propres de l'État."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "fin septembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Recettes de *1 828* milliards",
+      "dit": "À fin septembre 2026, 1 828 milliards de FCFA de recettes avaient déjà été mobilisés."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "*66,8 %* des prévisions annuelles",
+      "dit": "Ce montant représente 66,8 % des prévisions annuelles, servant de base pour la projection 2027."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "1597500000000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "*1 597,5* milliards pour le social",
+      "dit": "Le projet retient une dotation de 1 597,5 milliards de FCFA pour les dépenses sociales."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Objectif de *1,9* million d'écoliers",
+      "dit": "Pour les cantines scolaires, l'objectif est d'atteindre une couverture de 1,9 million d'écoliers."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "300000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Exonération jusqu'à *300 000* FCFA",
+      "dit": "Le commerce électronique local agréé serait exonéré de TVA dans la limite de 300 000 FCFA par transaction."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "17 novembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Rapporté le *17 novembre*",
+      "dit": "Selon Bénin Web TV, qui a rapporté l'audition le 17 novembre, ce texte est un projet qui doit être voté."
+    }
+  ]
+}

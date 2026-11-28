@@ -1,0 +1,174 @@
+{
+  "accroches": [
+    "454 mètres de nouveaux quais ont été réceptionnés au port de Cotonou.",
+    "Le port de Cotonou s'allonge avec de nouvelles portions de quais.",
+    "854 mètres de quais sont désormais aménagés au port de Cotonou."
+  ],
+  "titre": "Port de Cotonou : de nouveaux quais",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Port de Cotonou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "454 mètres de quais *réceptionnés* à Cotonou",
+      "dit": "454 mètres de nouveaux quais ont été réceptionnés au port de Cotonou, selon Eiffage Génie Civil."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une section de 300 *mètres* au nord",
+      "dit": "Au nord, la nouvelle section s'étend sur 300 mètres, avec une profondeur de 16 mètres."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un quai neuf de 154 *mètres* au sud",
+      "dit": "Au sud, un quai neuf de 154 mètres atteint 15 mètres de profondeur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un total de 854 *mètres* de quais",
+      "dit": "Le linéaire totalise désormais 854 mètres de quais aménagés dans le cadre de ce chantier."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plus de 1,5 million de mètres *cubes*",
+      "dit": "Plus de 1,5 million de mètres cubes de matériaux ont été dragués pour ces travaux."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Recevoir des navires de plus de 300 *mètres*",
+      "dit": "L'objectif est notamment de pouvoir recevoir des navires de plus de 300 mètres de longueur."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Plusieurs entreprises sur le *chantier*",
+      "dit": "Le chantier associe Eiffage Génie Civil, Spie batignolles Fondations et l'entreprise ADEOTI SA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un coût estimé à plus de 115 *milliards*",
+      "dit": "Selon La Nouvelle Tribune, l'ensemble du chantier est estimé à plus de 115 milliards de francs CFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "fin 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Fin des *travaux* prévue fin 2026",
+      "dit": "Le projet doit s'achever d'ici la fin de l'année 2026 selon les sources rapportées."
+    }
+  ]
+}

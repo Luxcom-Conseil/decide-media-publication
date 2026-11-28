@@ -1,0 +1,144 @@
+{
+  "accroches": [
+    "L'action de Coris Bank International Bénin coûte 4 700 FCFA.",
+    "Coris Holding cède 20 % du capital de sa filiale au Bénin.",
+    "L'offre publique de vente porte sur 4,1 millions d'actions."
+  ],
+  "titre": "Coris Bank Bénin en vente",
+  "scenes": [
+    {
+      "type": "accroche",
+      "illustration": null,
+      "fond": {
+        "source": "commons",
+        "recherche": "Cotonou",
+        "logo": false,
+        "secours": null
+      },
+      "ecran": "Une action à *4 700 FCFA*",
+      "dit": "L'action de Coris Bank International Bénin coûte 4 700 FCFA selon l'offre publique de vente."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Coris Holding cède *20 %*",
+      "dit": "Coris Holding cède 20 % du capital de sa filiale au Bénin selon Banouto le 24 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "pile",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "19 192 920 000",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un total de *4,1 millions*",
+      "dit": "L'offre porte sur 4,1 millions d'actions pour un montant global de 19 192 920 000 FCFA."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "calendrier",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": "7 au 11 décembre 2026",
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Souscriptions du *7 au 11*",
+      "dit": "Les souscriptions sont prévues du 7 au 11 décembre 2026 avec une possibilité de clôture anticipée."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "frais",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": "3 760",
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Une décote de *20 %*",
+      "dit": "Une tranche à 3 760 FCFA l'action après une décote de 20 % est réservée au personnel."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "Un visa de *l'AMF-UMOA*",
+      "dit": "L'opération bénéficie du visa AMF-UMOA du 11 novembre 2026."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Hausse de *37 %*",
+      "dit": "Au premier semestre 2026, le produit net bancaire a atteint 13,2 milliards, en hausse de 37 %."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo"
+      },
+      "fond": null,
+      "ecran": "Résultat net en *hausse*",
+      "dit": "Le résultat net a atteint 4,5 milliards, en hausse de 80 % sur la même période."
+    },
+    {
+      "type": "explication",
+      "illustration": {
+        "type": "photo",
+        "sens": null,
+        "avant": null,
+        "apres": null,
+        "montant": null,
+        "a": null,
+        "b": null,
+        "texte": null,
+        "personnage": null,
+        "expression": null,
+        "geste": null
+      },
+      "fond": null,
+      "ecran": "La banque compte *17 agences*",
+      "dit": "La banque compte 17 agences et vise 26 agences en 2030."
+    }
+  ]
+}
